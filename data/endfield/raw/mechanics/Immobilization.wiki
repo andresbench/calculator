@@ -1,0 +1,55 @@
+{{Status infobox
+|Immobilization
+|A target affected by immobilization cannot perform any actions for the duration of this effect.
+|type = Crowd Control
+|source = Operator
+}}
+'''Immobilization''' is a crowd control status effect in ''[[Arknights: Endfield]]''.
+
+When an enemy is affected is '''Immobilized''', they cannot perform any actions for the duration of this effect. Multiple sources of Immobilization <u>do not stack</u> additively and the target remains immobilized until the latest active immobilize effect expires.
+
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Si
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Si
+| name = Brushwork Realm
+| type = Skill
+| content = 
+<b>SKILL DESCRIPTION:</b> Si deals {{Color|Cryo DMG|4}} and applies {{Color|Artful Intent|7}}, {{G|Immobilization|Immobilization}}, and {{G|Cryo Infliction|Cryo Infliction}} (or {{G|Heat Infliction|Heat Infliction}} if a {{Color|Heat|3}} element operator is in {{Color|Team Position 01|7}}) on the target. After a target with {{Color|Artful Intent|7}} takes DMG, part of the DMG taken is recorded. When the duration of {{Color|Artful Intent|7}} ends, it bursts and deals Fixed DMG equal to the DMG recorded. After casting the skill, Si's battle skill is temporarily changed to {{Color|Initial Stroke|7}}.<br />{{Color|Initial Stroke|7}}: Costs {{Color|15|1d}} SP. Si pulls an {{Color|Inksoul|7}} from a target with {{Color|Artful Intent|7}}. All DMG dealt and effects applied to the {{Color|Inksoul|7}} will also be dealt to its host (the said target). The {{Color|Inksoul|7}} lasts as long as the remaining duration of {{Color|Artful Intent|7}}. After casting the skill, Si's battle skill is temporarily changed to {{Color|Final Stroke|7}}.<br />{{Color|Final Stroke|7}}: Costs no SP. Makes the {{Color|Inksoul|7}} disappear early. When disappearing, the {{Color|Inksoul|7}} will move to its host and trigger a burst like the ending burst of {{Color|Artful Intent|7}}.<br />{{Color|When dealing DMG or applying effects to both the Inksoul and the host, only 1 instance of the DMG or effect is dealt/applied. If the host is defeated during the Inksoul's duration, it will link to another enemy in combat and apply Artful Intent to it. This does not reset the duration of Artful Intent. If a target with Artful Intent is defeated without having its Inksoul drawn out of it, the defeated target will drop an Inksoul at its location.|9}}
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Spring and Autumn as Ink
+| content = 
+Battle skill {{Color|Brushwork Realm|7}} improved: Duration of {{G|Immobilization|Immobilization}} applied {{Color|+50%|1d}}; {{Color|Artful Intent|7}} DMG Record Ratio {{Color|+7%|1d}} and burst radius {{Color|+40%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Tangtang
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Tangtang
+| name = DA CHIEF SEES YOU!
+| type = Ultimate
+| content = 
+<b>SKILL DESCRIPTION:</b> Tangtang opens her eyepatch and unleashes an {{Color|OLDEN STARE|7}} from her eye that applies temporary {{G|Immobilization|Immobilization}} and deals {{Color|Cryo DMG|4}} over time to enemies within its area of effect (AOE).<br />When the {{Color|OLDEN STARE|7}} stops evolving, a rogue wave comes crashing down to deal massive {{Color|Cryo DMG|4}} to enemies in its AOE.<br />If the controlled operator performs a dive attack in the {{Color|OLDEN STARE|7}} pattern, its evolution ends and the rogue wave is summoned immediately to deal even more {{Color|Cryo DMG|4}}.
+}}
+}}
+}}
+
+== Changelog ==
+{{Changelog|
+* '''[[Sanctuary of Ink]]'''
+** {{G|Immobilization}} keyword added with [[Si]]. [[Tangtang]] combat skill text updated with new keyword.
+* '''[[Old Deep Water Dies, by Rising Tide It is Denied]]'''
+** Immobilization added as a non-keyword effect to [[Tangtang]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

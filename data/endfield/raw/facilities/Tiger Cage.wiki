@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Tiger Cage
+|filename = item_port_jail_1
+|images = Tiger_Cage_icon.png:Icon;
+Tiger_Cage.png:Full
+|cnname = 虎·牢·关
+|tcname = 虎·牢·關
+|jpname = 「虎牢関」
+|krname = 호 · 뢰 · 관
+|spname = Jaula de tigre
+|runame = Клетка для тигра
+|type = Ornamental
+|rarity = 5
+|power = }}
+'''Tiger Cage''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed.|A tiger can be securely kept in this thing.}}
+==Usage==
+An ornamental that can be placed.
+
+==Acquisition==
+Purchase: Wuling Stock Redistribution
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:ornamental Facilities]]

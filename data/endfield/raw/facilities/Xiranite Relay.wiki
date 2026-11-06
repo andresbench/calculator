@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Xiranite Relay
+|filename = item_port_power_pole_3
+|images = Xiranite Relay icon.png:Icon;
+Xiranite Relay.png:Full
+|cnname = 息壤中继器
+|tcname = 息壤中繼器
+|jpname = 息壌中継タワー
+|krname = 식양 중계기
+|spname = Relé de Xiranita
+|runame = Ксиранитовая вышка
+|type = Power
+|rarity = 1}}
+'''Xiranite Relay''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|When outside the Core AIC Area, this facility auto-connects to the PAC and any Xiranite power facilities within an 80-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for power transmission and powering facilities within a short range.|An electrical relay that combines Xiranite and Techno-Protocol electrical infrastructure technologies. The Xiranite components perform three major functions of identification, positioning, and stabilization. This avoids connection gridlocks between facilities and greatly minimizes the risk of accidental fires.}}
+==Usage==
+When outside the Core AIC Area, this facility auto-connects to the PAC and any Xiranite power facilities within an 80-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for power transmission and powering facilities within a short range.
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Wuling Power]]
+{{RecipeTable|product=Xiranite Relay}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Power Facilities]]

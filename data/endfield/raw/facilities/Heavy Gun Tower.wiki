@@ -1,0 +1,38 @@
+{{Facility infobox
+|name = Heavy Gun Tower
+|filename = item_port_battle_turret_2
+|images = Heavy Gun Tower icon.png:Icon;
+Heavy Gun Tower.png:Full
+|cnname = 扩装铳械塔
+|tcname = 擴裝銃械塔
+|jpname = 強襲銃器塔
+|krname = 확장 총기 타워
+|spname = Torre de cañón pesado
+|runame = Тяжелая орудийная вышка
+|type = Combat & Support
+|rarity = 3
+|power = 20}}
+'''Heavy Gun Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|2136|7}}
+<b>Attack Interval</b>: {{Color|2|7}}s
+
+<b>Attack Range</b>: {{Color|15|7}} meters
+
+<b>Mode of Attack</b>: Continuously fires Mk II energy bolts with every 4th shot being an empowered bolt. The bolts deal {{Color|Physical DMG|1}}.
+
+|An upgraded version of the Gun Tower. People call this the Tomb Digger due to its merciless killing power.}}
+==Usage==
+*<b>ATK</b>: {{Color|2136|7}}
+*<b>Attack Interval</b>: {{Color|2|7}}s
+*<b>Attack Range</b>: {{Color|15|7}} meters
+*<b>Mode of Attack</b>: Continuously fires Mk II energy bolts with every 4th shot being an empowered bolt. The bolts deal {{Color|Physical DMG|1}}.
+*Power Use : 20
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Custom Defense I]]
+{{RecipeTable|product=Heavy Gun Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

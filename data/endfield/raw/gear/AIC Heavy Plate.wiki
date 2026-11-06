@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = AIC Heavy Plate
+|image = AIC_Heavy_Plate.png
+|filename = item_equip_t1_suit_stragi01_edc_01
+|cnname = 集成化重甲片
+|tcname = 整合化重甲片
+|jpname = 集成重量防護板
+|krname = 통합형 중갑판
+|spname = Placa pesada del CAI
+|runame = Тяжелая пластина АПК
+|rarity = 2
+|artifice = no
+|type = Kit
+|level = 28
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''AIC Heavy Plate''' is a {{gear|2|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Structurally simple and modular equipment that offers heavy protection. 
+Raising defense performance also leads to massive increases in weight, which also happens to be the biggest issue with this equipment.}}
+
+==Stats==
+{{Gear data
+|defense = +8.4
+|pstat = Strength
+|pvalue = +16
+|sstat = Final DMG Reduction
+|svalue = +7.5%
+|tstat = 
+|tvalue = 
+|setname = AIC Heavy
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+500|1d}}. 
+After the wearer defeats an enemy, the wearer restores {{Color|100|1c}} HP. Effect trigger cooldown: 5s.
+|recipe = {{I|Valley Stock Bill|160}} {{I|Amethyst Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Heavy}}
+{{Gears|state=collapsed}}

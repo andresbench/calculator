@@ -1,0 +1,258 @@
+{{Operator infobox
+|name = Snowshine
+|rarity = 5
+|class = Defender
+|weapon = Great Sword
+|element = Cryo
+|faction = Rhodes Island
+|tags = Protect, HP Treatment, Cryo Infliction
+|main = Strength
+|sub = Will
+|starting = 
+|headhunting = standard
+|quote = Greetings! I'm your operator from Rhodes Island. Codename's Snowshine. I'm a search and rescue expert specializing in low temperature operations. Get me on the team if you have a mission in the icefields or snowy mountains.
+|image = 
+Snowshine Splash Art.png
+|filename = chr_0014_aurora
+|cnname = 昼雪
+|tcname = 晝雪
+|jpname = スノーシャイン
+|krname = 스노우샤인
+|spname = Snowshine
+|runame = Светоснежка
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Satomi_Akesaka/ Akesaka Satomi]
+|cncv = Liu Shisi
+|encv = [https://www.imdb.com/name/nm7604056/ Stephanie Southerland]
+|krcv = [https://en.namu.wiki/w/유영(성우)/ Yu Yeong]
+|gender = Female
+|authentication = Rhodes Island
+|birthdate = December 19
+|race = Ursus
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Excellent
+|tactical = Standard
+|skill = Normal
+|originium = Standard
+|exp1 = Outdoors Survival
+|exp1d = Outdoors Survival: Living Off the Land
+She's the five-time consecutive champion of the SAR One-Hour Field Chow Gathering Competition.
+|exp2 = Medical Technique
+|exp2d = Medical Technique: Emergency Life-Saving
+She often has to carry out standard CPR in extremely hostile environments.
+|hb1 = Sports
+|hb1d = Sports: Freestyle Skiing
+"I feel lighter whenever I step on a snowboard... It felt as though I'll just start lifting off the snow!"
+|hb2 = Charity
+|hb2d = Charity: Natural Altruist
+To Snowshine, helping people with errands and chores every now and then ... has become a habit of sorts.
+|prefer = Valley Protocol's Choice
+|matskill = Former Finery, Khravengger
+|matstats = Sundered Prince, Exemplar
+}}
+'''Snowshine''' is a 5★ [[Cryo]] [[Defender]] [[Operator]] from [[Rhodes Island]] in ''[[Arknights: Endfield]]''. She is a [[Great Sword]] user who can protect teammates by retaliating enemy attacks, provide HP treatment to injured teammates, and cast ultimates that can apply {{G|Solidification|Solidification}} to the enemy.
+
+==Profile==
+"Wind speed's okay. Visibility's good. Perfect weather for snowboarding."<br/>Snowshine is a [[Rhodes Island]] operator assigned to [[Endfield Industries]] where she serves as a search and rescue (SAR) professional under the framework agreement between the two companies.<br/>For well-known reasons, the true polar regions of [[Talos-II]] remain off-limits to humanity. However, as frontier expansion resumes, professionals like Snowshine who specialize in the geography of polar and high-altitude regions are in growing demand within the [[Civilization Band]].<br/>Because of the significant talent gap, Snowshine and her rescue team are always faced with a busy schedule, even on days with no special missions.<br/>"I like the snow, the white-capped mountains, and the shimmering beauty revealed only in the frigid cold... This is why I don't want them to leave painful memories to the people they touch."
+
+==Stats==
+{{Operator data
+|main = Strength
+|sub = Will
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 87, 147, 207, 267, 297
+|STR = 18.556, 47.662, 78.299, 108.937, 139.574, 154.893
+|AGL = 12.371, 32.055, 52.775, 73.496, 94.216, 104.576
+|INT = 9.484, 27.505, 46.474, 65.443, 84.412, 93.896
+|WIL = 10.999, 31.9, 53.9, 75.9, 97.9, 108.9
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Quadrant Fitting Fluid x20, Bloodcap x8, T-Creds x100000
+|pot1 = Battle skill {{Color|Saturated Defense|7}} improved: During the blocking effect, {{G|Arts Infliction|Arts Inflictions}} cannot be applied to allied operators with {{G|Protect|Protection}}.
+|pot1t = Cold Shelter
+|pot2 = Ultimate {{Color|Frigid Snowfield|7}} improved: Effect radius {{Color|+20%|1d}}.
+|pot2t = Storm Region
+|pot3 = Ultimate {{Color|Frigid Snowfield|7}} improved: Duration of the {{G|Solidification|Solidification}} applied by the skill is increased by {{Color|2|1d}}s.
+|pot3t = Polar Survival Guide
+|pot4 = DEF {{Color|+20|1d}}, Will {{Color|+20|1d}}.
+|pot4t = Tundra Aegis
+|pot5 = Battle skill {{Color|Saturated Defense|7}} improved: Successfully retaliating an enemy attack {{G|SP Return|returns}} {{Color|10|1d}} SP.
+|pot5t = Cold Disaster Specialist
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Hypothermic Assault
+|icon= Attack-Greatsword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 3 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|23|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 55%, 61%, 66%, 72%, 77%, 83%, 88%, 94%, 99%, 106%, 114%, 124%
+|stat2= BATK SEQ 2 Multiplier, 59%, 64%, 70%, 76%, 82%, 88%, 94%, 99%, 105%, 113%, 121%, 132%
+|stat3= BATK SEQ 3 Multiplier, 100%, 110%, 120%, 130%, 140%, 150%, 160%, 170%, 180%, 193%, 208%, 225%
+|stat4= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat5= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Saturated Defense
+|icon= Skill-Snowshine
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Raises a shield that can block attacks, grants {{G|Protect|Protection}} to self and nearby operators, and immediately {{G|SP Return|returns}} some SP. <br />When attacked while the said shield is raised, perform a retaliation bash that deals {{Color|Cryo DMG|4}} and applies {{G|Cryo Infliction|Cryo Infliction}} on the attacker.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 200%, 220%, 240%, 260%, 280%, 300%, 320%, 340%, 360%, 385%, 415%, 450%
+|stat3= Stagger, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat4= Protection, 90%, 90%, 90%, 90%, 90%, 90%, 90%, 90%, 90%, 90%, 90%, 90%
+|stat5= SP Return, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+}}
+{{Combat skill
+|name= Polar Rescue
+|icon= Combo-Snowshine
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> After controlled operator gets attacked and drops below 60% HP. <br /><b>SKILL DESCRIPTION:</b> Snowshine throws a Snowfield SAR Assistant at the controlled operator. Upon target contact, the Assistant gives massive instant {{Color|HP Treatment|1c}} to nearby operators as well as continuous {{Color|HP Treatment|1c}} to operators in the area of effect. <br />The attribute of Will increases the amount of HP treatment.
+|stat1= Cooldown, 25, 25, 25, 25, 25, 25, 25, 25, 24, 24, 24, 23
+|stat2= Initial Base Treatment, 96, 115, 134, 154, 163, 173, 182, 192, 202, 206, 211, 216
+|stat3= Initial Treatment Increase per Will, 0.22, 0.27, 0.31, 0.36, 0.38, 0.4, 0.43, 0.45, 0.47, 0.48, 0.49, 0.5
+|stat4= Base Treatment Over Time, 24, 29, 34, 38, 41, 43, 46, 48, 50, 52, 53, 54
+|stat5= Treatment Over Time Increase per Will, 0.06, 0.07, 0.08, 0.09, 0.1, 0.1, 0.11, 0.11, 0.12, 0.12, 0.12, 0.13
+|stat6= Treatment Over Time Interval (s), 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5
+|stat7= Duration (s), 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+|stat8= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Frigid Snowfield
+|icon= Ult-Snowshine
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Leaps into mid-air with a jetpack before slamming down with her shield to deal massive {{Color|Cryo DMG|4}} to enemies in the area of effect. Also generates a {{Color|Snow Zone|7}} (lasting several seconds) that deals {{Color|Cryo DMG|4}} over time to enemies. The {{Color|Snow Zone|7}} forcibly applies {{G|Solidification|Solidification}} to enemies caught within it for a certain duration.
+|stat1= Ultimate Energy Cost, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80
+|stat2= Explosion DMG Multiplier, 200%, 220%, 240%, 260%, 280%, 300%, 320%, 340%, 360%, 385%, 415%, 450%
+|stat3= Stagger, 15, 15, 15, 15, 15, 15, 15, 15, 15, 20, 20, 20
+|stat4= DMG Over Time Multiplier, 29%, 32%, 35%, 37%, 40%, 43%, 46%, 49%, 52%, 55%, 60%, 65%
+|stat5= DMG Over Time Interval (s), 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5
+|stat6= Duration (s), 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Hypothermic Assault|skill2=Saturated Defense|skill3=Polar Rescue|skill4=Frigid Snowfield|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Triphasic Nanoflake,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Metadiastima Photoemission Tube,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Triphasic Nanoflake,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Metadiastima Photoemission Tube,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Hypothermic Assault|skill2=Saturated Defense|skill3=Polar Rescue|skill4=Frigid Snowfield|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Triphasic Nanoflake,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Metadiastima Photoemission Tube,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Triphasic Nanoflake,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Metadiastima Photoemission Tube,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Hypothermic Assault|skill2=Saturated Defense|skill3=Polar Rescue|skill4=Frigid Snowfield|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Triphasic Nanoflake,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Metadiastima Photoemission Tube,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Triphasic Nanoflake,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Metadiastima Photoemission Tube,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Forged
+|icon = Strength
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Strength +10.
+|cond2 = Elite 2
+|desc2 = Operator Strength +15.
+|cond3 = Elite 3
+|desc3 = Operator Strength +15.
+|cond4 = Elite 4
+|desc4 = Operator Strength +20.
+}}
+{{Operator talent
+|name = Polar Survival
+|icon = Snowshine Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Treatment Effect {{Color|+15%|1c}} for targets of 45% HP or below.
+|cond2 = Elite 2
+|desc2 = Treatment Effect {{Color|+25%|1c}} for targets of 55% HP or below.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = SAR Professional
+|icon = Snowshine Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Battle skill {{Color|Saturated Defense|7}} improved: After successfully retaliating an enemy attack, Snowshine gains another {{Color|6|1d}} Ultimate Energy.
+|cond2 = Elite 3
+|desc2 = Battle skill {{Color|Saturated Defense|7}} improved: After successfully retaliating an enemy attack, Snowshine gains another {{Color|10|1d}} Ultimate Energy.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Strength
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Rescuer's Perseverance
+|icon = MFG-manufacture_power_consume
+|facility = Manufacturing Cabin
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14%
+}}
+{{Operator base skill
+|name = Happy-Go-Lucky
+|icon = CN-physical_power
+|facility = Control Nexus
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Control Nexus to grant all operators' Mood Regen +12%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Control Nexus to grant all operators' Mood Regen +16%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_power_consume
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = CN-physical_power
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Potential Polar Survival Guide changed:
+*** Old: Ultimate {{Color|Frigid Snowfield|7}} improved: {{G|Solidification|Solidification}} {{G|Status Level|Status Level}} {{Color|+1|1d}}.
+*** New: Ultimate {{Color|Frigid Snowfield|7}} improved: Duration of the {{G|Solidification|Solidification}} applied by the skill is increased by {{Color|2|1d}}s.
+** Base Skill Inspire
+*** Renamed to Happy-Go-Lucky.
+*** Increased the operators' Mood Regen effect from +8% / +12% to +12% / +16%.
+*'''Beta Test II'''
+**Rarity increased to 5.
+*'''Beta Test I''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

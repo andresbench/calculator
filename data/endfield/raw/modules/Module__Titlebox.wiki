@@ -1,0 +1,43 @@
+local p = {}
+local data = mw.loadData('Module:Titlebox/theme')
+local getArgs = require('Module:Arguments').getArgs
+function p.main(frame)
+	local args = getArgs(frame, {
+		wrappers = 'Template:Titlebox'
+	})
+	return p._main(args)
+end
+function p._main(args)
+    local key = args.name
+    local thema = data[key] or {}
+
+    -- Template args will override data 
+    local bg = args.bg or thema.bg or '#000'
+    local color = args.color or thema.color or '#fff'
+    local txtshd = args.txtshd or thema.txtshd or ''
+    local pos = args.pos or thema.pos or 'relative'
+    local ovfl = args.ovfl or thema.ovfl or ''
+    local padding = args.padding or '2px 5px'
+
+    local title = args.customtext or thema.customtext or args.title or key or ''
+    local link = args.link or key or ''
+
+    local root = mw.html.create('')
+    local box = root:tag('div')
+        :css{
+            width='auto',
+            padding=padding,
+            background=bg,
+            position=pos,
+            overflow=ovfl
+        }
+
+    if link == 'no' then
+        box:wikitext('<span style="color:'..color..'; text-shadow:'..txtshd..'; font-weight:bold;">'..title..'</span>')
+    else
+        box:wikitext('[['..link..'|<span style="color:'..color..'; text-shadow:'..txtshd..'; font-weight:bold;">'..title..'</span>]]')
+    end
+
+    return root
+end
+return p

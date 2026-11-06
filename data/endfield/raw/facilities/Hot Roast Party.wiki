@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Hot Roast Party
+|filename = item_port_barbecue_1
+|images = Hot_Roast_Party_icon.png:Icon;
+Hot_Roast_Party.png:Full
+|cnname = 炽热宴会
+|tcname = 熾熱宴會
+|jpname = 熱々パーティー
+|krname = 불꽃의 축제
+|spname = Fiesta de asado picante
+|runame = Жаркая барбекю-вечеринка
+|type = Ornamental
+|rarity = 5}}
+'''Hot Roast Party''' is an [[Ornamental|Ornamental]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Listen to the sizzling crackles! The party is just getting hot!}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Ornamental Facilities]]

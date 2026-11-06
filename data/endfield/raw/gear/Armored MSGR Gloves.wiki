@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Armored MSGR Gloves
+|image = Armored_MSGR_Gloves.png
+|filename = item_equip_t2_suit_str01_hand_01
+|cnname = 重装信使手套
+|tcname = 重裝信使手套
+|jpname = 重装トランスポーターグローブ
+|krname = 중장갑 전달자 장갑
+|spname = Guantes de MSJR blindados
+|runame = Перчатки гонца-воина
+|rarity = 3
+|artifice = no
+|type = Gloves
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Armored MSGR Gloves''' is a {{gear|3|Gloves}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A pair of gloves that any messenger would love to wear. 
+Most messengers would install easy-to-use lifesaving ejection systems on their vehicles to contend with unexpected Blight ruptures.}}
+
+==Stats==
+{{Gear data
+|defense = +21.6
+|pstat = Strength
+|pvalue = +33
+|sstat = Will
+|svalue = +22
+|tstat = Final DMG Reduction
+|tvalue = +8.0%
+|setname = Armored MSGR
+|seteffect = 3-piece set effect: Wearer's Strength {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, the wearer gains {{Color|30%|1d}} DMG Reduction against all types of DMG.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Armored MSGR}}
+{{Gears|state=collapsed}}

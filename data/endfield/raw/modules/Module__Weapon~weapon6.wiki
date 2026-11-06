@@ -1,0 +1,26 @@
+local data={
+	["Abraxas"]={name="Abraxas", class="Great Sword"},
+	["Brigand's Calling"]={name="Brigand's Calling", class="Guns"},
+	["Cerulean Resonance"]={name="Cerulean Resonance", class="Sword"},
+	["Clannibal"]={name="Clannibal", class="Guns"},
+	["Chivalric Virtues"]={name="Chivalric Virtues", class="Orbiter"},
+	["Detonation Unit"]={name="Detonation Unit", class="Orbiter"},
+	["Former Finery"]={name="Former Finery", class="Great Sword"},
+	["Glorious Memory"]={name="Glorious Memory", class="Sword"},
+	["Heart's Content"]={name="Heart's Content", class="Sword"},
+	["Home Longing"]={name="Home Longing", class="Guns"},
+	["JET"]={name="JET", class="Polearm"},
+	["Lupine Scarlet"]={name="Lupine Scarlet", class="Sword"},
+	["Mountain Bearer"]={name="Mountain Bearer", class="Polearm"},
+	["Oblivion"]={name="Oblivion", class="Orbiter"},
+	["The Fifth Heirloom"]={name="The Fifth Heirloom", class="Sword"},
+	["Thunderberge"]={name="Thunderberge", class="Great Sword"},
+	["Torrent"]={name="Torrent", class="Sword"},
+	["Wedge"]={name="Wedge", class="Guns"},
+	["Vortex of Talos"]={name="Vortex of Talos", class="Polearm"},
+}
+	
+for k, v in pairs(data) do
+	v.star=(6)
+end
+return data

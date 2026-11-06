@@ -1,0 +1,52 @@
+In ''Arknights: Endfield'', there are various gameplay elements that affect the flow of battle.
+
+==Preparation==
+Every [[Operator]] is assigned to an Element and a Weapon type they can equip.
+
+Elements available:
+{{Main|Element}}
+
+Weapons available:
+{{Main|Weapon}}
+
+==Actions==
+
+===Dash/Dodge===
+Dashes can be used to dodge enemy attacks. Dodging does not interrupt the basic attack sequence. A dodge performed at the moment of enemy attack triggers a Perfect Dodge that recovers some SP.
+
+Dashes consume '''Stamina'''. The player will recover Stamina over time up to a cap. Players start with 3 sections of Stamina, submitting {{I|Aurylene of Valley IV|gridview=false}} at TP Points can raise the cap via {{I|Stamina Delimiter|gridview=false}}.
+
+===Lock On===
+Targets can be locked-on, which keeps the target in view and will make Skills used focus the target.
+
+===Basic Attack===
+Basic Attack Sequences can be performed by repeatedly pressing or long-pressing the attack button.
+
+===Final Strike===
+The last basic attack sequence is called the '''Final Strike'''. This move involves a short charge up followed by a powerful hit. The controlled Operator's Final Strike also deals Stagger and restores some Skill Points (SP).
+
+===Finisher===
+The first basic attack dealt to a [[Stagger|Staggered]] enemy will be a '''Finisher''' that deals massive damage and restores some Skill Points (SP).
+
+===Battle Skill===
+The player can choose spend Skill Points to cast Operators' battle skills. Battle skills have no cooldown, and can be cast whenever there is enough SP and the respective Operator is not under a special status, such as knocked backed by an enemy attack.
+
+===Combo Skill===
+Operators' Combo Skills can be cast when certain criteria are met. Every Combo Skill has different triggers. Succesfully triggering a Combo Skill condition will make it appear on the screen, making it possible to cast it.
+
+Combo Skills do not cost any Skill Points to cast. However, Combo Skills have cooldowns and cannot be triggered until the cooldown timer ends.
+
+===Ultimate===
+Operators with max Ultimate Energy can cast their Ultimates. There are 2 main ways to gain Ultimate Energy: Casting Battle Skills grant every teammate an equal amount of Ultimate Energy; casting Combo Skills grant only the caster Ultimate Energy. Though there are exceptions like [[Last Rite]] which do not gain Ultimate Energy from Battle Skills casted by other Operators. Casting the Ultimate will spend all Ultimate Energy and the Ultimate will enter a short cooldown. Some Operators' Ultimates enhance themselves. While their ultimate enhancement is active, no Ultimate Energy will be gained as well.
+
+===Team Combat===
+Other operators not being controlled will automatically perform basic attacks. Their Battle skills, Combo Skills, and Ultimates must still be manually cast.
+
+==Physical Statuses==
+Physical Statuses refer to physical debuffs and effects that can be applied to enemies. They include: [[Lift]], [[Knock Down]], [[Crush]], and [[Breach]]. These can be triggered by applying the Physical Status on enemies that are {{G|Vulnerable}}. If an enemy has no Vulnerable stacks, the Physical Status will only add one Vulnerable stack instead of the actual effect.
+
+==Arts Reactions==
+Arts Reactions are Arts debuffs that can be applied to enemies and Operators. They include: [[Combustion]], [[Electrification]], [[Solidification]], and [[Corrosion]]. On enemies, these can be triggered by applying two diffrent {{G|Arts Infliction|Arts Inflictions}}, for example applying {{G|Heat Infliction}} to an enemy with a non-Heat Arts Infliction triggers {{G|Combustion}}. Operator Debuffs are instead triggered once 4 stacks of the same Infliction are reached.
+
+{{Combat mechanics}}
+[[Category: Terminology]]

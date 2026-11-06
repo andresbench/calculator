@@ -1,0 +1,6 @@
+local data={
+	["Electric Pylon"]={name="Electric Pylon", tier=1, use="Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within its area of effect.", desc="Wireless electrical connection is one of the biggest technological breakthroughs achieved by Endfield Industries. This tech was further improved with Techno-Protocol to provide the very foundation of the AIC Factory.", obtain=""},
+	["Relay Tower"]={name="Relay Tower", tier=1, use="This relay can only be used in electric power transmission. It also comes with an 80-meter power transmission radius.", desc="The Relay Tower is one of the most expensive AIC facilities to construct. Its overall design is based on the PAC.", obtain=""},
+	["Thermal Bank"]={name="Thermal Bank", tier=2, use="The Thermal Bank converts heat into electrical power. It must be connected to the power grid to work.", desc="The Thermal Bank received 3 revolutionary tech upgrades in the last decade.", obtain=""},
+}
+return data

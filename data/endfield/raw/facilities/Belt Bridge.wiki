@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Belt Bridge
+|filename = item_log_connector
+|images = Belt Bridge icon.png:Icon;
+Belt Bridge.png:Full
+|cnname = 物流桥
+|tcname = 物流橋
+|jpname = ベルトブリッジ
+|krname = 물류 브리지
+|spname = Puente de cintas
+|runame = Мостик для ленты
+|type = Logistics Units
+|rarity = 2}}
+'''Belt Bridge''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A logistics unit that lets 2 transport belts intersect without obstructing each other.|A logistics unit that AIC Factory managers can use to create an organized transport system and avoid the "spaghetti".}}
+==Usage==
+A logistics unit that lets 2 transport belts intersect without obstructing each other.
+
+The Belt Bridge allows a transport belt to go over another without disrupting the flow of items on both belts.
+
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Belt Bridging]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:logistics Facilities]]

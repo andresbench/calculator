@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Hazefyre Claw
+|image = Hazefyre_Claw_sprite.png
+|filename = eny_0060_lbmad
+|cnname = 雾火爪牙
+|tcname = 霧火爪牙
+|jpname = 霧火ランドブレーカー
+|krname = 안갯불에 물든 랜드브레이커
+|spname = Garra de bruma ardiente
+|runame = Тенепламенный цепкач
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 8
+}}
+'''Hazefyre Claw''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker combatant corrupted by hazefyre. Absorbing hazefyre should not be regarded as a fortunate blessing. These raiders have become horribly twisted versions of their former selves.}}
+
+==Stats==
+{{Enemy data
+|HP = 249, 1788, 11316, 44551, 107164, 165089
+|ATK = 36, 171, 531, 1317, 1982, 2271
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 100
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.3
+|Weight = 1
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Dodge its gnashing attack to make it fall to the ground.
+|location = *[[Valley Pass]]
+*[[Originium Science Park]]
+*[[Energy Alluvium: Originium Science Park]]
+|drops = {{I|Pungent Jerky}}
+|addendum = }}
+
+==Overview==
+[[Bonekrusher Raider]]s that got completely corrupted by hazefyre, Hazefyre Claws are slightly more threatening than their counterpart; They either attempt to claw three consecutive times, dealing Æther damage, or fires a shot from their hands. dealing Æther damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 249, 1788, 11316, 44551, 107164, 165089 from 249, 2104, 13313, 44551, 107164, 165089
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

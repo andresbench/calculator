@@ -1,0 +1,384 @@
+{{Move|Innkeeping}}
+{{#invoke:Infobox|main
+|sep = ;
+| title = Yuanyuan Manor Inn
+| image = 
+| sections = Intro; Duration
+| Intro = type; region
+| Intro_nolabel = Yes
+| type_label = Type
+| type = Facility
+| region_label = Region
+| region = [[Wuling]]
+}}
+
+'''{{PAGENAME}}''' is a [[Facility (Regional Development)|facility]] in ''[[Arknights: Endfield]]''.
+
+== Participation Criteria ==
+Complete side mission [[A Painting Open for Business]] objective [Run the Inn].
+
+{{Color|※ Complete main mission [Chapter II Process VII: [[Paint with Fresh Ink]]] to unlock the mission [A Painting Open for Business].|9}}
+
+== Gameplay Mechanics ==
+{{Stub}}
+
+== Inn Renovations ==
+After reaching certain Inn Rating levels, Inn Renovations can be bought with {{I|Spirit Money|gridview=false}}. These unlock or upgrade various utensils used when opening the Inn, such as adding more Kitchens, Trays and Counter slots.
+{| class="wikitable"
+! Unlocks at Inn Rating level !! Renovations !! Effect !! Cost
+|-
+| rowspan=4 | 2
+|-
+| More Stoves I || Stoves 1 >> 2 || {{Currency|Spirit Money|150}}
+|-
+| Larger Counter I || Counter Slots 4 >> 6 || {{Currency|Spirit Money|300}}
+|-
+| Bigger Tray I || Tray Size 1 >> 2 || {{Currency|Spirit Money|600}}
+|-
+| rowspan=3 | 3
+|-
+| Kitchen Expansion || Operator limit per kitchen 1 >> 2<br>Cooking queue size 2 >> 3 || {{Currency|Spirit Money|1000}}
+|-
+| Bigger Trays II || Tray Size 2 >> 5 || {{Currency|Spirit Money|2000}}
+|-
+| rowspan=4 | 4
+|-
+| Larger Counter II || Counter Slots 6 >> 8 || {{Currency|Spirit Money|5000}}
+|-
+| More Stoves II || Stoves 2 >> 3 || {{Currency|Spirit Money|5000}}
+|}
+
+== Shop ==
+<tabber>
+Inn Supplies=
+* Goods being sold by Pantry Keep "Job Rusher" are automatically refreshed daily at a fixed time.
+* Goods can be manually refreshed. You get 1 free refresh attempt per day. This attempt is refresh daily at a fixed time.
+* Raising the Inn Ratings also immediately gives 1 free manual refresh attempt. This attempt can carry over and will not be affected by the fixed daily refreshes.
+* Raising the Inn Rating also unlocks more goods offered for sale at Pantry Keep "Job Rusher".
+{| class="wikitable"
+! Item !! Stock !! Price<br/>{{Currency|Spirit Money}}
+|-
+| {{I|Spice Mix 130|10}} || 10 || 500
+|-
+| {{I|Bottled Duskberry Juice|10}} || 99 || 300
+|-
+| {{I|Vintage Grapedew|10}} || 99 || 300
+|-
+| {{I|Pre-Tide Lungjing|10}} || 99 || 300
+|-
+| {{I|Bottled Milk (A)|10}} || 99 || 300
+|-
+| {{I|Seeker's Kohl|10}} || 99|| 150
+|-
+| {{I|Pear Blossom Tea|10}} || 99 || 150
+|-
+| {{I|Cabbage (A)|10}} || 99 || 150
+|-
+| {{I|Relishroom (A)|10}} || 99 || 200
+|-
+| {{I|Sourberry (A)|10}} || 99 || 200
+|-
+| {{I|Fin Fillet (A)|10}} || 99 || 200
+|-
+| {{I|Milk (A)|10}} || 99 || 200
+|-
+| {{I|Egg (A)|10}} || 99 || 200
+|-
+| {{I|Meat (A)|10}} || 99 || 200
+|-
+| {{I|Bottled Canejuice|10}} || 99 || 100
+|-
+| {{I|Corn Juice|10}} || 99 || 100
+|-
+| {{I|Oilseed Bloom|10}} || 99 || 50
+|-
+| {{I|Seed Oil|10}} || 99 || 50
+|-
+| {{I|Sourberry|10}} || 99 || 50
+|-
+| {{I|Ballpea|10}} || 99 || 50
+|-
+| {{I|Sugar|15}} || 99 || 50
+|-
+| {{I|Crunchcane|10}} || 99 || 50
+|-
+| {{I|Whitemelon|10}} || 99 || 50
+|-
+| {{I|Relishroom|10}} || 99 || 50
+|-
+| {{I|Cabbage|10}} || 99 || 50 
+|-
+| {{I|Bottled Milk|10}} || 99 || 50
+|-
+| {{I|Bowl of Tea|10}} || 99 || 50
+|-
+| {{I|Fin Fillet|10}} || 99 || 30
+|-
+| {{I|Starch|15}} || 99 || 50
+|-
+| {{I|Amber Rice|10}} || 99 || 30
+|-
+| {{I|Milk|10}} || 99 || 30
+|-
+| {{I|Egg|10}} || 99 || 30
+|-
+| {{I|Meat|10}} || 99 || 30
+|-
+| {{I|Ground Pepper|15}} || 99 || 50
+|-
+| {{I|Flour|15}} || 99 || 50
+|-
+| {{I|Reed Rye|10}} || 99 || 30
+|-
+| {{I|Tartpepper|10}} || 99 || 30
+|-
+| {{I|Matoberry|10}} || 99 || 30
+|-
+| {{I|Pingtuber|10}} || 99 || 30
+|}
+|-|
+Backyard Use=
+This type of goods does not get refreshed/restocked.
+{| class="wikitable"
+! Item !! Stock !! Price<br/>{{Currency|Spirit Money}}
+|-
+| {{I|Bumper-Speed|10}} || 5 || 20 (-90%)
+|-
+| {{I|Yummy Feed|3}} || 5 || 5 (-90%)
+|-
+| {{I|Bumper-Supreme|10}} || ∞ || 500 
+|-
+| {{I|Bumper-Speed|10}} || ∞ || 200 
+|-
+| {{I|Double-Yummy Feed|3}} || ∞ || 150
+|-
+| {{I|Yummy Feed|3}} || ∞ || 50 
+|-
+| {{I|Oilseeds|10}} || ∞ || 10 
+|-
+| {{I|Whitemelon Seeds|10}} || ∞ || 10 
+|-
+| {{I|Sourberry Seeds|10}} || ∞ || 10 
+|-
+| {{I|Relishroom Spores|10}} || ∞ || 10 
+|-
+| {{I|Ballpea Seeds|10}} || ∞ || 10 
+|-
+| {{I|Crunchcane Cutting|10}} || ∞ || 10
+|-
+| {{I|Cabbage Seeds|10}} || ∞ || 10 
+|-
+| {{I|Amber Rice Seeds|10}} || ∞ || 10 
+|-
+| {{I|Matoberry Seeds|10}} || ∞ || 10 
+|-
+| {{I|Pingtuber Cutting|10}} || ∞ || 10
+|-
+| {{I|Tartpepper Seeds|10}} || ∞ || 10
+|-
+| {{I|Reed Rye Seeds|10}} || ∞ || 10
+|}
+|-|
+Useful Goods=
+This type of goods does not get refreshed/restocked.
+{| class="wikitable"
+! Item !! Stock !! Price<br/>{{Currency|Spirit Money}}
+|-
+| {{I|Oroberyl|50}} || 5 || 2000 (-80%)
+|-
+| {{I|Advanced Cognitive Carrier}} || 5 || 320 (-60%)
+|-
+| {{I|Advanced Progression Selection Crate II}} || 3 || 600 (-60%)
+|-
+| {{I|T-Creds|2000}} || 10 || 120 (-60%)
+|-
+| {{I|Protohedron}} || 20 || 120 (-60%)
+|-
+| {{I|Protoset}} || 10 || 160 (-60%)
+|-
+| {{I|Arms INSP Set}} || 5 || 120  (-60%)
+|-
+| {{I|Advanced Cognitive Carrier}} || 5 || 800
+|-
+| {{I|Advanced Progression Selection Crate II}} || 3 || 1500
+|-
+| {{I|T-Creds|2000}} || 10 || 300
+|-
+| {{I|Protohedron}} || 20 || 300
+|-
+| {{I|Protoset}} || 10 || 400
+|-
+| {{I|Arms INSP Set}} || 5 || 300
+|}
+</tabber>
+
+== Inn Rating Details ==
+* '''Inn Rating:'''
+** Once the requirements are met, use the Rate Now feature to increase the Inn Rating.
+** Increasing the Inn Rating unlocks new Innkeeping features such as recipes, renovations, themes, and assist roles.
+** Increasing the Inn Rating adds more tables, raises the limits of drinks and dish options in the menu, increases Tip Bonus: Inn, Tip Bonus: Choice, and Patron Limit.
+* '''Inn Stars:'''
+** Inn Stars can be earned by reaching more ★ in various theme.
+** You can earn up to 5★ for each theme.
+** Inn Stars are required fro increasing Inn Rating.
+* '''Patrons:'''
+** Formally opening the Inn for business serves a number of patrons. You cannot start an Innkeeping session if the number of patrons is too low.
+** Increasing Inn Rating can raise the Patron Limit and give a one-time replenishment of numerous patrons (this can exceed the Patron Limit),
+** Patrons slowly regenerate over time until the limit is reached.
+
+=== Inn Rating Level ===
+{| class="wikitable"
+! Rating Upgrade !! Innkeeping EXP !! Unlocked || Tables !! Patron Limit !! Tip Bonus: Inn !! Chance for [Choice] !! Unlock Assist Roles !! New Recipes Unlocked !! New Themes Unlocked !! Renovations Unlocked !! Backyard Upgrades Unlocked !! Rating Requirements
+|-
+| 1 ▶ 2 || 100 || Themes, Gourmands, and Trends || 2 ▶ 4 || 200 ▶ 400 || 10% ▶ 15% || 2% ▶ 4% || Collect || Yuanyuan Veggy Rice<br>Sticky Rice Cake<br>Skilleted Fin || Drinking Social<br>Cereal Galore<br>Sweet & Salty || More Stoves I<br>Larger Counter I<br>Bigger Trays I || Ranch: Pond for raising Rainbow Fins<br>"Job Rusher" Shop: Higher quality seeds and feed || Innkeeping EXP maxed
+|-
+| 2 ▶ 3 || 1200 ||  || 4 ▶ 6 || 400 ▶ 600 || 15% ▶ 20% || 4% ▶ 6% || Serve Drinks ||  || Cozily Sweet<br>Warming Flow<br>Cereal & Flour<br>Appetizing Start || Kitchen Expansion<br>Bigger Trays II || Auto-Farmer Lv.3 Adds Refine Crop & Green Touch<br>Ranch: Can use better feed to yield quality products || Innkeeping EXP maxed<br/>Total Inn Stars ≥ 10
+|-
+| 3 ▶ 4 || 2200 ||  || 6 || 600 ▶ 1000 || 20% ▶ 25% || 6% ▶ 8% || Serve Dishes ||  || Ocen & Land<br>School of Fins<br>Tea Break<br>Truly Wholesome<br>Fully Flavored<br>Gourmand Feast<br>Luxurious Banquet<br>Soup & Entree || More Stoves II<br>Larger Counter II || Auto-Farmer Lv.4: Expands storage capacity || Innkeeping EXP maxed<br/>Total Inn Stars ≥ 25
+|}
+
+== Ingredients ==
+{{Stub}}
+=== Farm ===
+* Area for farming crops
+* Auto-Farmer: A facility manufacture by Endfield Industries to automate agricultural production. Upgrading an Auto-Farmer to the required levels will let it perform actions such as Auto-Germination and Auto-Harvest.
+** Collected ingredients are stored in the Auto-Farmer Storage until limit reached. Can be remotely moved to Wuling [[Depot]].
+** Auto-Farmer in [[Si's Painting]] must be upgraded using [[Spirit Money]]
+
+=== Ranch ===
+* Area for raising beasts.
+* Stable plots can be purchased using [[Spirit Money]].
+* Beasts must be fed to produce ingredients.
+* Ingredients are automatically collected and can be remotely stored in Wuling [[Depot]].
+
+== Recipe List ==
+{{Main|Innkeeping/Recipe}}
+
+== Theme ==
+{{Main|Innkeeping/Theme}}
+
+== Inn Milestones ==
+=== Inn Milestone Phase ===
+As of the [[Sanctuary of Ink]] version, Phase 6 is the maximum milestone reward obtainable.
+{| class="wikitable"
+! Phase !! EXP until next Phase !! Rewards
+|-
+| 1 || 300 || {{I|Oroberyl|25}} {{I|Spirit Money|100}} {{I|T-Creds|2000}}
+|-
+| 2 || 500 || {{I|Oroberyl|25}} {{I|Spirit Money|200}} {{I|T-Creds|4000}}
+|-
+| 3 || 700 || {{I|Oroberyl|25}} {{I|Spirit Money|300}} {{I|T-Creds|6000}}
+|-
+| 4 || 700 || {{I|Oroberyl|25}} {{I|Spirit Money|400}} {{I|T-Creds|8000}}
+|-
+| 5 || 800 || {{I|Oroberyl|25}} {{I|Spirit Money|500}} {{I|T-Creds|10000}}
+|-
+| 6 || 1000 || {{I|Oroberyl|25}} {{I|Spirit Money|600}} {{I|T-Creds|12000}}
+|}
+
+=== Inn Milestone Tasks ===
+{{Stub}}
+{| class="wikitable"
+! Task !! EXP !! Unlock conditions
+|-
+| Sell 5 different dishes (excludes Trial Runs) || 100 || Available by default
+|-
+| In 1 Session, reach a Highest Streak ≥ 5 (includes Trial Runs) || 100 || Available by default
+|-
+| Sell 10 Entree dishes (excludes Trial Runs) || 100 || Available by default
+|-
+| Sell 10 Side dishes (excludes Trial Runs) || 100 || Available by default
+|-
+| Sell 5 drinks (excludes Trial Runs) || 100 || Available by default
+|-
+| Sell 20 drinks (excludes Trial Runs) || 100 || Inn Rating Level 2
+|-
+| Successfully serve 10 Patrons (excludes Trial Runs) || 100 || Available by default
+|-
+| Successfully serve 50 Patrons (excludes Trial Runs) || 100 || Inn Rating Level 2
+|-
+| In 1 theme, achieve 5 Session Stars (excludes Trial Runs) || 100 || Inn Rating Level 2
+|-
+| In 3 different themes, achieve 5 Session Stars (excludes Trial Runs) || 100 || Inn Rating Level 4
+|-
+| In 1 session, reach a revenue of 800 (excludes Trial Runs) || 100 || Inn Rating Level 2
+|-
+| In 1 theme, achieve 5★ (includes Trial Runs) || 100 || Inn Rating Level 2
+|-
+| Complete 2 renovations || 100 || Inn Rating Level 2
+|-
+| Cook 5 Choice dishes (excludes Trial Runs) || 100 || Inn Rating Level 2
+|-
+| Cook 25 Choice dishes (excludes Trial Runs) || 100 || Inn Rating Level 3
+|-
+| Sell 20 Dessert dishes (excludes Trial Runs) || 100 || Inn Rating Level 3
+|-
+| Sell 15 different dishes (excludes Trial Runs) || 100 || Inn Rating Level 4
+|}
+
+== Operator UP ==
+The [[Operator]]s' hobbies and elements can give bonuses in the kitchen. Bonuses of the same type can stack.
+{| class="wikitable"
+|+ Hobbies UP
+|-
+! Hobbies ▷ Dish type bonus !! Explanation
+|-
+| Sports ▷ Entree || [Sports] knowledge: Assigned kitchen's [Entree] dish cooking speed is higher
+|-
+| Charity ▷ Entree || [Charity] knowledge: Assigned kitchen's [Entree] dish cooking speed is higher
+|-
+| Lifestyle ▷ Side || [Lifestyle] knowledge: Assigned kitchen's [Side] dish cooking speed is higher
+|-
+| Fine Arts ▷ Side || [Fine Arts] knowledge: Assigned kitchen's [Side] dish cooking speed is higher
+|-
+| Nature ▷ Soup || [Nature] knowledge: Assigned kitchen's [Soup] dish cooking speed is higher
+|-
+| Culture ▷ Soup || [Culture] knowledge: Assigned kitchen's [Soup] dish cooking speed is higher
+|-
+| Fashion ▷ Dessert || [Fashion] knowledge: Assigned kitchen's [Dessert] dish cooking speed is higher
+|-
+| Technology ▷ Dessert || [Technology] knowledge: Assigned kitchen's [Dessert] dish cooking speed is higher
+|-
+| Creative ▷ Choice || [Creative] knowledge: Assigned kitchen gains higher chance for [Choice]
+|-
+| Mind Honing ▷ Choice || [Mind Honing] knowledge: Assigned kitchen gains higher chance for [Choice]
+|}
+{| class="wikitable"
+|+ Element UP
+|-
+! Element ▷ Flavor bonus !! Explanation
+|-
+| [[File:Physical.png|24px]] Physical ▷ Salty || [Physical] knowledge: Assigned kitchen's [Salty] dish cooking speed & chance for [Choice] are higher
+|-
+| [[File:Nature.png|24px]] Nature ▷ Sour || [Nature] knowledge: Assigned kitchen's [Sour] dish cooking speed & chance for [Choice] are higher
+|-
+| [[File:Heat.png|24px]] Heat ▷ Spicy || [Heat] knowledge: Assigned kitchen's [Spicy] dish cooking speed & chance for [Choice] are higher
+|-
+| [[File:Cryo.png|24px]] Cryo ▷ Savory || [Cryo] knowledge: Assigned kitchen's [Savory] dish cooking speed & chance for [Choice] are higher
+|-
+| [[File:Electric.png|24px]] Electric ▷ Sweet || [Electric] knowledge: Assigned kitchen's [Sweet] dish cooking speed & chance for [Choice] are higher
+|}
+
+== Path of Glory ==
+The following medals in [[Path of Glory]] are related to participating in '''{{PAGENAME}}''':
+{{Medal head}}
+{{Medal cell
+|name = Happy Gourmand
+|desc = No Wulinger dining at Yuanyuan Manor can ever hope to resist your artful cuisine.
+|cond = Achieve 5 Session Stars in 5 different themes (excludes Trial Runs)
+|trim = Acquire 40 recipes}}
+{{Table end}}
+
+== Events ==
+[[File:Yuanyuan's Blazing Stoves event.png|center|400px|link=Yuanyuan's Blazing Stoves]]
+
+{{Main|Yuanyuan's Blazing Stoves}}
+'''Yuanyuan's Blazing Stoves''' is an exclusive limited-time event for the [[Sanctuary of Ink]] version that launches at the same time as '''Yuanyuan Manor Inn'''. During the event, complete specific tasks in '''Yuanyuan's Blazing Stoves''' to claim rewards such as [{{I|Oroberyl|gv=false}}] or [{{I|Mark of Perseverance|gv=false}}].
+
+== Gallery ==
+<gallery>
+</gallery>
+
+== Navigation ==
+{{Features nav}}
+[[Category:Facility (Regional Development)]]

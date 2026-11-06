@@ -1,0 +1,24 @@
+{{Item infobox
+|name = Transport Belt
+|filename = item_log_belt_01
+|image = Transport Belt.png
+|cnname = 传送带
+|tcname = 傳送帶
+|jpname = ベルトコンベア
+|krname = 컨베이어 벨트
+|spname = Cinta transportadora
+|runame = Транспортировочная лента
+|type = Facilities
+|rarity = 1}}
+'''Transport Belt''' is a [[Facilities|facility]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A logistics unit for transporting solid goods and materials.|A basic conveyor belt for transporting things. Belts are the blood vessels of the AIC Factory.}}
+==Usage==
+A logistics unit for transporting solid goods and materials.
+==Acquisition==
+Research: AIC Factory Plan Technologies
+{{RecipeTable|product=Transport Belt}}
+
+==Navigation==
+{{Items}}
+[[Category:Facilities]]

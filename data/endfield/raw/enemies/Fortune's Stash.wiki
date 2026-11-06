@@ -1,0 +1,56 @@
+{{Enemy infobox
+|name = Fortune's Stash
+|image = Fortune's_Stash_sprite.png
+|filename = eny_0130_inkbiter
+|cnname = 存禄
+|tcname = 存祿
+|jpname = 存財
+|krname = 존록
+|spname = Reserva de la fortuna
+|runame = Запасник фортуны
+|type = Apparition
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Fortune's Stash''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An apparition enlightened by Si. A fortune saved is generosity ensured. With wealth in hand is light secured.}}
+
+==Stats==
+{{Enemy data
+|HP = 152, 1093, 6916, 27225, 65489, 100888
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 0.8
+|welectric = 1
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *Some attacks can apply an Ink Mark on operators when they hit. Try to dodge them.
+|location = *[[Si's Painting]]
+*[[Energy Alluvium: Si's Painting]]
+|drops = {{I|Ink Droplet}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

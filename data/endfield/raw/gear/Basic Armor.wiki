@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Basic Armor
+|image = Basic_Armor.png
+|filename = item_equip_t0_parts_tundra01_body_01
+|cnname = 简易护甲
+|tcname = 簡易護甲
+|jpname = 簡易防具
+|krname = 간편 방어구
+|spname = Armadura básica
+|runame = Базовая броня
+|rarity = 1
+|artifice = no
+|type = Armor
+|level = 10
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Basic Armor''' is a {{gear|1|Armor}}gear item.
+
+{{Item description|Provisionally made and failed the final product verification and validation (V&V) process of Endfield Industries. This equipment offers only limited defense.|Basic armor with simple structures. 
+Gives people a peace of mind that far exceeds its actual defensive capabilities.}}
+
+==Stats==
+{{Gear data
+|defense = +8
+|pstat = Strength
+|pvalue = +15
+|sstat = Agility
+|svalue = +10
+|tstat = HP
+|tvalue = +46.3
+|setname = 
+|seteffect = 
+|recipe = {{I|Origocrust|10}} {{I|Wood|2}}
+}}
+
+
+
+{{Gears|state=collapsed}}

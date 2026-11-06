@@ -1,0 +1,37 @@
+{{Facility infobox
+|name = Surge Tower
+|filename = item_port_battle_lightning_1
+|images = Surge Tower icon.png:Icon;
+Surge Tower.png:Full
+|cnname = 电涌塔
+|tcname = 電湧塔
+|jpname = 電流塔
+|krname = 전류 타워
+|spname = Torre de oleada
+|runame = Разрядная вышка
+|type = Combat & Support
+|rarity = 4
+|power = 20}}
+'''Surge Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|4886|7}}
+<b>Attack Interval</b>: {{Color|3|7}}s
+
+<b>Attack Range</b>: {{Color|12.5|7}} meter
+
+<b>Mode of Attack</b>: Releases electrical arcs that attack enemies. The arc also chains to nearby enemies (up to 2) and deals {{Color|Electric DMG|6}}.
+|Years of research on electricity-related Originium Arts gave rise to the Surge Tower. Power output has been greatly increased while minimizing the risk of friendly fire.}}
+==Usage==
+*<b>ATK</b>: {{Color|4886|7}}
+*<b>Attack Interval</b>: {{Color|3|7}}s
+*<b>Attack Range</b>: {{Color|12.5|7}} meter
+*<b>Mode of Attack</b>: Releases electrical arcs that attack enemies. The arc also chains to nearby enemies (up to 2) and deals {{Color|Electric DMG|6}}.
+*Power Use : 20
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Area Denial II]]
+{{RecipeTable|product=Surge Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

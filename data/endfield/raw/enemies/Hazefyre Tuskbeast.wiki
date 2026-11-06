@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Hazefyre Tuskbeast
+|image = Hazefyre_Tuskbeast_sprite.png
+|filename = eny_0059_erhound
+|cnname = 雾火牙兽
+|tcname = 霧火牙獸
+|jpname = 霧火牙獣
+|krname = 안갯불에 물든 터스크비스트
+|spname = Bestia colmilluda de bruma ardiente
+|runame = Тенепламенный звероклык
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 10
+}}
+'''Hazefyre Tuskbeast''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A tuskbeast corrupted by hazefyre. These small aberrations usually move in packs and can pose a serious threat, even to fully armed field teams.}}
+
+==Stats==
+{{Enemy data
+|HP = 194, 1391, 8802, 34651, 83350, 128403
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Less intelligent but more ferocious than common tuskbeasts. Dodge its pounce attack to make it fall to the ground.
+|location = *[[Originium Science Park]]
+*[[Energy Alluvium: Originium Science Park]]
+*[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Pungent Jerky}}
+|addendum = }}
+
+==Overview==
+[[Wild Tuskbeast]]s that got completely corrupted by hazefyre, Hazefyre Tuskbeasts are slightly more threatening than their counterpart; They still attack with a bite or a leaping bite however, dealing Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 194, 1391, 8802, 34651, 83350, 128403 from 194, 1636, 10355, 34651, 83350, 128403
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

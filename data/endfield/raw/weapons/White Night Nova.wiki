@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = White Night Nova
+|rarity = 6
+|images = 
+White_Night_Nova icon.png:Icon;
+White_Night_Nova.png:Full;
+White_Night_Nova max model.png:Max
+|filename = wpn_sword_0014
+|cnname = 白夜新星
+|tcname = 白夜新星
+|jpname = 白夜新星
+|krname = 백야의 별
+|spname = Nova de la noche blanca
+|runame = Звезда белых ночей
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''White Night Nova''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the weapons from the furnaces of Fort Forgefane. The grip was constructed using a special rod drawing process to enhance force damping and grip. The blade itself was forged with a rare mineral quarried from the wildlands.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 148, 250, 352, 454, 505
+|pot = Skill {{Color|Infliction: White Night Nova|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Main Attribute [L]|Arts Intensity [L]|Infliction: White Night Nova}}
+
+==Basic Info==
+{{Quote|She began to think why she was selected for this mission.<br>It was because of her mastery of the cryogenic Arts and adaptation to the icefields, but more importantly, it was her wildlands pathfinding skills. It was intuitive to her. She could read the stars in the night skies and use them as guiding beacons. The Order of Steel Oath was only founded barely a year ago. She was the best candidate for a scout and someone capable of re-establishing a link between the severed civilizations.<br>She understood her mission and set off with that hard drive.<br>The hard drive contained all the data that the Order of Steel Oath collected over the year about the North, their enemies, and their allies. The fearless souls once stepped out of the group and assembled in a separate formation. They recited their steel hard oaths and left Civilization to head into the North, back into the devastated fields of war. There they used themselves as lures to divert Aggeloid offensives... Many people treated their departure as a sign — A sign for the impending disintegration of Civilization. The pessimists believed that once Civilization began mobilizing people to sacrifice themselves, it would inevitably continue to check certain groups people for the grinder... These self-sacrificing individuals, whom we now call the Oathkeepers, were aware of this. Hence, they must re-connect the Civilizations. The information earned with their lives must become a navigational star to light the way ahead.<br>And now this small, nascent "star" rested in the courier's backpack. She panted heavily with every step through the cold air and snow.<br>Blood coursed down her arms and dripped all over the ground. Her left arm and left leg were almost completely shattered. She felt every white, hot jolt of pain as bits of bone grated against the soft tissue. Her wounds were inflicted by a new Aggeloid that was never catalogued. The courier thought about the gates of the fort... Perhaps the abomination was created as a siege weapon.<br>Random thoughts surged through her mind. When the Oathkeepers first marched North, they encountered uncatalogued Aggeloi nearly every day. It would seem that they were beset by an interrogator more than eager to showcase his repertoire of torture devices. Aggeloi designed to kill and massacre with ever-increasing efficacy started to appear throughout the battlefield. Defeating this host will be costly — It will require uncountable lives hellbent on a relentless march...<br>"Defeating the host... That's right..."<br>The courier suddenly remembered that she was still alive. She, not the Aggelos, was the victor of that battle... She was the one that froze that long, heavy, and rampaging agglomeration of rock ... and shattered it to pieces... Its fragments glittered in the sunlight like the stars themselves.<br>Other thoughts began to surface.<br>"The stars can guide my way. Mom and Dad taught me that they could guide travelers in the wildlands... No... We are the stars themselves... I must tell them that we stood our ground in the far North where it is colder than death... They will hear this ... and ignite the embers of hope..."<br>More of her blood flowed and seeped into the permafrost.<br>"But where is the star? Is it in my hands?<br>"Where am I?<br>"I cannot see it. The night looms before my eyes, but why ... why won't any of the stars glitter for me?"<br>......<br>"It's because the old stars have faded away, but the new stars have yet to be born..."<br>She tried to raise her hand as high as she could... Her Arts caused the ice to sprout from the bloodsoaked earth beneath her, creep up her body, smother her face, course across the length of her arm, and reach skywards. Its tip was directed towards safety.<br>"Go higher, and higher still... Be the nova that points the way." Her final thought was crystallized. All that was left was the nascent star wholly forged of frigid ice.<br>......<br>She would not know that after many weeks, other couriers followed her guide and reached further south. Their journey ended at the edge of the permafrost. More followed, singers of painful hannas, travelers who need to cross the fields of war...<br>The little "nova" was handed to many people. In its final destination, the great vessel named Dijiang used it to light the northern skies.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

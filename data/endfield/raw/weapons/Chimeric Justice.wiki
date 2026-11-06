@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Chimeric Justice
+|rarity = 5
+|images = 
+Chimeric_Justice icon.png:Icon;
+Chimeric_Justice.png:Full;
+Chimeric_Justice max model.png:Max
+|filename = wpn_lance_0004
+|cnname = 嵌合正义
+|tcname = 嵌合正義
+|jpname = 正義嵌合
+|krname = 키메라의 정의
+|spname = Justicia quimérica
+|runame = Химера правосудия
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''Chimeric Justice''' is a 5★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An experimental lance designed by Endfield Industries with a very limited production run. This weapon features modular designs to support dismantling and reassembling in complex and hostile battlefield conditions.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Brutality: Cemented Fury|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Strength [M]|ULT Efficiency [M]|Brutality: Cemented Fury}}
+
+==Basic Info==
+{{Quote|Wanna listen to a story? It's real simple and it'll explain why I insist on busting my way out of this hospital with this worn, rusty, Endfield-made lance with bits of dried blood stuck within the cracks of its shaft in my hands. You gotta trust me. Once you hear my tale, you'll understand my perspective and STOP treating me like a lunatic with a freakish fetish for this spear. You might even decide to release me from this jacket and wheelchair.<br>And I swear it'll be a simple story. Promise. Four years ago, or 1522 days to be precise, six Valley IV security officers on a mission to rescue a family trapped in the wilderness ran into an Aggeloid ambush. There were ten of them. Ten blasted buggerloids with zero sympathies for the living. The conclusion was simple. You probably guessed it right.<br><br>Only two lived to see the next sunrise.<br><br>Yeah. Just the two of them. The strongest officer no longer had a weapon. He was surrounded by the corpses of his entire team. The man stood before a crying child and stared down at a badly damaged buggerloid. Its deadly appendages were shattered, but the beast of rock could still charge and crush both the man and babe with its bulk. The officer thought hard... What could he do? He was without a weapon...<br>But the officer quickly found a solution, thanks to Endfield Industries. Endfield lances featured field-fitting modular components, so...<br>He took the spearhead from his captain, salvaged the essence module from ██████'s hands, acquired a third of the shaft from ██████'s broken bones, pulled out the second part of the shaft from ██████'s back, and pried out the final part of the shaft from his wife's very skull.<br>The officer emerged victorious with his new weapon. He took the child to Valley IV and the lance was passed on to...<br>Hold on. Why do you look as though you just figured something out?<br>Am I the survivor? Is that why I've named this weapon Chimeric Justice?  Was I that child? Am I doing my best to repay the act of heroism?<br>No. You got it all wrong.<br>Take a good look at this lance. A standard Endfield product.<br>Good. Now take a good look at me.  I had nothing to do with the story. I came into this world as a sickly runt with many broken parts.<br>But... My retina, my heart, my blood, and every fiber of my being are crying out... Listen to the howling souls that sacrificed themselves for humanity to survive!<br>I refuse to sit and rot at this place.<br>My destiny is to become the TRUE Chimeric Justice!}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

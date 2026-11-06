@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Conduit Outlet Manifold
+|filename = item_port_udpipe_unloader_2
+|images = Conduit Outlet Manifold icon.png:Icon;
+Conduit Outlet Manifold.png:Full
+|cnname = 多口暗管出口
+|tcname = 多口暗管出口
+|jpname = 多口地下配管（出）
+|krname = 다중 암관 출구
+|spname = Colector de salida de conducto
+|runame = Распределяющий отвод трубопровода
+|type = Depot Access
+|rarity = 4
+|power = }}
+'''Conduit Outlet Manifold''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A large outlet facility for an underground pipeline. Connect this to a matching Conduit Inlet Manifold to transport fluids through it.|Underground pipelines with a rather convoluted history of development. This upgrade of the Conduit Outlet is furnished with a manifold of connection openings to greatly improve fluid transport efficiency.}}
+==Usage==
+A large outlet facility for an underground pipeline. Connect this to a matching Conduit Inlet Manifold to transport fluids through it.
+
+==Acquisition==
+Requirement : [[AIC Factory Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC III - Conduit Manifolds]]
+{{RecipeTable|product=Conduit Outlet Manifold}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

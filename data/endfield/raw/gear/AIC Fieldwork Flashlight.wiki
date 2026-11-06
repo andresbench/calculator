@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork Flashlight
+|image = AIC_Fieldwork_Flashlight.png
+|filename = item_equip_t4_parts_wuling00_edc_03
+|cnname = 集成实训照明器
+|tcname = 集成實訓照明器
+|jpname = 集成訓練ライト
+|krname = 통합 실전 훈련 조명 장치
+|spname = Linterna para trabajo de campo del CAI
+|runame = Фонарик «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork Flashlight''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+"I look forward to a new combat operation, just like how people look forward to the next sunrise."}}
+
+==Stats==
+{{Gear data
+|defense = +18
+|pstat = Secondary Attribute
+|pvalue = +27, +29, +32, +35
+|sstat = Main Attribute
+|svalue = +18, +19, +21, +23
+|tstat = Secondary Attribute
+|tvalue = +17.7%, +19.5%, +21.2%, +23.0%
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

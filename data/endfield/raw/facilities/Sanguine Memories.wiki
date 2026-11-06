@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Sanguine Memories
+|filename = item_port_photo_frame_1
+|images = Sanguine_Memories_icon.png:Icon;
+Sanguine_Memories.png:Full
+|cnname = 猩红记忆
+|tcname = 猩紅記憶
+|jpname = 緋色の記憶
+|krname = 선홍빛 기억
+|spname = Recuerdos sanguíneos
+|runame = Кровавые воспоминания
+|type = Ornamental
+|rarity = 5
+|power = }}
+'''Sanguine Memories''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed.|The fire died, but no one is left in the photoframe.}}
+==Usage==
+An ornamental that can be placed.
+
+==Acquisition==
+Purchase: Wuling Stock Redistribution
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Ornamental Facilities]]

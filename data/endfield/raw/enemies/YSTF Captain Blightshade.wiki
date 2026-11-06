@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = YSTF Captain Blightshade
+|image = YSTF_Captain_Blightshade_sprite.png
+|filename = eny_0124_kltdcap
+|cnname = 蚀影应龙队长
+|tcname = 蝕影應龍隊長
+|jpname = 応龍隊長の蝕影
+|krname = 그림자에 물든 응룡 대장
+|spname = Sombra contaminada de capitán del EFEY
+|runame = Моротень капитана спецопергруппы «Инлун»
+|type = Blightshades
+|class = Elite
+|attack = 
+|damage = 
+|base = YSTF Glaiver Blightshade
+|upgrade = |sortId = 8
+}}
+'''YSTF Captain Blightshade''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A manifestation of residual Æther energy that projects the outward form of a YSTF Captain. Only veterans who have demonstrated gifts for command, exceptional combat prowess, and achieved true valor in war will receive the chance of becoming a YSTF Captain.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 0.8
+|wfire = 1
+|welectric = 0.65
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *After dissipating, this enemy can blink next to an operator and attack. Try to dodge.
+*The YSTF Captain Blightshade can use its weapon to call down thunderbolts. A Blightshade Energy entity is activated when hit by a thunderbolt.
+|location = *[[North Wuling Exclusion Zone]]
+*[[Energy Alluvium: North Wuling EZ]]
+|drops = {{I|Glaive Fragment}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

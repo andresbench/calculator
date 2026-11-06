@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Eminent Repute
+|rarity = 6
+|images = 
+Eminent_Repute icon.png:Icon;
+Eminent_Repute.png:Full;
+Eminent_Repute max model.png:Max
+|filename = wpn_sword_0013
+|cnname = 显赫声名
+|tcname = 顯赫聲名
+|jpname = 輝かしき名声
+|krname = 위대한 이름
+|spname = Alto prestigio
+|runame = Безупречная репутация
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Eminent Repute''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A high-end sword released by Mieszko Industries. The finely sculpted and engraved blade also offered reliable performance. This weapon was well-received by TGCC elites and upper society.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Brutality: Disciplinarian|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Main Attribute [L]|Physical DMG [L]|Brutality: Disciplinarian}}
+
+==Basic Info==
+{{Quote|"Well. Killed that young apprentice of mine, didn't you? Why?"<br>"Oh... Ooooh... That was your apprentice? Ugh. It's all a misunderstanding. This is how it happened... The fine young lad came to our underground arena and won ten fights in a row. He probably wanted to earn his moment of fame with our event. Unfortunately, we're a for-profit organization, so we ... not me of course, sent a couple of mediators to have a talk with him. It was supposed to be a nice conversation. But, ugh... No one expected the accident to happen..."<br>"Nonsense."<br>"Then ... I guess you're free to correct us?"<br>"You weren't worried about the unexpected accident. You just didn't expect for the master himself to show up in your face... And quit acting all civilized and polite. It disgusts me."<br>"That'd rather dull, wouldn't you say, sir?"<br>"Rather dull? Perhaps I'll tell how you about the story of the Asphalt Roundabout."<br>"I'm all ears."<br>"When it first started, nobody thought the Roundabout would end up like this. It began as a hostel for road construction crews. Then long-haul truckers started housing their families here as well. The roads and freight routes natural transport hub and all sorts of people started filling up the place. That was when all these underground tourneys and matches started. The Roundabout was also the place where you could buy all sorts of weapons, gear, and even luxury goods. At its heyday, the Roundabout was the center of it all ... money, ambitions, and muscle... Of course, everyone respected the bottom line.<br>"I was amongst the founding road construction crew. I saw this patch of cargo-homes grow and attain a size equal to that of a free city. The sight made me a happy man. I felt the Roundabout was leagues ahead of that Talos City that they could never complete. Sometimes I'd even think that I'm a little too obsessed about 'collective glory'. Perhaps a transfer to the United Workers might have done me good. Do you understand what I'm saying?"<br>"Oh yes, I do. Very much so."<br>"No, sod. Look at yourself. I don't think you're the type who understand what glory means. You only care about shallow decency. I won't blame you. The Roundabout is now filled with your kind of people... like Half-Face and Signor Tommasino... Good people left when we stopped building the roads and the place was no longer a center of infrastructure projects. And then others moved in. Your kind of people, the type who respected no rules nor bottom lines. You turned the Roundabout into a cesspit..."<br>"A quite intriguing tale, sir. When I decided to bring the lads to the Roundabout to make a living, I actually investigated this place in a most meticulous manner. I acquired a legal license to operate from Mieszko Industries and paid respectable visits to every local organization. I believe I have conducted every step in perfect fashion to ensure the survival of our little setup. In all honesty, I do intend to extricate myself from a questionable past and start an honest business. Likewise, my organization adheres strongly to the rules... But why did you make it sound like I'm the one breaking the rules? Shouldn't it be that hard-headed apprentice of yours?"<br>"Rules? There is only but one rule. Treat yourself *AND* others as fellow humans... This is the one rule that your kind will never figure out."<br>"Huh. I'd never heard of it before. Did you just make it up?" <br>"No, son. I wrote the rule and I've fought long and hard to defend it."<br>"I think I understand now. You're one of those 'Masked Heroes"... Hah! I thought people like you only existed in children's books... Truth be told, I aspired to be someone like you when I was a boy. There were times when I pondered what would I be like if I were born a century or so earlier. Could I become one of the heroes who ended the First Aggeloi War? That aside, things are very different now, old sir. The time for heroes is long gone. We must use other means to achieve eminent repute."<br>"Hur. I'm no hero. Just an old fool who fights only when I'm completely out of patience. Yet despicable scum like you who'd do anything to win are far worse."<br>"Well said, sir. Perhaps we should let our weapons do the talking from now on."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

@@ -1,0 +1,257 @@
+{{Operator infobox
+|name = Chen Qianyu
+|rarity = 5
+|class = Guard
+|weapon = Sword
+|element = Physical
+|faction = Endfield Industries
+|tags = Lift, Stagger
+|main = Agility
+|sub = Strength
+|starting = true
+|headhunting = standard
+|quote = ENDMIN! HOW ARE —— Oh. Okay, stick with the process. Here goes. Endfield operator Chen Qianyu, reporting for duty!
+|image = 
+Chen_Qianyu Splash Art.png
+|filename = chr_0005_chen
+|cnname = 陈千语
+|tcname = 陳千語
+|jpname = チェン・センユー
+|krname = 진천우
+|spname = Chen Qianyu
+|runame = Чэнь Цяньюй
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Sayumi_Suzushiro Suzushiro Sayumi]
+|cncv = MAO (Zi Mao)
+|encv = [https://www.imdb.com/name/nm5336712/ Rebecca Hanssen]
+|krcv = [https://en.namu.wiki/w/정해은 Jeong Hae-eun]
+|gender = Female
+|authentication = Endfield Industries
+|birthdate = August 18
+|race = Lung
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Excellent
+|tactical = Standard
+|skill = Excellent
+|originium = Standard
+|exp1 = Erudite
+|exp1d = Erudite: Mix of Every Stance
+Every school of martial arts has their own advantages. She merged them all and came up with her own. Nobody knew that an attack sequence could include four stances at once before she pulled it off.
+|exp2 = Epiphany
+|exp2d = Epiphany: Flash of Insight
+"She only needs to see it once to master it." — This is not an exaggeration, by the way.
+|hb1 = Culture
+|hb1d = Culture: Enlightenment by Rote
+Do not interrupt her when she's in the rare mood of reciting passages from the Biographies of Martial Masters from Great Yan. Unless you want to hear her recite the Boxing Manual for Red Browed Wing Chun again.
+|hb2 = Charity
+|hb2d = Charity: Stand Up for Justice
+Altruism. Such is the essence of a true warrior.
+|prefer = Wuling Runners' Choice
+|matskill = Rapid Ascent, Aspirant
+|matstats = Grand Vision, Eminent Repute
+}}
+'''Chen Qianyu''' is a 5★ [[Physical]] [[Guard]] [[Operator]] from [[Endfield Industries]] in ''[[Arknights: Endfield]]''. She is a [[Sword]] user who can quickly build up {{G|Vulnerable|Vulnerability}} stacks and also deal massive DMG and Stagger to a single target.
+
+==Profile==
+"Well, turns out I'm great at something other than martial arts. I just can't help but end up as your best operator." 
+
+Chen Qianyu is an operator at [[Endfield Industries]] and a core member of the Crisis Team. 
+
+From a young age, she trained in martial arts under the guidance of her mother and at Tanjian Hall. Her dedication earned her outstanding combat capabilities and a mental fortitude rarely seen among her peers. Though she has never laid eyes on the legendary Chi Xiao, she proudly upholds her self-developed Chi Xiao Swordmancy, and wields it in the name of justice. 
+
+After years of roaming [[Talos-II]] alone with her sword, Chen Qianyu joined Endfield at [[Perlica]]'s invitation. Her upbeat nature and fierce enthusiasm drive her to tackle every urgent challenge without hesitation. 
+
+"They say my mother's blade stirred the very clouds themselves, Endmin. And I'll do exactly that ... and become the one that you and Perlica can always count on!"
+
+==Stats==
+{{Operator data
+|main = Agility
+|sub = Strength
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 87, 147, 207, 267, 297
+|STR = 10.773, 31.242, 52.788, 74.335, 95.881, 106.654
+|AGL = 20.567, 52.844, 86.821, 120.797, 154.773, 171.762
+|INT = 8.865, 25.279, 42.557, 59.834, 77.112, 85.75
+|WIL = 9.69, 27.671, 46.598, 65.525, 84.452, 93.915
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Quadrant Fitting Fluid x20, Cosmagaric x8, T-Creds x100000
+|pot1 = DMG Dealt {{Color|+20%|1d}} to enemies below 50% HP.
+|pot1t = "Shadowless"
+|pot2 = Agility {{Color|+15|1d}}, Physical DMG Dealt {{Color|+8%|1d}}.
+|pot2t = Heirloom Martial Arts
+|pot3 = Battle skill {{Color|Ascending Strike|7}}, combo skill {{Color|Soar to the Stars|7}}, and ultimate {{Color|Blade Gale|7}} improved: DMG Multiplier is increased to {{Color|1.1|1d}} times the original.
+|pot3t = Dual-Wielding Swordmancer
+|pot4 = Ultimate {{Color|Blade Gale|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Improvised Chi Xiao
+|pot5 = Combo skill {{Color|Soar to the Stars|7}} improved: Length of cooldown {{Color|-3|1d}}s.
+|pot5t = Bonded with the World
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Soaring Break
+|icon= Attack-Sword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|16|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 20%, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 36%, 39%, 42%, 45%
+|stat2= BATK SEQ 2 Multiplier, 24%, 26%, 29%, 31%, 34%, 36%, 38%, 41%, 43%, 46%, 50%, 54%
+|stat3= BATK SEQ 3 Multiplier, 27%, 29%, 32%, 35%, 38%, 40%, 43%, 46%, 48%, 52%, 56%, 60%
+|stat4= BATK SEQ 4 Multiplier, 30%, 33%, 36%, 39%, 42%, 45%, 48%, 51%, 54%, 58%, 62%, 68%
+|stat5= BATK SEQ 5 Multiplier, 40%, 44%, 48%, 52%, 56%, 60%, 64%, 68%, 72%, 77%, 83%, 90%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Ascending Strike
+|icon= Skill-Chen
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Performs an uppercut slash at the target enemy, dealing {{Color|Physical DMG|1}} and {{G|Lift|Lift}}.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 169%, 186%, 203%, 219%, 236%, 253%, 270%, 287%, 304%, 325%, 350%, 380%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Lift Duration (s), 1, 1, 1, 1, 1, 1.5, 1.5, 1.5, 2, 2, 2, 2.5
+}}
+{{Combat skill
+|name= Soar to the Stars
+|icon= Combo-Chen
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When an enemy becomes {{G|Vulnerable|Vulnerable}}. <br /><b>SKILL DESCRIPTION:</b> A slashing dash that passes through the target enemy and deals {{Color|Physical DMG|1}} and {{G|Lift|Lift}} to all enemies along the way.
+|stat1= Cooldown, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15
+|stat2= DMG Multiplier, 120%, 132%, 144%, 156%, 168%, 180%, 192%, 204%, 216%, 231%, 249%, 270%
+|stat3= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Blade Gale
+|icon= Ult-Chen
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> A 7-sequence slash attack that deals {{Color|Physical DMG|1}} with each sequence to the target enemy. The final slash sequence deals even more DMG.
+|stat1= Ultimate Energy Cost, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70
+|stat2= Slash Multiplier, 36%, 40%, 43%, 47%, 50%, 54%, 58%, 61%, 65%, 69%, 75%, 81%
+|stat3= First Strike Stagger, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat4= Final Strike DMG Multiplier, 455%, 500%, 545%, 591%, 636%, 682%, 727%, 773%, 818%, 875%, 943%, 1023%
+|stat5= Final Strike Stagger, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Soaring Break|skill2=Ascending Strike|skill3=Soar to the Stars|skill4=Blade Gale|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=D96 Steel Sample 4,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Tachyon Screening Lattice,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=D96 Steel Sample 4,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Tachyon Screening Lattice,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Soaring Break|skill2=Ascending Strike|skill3=Soar to the Stars|skill4=Blade Gale|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=D96 Steel Sample 4,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Tachyon Screening Lattice,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=D96 Steel Sample 4,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Tachyon Screening Lattice,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Soaring Break|skill2=Ascending Strike|skill3=Soar to the Stars|skill4=Blade Gale|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=D96 Steel Sample 4,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Tachyon Screening Lattice,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=D96 Steel Sample 4,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Tachyon Screening Lattice,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Skirmisher
+|icon = Agility
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Agility +10.
+|cond2 = Elite 2
+|desc2 = Operator Agility +15.
+|cond3 = Elite 3
+|desc3 = Operator Agility +15.
+|cond4 = Elite 4
+|desc4 = Operator Agility +20.
+}}
+{{Operator talent
+|name = Slashing Edge
+|icon = Chen Qianyu Talent 1 icon
+|info = The Talent only takes effect after dealing DMG with Skills, merely hitting an Enemy is not enough.
+|cond1 = Elite 1
+|desc1 = After hitting an enemy with skills, Chen gains ATK {{Color|+4%|1d}} for 10s. This effect can reach 5 stacks.
+|cond2 = Elite 2
+|desc2 = After hitting an enemy with skills, Chen gains ATK {{Color|+8%|1d}} for 10s. This effect can reach 5 stacks.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Momentum Breaker
+|icon = Chen Qianyu Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Interrupting the enemy's charge up deals another {{Color|5|2}} Stagger.
+|cond2 = Elite 3
+|desc2 = Interrupting the enemy's charge up deals another {{Color|10|2}} Stagger.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Agility
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Blade Critique
+|icon = MFG-manufacture_efficiency
+|facility = Manufacturing Cabin
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20%
+}}
+{{Operator base skill
+|name = Jadeworking
+|icon = GC-plant_mineral
+|facility = Growth Chamber
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Growth Chamber to grant rare mineral growth rate +20%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Growth Chamber to grant rare mineral growth rate +30%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = GC-plant_mineral
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Base Skill Jadeworking
+*** Increased rare mineral growth rate from 10% / 20% to 20% / 30%.
+*'''Beta Test II'''
+**Rarity increased to 5.
+*'''Technical Test''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

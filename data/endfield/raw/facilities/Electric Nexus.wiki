@@ -1,0 +1,23 @@
+{{Item infobox
+|name = Electric Nexus
+|filename = item_port_power_port_1
+|cnname = 供电终端
+|tcname = 供電終端
+|jpname = 給電端末
+|krname = 전력 단말기
+|spname = Nexus eléctrico
+|runame = Электрический нексус
+|type = Facilities
+|rarity = 2}}
+'''Electric Nexus''' is a [[Facilities|facility]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|The very first Endfield Industries Electric Nexus was placed in the Northern Barrens. It had stood on that uninhabited permafrost for nearly a century.}}
+==Usage==
+Electric Nexuses are usually placed at the end of power transmission lines. Connect them to the power grid to supply power to nearby facilities.
+==Acquisition==
+Production: Requires Specified Basic AIC Plan Tech
+{{RecipeTable|product=Electric Nexus}}
+
+==Navigation==
+{{Items}}
+[[Category:Facilities]]

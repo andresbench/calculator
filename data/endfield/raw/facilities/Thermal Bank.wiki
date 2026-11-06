@@ -1,0 +1,57 @@
+{{Facility infobox
+|name = Thermal Bank
+|filename = item_port_power_sta_1
+|images = Thermal Bank icon.png:Icon;
+Thermal Bank.png:Full
+|cnname = 热能池
+|tcname = 熱能池
+|jpname = 発電機
+|krname = 열에너지 뱅크
+|spname = Banco térmico
+|runame = Термический банк
+|type = Power
+|rarity = 2}}
+'''Thermal Bank''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|The Thermal Bank is a facility that converts Originium Ore or batteries into electrical power. It must be connected to the power grid to work.|The Thermal Bank received 3 revolutionary tech upgrades in the last decade.}}
+==Usage==
+The Thermal Bank is a facility that converts Originium Ore or batteries into electrical power. It must be connected to the power grid to work.
+{| class="wikitable" width="auto" style="text-align:center;"
+|+ Power Generation
+! style="width:40%;" | Input
+! style="width:30%;" | Duration
+! style="width:30%;" | Power
+|-
+|<div style='display: inline-block;'>{{I|Originium Ore}}<br>7.5/min </div>⁩
+|8s
+|50
+|-
+|<div style='display: inline-block;'>{{I|LC Valley Battery}}<br>1.5/min </div>⁩
+|40s
+|220
+|-
+|<div style='display: inline-block;'>{{I|SC Valley Battery}}<br>1.5/min </div>⁩
+|40s
+|420
+|-
+|<div style='display: inline-block;'>{{I|HC Valley Battery}}<br>1.5/min </div>⁩
+|40s
+|1100
+|-
+|<div style='display: inline-block;'>{{I|LC Wuling Battery}}<br>1.5/min </div>⁩
+|40s
+|1600
+|-
+|<div style='display: inline-block;'>{{I|SC Wuling Battery}}<br>1.5/min </div>⁩
+|40s
+|3200
+|}
+
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Power I]]
+{{RecipeTable|product=Thermal Bank}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Power Facilities]]

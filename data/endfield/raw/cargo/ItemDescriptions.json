@@ -1,0 +1,429 @@
+[
+ {
+  "_pageName": "Acid Soaker Mk I",
+  "item": "Acid Soaker Mk I",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">12375</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">5</span>s\n<b>Mode of Attack</b>: Launches special acid grenades that detonate above ground near enemies to deal <span style=\"color:\n#9CD54A\">Nature DMG</span> and apply DEF Reduction to enemies in the area of effect.",
+  "description": "A special upgrade to Marsh Gas Mk I designed to counter units with high defense. The tower fires shells filled with highly corrosive fluids that effectively eat away the enemy's defensive capabilities."
+ },
+ {
+  "_pageName": "AF1 Armor Fragger",
+  "item": "AF1 Armor Fragger",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">17252</span><br>\n<b>Mode of Attack</b>: Fires a flaming jet to attack approaching enemies. The flaming jet deals <span style=\"color:\n#FF853F\">Heat DMG</span> over time to enemies within range.",
+  "description": "A combat facility that can project jets of fire. It uses a fuel comprising a mixture of various flammable liquids. The power to set everything aflame reminds people of the merciless infernos often described in Terran history."
+ },
+ {
+  "_pageName": "AIC Heavy",
+  "item": "AIC Heavy",
+  "lang": "",
+  "itemUse": "Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.",
+  "description": "Structurally simple and modular equipment that offers Heavy protection."
+ },
+ {
+  "_pageName": "Aketine Plot",
+  "item": "Aketine Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Aketine.",
+  "description": "A cultivation plot with various parameters adjusted for growing Aketine. Overall soil quality of the plot is far better than that of the average arable land in Valley IV."
+ },
+ {
+  "_pageName": "Amber Rice Plot",
+  "item": "Amber Rice Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice.",
+  "description": "A cultivation plot with various parameters adjusted for growing Amber Rice. Overall soil quality of the plot is far better than that of the average arable land in Wuling."
+ },
+ {
+  "_pageName": "Beam Tower",
+  "item": "Beam Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">22338</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">8</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">12.5</span> meters\n\n<b>Mode of Attack</b>: Consumes vast amounts of energy to emit a beam that deals massive <span style=\"color:\n#FDC038\">Electric DMG</span> to enemies.",
+  "description": "An experimental weapon armed with an energy converter. Treat this as a miniaturized version of a city-defense giga-cannon. The system is unpopular in the arms market due to its steep energy demands and the fact that it is an unstable and risky weapon platform."
+ },
+ {
+  "_pageName": "Belt Bridge",
+  "item": "Belt Bridge",
+  "lang": "",
+  "itemUse": "A logistics unit that lets 2 transport belts intersect without obstructing each other.",
+  "description": "A logistics unit that AIC Factory managers can use to create an organized transport system and avoid the \"spaghetti\"."
+ },
+ {
+  "_pageName": "Buckflower Plot",
+  "item": "Buckflower Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Buckflowers and a higher chance of Firebuckle.",
+  "description": "A cultivation plot with various parameters adjusted for growing Buckflowers. Overall soil quality of the plot is far better than that of the average arable land in Valley IV."
+ },
+ {
+  "_pageName": "Citrome Plot",
+  "item": "Citrome Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Citromes and a higher chance of Umbraline.",
+  "description": "A cultivation plot with various parameters adjusted for growing Citromes. Overall soil quality of the plot is far better than that of the average arable land in Valley IV."
+ },
+ {
+  "_pageName": "Converger",
+  "item": "Converger",
+  "lang": "",
+  "itemUse": "A logistics unit that merges up to 3 transport belts into 1 single belt.",
+  "description": "A transport system adjustment unit with a smart sorting module. Can be used in all sorts of production lines."
+ },
+ {
+  "_pageName": "Deluge Tower",
+  "item": "Deluge Tower",
+  "lang": "",
+  "itemUse": "<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">5</span>s<br>\n<b>Mode of Attack</b>: Fires a stream of deluge at approaching enemies. The stream pushes back small and medium enemies along the direction of the attack.",
+  "description": "A disrupting facility furnished with a fluid pressurization module. If you hope to avoid the \"overwhelming momentum\" of a Tide Surge, please do not face it directly."
+ },
+ {
+  "_pageName": "Depot Bus Port",
+  "item": "Depot Bus Port",
+  "lang": "",
+  "itemUse": "The origin of the Depot Bus. The Depot Bus Port can be placed anywhere in the Core AIC Area.",
+  "description": "For some engineers, Xiranite would often inspire crazy ideas that they themselves couldn't even explain. What is the endpoint of industry? Are there other possibilities for Xiranite, the material of unprecedented \"freedom\"? Will human industrial technology ever reach the \"formless\" state? The more the engineers think, the more they believe that every step they take is a revolutionary one."
+ },
+ {
+  "_pageName": "Depot Bus Section",
+  "item": "Depot Bus Section",
+  "lang": "",
+  "itemUse": "A bus section that can be deployed in the Core AIC Area. The Depot Bus Section must be connected to a Depot Bus Port or other active Depot Bus Sections. Once active, Depot Loaders and Depot Unloaders can be attached to the Depot Bus.",
+  "description": "For facilities that incorporate Xiranite with AIC technology, the Xiranite particles mainly provide \"stabilizing\" effects against rifting or the Blight. Xiranite particles flowing within these facilities can ensure that the movement of goods in/out of the depot via loaders/unloaders would not be affected by local environmental anomalies."
+ },
+ {
+  "_pageName": "Depot Loader",
+  "item": "Depot Loader",
+  "lang": "",
+  "itemUse": "A placeable loading point that delivers goods from the AIC Factory to a local depot. The Depot Loader must be placed right next to the Depot Bus.",
+  "description": "An upgrade plan was stipulated after the AIC Factory was deployed for a second time in a high-threat area. Blight-resistant steel was used to construct Depot Loaders and Depot Unloaders."
+ },
+ {
+  "_pageName": "Depot Unloader",
+  "item": "Depot Unloader",
+  "lang": "",
+  "itemUse": "A placeable unloading point that transfers goods from a local depot into the AIC Factory. The Depot Unloader must be placed right next to the Depot Bus.",
+  "description": "In extreme environments, the Depot Loaders and Depot Unloaders can be directly connected to the facilities to ensure germ-free and low Blight transportation."
+ },
+ {
+  "_pageName": "Easy Stash",
+  "item": "Easy Stash",
+  "lang": "",
+  "itemUse": "A facility that allows quick access of items in the Depot.",
+  "description": "\"Are you sure the things inside belong to the Endmin?\""
+ },
+ {
+  "_pageName": "Electric Pylon",
+  "item": "Electric Pylon",
+  "lang": "",
+  "itemUse": "Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area of effect. \nResearching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability.",
+  "description": "Wireless electrical connection is one of the biggest technological breakthroughs achieved by Endfield Industries. This tech was further improved with Techno-Protocol to provide the very foundation of the AIC Factory."
+ },
+ {
+  "_pageName": "Eternal Xiranite",
+  "item": "Eternal Xiranite",
+  "lang": "",
+  "itemUse": "Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.",
+  "description": "Legacy of a \"mad\" Tianshi."
+ },
+ {
+  "_pageName": "Fitting Unit",
+  "item": "Fitting Unit",
+  "lang": "",
+  "itemUse": "A facility capable of processing various parts.",
+  "description": "Comes with grinding wheels, planing wheels, polishing bits, and milling cutters."
+ },
+ {
+  "_pageName": "Fluid Supply Unit",
+  "item": "Fluid Supply Unit",
+  "lang": "",
+  "itemUse": "A facility for dispensing fluids.",
+  "description": "\"Give me an alternative function. I need sales!\""
+ },
+ {
+  "_pageName": "Forge of the Sky",
+  "item": "Forge of the Sky",
+  "lang": "",
+  "itemUse": "A facility for making Xiranite-based products.",
+  "description": "The land is a cradle of wealth."
+ },
+ {
+  "_pageName": "Gearing Unit",
+  "item": "Gearing Unit",
+  "lang": "",
+  "itemUse": "A facility that laminates different materials together to create gear components.",
+  "description": "A top-tier piece of equipment must undergo multiple processing steps that include textile weaving and compression lamination of various fabric and lining."
+ },
+ {
+  "_pageName": "Grenade Tower",
+  "item": "Grenade Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">981</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">3</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">12.5</span> meters\n\n<b>Mode of Attack</b>: Launches grenades in a ballistic trajectory. The grenades detonate above ground near enemies and deal area of effect <span style=\"color:\n#FF853F\">Heat DMG</span>.",
+  "description": "A launcher of compressed Originium grenades. Designs are based on small field guns used during the Aggeloi War."
+ },
+ {
+  "_pageName": "Grinding Unit",
+  "item": "Grinding Unit",
+  "lang": "",
+  "itemUse": "A facility that performs fine grinding of powdered materials.",
+  "description": "This facility was based on a traditional crop processing machinery from Yan."
+ },
+ {
+  "_pageName": "Gun Tower",
+  "item": "Gun Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">609</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">2</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">15</span> meters\n\n<b>Mode of Attack</b>: Continuously fires energy bolts that deal <span style=\"color:\n#DFBB92\">Physical DMG</span>.\n\nOnce the complex firing mechanism was simplified, it was combined with the logic of automation designs to create this integrated weapon platform. Many frontier outposts and villages used prototypes of this system to defend themselves against dangerous wildlife.",
+  "description": ""
+ },
+ {
+  "_pageName": "HE Grenade Tower",
+  "item": "HE Grenade Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">5585</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">3</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">12.5</span> meters\n\n<b>Mode of Attack</b>: Attacks enemies by launching Mk Ⅱ grenades along a ballistic trajectory that detonate above ground near enemies. The grenade explosion deals area of effect <span style=\"color:\n#FF853F\">Heat DMG</span> and leaves a burning zone that deals DMG to enemies within it.",
+  "description": "A launcher of compressed high explosive (HE) Originium grenades. This facility deals more devastating area damage compared to its standard counterpart."
+ },
+ {
+  "_pageName": "Heavy Gun Tower",
+  "item": "Heavy Gun Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">2136</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">2</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">15</span> meters\n\n<b>Mode of Attack</b>: Continuously fires Mk II energy bolts with every 4th shot being an empowered bolt. The bolts deal <span style=\"color:\n#DFBB92\">Physical DMG</span>.",
+  "description": "An upgraded version of the Gun Tower. People call this the Tomb Digger due to its merciless killing power."
+ },
+ {
+  "_pageName": "Hot Work",
+  "item": "Hot Work",
+  "lang": "",
+  "itemUse": "Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.",
+  "description": "Equipment that features excellent fire resistance rating."
+ },
+ {
+  "_pageName": "Hyper Beam Tower",
+  "item": "Hyper Beam Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">45375</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">8</span>s\n<b>Mode of Attack</b>: Consumes vast amounts of energy to emit a powerful beam to deal massive <span style=\"color:\n#FDC038\">Electric DMG</span> to enemies. This tower prioritizes its attacks at high threat targets within range.",
+  "description": "An upgraded version of the Beam Tower. Endfield Industries improved the stability of this weapon platform with Protocol Originium. Unfortunately, no effective solutions could be found for the massive energy consumption."
+ },
+ {
+  "_pageName": "Item Control Port",
+  "item": "Item Control Port",
+  "lang": "",
+  "itemUse": "An adjustable belt logistics unit that controls the type and quantity of items passed through the belt.",
+  "description": "Sorting creates order."
+ },
+ {
+  "_pageName": "Jincao Plot",
+  "item": "Jincao Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao and a higher chance of Fluffed Jincao.",
+  "description": "A cultivation plot with various parameters adjusted for growing jincao. Overall soil quality of the plot is far better than that of the average arable land in Wuling."
+ },
+ {
+  "_pageName": "LN Tower",
+  "item": "LN Tower",
+  "lang": "",
+  "itemUse": "<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">5</span>s\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">15</span> meters\n\n<b>Mode of Attack</b>: Fires special liquid nitrogen (LN) crystals that shatter upon impact to slow the movement speed of enemies in the area of effect.",
+  "description": "An experimental weapon with ammo of special crystal rounds filled with liquid nitrogen (LN). The ammo would shatter upon impact, spilling its freezing contents onto the enemy to apply frostbite that impedes their movements."
+ },
+ {
+  "_pageName": "LYNX",
+  "item": "LYNX",
+  "lang": "",
+  "itemUse": "Designed by Rhodes Island and assembled by the AIC. This equipment improves the wearer's combat capabilities.",
+  "description": "The medics' preferred equipment."
+ },
+ {
+  "_pageName": "Marsh Gas Mk I",
+  "item": "Marsh Gas Mk I",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">5485</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">5</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">18</span> meters\n\n<b>Mode of Attack</b>: Launches special mist grenades that detonate above ground near enemies. The mist grenade explosion deals area of effect <span style=\"color:\n#9CD54A\">Nature DMG</span> and leaves a mist zone that deals DMG and slows the movement speed of enemies within it.",
+  "description": "A multi-purpose facility furnished with a special Arts Unit that uses poisonous materials to effectively halt an enemy offensive. They say the storage tank is filled with a special adhesive with a faulty formula that made it highly corrosive instead. However, this \"failed\" adhesive found new purpose as a weapon instead."
+ },
+ {
+  "_pageName": "Medical Tower",
+  "item": "Medical Tower",
+  "lang": "",
+  "itemUse": "<b>Minimum HP Treatment Interval</b>: <span style=\"color:\n#33C2FF\">5</span>s\n<b>Treatment Range</b>: <span style=\"color:\n#33C2FF\">6</span> meters\n\nConverts electrical power into healing arts that can treat injured operators nearby.",
+  "description": "A healing facility furnished with medical Arts casting units. The designers made the tower spherical because gentle curves are visually more comforting to the injured."
+ },
+ {
+  "_pageName": "Memo Beacon",
+  "item": "Memo Beacon",
+  "lang": "",
+  "itemUse": "A facility that can be used to post and leave beacon memos.",
+  "description": "Assist or deceive. Observe with your eyes. Validate with your actions... This is the proof of our \"links\" as we face the challenges of Talos-II together."
+ },
+ {
+  "_pageName": "MI Security",
+  "item": "MI Security",
+  "lang": "",
+  "itemUse": "Designed by Mieszko Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.",
+  "description": "Equipment from the MI Security series."
+ },
+ {
+  "_pageName": "Omnidirectional Sonic Tower",
+  "item": "Omnidirectional Sonic Tower",
+  "lang": "",
+  "itemUse": "<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">5</span>s\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">6</span> meters\n\n<b>Mode of Attack</b>: Fires a shockwave that <span style=\"color:\n#FF6237\">stuns</span> common and advanced enemies within the area of effect.",
+  "description": "A crowd control facility furnished with a specialized Arts unit. It can emit targeted sonic waves that overwhelm an entity's nervous systems to stun them. The overwhelming power of the sonic waves seem to allow them to disrupt Aggeloid movements."
+ },
+ {
+  "_pageName": "Pipe Control Port",
+  "item": "Pipe Control Port",
+  "lang": "",
+  "itemUse": "An adjustable pipe logistics unit that controls the type and quantity of fluids passed through the pipe.",
+  "description": "Control gives efficiency."
+ },
+ {
+  "_pageName": "Protocol Stash",
+  "item": "Protocol Stash",
+  "lang": "",
+  "itemUse": "A storage facility with several item storage slots. Once connected to the power grid and given enough power, it can teleport items to the Depot. Hence, the stash is often placed at the end of production lines.",
+  "description": "It took Endfield engineers nearly a decade to achieve tele-protocol of small items within limited range."
+ },
+ {
+  "_pageName": "Redjade Ginseng Plot",
+  "item": "Redjade Ginseng Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng.",
+  "description": "A cultivation plot with various parameters adjusted for growing Redjade Ginseng. Overall soil quality of the plot is far better than that of the average arable land in Wuling."
+ },
+ {
+  "_pageName": "Reed Rye Plot",
+  "item": "Reed Rye Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Reed Rye.",
+  "description": "A cultivation plot with various parameters adjusted for growing Reed Rye. Overall soil quality of the plot is far better than that of the average arable land in Valley IV."
+ },
+ {
+  "_pageName": "Relay Tower",
+  "item": "Relay Tower",
+  "lang": "",
+  "itemUse": "This relay can be used to transmit power to other facilities within an 80-meter radius.\nResearching certain AIC Factory Plan technologies also lets it supply power to other Endfield facilities within a small area.",
+  "description": "The Relay Tower is one of the most expensive AIC facilities to construct. Its overall design is based on the PAC."
+ },
+ {
+  "_pageName": "Sandleaf Plot",
+  "item": "Sandleaf Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Sandleaves.",
+  "description": "A cultivation plot with various parameters adjusted for growing Sandleaves. Overall soil quality of the plot is far better than that of the average arable land in Valley IV."
+ },
+ {
+  "_pageName": "Seed-Picking Unit",
+  "item": "Seed-Picking Unit",
+  "lang": "",
+  "itemUse": "A facility that extracts seeds from common crops.",
+  "description": "Many Talosians enjoy harvesting and gathering."
+ },
+ {
+  "_pageName": "Sentry Tower",
+  "item": "Sentry Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">11634</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">5</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">20</span> meters\n\n<b>Mode of Attack</b>: Unleashes long-range attacks that target high-threat enemies first and deal massive <span style=\"color:\n#DFBB92\">Physical DMG</span>.",
+  "description": "This weapon is inspired by the ranged weaponry of the Aggeloi. The designer has furnished it with high-precision optical recognition modules to accurately target high-threat targets and deal effective damage."
+ },
+ {
+  "_pageName": "Shredding Unit",
+  "item": "Shredding Unit",
+  "lang": "",
+  "itemUse": "A heavy facility that shreds and pulverizes various materials.",
+  "description": "Can you hear the crunch of the heavy industrial shredders?"
+ },
+ {
+  "_pageName": "Sledgehammer Mortar",
+  "item": "Sledgehammer Mortar",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">33000</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">8</span>s\n<b>Mode of Attack</b>: Consumes vast amounts of energy to fire an extremely powerful shell. The shell deals massive <span style=\"color:\n#DFBB92\">Physical DMG</span> to enemies in the area of effect.",
+  "description": "A heavy weapon platform loaded with large Originium shells. This particular mortar offers the most devastating punch possible amongst ordnance of the same class."
+ },
+ {
+  "_pageName": "Splitter",
+  "item": "Splitter",
+  "lang": "",
+  "itemUse": "A logistics unit that evenly divides product flow from 1 transport belt into multiple belts (up to 3).",
+  "description": "A transport belt adjustment unit with a smart sorting module. Can be used to reduce the complexity of various facility supply lines."
+ },
+ {
+  "_pageName": "Sprinkler",
+  "item": "Sprinkler",
+  "lang": "",
+  "itemUse": "A facility that sprays fluids at a fixed direction.",
+  "description": "Blight pollution of aquifers was a problem that plagued Talosians for years until Hongshan Academy of Sciences provided the definitive water treatment solution."
+ },
+ {
+  "_pageName": "Surge Tower",
+  "item": "Surge Tower",
+  "lang": "",
+  "itemUse": "<b>ATK</b>: <span style=\"color:\n#33C2FF\">4886</span>\n<b>Attack Interval</b>: <span style=\"color:\n#33C2FF\">3</span>s\n\n<b>Attack Range</b>: <span style=\"color:\n#33C2FF\">12.5</span> meter\n\n<b>Mode of Attack</b>: Releases electrical arcs that attack enemies. The arc also chains to nearby enemies (up to 2) and deals <span style=\"color:\n#FDC038\">Electric DMG</span>.",
+  "description": "Years of research on electricity-related Originium Arts gave rise to the Surge Tower. Power output has been greatly increased while minimizing the risk of friendly fire."
+ },
+ {
+  "_pageName": "Swordmancer",
+  "item": "Swordmancer",
+  "lang": "",
+  "itemUse": "Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.",
+  "description": "One of the products marketed by the Bureau of Swordmancers in its early days."
+ },
+ {
+  "_pageName": "Tartpepper Plot",
+  "item": "Tartpepper Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Tartpeppers.",
+  "description": "A cultivation plot with various parameters adjusted for growing Tartpeppers. Overall soil quality of the plot is far better than that of the average arable land in Valley IV."
+ },
+ {
+  "_pageName": "Thermal Bank",
+  "item": "Thermal Bank",
+  "lang": "",
+  "itemUse": "The Thermal Bank is a facility that converts Originium Ore or batteries into electrical power. It must be connected to the power grid to work.",
+  "description": "The Thermal Bank received 3 revolutionary tech upgrades in the last decade."
+ },
+ {
+  "_pageName": "Tide Surge",
+  "item": "Tide Surge",
+  "lang": "",
+  "itemUse": "Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.",
+  "description": "Equipment designed by the Bureau of Swordmancers for those working near the Blight Tide."
+ },
+ {
+  "_pageName": "Type 50 Yinglung",
+  "item": "Type 50 Yinglung",
+  "lang": "",
+  "itemUse": "Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.",
+  "description": "A civilian version of Yinglung Special Task Force equipment. The lack of a crucial power component actually improved its compatibility with general users."
+ },
+ {
+  "_pageName": "Xiranite Pylon",
+  "item": "Xiranite Pylon",
+  "lang": "",
+  "itemUse": "When outside the Core AIC Area, this facility auto-connects to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for powering facilities within range and power transmission across short distances.",
+  "description": "A Techno-Protocol Electric Pylon furnished with a Xiranite receiving module. For electrical currents coursing between the relays, such modules serve as beacons in the darkness that accurately guide them towards their destination pylons with extremely low transmission loss."
+ },
+ {
+  "_pageName": "Xiranite Relay",
+  "item": "Xiranite Relay",
+  "lang": "",
+  "itemUse": "When outside the Core AIC Area, this facility auto-connects to the PAC and any Xiranite power facilities within an 80-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for power transmission and powering facilities within a short range.",
+  "description": "An electrical relay that combines Xiranite and Techno-Protocol electrical infrastructure technologies. The Xiranite components perform three major functions of identification, positioning, and stabilization. This avoids connection gridlocks between facilities and greatly minimizes the risk of accidental fires."
+ },
+ {
+  "_pageName": "Yazhen Plot",
+  "item": "Yazhen Plot",
+  "lang": "",
+  "itemUse": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen and a higher chance of Thorny Yazhen.",
+  "description": "A cultivation plot with various parameters adjusted for growing Yazhen. Overall soil quality of the plot is far better than that of the average arable land in Wuling."
+ },
+ {
+  "_pageName": "Zipline Pylon",
+  "item": "Zipline Pylon",
+  "lang": "",
+  "itemUse": "A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline.",
+  "description": "The earliest ziplines of Talos-II were constructed to help traverse the precipitous Blighted regions of the uninhabited snowy mountains in the Northern Barrens. Ziplines were the leading technology that helped humanity defeat the Aggeloid Blockade."
+ },
+ {
+  "_pageName": "Zipline Tower",
+  "item": "Zipline Tower",
+  "lang": "",
+  "itemUse": "A large zipline facility that can be connected to another zipline facility within a 110-meter radius to create a zipline.",
+  "description": "Recently, ziplines became a growing fad in the tourism sector as well as extreme sports athletes. The Endfield marketing team really demonstrated their skills in this case."
+ }
+]

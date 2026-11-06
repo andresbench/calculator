@@ -1,0 +1,15 @@
+{
+ "endfield-data": {
+  "committed_at": "2026-11-05T12:47:32+08:00",
+  "pinned_at": "2026-11-05T18:30:39Z",
+  "sha": "d847759f71d4549aba4727b3b0ac1a1ad0e37742",
+  "sparse": [
+   "TableCfg",
+   "Json/SkillData",
+   "Json/BuffData",
+   "Json/AnimationConfig"
+  ],
+  "subject": "Update 11/5",
+  "url": "https://github.com/rmxlinux/EndfieldData.git"
+ }
+}

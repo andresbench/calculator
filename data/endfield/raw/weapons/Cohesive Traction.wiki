@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Cohesive Traction
+|rarity = 5
+|images = 
+Cohesive_Traction icon.png:Icon;
+Cohesive_Traction.png:Full;
+Cohesive_Traction max model.png:Max
+|filename = wpn_lance_0006
+|cnname = 向心之引
+|tcname = 向心之引
+|jpname = 求心の槍
+|krname = 중심력
+|spname = Tracción cohesiva
+|runame = Прочное притяжение
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''Cohesive Traction''' is a 5★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A classical product of RAYTHEAN's customizable manufacturing process. The weapon is based on a standard military lance, and features a diverse suite of special functions and customizable aesthetic components.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Suppression: Concentric Circles|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Will [M]|Electric DMG [M]|Suppression: Concentric Circles}}
+
+==Basic Info==
+{{Quote|The city had many families. No one knew which of these families was the most friendly and harmonious. But everybody agreed that the Webers were the antithesis of peace. Rarely has there been a family with so many children and so many feuds. Only one Weber should be present in an area of sixty-four square klicks. If more Webers were present, the unfortunate land would soon witness violence and bloodshed.<br>Just last month, the eldest of the Weber children received a letter on the battlefield. After butchering the enemy who stood before him, he found his officer and applied for one-month of leave and embarked on a journey home. He crossed the woodlands and found his younger brother who was about to bury the axe into the elder Weber's head when the latter suddenly read the contents of the letter. The younger Weber tossed the axe, packed a few things, and joined his brother on a long journey.<br>Their sister was already waiting on a boat moored at the riverbank. The Weber boys were wary of the massive oar she wielded. Last time they were careless and woke up three days later.<br>Time was running out but they still had a lengthy journey ahead.<br>The three siblings faced a vast desert. When they were lost amongst the dunes of ever-changing shapes, a convoy arrived on time. The driver of the lead vehicle lowered the window and revealed a face they all despised and hated beyond all measure — Uncle Weber who lived miles away but never failed to show up and gloat at the family whenever they met difficulties.<br>"Hop on, brats," Uncle Weber offered a ride to the young Webers and ignored how they rolled their eyes. The other vehicles in the convoy honked and rushed them along. The frustrated cacophony undoubtedly hid a great number of Webers as well.<br>The convoy started off at once and left ephemeral trails upon the sands. They drove all through the night and day before finally arriving at the final stop. The lake was at peak water level, swollen by a storm that threw great waves crashing at its banks. Thankfully, the richest of their aunts owned a strong, majestic ship capable of accommodating every single Weber.<br>Aunt Weber the Captain proudly strolled the rolling decks as the ship tore through the storm and rode the waves, giving snorts of disdain to every Weber who failed to keep their stomach juices in, and grunts of contempt to the discolored Webers who held on to the railings for dear life. The tempest accompanied them throughout the journey, and all the Webers arrived at their homeland safely.<br>Everyone was shocked to see the Webers charging across the main avenue for the biggest hospital in town. There were so many of them that they covered the entire length of the road.<br>And the Webers finally gathered at the ward and surrounded a baby girl still in her wrappings. The infant weakly opened her eyes and looked at everyone present before closing them forever, untouched and untainted by the mundane affairs of the mortal world.<br>"Thank you for agreeing to see her one last time," the youngest of the Weber girls said softly as she cuddled the child whose body grew colder and colder.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

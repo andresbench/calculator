@@ -1,0 +1,104 @@
+local p = {}
+local data = mw.loadData('Module:Character/data')
+
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+function p.main(frame)
+	local args = getArgs(frame, {
+		wrappers = 'Template:Character'
+	})
+	return p._main(args)
+end
+function p._main(args)
+	local key = args[1]
+	local chara = data[key]
+	if not chara then
+		mw.log('Character data missing:', key)
+		return '&#32;<i>Character "'..key..'" not found</i>&#32;' -- no entry.
+	end
+	local name = chara.name
+	local title = chara.title
+	local pagename = chara.link or name
+	local text = args[2] or title or name
+	local grade = tonumber(chara.star)
+	local attrs = {
+		['data-name'] = name,
+		['data-title'] = title,
+		['data-star'] = tonumber(chara.star),
+		['data-class'] = chara.class,
+		['data-element'] = chara.element,
+		['data-weapon'] = chara.weapon,
+		['data-faction'] = chara.faction,
+	}
+	local icon = chara.iconImage or (name .. ' icon.png')
+	local gridview = yesno(args.g or args.gv or args.gridview)
+	local showname = yesno(args.sn or args.showname)
+	local nobg = yesno(args.nobg)
+	local root = mw.html.create('')
+	if gridview then
+		local wrapper = root:tag('div')
+		:css{display='inline-block', position='relative', margin='5px'}
+		local a = wrapper:tag('div')
+		:addClass('a')
+		local dtooltip = a:tag('div')
+		:css{width='60px', height='auto', margin='auto'}
+		:addClass('character-tooltip')
+		:attr(attrs)
+		:wikitext('[[File:'..icon..'|60x60px|center|link='..pagename..'|alt='..text..']]')
+		if nobg == nil then
+			if grade == 6 then
+				dtooltip:css('background','linear-gradient(to top, rgba(255,200,0,1), rgba(255,200,0,0))')
+			elseif grade == 5 then
+				dtooltip:css('background','linear-gradient(to top, rgba(255,255,169,1), rgba(255,255,169,0))')
+			elseif grade == 4 then
+				dtooltip:css('background','linear-gradient(to top, rgba(214,197,214,1), rgba(214,197,214,0))')
+			elseif grade == 3 then
+				dtooltip:css('background','linear-gradient(to top, rgba(0,170,238,1), rgba(0,170,238,0))')
+			elseif grade == 2 then
+				dtooltip:css('background','linear-gradient(to top, rgba(220,220,0,1), rgba(220,220,0,0))')
+			elseif grade == 1 then
+				dtooltip:css('background','linear-gradient(to top, rgba(160,160,160,1), rgba(160,160,160,0))')
+			end
+		end
+		if nobg == nil then
+			local line = dtooltip:tag('div')
+			:css{height='3px', width='60px'}
+			if grade == 6 then
+				line:css('background-color','#FFC800')
+			elseif grade == 5 then
+				line:css('background-color','#FFFFA9')
+			elseif grade == 4 then
+				line:css('background-color','#D6C5D6')
+			elseif grade == 3 then
+				line:css('background-color','#00AAEE')
+			elseif grade == 2 then
+				line:css('background-color','#DCDC00')
+			elseif grade == 1 then
+				line:css('background','#A0A0A0')
+			end
+		end
+		if showname then 
+			local bottomname = a:tag('div')
+			:css{['margin-top']='5px'}
+			local ntooltip = bottomname:tag('span')
+			:addClass('character-tooltip')
+			:attr(attrs)
+			:wikitext('[['..pagename..'|'..text..']]')
+		end
+		local border = args.border
+		if border == 'limited' then
+			wrapper:css('border', '1px solid #FF0000')
+		elseif border == 'limited2' then
+			wrapper:css('border', '1px solid #FF8000')
+		elseif border == 'store' then
+			wrapper:css('border', '1px solid #FFFF00')
+		end
+	else
+		local stooltip = root:tag('span')
+		:addClass('character-tooltip')
+		:attr(attrs)
+		:wikitext('[['..pagename..'|'..text..']]')
+	end
+	return root
+end
+return p

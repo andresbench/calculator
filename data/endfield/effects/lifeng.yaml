@@ -1,0 +1,89 @@
+# Lifeng. Opens the Breach core: Knock Down and Physical Susceptibility.
+operator: Lifeng
+
+talents:
+  - name: Skirmisher
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - condition: Elite 1
+        seen: "Operator Agility +10."
+        apply: [{stat: attr, attribute: AGL, value: 10}]
+      - condition: Elite 2
+        seen: "Operator Agility +15."
+        apply: [{stat: attr, attribute: AGL, value: 15}]
+      - condition: Elite 3
+        seen: "Operator Agility +15."
+        apply: [{stat: attr, attribute: AGL, value: 15}]
+      - condition: Elite 4
+        seen: "Operator Agility +20."
+        apply: [{stat: attr, attribute: AGL, value: 20}]
+
+  - name: Illumination
+    stacking: replaces
+    confidence: confirmed
+    evidence: >-
+      Datamine (pin 46b3376): the buff buff_chr_0015_lifeng_talent_1 adds
+      0.001 / 0.0015 to attributes 78 and 79 — AtkIncreaseFactorFromWisd and
+      FromWill, the point coefficients inside AttributeBonus. Not to ATK %:
+      until 2026-10-28 this was atk_pct by analogy, and that was a mistake.
+      Measured 2026-10-28 (measurements, #36): all four basic attack hits match
+      to the point with ATK 4374 by this formula. The stat screen does NOT
+      show the talent — it reads 3656, in combat too.
+    levels:
+      - condition: Elite 1
+        seen: "Every point of Intellect and Will further grants ATK +0.10%."
+        apply:
+          - {stat: atk_attr_factor, value: 0.10, perAttribute: [INT, WIL]}
+      - condition: Elite 2
+        seen: "Every point of Intellect and Will further grants ATK +0.15%."
+        apply:
+          - {stat: atk_attr_factor, value: 0.15, perAttribute: [INT, WIL]}
+
+  - name: Subduer of Evil
+    levels:
+      - condition: Elite 2
+        unmodeled: "a separate 50 % ATK instance on applying Knock Down; the engine does not produce instances from effects yet"
+      - condition: Elite 3
+        unmodeled: "a separate 100 % ATK instance on applying Knock Down; the engine does not produce instances from effects"
+
+potentials:
+  - rank: 1
+    confidence: inferred
+    seen: "Battle skill Turbid Avatar improved: Physical Susceptibility +5%; also triggers this additional effect to enemies with no more than 2 Vulnerability stacks."
+    grants:
+      - {term: Physical Susceptibility, skillType: Battle Skill, add: 5, atMost: 2}
+    note: >-
+      «This additional effect» is the battle skill's «apply Physical
+      Susceptibility … as well»: with P1 it lands on a target with up to 2
+      Vulnerability stacks, at 12 + 5 % (measurements, #50).
+  - rank: 2
+    confidence: inferred
+    seen: "All attributes +15."
+    apply:
+      - {stat: attr, attribute: STR, value: 15}
+      - {stat: attr, attribute: AGL, value: 15}
+      - {stat: attr, attribute: INT, value: 15}
+      - {stat: attr, attribute: WIL, value: 15}
+    note: >-
+      "All attributes" are four: STR, AGL, INT, WIL, without HP and ATK
+      (datamine, chr_0015_lifeng_potential_2). For Lifeng all four go into
+      AttributeBonus: AGL and STR as main and secondary, INT and WIL through
+      Illumination.
+  - rank: 3
+    confidence: inferred
+    seen: "Talent Illumination improved: Every point in the attributes of Intellect and Will grants Lifeng an additional ATK +0.05%."
+    note: "datamine: +0.0005 to the talent skill's atk_up key, i.e. to the same coefficient"
+    apply:
+      - {stat: atk_attr_factor, value: 0.05, perAttribute: [INT, WIL]}
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Heart of the Unmoving improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    unmodeled: "a 250 % ATK instance every 15 s — a periodic trigger the vocabulary has no word for"

@@ -1,0 +1,171 @@
+{
+ "meta": {
+  "source": "client datamine: TableCfg/EnemyAttributeTemplateTable (poiseKnotPctList)",
+  "upstream": {
+   "url": "https://github.com/rmxlinux/EndfieldData.git",
+   "sha": "46b33765fd0c9997a61342c079b0ec98aabe3931"
+  },
+  "generator": "tools/ef/datamine.py --export-nodes"
+ },
+ "enemies": {
+  "Alleikhreos, Chiliarch": {
+   "id": "eny_0125_fdcentur",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Axe Armorbeast": {
+   "id": "eny_0071_sandb",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Blitzcrash Blightshade": {
+   "id": "eny_0120_klbear",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Bonekrusher Ballista": {
+   "id": "eny_0048_hvybow",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Bonekrusher Executioner": {
+   "id": "eny_0018_lbtough",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Bonekrusher Siegeknuckles": {
+   "id": "eny_0075_lbroshan",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Cloud Obliterator": {
+   "id": "eny_0097_hsmino2",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Craghowler": {
+   "id": "eny_0114_jzmking",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Effigy": {
+   "id": "eny_0058_agdisk",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Elite Executioner": {
+   "id": "eny_0068_lbtough2",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Gloomwald's Rage": {
+   "id": "eny_0127_bigents",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Hazefyre Axe Armorbeast": {
+   "id": "eny_0098_sandb2",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Hill Smasher": {
+   "id": "eny_0054_hsmino",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Maned Measure": {
+   "id": "eny_0133_inklion",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Marble Aggelomoirai (palesent)": {
+   "id": "eny_0052_palesent",
+   "nodes": [
+    0.33,
+    0.66
+   ]
+  },
+  "Rhodagn the Bonekrushing Fist": {
+   "id": "eny_0051_rodin",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Ruan Yi": {
+   "id": "eny_0081_ruanyi",
+   "nodes": [
+    0.25,
+    0.5,
+    0.75
+   ]
+  },
+  "Sentinel": {
+   "id": "eny_0039_agcanno",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Si/Enemy": {
+   "id": "eny_0134_jsspsi",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Tidalklast": {
+   "id": "eny_0090_wgabyss",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Tidewalker": {
+   "id": "eny_0091_wgshoal",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Tidewalker δ": {
+   "id": "eny_0107_wgshoal2",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Triaggelos": {
+   "id": "eny_0045_agtrinit",
+   "nodes": [
+    0.5
+   ]
+  },
+  "Walking Chrysopolis": {
+   "id": "eny_0077_agshield",
+   "nodes": [
+    0.5
+   ]
+  },
+  "YSTF Captain Blightshade": {
+   "id": "eny_0124_kltdcap",
+   "nodes": [
+    0.5
+   ]
+  },
+  "YSTF Glaiver Blightshade": {
+   "id": "eny_0123_klcap",
+   "nodes": [
+    0.5
+   ]
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Aketine Plot
+|filename = item_port_soil_bbflower_1
+|cnname = 酮化灌木田块
+|tcname = 酮化灌木田塊
+|jpname = アケトン樹木畑
+|krname = 아케톤 논배미
+|spname = Terreno de aketina
+|runame = Участок акетина
+|type = Planting
+|rarity = 2
+|power = }}
+'''Aketine Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Aketine.|A cultivation plot with various parameters adjusted for growing Aketine. Overall soil quality of the plot is far better than that of the average arable land in Valley IV.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Aketine Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

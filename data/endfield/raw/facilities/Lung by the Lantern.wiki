@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Lung by the Lantern
+|filename = item_port_ugly_paint_1
+|images = Lung_by_the_Lantern icon.png:Icon;
+Lung by the Lantern.png:Full;
+|cnname = 挑灯看龙
+|tcname = 挑燈看龍
+|jpname = 明りを灯す龍
+|krname = 불을 밝히는 용
+|spname = Lung junto al farol
+|runame = Лун у фонаря
+|type = Ornamental
+|rarity = 5}}
+'''Lung by the Lantern''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Si's masterpiece. This is the boss of the three elegantly outlined "lungs". 
+"Dear patron, which of us is better looking? Me or the two by my side?"}}
+==Usage==
+An ornamental that can be placed.
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

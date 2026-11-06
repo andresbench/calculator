@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Deluge Tower
+|filename = item_port_battle_jet_1
+|images = Deluge_Tower icon.png:Icon;
+Deluge Tower.png:Full
+|cnname = 激流塔
+|tcname = 激流塔
+|jpname = 激流塔
+|krname = 급류 타워
+|spname = Torre de diluvio
+|runame = Поливная вышка
+|type = Combat & Support
+|rarity = 4
+|power = }}
+'''Deluge Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|
+<b>Attack Interval</b>: {{Color|5|7}}s<br>
+<b>Mode of Attack</b>: Fires a stream of deluge at approaching enemies. The stream pushes back small and medium enemies along the direction of the attack.
+|A disrupting facility furnished with a fluid pressurization module. If you hope to avoid the "overwhelming momentum" of a Tide Surge, please do not face it directly.}}
+==Usage==
+
+==Acquisition==
+Research the specified tech in the Wuling AIC Plan to construct this.
+{{RecipeTable|product=Deluge Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

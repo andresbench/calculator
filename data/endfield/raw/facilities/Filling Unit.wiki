@@ -1,0 +1,37 @@
+{{Facility infobox
+|name = Filling Unit
+|filename = item_port_filling_pd_mc_1
+|images = Filling Unit icon.png:Icon;
+Filling Unit.png:Full
+|cnname = 灌装机
+|tcname = 灌裝機
+|jpname = 充填機
+|krname = 충진기
+|spname = Unidad de relleno
+|runame = Модуль наполнения
+|type = Production II
+|rarity = 3
+|power = 20}}
+'''Filling Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility capable of filling containers with various materials.|The patented sterile packaging technology has greatly reduced the probability of product contamination.}}
+==Usage==
+A facility capable of filling containers with various materials.
+*Power Use : 20
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false|mode=solid}}
+===Fluid Mode===
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false|mode=fluid}}
+===Gas & Fluid Mode===
+In addition to the fluid recipes listed above:
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false|mode=Gas & Fluid}}
+
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Solid Filling]]
+*Fluid Mode Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Fluid Filler]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Filling Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

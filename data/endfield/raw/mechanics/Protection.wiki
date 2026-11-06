@@ -1,0 +1,101 @@
+{{Hatnote|Not to be confused with [[Shield]] which grants temporary health.}}
+
+{{Status infobox
+|Protection
+|Protected targets temporarily take reduced DMG. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies.
+|image = [[File: Protect icon.png]]
+|type = Buff
+|source = Operator
+}}
+
+{{Icon|Protect icon|text=false|nolink=true}} [[Protection]] or '''Protect''' is a type of buff applied to operators in ''[[Arknights: Endfield]]''.
+
+When an operator in the team casts a Combat Skill that grants Protection, all target operators temporarily take reduced{{Note|While assumed to be an oversight, {{Icon|Purrchena icon|text=false}} [[Purrchena]]'s Battle Skill {{Color|I'M NOT SLEEPING!|7}} can reduce the amount of Protection granted up to {{Color|-10%|1d}} thereby instead increasing the amount of damage taken by the operator.}} damage for a set duration. Some Combat Skills grant Protection only to the caster while others grant Protection to the caster and all operators near the caster. When an operator takes incoming damage, the value is decreased by the number or degree of reduction known as the '''Protection Multiplier'''.
+
+Multiple sources of '''Protection''' <u>do not stack</u> and only the highest Protection Multiplier is used. The resulting Protection Multiplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Catcher
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Catcher
+| name = Rigid Interaction
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Raises a shield that can block attacks, grants {{G|Protect|Protection}} to self and nearby operators, and immediately {{G|SP Return|returns}} some SP. <br />When attacked while the said shield is raised, perform a retaliation bash that deals {{Color|Physical DMG|1}} and applies 1 stack of {{G|Vulnerable|Vulnerability}} to the attacking enemy.
+}}
+}}
+{{Operator table row
+| name = Ember
+| content = 
+{{Operator table row/Combat skill
+| icon = Ember Talent 2 icon
+| name = Inflamed for the Assault
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}}: When casting the battle skill {{Color|Forward March|7}} and the combo skill {{Color|Frontline Support|7}}, Ember gains {{Color|30%|1d}} {{G|Protect|Protection}} and is less likely to be interrupted.<hr>
+{{Icon|Elite 2|text=false}}: When casting the battle skill {{Color|Forward March|7}} and the combo skill {{Color|Frontline Support|7}}, Ember gains {{Color|50%|1d}} {{G|Protect|Protection}} and is less likely to be interrupted.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Nomadic Fort
+| content = 
+Talent {{Color|Inflamed for the Assault|7}} improved: {{G|Protect|Protection}} effect {{Color|+20%|1d}}; hitting an enemy extends the duration by {{Color|1.5|1d}}s.
+}}
+}}
+{{Operator table row
+| name = Laevatain
+| content = 
+{{Operator table row/Combat skill
+| icon = Laevatain Talent 2 icon
+| name = Re-Ignition
+| type = Talent
+| content = 
+{{Icon|Elite 2|text=false}}: When HP drops below 40%, gain {{Color|90%|1d}} {{G|Protect|Protection}} and restore {{Color|5%|1c}} Max HP per second for {{Color|4|1d}}s. This effect can only trigger once every 120s.<hr>
+{{Icon|Elite 3|text=false}}: When HP drops below 40%, gain {{Color|90%|1d}} {{G|Protect|Protection}} and restore {{Color|5%|1c}} Max HP per second for {{Color|8|1d}}s. This effect can only trigger once every 120s.
+}}
+}}
+{{Operator table row
+| name = Purrchena
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Purrchena
+| name = I'M NOT SLEEPING!
+| type = Skill
+| content = '''SKILL DESCRIPTION:''' Purrchena raises up her shield to block an attack and immediately {{G|SP Return|returns}} some SP. While Purrchena's shield is up, she grants {{G|Protect|Protection}} to herself and nearby operators. During the battle skill, the first successful block extends the shield up duration and {{G|SP Return|returns}} additional SP. After casting, Purrchena's battle skill is temporarily changed to {{Color|LEAVE MY FRIENDS ALONE!|7}}.<br />{{Color|LEAVE MY FRIENDS ALONE!|7}}: Purrchena headbutts a target in front of her to deal {{Color|Nature DMG|5}} and apply {{G|Nature Infliction|Nature Infliction}}.<br />{{Color|Protection granted during shield-raising is reduced after every blocked attack.|9}}
+}}
+}}
+{{Operator table row
+| name = Snowshine
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Snowshine
+| name = Saturated Defense
+| type = Skill
+| content = 
+<b>SKILL DESCRIPTION:</b> Raises a shield that can block attacks, grants {{G|Protect|Protection}} to self and nearby operators, and immediately {{G|SP Return|returns}} some SP. <br />When attacked while the said shield is raised, perform a retaliation bash that deals {{Color|Cryo DMG|4}} and applies {{G|Cryo Infliction|Cryo Infliction}} on the attacker.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Cold Shelter
+| type = Skill
+| content = 
+Battle skill {{Color|Saturated Defense|7}} improved: During the blocking effect, {{G|Arts Infliction|Arts Inflictions}} cannot be applied to allied operators with {{G|Protect|Protection}}.
+}}
+}}
+}}
+== Notes ==
+{{Notelist}}
+
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Protect|Protection}} keyword added with [[Catcher]], [[Ember]], [[Laevatain]], and [[Snowshine]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

@@ -1,0 +1,71 @@
+{{Enemy infobox
+|name = Marble Aggelomoirai (palesent)
+|image = Marble_Aggelomoirai_palesent_sprite.png
+|filename = eny_0052_palesent
+|cnname = 白垩界卫
+|tcname = 白堊界衛
+|jpname = 白亜・アンゲロミラ
+|krname = 마블 아겔로미레
+|spname = Aggelomoirai de mármol
+|runame = Мраморная аггел-мойра
+|type = Aggeloi
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 25
+}}
+'''Marble Aggelomoirai (palesent)''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''. Alternate form(s): [[Marble Aggelomoirai (palecore)]]
+
+{{Enemy description|NO PREVIOUS RECORDS. This has been categorized as an Aggelos due to the nature of its formation. Its outward appearance mimics that of Nefarith. Despite its high core energy readings, the entity seems to be rather unstable.}}
+
+==Stats==
+{{Enemy data
+|HP = 4430, 31794, 201179, 792012, 1905141, 2934923
+|ATK = 78, 369, 1148, 2850, 4289, 4914
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 11
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *The awakened Marble Aggelomoirai can summon countless Ankhors from the universe to bombard the land. Dodge these attacks to find a way to retaliate.
+|location = *[[Power Plateau]]
+|drops = 
+|addendum = }}
+
+==Overview==
+A creation of Blight, made by [[Nefarith]], Marble Aggelomoirai enters its '''Palesent phase''' once its core is defeated, which grants it high mobility and several abilities that can quickly overwhelm Operators:
+
+*Forms a knife on its right hand, which is then followed by a horizontal swing, an upward swing, and a downward slam, dealing Physical damage. The downward slam can be interrupted by skills.
+*Enlarges and combines its left hands with Blight, and performs a downward slam, dealing Physical damage. This is followed by a 360-degree swing, dealing Physical damage and knocking hit Operators back. The swing can be interrupted by skills.
+*Enlarges and combines its left hands with Blight, and performs two slams, dealing Physical damage.
+*Leaps upwards and throws a spear, dealing Physical damage.
+*Forms a knife on its right hand, which is then followed by a horizontal swing, an upward swing, and then swings and thrusts with a spear, dealing Physical damage.
+*Forms a spear on its right hand, which is then followed by a thrust, a horizontal swing, and an upward swing, dealing Physical damage.
+*Forms wings on its back and flies up shortly, followed by two consecutive barrages of 5 shots, dealing Æther damage.
+*Forms a spear on its right hand, followed by a thrust, an upward swing, and three consecutive thrusts, dealing heavy Physical damage.
+*Enlarges and combines its left hands with Blight, and perform several slams in the same area after a delay, dealing Physical damage. This is then followed by one last slam after a delay. This ability can be interrupted by skills during the delay before the first or last slam.
+*Flies high in the air, making the boss invulnerable, and performs two slams, dealing Æther damage. This is followed by a short charge up before a heavy landing, dealing heavy Æther damage to Operators on the ground, which can be prevented by jumping.
+*Flies high in the air and creates a meteor shower, dealing Æther damage at random areas.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 4430, 31794, 201179, 792012, 1905141, 2934923 from 4430, 37404, 236681, 792012, 1905141, 2934923
+**Reduced ATK to 78, 369, 1148, 2850, 4289, 4914 from 92, 434, 1350, 3353, 5046, 5782
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

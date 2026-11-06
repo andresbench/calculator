@@ -1,0 +1,25 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Gift of the Wilds 1 manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 36-50
+|region = [[Valley IV]]
+|effect = 3-piece set effect: Wearer's Agility {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Physical DMG|1}} {{Color|+20%|1d}}.
+}}
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries' "Gift of the Wilds" division, which drew its inspiration from nature and the wildlands
+
+This gear is one of the favorite picks for Messengers,<ref>[[Roving MSGR Jacket]]</ref> with designs that Messengers use for "Function".<ref>[[Roving MSGR Flashlight T1]]</ref>
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Reference==
+{{Reflist}}
+{{Gears|state=collapsed}}

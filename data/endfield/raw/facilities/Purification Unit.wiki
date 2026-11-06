@@ -1,0 +1,34 @@
+{{Facility infobox
+|name = Purification Unit
+|filename = item_port_liquid_purifier_1
+|images = Purification Unit icon.png:Icon;
+Purification Unit.png:Full
+|cnname = 提纯机
+|tcname = 提純機
+|jpname = 精製機
+|krname = 정제기
+|spname = Unidad de purificación
+|runame = Модуль рафинирования
+|type = Production II
+|rarity = 4
+|power = }}
+'''Purification Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for raising the purity of various solutions.|"My friend, you understand, right? Our alchemical arts have had a splendorous history. Just look at the starry cosmos outside... This place should not be the end of our conquests and achievements! I need a better place! An optimized, stable, and Originium-rich environment!" 
+"Is that your excuse for almost breaching the hull of Dijiang with explosives?"}}
+==Usage==
+A facility for raising the purity of various solutions.
+*Power use: 50
+=== Fluid Mode===
+{{RecipeTable|facility=Purification Unit|showFacility=false|mode=Fluid}}
+=== Gas Mode===
+{{RecipeTable|facility=Purification Unit|showFacility=false|mode=Gas}}
+
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC III - Purification]]
+{{RecipeTable|product=Purification Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

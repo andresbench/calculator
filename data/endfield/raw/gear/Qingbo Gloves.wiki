@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Qingbo Gloves
+|image = Qingbo_Gloves.png
+|filename = item_equip_t4_suit_combo_cd01_hand_02
+|cnname = 清波护手
+|tcname = 清波護手
+|jpname = 清波プロテクター
+|krname = 청파 보호 장갑
+|spname = Guantes de Qingbo
+|runame = Перчатки «Циньбо»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Qingbo Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC Factory. This equipment improves the wearer's combat capabilities.|Very economic equipment, created according to ancient scrolls and books found in Qingbo Stockade.
+"Three days work, then you can fight skydrummers for fun." — Comments scribbled on an ancient design drawing for a pair of gloves.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Intellect
+|pvalue = +65, +71, +78, +84
+|sstat = Will
+|svalue = +43, +47, +51, +55
+|tstat = Ultimate Gain Efficiency
+|tvalue = +20.5%, +22.6%, +24.6%, +26.7%
+|setname = Qingbo
+|seteffect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+When the wearer casts a combo skill, the wearer gains Skill DMG Dealt {{Color|+20%|1d}} (for every skill) for 15s. This effect can reach 2 stacks. Duration of each stack is counted separately.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Qingbo}}
+{{Gears|state=collapsed}}

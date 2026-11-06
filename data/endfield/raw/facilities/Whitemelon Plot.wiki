@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Whitemelon Plot
+|filename = item_port_soil_corp_whitegourd_1
+|images = Whitemelon_Plot.png
+|cnname = 白瓜田块
+|tcname = 白瓜田塊
+|jpname = 白瓜畑
+|krname = 월과 논배미
+|spname = Terreno de Albimelón
+|runame = Участок белотыквы
+|type = Planting
+|rarity = 3
+|power = }}
+'''Whitemelon Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Whitemelons.|A cultivation plot with various parameters adjusted for growing Whitemelons. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Whitemelon Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

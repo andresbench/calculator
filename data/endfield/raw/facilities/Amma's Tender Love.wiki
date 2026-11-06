@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Amma's Tender Love
+|filename = item_port_crystal_ball_1
+|images = Amma's_Tender_Love_icon.png:Icon;
+Amma's_Tender_Love.png:Full
+|cnname = 安玛的关切
+|tcname = 安瑪的關切
+|jpname = アンマーの温もり
+|krname = 암마의 관심
+|spname = El tierno amor de Amma
+|runame = Нежная любовь Аммы
+|type = Ornamental
+|rarity = 5}}
+'''Amma's Tender Love''' is an [[Ornamental|Ornamental]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Slowly She gave Her love in this tiny and serene snowscape.}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+Claimable from the Ornamentals menu after completing the mission [[A Winter Dream Fogged Deep in the Woods]].
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Ornamental Facilities]]

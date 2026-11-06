@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Reed Rye Plot
+|filename = item_port_soil_sp_1
+|cnname = 灰芦麦田块
+|tcname = 灰蘆麥田塊
+|jpname = 灰麦畑
+|krname = 회보리 논배미
+|spname = Terreno de centeno de caña
+|runame = Участок тростниковой ржи
+|type = Planting
+|rarity = 3
+|power = }}
+'''Reed Rye Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Reed Rye.|A cultivation plot with various parameters adjusted for growing Reed Rye. Overall soil quality of the plot is far better than that of the average arable land in Valley IV.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Reed Rye Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

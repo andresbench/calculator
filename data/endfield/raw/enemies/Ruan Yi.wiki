@@ -1,0 +1,59 @@
+{{Enemy tab}}
+{{Enemy infobox
+|name = Ruan Yi
+|image = Ruan_Yi_sprite.png
+|filename = eny_0081_ruanyi
+|cnname = 阮一
+|tcname = 阮一
+|jpname = ルアン・イー
+|krname = 원일
+|spname = Ruan Yi
+|runame = Жуань И
+|type = Cangzei Pirates
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 10
+}}
+'''Ruan Yi''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|Ruan Yi had kept his anger in check for years. When a fleeting "opportunity" presented itself, he decided it was time to finally unleash his pent-up fury.}}
+
+==Stats==
+{{Enemy data
+|HP = 3323, 23845, 150884, 594009, 1428856, 2201192
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 300
+|SR = 15
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *Ruan Yi can deflect all attacks. Use Xiranite to break his protection to deal effective DMG to him.
+*At low HP, this enemy enters an Infuriated state. Use Xiranite to break this state and apply Weakened on the enemy for an extended period.
+*When Infuriated, Ruan Yi can summon Wrothful Roots of Bane that explode when the controlled operator gets too close.
+*Xiranite Energy will coalesce and appear in the battlefield to offer support. Touch the Xiranite Energy at the right timing to activate it and suppress Ruan Yi.
+|location = *[[Qingbo Stockade]]
+|drops = 
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

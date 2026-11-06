@@ -1,0 +1,38 @@
+{{Facility infobox
+|name = HE Grenade Tower
+|filename = item_port_battle_cannon_2
+|images = HE Grenade Tower icon.png:Icon;
+HE Grenade Tower.png:Full
+|cnname = 高爆榴弹塔
+|tcname = 高爆榴彈塔
+|jpname = 高火力榴弾塔
+|krname = 고폭 유탄 타워
+|spname = Torre de granadas HE
+|runame = ОФ гранатометная вышка
+|type = Combat & Support
+|rarity = 4
+|power = 20}}
+'''HE Grenade Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|5585|7}}
+<b>Attack Interval</b>: {{Color|3|7}}s
+
+<b>Attack Range</b>: {{Color|12.5|7}} meters
+
+<b>Mode of Attack</b>: Attacks enemies by launching Mk Ⅱ grenades along a ballistic trajectory that detonate above ground near enemies. The grenade explosion deals area of effect {{Color|Heat DMG|3}} and leaves a burning zone that deals DMG to enemies within it.
+|A launcher of compressed high explosive (HE) Originium grenades. This facility deals more devastating area damage compared to its standard counterpart.}}
+==Usage==
+*<b>ATK</b>: {{Color|5585|7}}
+*<b>Attack Interval</b>: {{Color|3|7}}s
+*<b>Attack Range</b>: {{Color|12.5|7}} meters
+*<b>Mode of Attack</b>: Attacks enemies by launching Mk Ⅱ grenades along a ballistic trajectory that detonate above ground near enemies. The grenade explosion deals area of effect {{Color|Heat DMG|3}} and leaves a burning zone that deals DMG to enemies within it.
+*Power Use : 20
+
+==Acquisition==
+*Production: [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - HE Granade Tower]]
+{{RecipeTable|product=HE Grenade Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

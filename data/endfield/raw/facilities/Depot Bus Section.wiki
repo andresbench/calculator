@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Depot Bus Section
+|filename = item_port_log_hongs_bus
+|images = Depot Bus Section icon.png:Icon;
+Depot Bus Section.png:Full
+|cnname = 仓库存取线基段
+|tcname = 倉庫存取線基段
+|jpname = 倉庫連結ハブ部品
+|krname = 창고 입출력 라인 기초 장치
+|spname = Sección de Unidades de transporte de Depósito
+|runame = Секция звена склада
+|type = Depot Access
+|rarity = 4}}
+'''Depot Bus Section''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A bus section that can be deployed in the Core AIC Area. The Depot Bus Section must be connected to a Depot Bus Port or other active Depot Bus Sections. Once active, Depot Loaders and Depot Unloaders can be attached to the Depot Bus.|For facilities that incorporate Xiranite with AIC technology, the Xiranite particles mainly provide "stabilizing" effects against rifting or the Blight. Xiranite particles flowing within these facilities can ensure that the movement of goods in/out of the depot via loaders/unloaders would not be affected by local environmental anomalies.}}
+==Usage==
+A bus section that can be deployed in the Core AIC Area. The Depot Bus Section must be connected to a Depot Bus Port or other active Depot Bus Sections. Once active, Depot Loaders and Depot Unloaders can be attached to the Depot Bus.
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Wuling Depot Bus]]
+{{RecipeTable|product=Depot Bus Section}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

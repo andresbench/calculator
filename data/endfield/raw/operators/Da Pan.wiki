@@ -1,0 +1,254 @@
+{{Operator infobox
+|name = Da Pan
+|rarity = 5
+|class = Striker
+|weapon = Great Sword
+|element = Physical
+|faction = Hongshan Academy of Sciences (HAS)
+|tags = Damage Dealer, Lift, Crush
+|main = Strength
+|sub = Will
+|starting = 
+|headhunting = standard
+|quote = Oh, we meet again, Endmin. Got an engineering problem? Point it out, and consider it fixed! And I'll be EVEN happier if there's canteen work for me!
+|image = 
+Da_Pan Splash Art.png
+|filename = chr_0018_dapan
+|cnname = 大潘
+|tcname = 大潘
+|jpname = ダパン
+|krname = 판
+|spname = Da pan
+|runame = Да Пан
+|fullname = Pan Yuan
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Rikiya_Koyama Koyama Rikiya]
+|cncv = SuYi
+|encv = Jon Xu (Xu Zhongzhe)
+|krcv = [https://en.namu.wiki/w/황창영 Hwang Chang-yung]
+|gender = Male
+|authentication = Hongshan Academy of Sciences
+|birthdate = May 19
+|race = Ursus
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Excellent
+|tactical = Normal
+|skill = Standard
+|originium = Excellent
+|exp1 = Cooking
+|exp1d = Cooking: Heat Control
+Skilleting, steaming, deep-frying, stir-frying, and stewing. Master the stove and you master the hundred arts of cooking. Da Pan will not hesitate to use his secret Huohou (art of stovefire) to perfectly balance the riot of flavors in his dishes.
+|exp2 = Tool Assembly
+|exp2d = Tool Assembly: Mechanical Engineering
+When HAS professors bring along their teapots to discuss academic topics with Da Pan, the Tianshi disciples realize that the chef is also carrying a flask with a slogan that reads: "Vanguard Scientist."
+|hb1 = Lifestyle
+|hb1d = Lifestyle: Gourmet Chef
+Da Pan enjoys creating new dishes. But getting a heartfelt "DELICIOUS!" from his patrons will make him even happier.
+|hb2 = Charity
+|hb2d = Charity: Worldly Roamer
+Traveling vendor, chauffeur, tour guide, renovator, and a master who keeps everyone fed. Da Pan hates down time. It makes him itch for some action.
+|prefer = Wuling Runners' Choice
+|matskill = Exemplar, Sundered Prince
+|matstats = OBJ Heavy Burden, Seeker of Dark Lung
+}}
+'''Da Pan''' is a 5★ [[Physical]] [[Striker]] [[Operator]] from [[Hongshan]] in ''[[Arknights: Endfield]]''. He is a [[Great Sword]] user who can easily apply various {{Color|Physical Statuses|1}} on enemies. His combo skill also does massive {{Color|Physical DMG|1}}.
+
+==Profile==
+"If you're not good with a dish, just make it more often! I don't cook to show off! I do it to make a pretty and joyful feast!"<br/>Da Pan hails from the prestigious [[Hongshan Academy of Sciences]], but after leaving, he took up all kinds of "dispersed key logistical support roles" — from chef and electrician to chauffeur and street vendor. His latest move? Joining the Specialist Tech Division of [[Endfield Industries]] as an independent.<br/>Of all the roles he's taken on, the one he's most proud of is being a traveling chef. He's passionate about exploring new recipes and creating inventive dishes. Nothing makes him happier than crafting delicious meals that win praise from every diner he serves.<br/>There's a water bottle Da Pan keeps with him at all times, though few ever notice it. Those who can read Yanese characters might wonder about its origin. But if they're from Hongshan, they'll know exactly where it came from and the weight it carries as an honor awarded only to a Vanguard Scientist.<br/>"Try this. I cooked it myself!"
+
+==Stats==
+{{Operator data
+|main = Strength
+|sub = Will
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 88, 150, 211, 272, 303
+|STR = 24.278, 56.484, 90.384, 124.285, 158.186, 175.136
+|AGL = 9.793, 28.402, 47.989, 67.577, 87.164, 96.958
+|INT = 10.103, 28.219, 47.289, 66.359, 85.429, 94.964
+|WIL = 10.432, 30.018, 50.634, 71.25, 91.866, 102.174
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Triphasic Nanoflake x20, Bloodcap x8, T-Creds x100000
+|pot1 = Ultimate {{Color|CHOP 'N DUNK!|7}} improved: If the ultimate defeats at least one enemy, Da Pan deals {{Color|+30%|1d}} {{Color|Physical DMG|1}} for 15s. This effect cannot stack.
+|pot1t = Fine Cooking
+|pot2 = Talent {{Color|Salty or Mild|7}} improved: {{Color|Prep Ingredients|7}} buff duration {{Color|+10|1d}}s, max stacks {{Color|+1|1d}}.
+|pot2t = Harmonized Flavors
+|pot3 = Strength {{Color|+15|1d}}, Physical DMG Dealt {{Color|+8%|1d}}.
+|pot3t = Model Employee
+|pot4 = Ultimate {{Color|CHOP 'N DUNK!|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Special Blend
+|pot5 = Battle skill {{Color|FLIP DA WOK!|7}} improved: If the skill hits only one enemy, apply 1 more stack of {{G|Vulnerable|Vulnerability}} on the target. This effect can only trigger once every 45s.
+|pot5t = Fire it Up
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= ROLLING CUT!
+|icon= Attack-Greatsword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|20|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 28%, 31%, 34%, 37%, 39%, 42%, 45%, 48%, 51%, 54%, 58%, 63%
+|stat2= BATK SEQ 2 Multiplier, 34%, 37%, 40%, 44%, 47%, 50%, 54%, 57%, 60%, 64%, 70%, 75%
+|stat3= BATK SEQ 3 Multiplier, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 97%, 104%, 113%
+|stat4= BATK SEQ 4 Multiplier, 60%, 66%, 72%, 78%, 84%, 90%, 96%, 103%, 109%, 116%, 125%, 136%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= FLIP DA WOK!
+|icon= Skill-Dapan
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Takes out a wok, quickly charges it up, and performs a powerful wok flip that deals {{Color|Physical DMG|1}} and {{G|Lift|Lift}} to the enemy.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 133%, 147%, 160%, 173%, 186%, 200%, 213%, 226%, 240%, 256%, 276%, 300%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Lift Duration (s), 1.8, 1.8, 1.8, 1.8, 1.8, 1.8, 1.8, 1.8, 1.8, 1.8, 1.8, 1.8
+}}
+{{Combat skill
+|name= MORE SPICE!
+|icon= Combo-Dapan
+|type= {{SB|3}}
+|info= The {{G|Crush}} DMG Bonus is a Multiplicative Bonus.
+|desc= <b>COMBO TRIGGER:</b> When an enemy reaches 4 stacks of {{G|Vulnerable|Vulnerability}}. <br /><b>SKILL DESCRIPTION:</b> Swings the wok at the enemy to deal massive {{Color|Physical DMG|1}} and {{G|Crush|Crush}}. This {{G|Crush|Crush}} also deals more DMG.
+|stat1= Cooldown, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 19
+|stat2= DMG Multiplier, 289%, 318%, 347%, 375%, 404%, 433%, 462%, 491%, 520%, 556%, 599%, 650%
+|stat3= Stagger, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat4= Crush DMG Bonus, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 15%, 15%, 15%, 20%
+|stat5= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= CHOP 'N DUNK!
+|icon= Ult-Dapan
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Da Pan slams the chopping board to forcibly {{G|Lift|Lift}} all enemies in the area of effect in front of him. This is followed by a 6-sequence flurry of slashes that deals {{Color|Physical DMG|1}}. The final step is to bash every enemy to the ground to forcibly {{G|Knock Down|Knock Down}} and deal massive {{Color|Physical DMG|1}} to them.
+|stat1= Ultimate Energy Cost, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90
+|stat2= Aerial Flurry DMG Multiplier, 22%, 24%, 26%, 29%, 31%, 33%, 35%, 37%, 40%, 42%, 46%, 50%
+|stat3= Ultimate DMG Multiplier, 178%, 196%, 213%, 231%, 249%, 267%, 284%, 302%, 320%, 342%, 369%, 400%
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=ROLLING CUT!|skill2=FLIP DA WOK!|skill3=MORE SPICE!|skill4=CHOP 'N DUNK!|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Metadiastima Photoemission Tube,6|m14=False Aggela,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=D96 Steel Sample 4,6|m24=False Aggela,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Metadiastima Photoemission Tube,6|m34=False Aggela,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=D96 Steel Sample 4,6|m44=False Aggela,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=ROLLING CUT!|skill2=FLIP DA WOK!|skill3=MORE SPICE!|skill4=CHOP 'N DUNK!|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Metadiastima Photoemission Tube,16|m14=False Aggela,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=D96 Steel Sample 4,16|m24=False Aggela,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Metadiastima Photoemission Tube,16|m34=False Aggela,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=D96 Steel Sample 4,16|m44=False Aggela,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=ROLLING CUT!|skill2=FLIP DA WOK!|skill3=MORE SPICE!|skill4=CHOP 'N DUNK!|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Metadiastima Photoemission Tube,36|m14=False Aggela,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=D96 Steel Sample 4,36|m24=False Aggela,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Metadiastima Photoemission Tube,36|m34=False Aggela,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=D96 Steel Sample 4,36|m44=False Aggela,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Forged
+|icon = Strength
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Strength +10.
+|cond2 = Elite 2
+|desc2 = Operator Strength +15.
+|cond3 = Elite 3
+|desc3 = Operator Strength +15.
+|cond4 = Elite 4
+|desc4 = Operator Strength +20.
+}}
+{{Operator talent
+|name = Reduce and Thicken
+|icon = Da Pan Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = After {{G|Debuff Consumption|consuming}} 1 {{G|Vulnerable|Vulnerability}} stack, Da Pan gains {{Color|Physical DMG Dealt|1}} {{Color|+4%|1d}} for {{Color|10|1d}}s. This effect can reach {{Color|4|1d}} stacks.
+|cond2 = Elite 2
+|desc2 = After {{G|Debuff Consumption|consuming}} 1 {{G|Vulnerable|Vulnerability}} stack, Da Pan gains {{Color|Physical DMG Dealt|1}} {{Color|+6%|1d}} for {{Color|10|1d}}s. This effect can reach {{Color|4|1d}} stacks.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Salty or Mild
+|icon = Da Pan Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Ultimate {{Color|CHOP 'N DUNK!|7}} improved: For every enemy hit by the final sequence of the ultimate, gains 1 stack of {{Color|Prep Ingredients|7}} for 20s (max stacks: 1). When {{Color|Prep Ingredients|7}} is active, hitting an enemy with combo skills immediately shortens cooldown by {{Color|40%|1d}} and {{G|Debuff Consumption|consumes}} 1 stack of {{Color|Prep Ingredients|7}}.
+|cond2 = Elite 3
+|desc2 = Ultimate {{Color|CHOP 'N DUNK!|7}} improved: For every enemy hit by the final sequence of the ultimate, gains 1 stack of {{Color|Prep Ingredients|7}} for 20s (max stacks: 2). When {{Color|Prep Ingredients|7}} is active, hitting an enemy with combo skills immediately shortens cooldown by {{Color|40%|1d}} and {{G|Debuff Consumption|consumes}} 1 stack of {{Color|Prep Ingredients|7}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Strength
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Chef of Forage and Game
+|icon = GC-plant_fungus
+|facility = Growth Chamber
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Growth Chamber to grant fungal matter growth rate +10%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Growth Chamber to grant fungal matter growth rate +20%
+}}
+{{Operator base skill
+|name = Worldly Wisdom
+|icon = CN-physical_power
+|facility = Control Nexus
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Control Nexus to grant all operators' Mood Regen +12%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Control Nexus to grant all operators' Mood Regen +16%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = GC-plant_fungus
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = CN-physical_power
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Talent Reduce and Thicken
+*** Old: To {{G|Vulnerable|Vulnerable}} enemies, {{Color|Physical DMG Dealt|1}} {{Color|+6%|1d}} / {{Color|+10%|1d}} per stack of {{G|Vulnerable|Vulnerable}}.
+*** New: After {{G|Debuff Consumption|consuming}} 1 {{G|Vulnerable|Vulnerability}} stack, Da Pan gains {{Color|Physical DMG Dealt|1}} {{Color|+4%|1d}} / {{Color|+6%|1d}} for {{Color|10|1d}}s. This effect can reach {{Color|4|1d}} stacks.
+** Base Skill Chef of Forage and Game
+*** Fungal matter growth rate increased from +8% / +10% to +10% / +20%
+** Base Skill Worldly Wisdom
+*** Operators' Mood Regen effect increased from +8% / +12% to +12% / +16%
+*'''Beta Test II'''
+**Class changed to [[Class|Striker]].
+**Element changed to [[Element|Physical]].
+*'''Beta Test I''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

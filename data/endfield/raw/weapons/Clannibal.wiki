@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Clannibal
+|rarity = 6
+|images = 
+Clannibal icon.png:Icon;
+Clannibal.png:Full;
+Clannibal max model.png:Max
+|filename = wpn_pistol_0009
+|cnname = 同类相食
+|tcname = 同類相食
+|jpname = 同類共食
+|krname = 클래니벌
+|spname = Clannibal
+|runame = Кланнибал
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''Clannibal''' is a 6★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|Special guns manufactured by RAYTHEAN Industries. These experimental weapons are extremely difficult to use. Only a limited number of prototypes were released to the arms market.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Infliction: Vicious Purge|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Main Attribute [L]|Arts DMG [L]|Infliction: Vicious Purge}}
+
+==Basic Info==
+{{Quote|"And thus I curse you all. Your blood shall flow across the barren lands and stagnate in pools of gore. Your people and everyone you love shall drown in the filth of your veins."<br>These were written on the old memo. He thought about it for a while, took out his pen and paper, and started his own scribbles —<br>"Hardly anyone knows why Landbreakers would want to attack their own people. They used to be a rather cohesive organization led by a single leader... Though the LBs later splintered, such levels of hostility between the successor groups seem to lack a proper basis... The seething hatred so vividly reflected by these notes as well as the brutality personally inflicted upon LBs captured by the author of the said notes can only be described as ... horrifying and gruesome..."<br>He paused, reflected upon his words, and felt rather displeased with his conclusions. His pen then started scrawling across the page once more.<br>"I attempted to identify a 'common cause' or 'consensus' in these hateful words. Perhaps the LBs committed a transgression that led to the current kill on sight mentality, or perhaps the LBs have started working on some malicious scheme that continues to this day... I have enjoyed my investigation of the secret truth behind LB history, both as my profession and as a personal pastime of mine. Unfortunately, the author of these notes was just a simple, homicidal brute. He hanged the entire family of his 'breaker-pal' over some petty division of loot."<br>He paused again briefly, and then continued his scrawls with greater focus and intensity.<br>"Personal hatred means little. These words provide nothing to my goal of advancing the Security Act for Peace on Talos-II. We must make the very concept of Landbreaking criminal in every law and an anathema to our definitions for civilization. Their presence must be removed from every community, organization, and faction, legal or otherwise. Landbreaking must end to make humanity safe again."<br>These words seem to lend him strength. His writings picked up speed and alacrity.<br>"Peripheral rot is a condition that plagues every civilization. This cancer is always there and can never be truly cleansed. However, we must demonstrate our firm resolve and initiate the strong measures to completely sterilize this malignant presence."<br>He then concluded his own writings with one final line.<br>"I spent thirty years of my life as a Landbreaker. You must have faith in my words."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

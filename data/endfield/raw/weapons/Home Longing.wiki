@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Home Longing
+|rarity = 6
+|images = 
+Home_Longing icon.png:Icon;
+Home_Longing.png:Full;
+Home_Longing max model.png:Max
+|filename = wpn_pistol_0007
+|cnname = 望乡
+|tcname = 望鄉
+|jpname = 望郷
+|krname = 향수
+|spname = Anhelo del hogar
+|runame = Тоска по дому
+|type = Handcannon
+|source = Reward: Protocol Pass}}
+'''Home Longing''' is a 6★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|Guns developed by Hongshan Swordmancers. To comply with the basic design approaches of HAS weaponry, weight-saving features as well as grip and handling optimizations have been employed.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Suppression: Olden Moon|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Agility [L]|Cryo DMG [L]|Suppression: Olden Moon}}
+
+==Basic Info==
+{{Quote|"Let's make mooncakes," I blurted out.<br>Ethan was obviously stunned. Volkov, who stood behind him, placed his bottle of kohl on the table, slapped his thigh, and followed up with a shout: "Mooncakes! My friends! LET'S MAKE MOONCAKES!"<br>Ethan tried to fan away the stench of Kohl from the air and gave up when his efforts failed. He then questioned Volkov and tried to get him to describe what mooncakes to check if it was the kohl that did the talking. "It's ... it's a type of cake! Oh yes! The proud Ursus Syndikat also has cakes! We makes the best cakes," Volkov slurred and then looked at me.<br>"I was just jo..."<br>"Sure thing."<br>Ethan threw his lot behind this joke of a plan before I could finish my line. He knew Yanese history and traditions better than an actual Yanese (me). He should be aware that Mid-Autumn was one and a half months away and that mooncake idea was just some blighted nonsense I said without thinking. But I learned, at that moment, why the man who constantly did his best to act like a hard-line, somber Columbian chose to get crazy with us.<br>Because the Aggeloi War ended.<br>Just a while ago, the news of victory arrived at our comms outpost — The Endministrator and forty heroes charged into the Aurora, neutralized the enemy, and freed everyone from the Aggeloi War. None of us believed it at first, but hardly any Ankhors flew overhead for several days, and our outpost barely suffered another Aggeloi-rush. All these made us realize that the war might actually be over.<br>Unfortunately, it was harder to make the war leave our minds.<br>The three of us adjusted poorly to post-war life. I would stare at the stump that used to be my arm for hours. Volkov steals anti-freeze because he couldn't afford kohl. And Ethan ... kept updating his diary. I caught a glimpse of his writings — deaths, comrades, home ... a pile of barely completed sentences that served no purpose but to fill up the pages. Yet these broken words hurt deep. The years transformed a shy, inexperienced youth into a middle-aged charity case. A lucky survivor, yes ... but at what cost? What did I leave behind? I tried remembering the stony steps leading up to the old home at Shangshu, the mooncake recipe that my grandparents followed during Mid-Autumn, the first comrade at arms to fall by my side... All of them came out as a blur.<br>I suddenly felt how laughable my mooncake idea was. Talos-II had no moon. That "moon" is actually Talos-I. My peers at the Tianshi Bureau brought Yanese holidays to Talos-II and carefully adjusted them to their great chronological calendar. For what? We got a fake moon in the sky. Our traditional twenty-four seasonal terms couldn't be aligned to the local weather... The entire place was alien, and we merely exist as wandering shades cut off from our true homes. Talos-II terrified us, giving us countless nightmares of new monstrosities rising from the sea or falling from the starry night. Our proud pioneering ambitions had been ground to dust in our southern retreat. <br>"Let's make mooncakes," I stubbornly insisted.<br>So Ethan prepared the dough with low-gluten flour. I crushed the energy bars and added chocolate to make the filling. And Volkov ... he used his Arts to freeze some water to make the molds. After two hours of work, we huddled together and did our best to eat the brown, malformed, and lukewarm balls that were hardly sweet. Volkov swore on our mooncakes' authenticity. I pondered for a while and decided to save my furious vulgarities for other occasions. Another two hours passed and I woke up on the snow. The "moon" was in my eyes and I learned, first hand, why they called anti-freeze "moonshine". But it was then when I felt that pale Talos-I was brighter than the moon of Terra. Unfortunately, my memories about the moon back home were fuzzy, too. <br>"Does it matter, really?" the kohl fairy of the anti-freeze whispered. <br>"Probably not," I answered, "We got a brand new moon in this distant land, and we've planted our roots." <br>It was at that moment when I felt the war had truly left me. Sure, this planet still terrifies me, but a tiny seed of hope had sprouted. I returned to the outpost to hear Volkov and Ethan talk about the latest intel. Minor scuffles in the refugee camps and holiday gift exchanges at other outposts... The war is behind us and the massive world of Talos-II awaits. An era of rebuilding and the future is coming. I now have faith that hope has returned to us.<br>— Excerpt of a Tianshi's diary entry on the eve of the Humiliation War}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

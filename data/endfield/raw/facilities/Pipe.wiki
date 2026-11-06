@@ -1,0 +1,25 @@
+{{Item infobox
+|name = Pipe
+|filename = item_log_pipe_01
+|images = Pipe icon.png:Icon;
+Pipe.png:Full
+|cnname = 管道
+|tcname = 管道
+|jpname = パイプ
+|krname = 파이프
+|spname = Tubería
+|runame = Труба
+|type = Facilities
+|rarity = 1}}
+'''Pipe''' is a [[Facilities|facility]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A logistics unit for transporting fluids or gases.|A survey revealed that nearly 30% of residents in the Civilization Band believe that a dark and massive underground kingdom exists within the sprawling urban sewers.}}
+==Usage==
+A logistics unit for transporting fluids or gases.
+==Acquisition==
+Research: AIC Factory Plan Technologies
+{{RecipeTable|product=Pipe}}
+
+==Navigation==
+{{Items}}
+[[Category:Facilities]]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Qingbo Positioning Kit T1
+|image = Qingbo_Positioning_Kit_T1.png
+|filename = item_equip_t4_suit_combo_cd01_edc_04
+|cnname = 清波定位仪·壹型
+|tcname = 清波定位儀·I
+|jpname = 清波探知器具Ⅰ
+|krname = 청파 위치 지정기 · I
+|spname = Kit de posicionamiento de Qingbo T1
+|runame = Локатор «Циньбо» К1
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Qingbo Positioning Kit T1''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Very economic equipment, created according to ancient scrolls and books found in Qingbo Stockade.
+A simple device that integrates the functions of aquifer dowsers and magnetic compasses. According to records, this gadget achieved great deeds during the early years of Qingbo Stockade.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Physical DMG Bonus
+|tvalue = +23.0%, +25.3%, +27.6%, +29.9%
+|setname = Qingbo
+|seteffect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+When the wearer casts a combo skill, the wearer gains Skill DMG Dealt {{Color|+20%|1d}} (for every skill) for 15s. This effect can reach 2 stacks. Duration of each stack is counted separately.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Qingbo}}
+{{Gears|state=collapsed}}

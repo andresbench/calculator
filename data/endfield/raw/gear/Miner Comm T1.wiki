@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Comm T1
+|image = Miner_Comm_T1.png
+|filename = item_equip_t3_parts_tundra01_edc_04
+|cnname = 矿场联络仪·壹型
+|tcname = 礦場聯絡儀·I
+|jpname = 鉱山通信機Ⅰ
+|krname = 광산 통신기 · I
+|spname = Comunicador de minero T1
+|runame = Рация шахтера К1
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Comm T1''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Will
+|pvalue = +31
+|sstat = Treatment Bonus
+|svalue = +15.6%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

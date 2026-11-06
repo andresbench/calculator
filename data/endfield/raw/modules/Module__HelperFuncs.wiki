@@ -1,0 +1,46 @@
+p = {}
+
+-- Func to escape rgx sensetive characters that may be used in templates or pages text
+function escape_pattern(s)
+    return (s:gsub("([%^%$%(%)%%%.%[%]%*%+%-%?])", "%%%1"))
+end
+
+function p.endswith () 
+	args = mw.getCurrentFrame().args
+	return args[1]:sub(-#args[2]) == args[2]
+end
+
+function p.startswith ()
+	args = mw.getCurrentFrame().args
+	return args[1]:find('^' .. args[2]) ~= nil
+end
+
+function p.test_pg_return ()
+	args = mw.getCurrentFrame().args
+	return "<pre>page=[" .. mw.title.new(args.page_name or args[1]).content .. "]</pre>"
+end
+
+function p.rgx_match ()
+	args = mw.getCurrentFrame().args
+	-- Define all used parameters
+	pg_name = args.page_name or args[1]
+	pattern = mw.text.unstripNoWiki(args.pattern):gsub("\\n", "\n")
+	start_s = args.start_s or args[2]
+	end_s = args.end_s or args[3]
+	text = mw.title.new(pg_name).content
+	
+	assert(text ~= nil, 'Page\'s "' .. pg_name .. '" text isn\'t found on wiki. Check the name for typo or namespace' ) -- Check if page exist, else write that page not found
+	
+	if pattern and pattern:match("%S") then
+		return table.concat({ text:match(pattern) }, "@@@")
+	else
+		return text:match(escape_pattern(start_s) .. '.-' .. escape_pattern(end_s))
+	end
+end
+
+function p.rgx_escape () 
+	args = mw.getCurrentFrame().args
+	return escape_pattern(args[1] or args.str)
+end
+
+return p

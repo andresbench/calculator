@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Pipe Control Port
+|filename = item_log_pipe_conditioner
+|images = Pipe Control Port icon.png:Icon;
+Pipe Control Port.png:Full
+|cnname = 管道准入口
+|tcname = 管道准入口
+|jpname = パイプ通過制御口
+|krname = 파이프 컨트롤 포트
+|spname = Puerto de control de tuberías
+|runame = Порт проверки труб
+|type = Logistics Units
+|rarity = 2}}
+'''Pipe Control Port''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An adjustable pipe logistics unit that controls the type and quantity of fluids passed through the pipe.|Control gives efficiency.}}
+==Usage==
+An adjustable pipe logistics unit that controls the type and quantity of fluids passed through the pipe.
+
+Pipe Control Ports can limit the fluid and the quantity of fluids allowed to pass through pipelines. Use Pipe Control Ports in blueprints to mark the type of fluid to be moved through various pipelines.
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Pipe Control Port]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:logistics Facilities]]

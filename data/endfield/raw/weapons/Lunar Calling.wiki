@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Lunar Calling
+|rarity = 6
+|images = 
+Lunar_Calling icon.png:Icon;
+Lunar_Calling.png:Full;
+Lunar_Calling max model.png:Max
+|filename = wpn_sword_0025
+|cnname = 唤月
+|tcname = 喚月
+|jpname = 問月
+|krname = 환월
+|spname = Llamado lunar
+|runame = Зов луны
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Lunar Calling''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A symbolic masterpiece of Hongshan Swordmancers. The weapon is constructed using the latest metal smelting technologies and forged with ancient Yanese sword-forging techniques. The result features both excellent performance and time-tested beauty.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 148, 250, 352, 454, 505
+|pot = Skill {{Color|Infliction: Coursing Stars|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Warp Plasma-Coated Slide|16}} {{I|Protocolith|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Will [L]|ATK [L]|Infliction: Coursing Stars}}
+
+==Basic Info==
+{{Quote|I've seen that storyteller. Back then, he found a place at a corner of the city. He wore a crazed look about him and talked about nothing but swords. <br>The swordmancers he described walked all sorts of paths. Some committed themselves to altruism and saving the world, some went on a solo pilgrimage of the blade, while others roamed the world to seek someone to challenge. Different swordmancers carried different swords, but every weapon was razor sharp and a legend in its own right. Whenever the storyteller got too excited, he would pick up his worn sword and perform his dance of flourishes, a flurry of cold gleaming light slicing through the wind. It was amazing to everyone in the audience. People thought they were seeing the ultimate art of swordmancy. <br>As for the storyteller's origin, people had all sorts of stories too, but none of them seemed concrete. From his outfits, people thought that he was a former Tianshi. Someone was inquisitive enough to ask, but the storyteller responded by saying, "Is that really important? I'm but a most simple traveler, a storyteller, and a seeker of the sword, an ordinary person who only narrates stories of the razor edges." <br>He was still reciting sword tales on the day he bid me farewell. The hour grew late and the audience had left. I was the only one left. As a swordsmith, I could hardly contain my curiosity about his past and the blade he carried. So I finally found the chance to ask before he went his way: "Many sword tales you have shared, storyteller. Do you have a tale for the blade you carry?" <br>The storyteller sat by a table and emptied the cask of kohl he had ordered. <br>Half-drunk, the storyteller began his story. He once heard about "Lunar Calling", a blade lost upon Talos-II, a weapon forged by a master smith of Great Yan. It struck with incredible momentum that could defeat everything in its path. After he crossed the Cosmic Gate and arrived at Talos-II, his way home was soon severed. His search for the blade became his only obsession and he traveled the entire Civilization Band to find it. He found many who claimed to have seen the weapon, yet their descriptions varied greatly. Confused by the disparate testimonies, the storyteller was convinced that the "Lunar Calling" might simply be a fictional legend, and he even decided to end his fruitless journey. <br>One day while he rested in the wilderness, he saw a youth trapped by several Aggeloi and rescued him. The grateful youth suddenly took notice of the sword he wielded and could barely mask his surprise: "The pattern of the blade body, and the colors of the hilt... They're just like what the legend has told. Sir, might you be the wielder of the 'Lunar Calling'?" <br>The sudden revelation first stunned the storyteller before leaving him dazed. He traveled long and far, and fought a few battles to help those in need. People talked about his deeds, and even swore that his blade was 'Lunar Calling' itself. <br>The epiphany arrived in an instant and all the leads came down to one — the disparate testimonies were not wrong. Lunar Calling was not a single blade, but a multitude of razors. It was not a name given to a single piece. Many weapons had once earned this title by deeds. <br>Having lavished me with a story, he rose to leave. <br>"I suppose we could add something to this tale," my emotions stirred as I looked at the moon's reflection in my kohl. <br>A smile beamed on the storyteller's face. "Yes, there should be something else." <br>With that, he waved his hand and walked into the night. No one knew what happened afterwards. <br>The tale was done and the blade was forged. I gave it to the young yet calm swordmancer before me. The moonlight gleamed as he gave it a flick. The sword gave a soft hum that echoed long and gently in the night. <br>The swordmancer solemnly accepted my work. Something was on his mind, but he gave his thanks before leaving. I saw him gradually blend into the moonlight itself — <br>My vision blurred. I wondered to myself. Did I see a swordmancer walking in the night, or a sword reflecting the call of the moon?}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

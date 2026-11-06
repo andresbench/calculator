@@ -1,0 +1,145 @@
+{{Physical Status tab}}
+{{Status infobox
+|Crush
+|Applies {{G|Vulnerable}} on an enemy. If the enemy is already {{G|Vulnerable}}, then consume all {{G|Vulnerable}} stacks and deal massive {{Color|Physical DMG|2}}.
+|image = [[File: Crush icon.png]]
+|type = Debuff, Damage Instance
+|source = Operator
+}}
+
+{{Icon|Crush icon|'''Crush'''}} is a type of debuff and damage instance applied to enemies in ''[[Arknights: Endfield]]''.
+
+When an operator applies Crush to an enemy that is not currently {{G|Vulnerable}}, a stack of Vulnerability is applied instead. Otherwise, it consumes all Vulnerability stacks on the target and applies '''Crushed''': Deals {{Color|300% – 750% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator.
+
+The following table shows the amount of damage dealt to the target based on the {{G|Status Level}} or the number of stacks consumed:
+
+{|class="wikitable wikitable-mobile"
+!Status Level
+!Crush DMG
+|-
+|I
+|{{Color|300% ATK|1d}}
+|-
+|II
+|{{Color|450% ATK|1d}}
+|-
+|III
+|{{Color|600% ATK|1d}}
+|-
+|IV
+|{{Color|750% ATK|1d}}
+|-
+|}
+
+Some skills such as {{Icon|Mi Fu icon|[[Mi Fu]]'s}} {{Color|World Splitter|7}} deal their damage as Crush DMG and are increased by [[Arts Intensity]] but not {{G|Link}} or Battle Skill DMG Bonus. This damage is not considered as being '''Crushed''' or as applying a Physical Status such as for the purposes of {{Icon|Pogranichnik icon|[[Pogranichnik]]'s}} {{Color|Shieldguard Banner, Forward|7}}.
+
+{{TOC limit|2}}
+{{Clr}}
+
+== Calculations ==
+===Physical DMG Instance/Crush DMG Instance===
+{{Main|Damage calculation}}
+Some operator combat skills are able to deal increased Crush DMG under certain conditions. This stacks <u>multiplicatively</u> with the base Crush DMG and with other damage multipliers.
+{{Operator table
+|content =
+{{Operator table row
+| name = Da Pan
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Dapan
+| name = MORE SPICE!
+| type = Combo
+| content = 
+<b>COMBO TRIGGER:</b> When an enemy reaches 4 stacks of {{G|Vulnerable|Vulnerability}}. <br /><b>SKILL DESCRIPTION:</b> Swings the wok at the enemy to deal massive {{Color|Physical DMG|1}} and {{G|Crush|Crush}}. This {{G|Crush|Crush}} also deals more DMG.
+}}
+}}
+}}
+==Crush Sources==
+{{Patch-dependent}}
+{{Operator table
+|header = Source
+|content =
+{{Operator table row
+|name = Da Pan
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Dapan
+|name = MORE SPICE!
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy reaches 4 stacks of {{G|Vulnerable|Vulnerability}}. <br /><b>SKILL DESCRIPTION:</b> Swings the wok at the enemy to deal massive {{Color|Physical DMG|1}} and {{G|Crush|Crush}}. This {{G|Crush|Crush}} also deals more DMG.
+}}
+}}
+
+{{Operator table row
+|name = Endministrator
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Endmin
+|name = Constructive Sequence
+|type = Skill
+|content = 
+<b>SKILL DESCRIPTION:</b> A forceful burst of {{Color|Originium Crystals|7}} that attacks enemies within the area of effect. Deals {{Color|Physical DMG|1}} and applies {{G|Crush|Crush}}.
+}}
+}}
+
+{{Operator table row
+|name = Mi Fu
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Mifu
+|name = Qingbo Triplex
+|type = Skill
+|content = 
+<b>SKILL DESCRIPTION:</b> Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is {{Color|Cloudtrapper|7}}.<br />{{Color|MOVE 1 - Cloudtrapper|7}}: Costs {{Color|100|1d}} SP and {{G|SP Return|returns}}{{Color| 50|1d}} SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals {{Color|Physical DMG|1}} to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with {{Color|Trail and Mangle|7}}.<br />{{Color|MOVE 2 - Trail and Mangle|7}}: Costs {{Color|50|1d}} SP; Mi Fu unleashes a flurry of punches that deals {{Color|Physical DMG|1}} with the final punch applying {{G|Crush|Crush}}. If this Crush {{G|Debuff Consumption|consumes}} at least 3 {{G|Vulnerable|Vulnerability}} stacks from a single target, then the next battle skill will be temporarily replaced with {{Color|World Splitter|7}}.<br />{{Color|MOVE 3 - World Splitter|7}}: Costs {{Color|50|1d}} SP; Mi Fu deals massive {{Color|Physical DMG|1}} to a specified area; this DMG is not treated as Battle Skill DMG, but as {{G|Crush|Crush}} DMG.
+}}
+}}
+}}
+== Crush DMG Sources ==
+'''Crush DMG Sources''' refer to operator combat skills that deal {{G|Crush|Crush DMG}} instead of {{Color|Battle Skill DMG|7}}.
+{{Operator table
+|header = Source
+|content =
+{{Operator table row
+|name = Mi Fu
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Mifu
+|name = Qingbo Triplex
+|type = Skill
+|content = 
+<b>SKILL DESCRIPTION:</b> Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is {{Color|Cloudtrapper|7}}.<br />{{Color|MOVE 1 - Cloudtrapper|7}}: Costs {{Color|100|1d}} SP and {{G|SP Return|returns}}{{Color| 50|1d}} SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals {{Color|Physical DMG|1}} to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with {{Color|Trail and Mangle|7}}.<br />{{Color|MOVE 2 - Trail and Mangle|7}}: Costs {{Color|50|1d}} SP; Mi Fu unleashes a flurry of punches that deals {{Color|Physical DMG|1}} with the final punch applying {{G|Crush|Crush}}. If this Crush {{G|Debuff Consumption|consumes}} at least 3 {{G|Vulnerable|Vulnerability}} stacks from a single target, then the next battle skill will be temporarily replaced with {{Color|World Splitter|7}}.<br />{{Color|MOVE 3 - World Splitter|7}}: Costs {{Color|50|1d}} SP; Mi Fu deals massive {{Color|Physical DMG|1}} to a specified area; this DMG is not treated as Battle Skill DMG, but as {{G|Crush|Crush}} DMG.
+}}
+}}
+}}
+== Interactions ==
+{{Operator table
+|header = Interaction
+|content =
+{{Operator table row
+|name = Pogranichnik
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Pogranichnik
+|name = Full Moon Slash
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When {{G|Crush|Crush}} or {{G|Breach|Breach}} {{G|Debuff Consumption|consumes}} the enemy's {{G|Vulnerable|Vulnerability}} stack(s). <br /><b>SKILL DESCRIPTION:</b> Performs a number of slash sequences (up to 3) based on the max number of {{G|Vulnerable|Vulnerability}} stacks {{G|Debuff Consumption|consumed}} from one enemy, dealing {{Color|Physical DMG|1}} and recovering some SP. Each slash deals more DMG and gives better SP recovery. <br />{{Color|Consuming 4 stacks of Vulnerability enhances the 3rd slash sequence.|9}}
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* <b>Beta Test II</b>
+** {{Color|<u>Knock Back</u>|2}} renamed to {{G|Crush}}.
+** {{G|Crush}} changed.
+*** <b>New:</b> When an operator applies {{G|Crush}} to a {{G|Vulnerable}} enemy, {{G|Debuff Consumption|consume}} all {{G|Vulnerable|Vulnerability}} stacks to deal additional {{Color|Physical DMG|2}} based on the number of stacks consumed.
+*** <b>Old:</b> When an operator applies {{Color|<u>Knocked Back</u>|2}} to a {{G|Vulnerable}} enemy, {{G|Debuff Consumption|consume}} the debuff to deal additional {{Color|Physical DMG|2}} and apply {{Color|Stagger|8}}.
+* <b>Beta Test I</b>
+** {{Color|<u>Knock Back</u>|2}} added.
+*** When an operator applies {{Color|<u>Knocked Back</u>|2}} to a {{G|Vulnerable}} enemy, {{G|Debuff Consumption|consume}} the debuff to deal additional {{Color|Physical DMG|2}} and apply {{Color|Stagger|8}}.
+*** When an operator applies {{Color|<u>Knocked Back</u>|2}} to a non-{{G|Vulnerable}} enemy, apply {{G|Vulnerable}} instead.
+}}
+
+{{Combat mechanics}}
+[[Category:Physical Status]]

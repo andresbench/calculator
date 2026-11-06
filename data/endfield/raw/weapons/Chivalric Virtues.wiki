@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Chivalric Virtues
+|rarity = 6
+|images = 
+Chivalric_Virtues icon.png:Icon;
+Chivalric_Virtues.png:Full;
+Chivalric_Virtues max model.png:Max
+|filename = wpn_funnel_0010
+|cnname = 骑士精神
+|tcname = 騎士精神
+|jpname = 騎士精神
+|krname = 기사도 정신
+|spname = Virtudes caballerescas
+|runame = Рыцарская добродетель
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Chivalric Virtues''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the Arts units developed by Mieszko Industries. The weapon features special D64 steel chassis and a suite of customizable modules. Its appearance reminds people of firework displays of knight majors from the past.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 49, 142, 240, 338, 436, 485
+|pot = Skill {{Color|Medicant: Blight Fervor|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [L]|HP [L]|Medicant: Blight Fervor}}
+
+==Basic Info==
+{{Quote|The legendary Spokesman Malkiewicz did not leave us a legacy of boredom, dullness, or ascetic suffering. No! We Talosians have more than our fair share of suffering and pain! We have to deal with the Blight, the blasted Aggeloi, and an unforgiving and hostile world! This is why we need something indispensable to every community and civilization — WE NEED EXCITEMENT!<br>And Little Jakubin is right! We successfully preserved a few forms of entertainment from Old Terra. We got books, movies, cards, and video games. But why am I so passionate about this particular form of entertainment? Why do I keep harping all day about the Renaissance of the Majors?<br>Alright! Settle down! SETTLE DOWN! And enough with the rumors! I'm no Terranist! I'm definitely NOT a Returnist! Talos is my sole focus! Do you think I'm doing all this because I miss Kazimierz? NIE! My old man didn't even leave me a photo of that distant place when I was born!<br>NIE! My friends! I am a man of the moment! I care about the "NOW"! And this is why I spent my life's fortune to build this underground arena at my hometown!<br>People! We're no longer on the spotless and elegant boulevards of Old Terra! We're on an alien world! A new land! A WILD LAND! Literature? PFFT. Movies?! BLEGH! These nonsense make our youths soft and shackle them to their cozy little bunks all day! Can you expect bookish nerds to haul carts of Originium Ore at a UWST factory? Will you feel safe if the Order of Steel Oath garrison their fortresses and fight the Aggeloi with skinny lads wearing thick spectacles?<br>Think about the time when our youths fought in the Majors! Remember how they encouraged us to forge ever more powerful weapons and warriors! How it forced us to perfect our way of wielding the Arts! A sport that venerates our martial traditions is exactly what we need to fight and beat this unforgiving world to the ground! In other words, and this is for your ears alone — the TGCC and the military are definitely going to back us up for this great endeavor!<br>NIE! NIE! We're not breeding barbarians or brainless muscleheads! The Major is indeed a martial sport, but its aim is to hone our physical and mental strengths! Isn't that the epitome of knightly virtues?<br>Ethics...? Yes, it might be ... necessary... But we also need to make money first. Rake in the creds and we'll talk about ethics later.<br>Enough with your silly ideas, Redchin. I heard that your surgeon of a son was assigned to the North. You probably won't worry as much if the boy had more meat on him!<br>Oh! You're definitely right! In fact, I think the Order of Steel Oath will be interested in making an investment... Hmm. Think about this. If a few of our arena superstars get famous enough, we'll be attracting more than just one moneybag. That's what they told me about old Kazimierz! They created superstars out of their Knights! Super Knights!<br>Investment? Of course ... investments. Good people, I didn't call everyone here just to make you hear me waggle my tongue... Fine. I'll get straight to the point. I've already recruited the first batch of arena contenders. We got a few engineers, surgeons, and raiders... But these are just the appetizers. I found two actual veterans. They will give us the show we want!<br>Ah. You make a great point! That's the slow and steady way to go, but once I blanket every street and wall with posters of my exhilarating Major, the starting price would be way, way higher... Forget it. By the time the Oathkeepers approach me for an investment, I wouldn't need your money from your cereal trade no more, Wujek!<br>Alright! Has anyone not signed? Good.<br>Now since this pot of creds came from our family, it is only fitting that we name the arena after our family... And that's not all! When the Major becomes THE MOST IMPORTANT event in this world, the entire league will bear our name!<br>— The Hannicke League!}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

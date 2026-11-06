@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Rift Trekker Armor Slab
+|image = Rift_Trekker_Armor_Slab.png
+|filename = item_equip_t4_parts_wuling02_edc_01
+|cnname = 涉渊护甲板
+|tcname = 涉淵護甲板
+|jpname = 渡淵装甲板
+|krname = 절망 방탄 방어구
+|spname = Losa de armadura de Trotagrietas
+|runame = Бронепластина «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Armor Slab''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequently carry out missions in high threat areas. 
+"I shall chip the stone, and mark the head of my eternal bed."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +43, +47, +51, +55
+|sstat = Secondary Attribute
+|svalue = +21.6%, +23.8%, +25.9%, +28.1%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

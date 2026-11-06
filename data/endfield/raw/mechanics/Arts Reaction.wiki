@@ -1,0 +1,250 @@
+{{Hatnote|Not to be confused with [[Arts Infliction]] which applies [[Arts Reaction]] under certain conditions.}}
+
+[[Arts Reaction]] is a [[Combat Mechanic]] in [[Arknights: Endfield]].
+
+== Overview ==
+[[Arts Reaction|Arts Reactions]] are debuffs applied by both Operators and Enemies. The effects and duration of a debuff depends on its [[Arts Reaction#Types|type]] and {{G|Status Level}}. 
+
+'''Friendly'''
+
+Some [[Operators]] are capable of applying [[Arts Reaction|Arts Reactions]] to [[Enemies]].
+* If an operator applies an [[Arts Infliction]] of one element to an enemy with Arts Infliction of a different element, then the first element is {{G|Debuff Consumption|consumed}} to trigger an Arts Reaction.
+** The first element may be referred to as the <u>stacking</u> element and determines the Status Level of the reaction.
+** The second element may be referred to as the <u>triggering</u> element and determines the element of the reaction. The reaction also deals an initial instance of {{G|DMG Type|Arts DMG}} with the type based on this element and the damage amount based on the Status Level of the reaction.
+* Some operator skills can also {{Tooltip/Forcibly apply|Arts|forcibly apply}} an Arts Reaction without requiring two different Arts Inflictions to be applied.
+** Forced reactions do not consume any existing Arts Inflictions already applied on the enemy (if any) and apply the reaction as {{G|Status Level|Status Level I}} (unless otherwise specified).
+** Forced reactions do not deal the initial instance of Arts DMG caused by applying multiple Arts Inflictions of different elements.
+
+'''Hostile'''
+
+Some Enemies are capable of applying [[Arts Reaction|Arts Reactions]].
+* When an Operator reaches four stacks of Arts Inflictions of the same element, all existing Arts Infliction stacks of that element are removed to trigger an Arts Reaction.
+
+== Types ==
+[[File:Combustion icon.png|16x16px|link=]] [[Combustion|'''Combustion''']]
+* '''Friendly'''
+** Deals initial Heat DMG and {{G|DMG Over Time|Heat DMG Over Time}} per second for {{Color|10|1d}} seconds (unless otherwise specified). Triggered by applying {{G|Heat Infliction}} to an enemy with a ([[File:Electric Infliction icon.png|16x16px|link=]]/[[File:Cryo Infliction icon.png|16x16px|link=]]/[[File:Nature Infliction icon.png|16x16px|link=]]) Non-Heat Infliction.
+* '''Hostile'''
+** Deals a portion of the operator's maximum health as Heat DMG and {{G|DMG Over Time|Heat DMG Over Time}} per second for {{Color|8|1d}} seconds. This effect ignores the operator's defense but can be reduced by Heat Resistance, Heat DMG Reduction, or {{G|Protect}}. Triggered by applying four Heat Infliction stacks to the Operator.
+
+[[File:Electrification icon.png|16x16px|link=]] [[Electrification|'''Electrification''']]
+* '''Friendly'''
+** Deals initial Electric DMG and applies {{G|DMG Type|Increased Arts DMG Taken}}<ref>[[Damage_calculation#Increased_DMG_Taken_Multiplier|Damage Calculation  – Increased DMG Taken Multiplier]]</ref> to the enemy. Triggered by applying {{G|Electric Infliction}} to an enemy with a ([[File:Heat Infliction icon.png|16x16px|link=]]/[[File:Cryo Infliction icon.png|16x16px|link=]]/[[File:Nature Infliction icon.png|16x16px|link=]]) Non-Electric Infliction.
+* '''Hostile'''
+** There are currently no enemies or enviromental effects capable of applying Electrification. The in-game tutorial states: "Certain enemy skills can apply stacks of Electric Infliction to operators. At 4 stacks, the operator becomes Electrified: Temporarily stunned and take more Arts DMG for a certain duration."
+
+[[File:Solidification icon.png|16x16px|link=]] [[Solidification|'''Solidification''']]
+* '''Friendly'''
+** Deals initial Cryo DMG and makes the enemy unable to move for a duration. Applying {{G|Vulnerable}} or a {{G|Physical Status}} while the enemy is in this state {{G|Debuff Consumption|consumes}} {{G|Solidification}} to apply {{G|Shatter}}, dealing additional Physical DMG. Triggered by applying {{G|Cryo Infliction}} to an enemy with ([[File:Heat Infliction icon.png|16x16px|link=]]/[[File:Electric Infliction icon.png|16x16px|link=]]/[[File:Nature Infliction icon.png|16x16px|link=]]) Non-Cryo Infliction. 
+* '''Hostile'''
+** Temporarily prevents the operator from moving for a certain duration. This includes any movement or skill actions. The player is also unable to switch to or away from a solidified Operator. Triggered by applying four Cryo Infliction stacks to the Operator.
+
+[[File:Corrosion icon.png|16x16px|link=]] [[Corrosion|'''Corrosion''']]
+* '''Friendly'''
+** Deals initial Nature DMG, applies an initial {{Color|Increased Resistance Multiplier|7}}<ref>[[Damage_calculation#Resistance_Multiplier|Damage Calculation – Resistance Multiplier]]</ref> to the enemy, and additional Increased Resistance Multiplier effect per second for {{Color|10|1d}} seconds. {{G|Corrosion}} lasts for {{Color|15|1d}} seconds (unless otherwise specified). Triggered by applying {{G|Nature Infliction}} to an enemy with a ([[File:Heat Infliction icon.png|16x16px|link=]]/[[File:Electric Infliction icon.png|16x16px|link=]]/[[File:Cryo Infliction icon.png|16x16px|link=]]) Non-Nature Infliction.
+* '''Hostile'''
+** There are currently no enemies or enviromental effects capable of applying Corrosion. The in-game tutorial states: "Certain enemy skills can apply stacks of Nature Infliction to operators. At 4 stacks, the operator becomes Corroded: Cannot dash and suffer movement speed reduction for a certain duration."
+
+===Notes===
+{{reflist}}
+
+== Calculations ==
+<tabber>
+|-|Arts DMG=
+
+* The following effects stack {{Tip|multiplicatively|Unofficial term: multiplied with each other}} with the Initial Base Arts DMG:
+** Each operator level increases the Base Initial Arts DMG by {{Tip|{{Color|~0.51%|1d}}|0.510204081%}}.
+*** <math>{Level\,Multiplier} = \dfrac{195 + Operator\,Level}{196}</math><br>
+** Each point of [[Arts Intensity]] increases the Base Initial Arts DMG by {{Color|1%|1d}}.
+*** <math>{Arts\,Intensity\,Multiplier} = \dfrac{100 + Arts\,Intensity}{100}</math><br>
+** If the damage critically strikes, increases the Base Initial Arts DMG by some amount equal to the [[Critical DMG]].
+*** <math>
+{Critical\,Multiplier} =
+\begin{cases} 
+1 + {Critical\,DMG},  & \mbox{if the hit is critical}\\
+1, & \mbox{if the hit is not critical} 
+\end{cases}
+</math>
+** If the enemy is {{Color|Staggered|8}}, increases the Base Initial Arts DMG by {{Color|30%|1d}}.
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Arts DMG to form the <b>Multiplier Group</b>:
+** <math>{Multiplier\,Group} = 1 + \sum {Damage\,Bonuses}</math><br>
+** Arts DMG Bonus
+** Heat DMG Bonus, Electric DMG Bonus, Cryo DMG Bonus, or Nature DMG Bonus (based on the type of Arts Reaction)
+** If the enemy is {{Color|Staggered|8}}, DMG Bonus vs. Staggered
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Arts DMG to form the <b>Amp Multiplier</b>:
+** <math>{Amp\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** {{G|Arts Amp}}
+** {{G|Heat Amp}}, {{G|Electric Amp}}, {{G|Cryo Amp}}, or {{G|Nature Amp}} (based on the type of Arts Reaction)
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Arts DMG to form the <b>Susceptibility Multiplier</b>:
+** <math>{Susceptibility\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** {{G|Arts Susceptibility}}
+** {{G|Heat Susceptibility}}, {{G|Electric Susceptibility}}, {{G|Cryo Susceptibility}}, or {{G|Nature Susceptibility}} (based on the type of Arts Reaction)
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Arts DMG to form the <b>Increased DMG Taken Multiplier</b>:
+** <math>{Increased\,DMG\,Taken\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** If the enemy is affected by Arts DMG Taken effects
+** If the enemy is affected by Heat DMG Taken, Electric DMG Taken, Cryo DMG Taken, or Nature DMG Taken effects (based on the type of Arts Reaction)
+** If the enemy is affected by {{G|Electrification}}, increases the sum multiplier by {{Color|12 – 24% (based on the Status Level)|1d}} at Base Strength
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Arts DMG to form the <b>Resistance Multiplier</b>:
+** <math>{Resistance\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** The enemy's Innate Heat Resistance, Electric Resistance, Cryo Resistance, or Nature Resistance (based on the type of Arts Reaction) decreases the sum multiplier
+** Ignore Heat Resistance ([[Laevatain]]) or Ignore Electric Resistance ([[Zhuang Fangyi]]) (if Combustion or Electrification is applied, respectively)
+** If the enemy is affected by {{G|Corrosion}}, increases the sum multiplier by {{Color|3.6% – 24% (based on the Status Level & Total Duration Elapsed)|1d}}
+</tabber>
+
+== Interactions ==
+{{Hatnote|This list only contains interactions with multiple [[Arts Reaction|Arts Reactions]]. For interactions with a specific Arts Reaction, please see the individual Arts Reaction subpages.}}
+<tabber>
+|-|Operators=
+{{Operator table
+|header = Interaction
+|content =
+
+{{Operator table row
+|name = Alesh
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Alesh
+|name = Auger Angling
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the {{G|Arts Reaction}} or {{G|Originium Crystal|Originium Crystals}} of a nearby target is {{G|Debuff Consumption|consumed}}.
+}}
+}}
+
+{{Operator table row
+|name = Gilberta
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Gilberta
+|name = Arcane Staff: Matrix Displacement
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an {{G|Arts Reaction}} is applied to an enemy.
+}}
+}}
+
+{{Operator table row
+|name = Laevatain
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Laevatain
+|name = Seethe
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy suffers {{G|Combustion}} or {{G|Corrosion}}.<br><br>
+Against enemies with {{G|Combustion}} or {{G|Corrosion}}, deal additional {{Color|Heat DMG|3}} and gain 1 {{Color|Melting Flame|7}} stack and Ultimate Energy based on the number of enemies hit.
+}}
+}}
+
+{{Operator table row
+|name = Liino
+|content=
+{{Operator table row/Combat skill
+|icon= Combo-Liino
+|name=Delightful Harmonics
+|type= Combo
+|content=
+<b>COMBO TRIGGER:</b> While {{Color|Vocalist Stance|7}} is active, an {{G|Arts Reaction|Arts Reaction}} is {{G|Debuff Consumption|consumed}} or is applied on an enemy.<br />}}
+}}
+
+{{Operator table row
+|name = Wulfgard
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Wulfgard
+|name = Thermite Tracers
+|type = Skill
+|content = 
+Against enemies with {{G|Combustion}} or {{G|Electrification}}, do not apply {{G|Heat Infliction|Heat Infliction}}; instead fire an additional shot that deals {{Color|Heat DMG|3}} and {{G|Debuff Consumption|consumes}} the {{G|Combustion}} or {{G|Electrification}}.
+}}
+{{Operator table row/Combat skill
+|icon = Wulfgard Talent 2 icon
+|name = Code of Restraint
+|type = Talent
+|content = 
+Battle skill {{Color|Thermite Tracers|7}} improved: {{G|Debuff Consumption|Consuming}} an {{G|Arts Reaction}}{{Note|This Talent's description mentions {{G|Debuff Consumption|consumption}} of any Arts Reaction through {{Color|Thermite Tracers|7}}, but the battle skill is only able to consume Combustion and Electrification.}} {{G|SP Return|returns}} some SP.
+}}
+}}
+}}
+{{Notelist}}
+
+|-|Weapons=
+{{Template:Weapon_list
+| header = Interaction
+| content = 
+
+{{Template:Weapon_list_row
+|name = Clannibal
+|content = '''Infliction: Vicious Purge'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, the target enemy suffers {{Color|Heat DMG Taken|3}} {{Tooltip/Weapon skill rank|+10%|28%}} for 15s. {{Color|Effects of the same name do not stack. Effect only triggers once every 25s.|9}}
+}}
+ 
+{{Template:Weapon_list_row
+|name = Navigator
+|content = '''Infliction: Lone and Distant Sail'''<br>When {{G|Solidification}} or {{G|Corrosion}} is applied, the wielder gains {{Color|Cryo DMG Dealt|4}} and {{Color|Nature DMG Dealt|5}} {{Tooltip/Weapon skill rank|+3.5|9.8%}} and Critical Rate {{Tooltip/Weapon skill rank|+2|5.6%}} for 15s. If this effect is triggered by the wielder, double the increase gained. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+|name = Opus: The Living
+|content = '''Infliction: Road Home for All Life'''<br>When the wielder applies an {{G|Arts Reaction}}, the wielder gains ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+|name = Twelve Questions
+|content = '''Infliction: Sincere Interrogation'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+|name = Umbral Torch
+|content = '''Infliction: Covetous Buildup'''<br>When {{G|Combustion}} or {{G|Corrosion}} is applied, the wielder gains {{Color|Heat DMG Dealt|3}} and {{Color|Nature DMG Dealt|5}} {{Tooltip/Weapon skill rank|+8|22.4%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. Effect only triggers once every 0.1s.|9}}
+}}
+
+{{Template:Weapon_list_row
+|name = Wedge
+|content = '''Infliction: Wedge of Civilization'''<br>When the wielder casts a battle skill that applies an {{G|Arts Reaction}}, the wielder gains {{G|DMG Type|Arts DMG Dealt}} {{Tooltip/Weapon skill rank|+16|44.8%}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+ }}
+
+{{Template:Weapon_list_row
+|name = White Night Nova
+|content = '''Infliction: White Night Nova'''<br>When {{G|Combustion}} or {{G|Electrification}} is applied, the wielder gains {{G|DMG Type|Arts DMG Dealt}} {{Tooltip/Weapon skill rank|+12| 33.6%}} and Arts Intensity {{Tooltip/Weapon skill rank|+25|70}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+}}
+}}
+
+|-|Gears=
+{{GearSetsTable
+|header = Interaction
+|content =
+<tr><td>
+<span style="font-weight:600;">[[Hot Work]]</span><br>
+{{I|Hot Work Exo-Rig}} {{I|Hot Work Gauntlets}} {{I|Hot Work Power Bank}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+After the wearer applies {{G|Combustion}}, the wearer gains {{Color|Heat DMG|3}} {{Color|+50%|1d}} for 10s. After the wearer applies {{G|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} {{Color|+50%|1d}} for 10s. {{Color|The aforementioned effects do not stack.|9}}
+</td></tr>
+<tr><td>
+<span style="font-weight:600;">[[Pulser Labs]]</span><br>
+{{I|Pulser Labs Disruptor Suit}} {{I|Pulser Labs Gloves}} {{I|Pulser Labs Calibrator}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+After the wearer applies {{G|Electrification}}, the wearer gains {{Color|Electric DMG|6}} {{Color|+50%|1d}} for 10s. After the wearer applies {{G|Solidification}}, the wearer gains {{Color|Cryo DMG|4}} {{Color|+50%|1d}} for 10s. {{Color|These aforementioned effects do not stack.|9}}
+</td></tr>
+<tr><td>
+<span style="font-weight:600;">[[Xiranflow]]</span><br>
+{{I|Xiranflow Light Armor}} {{I|Xiranflow Gloves}} {{I|Xiranflow Baton}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+When the wearer {{G|Debuff Consumption|consumes}} {{G|Electrification}} or {{G|Corrosion}}, the wearer gains 1 stack of {{Color|Xiranflow|7}} per {{G|Status Level}} consumed (up to 3 stacks). For each stack of {{Color|Xiranflow|7}} the wearer gains {{Color|Electric DMG Dealt|6}} and {{Color|Nature DMG Dealt|5}} {{Color|+15%|1d}} for 25s. {{Color|Duration of each stack counted separately.|9}}
+</td></tr>
+}}
+</tabber>
+
+== Changelog ==
+{{Changelog|
+* <b>[[At the Wake of Spring]]</b>
+** The Arts Reaction debuff icons displayed below the enemy healthbar will now display its Status Level.
+* <b>Beta Test I</b> 
+** Arts Reactions added, replacing the [[Elemental Fusion]] system from the [[Technical Test]].
+** Combustion, Electrification, Solidification, and Corrosion types added.
+}}
+
+{{Combat mechanics}}
+[[Category:Arts Reactions]]

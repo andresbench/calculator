@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Hedron δ
+|image = Hedron_δ_sprite.png
+|filename = eny_0106_wgthorns2
+|cnname = 晶锥天使δ
+|tcname = 晶錐天使δ
+|jpname = 錐晶アンゲロスδ
+|krname = 수정아겔로스 · δ
+|spname = Hedron δ
+|runame = Полиэдр δ
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 20
+}}
+'''Hedron δ''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Diaphaistagran Dinedon" (archive ID: ARM315δ) is an energized variant of ARM315. When irradiated by sunlight, it gives off a shimmering purple light. However, it assumes a different form when irradiated by light reflecting off Talos.}}
+
+==Stats==
+{{Enemy data
+|HP = 208, 1490, 9430, 37126, 89303, 137575
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 90
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *The projectiles it launches apply Cryo Infliction to operators upon hit.
+|location = *[[Wuling City]]
+*[[Marker Stone]]
+*[[Energy Alluvium: Wuling City]]
+*[[Energy Alluvium: Marker Stone]]
+|drops = {{I|Natural Sparkling Water}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Hedron]], Hedrons δ have similar appearance with their counterpart, but it doesn't make them more of the threat; Aside from a shot, which deals Cryo damage and {{G|Cryo Infliction}} in an area, they can dash to Operators, which deals Cryo damage.
+
+==See Also==
+*[[Hedron]] - an alternate version of Hedron δ.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 208, 1490, 9430, 37126, 89303, 137575 from 208, 1753, 11094, 37126, 89303, 137575
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

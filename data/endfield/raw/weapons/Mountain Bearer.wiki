@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Mountain Bearer
+|rarity = 6
+|images = 
+Mountain_Bearer icon.png:Icon;
+Mountain_Bearer.png:Full;
+Mountain_Bearer max model.png:Max
+|filename = wpn_lance_0012
+|cnname = 负山
+|tcname = 負山
+|jpname = 負山
+|krname = 산의 지배자
+|spname = Portador de montañas
+|runame = Хранитель Горы
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''Mountain Bearer''' is a 6★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An experimental lance developed by Hongshan Swordmancers. The shaft of the weapon was forged using a special alloy to achieve both strength and resilience.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Efficacy: Weight of Mountain|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Agility [L]|Physical DMG [L]|Efficacy: Weight of Mountain}}
+
+==Basic Info==
+{{Quote|My ancestor was a well-learned man who lived at Shangshu. During one of his journeys, he encountered a sudden downpour that forced him to seek shelter beneath the cliffs. He made a warming fire with dried grass, and was about to sleep when he saw a strange individual wearing jet-black clothing. The entity had no eyes nor mouth and its arm was joined to the mountain itself. My ancestor thus asked this strange entity: "Sir, why is your arm joined with the rock?" <br>The strange being replied: <br>"I once lived in Baizao. One day, I dreamed of a tiny figure dressed in yellow who stood in the middle of my palm and it asked me about the weight of human life. 'It is heavier than the mountains.' I answered.<br>"The tiny figure smiled and replied: 'And I am the Ruler of the Kingdom in the Palm.' And with that, the tiny figure disappeared and was never seen again. I did not want to overturn its kingdom, and thus I placed my hand upon this very place and did not move it for a century. As the years passed, a great mountain gradually rose from my palm. You are looking at it right now."<br>My ancestor was confused and asked: "You are a kind and caring soul, but why allow yourself to be trapped here for so long? Your concerns are genuine and true, but why don't you severe your hand and be freed from this place?"<br>The strange being mused: "I do not know which weighs more — the Kingdom Upon the Palm, or the Palm Before My Wrist. Perhaps if I found the answer, I would be able to bear the weight of this mountain and travel with it."<br>The strange being then continued: "Now, leave me in peace, and you shall have yours." With that, my ancestor fell asleep. Dawn broke, but the strange being was not seen again. <br><br>I also heard about a herb that goes by the name Zhenhuang. The grass is mildly toxic and burning it generates hallucinogenic fumes. Perhaps this ancestor of mine had breathed in a whiff too many!}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

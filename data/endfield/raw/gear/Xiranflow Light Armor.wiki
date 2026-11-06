@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Xiranflow Light Armor
+|image = Xiranflow_Light_Armor.png
+|filename = item_equip_t4_suit_expend_spell01_body_02
+|cnname = 壤流轻甲
+|tcname = 壤流輕甲
+|jpname = 壌流軽防具
+|krname = 식양의 흐름 경갑
+|spname = Armadura ligera de Flujo Xiran
+|runame = Легкая броня «Ксиранад»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Xiranflow Light Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC Factory. This equipment can improve the wearer's combat capabilities.|Experimental equipment proposed as standard gear for the Wuling Watchguards.
+With Xiranite mass production guaranteed, many shelved Xiranite equipment R&D projects were moved back on schedule.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Will
+|pvalue = +87, +95, +104, +113
+|sstat = Intellect
+|svalue = +58, +63, +69, +75
+|tstat = Cryo & Electric DMG
+|tvalue = +11.5%, +12.7%, +13.8%, +14.9%
+|setname = Xiranflow
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+10%|1d}}.
+Whenever the wearer {{G|Debuff Consumption|consumes}} {{G|Electrification|Electrification}} or {{G|Corrosion|Corrosion}}, the wearer gains a number of buff stacks equal to the {{G|Status Level|Status Level}} of the Arts Reaction consumed, with each buff stack giving {{Color|Electric DMG Dealt|6}} and {{Color|Nature DMG Dealt|5}} {{Color|+15%|1d}} for 25s. Max number of buff stacks: 3. Duration of each stack is counted separately.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Xiranflow}}
+{{Gears|state=collapsed}}

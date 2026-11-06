@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Elite Raider
+|image = Elite_Raider_sprite.png
+|filename = eny_0065_lbmob2
+|cnname = 精锐劫掠者
+|tcname = 精銳劫掠者
+|jpname = 略奪者・精鋭
+|krname = 약탈자 · 정예
+|spname = Asaltante de élite
+|runame = Элитный захватчик
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 11
+}}
+'''Elite Raider''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An elite Landbreaker melee combatant enhanced by fumes known as hazefyre. This particular LB has better gear, strength, and battle skills.}}
+
+==Stats==
+{{Enemy data
+|HP = 291, 2086, 13202, 51976, 125025, 192604
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 110
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.3
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[The Hub]]
+*[[Valley Pass]]
+*[[Originium Science Park]]
+*[[Power Plateau]]
+*[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Powdered Grass Seed}}
+|addendum = }}
+
+==Overview==
+[[Bonekrusher Raider]]s enhanced by hazefyre, Elite Raiders have similar appearance with their counterpart, but it doesn't make them more of a threat; Their only attack is an upward swing or a downward swing with their sword, which deals Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 291, 2086, 13202, 51976, 125025, 192604 from 291, 2455, 15532, 51976, 125025, 192604
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

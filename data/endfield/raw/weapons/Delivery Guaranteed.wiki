@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Delivery Guaranteed
+|rarity = 6
+|images = 
+Delivery_Guaranteed icon.png:Icon;
+Delivery_Guaranteed.png:Full;
+Delivery_Guaranteed max model.png:Max
+|filename = wpn_funnel_0011
+|cnname = 使命必达
+|tcname = 使命必達
+|jpname = 使命必達
+|krname = 사명의 길
+|spname = Entrega Garantizada
+|runame = Гарантированная доставка
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Delivery Guaranteed''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A classical top-tier product of RAYTHEAN. Its prototype was deployed in the First Aggeloi War. The weapon has received numerous upgrades and optimizations since then, with the modern version offering incredible firepower that translates into greater protection and safety of the delivery.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Pursuit: Duty Fulfilled|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [L]|ULT Efficiency [L]|Pursuit: Duty Fulfilled}}
+
+==Basic Info==
+{{Quote|Just two days ago when I was out skavenjin, I met a weird Perro lady.<br>She wore a weird outfit and din't look like nobody from the Hanna-Beet that looked after us. She was also dragging some kind of wreck. Called it her "motor" she did. Told us that the rocky-crawlies broke it.<br>She askd if I could lend my burdenbeast to her.<br>I din't want to.<br>I asked who she was, and she tolds me she's a "Messenger".<br>Messenger? Never head that name before.<br>Then she expleyned how a long time ago when the big cosmo gate was still around, Messengers used the gate to bring stoff from Talos-II to Terra, and then bring other stoff from Terra to Talos-II. She sed it was an exchange of longing and attachment.<br>But Da told me the cosmo gate is gone. And so was Terra.<br>She replyed that after the buggerloids were gone, peepo lost fays in each other, started wars, and biult walls around themselves. Just like the lil' sandbeast nearby burrowin into the sand and not coming out.<br>Wars?<br>She sed people started wars on the buggers and on each other. She sed me and my Da live a wild-land villejj 'cos our peepo wanted to avoid wars.<br>Anyways, I din't want to lend her my burdenbeast.<br>She then look into me eyes and got really mean and seerius. She tolds me she needs my burdenbeast so she could go tell the others that the wars ended.<br>She sed we lost our link with Terra but Messengers like her wud try to bring everyone on Talos-II together and biuld trust instead of walls.<br>She then said that she's the first Messenger after the war and how she gots this letter of peece for a person called Endd-Fyodd.<br>But I still din't want to lend her my burdenbeast.<br>She gave me this jentoe smile plus a floating metal ball flowting close to her. She sed its mighty expensiff, worth almost as much as her letter. Tolds me I can keep the flowting ball as a dee-paw-zit until she comes back with my burdenbeast.<br>Yeah, flowting stoff is usually expensiff.<br>So I agreed and lent her my burdenbeast. I tolds her my name and showed her the way to the villejj.<br>......<br>When I woke up in the morn, someone tolds me that my burdenbeast is hitched outside the villejj. There was a package in the bag, and a letter with my name on it.<br>It turned out to be the Lady Messenger.<br>She wrotes in the letter that I gets to keep that "deposit" as a token of her gratitude. She also thanked me and my burdenbeast for helping her get close to her destination.<br>She said the Age of Messengers is coming! I think she was happy when she wrotes that.<br>The package contains this "comms radio" with some instructions. Now everyone in the villejj can use this "radio" and call other Messengers nearby.<br>But who shud I wryt to? And where should I send my letter? I never left my villejj.<br>Maybe I should wryt to that Lady Messenger.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

@@ -1,0 +1,84 @@
+local p = {}
+local h = {}
+
+function p.query(query)
+	local copyQuery = mw.clone(query)
+	if type(copyQuery.tables) == 'table' then
+		copyQuery.tables = table.concat(copyQuery.tables, ',')
+	end
+	if type(copyQuery.fields) == 'table' then
+		copyQuery.fields = table.concat(copyQuery.fields, ',')
+	end
+	if type(copyQuery.join) == 'table' then
+		copyQuery.join = table.concat(copyQuery.join, ',')
+	end
+	if type(copyQuery.where) == 'table' then
+		copyQuery.where = p.concatWhere(copyQuery.where)
+	end
+	local result = mw.ext.cargo.query(
+		copyQuery.tables,
+		copyQuery.fields,
+		copyQuery
+	)
+	return result
+end
+
+-- after query
+
+function p.groupResultByValue(result, key, f)
+	local data = {}
+	for _, row in ipairs(result) do
+		local thisValue = row[key]
+		if thisValue ~= nil then
+			if not data[thisValue] then
+				data[thisValue] = { name = thisValue }
+			end
+			local thisTab = data[thisValue]
+			thisTab[#thisTab+1] = f and f(row) or row
+		end
+	end
+	return data
+end
+
+function p.store(row)
+	local title = mw.title.getCurrentTitle()
+	if CARGO_NAMESPACE and title.nsText ~= CARGO_NAMESPACE then
+		return
+	end
+	if not row then return end
+	local row2 = { '' }
+	for k, v in pairs(row) do
+		if type(v) == 'boolean' then
+			row2[k] = v and 'Yes' or 'No'
+		else
+			row2[k] = v
+		end
+	end
+	mw.getCurrentFrame():callParserFunction('#cargo_store', row2)
+	return
+end
+
+function p.storeAndAttach(row)
+	p.store(row)
+	mw.getCurrentFrame():expandTemplate{
+		title = ('%s/CargoAttach'):format(row._table),
+		args = {}
+	}
+end
+
+function p.setStoreNamespace(ns)
+	CARGO_NAMESPACE = ns
+end
+
+function p.concatWhere(tbl)
+	local arr = {}
+	for _, v in pairs(tbl) do
+		if v then
+			arr[#arr+1] = ('(%s)'):format(v)
+		end
+	end
+	if #arr == 0 then return nil end
+	return ('(%s)'):format(table.concat(arr, ' AND '))
+end
+
+return p

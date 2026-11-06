@@ -1,0 +1,29 @@
+{{Stat infobox
+|image=Critical Rate Icon.png
+|type=Other Stat
+|use=Determines the chance for a critical hit.
+
+|base_value=0.05
+|min_value=
+|max_value=
+|always_visible=Yes
+
+|cnname = 暴击率
+|tcname = 暴擊率
+|jpname = 会心率
+|krname = 치명타 확률
+|spname = Índice crítico
+|runame = Шанс крит. удара
+}}
+'''Critical Rate''' is a stat in ''[[Arknights: Endfield]]'' that denotes the probability for a critical hit.
+==Mechanics==
+Damaging hits have a chance to be critical, with the chance being determined by the Critical Rate. The damage of a critical hit is increased by the stat [[Critical DMG]] and can trigger effects like the set effect of the MI Security gear set or [[Artzy Tyrannical]]'s skill.
+
+Each damage instance individually rolls for a crit. For example, it is possible that a single strike hitting multiple enemies lands a critical hit against one enemy, but not a second enemy. Additionally, some Basic Attack Sequences and Skills split up their damage into multiple hits, which also individually roll for a critical hit.
+
+{{G|DMG Over Time|Damage over time effects}} such as {{G|Combustion}} cannot trigger critical hits. Though it is worth noting that this mechanic is inconsistent throughout the game: Some Skills are described as damage over time effect, despite them being able to crit. For example, Tangtang's Ultimate states "...and deals Cryo DMG over time to enemies..." and is capable of landing critical hits.
+
+
+[[File:Screenshot Critical Hit.jpg|thumb|A critical hit will have "Crit" displayed above its floating damage number.]]
+{{Clr}}
+{{Combat mechanics}}

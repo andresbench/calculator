@@ -1,0 +1,256 @@
+{{Operator infobox
+|name = Avywenna
+|rarity = 5
+|class = Striker
+|weapon = Polearm
+|element = Electric
+|faction = Talos-II General Chamber of Commerce (TGCC)
+|tags = Damage Dealer, Arts Susc.
+|main = Will
+|sub = Agility
+|starting = 
+|headhunting = standard
+|quote = Well, well, look who it is — the legendary Endministrator. I picked up a couple of whispers on my way here. Curious to know which one's the most accurate? Since you don't know me well yet, here's my offer: how about I tell you a secret in exchange for a little something about you? Whaddya reckon?
+|image = 
+Avywenna Splash Art.png
+|filename = chr_0012_avywen
+|cnname = 艾维文娜
+|tcname = 艾維文娜
+|jpname = アイビーエナ
+|krname = 아비웨나
+|spname = Avywenna
+|runame = Авивенна
+|fullname = Lamp Avywenna
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Eri_Kitamura Kitamura Eri]
+|cncv = [https://www.imdb.com/name/nm14889598/ Cai Na]
+|encv = [https://www.imdb.com/name/nm3956695/ Sheena May]
+|krcv = [https://en.namu.wiki/w/강은애 Kang Eun-ae]
+|gender = Female
+|authentication = Talos-II General Chamber of Commerce (TGCC)
+|birthdate = October 25
+|race = Cautus
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Standard
+|tactical = Standard
+|skill = Excellent
+|originium = Standard
+|exp1 = Street Wisdom
+|exp1d = Street Wisdom: Negotiator
+She has tagged a price for everything in this world, down to a single word, a single look, and a single thought.
+|exp2 = Agility
+|exp2d = Agility: Bouncy Fighter
+Do not underestimate her skills. While dodging and evading the opponent, she is always ready to make a lightning-quick pounce.
+|hb1 = Lifestyle
+|hb1d = Lifestyle: Life's Transit Points
+Not many people know that she enjoys making her lodgings as comfortable as possible. Even fewer know how many homes she actually owns.
+|hb2 = Fashion
+|hb2d = Fashion: Splurging on Jewelry
+It's not the shimmering glitter of jewelry, but the act of buying that brings her satisfaction. And she intends to truly spoil herself for this trip.
+|prefer = Valley Industry's Choice
+|matskill = JET, Cohesive Traction
+|matstats = Aggeloslayer
+}}
+'''Avywenna''' is a 5★ [[Electric]] [[Striker]] [[Operator]] from the [[TGCC]] in ''[[Arknights: Endfield]]''. She is a [[Polearm]] user who can throw Thunderlances into the battlefield and use her battle skill to retrieve all thrown lances at once, dealing massive {{Color|Electric DMG|6}} at one go.
+
+==Profile==
+"Messengers have to safely deliver plenty of secrets, and every one of them comes with a costly price tag. But there is one thing more expensive than the delivery itself, and that is ... my silence on these matters."<br/>Avywenna is an Armed Messenger.<br/>Before joining [[Endfield Industries]], she lived with a powerful logistics family in the Free City of Alloycarrot. Yet the wanderlust in her blood drove her to leave that life and begin her own journey. Across the many destinations of [[Talos-II]], she discovered a thread that bound them together — the mysterious [[Endministrator]].<br/>Avywenna shines in social settings, handling all kinds of relationships with maturity and professionalism. As to whether she's truly as good-tempered as she seems, you'll have to find out by engaging with her yourself.<br/>"Nobody likes insolence ... so if we can talk things out, I'd much rather do that than get physical. But just so we're clear, I don't tolerate insolence well either."
+
+==Stats==
+{{Operator data
+|main = Will
+|sub = Agility
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 90, 153, 217, 280, 312
+|STR = 12.886, 33.053, 54.282, 75.511, 96.739, 107.354
+|AGL = 10.773, 31.242, 52.788, 74.335, 95.881, 106.654
+|INT = 14.123, 34.698, 56.356, 78.014, 99.672, 110.501
+|WIL = 15.0, 43.5, 73.5, 103.5, 133.5, 148.5
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Tachyon Screening Lattice x20, Bloodcap x8, T-Creds x100000
+|pot1 = Talent {{Color|Expedited Delivery|7}} improved: Ultimate Energy gain {{Color|+2|1d}}.
+|pot1t = Doubling Down
+|pot2 = {{Color|Thunderlance|7}} and {{Color|Thunderlance EX|7}} duration {{Color|+20|1d}}s.
+|pot2t = Pole of Menace
+|pot3 = Will {{Color|+15|1d}}, {{Color|Electric DMG Dealt|6}} {{Color|+8%|1d}}.
+|pot3t = Hard Negotiator
+|pot4 = Ultimate {{Color|Thunderlance: Final Shock|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Very Experienced
+|pot5 = When returning {{Color|Thunderlances|7}} or {{Color|Thunderlances EX|7}} hit an {{G|Electric Susceptibility|Electric Susceptible}} enemy, the DMG multipliers are increased to {{Color|1.15|1d}} times the original.
+|pot5t = Carrot and Sharp Stick
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Thunderlance: Blitz
+|icon= Attack-Polearm
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|17|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 17%, 18%, 20%, 21%, 23%, 25%, 26%, 28%, 30%, 32%, 34%, 37%
+|stat2= BATK SEQ 2 Multiplier, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 37%, 39%, 41%, 45%, 48%
+|stat3= BATK SEQ 3 Multiplier, 21%, 23%, 25%, 27%, 29%, 31%, 33%, 35%, 37%, 39%, 43%, 46%
+|stat4= BATK SEQ 4 Multiplier, 30%, 33%, 36%, 39%, 42%, 45%, 48%, 51%, 54%, 58%, 62%, 68%
+|stat5= BATK SEQ 5 Multiplier, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 96%, 104%, 113%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Thunderlance: Interdiction
+|icon= Skill-Avywenna
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Leaps into mid-air to stir up a maelstrom with her lance, dealing some {{Color|Electric DMG|6}} to nearby enemies while pulling back all {{Color|Thunderlances|7}} and {{Color|Thunderlance EX|7}} in the battlefield towards herself. <br />The returning {{Color|Thunderlances|7}} pierce through all enemies along their paths and deal {{Color|Electric DMG|6}}, while returning {{Color|Thunderlances EX|7}} deal more {{Color|Electric DMG|6}} and also apply {{G|Electric Infliction|Electric Infliction}}.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 67%, 73%, 80%, 87%, 93%, 100%, 107%, 113%, 120%, 128%, 138%, 150%
+|stat3= Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= Thunderlance DMG Multiplier, 75%, 82%, 90%, 97%, 104%, 112%, 119%, 127%, 134%, 144%, 155%, 168%
+|stat5= Thunderlance Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat6= Thunderlance EX DMG Multiplier, 192%, 211%, 230%, 250%, 269%, 288%, 307%, 326%, 346%, 370%, 398%, 432%
+|stat7= Thunderlance EX Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Thunderlance: Strike
+|icon= Combo-Avywenna
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When controlled operator performs a {{G|Final Strike|Final Strike}} on a target with active {{G|Electric Infliction|Electric Infliction}} or {{G|Electrification|Electrification}}. <br /><b>SKILL DESCRIPTION:</b> Leaps into mid-air and throws 3 {{Color|Thunderlances|7}} at the target, then deals 1 hit of {{Color|Electric DMG|6}} to enemies in the area of effect.
+|stat1= Cooldown, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 12
+|stat2= DMG Multiplier, 169%, 186%, 203%, 219%, 236%, 253%, 270%, 287%, 304%, 325%, 350%, 380%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Thunderlance Duration (s), 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+|stat5= Ultimate Energy Gain, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+}}
+{{Combat skill
+|name= Thunderlance: Final Shock
+|icon= Ult-Avywenna
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Throws a {{Color|Thunderlance EX|7}} at the target area that deals massive {{Color|Electric DMG|6}} to enemies nearby.
+|stat1= Ultimate Energy Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 422%, 464%, 507%, 549%, 591%, 633%, 675%, 718%, 760%, 813%, 876%, 950%
+|stat3= Stagger, 15, 15, 15, 15, 15, 15, 15, 15, 15, 20, 20, 20
+|stat4= Thunderlance EX Duration (s), 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Thunderlance: Blitz|skill2=Thunderlance: Interdiction|skill3=Thunderlance: Strike|skill4=Thunderlance: Final Shock|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Quadrant Fitting Fluid,6|m14=False Aggela,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Triphasic Nanoflake,6|m24=False Aggela,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Quadrant Fitting Fluid,6|m34=False Aggela,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Triphasic Nanoflake,6|m44=False Aggela,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Thunderlance: Blitz|skill2=Thunderlance: Interdiction|skill3=Thunderlance: Strike|skill4=Thunderlance: Final Shock|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Quadrant Fitting Fluid,16|m14=False Aggela,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Triphasic Nanoflake,16|m24=False Aggela,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Quadrant Fitting Fluid,16|m34=False Aggela,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Triphasic Nanoflake,16|m44=False Aggela,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Thunderlance: Blitz|skill2=Thunderlance: Interdiction|skill3=Thunderlance: Strike|skill4=Thunderlance: Final Shock|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Quadrant Fitting Fluid,36|m14=False Aggela,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Triphasic Nanoflake,36|m24=False Aggela,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Quadrant Fitting Fluid,36|m34=False Aggela,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Triphasic Nanoflake,36|m44=False Aggela,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Stalwart
+|icon = Will
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Will +10.
+|cond2 = Elite 2
+|desc2 = Operator Will +15.
+|cond3 = Elite 3
+|desc3 = Operator Will +15.
+|cond4 = Elite 4
+|desc4 = Operator Will +20.
+}}
+{{Operator talent
+|name = Expedited Delivery
+|icon = Avywenna Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = After a thrown or returning {{Color|Thunderlance|7}} or {{Color|Thunderlance EX|7}} hits the enemy, Avywenna gains {{Color|3|1d}} Ultimate Energy.
+|cond2 = Elite 2
+|desc2 = After a thrown or returning {{Color|Thunderlance|7}} or {{Color|Thunderlance EX|7}} hits the enemy, Avywenna gains {{Color|4|1d}} Ultimate Energy.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Tactful Approach
+|icon = Avywenna Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Ultimate {{Color|Thunderlance: Final Shock|7}} improved: Also applies {{Color|6%|1d}} {{G|Electric Susceptibility|Electric Susceptibility}} for {{Color|10|1d}}s to enemies it hits.
+|cond2 = Elite 3
+|desc2 = Ultimate {{Color|Thunderlance: Final Shock|7}} improved: Also applies {{Color|10%|1d}} {{G|Electric Susceptibility|Electric Susceptibility}} for {{Color|10|1d}}s to enemies it hits.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Will
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Residence Advisor
+|icon = CN-physical_power
+|facility = Control Nexus
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Control Nexus to grant all operators' Mood Regen +8%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Control Nexus to grant all operators' Mood Regen +12%
+}}
+{{Operator base skill
+|name = Messenger's Secret
+|icon = RR-guestroom_clue
+|facility = Reception Room
+|postfix1 = α
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to grant operators a small Clue 2 Rate-UP: TGCC (activates upon assignment; effects of the same type cannot stack)
+|postfix2 = β
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to grant operators Clue 2 Rate-UP: TGCC (activates upon assignment; effects of the same type cannot stack)
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = CN-physical_power
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_clue
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Base Skill Factory Pioneer changed to Messenger's Secret
+*** Old: Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10% / +20%
+*** New: Assign to Reception Room to grant operators [a small] Clue 2 Rate-UP: TGCC (activates upon assignment; effects of the same type cannot stack)
+*'''Beta Test II'''
+**Class changed to [[Class|Striker]].
+*'''Beta Test I'''
+**Class changed to Specialist.
+*'''Technical Test''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

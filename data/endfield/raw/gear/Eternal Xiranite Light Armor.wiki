@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Light Armor
+|image = Eternal_Xiranite_Light_Armor.png
+|filename = item_equip_t4_suit_usp02_body_03
+|cnname = 长息轻护甲
+|tcname = 長息輕護甲
+|jpname = 流転軽防具
+|krname = 식양의 숨결 경량 방어구
+|spname = Armadura ligera de Xiranita eterna
+|runame = Легкая броня «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Light Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+"I say it's way too heavy. Look. It's as barebones as the bleached remains of random beasts by the road. One has to travel light, okay? LIGHT!"}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Will
+|pvalue = +110, +121, +132, +143
+|sstat = Ultimate Gain Efficiency
+|svalue = +12.3%, +13.6%, +14.8%, +16.0%
+|tstat = 
+|tvalue = 
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,870 @@
+{{Regional Development tab}}
+{{Hatnote|This article is about the locations and points of interest that contribute to Regional Development. For the placable constructs when using the [[Automated Industry Complex]] (AIC), see [[Facility]].}}
+{{Incomplete data notice|This page's data is incomplete.}}
+
+'''Facilities''' are locations and points of interest across the overworld in ''[[Arknights: Endfield]]''.
+
+Facilities can be upgraded using each respective region's stock bills and provide additional activities, opportunities to obtain regional stock bills, or operator progression for the player. Facilities can be upgraded using each region's respective stock bills, providing additional [[Regional Development Metric]].
+
+== All ==
+The following '''facilities''' are shared across regions and can be upgraded using each region's respective Regional Stock Bills.
+
+=== {{Icon|Automation-Core facility icon|text=false|size=30}} Outpost Management ===
+'''[[Outpost]]s''' are facilities unlockable in several areas in [[Talos-II]] which unlocks the '''Trading''' and '''Outpost Defense''' activities for that area.
+
+In '''Trading''', players can exchange [[AIC Products]] from their depot for Regional Stock Bills. Outposts can only "store" a limited amount of Regional Stock Bills at once for exchanging and generate more every hour, determined by the outpost's '''Base Earning Efficency'''. The maximum amount of Regional Stock Bills that can be "stored" is determined by the outpost's '''Stock Bill Capacity'''. The facility can be upgraded to unlock new tradable goods and increase the Base Earning Efficiency and Stock Bill Capacity of the outpost.
+
+In '''Outpost Defense''', players select a level and defend the outpost against waves of enemies using [[Facility/Combat_&_Support|Combat Facilities]] to permanently earn permanent rewards, including the {{I|Combat Facilities Capacity|g=0}} for that area. Completing the '''Auto-Defense''' difficulty of a level also grants a permanent buff to the outpost that increases the amount of Regional Stock Bills earned through Trading.
+
+<tabber>
+|-|Valley Pass=
+{{Hatnote|For more details about the outpost in this area, see [[Refugee Camp]].}}
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Prosperity<br>Required
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Base Earning Efficiency {{Color|+2 940|1d}}<br>Stock Bill Capacity {{Color|+18 000|1d}}<br>Unlocks new tradable goods
+| 0
+| {{Currency|Valley Regional Development Metric|1 000}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Base Earning Efficiency {{Color|+4 200|1d}}<br>Stock Bill Capacity {{Color|+125 000|1d}}<br>Unlocks new tradable goods
+| 12 000
+| {{Currency|Valley Regional Development Metric|1 200}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Base Earning Efficiency {{Color|+13 320|1d}}<br>Stock Bill Capacity {{Color|+420 000|1d}}<br>Unlocks new tradable goods
+| 163 000
+| {{Currency|Valley Regional Development Metric|1 500}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Base Earning Efficiency {{Color|+20 820|1d}}<br>Stock Bill Capacity {{Color|+2 200 000|1d}}<br>Unlocks new tradable goods
+| 917 000
+| {{Currency|Valley Regional Development Metric|2 000}}
+|}
+|-|Originium Science Park=
+{{Hatnote|For more details about the outpost in this area, see [[Infra-Station]].}}
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Prosperity<br>Required
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Base Earning Efficiency {{Color|+4 260|1d}}<br>Stock Bill Capacity {{Color|+120 000|1d}}<br>Unlocks new tradable goods
+| 0
+| {{Currency|Valley Regional Development Metric|1 000}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Base Earning Efficiency {{Color|+11 400|1d}}<br>Stock Bill Capacity {{Color|+680 000|1d}}<br>Unlocks new tradable goods
+| 75 000
+| {{Currency|Valley Regional Development Metric|1 200}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Base Earning Efficiency {{Color|+22 560|1d}}<br>Stock Bill Capacity {{Color|+2 100 000|1d}}<br>Unlocks new tradable goods
+| 378 000
+| {{Currency|Valley Regional Development Metric|1 500}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Base Earning Efficiency {{Color|+27 840|1d}}<br>Stock Bill Capacity {{Color|+3 000 000|1d}}<br>Unlocks new tradable goods
+| 1 566 000
+| {{Currency|Valley Regional Development Metric|2 000}}
+|}
+|-|Power Plateau=
+{{Hatnote|For more details about the outpost in this area, see [[Reconstruction HQ]].}}
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Prosperity<br>Required
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Base Earning Efficiency {{Color|+7 370|1d}}<br>Stock Bill Capacity {{Color|+326 000|1d}}<br>Unlocks new tradable goods
+| 0
+| {{Currency|Valley Regional Development Metric|1 000}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Base Earning Efficiency {{Color|+17 340|1d}}<br>Stock Bill Capacity {{Color|+1 000 000|1d}}<br>Unlocks new tradable goods
+| 49 000
+| {{Currency|Valley Regional Development Metric|1 200}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Base Earning Efficiency {{Color|+26 160|1d}}<br>Stock Bill Capacity {{Color|+2 400 000|1d}}<br>Unlocks new tradable goods
+| 326 000
+| {{Currency|Valley Regional Development Metric|1 500}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Base Earning Efficiency {{Color|+42 840|1d}}<br>Stock Bill Capacity {{Color|+3 800 000|1d}}<br>Unlocks new tradable goods
+| 1 406 000
+| {{Currency|Valley Regional Development Metric|2 000}}
+|}
+|-|Jingyu Valley=
+{{Hatnote|For more details about the outpost in this area, see [[Sky King Flats Construction Site]].}}
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Prosperity<br>Required
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Base Earning Efficiency {{Color|+4 680|1d}}<br>Stock Bill Capacity {{Color|+135 000|1d}}<br>Unlocks new tradable goods
+| 0
+| {{Currency|Wuling Regional Development Metric|1 000}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Base Earning Efficiency {{Color|+12 900|1d}}<br>Stock Bill Capacity {{Color|+1 250 000|1d}}<br>Unlocks new tradable goods
+| 250 000
+| {{Currency|Wuling Regional Development Metric|1 200}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Base Earning Efficiency {{Color|+26 880|1d}}<br>Stock Bill Capacity {{Color|+2 600 000|1d}}<br>Unlocks new tradable goods
+| 1 450 000
+| {{Currency|Wuling Regional Development Metric|2 250}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Base Earning Efficiency {{Color|+30 000|1d}}<br>Stock Bill Capacity {{Color|+3 200 000|1d}}<br>Unlocks new tradable goods
+| 3 000 000
+| {{Currency|Wuling Regional Development Metric|3 000}}
+|}
+|-|Marker Stone=
+{{Hatnote|For more details about the outpost in this area, see [[Cardiac Remediation Station]].}}
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Prosperity<br>Required
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Base Earning Efficiency {{Color|+3 300|1d}}<br>Stock Bill Capacity {{Color|+280 000|1d}}<br>Unlocks new tradable goods
+| 0
+| {{Currency|Wuling Regional Development Metric|1 200}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Base Earning Efficiency {{Color|+8 400|1d}}<br>Stock Bill Capacity {{Color|+720 000|1d}}<br>Unlocks new tradable goods
+| 320 000
+| {{Currency|Wuling Regional Development Metric|1 600}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Base Earning Efficiency {{Color|+19 500|1d}}<br>Stock Bill Capacity {{Color|+1 600 000|1d}}<br>Unlocks new tradable goods
+| 800 000
+| {{Currency|Wuling Regional Development Metric|3 000}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Base Earning Efficiency {{Color|+22 800|1d}}<br>Stock Bill Capacity {{Color|+2 000 000|1d}}<br>Unlocks new tradable goods
+| 1 800 000
+| {{Currency|Wuling Regional Development Metric|4 200}}
+|}
+|-|Yinglung Pass=
+{{Hatnote|For more details about the outpost in this area, see [[Xiranflow Cloudseeder Station]].}}
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Prosperity<br>Required
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Base Earning Efficiency {{Color|+2 700|1d}}<br>Stock Bill Capacity {{Color|+240 000|1d}}<br>Unlocks new tradable goods
+| 0
+| {{Currency|Wuling Regional Development Metric|2 400}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Base Earning Efficiency {{Color|+6 300|1d}}<br>Stock Bill Capacity {{Color|+600 000|1d}}
+| 280 000
+| {{Currency|Wuling Regional Development Metric|3 200}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Base Earning Efficiency {{Color|+14 400|1d}}<br>Stock Bill Capacity {{Color|+1 400 000|1d}}
+| 660 000
+| {{Currency|Wuling Regional Development Metric|6 000}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Base Earning Efficiency {{Color|+24 000|1d}}<br>Stock Bill Capacity {{Color|+2 500 000|1d}}
+| 1 600 000
+| {{Currency|Wuling Regional Development Metric|7 000}}
+|}
+</tabber>
+<hr>
+
+=== {{Icon|Depot Node facility icon|text=false|size=30}} Depot Node ===
+[[File:Depot_Node_Lvl_4.png|frameless|right]]
+'''[[Depot Node]]s''' are facilities unlockable in several areas in [[Talos-II]] which unlocks the '''Pack and Deliver''' activity for that area and increases the maximum depot size of each item. In '''Pack and Deliver''', players remove [[AIC Products]] from their depot and deliver them to set locations in the Depot Node's area in exchange for Regional Stock Bills. The facility can be upgraded to unlock additional delivery sizes and delivery types which increase the amount of Regional Stock Bills awarded for delivery but places additional player movement restrictions. Upgrading the facility also further increases the maximum depot size.
+<tabber>
+|-|Originium Science Park=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Depot Size {{Color|+3 000|1d}}
+| {{Currency|Valley Stock Bill|4 500}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Depot Size {{Color|+3 000|1d}}<br>Unlocks Pack and Deliver for this Depot Node
+| {{Currency|Valley Stock Bill|40 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Depot Size {{Color|+6 000|1d}}<br>Fragile Goods can now be delivered<br>Goods can now be delivered in medium-sized crates
+| {{Currency|Valley Stock Bill|240 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Depot Size {{Color|+8 000|1d}}<br>Super Fragile Goods can now be delivered<br>Goods can now be delivered in large-sized crates
+| {{Currency|Valley Stock Bill|400 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|}
+
+{| class="wikitable"
+! rowspan="2" | Crate Size
+! rowspan="2" | Max Weight
+! colspan= "3" | Rewards (Max Weight)
+|-
+! Durable
+! Fragile
+! Super Fragile
+|-
+| S
+| 3 000
+| {{Currency|Valley Stock Bill|60 000}}
+| {{Currency|Valley Stock Bill|66 000}}
+| {{Currency|Valley Stock Bill|72 000}}
+|-
+| M
+| 5 000
+| {{Currency|Valley Stock Bill|100 000}}
+| {{Currency|Valley Stock Bill|110 000}}
+| {{Currency|Valley Stock Bill|120 000}}
+|-
+| L
+| 8 000
+| {{Currency|Valley Stock Bill|160 000}}
+| {{Currency|Valley Stock Bill|176 000}}
+| {{Currency|Valley Stock Bill|192 000}}
+|}
+|-|Origin Lodespring=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Depot Size {{Color|+4 000|1d}}<br>Unlocks Pack and Deliver for this Depot Node
+| {{Currency|Valley Stock Bill|37 500}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Depot Size {{Color|+4 000|1d}}<br>Fragile goods can now be delivered
+| {{Currency|Valley Stock Bill|192 500}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Depot Size {{Color|+6 000|1d}}<br>Super Fragile Goods can now be delivered<br>Goods can now be delivered in medium-sized crates
+| {{Currency|Valley Stock Bill|343 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Depot Size {{Color|+8 000|1d}}<br>Goods can now be delivered in large-sized crates
+| {{Currency|Valley Stock Bill|545 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|}
+
+{| class="wikitable"
+! rowspan="2" | Crate Size
+! rowspan="2" | Max Weight
+! colspan= "3" | Rewards (Max Weight)
+|-
+! Durable
+! Fragile
+! Super Fragile
+|-
+| S
+| 3 000
+| {{Currency|Valley Stock Bill|60 000}}
+| {{Currency|Valley Stock Bill|66 000}}
+| {{Currency|Valley Stock Bill|72 000}}
+|-
+| M
+| 6 000
+| {{Currency|Valley Stock Bill|120 000}}
+| {{Currency|Valley Stock Bill|132 000}}
+| {{Currency|Valley Stock Bill|144 000}}
+|-
+| L
+| 13 000
+| {{Currency|Valley Stock Bill|260 000}}
+| {{Currency|Valley Stock Bill|286 000}}
+| {{Currency|Valley Stock Bill|312 000}}
+|}
+|-|Power Plateau=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Depot Size {{Color|+6 000|1d}}<br>Unlocks Pack and Deliver for this Depot Node
+| {{Currency|Valley Stock Bill|80 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Depot Size {{Color|+6 000|1d}}<br>Fragile goods can now be delivered
+| {{Currency|Valley Stock Bill|300 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Depot Size {{Color|+8 000|1d}}<br>Super Fragile Goods can now be delivered<br>Goods can now be delivered in medium-sized crates
+| {{Currency|Valley Stock Bill|465 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Depot Size {{Color|+10 000|1d}}<br>Goods can now be delivered in large-sized crates
+| {{Currency|Valley Stock Bill|600 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|}
+
+{| class="wikitable"
+! rowspan="2" | Crate Size
+! rowspan="2" | Max Weight
+! colspan= "3" | Rewards (Max Weight)
+|-
+! Durable
+! Fragile
+! Super Fragile
+|-
+| S
+| 3 000
+| {{Currency|Valley Stock Bill|60 000}}
+| {{Currency|Valley Stock Bill|66 000}}
+| {{Currency|Valley Stock Bill|72 000}}
+|-
+| M
+| 7 000
+| {{Currency|Valley Stock Bill|140 000}}
+| {{Currency|Valley Stock Bill|154 000}}
+| {{Currency|Valley Stock Bill|168 000}}
+|-
+| L
+| 14 000
+| {{Currency|Valley Stock Bill|280 000}}
+| {{Currency|Valley Stock Bill|308 000}}
+| {{Currency|Valley Stock Bill|336 000}}
+|}
+|-|Wuling City=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Depot Size {{Color|+10 000|1d}}<br>Unlocks Pack and Deliver for this Depot Node
+| {{Currency|Wuling Stock Bill|12 500}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Depot Size {{Color|+40 000|1d}}<br>Fragile goods can now be delivered<br>Goods can now be delivered in medium-sized crates
+| {{Currency|Wuling Stock Bill|72 000}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Depot Size {{Color|+50 000|1d}}<br>Super Fragile Goods can now be delivered
+| {{Currency|Wuling Stock Bill|150 000}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Depot Size {{Color|+60 000|1d}}<br>Goods can now be delivered in large-sized crates
+| {{Currency|Wuling Stock Bill|900 000}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|}
+
+{| class="wikitable"
+! rowspan="2" | Crate Size
+! rowspan="2" | Max Weight
+! colspan= "3" | Rewards (Max Weight)
+|-
+! Durable
+! Fragile
+! Super Fragile
+|-
+| S
+| 1 500
+| {{Currency|Wuling Stock Bill|18 000}}
+| {{Currency|Wuling Stock Bill|19 800}}
+| {{Currency|Wuling Stock Bill|21 600}}
+|-
+| M
+| 6 000
+| {{Currency|Wuling Stock Bill|72 000}}
+| {{Currency|Wuling Stock Bill|79 200}}
+| {{Currency|Wuling Stock Bill|86 400}}
+|-
+| L
+| 9 000
+| {{Currency|Wuling Stock Bill|108 000}}
+| {{Currency|Wuling Stock Bill|118 800}}
+| {{Currency|Wuling Stock Bill|129 600}}
+|}
+|-|Test Area=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Depot Size {{Color|+4 000|1d}}<br>Unlocks Pack and Deliver for this Depot Node
+| {{Currency|Wuling Stock Bill|60 000}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Depot Size {{Color|+8 000|1d}}<br>Raw materials can now be delivered<br>Goods can now be delivered in medium-sized crates
+| {{Currency|Wuling Stock Bill|160 000}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Depot Size {{Color|+14 000|1d}}<br>Factory goods can now be delivered
+| {{Currency|Wuling Stock Bill|200 000}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Depot Size {{Color|+22 000|1d}}<br>Goods can now be delivered in large-sized crates
+| {{Currency|Wuling Stock Bill|1 200 000}}
+| {{Currency|Wuling Regional Development Metric|???}}
+|}
+
+{| class="wikitable"
+! rowspan="2" | Crate Size
+! rowspan="2" | Max Weight
+! colspan= "3" | Rewards (Max Weight)
+|-
+! Durable
+! Fragile
+! Super Fragile
+|-
+| S
+| 3 000
+| {{Currency|Wuling Stock Bill|36 000}}
+| {{Currency|Wuling Stock Bill|39 600}}
+| {{Currency|Wuling Stock Bill|43 200}}
+|-
+| M
+| 8 000
+| {{Currency|Wuling Stock Bill|96 000}}
+| {{Currency|Wuling Stock Bill|105 600}}
+| {{Currency|Wuling Stock Bill|115 200}}
+|-
+| L
+| 12 000
+| {{Currency|Wuling Stock Bill|144 000}}
+| {{Currency|Wuling Stock Bill|158 400}}
+| {{Currency|Wuling Stock Bill|172 800}}
+|}
+</tabber>
+
+<hr>
+
+=== {{Icon|Stock Redistribution Terminal facility icon|text=false|size=30}} Stock Redistribution ===
+[[File:SR_Terminal_Lucky_Carrot.png|frameless|right]]
+'''[[Stock Redistribution Terminal]]s''' are facilities unlockable in several areas in [[Talos-II]] which offer '''staple goods''' and '''elastic goods''' in exchange for Regional Stock Bills. '''Staple goods''' are items that can only be purchased once and items that can only be purchased in limited quantities every server week. '''Elastic goods''' are items which change in pricing every day but can be converted back to Regional Stock Bills to the current lower or higher pricing. Elastic goods can only be purchased in limited quantities every day. The facility can be upgraded to offer more goods and increase the amount of purchasable elastic goods every day.
+
+<tabber>
+|-|The Hub=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Unlocks staple goods system
+| {{Currency|Valley Stock Bill|500}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks elastic goods system for [[Valley IV]]
+| {{Currency|Valley Stock Bill|4 500}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+40|1d}}<br>Daily Supplies Replenishment Limit {{Color|+20|1d}}<br>
+| {{Currency|Valley Stock Bill|33 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+40|1d}}<br>Daily Supplies Replenishment Limit {{Color|+25|1d}}<br>
+| {{Currency|Valley Stock Bill|38 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|}
+|-|Originium Science Park=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+50|1d}}<br>Daily Supplies Replenishment Limit {{Color|+20|1d}}
+| {{Currency|Valley Stock Bill|6 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+60|1d}}<br>Daily Supplies Replenishment Limit {{Color|+30|1d}}
+| {{Currency|Valley Stock Bill|50 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+90|1d}}<br>Daily Supplies Replenishment Limit {{Color|+30|1d}}
+| {{Currency|Valley Stock Bill|260 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Unlocks additional staple goods<br>Supplies Purchase Limit {{Color|+120|1d}}<br>Daily Supplies Replenishment Limit {{Color|+30|1d}}
+| {{Currency|Valley Stock Bill|430 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|}
+|-|Origin Lodespring=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+90|1d}}<br>Daily Supplies Replenishment Limit {{Color|+30|1d}}
+| {{Currency|Valley Stock Bill|36 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+120|1d}}<br>Daily Supplies Replenishment Limit {{Color|+40|1d}}
+| {{Currency|Valley Stock Bill|200 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Unlocks additional staple goods<br>Supplies Purchase Limit {{Color|+160|1d}}<br>Daily Supplies Replenishment Limit {{Color|+40|1d}}
+| {{Currency|Valley Stock Bill|325 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Unlocks additional staple goods<br>Supplies Purchase Limit {{Color|+160|1d}}<br>Daily Supplies Replenishment Limit {{Color|+40|1d}}
+| {{Currency|Valley Stock Bill|480 000}}
+| {{Currency|Valley Regional Development Metric|???}}
+|}
+|-|Jingyu Valley=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks elastic goods system for [[Wuling]]<br>Unlocks gear templates
+| {{Currency|Wuling Stock Bill|5 000}}
+| {{Currency|Wuling Regional Development Metric|500}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Unlocks gear templates<br>Supplies Purchase Limit {{Color|+20|1d}}<br>Daily Supplies Replenishment Limit {{Color|+40|1d}}
+| {{Currency|Wuling Stock Bill|64 000}}
+| {{Currency|Wuling Regional Development Metric|600}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Unlocks gear templates<br>Supplies Purchase Limit {{Color|+30|1d}}<br>Daily Supplies Replenishment Limit {{Color|+15|1d}}
+| {{Currency|Wuling Stock Bill|450 000}}
+| {{Currency|Wuling Regional Development Metric|1 125}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+30|1d}}<br>Daily Supplies Replenishment Limit {{Color|+15|1d}}
+| {{Currency|Wuling Stock Bill|1 400 000}}
+| {{Currency|Wuling Regional Development Metric|1 600}}
+|}
+|-|Marker Stone=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+60|1d}}<br>Daily Supplies Replenishment Limit {{Color|+30|1d}}
+| {{Currency|Wuling Stock Bill|30 000}}
+| {{Currency|Wuling Regional Development Metric|800}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+60|1d}}<br>Daily Supplies Replenishment Limit {{Color|+30|1d}}
+| {{Currency|Wuling Stock Bill|400 000}}
+| {{Currency|Wuling Regional Development Metric|1 000}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+60|1d}}<br>Daily Supplies Replenishment Limit {{Color|+30|1d}}
+| {{Currency|Wuling Stock Bill|650 000}}
+| {{Currency|Wuling Regional Development Metric|1 500}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+30|1d}}<br>Daily Supplies Replenishment Limit {{Color|+15|1d}}
+| {{Currency|Wuling Stock Bill|1 000 000}}
+| {{Currency|Wuling Regional Development Metric|2 400}}
+|}
+|-|Yinglung Pass=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+30|1d}}<br>Daily Supplies Replenishment Limit {{Color|+185|1d}}
+| {{Currency|Wuling Stock Bill|50 000}}
+| {{Currency|Wuling Regional Development Metric|1 500}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Unlocks additional staple goods<br>Unlocks additional elastic goods<br>Supplies Purchase Limit {{Color|+30|1d}}<br>Daily Supplies Replenishment Limit {{Color|+185|1d}}
+| {{Currency|Wuling Stock Bill|600 000}}
+| {{Currency|Wuling Regional Development Metric|2 000}}
+|}
+|-|
+</tabber>
+<hr>
+
+=== {{Icon|Recycling Station facility icon|text=false|size=30}} Recycling Station ===
+[[File:Recycling_Station_Small_Image.png|frameless|right]]
+'''[[Recycling Station]]s''' are facilities unlockable in several areas in [[Talos-II]] which regularly produce {{I|Aerospace Material I|g=0}} and {{I|Aerospace Material II|g=0}} which can be used to upgrade [[Dijiang]]. The materials have a short cooldown in-between collections. The facility can be upgraded to increase the amount of materials given per collection.
+
+<tabber>
+|-|Valley IV=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Valley Regional Development Metric}} Valley [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | {{I|Aerospace Material I|3|g=0}} per Claim
+| {{Currency|Valley Stock Bill|100}}
+| {{Currency|Valley Regional Development Metric|50}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} per Claim
+| {{Currency|Valley Stock Bill|1 000}}
+| {{Currency|Valley Regional Development Metric|75}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} <br>{{I|Aerospace Material II|3|g=0}} per Claim
+| {{Currency|Valley Stock Bill|5 000}}
+| {{Currency|Valley Regional Development Metric|100}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} <br> {{I|Aerospace Material II|6|g=0}} per Claim
+| {{Currency|Valley Stock Bill|20 000}}
+| {{Currency|Valley Regional Development Metric|125}}
+|}
+|-|Wuling=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | {{I|Aerospace Material I|3|g=0}} per Claim
+| {{Currency|Wuling Stock Bill|100}}
+| {{Currency|Wuling Regional Development Metric|50}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} per Claim
+| {{Currency|Wuling Stock Bill|1 000}}
+| {{Currency|Wuling Regional Development Metric|75}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} <br>{{I|Aerospace Material II|3|g=0}} per Claim
+| {{Currency|Wuling Stock Bill|5 000}}
+| {{Currency|Wuling Regional Development Metric|100}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} <br> {{I|Aerospace Material II|6|g=0}} per Claim
+| {{Currency|Wuling Stock Bill|20 000}}
+| {{Currency|Wuling Regional Development Metric|125}}
+|}
+</tabber>
+
+== Wuling ==
+The following '''facilities''' are only available on [[Wuling]] and can only be upgraded using {{Currency|Wuling Stock Bill}} [[Wuling Stock Bill]]s.
+=== {{Icon|Environment Monitoring Terminal facility icon|text=false|size=30}}Environment Monitoring ===
+[[File:Environment_Monitoring_Tutorial_2.png|frameless|right]]
+'''[[Environment Monitoring]]''' facilities are facilities unlockable in [[Wuling City]] and [[Marker Stone]] that allow players to take '''monitoring jobs''' or photographs of notable objects across Wuling for {{Currency|Wuling Stock Bill}} [[Wuling Stock Bill]]s. Each facility creates a new monitoring job every few server days and stores it in a job slot.
+
+If the amount of job slots are already filled, the oldest monitoring job is slotted out and the newest monitoring job is slotted in. The facility can be upgraded to increase the amount of job slots and the amount of Wuling Stock Bills awarded per job.
+
+<tabber>
+|-|Wuling City=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | ???
+| {{Currency|Wuling Stock Bill|0}}
+| {{Currency|Wuling Regional Development Metric|500}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | More environment monitoring job slots (2 → 3)<br>Better job payment<br>More environment monitoring jobs
+| {{Currency|Wuling Stock Bill|186 000}}
+| {{Currency|Wuling Regional Development Metric|600}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Better job payment<br>More environment monitoring jobs
+| {{Currency|Wuling Stock Bill|250 000}}
+| {{Currency|Wuling Regional Development Metric|1125}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Better job payment<br>More environment monitoring jobs
+| {{Currency|Wuling Stock Bill|450 000}}
+| {{Currency|Wuling Regional Development Metric|1600}}
+|}
+|-|Marker Stone=
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | ???
+| {{Currency|Wuling Stock Bill|30 000}}
+| {{Currency|Wuling Regional Development Metric|500}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" |  More environment monitoring job slots (2 → 3)<br>Better job payment<br>More environment monitoring jobs
+| {{Currency|Wuling Stock Bill|240 000}}
+| {{Currency|Wuling Regional Development Metric|600}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Better job payment<br>More environment monitoring jobs
+| {{Currency|Wuling Stock Bill|320 000}}
+| {{Currency|Wuling Regional Development Metric|1125}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Better job payment<br>More environment monitoring jobs
+| {{Currency|Wuling Stock Bill|500 000}}
+| {{Currency|Wuling Regional Development Metric|1600}}
+|}
+</tabber>
+<hr>
+=== {{Icon|Purification Node facility icon|text=false|size=30}}Purification Node ===
+[[File:Purification_Node_Tutorial_1.png|frameless|right]]
+The '''[[Purification Node]]''' is a facility unlockable in the [[Test Area]] that can process and discard {{I|Sewage|g=0}}. The facility can be upgraded to increase the amount of available inlets.
+
+At Facility Level 4, the {{I|Xircon Effluent|g=0}} outlet is unlocked. Inserted Sewage is converted into Xircon Effluent which can be retrieved through the output port. Increasing the amount of Sewage piped into the facility also increases the amount of Xircon Effluent created. If the output slot of the facility is full, the facility will continue to process Sewage inserted.
+
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1 
+| style="text-align:left;" | {{I|Sewage|g=0}} Inlet ×1
+| {{Currency|Wuling Stock Bill|0}}
+| {{Currency|Wuling Regional Development Metric|300}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | {{I|Sewage|g=0}} Inlet ×2
+| {{Currency|Wuling Stock Bill|250 000}}
+| {{Currency|Wuling Regional Development Metric|500}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | {{I|Sewage|g=0}} Inlet ×3
+| {{Currency|Wuling Stock Bill|450 000}}
+| {{Currency|Wuling Regional Development Metric|800}}
+|-
+| 3 ▶ 4 
+| style="text-align:left;" | {{I|Xircon Effluent|g=0}} Outlet ×1
+| {{Currency|Wuling Stock Bill|1 200 000}}
+| {{Currency|Wuling Regional Development Metric|1 200}}
+|}
+<hr>
+=== {{Icon|Trial Arena facility icon|text=false|size=30}}Trial of Swordmancy ===
+[[File:Trial Arena Lvl 4.png|frameless|right]]
+'''[[Trial of Swordmancy]]''', also sometimes referred to in-game as the '''Trial Arena''', is a facility unlockable in [[Sword Vault Dale]] that allows players to battle enemies in rounds in exchange for {{Currency|Wuling Stock Bill}} [[Wuling Stock Bill]]s daily.
+
+At Facility Level 2, '''Daily Rewards Doubling''' is unlocked which allows players to double their {{Currency|Wuling Stock Bill}} Wuling Stock Bills earned for that round a limited number of times per day. The facility can be upgraded to increase the amount Wuling Stock Bills collected per round daily and the amount of Daily Rewards Doubling attempts per day.
+
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | Maximum of {{Currency|Wuling Stock Bill|30 000}} per Trial
+| {{Currency|Wuling Stock Bill|30 000}}
+| {{Currency|Wuling Regional Development Metric|800}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | Maximum of {{Currency|Wuling Stock Bill|60 000}} per Trial<br>Increase daily rewards doubling attempts from 0 ▶ 1
+| {{Currency|Wuling Stock Bill|60 000}}
+| {{Currency|Wuling Regional Development Metric|1000}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | Maximum of {{Currency|Wuling Stock Bill|100 000}} per Trial<br>Increase daily rewards doubling attempts from 1 ▶ 2
+| {{Currency|Wuling Stock Bill|600 000}}
+| {{Currency|Wuling Regional Development Metric|1500}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | Maximum of {{Currency|Wuling Stock Bill|160 000}} per Trial
+| {{Currency|Wuling Stock Bill|1 600 000}}
+| {{Currency|Wuling Regional Development Metric|2400}}
+|}
+<hr>
+=== {{Icon|Typhoeus's Archery Range facility icon|text=false|size=30}}Typhoeus's Archery Range ===
+[[File:Typhoeus archery cabin lv4.png|frameless|right]]
+'''[[Typhoeus's Archery Range]]''', also sometimes referred to in-game as just the '''Archery Range''', is a facility unlockable in [[Snowy Forest]] that allows players to take control of [[Typhoeus]] and use the [[Archery]] tool to shoot moving targets within a set time limit. The facility can be upgraded to unlock permanent and daily replayable stages and to unlock recipes for Archery-based [[Personal Device]]s.
+
+{| class="wikitable"
+! Level Upgrade
+! Changes
+! Cost
+! {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" |
+Unlock Simulation: "Basic Training: Persistent Echo"<br>
+Unlock Simulation: "Basic Training: Beastly Rage"<br>
+Unlock "Daily Exercise 01"
+| {{Currency|Wuling Stock Bill|0}}
+| {{Currency|Wuling Regional Development Metric|300}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" |
+Unlock Simulation: "Basic Training: Rime Tip"<br>
+Unlock Simulation: "Basic Training: Flaming Resin"<br>
+Unlock "Daily Exercise 02"
+| {{Currency|Wuling Stock Bill|50 000}}
+| {{Currency|Wuling Regional Development Metric|500}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" |
+Unlock Simulation: "Basic Training: Dawnbreaker"<br>
+Unlock "Daily Exercise 03"
+| {{Currency|Wuling Stock Bill|120 000}}
+| {{Currency|Wuling Regional Development Metric|850}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" |
+Unlock Simulation: "Advanced Training"<br>
+Unlock "Daily Exercise 04"
+| {{Currency|Wuling Stock Bill|300 000}}
+| {{Currency|Wuling Regional Development Metric|1 200}}
+|}
+
+== Navigation ==
+{{Features nav}}
+[[Category: Facility (Regional Development)]]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Type 50 Yinglung Beacon
+|image = Type_50_Yinglung_Beacon.png
+|filename = item_equip_t4_suit_atk02_edc_06
+|cnname = 50式应龙信标
+|tcname = 50式應龍信標
+|jpname = 50式応龍ビーコン
+|krname = 응룡 50식 신호기
+|spname = Baliza Yinglung tipo 50
+|runame = Маячок «Инлун-50»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Type 50 Yinglung Beacon''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A civilian version of Yinglung Special Task Force equipment. The lack of a crucial power component actually improved its compatibility with general users. 
+A positioning beacon that can be activated any time. "We have breached the Miasma itself. More obstacles shall crumble before us."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Intellect
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Combo Skill DMG Bonus
+|tvalue = +41.4%, +45.5%, +49.7%, +53.8%
+|setname = Type 50 Yinglung
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When any operator in the team casts a battle skill, the wearer gains 1 stack of {{Color|Yinglung's Edge|7}} that gives DMG {{Color|+20%|1d}} to the wearer's next combo skill. {{Color|Yinglung's Edge|7}} can stack 3 time(s).
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Type 50 Yinglung}}
+{{Gears|state=collapsed}}

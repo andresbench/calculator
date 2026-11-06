@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Crunchcane Plot
+|filename = item_port_soil_corp_sugarcane_1
+|images = Crunchcane_Plot.png
+|cnname = 脆蔗田块
+|tcname = 脆蔗田塊
+|jpname = シャキキビ畑
+|krname = 사탕수수 논배미
+|spname = Terreno de Crujicaña
+|runame = Участок хрустника
+|type = Planting
+|rarity = 3
+|power = }}
+'''Crunchcane Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Crunchcanes.|A cultivation plot with various parameters adjusted for growing Crunchcanes. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Crunchcane Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

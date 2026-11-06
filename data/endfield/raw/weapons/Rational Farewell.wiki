@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Rational Farewell
+|rarity = 5
+|images = 
+Rational_Farewell icon.png:Icon;
+Rational_Farewell.png:Full;
+Rational_Farewell max model.png:Max
+|filename = wpn_pistol_0004
+|cnname = 理性告别
+|tcname = 理性告別
+|jpname = 合理的決別
+|krname = 이성적인 작별
+|spname = Despedida racional
+|runame = Прощальный обет
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''Rational Farewell''' is a 5★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|RAYTHEAN Industries developed these high energy pistols for frontiers use. Decent reliability in adverse environments makes them a standard-issue weapon amongst wildland explorers.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Pursuit: Aid from the Past|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Strength [M]|Heat DMG [M]|Pursuit: Aid from the Past}}
+
+==Basic Info==
+{{Quote|"I guess we're both trapped here. You and me. Now, we got a RAYTHEAN floor worker of their brand new production line and a stoic and well-grizzled UWST ... ughh ... What exactly is your job, bro?"<br>"Weapons. I install Originium primer safety mechanism on our guns."<br>"Grreeeat. That means we got an expert weaponsmith. Too bad the Blight blocked the roads and got us both trapped here. I'm gonna tell every Raytheanite about this once we get our sorry butts out of here... By the way, you're really good with bandages. I would never be able to fix my fractured finger if I were here alone."<br>"You should have picked up some first-aid knowledge. This is the wildlands, mate."<br>"It's my first time working out here. Frontier-fresh, you know. Heh. Never expected them to assign me to a field job but I guess they never got enough Raytheanites to work out here. We drew lots, and yeah, got myself the short end of the stick and ended up with the convoy escort job. Hey, I might not look like it, but I stashed away six months' worth of pay before leaving home. Bought myself three years' worth of general insurance and emergency first-aid coverage plans for the Band Periphery with a wad of cash this thick! LOOK! THIS THICK! And KABAM! Actual accident happens and none of them works! Wasted all my cold hard cash on this blightery... Hey. Why do you look so lost and confused?"<br>"Sorry... I ... just remembered a few things. I haven't seen printed creds for a while." <br>"Oooh! That's right! I just remembered! The U-double-U don't use no cold hards. They pay you in ... what? Weekly ration tickets? Is that true?"<br>"We actually do get paychecks. In T-creds. But our sites tend to be in ... less populated regions of the frontier so we got nowhere to spend 'em. You might treat this job as a frontiers run, but it's more like a southward trip towards the safe zone for me. Our bases are also better stocked in these parts, so ... I guess I didn't really have to spend any money either way..."<br>"That sounds ... hmm ... boring ... I guess. Oh! Dang it! Nearly forgot about this! We get fat bonuses if we get good people into RAYTHEAN! So, interested in becoming a Raytheanite...? Wow. What did you just throw at me? Wait. This is a RAYTHEAN Pass... You gotta be joking. You're an ex-Raytheanite?"<br>"Yeah. Ex-Ray. They dechipped my pass when I left several years ago. I got to keep this as a souvenir."<br>"So why did you..."<br>"Because 'Innovation Makes Future' became Innovation Makes the Big Bucks. I just can't stand seeing new tech being used solely for profit. Look ... RAYTHEAN is a good company, make no mistake about that... Maybe it's just me who's weird... Anyways, we need to stick together to survive the frontiers. Things would be better if there were more Raytheanites out here, right?"<br>"You have a point, but... Wait. I'm hearing a ringing noise..."<br>"It's my comm device. My fellow crew mates must have noticed something wrong with my positioning signals. An SAR team should be on their way. We should try to get closer to the area's border."<br>"Wow. You're a true survivalist! So, uhm... You're really ... not thinking about rejoining RAYTHEAN? They may have bonuses for returning Ex-Rays... Being a Re-Ray might be..."<br>"Get moving already. Sheesh."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

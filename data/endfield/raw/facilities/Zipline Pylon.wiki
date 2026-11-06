@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Zipline Pylon
+|filename = item_port_travel_pole_1
+|images = Zipline Pylon icon.png:Icon;
+Zipline Pylon.png:Full
+|cnname = 滑索架
+|tcname = 滑索架
+|jpname = ジップライン
+|krname = 집라인 후크
+|spname = Atalaya de tirolesa
+|runame = Зиплайн-пилон
+|type = Miscellaneous
+|rarity = 2
+|power = 5}}
+'''Zipline Pylon''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline.|The earliest ziplines of Talos-II were constructed to help traverse the precipitous Blighted regions of the uninhabited snowy mountains in the Northern Barrens. Ziplines were the leading technology that helped humanity defeat the Aggeloid Blockade.}}
+==Usage==
+A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline.
+*Power Use : 5
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Field Mobility I]]
+{{RecipeTable|product=Zipline Pylon}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:miscellaneous Facilities]]

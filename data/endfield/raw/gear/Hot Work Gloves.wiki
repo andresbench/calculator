@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Hot Work Gloves
+|image = Hot_Work_Gloves.png
+|filename = item_equip_t4_suit_fire_natr01_hand_01
+|cnname = 动火用手套
+|tcname = 動火用手套
+|jpname = 火山用グローブ
+|krname = 열 작업용 장갑
+|spname = Guantes resistentes al calor
+|runame = Жаропрочные перчатки
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Hot Work Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment that features excellent fire resistance rating. 
+UWST and Endfield Industries jointly developed the Hot Work PPE to explore high temperature environments.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Strength
+|pvalue = +65, +71, +78, +84
+|sstat = Will
+|svalue = +43, +47, +51, +55
+|tstat = Arts Intensity
+|tvalue = +34.5, +38, +41.4, +44.9
+|setname = Hot Work
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Combustion|Combustion}}, the wearer gains {{Color|Heat DMG|3}} +{{Color|50%|1d}} for 10s. After the wearer applies {{G|Corrosion|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} +{{Color|50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Hot Work}}
+{{Gears|state=collapsed}}

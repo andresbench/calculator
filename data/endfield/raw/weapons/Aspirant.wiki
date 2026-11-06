@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Aspirant
+|rarity = 5
+|images = 
+Aspirant icon.png:Icon;
+Aspirant.png:Full;
+Aspirant max model.png:Max
+|filename = wpn_sword_0015
+|cnname = 仰止
+|tcname = 仰止
+|jpname = 仰止
+|krname = 숭배의 시선
+|spname = Aspirante
+|runame = Устремление
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Aspirant''' is a 5★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A first tier weapon released by Hongshan Swordmancers and also the only one that achieved decent popularity in the market. Many copies have been found in the wildlands, though.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Twilight: Imposing Peak|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [M]|Physical DMG [M]|Twilight: Imposing Peak}}
+
+==Basic Info==
+{{Quote|It was early autumn and already the snow was falling in the north of Talos-II. Beneath the heavy gray skies, snowflakes fell as bone-chilling winds howled across the plains, unchallenged by the wilting grass as it burrowed into an old, leaking observation post... There the winds were briefly checked by a campfire before they stopped by a young man's cheek.<br>"ACHOO!"<br>The sneezing did not slow the young Perro speed in stuffing two slabs of bread and a meat stew into his mouth. He even wanted to lick the plate if he could.<br>"Oh... Thanks a lot for this..."<br>"You're welcome. The cold drove us to this campfire. We're friends now."<br>The grinning Forte "chef" sat by the campfire and gazed at him. He looked around thirty or so.<br>"So, friend, why venture to the North alone?"<br>"I'm trying to visit the masters of the fighting arts and complete my Catalog of Warriors Under the Heavens! Oh, that's just a book with the backstories of every warrior... We have this legendary master named Chen Chichi of Hongshan but nobody knew where she went. I thought I could visit the North and find out... But as luck would have it, the Aggeloi was the one that chased me all the way here. Dammit, I bet we'd be getting another Ankhorfall soon enough."<br>The Forte helped himself to a ladle of the stew.<br>"I know this one. Orphaned at a young age and got admitted to Tanjian Hall where she became the worst disciple of the cohort. But after doing her Jianghu tours, she became a legend amongst those of her generation and a lauded master of swordmancy... Even got herself a happy family. Husband's quite the master in leapmancy. They also have a daughter. Name's Chen Qianyu, I think."<br>"That's so detailed. Are you a swordmancer as well?"<br>"I learned a few swordmancy moves from the wildlands from a Songseeker."<br>"So, what do you think about Master Chen Chichi?"<br>"A great and imposing mountain."<br>"Yeah... She's the dream of every swordmancer. They say her swordmancy is imbued with a state of unrestrained freedom. It's more than being faster than a comet. Those who witnessed her sword singing across the skies could feel the 'heavens and earth' itself. It felt as though everything in this world, from the tallest peaks to the deepest seas, has achieved oneness with her blade. Her sword itself is light and elegant. It's like a speck of dust and a gust of wind. It strikes with a force contained within every existence... I can hardly imagine anything that could withstand her blade. Not even the Aggelos..."<br>"Ankhor."<br>"Indeed. Her sword can probably cleave the largest Ankhors in two..."<br>"I'm saying we have an Ankhorfall."<br>The young Perro instantly leaped up without raising his head, jumped over the campfire, and bounded for the outside.<br>"You can't outrun an Ankhor."<br>"Well, at least I won't be crushed by it. I'll take my luck outrunning its Aggeloid spawn."<br>"Haha. That'd be quite a challenge. We lost that race years ago."<br>The Forte strolled out casually and slowly.<br>"When I was a lad, I herded stockbeasts for a Songseeker. We were surrounded by the Aggeloi when a swordmancer drew her iron blade and unleashed a crimson cleave that pulverized the rock buggers. A master leapmancer then grabbed me with his arms and helped me escape the encirclement... I spent years traveling and paid more than a few visits to Hongshan, but my search has found nothing. I have nothing but respect for this couple..."<br>The Forte then drew swords from his hip scabbards.<br>"I may not achieve their levels of mastery, but such is my goal. I spent years honing my swordmancy and managed to replicate a fraction of that overwhelming cleave I have witnessed. This is one auspicious day. May you witness my achievement."<br>The Ankhor smote the ground and turned their former shelter to a pile of rubble.<br>What followed was a flurry of glinting blades.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

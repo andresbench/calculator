@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork Ember
+|image = AIC_Fieldwork_Ember.png
+|filename = item_equip_t4_parts_wuling00_edc_02
+|cnname = 集成实训火种石
+|tcname = 集成實訓火種石
+|jpname = 集成訓練火種石
+|krname = 통합 실전 훈련 점화석
+|spname = Brasa para trabajo de campo del CAI
+|runame = Горелка «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork Ember''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+"Just like how people have faith in a lighter, I have faith in every training session I took in Endfield Industries."}}
+
+==Stats==
+{{Gear data
+|defense = +18
+|pstat = Main Attribute
+|pvalue = +27, +29, +32, +35
+|sstat = Secondary Attribute
+|svalue = +18, +19, +21, +23
+|tstat = Ultimate Gain Efficiency
+|tvalue = +21.1%, +23.2%, +25.3%, +27.4%
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

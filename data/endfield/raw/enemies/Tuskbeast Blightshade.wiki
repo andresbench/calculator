@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = Tuskbeast Blightshade
+|image = Tuskbeast_Blightshade_sprite.png
+|filename = eny_0117_klhound
+|cnname = 蚀影牙兽
+|tcname = 蝕影牙獸
+|jpname = 牙獣の蝕影
+|krname = 그림자에 물든 터스크비스트
+|spname = Sombra contaminada de Bestia colmilluda
+|runame = Моротень звероклыка
+|type = Blightshades
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Tuskbeast Blightshade''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A manifestation of residual Æther energy that projects the outward form of a tuskbeast. Although this is but a "lingering shadow", its sharp fangs are still capable of tearing through armor and protective gear.}}
+
+==Stats==
+{{Enemy data
+|HP = 125, 894, 5658, 22275, 53582, 82545
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 0.8
+|wfire = 1
+|welectric = 0.65
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Some attacks can activate Blightshade Energy they hit.
+|location = *[[Yinglung Pass]]
+*[[North Wuling Exclusion Zone]]
+*[[Energy Alluvium: Yinglung Pass]]
+*[[Energy Alluvium: North Wuling EZ]]
+|drops = {{I|Blightshade Bezoar}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

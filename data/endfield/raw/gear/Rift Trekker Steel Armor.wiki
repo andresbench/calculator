@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Rift Trekker Steel Armor
+|image = Rift_Trekker_Steel_Armor.png
+|filename = item_equip_t4_parts_wuling02_body_03
+|cnname = 涉渊钢甲
+|tcname = 涉淵鋼甲
+|jpname = 渡淵鋼製防具
+|krname = 절망 강철 방어구
+|spname = Armadura de acero del Trotagrietas
+|runame = Стальная броня «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Steel Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequent high-threat areas to carry out various missions. "I held the burning candle, to be ready for daybreak."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +115, +126, +138, +149
+|sstat = Combo Skill DMG Bonus
+|svalue = +21.6%, +23.8%, +25.9%, +28.1%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

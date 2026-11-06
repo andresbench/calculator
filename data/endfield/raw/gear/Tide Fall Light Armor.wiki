@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Tide Fall Light Armor
+|image = Tide_Fall_Light_Armor.png
+|filename = item_equip_t4_suit_burst01_body_01
+|cnname = 落潮轻甲
+|tcname = 落潮輕甲
+|jpname = 干潮軽防具
+|krname = 낙조 경갑
+|spname = Armadura ligera de Marea Baja
+|runame = Легкая броня «Спад прилива»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Tide Fall Light Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Equipment designed by the Bureau of Swordmancers for those working near the Blight Tide. 
+This is a piece of memory about the Blight Tide: The unfeeling surges have always rejected the notion of life.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Intellect
+|pvalue = +87, +95, +104, +113
+|sstat = Strength
+|svalue = +58, +63, +69, +75
+|tstat = Ultimate Gain Efficiency
+|tvalue = +12.3%, +13.6%, +14.8%, +16.0%
+|setname = Tide Surge
+|seteffect = 3-piece set effect: Wearer's Skill DMG Dealt {{Color|+20%|1d}}.
+After the wearer applies {{Color|2|7}} or more stacks of {{G|Arts Infliction|Arts Infliction}} on the enemy, the wearer gains {{Color|Arts DMG Dealt|7}} {{Color|+35%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Tide Surge}}
+{{Gears|state=collapsed}}

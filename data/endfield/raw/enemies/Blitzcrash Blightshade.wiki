@@ -1,0 +1,59 @@
+{{Enemy infobox
+|name = Blitzcrash Blightshade
+|image = Blitzcrash_Blightshade_sprite.png
+|filename = eny_0120_klbear
+|cnname = 蚀影噪雷
+|tcname = 蝕影噪雷
+|jpname = 噪雷の蝕影
+|krname = 그림자에 물든 진뢰
+|spname = Sombra contaminada de Blitzcrash
+|runame = Моротень Молнии
+|type = Blightshades
+|class = Alpha
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 4
+}}
+'''Blitzcrash Blightshade''' is an [[Alpha enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A manifestation of residual Æther energy that projects the outward form of Blitzcrash. The beast was once raised at Tanjian Hall and used to be Li Zhiyan's best friend. Its blightshade, however, retains nothing but its instincts for aggression.}}
+
+==Stats==
+{{Enemy data
+|HP = 1523, 10929, 69155, 272254, 654892, 1008880
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 0.8
+|wfire = 1
+|welectric = 0.65
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Blightshade Energy activated by Blitzcrash Blightshade can unleash thunderbolts.
+*This enemy summons Tuskbeast Blightshades. It then calls down multiple thunderbolts to strike the beasts, turn them into Blightshade Energy, and activate them. Try to dodge these attacks.
+|location = *[[North Wuling Exclusion Zone]]
+|drops = {{I|Blightshade Bezoar}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Alpha enemies]]

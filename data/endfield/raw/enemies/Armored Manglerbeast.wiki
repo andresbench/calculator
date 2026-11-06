@@ -1,0 +1,68 @@
+{{Enemy infobox
+|name = Armored Manglerbeast
+|image = Armored_Manglerbeast_sprite.png
+|filename = eny_0113_jzogre
+|cnname = 披甲裂兽
+|tcname = 披甲裂獸
+|jpname = 鎧裂獣
+|krname = 무장 맹글러
+|spname = Bestia mutiladora acorazada
+|runame = Бронированный саблезубый зверь
+|type = Wildlife
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 18
+}}
+'''Armored Manglerbeast''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A variant of manglerbeasts that evolved specifically on Talos-II. These unique manglers are armored in extremely thick scales and share a mutualistic symbiosis with rockhowlers. The former species provides the bulwark and muscle while the latter offers keen senses and warns against trespassers.}}
+
+==Stats==
+{{Enemy data
+|HP = 1177, 8445, 53438, 210378, 506053, 779589
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 280
+|SR = 8
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *The Rockhowler riding on the Armored Manglerbeast's back can throw banana peels. If the Armored Manglerbeast steps on banana peels while performing a charging attack, it will slip and fall.
+*When curled into its defensive pose, only its hands remain exposed as weak points. Break the hands to end the defensive pose and apply knock down to the beast.
+*Drops Rockhowlers when knocked down. Attack the Rockhowlers to deal even more DMG.
+|location = *[[Sword Vault Dale]]
+*[[Energy Alluvium: Sword Vault Dale]]
+|drops = {{I|Caudal Goldscales}}
+|addendum = }}
+
+==Overview==
+The Armored Manglerbeast uses the following attacks.
+*Stomps in place several times as the Rockhowler on its back throws a banana peel.
+*Stands still as the Rockhowler on its back throws several rocks.
+*Roars in place, then charges towards the target before slashing. If it steps on a banana peel while charging, it will slip and fall for a few seconds. While downed, the Rockhowler on its back becomes a weak point and takes much more damage.
+*Leaps towards the target three times, each slam creating an increasingly large AoE.
+*After a delay, leaps backwards and creates an explosion on landing.
+*Pulls a pillar out of the ground and spins it around itself 9 times, before getting dizzy for a period after.
+*Curls up and enters a defensive stance that deflects all attacks, creating a large explosion after a charging period. Its hands become a weak point while charging, with doing enough damage to them breaking the stance and causing it to reel for a few moments.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

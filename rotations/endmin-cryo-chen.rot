@@ -1,0 +1,154 @@
+# Endmin cryo with Chen: the basic rotation.
+#
+# Built for one account: roster/endfield.profile.yaml, snapshot of 2026-10-15.
+#
+#   Endmin   sk.12/12/12/12  Grand Vision r1           P3 (the new P4 is not unlocked)
+#   Estella  sk.9/9/10/9     OBJ Razorhorn r5          P5
+#   Alesh    sk.9/10/12/10   Never Rest                P5
+#   Chen     sk.11/12/12/12  Sundering Steel r4        P5
+#
+# This is endmin-cryo-antal.rot with Chen instead of Antal. What changes:
+#
+#   * There is no Cryo duplicator any more. The target gets one stack
+#     (Estella's battle skill), and Alesh's Solidification is Status Level I.
+#     Only Alesh's ultimate gives a second stack, so SL II is the "ultimates"
+#     variant, not the base.
+#   * But there are two Lifts now: Estella CS and Chen CS. Chen's combo is
+#     armed by the Vulnerable that Estella's Lift applies — no separate battle
+#     skill from Chen is needed for it. The Endministrator's Crush now eats
+#     two Vulnerable stacks.
+#
+# The chain:
+#   Estella BS → Cryo → Alesh BS (eats it, Solidification)
+#   → Estella CS (Lift breaks the freeze: Shatter, Physical Susceptibility,
+#     Vulnerable)
+#   → Chen CS (Vulnerable)  and  Alesh CS (Arts Reaction consumed)
+#   → Endmin CS (a teammate's combo: crystals)
+#   → Endmin BS (Crush: eats Vulnerable and breaks the crystals, P1 +50 SP)
+#
+# ORDER MATTERS: everything that applies Lift or Vulnerable goes BEFORE the
+# Endministrator's combo. The crystals break on any Physical Status or
+# Vulnerability, and if Chen's Lift breaks them instead of the Endministrator's
+# battle skill, P1 (50 SP) is lost.
+
+title: Endmin cryo: Endmin / Estella / Alesh / Chen
+team: Endministrator, Estella, Alesh, Chen Qianyu
+priority: Chen Qianyu   # the game's own combo priority setting: Chen before Alesh
+
+# ===========================================================================
+variant: basic
+# ===========================================================================
+
+Estella: BS
+# Cryo along the line. One stack.
+
+Alesh: BS
+# Eats the stack → Solidification SL I. SP Recovery 15 (lv 10) + 10 from P1.
+# Talent E2: 4 + 8 energy to himself; Estella's P5: +5 energy to her.
+
+Estella: CS
+# Trigger: Solidification. Lift breaks the freeze → Shatter, physical.
+# Physical Susceptibility on the whole team. Lift applies Vulnerable.
+# Commiseration E2: her next battle skill returns 15 SP.
+
+Chen Qianyu: CS
+# Trigger: Vulnerable from Estella's Lift. Another Lift → a second Vulnerable stack.
+# P5: cooldown 15 − 3 = 12 s, shorter than the cycle — always back in time.
+
+Alesh: CS
+# Trigger: Shatter consumed Solidification. +15 SP, a chance of Rare Fin
+# (+10 SP, P3: team ATK +15 % for 10 s).
+
+Endministrator: CS
+# Trigger: a teammate's combo. Crystals. Grand Vision: the Endministrator's
+# next battle skill or ultimate gets Physical DMG.
+
+Endministrator: BS
+# Crush: eats both Vulnerable stacks and breaks the crystals. P1 +50 SP
+# (an SP Return — spending it gives no ultimate energy), talent E2 ATK +30 %,
+# P2 gives half of it to the others. P3: +15 energy.
+
+Alesh: CS~ [crystals consumed — a second trigger, if the 8 s cooldown is back]
+
+Endministrator: BA > FS
+
+# ===========================================================================
+variant: with ultimates
+# Two basic cycles build energy, the third is the ultimate window. Alesh's
+# ultimate is a second source of Cryo, hence SL II and more SP from his
+# battle skill.
+# ===========================================================================
+
+cycle 1:
+Estella: BS
+Alesh: BS
+Estella: CS
+Chen Qianyu: CS
+Alesh: CS
+Endministrator: CS
+Endministrator: BS
+Endministrator: BA > FS
+
+cycle 2:
+Estella: BS
+Alesh: BS
+Estella: CS
+Chen Qianyu: CS
+Alesh: CS
+Endministrator: CS
+Endministrator: BS
+Endministrator: BA > FS
+
+cycle 3:
+Alesh: ULT
+# Cryo over a large area. +25 SP per hit, +15 for each kill.
+
+Estella: BS
+# A second Cryo stack.
+
+Alesh: BS
+# Eats two stacks → Solidification SL II. SP 25 + 10.
+
+Estella: CS
+Estella: ULT~ [forces Lift on targets with Physical Susceptibility — one more Vulnerable stack before Crush]
+Chen Qianyu: CS
+Alesh: CS
+Endministrator: CS
+
+Endministrator: ULT
+# Hits the crystals: an extra hit, ATK +30 % from the talent (P2 — half to
+# the team), +15 energy from P3. The Grand Vision buff goes here.
+
+Chen Qianyu: ULT
+# Seven hits in the window: Estella's Physical Susceptibility, half of the
+# Endministrator's ATK buff, Alesh's Never Rest.
+
+Endministrator: BS
+# Crush on the Vulnerable stacks. The crystals are gone — P1 does not fire here.
+
+# ===========================================================================
+# WHAT THIS FILE DOES NOT CHECK
+#
+# Written on 2026-10-15, when the simulation did not yet credit SP recovered
+# by skills or energy from talents and potentials. The hand count below is
+# kept as the reasoning behind the rotation.
+#
+# SP per basic cycle. Spent: 3 battle skills = 300.
+#   Alesh BS     15 (1 stack, lv 10) + 10 (P1)  = 25   recovery
+#   Alesh CS     15 (lv 12), Rare Fin +10 more  = 15   recovery
+#   Endmin BS    P1                             = 50   SP Return
+#   Estella BS   Commiseration, from cycle 2    = 15   SP Return
+#   from skills ≈ 105 in total; the remaining ~195 come from regen and FS.
+# The cycle is set by Estella's combo cooldown anyway (18 s at lv 10), and
+# regen gives ~140 over it — SP barely closes, an FS or a finisher is needed.
+# Hence the rule: Chen's battle skill is not in the base — there is no SP for it.
+#
+# Energy per basic cycle (65 of the 300 SP are returned and give no energy
+# → ~15 each from battle skills):
+#   Estella  15 + 10 CS + 5 P5            ≈ 30 of 63 (70, P2 −10 %)
+#   Chen     15 + 10 CS                   ≈ 25 of 59.5 (70, P4 −15 %)
+#   Endmin   15 + 10 CS + 15 P3           ≈ 40 of 80
+#   Alesh    15 + 10 CS + 12 talent E2    ≈ 37 of 85 (100, P4 −15 %) + gear UGE
+# → all four ultimates line up roughly once every 2–3 cycles, hence "cycle 3".
+# Chen lags the most; if she is not ready, her ultimate goes to the next window.
+# ===========================================================================

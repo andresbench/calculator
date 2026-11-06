@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork Medic Gloves
+|image = AIC_Fieldwork_Medic_Gloves.png
+|filename = item_equip_t4_parts_wuling00_hand_05
+|cnname = 集成实训医疗护手
+|tcname = 集成實訓醫療護手
+|jpname = 集成訓練医療プロテクター
+|krname = 통합 실전 훈련 의료 보호 장갑
+|spname = Guantes médicos para Trabajo de campo del CAI
+|runame = Медицинские перчатки «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork Medic Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+"Treatment complete? That's it? A wrist slap...? Hey. Why is there a huge syringe on your glove?"}}
+
+==Stats==
+{{Gear data
+|defense = +36
+|pstat = Main Attribute
+|pvalue = +55, +60, +66, +71
+|sstat = Secondary Attribute
+|svalue = +37, +40, +44, +48
+|tstat = Treatment Bonus
+|tvalue = +14.8%, +16.2%, +17.7%, +19.2%
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

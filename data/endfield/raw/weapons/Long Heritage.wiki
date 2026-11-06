@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Long Heritage
+|rarity = 6
+|images = 
+Long_Heritage icon.png:Icon;
+Long_Heritage.png:Full;
+Long_Heritage max model.png:Max
+|filename = wpn_claym_0019
+|cnname = 悠久传承
+|tcname = 悠久傳承
+|jpname = 悠久の継承
+|krname = 유구한 전승
+|spname = Tradición ancestral
+|runame = Вечное наследие
+|type = Great Sword
+|source = Reward: Protocol Pass}}
+'''Long Heritage''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An excellent example of RAYTHEAN customized solutions. The weapon features the designer's applications of novel alloys. The client's customization requirements have been achieved through its complex yet symmetrical structure.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 49, 142, 240, 338, 436, 485
+|pot = Skill {{Color|Efficacy: Secret History|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Warp Plasma-Coated Slide|16}} {{I|Protocolith|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Intellect [L]|Cryo DMG [L]|Efficacy: Secret History}}
+
+==Basic Info==
+{{Quote|"Dear Mr. Hansen Robert, our staff has carefully perused and evaluated your fourth draft on 'Chronicles on the Founding and Journey of Mandy Brothers'. We are sorry to inform you that the work has been deemed to be 'overly dense', 'vague', and 'seemingly absent of any links to RAYTHEAN Industries'. <br>"Hence, our verdict for the draft is 'unusable'. Please provide the relevant revisions within three working days. We kindly remind you that pursuant to your signed contractual agreement with us, the Mandy Brothers, the final deadline for this work is next Wednesday. A late submission will also require a terms violation compensation fee on your part. Please take note of this clause. <br>"We look forward to receiving your next draft. Farewell." <br>The automated call ended. It was the moment when Hansen absolutely regretted his foolishness in accepting this tiresome and ill-paying job of writing a comprehensive founding history for an absolutely nameless vehicle company. <br>When Hansen, a former teaching assistant of history and part-time ghostwriter for papers and articles on similar subjects, first heard the job requirements from the owner of Mandy Brothers, he treated the job as a La Fantoma holiday. After all, the client only made two requirements: First, the founding history of the company must be somehow linked to the famous RAYTHEAN Industries, as the owner's father was a RAYTHEAN brand loyalist. The old man's will was to have the name of his company cited together with RAYTHEAN in the same news article. The Mandy Brothers just recently procured a section on the front page of Asphalt Roundabout Daily. The client planned to publish the history of his family business and fulfill his father's wish. Secondly, the client wanted the story to be convincing and trustworthy. After all, he would be joining a major bid next month. A self-proclaimed subsidiary of Mieszko Industries was his strongest competitor. The owner of Mandy Brothers believed a founding legend more noteworthy than that of his opponent would give him an essential edge in the bidding game. <br>Although Hansen doubted whether the fabricated founding legend could intimidate anyone or offer any advantage in the bidding process, Mandy Brothers paid a deposit that could keep him sheltered and fed for ten months. By Talos above, the ghostwriter was just an ordinary and destitute Liberi always searching for the next paying gig. Academic ethics and historical objectivity could be temporarily set aside for matters of survival. <br>And indeed, things went on smoothly for quite a while — <br>Hansen acquired various records about the Mandy Brothers and even secured living arrangements. All he had to do was to fabricate their corporate legend for a generous paycheck. <br>Little did he expect this to be the start of his nightmare. He thought he had been ambiguous and unprofessional enough when citing various dates, yet the client still questioned his need to quote meaningless calendar events. Hansen thought he only had to make a vague allusion to how the Mandy Brothers inherited some engineering technique from RAYTHEAN, but the client criticized his effort as "more ridiculous than a New Wrankwood ad". <br>Hansen had enough. He could no longer stand the pointless questioning of an amateur who had zero knowledge on the profession of historical chronicling and gave zero respect to his work. His thoughts wandered to a rent that was due in ten days and he mentally struggled for a full sixty seconds before he returned to his desk and began his fifth draft for 'Chronicles on the Founding and Journey of Mandy Brothers'... <br>In this attempt, he decided to completely abandon his lingering commitments to his profession and came up with a founding story that was utterly fictional. "Once there was a top designer of RAYTHEAN who refused to let 'Innovation Makes Future' be enslaved by military corporations. Thus, he traveled to the Asphalt Roundabout where he designed a heavy armored bus for the local workers — and that was the very origin of Mandy Brothers." The entire story cited no historical event or incident of RAYTHEAN Industries, and mentioned nothing about the Mandy Brothers' actual establishment. The only link was an early blueprint that was surprisingly intact, and it came with the pile of first-hand references that the Mandy Brothers shared with him. The blueprint was signed by a young intern named "John Verity". <br>Hansen then quickly submitted this draft and refused to get out of bed until three days later. <br>What he received was not a notice regarding the penalty for violating terms. Instead, he received a toast that the final fees had been paid and a call from an unknown number. <br>"Hello, is this Mr. Hansen Robert? I am Evans, public relations consultant of RAYTHEAN Industries." <br>"Uh-oh, yeah, hello... First things first. Mandy Brothers paid me for the article. I'm just a ghostwriter. It's best if you could talk to them..." <br>"Take it easy, Mr. Hansen. I'm not here to investigate anything... There is a question, though. How did you identify the link between John Verity and RAYTHEAN?" <br>"Huh...? Link...?" <br>"Now, now, no need to be modest, Mr. Hansen. RAYTHEAN has never hired a designer with such a name. But this John Verity ... happens to be a pseudonym for an actual individual, one named Shaun Bloch. Former CEO and Chief Design Director of RAYTHEAN. He went ... on a vacation at Asphalt Roundabout during his youth. This period of his life is relatively unknown, and even our corporate documentations lack relevant records about this particular topic. That being said, Mr. Hansen, perhaps you can finally be candid with me. How did you figure out the true identity of 'John Verity'?"}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

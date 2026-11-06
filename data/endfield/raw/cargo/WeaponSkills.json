@@ -1,0 +1,842 @@
+[
+ {
+  "_pageName": "Aggeloslayer",
+  "Weapon": "Aggeloslayer",
+  "Skill1": "Will [S]",
+  "SkillTag1": "Will",
+  "Skill2": "Arts DMG [S]",
+  "SkillTag2": "Arts DMG",
+  "Skill3": "Suppression: Emergency Boost",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Amaranthine Tassel",
+  "Weapon": "Amaranthine Tassel",
+  "Skill1": "Strength [L]",
+  "SkillTag1": "Strength",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Combative: Amaranthine Cleave",
+  "SkillTag3": "Combative"
+ },
+ {
+  "_pageName": "Ancient Canal",
+  "Weapon": "Ancient Canal",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "Arts Intensity [M]",
+  "SkillTag2": "Arts Intensity",
+  "Skill3": "Brutality: Lands of Yore",
+  "SkillTag3": "Brutality"
+ },
+ {
+  "_pageName": "Artzy Tyrannical",
+  "Weapon": "Artzy Tyrannical",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Critical Rate [L]",
+  "SkillTag2": "Critical Rate",
+  "Skill3": "Fracture: Artzy Exaggeration",
+  "SkillTag3": "Fracture"
+ },
+ {
+  "_pageName": "Aspirant",
+  "Weapon": "Aspirant",
+  "Skill1": "Agility [M]",
+  "SkillTag1": "Agility",
+  "Skill2": "Physical DMG [M]",
+  "SkillTag2": "Physical DMG",
+  "Skill3": "Twilight: Imposing Peak",
+  "SkillTag3": "Twilight"
+ },
+ {
+  "_pageName": "Beacon of Duty",
+  "Weapon": "Beacon of Duty",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "ULT Efficiency [L]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Efficacy: Fuel for the Torch",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "Bedazzling Night Debut",
+  "Weapon": "Bedazzling Night Debut",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "Treatment Efficiency [L]",
+  "SkillTag2": "Treatment Efficiency",
+  "Skill3": "Medicant: Shimmering Curtain",
+  "SkillTag3": "Medicant"
+ },
+ {
+  "_pageName": "Blessing of Lustrous Carmine",
+  "Weapon": "Blessing of Lustrous Carmine",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "Heat DMG [L]",
+  "SkillTag2": "Heat DMG",
+  "Skill3": "Flow: Absolver of Guilt",
+  "SkillTag3": "Flow"
+ },
+ {
+  "_pageName": "Brigand's Calling",
+  "Weapon": "Brigand's Calling",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Detonate: Brigand's Bane",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Chimeric Justice",
+  "Weapon": "Chimeric Justice",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "ULT Efficiency [M]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Brutality: Cemented Fury",
+  "SkillTag3": "Brutality"
+ },
+ {
+  "_pageName": "Chivalric Virtues",
+  "Weapon": "Chivalric Virtues",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "HP [L]",
+  "SkillTag2": "HP",
+  "Skill3": "Medicant: Blight Fervor",
+  "SkillTag3": "Medicant"
+ },
+ {
+  "_pageName": "Clannibal",
+  "Weapon": "Clannibal",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "Arts DMG [L]",
+  "SkillTag2": "Arts DMG",
+  "Skill3": "Infliction: Vicious Purge",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Cohesive Traction",
+  "Weapon": "Cohesive Traction",
+  "Skill1": "Will [M]",
+  "SkillTag1": "Will",
+  "Skill2": "Electric DMG [M]",
+  "SkillTag2": "Electric DMG",
+  "Skill3": "Suppression: Concentric Circles",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Complexed Industry",
+  "Weapon": "Complexed Industry",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "Electric DMG [L]",
+  "SkillTag2": "Electric DMG",
+  "Skill3": "Detonate: Complexed Advantage",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Darhoff 7",
+  "Weapon": "Darhoff 7",
+  "Skill1": "Main Attribute [S]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "",
+  "SkillTag2": "",
+  "Skill3": "Assault: Armament Prep",
+  "SkillTag3": "Assault"
+ },
+ {
+  "_pageName": "Delivery Guaranteed",
+  "Weapon": "Delivery Guaranteed",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "ULT Efficiency [L]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Pursuit: Duty Fulfilled",
+  "SkillTag3": "Pursuit"
+ },
+ {
+  "_pageName": "Dessert Moment",
+  "Weapon": "Dessert Moment",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "Treatment Efficiency [M]",
+  "SkillTag2": "Treatment Efficiency",
+  "Skill3": "Medicant: Sweetness and Dreams",
+  "SkillTag3": "Medicant"
+ },
+ {
+  "_pageName": "Detonation Unit",
+  "Weapon": "Detonation Unit",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "Arts Intensity [L]",
+  "SkillTag2": "Arts Intensity",
+  "Skill3": "Detonate: Imposing Champion",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Dreams of the Starry Beach",
+  "Weapon": "Dreams of the Starry Beach",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Treatment Efficiency [L]",
+  "SkillTag2": "Treatment Efficiency",
+  "Skill3": "Infliction: Tidal Murmurs",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Eminent Repute",
+  "Weapon": "Eminent Repute",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "Physical DMG [L]",
+  "SkillTag2": "Physical DMG",
+  "Skill3": "Brutality: Disciplinarian",
+  "SkillTag3": "Brutality"
+ },
+ {
+  "_pageName": "Exemplar",
+  "Weapon": "Exemplar",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Suppression: Stacked Hew",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Farsight",
+  "Weapon": "Farsight",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "Arts Intensity [L]",
+  "SkillTag2": "Arts Intensity",
+  "Skill3": "Assault: Vision for Tomorrow",
+  "SkillTag3": "Assault"
+ },
+ {
+  "_pageName": "Finchaser 3.0",
+  "Weapon": "Finchaser 3.0",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "Cryo DMG [M]",
+  "SkillTag2": "Cryo DMG",
+  "Skill3": "Suppression: Fin Chaser's Intent",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Finishing Call",
+  "Weapon": "Finishing Call",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "HP [M]",
+  "SkillTag2": "HP",
+  "Skill3": "Medicant: Glory of Knighthood",
+  "SkillTag3": "Medicant"
+ },
+ {
+  "_pageName": "Flickers in the Mist",
+  "Weapon": "Flickers in the Mist",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "Electric DMG [L]",
+  "SkillTag2": "Electric DMG",
+  "Skill3": "Efficacy: Overlapping Flickers",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "Fluorescent Roc",
+  "Weapon": "Fluorescent Roc",
+  "Skill1": "Will [S]",
+  "SkillTag1": "Will",
+  "Skill2": "ATK [S]",
+  "SkillTag2": "ATK",
+  "Skill3": "Suppression: Emergency Boost",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Forgeborn Scathe",
+  "Weapon": "Forgeborn Scathe",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Twilight: Blazing Wail",
+  "SkillTag3": "Twilight"
+ },
+ {
+  "_pageName": "Former Finery",
+  "Weapon": "Former Finery",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "HP [L]",
+  "SkillTag2": "HP",
+  "Skill3": "Efficacy: Mincing Therapy",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "Fortmaker",
+  "Weapon": "Fortmaker",
+  "Skill1": "Intellect [M]",
+  "SkillTag1": "Intellect",
+  "Skill2": "ULT Efficiency [M]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Inspiring: Back to the Broken City",
+  "SkillTag3": "Inspiring"
+ },
+ {
+  "_pageName": "Freedom to Proselytize",
+  "Weapon": "Freedom to Proselytize",
+  "Skill1": "Will [M]",
+  "SkillTag1": "Will",
+  "Skill2": "Treatment Efficiency [M]",
+  "SkillTag2": "Treatment Efficiency",
+  "Skill3": "Medicant: Redemption of Faith",
+  "SkillTag3": "Medicant"
+ },
+ {
+  "_pageName": "Glorious Memory",
+  "Weapon": "Glorious Memory",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "Critical Rate [L]",
+  "SkillTag2": "Critical Rate",
+  "Skill3": "Twilight: Lingering Glow",
+  "SkillTag3": "Twilight"
+ },
+ {
+  "_pageName": "Golden Age",
+  "Weapon": "Golden Age",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "Treatment Efficiency [L]",
+  "SkillTag2": "Treatment Efficiency",
+  "Skill3": "Pursuit: Great Hero",
+  "SkillTag3": "Pursuit"
+ },
+ {
+  "_pageName": "Grand Vision",
+  "Weapon": "Grand Vision",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Infliction: Long Time Wish",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Home Longing",
+  "Weapon": "Home Longing",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "Cryo DMG [L]",
+  "SkillTag2": "Cryo DMG",
+  "Skill3": "Suppression: Olden Moon",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Howling Guard",
+  "Weapon": "Howling Guard",
+  "Skill1": "Intellect [S]",
+  "SkillTag1": "Intellect",
+  "Skill2": "ATK [S]",
+  "SkillTag2": "ATK",
+  "Skill3": "Suppression: Emergency Boost",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Hypernova Auto",
+  "Weapon": "Hypernova Auto",
+  "Skill1": "Intellect [S]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Arts DMG [S]",
+  "SkillTag2": "Arts DMG",
+  "Skill3": "Inspiring: Start of a Saga",
+  "SkillTag3": "Inspiring"
+ },
+ {
+  "_pageName": "Industry 0.1",
+  "Weapon": "Industry 0.1",
+  "Skill1": "Strength [S]",
+  "SkillTag1": "Strength",
+  "Skill2": "ATK [S]",
+  "SkillTag2": "ATK",
+  "Skill3": "Suppression: Emergency Boost",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Jade Vessel",
+  "Weapon": "Jade Vessel",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Cryo DMG [L]",
+  "SkillTag2": "Cryo DMG",
+  "Skill3": "Efficacy: Dabbles of Ink",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "JET",
+  "Weapon": "JET",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Suppression: Astrophysics",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Jiminy 12",
+  "Weapon": "Jiminy 12",
+  "Skill1": "Main Attribute [S]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "",
+  "SkillTag2": "",
+  "Skill3": "Assault: Armament Prep",
+  "SkillTag3": "Assault"
+ },
+ {
+  "_pageName": "Junction Point",
+  "Weapon": "Junction Point",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "ULT Efficiency [L]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Efficacy: Feedback Loop",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "Khravengger",
+  "Weapon": "Khravengger",
+  "Skill1": "Strength [L]",
+  "SkillTag1": "Strength",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Detonate: Bonechilling",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Lone Barge",
+  "Weapon": "Lone Barge",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Suppression: Streaming Blitz",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Long Heritage",
+  "Weapon": "Long Heritage",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Cryo DMG [L]",
+  "SkillTag2": "Cryo DMG",
+  "Skill3": "Efficacy: Secret History",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "Long Road",
+  "Weapon": "Long Road",
+  "Skill1": "Strength [S]",
+  "SkillTag1": "Strength",
+  "Skill2": "Arts DMG [S]",
+  "SkillTag2": "Arts DMG",
+  "Skill3": "Pursuit: Unending Cycle",
+  "SkillTag3": "Pursuit"
+ },
+ {
+  "_pageName": "Lunar Calling",
+  "Weapon": "Lunar Calling",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Infliction: Coursing Stars",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Lupine Scarlet",
+  "Weapon": "Lupine Scarlet",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "Critical Rate [L]",
+  "SkillTag2": "Critical Rate",
+  "Skill3": "Fracture: Gnashing Wolves",
+  "SkillTag3": "Fracture"
+ },
+ {
+  "_pageName": "Monaihe",
+  "Weapon": "Monaihe",
+  "Skill1": "Will [M]",
+  "SkillTag1": "Will",
+  "Skill2": "ULT Efficiency [M]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Inspiring: Mortise-and-Tenon Analysis",
+  "SkillTag3": "Inspiring"
+ },
+ {
+  "_pageName": "Mountain Bearer",
+  "Weapon": "Mountain Bearer",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "Physical DMG [L]",
+  "SkillTag2": "Physical DMG",
+  "Skill3": "Efficacy: Weight of Mountain",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "Navigator",
+  "Weapon": "Navigator",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Cryo DMG [L]",
+  "SkillTag2": "Cryo DMG",
+  "Skill3": "Infliction: Lone and Distant Sail",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Never Rest",
+  "Weapon": "Never Rest",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Flow: Reincarnation",
+  "SkillTag3": "Flow"
+ },
+ {
+  "_pageName": "OBJ Arts Identifier",
+  "Weapon": "OBJ Arts Identifier",
+  "Skill1": "Intellect [M]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Arts Intensity [M]",
+  "SkillTag2": "Arts Intensity",
+  "Skill3": "Pursuit: Transcendent Arts",
+  "SkillTag3": "Pursuit"
+ },
+ {
+  "_pageName": "OBJ Edge of Lightness",
+  "Weapon": "OBJ Edge of Lightness",
+  "Skill1": "Agility [M]",
+  "SkillTag1": "Agility",
+  "Skill2": "ATK [M]",
+  "SkillTag2": "ATK",
+  "Skill3": "Flow: Unbridled Edge",
+  "SkillTag3": "Flow"
+ },
+ {
+  "_pageName": "OBJ Heavy Burden",
+  "Weapon": "OBJ Heavy Burden",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "HP [M]",
+  "SkillTag2": "HP",
+  "Skill3": "Efficacy: Tenacious Will",
+  "SkillTag3": "Efficacy"
+ },
+ {
+  "_pageName": "OBJ Razorhorn",
+  "Weapon": "OBJ Razorhorn",
+  "Skill1": "Will [M]",
+  "SkillTag1": "Will",
+  "Skill2": "Physical DMG [M]",
+  "SkillTag2": "Physical DMG",
+  "Skill3": "Infliction: Conquest of Icy Peaks",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "OBJ Velocitous",
+  "Weapon": "OBJ Velocitous",
+  "Skill1": "Agility [M]",
+  "SkillTag1": "Agility",
+  "Skill2": "ULT Efficiency [M]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Detonate: Rapid Strike",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Oblivion",
+  "Weapon": "Oblivion",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Arts DMG [L]",
+  "SkillTag2": "Arts DMG",
+  "Skill3": "Twilight: Humiliation",
+  "SkillTag3": "Twilight"
+ },
+ {
+  "_pageName": "Opero 77",
+  "Weapon": "Opero 77",
+  "Skill1": "Main Attribute [S]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "",
+  "SkillTag2": "",
+  "Skill3": "Assault: Armament Prep",
+  "SkillTag3": "Assault"
+ },
+ {
+  "_pageName": "Opus: Etch Figure",
+  "Weapon": "Opus: Etch Figure",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "Nature DMG [L]",
+  "SkillTag2": "Nature DMG",
+  "Skill3": "Suppression: Tillite Etchings",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Opus: The Living",
+  "Weapon": "Opus: The Living",
+  "Skill1": "Agility [M]",
+  "SkillTag1": "Agility",
+  "Skill2": "Arts DMG [M]",
+  "SkillTag2": "Arts DMG",
+  "Skill3": "Infliction: Road Home for All Life",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Pathfinder's Beacon",
+  "Weapon": "Pathfinder's Beacon",
+  "Skill1": "Agility [S]",
+  "SkillTag1": "Agility",
+  "Skill2": "ATK [S]",
+  "SkillTag2": "ATK",
+  "Skill3": "Inspiring: Start of a Saga",
+  "SkillTag3": "Inspiring"
+ },
+ {
+  "_pageName": "Peco 5",
+  "Weapon": "Peco 5",
+  "Skill1": "Main Attribute [S]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "",
+  "SkillTag2": "",
+  "Skill3": "Assault: Armament Prep",
+  "SkillTag3": "Assault"
+ },
+ {
+  "_pageName": "Phantom Pain",
+  "Weapon": "Phantom Pain",
+  "Skill1": "Strength [L]",
+  "SkillTag1": "Strength",
+  "Skill2": "Arts Intensity [L]",
+  "SkillTag2": "Arts Intensity",
+  "Skill3": "Suppression: Layered Suffering",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Prominent Edge",
+  "Weapon": "Prominent Edge",
+  "Skill1": "Agility [S]",
+  "SkillTag1": "Agility",
+  "Skill2": "Physical DMG [S]",
+  "SkillTag2": "Physical DMG",
+  "Skill3": "Suppression: Emergency Boost",
+  "SkillTag3": "Suppression"
+ },
+ {
+  "_pageName": "Quencher",
+  "Weapon": "Quencher",
+  "Skill1": "Will [S]",
+  "SkillTag1": "Will",
+  "Skill2": "HP [S]",
+  "SkillTag2": "HP",
+  "Skill3": "Crusher: Honed into Legion",
+  "SkillTag3": "Crusher"
+ },
+ {
+  "_pageName": "Rapid Ascent",
+  "Weapon": "Rapid Ascent",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "Critical Rate [L]",
+  "SkillTag2": "Critical Rate",
+  "Skill3": "Twilight: Azure Clouds",
+  "SkillTag3": "Twilight"
+ },
+ {
+  "_pageName": "Rational Farewell",
+  "Weapon": "Rational Farewell",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "Heat DMG [M]",
+  "SkillTag2": "Heat DMG",
+  "Skill3": "Pursuit: Aid from the Past",
+  "SkillTag3": "Pursuit"
+ },
+ {
+  "_pageName": "Seeker of Dark Lung",
+  "Weapon": "Seeker of Dark Lung",
+  "Skill1": "Strength [M]",
+  "SkillTag1": "Strength",
+  "Skill2": "ULT Efficiency [M]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Detonate: Seeker of the Esoteric",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Stanza of Memorials",
+  "Weapon": "Stanza of Memorials",
+  "Skill1": "Intellect [M]",
+  "SkillTag1": "Intellect",
+  "Skill2": "ATK [M]",
+  "SkillTag2": "ATK",
+  "Skill3": "Twilight: Lustrous Pyre",
+  "SkillTag3": "Twilight"
+ },
+ {
+  "_pageName": "Suffering's End",
+  "Weapon": "Suffering's End",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "Nature DMG [L]",
+  "SkillTag2": "Nature DMG",
+  "Skill3": "Detonate: Dawn of the Long Night",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Sundered Prince",
+  "Weapon": "Sundered Prince",
+  "Skill1": "Strength [L]",
+  "SkillTag1": "Strength",
+  "Skill2": "Critical Rate [L]",
+  "SkillTag2": "Critical Rate",
+  "Skill3": "Crusher: Princely Deterrence",
+  "SkillTag3": "Crusher"
+ },
+ {
+  "_pageName": "Sundering Steel",
+  "Weapon": "Sundering Steel",
+  "Skill1": "Agility [M]",
+  "SkillTag1": "Agility",
+  "Skill2": "Physical DMG [M]",
+  "SkillTag2": "Physical DMG",
+  "Skill3": "Combative: Anthem of Cinder",
+  "SkillTag3": "Combative"
+ },
+ {
+  "_pageName": "Tarr 11",
+  "Weapon": "Tarr 11",
+  "Skill1": "Main Attribute [S]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "",
+  "SkillTag2": "",
+  "Skill3": "Assault: Armament Prep",
+  "SkillTag3": "Assault"
+ },
+ {
+  "_pageName": "Thermite Cutter",
+  "Weapon": "Thermite Cutter",
+  "Skill1": "Will [L]",
+  "SkillTag1": "Will",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Flow: Thermal Release",
+  "SkillTag3": "Flow"
+ },
+ {
+  "_pageName": "Thunderberge",
+  "Weapon": "Thunderberge",
+  "Skill1": "Strength [L]",
+  "SkillTag1": "Strength",
+  "Skill2": "HP [L]",
+  "SkillTag2": "HP",
+  "Skill3": "Medicant: Eye of Talos",
+  "SkillTag3": "Medicant"
+ },
+ {
+  "_pageName": "Twelve Questions",
+  "Weapon": "Twelve Questions",
+  "Skill1": "Agility [M]",
+  "SkillTag1": "Agility",
+  "Skill2": "ATK [M]",
+  "SkillTag2": "ATK",
+  "Skill3": "Infliction: Sincere Interrogation",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Type 42: Solemn Phalanx",
+  "Weapon": "Type 42: Solemn Phalanx",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "ULT Efficiency [L]",
+  "SkillTag2": "ULT Efficiency",
+  "Skill3": "Detonate: Debilitating Assault",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Umbra of Frigid Eventide",
+  "Weapon": "Umbra of Frigid Eventide",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "ATK [L]",
+  "SkillTag2": "ATK",
+  "Skill3": "Detonate: Hunter Instinct",
+  "SkillTag3": "Detonate"
+ },
+ {
+  "_pageName": "Umbral Torch",
+  "Weapon": "Umbral Torch",
+  "Skill1": "Intellect [L]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Heat DMG [L]",
+  "SkillTag2": "Heat DMG",
+  "Skill3": "Infliction: Covetous Buildup",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Valiant",
+  "Weapon": "Valiant",
+  "Skill1": "Agility [L]",
+  "SkillTag1": "Agility",
+  "Skill2": "Physical DMG [L]",
+  "SkillTag2": "Physical DMG",
+  "Skill3": "Combative: Virtuous Gain",
+  "SkillTag3": "Combative"
+ },
+ {
+  "_pageName": "Wave Tide",
+  "Weapon": "Wave Tide",
+  "Skill1": "Intellect [S]",
+  "SkillTag1": "Intellect",
+  "Skill2": "ATK [S]",
+  "SkillTag2": "ATK",
+  "Skill3": "Pursuit: Unending Cycle",
+  "SkillTag3": "Pursuit"
+ },
+ {
+  "_pageName": "Wedge",
+  "Weapon": "Wedge",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "Critical Rate [L]",
+  "SkillTag2": "Critical Rate",
+  "Skill3": "Infliction: Wedge of Civilization",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "White Night Nova",
+  "Weapon": "White Night Nova",
+  "Skill1": "Main Attribute [L]",
+  "SkillTag1": "Main Attribute",
+  "Skill2": "Arts Intensity [L]",
+  "SkillTag2": "Arts Intensity",
+  "Skill3": "Infliction: White Night Nova",
+  "SkillTag3": "Infliction"
+ },
+ {
+  "_pageName": "Wild Wanderer",
+  "Weapon": "Wild Wanderer",
+  "Skill1": "Intellect [M]",
+  "SkillTag1": "Intellect",
+  "Skill2": "Electric DMG [M]",
+  "SkillTag2": "Electric DMG",
+  "Skill3": "Infliction: Wilderness Cluster",
+  "SkillTag3": "Infliction"
+ }
+]

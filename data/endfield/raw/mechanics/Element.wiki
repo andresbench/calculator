@@ -1,0 +1,154 @@
+Each [[Operator]] in ''[[Arknights: Endfield]]'' has a specific '''Element''' assigned which describes the main type of damage they deal and effects they can inflict.
+
+==Physical==
+Physical [[Operator]]s are capable of dealing Physical Damage, shown in game as a white number.
+
+{{List box|
+    {{#cargo_query:
+        |tables=Operators
+        |fields=CONCAT("{{((}}C{{!}}", Operator, "{{!}}gridview=true{{))}}")=element_op
+		|group by=Operator
+        |order by=Operator ASC
+        |where=Element="Physical"
+        |delimiter = 
+    }}
+}}
+
+Some Operators are also capable of dealing '''Physical Statuses''', often requiring the enemy to be '''Vulnerable''':
+
+Certain Skills also forcibly apply Physical Statuses without requiring enemies to be Vulnerable.
+
+===Vulnerable===
+{{Quote|Hitting an enemy for the first time with a skill with {{G|Physical Status}} applies {{G|Vulnerable}} instead of the actual Physical Status. A {{G|Vulnerable}} enemy can be {{G|Lift|Lifted}} and {{G|Knock Down|Knocked Down}} to add more {{G|Vulnerable}} stacks (up to 4). Hitting a {{G|Vulnerable}} enemy with {{G|Crush}} or {{G|Breach}} will consume the {{G|Vulnerable}} stacks.|Tutorial}}
+
+When an Operator uses a Skill that can inflict a Physical Status, but the target has no {{G|Vulnerable}} stacks, the Skill will instead inflict {{G|Vulnerable}} indicated by a broken shield besides their Health Bar. The effect lasts temporarily.
+
+If the Skill is casted on a target with Vulnerable however, the Physical Status will be applied, causing the target to also take additional damage.
+
+Do note that [[Elite]], [[Alpha]], and [[Boss]] enemies are immune to the control effect such as {{G|Lift}}, but the Physical Status will still deal damage and Stagger as usual.
+
+===Physical Status===
+{{Main|Lift}}
+{{Main|Knock Down}}
+{{Main|Crush}}
+{{Main|Breach}}
+
+==Heat==
+Heat [[Operator]]s are capable of doing Heat Damage, shown in-game as a red number.
+
+{{List box|
+    {{#cargo_query:
+        |tables=Operators
+        |fields=CONCAT("{{((}}C{{!}}", Operator, "{{!}}gridview=true{{))}}")=element_op
+        |group by=Operator
+        |order by=Operator ASC
+        |where=Element="Heat"
+        |delimiter = 
+    }}
+}}
+
+Some Operators are also capable of applying '''Heat Infliction''', indicated by a fire icon besides the target's health bar.
+
+When Operators apply {{G|Heat Infliction}} on enemies that are already have a Heat Infliction, a {{G|Heat Burst}} will be triggered, which deals some Heat DMG and adds one stack of {{G|Heat Infliction}}. 
+
+===Combustion===
+{{Main|Combustion}}
+{{Quote|To an enemy with a non-Heat Arts Infliction, apply a Heat Infliction to consume both Arts Inflictions and trigger the {{Color|Combustion|3}} reaction: {{Color|making the target takes Heat DMG over time.|3}}|Tutorial}}
+
+If Heat Infliction is dealt on enemies with another type of Arts Infliction, '''Combustion''' will be triggered instead, during which they take Heat Damage and for a period of time, they also take continuous Heat Damage over time. If Combustion is dealt again, the duration will refresh.
+
+The damage dealt this way is affected by the dealer's stats.
+
+==Cryo==
+Cryo [[Operator]]s are capable of doing Cryo Damage, shown in game as a cyan number.
+
+{{List box|
+    {{#cargo_query:
+        |tables=Operators
+        |fields=CONCAT("{{((}}C{{!}}", Operator, "{{!}}gridview=true{{))}}")=element_op
+        |group by=Operator
+        |order by=Operator ASC
+        |where=Element="Cryo"
+        |delimiter = 
+    }}
+}}
+
+Some Operators are also capable of applying '''Cryo Infliction''', indicated by an ice icon besides the target's health bar.
+
+When Operators apply Cryo Infliction on enemies that already have Cryo Infliction, a '''Cryo Burst''' will be triggered, during which they take massive Cryo Damage.
+
+The damage dealt this way is affected by the dealer's stats.
+
+===Solidification===
+{{Main|Solidification}}
+{{Quote|To an enemy with a non-Cryo Arts Infliction, apply a Cryo Infliction to consume both Arts Inflictions and trigger the {{Color|Solidification|4}} reaction: {{Color|making the target temporarily unable to move.|4}}|Tutorial}}
+
+If Cryo Infliction is dealt on enemies with another type of Arts Infliction, '''Solidification''' will be triggered instead, during which they take Cryo Damage, and for a period of time, they are unable to act. If Solidification is dealt again, the duration will refresh. [[Elite]] and [[Boss]] enemies are immune to the effect, though.
+
+The damage dealt this way is affected by the dealer's stats.
+
+===Shatter===
+{{Quote|To an enemy with active Solidification, apply Vulnerable or Physical Status effects to trigger '''Shatter''': consuming the Solidification and '''dealing massive Physical DMG.|Tutorial}}
+
+If a Physical Status is dealt on enemies with Solidification, '''Shatter''' will be triggered, which removes Solidification, but dealing a massive amount of Physical Damage.
+
+==Nature==
+Nature [[Operator]]s are capable of doing Nature Damage, shown in game as a green number.
+
+{{List box|
+    {{#cargo_query:
+        |tables=Operators
+        |fields=CONCAT("{{((}}C{{!}}", Operator, "{{!}}gridview=true{{))}}")=element_op
+        |group by=Operator
+        |order by=Operator ASC
+        |where=Element="Nature"
+        |delimiter = 
+    }}
+}}
+
+Some Operators are also capable of applying '''Nature Infliction''', indicated by a leaf icon besides to the target's health bar.
+
+When Operators apply Nature Infliction on enemies that already have Nature Infliction, a '''Nature Burst''' will be triggered, during which they take massive Nature Damage.
+
+The damage dealt this way is affected by the dealer's stats.
+
+===Corrosion===
+{{Main|Corrosion}}
+{{Quote|To an enemy with a non-Nature Arts Infliction, apply a Nature Infliction to consume both Arts Inflictions and trigger the {{Color|Corrosion|5}} reaction: {{Color|making the target gradually lose All Resistance over time.|5}}|Tutorial}}
+
+If Nature Infliction is dealt on enemies with another type of Arts Infliction, '''Corrosion''' will be triggered instead, during which they takes Nature Damage, and for a period of time, they also have gradually reduced Resistance. If Corrosion is dealt again, the duration will refresh, but the effect won't.
+
+The damage dealt this way is affected by the dealer's stats.
+
+==Electric==
+Electric [[Operator]]s are capable of doing Electric Damage, shown in game as a yellow number.
+
+{{List box|
+    {{#cargo_query:
+        |tables=Operators
+        |fields=CONCAT("{{((}}C{{!}}", Operator, "{{!}}gridview=true{{))}}")=element_op
+        |group by=Operator
+        |order by=Operator ASC
+        |where=Element="Electric"
+        |delimiter = 
+    }}
+}}
+
+Some Operators are also capable of applying '''Electric Infliction''', indicated by a lightning icon besides the target's health bar.
+
+When Operators apply Electric Infliction on enemies that already have Electric Infliction, a '''Electric Burst''' will be triggered, during which they take massive Electric Damage.
+
+The damage dealt this way is affected by the dealer's stats.
+
+===Electrification===
+{{Main|Electrification}}
+{{Quote|To an enemy with a non-Electric Arts Infliction, apply a Electric Infliction to consume both Arts Inflictions and trigger the {{Color|Electrification|6}} reaction: {{Color|making the target temporarily take more Arts DMG.|6}}|Tutorial}}
+
+If Electric Infliction is dealt on enemies with another type of Arts Infliction, '''Electrification''' will be triggered instead, during which they take Electric Damage, and for a period of time, they take increased Arts Damage. If Electrification is dealt again, the duration will refresh.
+
+The damage dealt this way is affected by the dealer's stats.
+
+==Notes==
+{{Notelist}}
+{{Features}} 
+[[Category:Terminology]]

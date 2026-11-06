@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Lord of the Hamburgers
+|filename = item_port_burger_1
+|images = Lord_of_the_Hamburgers icon.png:Icon;
+Lord_of_the_Hamburgers.png:Full;
+|cnname = 汉堡之王
+|tcname = 漢堡之王
+|jpname = バーガーの王
+|krname = 버거의 킹
+|spname = Señor de las hamburguesas
+|runame = Повелитель гамбургеров
+|type = Ornamental
+|rarity = 5}}
+'''Lord of the Hamburgers''' is an [[Ornamental|Ornamental]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|A massive hamburger exuding the aura of majesty... Wait. Why are you on a dinner plate?}}
+==Usage==
+An ornamental that can be placed.
+==Acquisition==
+BURGER KING Crossover Event
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

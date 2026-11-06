@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Mudflow δ
+|image = Mudflow_δ_sprite.png
+|filename = eny_0105_wgslime2
+|cnname = 浊流天使δ
+|tcname = 濁流天使δ
+|jpname = 濁流アンゲロスδ
+|krname = 탁류아겔로스 · δ
+|spname = Flujo de lodo δ
+|runame = Мутноток δ
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 19
+}}
+'''Mudflow δ''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Tholeroygran Dinedon" (archive ID: ACM311δ) is an energized variant of ACM311. It utilizes unique energy pathways and thus maintains a homeostatic temperature significantly below the freezing points of its constituent matter.}}
+
+==Stats==
+{{Enemy data
+|HP = 291, 2086, 13202, 51976, 125025, 192604
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 90
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *This enemy can quickly close the distance from afar. Its attacks can apply Cryo Infliction to operators upon hit.
+|location = *[[Wuling City]]
+*[[Marker Stone]]
+*[[Energy Alluvium: Wuling City]]
+*[[Energy Alluvium: Marker Stone]]
+|drops = {{I|Resilient Water}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Mudflow]], Mudflows δ have similar appearance with their counterpart, but it doesn't make them more of the threat; Besides capable of dashing and ram, which deals Cryo damage and {{G|Cryo Infliction}}, they can flatten themselves, dealing Cryo damage and {{G|Cryo Infliction}} to Operators around.
+
+==See Also==
+*[[Mudflow]] - an alternate version of Mudflow δ.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 291, 2086, 13202, 51976, 125025, 192604 from 291, 2455, 15532, 51976, 125025, 192604
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

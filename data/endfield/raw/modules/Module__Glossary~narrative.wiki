@@ -1,0 +1,24 @@
+local data={
+	["Xiranite Nexus"]={name="Xiranite Nexus", internal_id=1, desc="An Originium device capable of instantly unleashing Xiranite energy. Its intended purpose is to seal rifts."},
+	["Blight Miasma (or simply: Miasma)"]={name="Blight Miasma (or simply: Miasma)", internal_id=2, desc="A gaseous form of Blight that behaves like fog and mist with very ill-defined boundaries. Masses of Blight Miasma are usually found in the North Wuling Exclusion Zone."},
+	["Sky Pole"]={name="Sky Pole", internal_id=3, desc="A small smart drone that has multiple functions, like scouting and surveillance."},
+	["Ink Spirit"]={name="Ink Spirit", internal_id=4, desc="An entity of ink paintings created by the Feranmut Proxy. These unique creations are made possible with Feranmut power. Some Ink Spirits are capable of autonomous actions."},
+	["Precursor"]={name="Precursor", internal_id=5, desc="An ancient interstellar civilization destroyed by unknown causes. The legacy they left behind allowed the modern human civilization to thrive."},
+	["Heroes of Terra"]={name="Heroes of Terra", internal_id=6, desc="These refer to the heroes who, together with the Endministrator, breached the dangerous zones of the polar circle and completed a key military operation during the First Aggeloi War."},
+	["Aurora"]={name="Aurora", internal_id=7, desc="A special phenomenon near the North Pole. It is actually a wall-like barrier encircling an entire zone and comprises an unending series of Æther energy ruptures. The Aurora is so-named because its brilliant colors and hues resemble an actual aurora."},
+	["Feranmut"]={name="Feranmut", internal_id=8, desc="Gargantuan creatures indigenous to Terra. They measure anywhere from several hundred meters to several hundred kilometers in size. Feranmuts wield supernatural powers that are completely unrelated to Originium Arts."},
+	["Miasma Gas"]={name="Miasma Gas", internal_id=9, desc="A gaseous form of Blight that behaves like fog and mist with very ill-defined boundaries. Masses of Blight Miasma are usually found in the North Wuling Exclusion Zone."},
+	["Bell of Three Presences"]={name="Bell of Three Presences", internal_id=10, desc="An ancient Yanese bell modified using Xiranite. Such bells are usually placed near key infrastructure as they can detect the presence of Blight and automatically sound alarms to alert people nearby."},
+	["Howlerbeast"]={name="Howlerbeast", internal_id=11, desc="A beast indigenous to Talos-II that can reach great sizes. They have unique vocal cords that allow adult howlerbeasts to injure their enemies by howling. This special way of attacking gave rise to their name: howlerbeasts."},
+	["Talos"]={name="Talos", internal_id=12, desc="A gas giant with visible rings. Talos-II, the world in which we live, is its second moon. Under most circumstances, the gas giant is conspicuously visible in the sky."},
+	["La Fantoma"]={name="La Fantoma", internal_id=13, desc="The city where the Talos-II General Chamber of Commerce is headquartered in. This coastal cosmopolis is known for its warmth, passion, points of interest, and pop music."},
+	["Luoyi"]={name="Luoyi", internal_id=14, desc="An important transport hub of Hongshan Academy of Sciences (HAS). It is the earliest major city built after the establishment of HAS Headquarters."},
+	["Fowlbeast"]={name="Fowlbeast", internal_id=15, desc="The fowlbeast (fowl) is a general term for describing any oviparous vertebrate beast covered in feathers."},
+	["Very Large Rift"]={name="Very Large Rift", internal_id=16, desc="The largest rift known in the Civilization Band."},
+	["Proxy"]={name="Proxy", internal_id=17, desc="The avatar that a Feranmut uses to travel in the mortal world."},
+	["North Wuling Exclusion Zone"]={name="North Wuling Exclusion Zone", internal_id=18, desc="The Exclusion Zone used to be the Wuling Science Station. After a disaster ten years ago, the entire area became ruins filled with the Blight."},
+	["Blightshade"]={name="Blightshade", internal_id=19, desc="A replicate of a victim killed by the Æther. Such Æther copies can act independently and are extremely aggressive."},
+	["Yinglung Pass"]={name="Yinglung Pass", internal_id=20, desc="A complex of containment facilities constructed to hold back the Wuling Very Large Rift. The Pass is now garrisoned by the Yinglung Special Task Force."},
+}
+
+return data

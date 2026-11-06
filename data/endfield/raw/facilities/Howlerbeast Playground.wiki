@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Howlerbeast Playground
+|filename = item_port_cat_tree_1
+|images = Howlerbeast Playground icon.png:Icon;
+Howlerbeast Playground.png:Full
+|cnname = 小咆兽活动架
+|tcname = 小咆獸活動架
+|jpname = 子咆獣用タワー
+|krname = 작은 하울러비스트 이동식 선반
+|spname = Patio de juegos para bestias aulladoras
+|runame = Площадка для ревунов
+|type = Ornamental
+|rarity = 5
+|power = }}
+'''Howlerbeast Playground''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Arcane likes small critters and easily zones out when she spots them. This critter playground is one of the very few things she has purchased for herself. She once spent three hours watching them play.}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

@@ -1,0 +1,39 @@
+{{Facility infobox
+|name = Water Treatment Unit
+|filename = item_port_liquid_cleaner_1
+|images = Water_Treatment_Unit icon.png:Icon;
+Water Treatment Unit.png:Full
+|cnname = 废水处理机
+|tcname = 廢水處理機
+|jpname = 廃水処理機
+|krname = 오염수 처리기
+|spname = Unidad de tratamiento de agua
+|runame = Модуль очистки воды
+|type = Production I
+|rarity = 3
+|power = }}
+'''Water Treatment Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for processing Sewage. It can also process Xircon Effluent and Inert Xircon Effluent, albeit with limited efficiency.|Endfield greatly improved the efficiency of its water treatment process by employing Techno-Protocol in the steps of disinfection and remediation.}}
+==Usage==
+A facility for processing Sewage. It can also process Xircon Effluent and Inert Xircon Effluent, albeit with limited efficiency.
+*Power Use: 50
+<!--should add this to Module:Recipe soon-->
+{| class="wikitable", style="padding-top: 10px;"
+! Cost !! Product !! Time
+|-
+| {{Item|Sewage|1}}<br>30/min || Treatment complete || 2s
+|-
+| {{Item|Xircon Effluent|1}}<br>30/min || Treatment complete || 2s
+|-
+| {{Item|Inert Xircon Effluent|1}}<br>30/min || Treatment complete || 2s
+|}
+
+==Acquisition==
+Research the specified tech in the Wuling AIC Plan to construct this.
+{{RecipeTable|product=Water Treatment Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production I Facilities]]

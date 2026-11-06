@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Acid Resistant Pump Mk II
+|filename = item_port_pump_2
+|images = Acid Resistant Pump Mk II icon.png:Icon;
+Acid Resistant Pump Mk II.png:Full
+|cnname = 二型耐酸水泵
+|tcname = 二型耐酸水泵
+|jpname = 耐酸性液体ポンプⅡ
+|krname = 내산성 양수기 II
+|spname = Bomba resistente al ácido Mk II
+|runame = Кислотостойкий насос Mk II
+|type = Resourcing
+|rarity = 3
+|power = }}
+'''Acid Resistant Pump Mk II''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|Requires power. A facility for pumping fluids. It is also capable of pumping corrosive liquids.|Unconfirmed rumors claimed that engineers working on the Acid Resistant Pump Mk II have expressed hushed concerns about their product during meal breaks in the Dijiang canteen. Though Precipitation Acids have been proven to be sufficiently safe, the engineers are worried that the material would react uncontrollably with Aggelos-related items. Hence, they furnished this type of fluid pumps with an emergency lockdown module.}}
+==Usage==
+Requires power. A facility for pumping fluids. It is also capable of pumping corrosive liquids, such as [[Precipitation Acid]].
+* Power Use : 20
+==Acquisition==
+Requirement : [[AIC Factory Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC III - Acid Resistance]]
+{{RecipeTable|product=Acid Resistant Pump Mk II}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Resourcing Facilities]]

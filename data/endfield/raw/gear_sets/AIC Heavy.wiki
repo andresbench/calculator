@@ -1,0 +1,26 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Engineering Division manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 28
+|region = [[Valley IV]]
+|effect = 3-piece set effect: Wearer's HP {{Color|+500|1d}}. 
+After the wearer defeats an enemy, the wearer restores {{Color|100|1c}} HP. Effect trigger cooldown: 5s.
+}}
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Structurally simple and modular equipment that offers Heavy protection.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries Engineering Division.
+
+Despite its smart design<ref>[[AIC Gauntlets]]</ref>,This gear's material's choice leads to massive increases in weight<ref>[[AIC Heavy Plate]]</ref>, it is even said that this gear "would likely end up at places where it becomes the target of powerful guns."<ref>[[AIC Heavy Armor]]</ref>
+
+==Set Items==
+{{Gear Set|AIC Heavy}}
+==References==
+{{Reflist}}
+{{Gears|state=collapsed}}

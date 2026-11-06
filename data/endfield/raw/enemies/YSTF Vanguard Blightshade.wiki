@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = YSTF Vanguard Blightshade
+|image = YSTF_Vanguard_Blightshade_sprite.png
+|filename = eny_0121_klbud
+|cnname = 蚀影应龙前锋
+|tcname = 蝕影應龍前鋒
+|jpname = 応龍先鋒の蝕影
+|krname = 그림자에 물든 응룡 대원 · 선봉
+|spname = Sombra contaminada de vanguardia del EFEY
+|runame = Моротень авангарда спецопергруппы «Инлун»
+|type = Blightshades
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = YSTF Elite Blightshade|sortId = 5
+}}
+'''YSTF Vanguard Blightshade''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A manifestation of residual Æther energy that projects the outward form of a YSTF Vanguard. Mastering melee combat techniques is just the most basic requirement for the Yinglungs.}}
+
+==Stats==
+{{Enemy data
+|HP = 152, 1093, 6916, 27225, 65489, 100888
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 7
+|Weight = 1
+|wphysical = 0.8
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Unleashes blade qi that can activate any Blightshade Energy it hits.
+|location = *[[Yinglung Pass]]
+*[[North Wuling Exclusion Zone]]
+*[[Energy Alluvium: Yinglung Pass]]
+*[[Energy Alluvium: North Wuling EZ]]
+|drops = {{I|Shadow Dew}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

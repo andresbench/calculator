@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Pulser Labs Invasion Core
+|image = Pulser_Labs_Invasion_Core.png
+|filename = item_equip_t4_suit_pulse_cryst01_edc_03
+|cnname = 脉冲式侵入核
+|tcname = 脈衝式侵入核
+|jpname = パルス式侵入装置
+|krname = 펄스식 침입 코어
+|spname = Núcleo de invasión de Laboratorios Pulso
+|runame = Ядро взлома «Импульс»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Pulser Labs Invasion Core''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with novel designs. 
+Assistance from the Cabal of Tranquility granted the Pulser Labs Invasion Core capabilities of breaching most terminal firewalls.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +41, +45, +49, +53
+|sstat = Ultimate DMG Bonus
+|svalue = +51.7%, +56.9%, +62.1%, +67.3%
+|tstat = 
+|tvalue = 
+|setname = Pulser Labs
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Electrification|Electrification}}, the wearer gains {{Color|Electric DMG|6}}{{Color| +50%|1d}} for 10s. After the wearer applies {{G|Solidification|Solidification}}, the wearer gains {{Color|Cryo DMG|4}}{{Color| +50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Pulser Labs}}
+{{Gears|state=collapsed}}

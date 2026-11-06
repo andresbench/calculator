@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Grizzled Edge Push Knife
+|image = Grizzled_Edge_Push_Knife.png
+|filename = item_equip_t4_suit_crush_fracture_edc_01
+|cnname = 旧锋刺刃
+|tcname = 舊鋒刺刃
+|jpname = 旧鋒ナイフ
+|krname = 고검의 잔향 단검
+|spname = Cuchillo de empuje de Filo curtido
+|runame = Тычковый нож «Потертое лезвие»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Grizzled Edge Push Knife''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A multi-functional piece of defensive equipment developed by Hongshan Swordmancers by studying lost tech design documents. 
+A sharp push knife can be attached to the pauldrons or gauntlets, depending on the wearer's preferred style of combat.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +32, +35, +38, +41
+|sstat = Will
+|svalue = +21, +23, +25, +27
+|tstat = Physical DMG Bonus
+|tvalue = +23.0%, +25.3%, +27.6%, +29.9%
+|setname = Grizzled Edge
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+When the wearer applies {{G|Crush|Crush}} or {{G|Breach|Breach}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+[6% × Max number of {{G|Vulnerable|Vulnerability|1d}} stacks {{G|Debuff Consumption|consumed}} from one enemy]}} for 20s. If the target already has {{G|Physical Susceptibility|Physical Susceptibility}}, is {{Color|Staggered|2}}, or has attached {{G|Originium Crystal|Originium Crystals}}, increase the aforementioned buff to {{Color|1.5|1d}} times. This buff cannot stack.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Grizzled Edge}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Xiranite Pylon
+|filename = item_port_power_diffuser_2
+|images = Xiranite Pylon icon.png:Icon;
+Xiranite Pylon.png:Full
+|cnname = 息壤供电桩
+|tcname = 息壤供電樁
+|jpname = 息壌送電スタンド
+|krname = 식양 전력 공급기
+|spname = Atalaya de Xiranita
+|runame = Ксиранитовый пилон
+|type = Power
+|rarity = 1}}
+'''Xiranite Pylon''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|When outside the Core AIC Area, this facility auto-connects to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for powering facilities within range and power transmission across short distances.|A Techno-Protocol Electric Pylon furnished with a Xiranite receiving module. For electrical currents coursing between the relays, such modules serve as beacons in the darkness that accurately guide them towards their destination pylons with extremely low transmission loss.}}
+==Usage==
+When outside the Core AIC Area, this facility auto-connects to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for powering facilities within range and power transmission across short distances.
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Wuling Power]]
+{{RecipeTable|product=Xiranite Pylon}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Power Facilities]]

@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Turbine T1
+|image = Miner_Turbine_T1.png
+|filename = item_equip_t3_parts_tundra01_edc_01
+|cnname = 矿场增压轮·壹型
+|tcname = 礦場增壓輪·I
+|jpname = 鉱山過給機Ⅰ
+|krname = 광산 과급기 · I
+|spname = Turbina de minero T1
+|runame = Турбина шахтера К1
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Turbine T1''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Strength
+|pvalue = +31
+|sstat = Final DMG Reduction
+|svalue = +13.5%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

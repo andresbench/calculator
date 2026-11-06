@@ -1,0 +1,264 @@
+{{Operator infobox
+|name = Ardelia
+|rarity = 6
+|class = Supporter
+|weapon = Arts Unit
+|element = Nature
+|faction = Rhodes Island
+|tags = HP Treatment, Corrode, Susceptibility
+|main = Intellect
+|sub = Will
+|starting = 
+|headhunting = standard
+|quote = Greetings, Endministrator. The name's Ardelia and I'm a geologist from Rhodes Island. My current focus is the correlations between geological disasters and the Ætherside. I've heard about you for quite a while, Endmin, and I have so many questions for you. Oh, there's something else... Can I address you as my Professor?
+|image = 
+Ardelia Splash Art.png
+|filename = chr_0025_ardelia
+|cnname = 艾尔黛拉
+|tcname = 艾爾黛拉
+|jpname = アルデリア
+|krname = 아델리아
+|spname = Ardelia
+|runame = Арделия
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://www.imdb.com/name/nm3620483/ Kanemoto Hisako]
+|cncv = Jiang Wen
+|encv = [https://www.imdb.com/name/nm6574991/ Lindsay Sheppard]
+|krcv = [https://en.namu.wiki/w/김하루 Kim Ha-ru]
+|gender = Female
+|authentication = Rhodes Island
+|birthdate = October 18
+|race = Caprinae
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Normal
+|tactical = Normal
+|skill = Standard
+|originium = Outstanding
+|exp1 = Natural Lore
+|exp1d = Natural Lore: Geological Surveyor
+Drop a plumb bob that points straight to the heart of this land.
+|exp2 = Adventure
+|exp2d = Adventure: Mountain Hiker
+Though aching and dazed, she labors hard to register the summit of the rocky outcrop.
+|hb1 = Lifestyle
+|hb1d = Lifestyle: Pastry Chef
+She's mixing some butter and chocolate to make an extra-large lava cake. "Patience, people! Everyone's getting a slice."
+|hb2 = Nature
+|hb2d = Nature: Ecological Affinity
+The splattering of rain upon the land is the language by which the world renews itself. Everything gets a new look when tomorrow dawns.
+|prefer = Valley Industry's Choice
+|matskill = Dreams of the Starry Beach, Chivalric Virtues, Opus: Etch Figure
+|matstats = Stanza of Memorials, OBJ Arts Identifier
+}}
+'''Ardelia''' is a 6★ [[Nature]] [[Supporter]] [[Operator]] from [[Rhodes Island]] in ''[[Arknights: Endfield]]''. She is an [[Arts Unit]] user with outstanding HP treatment skills. Her battle skill and combo skill make enemies take more DMG, while her battle skill and ultimate can heal teammates.
+
+==Profile==
+"This world has so many mysteries to uncover. We should get to know it better just like... like how we should learn more about ourselves. Don't you agree, Professor?"<br/>Ardelia is a [[Rhodes Island]] operator assigned to [[Endfield Industries]] where she serves as an expert geologist under the framework agreement between the two companies.<br/>Ardelia's early work centered on volcanoes, but today her research extends into [[Ætherside]] and geological disasters. She spends most of her time in the field, venturing alone into disaster sites to collect samples, analyze structures, and develop theories that have become the cornerstone of Endfield's [[Blight]] countermeasures.<br/>Always humble and polite, she carries an inner strength that never seems to run dry. To her, happiness is simple: climbing another mountain, walking another path, hearing the voices of the world, and uncovering the hidden wonders of this planet.<br/>And if you can become good friends with Ardelia, then Mr. Dolly is sure to like you too.<br/>"Mr. Dolly? Don't run off! Come say hi to the Professor."
+
+==Stats==
+{{Operator data
+|main = Intellect
+|sub = Will
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 93, 159, 225, 291, 323
+|STR = 9.793, 31.64, 54.636, 77.632, 100.628, 112.126
+|AGL = 9.484, 27.505, 46.474, 65.443, 84.412, 93.896
+|INT = 20.103, 46.966, 75.243, 103.519, 131.796, 145.935
+|WIL = 15.876, 37.73, 60.734, 83.739, 106.743, 118.245
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Quadrant Fitting Fluid x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Battle skill {{Color|Dolly Rush|7}} improved: {{G|Debuff Consumption|Consuming}} {{G|Corrosion|Corrosion}} now applies {{G|Physical Susceptibility|Physical Susceptibility}} and {{G|Arts Susceptibility|Arts Susceptibility}} with effects {{Color|+8%|1d}}.
+|pot1t = Dolly Paradise
+|pot2 = Talent {{Color|Friendly Presence|7}} improved: When the controlled operator touches the {{Color|Shadow of Mr. Dolly|7}}, Ardelia also treats another allied operator with the lowest percentage HP with half of the treatment effects.
+|pot2t = Game Rewards
+|pot3 = Ultimate {{Color|Wooly Party|7}} improved: Duration {{Color|+1|1d}}s; chance to create {{Color|Shadow of Mr. Dolly|7}} is increased to {{Color|1.2|1d}} times the original.
+|pot3t = Explosive Eruption
+|pot4 = Ultimate {{Color|Wooly Party|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Rock Blossom
+|pot5 = Combo skill {{Color|Eruption Column|7}} improved: Length of cooldown {{Color|-2|1d}}s; DMG multiplier is increased to {{Color|1.2|1d}} times the original; duration of {{G|Corrosion|Corrosion}} applied {{Color|+4|1d}}s.
+|pot5t = Volcanic Steam
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Rocky Whispers
+|icon= Attack-Artsunit
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Nature DMG|5}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|18|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Nature DMG|5}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Nature DMG|5}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 30%, 33%, 36%, 39%, 42%, 45%, 48%, 51%, 54%, 58%, 62%, 68%
+|stat2= BATK SEQ 2 Multiplier, 40%, 44%, 48%, 52%, 56%, 60%, 64%, 68%, 72%, 77%, 83%, 90%
+|stat3= BATK SEQ 3 Multiplier, 53%, 58%, 63%, 68%, 74%, 79%, 84%, 89%, 95%, 101%, 109%, 118%
+|stat4= BATK SEQ 4 Multiplier, 55%, 61%, 66%, 72%, 77%, 83%, 88%, 94%, 99%, 106%, 114%, 124%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Dolly Rush
+|icon= Skill-Ardelia
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Hops on Mr. Dolly and rams the target to deal {{Color|Nature DMG|5}}. If the target has {{G|Corrosion|Corrosion}}, then {{G|Debuff Consumption|consume}} the {{G|Corrosion|Corrosion}} and apply {{G|Physical Susceptibility|Physical Susceptibility}} and {{G|Arts Susceptibility|Arts Susceptibility}} to the target.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 142%, 156%, 171%, 185%, 199%, 213%, 228%, 242%, 256%, 274%, 295%, 320%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Susceptibility, 12%, 12%, 12%, 13%, 13%, 13%, 14%, 14%, 16%, 17%, 18%, 20%
+|stat5= Susceptibility Duration (s), 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+}}
+{{Combat skill
+|name= Eruption Column
+|icon= Combo-Ardelia
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike|Final Strike}} on an enemy with {{Color|no|7}} stacks of {{G|Vulnerable|Vulnerability}} or {{G|Arts Infliction|Arts Infliction}}. <br /><b>SKILL DESCRIPTION:</b> Launches a homing Volcanic Cloud at a target enemy that deals {{Color|Nature DMG|5}} when close enough to the target. The Volcanic Cloud explodes after a short delay, dealing half of the {{Color|Nature DMG|5}} and forcibly applying temporary {{G|Corrosion|Corrosion}} to nearby enemies.
+|stat1= Cooldown, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 17
+|stat2= DMG Multiplier, 45%, 49%, 54%, 58%, 62%, 67%, 71%, 76%, 80%, 86%, 93%, 100%
+|stat3= Explosion DMG Multiplier, 111%, 122%, 133%, 144%, 155%, 167%, 178%, 189%, 200%, 214%, 230%, 250%
+|stat4= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat5= Corrode Duration (s), 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7
+|stat6= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Wooly Party
+|icon= Ult-Ardelia
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Ardelia enters a mobile channeling state and summons the aid of Mr. Dolly. Multiple copies of Mr. Dolly are thrown in random directions. Each copy deals {{Color|Nature DMG|5}} when hitting the enemy. Each enemy can only take 1 damaging hit every 0.3s.
+|stat1= Ultimate Energy Cost, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90
+|stat2= DMG Multiplier, 73%, 81%, 88%, 95%, 103%, 110%, 117%, 125%, 132%, 141%, 152%, 165%
+|stat3= Stagger, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3
+|stat4= Duration (s), 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Rocky Whispers|skill2=Dolly Rush|skill3=Eruption Column|skill4=Wooly Party|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=D96 Steel Sample 4,6|m14=False Aggela,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Tachyon Screening Lattice,6|m24=False Aggela,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=D96 Steel Sample 4,6|m34=False Aggela,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Tachyon Screening Lattice,6|m44=False Aggela,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Rocky Whispers|skill2=Dolly Rush|skill3=Eruption Column|skill4=Wooly Party|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=D96 Steel Sample 4,16|m14=False Aggela,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Tachyon Screening Lattice,16|m24=False Aggela,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=D96 Steel Sample 4,16|m34=False Aggela,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Tachyon Screening Lattice,16|m44=False Aggela,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Rocky Whispers|skill2=Dolly Rush|skill3=Eruption Column|skill4=Wooly Party|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=D96 Steel Sample 4,36|m14=False Aggela,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Tachyon Screening Lattice,36|m24=False Aggela,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=D96 Steel Sample 4,36|m34=False Aggela,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Tachyon Screening Lattice,36|m44=False Aggela,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Keen Mind
+|icon = Intellect
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Intellect +10.
+|cond2 = Elite 2
+|desc2 = Operator Intellect +15.
+|cond3 = Elite 3
+|desc3 = Operator Intellect +15.
+|cond4 = Elite 4
+|desc4 = Operator Intellect +20.
+}}
+{{Operator talent
+|name = Friendly Presence
+|icon = Ardelia Talent 1 icon
+|info = 
+|cond1 = Elite 0
+|desc1 = The battle skill {{Color|Dolly Rush|7}} creates 3 {{Color|Shadows of Mr. Dolly|7}} after hitting the enemy. The copies of Mr. Dolly scattered by the ultimate {{Color|Wooly Party|7}} also have a 10% chance to create {{Color|Shadows of Mr. Dolly|7}} when they fall to the ground. When the controlled operator touches a {{Color|Shadow of Mr. Dolly|7}}, Ardelia restores the said operator's HP by {{Color|[45 + Will×0.38]|1c}}.
+{{Color|If the controlled operator is already at max HP, then restore the HP of the teammate with lowest percentage HP.|9}}
+{{Color|Shadows of Mr. Dolly last for 10s and up to 10 can exist in the battlefield.|9}}
+|cond2 = Elite 1
+|desc2 = The battle skill {{Color|Dolly Rush|7}} creates 3 {{Color|Shadows of Mr. Dolly|7}} after hitting the enemy. The copies of Mr. Dolly scattered by the ultimate {{Color|Wooly Party|7}} also have a 10% chance to create {{Color|Shadows of Mr. Dolly|7}} when they fall to the ground. When the controlled operator touches a {{Color|Shadow of Mr. Dolly|7}}, Ardelia restores the said operator's HP by {{Color|[63 + Will×0.53]|1c}}.
+{{Color|If the controlled operator is already at max HP, then restore the HP of the teammate with lowest percentage HP.|9}}
+{{Color|Shadows of Mr. Dolly last for 10s and up to 10 can exist in the battlefield.|9}}
+|cond3 = Elite 2
+|desc3 = The battle skill {{Color|Dolly Rush|7}} creates 3 {{Color|Shadows of Mr. Dolly|7}} after hitting the enemy. The copies of Mr. Dolly scattered by the ultimate {{Color|Wooly Party|7}} also have a 10% chance to create {{Color|Shadows of Mr. Dolly|7}} when they fall to the ground. When the controlled operator touches a {{Color|Shadow of Mr. Dolly|7}}, Ardelia restores the said operator's HP by {{Color|[90 + Will×0.75]|1c}}.
+{{Color|If the controlled operator is already at max HP, then restore the HP of the teammate with lowest percentage HP.|9}}
+{{Color|Shadows of Mr. Dolly last for 10s and up to 10 can exist in the battlefield.|9}}
+}}
+{{Operator talent
+|name = Mountainpeak Surfer
+|icon = Ardelia Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Battle skill {{Color|Dolly Rush|7}} improved: Triggering the additional effect while an enemy with {{G|Corrosion|Corrosion}} is nearby immediately casts the battle skill again. 
+{{Color|This effect can only trigger once per active battle skill casting.|9}}
+|cond2 = 
+|desc2 = 
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Intellect
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x36, T-Creds x7200; Protoprism x85, T-Creds x26000; -; -;
+|tcost2 = -; Protoprism x85, T-Creds x26000; -; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Tales of the Land
+|icon = RR-guestroom_efficiency
+|facility = Reception Room
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Reception Room to grant operator clue collecting efficiency +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Reception Room to grant operator clue collecting efficiency +30%
+}}
+{{Operator base skill
+|name = Mr. Dolly's Game
+|icon = RR-guestroom_power_consume
+|facility = Reception Room
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = RR-guestroom_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_power_consume
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Potential Dolly Paradise
+*** Additional {{G|Physical Susceptibility|Physical Susceptibility}} and {{G|Arts Susceptibility|Arts Susceptibility}} reduced from +10% to +8%.
+** Battle Skill Dolly Rush
+*** Susceptibility reduced from 15% - 25% to 12% - 20%.
+** Base Skill Factory Pioneer changed to Tales of the Land
+*** Old: Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10% / +20%.
+*** New: Assign to Reception Room to grant operator clue collecting efficiency +20% / +30%.
+** Base Skill Inspire changed to Mr. Dolly's Game
+*** Old: Assign to Control Nexus to grant all operators' Mood Regen +8% / +12%.
+*** New: Assign to Reception Room to slow Mood Drop of all operators in it by 14% / 18%.
+*'''Beta Test II''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

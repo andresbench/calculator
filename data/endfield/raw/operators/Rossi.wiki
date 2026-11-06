@@ -1,0 +1,264 @@
+{{Operator infobox
+|name = Rossi
+|rarity = 6
+|class = Guard
+|weapon = Sword
+|element = Physical
+|faction = Endfield Industries
+|tags = Lift, Crit, Damage Dealer
+|main = Agility
+|sub = Intellect
+|starting = 
+|headhunting = chartered
+|quote = I'm Rossina, granted name Wulfperl, meaning the Pack's treasure! You'd better remember that! Ah ... Endmin, you can call me whatever you prefer...
+|image = 
+Rossi Splash Art.png
+|filename = chr_0028_wulfa
+|cnname = 洛茜
+|tcname = 洛西
+|jpname = ロッシ
+|krname = 로시
+|spname = Rossi
+|runame = Росси
+|fullname = Rossina Wulfperl Luppino
+|fileno = 
+|theme = My World (Blood Oath)
+|illustrator = 
+|jpcv = [https://www.imdb.com/name/nm2999868/ Hidaka Rina]
+|cncv = [https://www.themoviedb.org/person/4383501-wu-zheru Wu Zheru]
+|encv = [https://myanimelist.net/people/58038/Giada_Sabellico Giada Sabellico]
+|krcv = [https://en.namu.wiki/w/이주은(성우) Lee Joo-eun]
+|gender = Female
+|authentication = The Pack
+|birthdate = March 10
+|race = Lupo
+|infection = Oripathy positive (infected), based on medical examination reports.
+|strength = Standard
+|tactical = Excellent
+|skill = Standard
+|originium = Excellent
+|exp1 = Situational Analysis
+|exp1d = Situational Analysis: Clan Diplomat
+Being able to sniff out a scam is a dangerous talent for a child.
+|exp2 = Street Wisdom
+|exp2d = Street Wisdom: Conflict Mediator
+Rossi is tired of endless bickering. So, she mastered the means of getting both sides to shut up.
+|hb1 = Nature
+|hb1d = Nature: Fantasies for Heroism
+A weird-looking stone and a sharp chisel have been selected. Now, who should this figurine look like?
+|hb2 = Sports
+|hb2d = Sports: Game of the Hunt
+Tracking down a prey is a long process, but Rossi is very patient. No need to rush, for we are close to the scent of blood.
+|prefer = Wuling Merchants' Choice
+|matskill = Lupine Scarlet, Rapid Ascent, Glorious Memory
+|matstats = Rapid Ascent, Sundering Steel
+}}
+'''Rossi''' is a 6★ [[Physical]] [[Guard]] [[Operator]] from [[Endfield Industries]] in ''[[Arknights: Endfield]]''. She is a [[Sword]] user who can quickly apply multiple stacks of {{G|Vulnerable|Vulnerability}} and deal DMG of different elements. She can {{G|Debuff Consumption|consume}} {{G|Arts Infliction|Arts Infliction}} to apply {{G|Lift|Lift}} and {{G|Vulnerable|Vulnerability}}, and deals both {{Color|Physical DMG|1}} and {{Color|Heat DMG|3}} at the same time.
+
+==Profile==
+"Piece of cake for an elite like me!"
+
+Rossina Wulfperl Luppino, younger sister of [[Wulfgard]] and the Pearl of the Pack. In a feud between [[the Pack]] and the [[Bonekrusher]]s, many elder wolves paid a bloody price to rescue her. The blood that day stained her swaddling blanket red... 
+
+Wulfgard operates independently from the clan for years, but the Pack required a leader, and Rossi accepted that responsibility. She has always felt that her brother, who rose to fame at a young age, should be the one leading the entire Pack, and she constantly reminds and urges him to do so. While the elders of the clan hope Rossi can spend more time doing what she loves at her age, she ultimately cannot lift the weight of "responsibility" from her heart. She strives to become more reliable and powerful for the sake of her family and her clan.
+
+Rossi, who longs for heroic tales, occasionally fantasizes that one day she will be able to fight alongside a legendary hero. This is the bit of "me time" she reserves for herself.
+
+"They bit deep, but the Pack isn't afraid of more scars!"
+
+==Stats==
+{{Operator data
+|main = Agility
+|sub = Intellect
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 93, 159, 225, 291, 323
+|STR = 9.896, 28.701, 48.494, 68.288, 88.082, 97.979
+|AGL = 23.195, 55.935, 90.397, 124.86, 159.322, 176.553
+|INT = 14.061, 36.267, 59.642, 83.017, 106.391, 118.079
+|WIL = 9.072, 26.309, 44.453, 62.597, 80.742, 89.814
+|CR = 0.05
+|AS = 100
+|AR = 6.5 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Quadrant Fitting Fluid x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Battle skill {{Color|Crimson Shadow|7}} and combo skill {{Color|Moment of Blazing Shadow|7}} improved: The DMG Multipliers of these skills are increased to {{Color|1.15|1d}} times of the original.
+{{Color|Wolven Ambrage|7}} of the battle skill also {{G|SP Return|returns}} {{Color|10|1d}} SP after hitting the enemy.
+|pot1t = Origin of Admiration
+|pot2 = Agility {{Color|+20|1d}}, Critical Rate {{Color|+7%|1d}}.
+|pot2t = Gap to Perfection
+|pot3 = Talent {{Color|Seething Blood|7}} improved: When triggered, it grants Base DMG Multiplier {{Color|+8%|1d}} and restores HP {{Color|+[Intellect × 0.04]|1d}}.
+|pot3t = Tangible Duties
+|pot4 = Ultimate {{Color|"Razorclaw" Ambuscade|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Innocent Wish
+|pot5 = Ultimate {{Color|"Razorclaw" Ambuscade|7}} improved: DMG Multiplier is increased to {{Color|1.1|1d}} times of the original; Critical DMG Dealt is increased by {{Color|+30%|1d}}.
+|pot5t = Legendary Destination
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Seething Wolfblood
+|icon= Attack-Sword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|18|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 27%, 30%, 32%, 35%, 38%, 41%, 43%, 46%, 49%, 52%, 56%, 61%
+|stat2= BATK SEQ 2 Multiplier, 32%, 35%, 38%, 41%, 44%, 47%, 50%, 54%, 57%, 61%, 65%, 71%
+|stat3= BATK SEQ 3 Multiplier, 34%, 37%, 41%, 44%, 48%, 51%, 54%, 58%, 61%, 65%, 71%, 77%
+|stat4= BATK SEQ 4 Multiplier, 41%, 45%, 49%, 53%, 57%, 61%, 65%, 69%, 73%, 78%, 84%, 91%
+|stat5= BATK SEQ 5 Multiplier, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 96%, 104%, 113%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Crimson Shadow
+|icon= Skill-Rossi
+|type= {{SB|2}}
+|info= Rossi gains up to an additional 10 [[Ultimate Energy]] if the second sequence hits an enemy.
+|desc= <b>SKILL DESCRIPTION:</b> Charges to the target to deal {{Color|Physical DMG|1}} and apply {{G|Lift|Lift}}.<br />If the target already has {{G|Vulnerable|Vulnerability}} stack(s), the skill also unleashes a {{Color|Wolven Ambrage|7}} that charges at the target to deal {{Color|Heat DMG|3}}.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= SEQ 1 DMG Multiplier, 85%, 94%, 102%, 111%, 119%, 128%, 137%, 145%, 154%, 164%, 177%, 192%
+|stat3= SEQ 1 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= SEQ 2 DMG Multiplier, 128%, 141%, 153%, 166%, 179%, 192%, 204%, 217%, 230%, 246%, 265%, 288%
+|stat5= SEQ 2 Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 12, 12, 12, 15
+}}
+{{Combat skill
+|name= Moment of Blazing Shadow
+|icon= Combo-Rossi
+|type= {{SB|3}}
+|info= Rossi immediately gains the Critical Rate and Critical DMG buffs after casting the second combo sequence, without consuming any Arts Inflictions. Also, the second sequence will only apply 1 more stack of Vulnerability if it consumes any Arts Inflictions and is cast with perfect timing. Merely casting it with perfect timing is not enough.
+|desc= <b>COMBO TRIGGER:</b> When an enemy has both {{G|Vulnerable|Vulnerability}} and {{G|Arts Infliction|Arts Infliction}} stacks.<br /><b>SKILL DESCRIPTION:</b> Rossi's combo skill has 2 consecutive sequences. COMBO SEQUENCE 1 deals {{Color|Physical DMG|1}} to the target.<br />COMBO SEQUENCE 2 {{G|Debuff Consumption|consumes}} all {{G|Arts Infliction|Arts Infliction}} stacks from the target, deals {{Color|Physical DMG|1}} based on the number of Arts Infliction stacks {{G|Debuff Consumption|consumed}}, applies 1 instance of {{G|Lift|Lift}}, and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time.<br />If COMBO SEQUENCE 2 is cast with {{Color|perfect timing|7}}, it applies 1 more stack of {{G|Vulnerable|Vulnerability}}.
+|stat1= Cooldown, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+|stat2= SEQ 1 DMG Multiplier, 67%, 73%, 80%, 87%, 93%, 100%, 107%, 113%, 120%, 128%, 138%, 150%
+|stat3= SEQ 1 Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= SEQ 2 DMG Multiplier, 133%, 147%, 160%, 173%, 187%, 200%, 213%, 227%, 240%, 257%, 277%, 300%
+|stat5= Bonus DMG Multiplier per Infliction Stack, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+|stat6= SEQ 2 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat7= Critical Rate, 15%, 15%, 15%, 17%, 17%, 17%, 19%, 19%, 21%, 21%, 23%, 25%
+|stat8= Critical DMG Boost, 30%, 30%, 30%, 34%, 34%, 34%, 38%, 38%, 42%, 42%, 46%, 50%
+|stat9= Buff Duration (s), 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat10= SEQ 2 Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= "Razorclaw" Ambuscade
+|icon= Ult-Rossi
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Rossi flutters her cape and unleashes a flurry of stabs that quickly deals multiple sequences of {{Color|Heat DMG|3}} to the target. She then performs a two-sequence slash attack with her dagger that deals massive {{Color|Heat DMG|3}} and applies {{G|Heat Infliction|Heat Infliction}}.<br />{{Color|When this skill successfully scores a critical hit, it deals higher Critical DMG.|9}}
+|stat1= Ultimate Energy Cost, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110
+|stat2= Stab Attack Total DMG Multiplier, 275%, 300%, 325%, 350%, 375%, 400%, 425%, 450%, 475%, 525%, 550%, 600%
+|stat3= SEQ 1 Slash DMG Multiplier, 111%, 122%, 133%, 144%, 156%, 167%, 178%, 189%, 200%, 214%, 231%, 250%
+|stat4= SEQ 2 Slash DMG Multiplier, 333%, 367%, 400%, 433%, 467%, 500%, 534%, 567%, 600%, 642%, 692%, 750%
+|stat5= Stagger, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25
+|stat6= Critical DMG Boost, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Seething Wolfblood|skill2=Crimson Shadow|skill3=Moment of Blazing Shadow|skill4="Razorclaw" Ambuscade|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Tachyon Screening Lattice,6|m14=False Aggela,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Metadiastima Photoemission Tube,6|m24=False Aggela,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Tachyon Screening Lattice,6|m34=False Aggela,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Metadiastima Photoemission Tube,6|m44=False Aggela,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Seething Wolfblood|skill2=Crimson Shadow|skill3=Moment of Blazing Shadow|skill4="Razorclaw" Ambuscade|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Tachyon Screening Lattice,16|m14=False Aggela,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Metadiastima Photoemission Tube,16|m24=False Aggela,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Tachyon Screening Lattice,16|m34=False Aggela,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Metadiastima Photoemission Tube,16|m44=False Aggela,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Seething Wolfblood|skill2=Crimson Shadow|skill3=Moment of Blazing Shadow|skill4="Razorclaw" Ambuscade|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Tachyon Screening Lattice,36|m14=False Aggela,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Metadiastima Photoemission Tube,36|m24=False Aggela,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Tachyon Screening Lattice,36|m34=False Aggela,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Metadiastima Photoemission Tube,36|m44=False Aggela,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Skirmisher
+|icon = Agility
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Agility +10.
+|cond2 = Elite 2
+|desc2 = Operator Agility +15.
+|cond3 = Elite 3
+|desc3 = Operator Agility +15.
+|cond4 = Elite 4
+|desc4 = Operator Agility +20.
+}}
+{{Operator talent
+|name = Nicks and Scratches
+|icon = Rossi Talent 1 icon
+|info = {{G|Razor Clawmark|Razor Clawmark}} deals an additional hit on application that does not benefit from the increased {{Color|Physical DMG Taken|1}} this Talent inflicts.
+|cond1 = Elite 1
+|desc1 = Battle skill improved: After {{Color|Wolven Ambrage|7}} deals DMG, Rossi applies {{G|Razor Clawmark|Razor Clawmark}} to the target for {{Color|15|1d}}s. This effect cannot stack.
+For the duration of {{G|Razor Clawmark|Razor Clawmark}}, the target takes {{Color|25%|1d}} ATK (Rossi's) of {{Color|Physical DMG|1}} per second and suffers {{Color|Physical DMG Taken|1}} and {{Color|Heat DMG Taken|3}} {{Color|+6%|1d}}.
+|cond2 = Elite 2
+|desc2 = Battle skill improved: After {{Color|Wolven Ambrage|7}} deals DMG, Rossi applies {{G|Razor Clawmark|Razor Clawmark}} to the target for {{Color|25|1d}}s. This effect cannot stack.
+For the duration of {{G|Razor Clawmark|Razor Clawmark}}, the target takes {{Color|30%|1d}} ATK (Rossi's) of {{Color|Physical DMG|1}} per second and suffers {{Color|Physical DMG Taken|1}} and {{Color|Heat DMG Taken|3}} {{Color|+12%|1d}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Seething Blood
+|icon = Rossi Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = When Rossi's skill deals Critical DMG to a {{G|Razor Clawmark|Razor Clawmarked}} enemy, trigger another hit that deals {{Color|12%|1d}} ATK (Rossi's) of {{Color|Heat DMG|3}} and restores {{Color|[Intellect × 0.04]|1c}} HP to Rossi. If the target is also {{G|Combustion|Combusted}}, then the aforementioned DMG and HP Restoration effects are increased to {{Color|1.5|1d}} times.
+|cond2 = Elite 3
+|desc2 = When Rossi's skill deals Critical DMG to a {{G|Razor Clawmark|Razor Clawmarked}} enemy, trigger another hit that deals {{Color|24%|1d}} ATK (Rossi's) of {{Color|Heat DMG|3}} and restores {{Color|[Intellect × 0.08]|1c}} HP to Rossi. If the target is also {{G|Combustion|Combusted}}, then the aforementioned DMG and HP Restoration effects are increased to {{Color|1.5|1d}} times.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Agility
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Clan Etiquette
+|icon = RR-guestroom_power_consume
+|facility = Reception Room
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Reception Room to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Reception Room to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator base skill
+|name = Scent of the Hunt
+|icon = RR-guestroom_efficiency
+|facility = Reception Room
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to grant operator clue collecting efficiency +20%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to grant operator clue collecting efficiency +30%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = RR-guestroom_power_consume
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_efficiency
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+*'''[[Old Deep Water Dies, by Rising Tide It is Denied]]''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

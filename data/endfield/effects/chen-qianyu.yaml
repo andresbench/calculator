@@ -1,0 +1,85 @@
+# Chen Qianyu. The main operator of all six rotations, hence parsed first.
+operator: Chen Qianyu
+
+talents:
+  - name: Skirmisher
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - condition: Elite 1
+        seen: "Operator Agility +10."
+        apply: [{stat: attr, attribute: AGL, value: 10}]
+      - condition: Elite 2
+        seen: "Operator Agility +15."
+        apply: [{stat: attr, attribute: AGL, value: 15}]
+      - condition: Elite 3
+        seen: "Operator Agility +15."
+        apply: [{stat: attr, attribute: AGL, value: 15}]
+      - condition: Elite 4
+        seen: "Operator Agility +20."
+        apply: [{stat: attr, attribute: AGL, value: 20}]
+
+  - name: Slashing Edge
+    stacking: replaces
+    confidence: confirmed
+    evidence: >-
+      Group identified by measurement #8: percent ATK adds up inside
+      PercentBonuses; +30 % gave ×1.204, not ×1.30.
+    levels:
+      - condition: Elite 1
+        seen: "After hitting an enemy with skills, Chen gains ATK +4% for 10s. This effect can reach 5 stacks."
+        apply:
+          - stat: atk_pct
+            value: 4
+            stacks: {max: 5, perTrigger: 1}
+            duration: 10
+            trigger: skill_hit
+            target: self
+      - condition: Elite 2
+        seen: "After hitting an enemy with skills, Chen gains ATK +8% for 10s. This effect can reach 5 stacks."
+        apply:
+          - stat: atk_pct
+            value: 8
+            stacks: {max: 5, perTrigger: 1}
+            duration: 10
+            trigger: skill_hit
+            target: self
+
+  - name: Momentum Breaker
+    levels:
+      - condition: Elite 2
+        unmodeled: "stagger for interrupting an enemy cast; the dummy never casts"
+      - condition: Elite 3
+        unmodeled: "10 stagger for interrupting an enemy cast; the dummy never casts"
+
+potentials:
+  - rank: 1
+    unmodeled: "«below 50 % HP» — the dummy does not model target HP"
+  - rank: 2
+    confidence: confirmed
+    seen: "Agility +15, Physical DMG Dealt +8%."
+    apply:
+      - {stat: attr, attribute: AGL, value: 15}
+      - {stat: dmg_bonus, element: Physical, value: 8}
+  - rank: 3
+    confidence: confirmed
+    seen: "Battle skill Ascending Strike, combo skill Soar to the Stars, and ultimate Blade Gale improved: DMG Multiplier is increased to 1.1 times the original."
+    apply:
+      - {stat: skill_multiplier, skill: Ascending Strike, value: 1.1}
+      - {stat: skill_multiplier, skill: Soar to the Stars, value: 1.1}
+      - {stat: skill_multiplier, skill: Blade Gale, value: 1.1}
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Blade Gale improved: Ultimate Energy cost -15%."
+    apply:
+      - {stat: ult_cost_pct, value: -15}
+  - rank: 5
+    confidence: confirmed
+    seen: "Combo skill Soar to the Stars improved: Length of cooldown -3s."
+    apply:
+      - {stat: cooldown_flat, skillType: Combo Skill, value: -3}

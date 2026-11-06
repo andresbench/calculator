@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Rift Trekker Hands
+|image = Rift_Trekker_Hands.png
+|filename = item_equip_t4_parts_wuling02_hand_02
+|cnname = 涉渊手套
+|tcname = 涉淵手套
+|jpname = 渡淵グローブ
+|krname = 절망 장갑
+|spname = Manos de Trotagrietas
+|runame = Краги «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Hands''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequently carry out missions in high threat areas. 
+"I unfurl the war banner, a funeral shroud if I were slain."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +86, +94, +103, +111
+|sstat = Battle Skill DMG Bonus
+|svalue = +36.0%, +39.6%, +43.2%, +46.8%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

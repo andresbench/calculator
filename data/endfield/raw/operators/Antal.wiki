@@ -1,0 +1,254 @@
+{{Operator infobox
+|name = Antal
+|rarity = 4
+|class = Supporter
+|weapon = Arts Unit
+|element = Electric
+|faction = Endfield Industries
+|tags = Arts Susc., Amp
+|main = Intellect
+|sub = Strength
+|starting = 
+|headhunting = standard
+|quote = Antal of Op Z7 reporting for duty. I've studied Originium automation and occasionally help with modifying or repairing Originium devices. You may approach me for such tasks... And I have a question for you. What is the material of your mask? Carbon fiber?
+|image = 
+Antal Splash Art.png
+|filename = chr_0023_antal
+|cnname = 安塔尔
+|tcname = 安塔爾
+|jpname = アンタル
+|krname = 안탈
+|spname = Antal
+|runame = Антал
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Shunsuke_Takeuchi Takeuchi Shunsuke]
+|cncv = [https://zh.moegirl.org.cn/%E9%BB%91%E7%9F%B3%E7%A8%94 Liu Yuxuan]
+|encv = [https://www.imdb.com/name/nm4354775/ Jacob Craner]
+|krcv = [https://en.namu.wiki/w/이규창(성우) Lee Gyu-chang]
+|gender = Male
+|authentication = Endfield Industries
+|birthdate = April 10
+|race = Savra
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Normal
+|tactical = Normal
+|skill = Standard
+|originium = Outstanding
+|exp1 = Tool Assembly
+|exp1d = Tool Assembly: Device Kitbashing
+Show Antal a device for the first time, and he'll quickly come up with a dozen plans to disassemble and modify it.
+|exp2 = Situational Analysis
+|exp2d = Situational Analysis: Puzzle-Solving
+Hardly any riddles can beat Antal. But riddles and puzzles on the newspaper are another thing.
+|hb1 = Mind Honing
+|hb1d = Mind Honing: Gameplay Analyst
+Antal never cared about winning or losing, but he always ends up winning.
+|hb2 = Creative
+|hb2d = Creative: Humor Sensitivity Training
+Antal believes that constant practice will make him the Master Guru of Lame Jokes.
+|prefer = Valley Industry's Choice
+|matskill = Detonation Unit, OBJ Arts Identifier
+|matstats = Oblivion, Stanza of Memorials
+}}
+'''Antal''' is a 4★ [[Electric]] [[Supporter]] [[Operator]] from [[Endfield Industries]] in ''[[Arknights: Endfield]]''. He is an [[Arts Unit]] user who can debuff targets and provide {{G|Amp|Amp}} to other teammates.
+
+==Profile==
+"A mission for me? Good. I happen to be seeking field-testing opportunities for modified orbiters."<br/>A member of [[Operations Team Z7]] in Endfield, Antal works as a supporter and an [[Originium]] technology consultant. He is clever and quick on the uptake, but not the best at reading people. More than once he has dropped comments so out of place they leave the rest of the team groaning. Even so, his talent for Originium Arts is remarkable, though he himself seems hardly aware of it.<br/>Influenced by his grandmother, Antal has little concern for conventional success and pours all his focus into whatever fascinates him. Be it an Originium device he has never seen before or a dry joke that leaves him marveling, this young Savra won't rest for days until he feels he has unraveled its secrets.<br/>"Curiously, your presence greatly amplifies my eagerness to share my vast knowledge."
+
+==Stats==
+{{Operator data
+|main = Intellect
+|sub = Strength
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 87, 147, 207, 267, 297
+|STR = 15.876, 40.104, 65.608, 91.112, 116.616, 129.368
+|AGL = 9.484, 25.994, 43.372, 60.751, 78.129, 86.818
+|INT = 15.463, 47.435, 81.09, 114.744, 148.399, 165.226
+|WIL = 9.793, 25.379, 41.786, 58.192, 74.599, 82.802
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Metadiastima Photoemission Tube x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Ultimate {{Color|Overclocked Moment|7}} improved: {{G|Electric Amp|Electric Amp}} and {{G|Heat Amp|Heat Amp}} effects are increased to {{Color|1.1|1d}} times the original.
+|pot1t = Arts Talent
+|pot2 = Ultimate {{Color|Overclocked Moment|7}} improved: Ultimate Energy cost {{Color|-10%|1d}}.
+|pot2t = Improved Automation
+|pot3 = When an enemy with an active {{Color|Focus|7}} debuff is defeated, {{G|SP Return|return}} {{Color|15|1d}} SP.
+|pot3t = Applied Originium Theory
+|pot4 = Intellect {{Color|+10|1d}}, Max HP {{Color|+10%|1d}}.
+|pot4t = Granny's Reminder
+|pot5 = Applying {{Color|Focus|7}} on the same target for {{Color|20|1d}}s increases {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}} effects by {{Color|4%|1d}}.
+|pot5t = High Specs Tech Tester
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Exchange Current
+|icon= Attack-Artsunit
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Electric DMG|6}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|15|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Electric DMG|6}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Electric DMG|6}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 23%, 25%, 28%, 30%, 32%, 35%, 37%, 39%, 41%, 44%, 48%, 52%
+|stat2= BATK SEQ 2 Multiplier, 28%, 31%, 34%, 36%, 39%, 42%, 45%, 48%, 50%, 54%, 58%, 63%
+|stat3= BATK SEQ 3 Multiplier, 34%, 37%, 41%, 44%, 48%, 51%, 54%, 58%, 61%, 65%, 71%, 77%
+|stat4= BATK SEQ 4 Multiplier, 51%, 56%, 61%, 66%, 71%, 77%, 82%, 87%, 92%, 98%, 106%, 115%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Specified Research Subject
+|icon= Skill-Antal
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Applies {{Color|Focus|7}} with a long duration on the enemy and deals {{Color|Electric DMG|6}}. An enemy with an active {{Color|Focus|7}} also suffers {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}}. {{Color|Focus|7}} can only be applied to 1 enemy at any given time.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 89%, 98%, 107%, 116%, 124%, 133%, 142%, 151%, 160%, 171%, 185%, 200%
+|stat3= Duration (s), 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
+|stat4= Electric Susceptibility, 5%, 5%, 6%, 6%, 7%, 7%, 8%, 8%, 8%, 9%, 9%, 10%
+|stat5= Heat Susceptibility, 5%, 5%, 6%, 6%, 7%, 7%, 8%, 8%, 8%, 9%, 9%, 10%
+}}
+{{Combat skill
+|name= EMP Test Site
+|icon= Combo-Antal
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When an enemy with active {{Color|Focus|7}} suffers a {{G|Physical Status|Physical Status}} or {{G|Arts Infliction|Arts Infliction}}. <br /><b>SKILL DESCRIPTION:</b> Triggers 1 energy explosion on the enemy that deals {{Color|Electric DMG|6}} and applies another stack of the same {{G|Physical Status|Physical Status}} or {{G|Arts Infliction|Arts Infliction}}.
+|stat1= Cooldown, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 24
+|stat2= DMG Multiplier, 151%, 166%, 181%, 196%, 211%, 227%, 242%, 257%, 272%, 291%, 313%, 340%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Overclocked Moment
+|icon= Ult-Antal
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Applies temporary {{G|Electric Amp|Electric Amp}} and {{G|Heat Amp|Heat Amp}} to the entire team.
+|stat1= Ultimate Energy Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Electric Amp, 8%, 9%, 10%, 11%, 12%, 13%, 14%, 15%, 16%, 17%, 18%, 20%
+|stat3= Heat Amp, 8%, 9%, 10%, 11%, 12%, 13%, 14%, 15%, 16%, 17%, 18%, 20%
+|stat4= Duration (s), 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Exchange Current|skill2=Specified Research Subject|skill3=EMP Test Site|skill4=Overclocked Moment|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=D96 Steel Sample 4,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Tachyon Screening Lattice,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=D96 Steel Sample 4,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Tachyon Screening Lattice,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Exchange Current|skill2=Specified Research Subject|skill3=EMP Test Site|skill4=Overclocked Moment|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=D96 Steel Sample 4,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Tachyon Screening Lattice,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=D96 Steel Sample 4,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Tachyon Screening Lattice,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Exchange Current|skill2=Specified Research Subject|skill3=EMP Test Site|skill4=Overclocked Moment|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=D96 Steel Sample 4,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Tachyon Screening Lattice,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=D96 Steel Sample 4,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Tachyon Screening Lattice,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Keen Mind
+|icon = Intellect
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Intellect +10.
+|cond2 = Elite 2
+|desc2 = Operator Intellect +15.
+|cond3 = Elite 3
+|desc3 = Operator Intellect +15.
+|cond4 = Elite 4
+|desc4 = Operator Intellect +20.
+}}
+{{Operator talent
+|name = Improviser
+|icon = Antal Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = After an {{G|Amp|Amped}} teammate's skill deals DMG, Antal restores the said teammate's HP by {{Color|[72 + Strength×0.6]|1c}}. This HP restoring effect triggers 1 time every {{Color|30|1d}}s for each operator.
+|cond2 = Elite 2
+|desc2 = After an {{G|Amp|Amped}} teammate's skill deals DMG, Antal restores the said teammate's HP by {{Color|[108 + Strength×0.9]|1c}}. This HP restoring effect triggers 1 time every {{Color|30|1d}}s for each operator.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Subconscious Act
+|icon = Antal Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Gains {{Color|30%|1d}} chance of {{Color|Physical DMG|1}} immunity and restores HP of self by {{Color|[27 + Strength×0.23]|1c}}.
+|cond2 = Elite 3
+|desc2 = Gains {{Color|30%|1d}} chance of {{Color|Physical DMG|1}} immunity and restores HP of self by {{Color|[45 + Strength×0.38]|1c}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Intellect
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Experimental Arts Unit
+|icon = MFG-manufacture_efficiency
+|facility = Manufacturing Cabin
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20%
+}}
+{{Operator base skill
+|name = Pun-isher Studies
+|icon = GC-plant_power_consume
+|facility = Growth Chamber
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Growth Chamber to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Growth Chamber to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = GC-plant_power_consume
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Potential High Specs Tech Tester
+*** Reduced {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}} from 6% to 4%.
+** Battle Skill Specified Research Subject
+*** Reduced {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}} from 8% - 14% to 5% - 10%.
+** Ultimate Overclocked Moment
+*** Reduced {{G|Electric Amp|Electric Amp}} and {{G|Heat Amp|Heat Amp}} from 13% - 28% to 8% - 20%.
+** Base Skill Expert Grower
+*** Renamed to Pun-isher Studies.
+*** Increased the slowed Mood Drop from 10% / 14% to 14% / 18%.
+*'''Beta Test II''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

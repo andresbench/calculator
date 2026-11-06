@@ -1,0 +1,65 @@
+{{Enemy infobox
+|name = Imbued Quillbeast
+|image = Imbued_Quillbeast_sprite.png
+|filename = eny_0109_hshog2
+|cnname = 充能球刺兽
+|tcname = 蓄能球刺獸
+|jpname = チャージ球刺獣
+|krname = 활성화된 프릭비스트
+|spname = Bestia pluma imbuida
+|runame = Заряженный колючий зверь
+|type = Wildlife
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 15
+}}
+'''Imbued Quillbeast''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A quillbeast infected by active Originium dust. The creature's spines are imbued with high levels of energy, making them extremely destructive.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 44, 209, 651, 1617, 2433, 2788
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 200
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 0.8
+|welectric = 0.8
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy will charge up and inflate its abdomen to spew superhot lava from its body. Interrupt it during charge up to deal massive Stagger to it.
+*Enraged State: When Enraged, the beast has increased ATK and uses its charge up skills more often. Applying Staggered to it ends the Enraged state.
+|location = *[[Energy Alluvium: Test Area]]
+|drops = {{I|Quillbeast Liver}}
+|addendum = }}
+
+==Overview==
+Imbued Quillbeasts are Quillbeasts that have been infected by Originium. While they retain most of the abilities of their normal relatives, they also have unique abilities as well:
+
+*Claws twice in a row, dealing Physical damage.
+*Rolls to either left or right, dealing Physical damage, but makes it immobile for a short period.
+*Swings their tail around, dealing Physical damage and knock Operators back. This is followed with a tail slam, dealing Physical damage and knock Operators back at front.
+*Bounce around three times, dealing Physical damage and knock Operators back in a larger area. This ability can be interrupted by skills.
+*Enters Enraged state and rush forward before ending with a fall, dealing Physical damage and knock Operators back, with the fall having a larger area. This ability can be interrupted by skills.
+
+==See Also==
+* [[Quillbeast]] &ndash; standard variant.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1246, 8942, 56582, 222753, 535821, 825447 from 1246, 10520, 66567, 222753, 535821, 825447
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

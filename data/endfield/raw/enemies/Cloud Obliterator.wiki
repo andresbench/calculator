@@ -1,0 +1,58 @@
+{{Enemy infobox
+|name = Cloud Obliterator
+|image = Cloud_Obliterator_sprite.png
+|filename = eny_0097_hsmino2
+|cnname = 开天将
+|tcname = 開天將
+|jpname = 開天将
+|krname = 개천장
+|viname = Khai Thiên Tướng
+|spname = Destructor de nubes
+|runame = Облачный истребитель
+|type = Cangzei Pirates
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 8
+}}
+'''Cloud Obliterator''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A criminal equipped with heavy weaponry. Obliteration is no small feat. Only the strongest smashers armed with quadruple rocket launchers can achieve the title of Cloud Obliterator.}}
+
+==Stats==
+{{Enemy data
+|HP = 1661, 11923, 75442, 297005, 714428, 1100596
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 1
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Uses the heavy rocket launcher as a melee weapon. Also shoots fireworks for its ranged attacks. Getting rammed and lifted by its horns might set off some super fireworks!
+*Don't try to backstab it. It has a powerful hind kick!
+|location = *[[Qingbo Stockade]]
+*[[Sword Vault Dale]]
+|drops = {{I|Qingbo Bamboo Chimes}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

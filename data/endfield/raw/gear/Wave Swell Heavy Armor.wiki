@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Wave Swell Heavy Armor
+|image = Wave_Swell_Heavy_Armor.png
+|filename = item_equip_t4_suit_burst01_body_03
+|cnname = 涌浪重装甲
+|tcname = 湧浪重裝甲
+|jpname = 奔浪ヘビーアーマー
+|krname = 파도 중장갑
+|spname = Armadura pesada de Oleaje
+|runame = Тяжелая броня «Вздымающаяся волна»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Wave Swell Heavy Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Equipment designed by the Bureau of Swordmancers for those working near the Blight Tide. 
+This is a taunting challenge made against the Blight Tide: We will no longer let it stop our path forward.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Strength
+|pvalue = +87, +95, +104, +113
+|sstat = Will
+|svalue = +58, +63, +69, +75
+|tstat = Cryo & Electric DMG
+|tvalue = +11.5%, +12.7%, +13.8%, +14.9%
+|setname = Tide Surge
+|seteffect = 3-piece set effect: Wearer's Skill DMG Dealt {{Color|+20%|1d}}.
+After the wearer applies {{Color|2|7}} or more stacks of {{G|Arts Infliction|Arts Infliction}} on the enemy, the wearer gains {{Color|Arts DMG Dealt|7}} {{Color|+35%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Tide Surge}}
+{{Gears|state=collapsed}}

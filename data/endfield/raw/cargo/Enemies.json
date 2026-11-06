@@ -1,0 +1,922 @@
+[
+ {
+  "_pageName": "Acid Originium Slug",
+  "Enemy": "Acid Originium Slug",
+  "Id": "eny_0073_slimerg",
+  "Name": "Acid Originium Slug",
+  "Image": "Acid_Originium_Slug_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "4"
+ },
+ {
+  "_pageName": "Acid Originium Slug α",
+  "Enemy": "Acid Originium Slug α",
+  "Id": "eny_0100_slimerg2",
+  "Name": "Acid Originium Slug α",
+  "Image": "Acid_Originium_Slug_α_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "12"
+ },
+ {
+  "_pageName": "Alleikhreos, Chiliarch",
+  "Enemy": "Alleikhreos, Chiliarch",
+  "Id": "eny_0125_fdcentur",
+  "Name": "Alleikhreos, Chiliarch",
+  "Image": "Alleikhreos,_Chiliarch_sprite.png",
+  "Type": "Foundite",
+  "Class": "Boss",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Armored Manglerbeast",
+  "Enemy": "Armored Manglerbeast",
+  "Id": "eny_0113_jzogre",
+  "Name": "Armored Manglerbeast",
+  "Image": "Armored_Manglerbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Elite",
+  "SortId": "18"
+ },
+ {
+  "_pageName": "Axe Armorbeast",
+  "Enemy": "Axe Armorbeast",
+  "Id": "eny_0071_sandb",
+  "Name": "Axe Armorbeast",
+  "Image": "Axe_Armorbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Elite",
+  "SortId": "2"
+ },
+ {
+  "_pageName": "Æthillu",
+  "Enemy": "Æthillu",
+  "Id": "eny_0095_ethillu",
+  "Name": "Æthillu",
+  "Image": "Æthillu_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "16"
+ },
+ {
+  "_pageName": "Blazemist Originium Slug",
+  "Enemy": "Blazemist Originium Slug",
+  "Id": "eny_0108_slbomb2",
+  "Name": "Blazemist Originium Slug",
+  "Image": "Blazemist_Originium_Slug_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "14"
+ },
+ {
+  "_pageName": "Blitzcrash Blightshade",
+  "Enemy": "Blitzcrash Blightshade",
+  "Id": "eny_0120_klbear",
+  "Name": "Blitzcrash Blightshade",
+  "Image": "Blitzcrash_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Alpha",
+  "SortId": "4"
+ },
+ {
+  "_pageName": "Bonekrusher Ambusher",
+  "Enemy": "Bonekrusher Ambusher",
+  "Id": "eny_0033_lbhunt",
+  "Name": "Bonekrusher Ambusher",
+  "Image": "Bonekrusher_Ambusher_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "2"
+ },
+ {
+  "_pageName": "Bonekrusher Arsonist",
+  "Enemy": "Bonekrusher Arsonist",
+  "Id": "eny_0047_firebat",
+  "Name": "Bonekrusher Arsonist",
+  "Image": "Bonekrusher_Arsonist_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Advanced",
+  "SortId": "5"
+ },
+ {
+  "_pageName": "Bonekrusher Ballista",
+  "Enemy": "Bonekrusher Ballista",
+  "Id": "eny_0048_hvybow",
+  "Name": "Bonekrusher Ballista",
+  "Image": "Bonekrusher_Ballista_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Elite",
+  "SortId": "6"
+ },
+ {
+  "_pageName": "Bonekrusher Executioner",
+  "Enemy": "Bonekrusher Executioner",
+  "Id": "eny_0018_lbtough",
+  "Name": "Bonekrusher Executioner",
+  "Image": "Bonekrusher_Executioner_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Elite",
+  "SortId": "3"
+ },
+ {
+  "_pageName": "Bonekrusher Infiltrator",
+  "Enemy": "Bonekrusher Infiltrator",
+  "Id": "eny_0049_rogue",
+  "Name": "Bonekrusher Infiltrator",
+  "Image": "Bonekrusher_Infiltrator_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "7"
+ },
+ {
+  "_pageName": "Bonekrusher Pyromancer",
+  "Enemy": "Bonekrusher Pyromancer",
+  "Id": "eny_0046_lbshamman",
+  "Name": "Bonekrusher Pyromancer",
+  "Image": "Bonekrusher_Pyromancer_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Advanced",
+  "SortId": "4"
+ },
+ {
+  "_pageName": "Bonekrusher Raider",
+  "Enemy": "Bonekrusher Raider",
+  "Id": "eny_0029_lbmob",
+  "Name": "Bonekrusher Raider",
+  "Image": "Bonekrusher_Raider_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Bonekrusher Ripptusk",
+  "Enemy": "Bonekrusher Ripptusk",
+  "Id": "eny_0050_hound",
+  "Name": "Bonekrusher Ripptusk",
+  "Image": "Bonekrusher_Ripptusk_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "9"
+ },
+ {
+  "_pageName": "Bonekrusher Siegeknuckles",
+  "Enemy": "Bonekrusher Siegeknuckles",
+  "Id": "eny_0075_lbroshan",
+  "Name": "Bonekrusher Siegeknuckles",
+  "Image": "Bonekrusher_Siegeknuckles_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Elite",
+  "SortId": "16"
+ },
+ {
+  "_pageName": "Bonekrusher Vanguard",
+  "Enemy": "Bonekrusher Vanguard",
+  "Id": "eny_0074_lbshield",
+  "Name": "Bonekrusher Vanguard",
+  "Image": "Bonekrusher_Vanguard_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "15"
+ },
+ {
+  "_pageName": "Breaking Gust",
+  "Enemy": "Breaking Gust",
+  "Id": "eny_0104_hsrogue2",
+  "Name": "Breaking Gust",
+  "Image": "Breaking_Gust_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Elite",
+  "SortId": "9"
+ },
+ {
+  "_pageName": "Brutal Pincerbeast",
+  "Enemy": "Brutal Pincerbeast",
+  "Id": "eny_0099_slimeml2",
+  "Name": "Brutal Pincerbeast",
+  "Image": "Brutal_Pincerbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "11"
+ },
+ {
+  "_pageName": "Cloud Obliterator",
+  "Enemy": "Cloud Obliterator",
+  "Id": "eny_0097_hsmino2",
+  "Name": "Cloud Obliterator",
+  "Image": "Cloud_Obliterator_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Elite",
+  "SortId": "8"
+ },
+ {
+  "_pageName": "Cloud Stalker",
+  "Enemy": "Cloud Stalker",
+  "Id": "eny_0055_hscrane",
+  "Name": "Cloud Stalker",
+  "Image": "Cloud_Stalker_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Advanced",
+  "SortId": "4"
+ },
+ {
+  "_pageName": "Craghowler",
+  "Enemy": "Craghowler",
+  "Id": "eny_0114_jzmking",
+  "Name": "Craghowler",
+  "Image": "Craghowler_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Alpha",
+  "SortId": "19"
+ },
+ {
+  "_pageName": "Effigy",
+  "Enemy": "Effigy",
+  "Id": "eny_0058_agdisk",
+  "Name": "Effigy",
+  "Image": "Effigy_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Elite",
+  "SortId": "10"
+ },
+ {
+  "_pageName": "Elite Ambusher",
+  "Enemy": "Elite Ambusher",
+  "Id": "eny_0066_lbhunt2",
+  "Name": "Elite Ambusher",
+  "Image": "Elite_Ambusher_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "12"
+ },
+ {
+  "_pageName": "Elite Executioner",
+  "Enemy": "Elite Executioner",
+  "Id": "eny_0068_lbtough2",
+  "Name": "Elite Executioner",
+  "Image": "Elite_Executioner_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Elite",
+  "SortId": "14"
+ },
+ {
+  "_pageName": "Elite Raider",
+  "Enemy": "Elite Raider",
+  "Id": "eny_0065_lbmob2",
+  "Name": "Elite Raider",
+  "Image": "Elite_Raider_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "11"
+ },
+ {
+  "_pageName": "Elite Ripptusk",
+  "Enemy": "Elite Ripptusk",
+  "Id": "eny_0067_hound2",
+  "Name": "Elite Ripptusk",
+  "Image": "Elite_Ripptusk_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "13"
+ },
+ {
+  "_pageName": "Ereignis",
+  "Enemy": "Ereignis",
+  "Id": "eny_0080_reaper",
+  "Name": "Ereignis",
+  "Image": "Ereignis_sprite.png",
+  "Type": "",
+  "Class": "Boss",
+  "SortId": ""
+ },
+ {
+  "_pageName": "Falsewings",
+  "Enemy": "Falsewings",
+  "Id": "eny_0076_agfly",
+  "Name": "Falsewings",
+  "Image": "Falsewings_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "11"
+ },
+ {
+  "_pageName": "Falsewings α",
+  "Enemy": "Falsewings α",
+  "Id": "eny_0101_agfly2",
+  "Name": "Falsewings α",
+  "Image": "Falsewings_α_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "12"
+ },
+ {
+  "_pageName": "Firemist Originium Slug",
+  "Enemy": "Firemist Originium Slug",
+  "Id": "eny_0092_slbomb",
+  "Name": "Firemist Originium Slug",
+  "Image": "Firemist_Originium_Slug_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "7"
+ },
+ {
+  "_pageName": "Fortune's Stash",
+  "Enemy": "Fortune's Stash",
+  "Id": "eny_0130_inkbiter",
+  "Name": "Fortune's Stash",
+  "Image": "Fortune's_Stash_sprite.png",
+  "Type": "Apparition",
+  "Class": "Common",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Glaring Rakerbeast",
+  "Enemy": "Glaring Rakerbeast",
+  "Id": "eny_0102_hstiger2",
+  "Name": "Glaring Rakerbeast",
+  "Image": "Glaring_Rakerbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Elite",
+  "SortId": "13"
+ },
+ {
+  "_pageName": "Gloomwald's Rage",
+  "Enemy": "Gloomwald's Rage",
+  "Id": "eny_0127_bigents",
+  "Name": "Gloomwald's Rage",
+  "Image": "Gloomwald's_Rage_sprite.png",
+  "Type": "Witchcraft Creation",
+  "Class": "Alpha",
+  "SortId": "3"
+ },
+ {
+  "_pageName": "Grove Archer",
+  "Enemy": "Grove Archer",
+  "Id": "eny_0084_hshunt",
+  "Name": "Grove Archer",
+  "Image": "Grove_Archer_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Common",
+  "SortId": "2"
+ },
+ {
+  "_pageName": "Hazefyre Axe Armorbeast",
+  "Enemy": "Hazefyre Axe Armorbeast",
+  "Id": "eny_0098_sandb2",
+  "Name": "Hazefyre Axe Armorbeast",
+  "Image": "Hazefyre_Axe_Armorbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Elite",
+  "SortId": "10"
+ },
+ {
+  "_pageName": "Hazefyre Claw",
+  "Enemy": "Hazefyre Claw",
+  "Id": "eny_0060_lbmad",
+  "Name": "Hazefyre Claw",
+  "Image": "Hazefyre_Claw_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "8"
+ },
+ {
+  "_pageName": "Hazefyre Tuskbeast",
+  "Enemy": "Hazefyre Tuskbeast",
+  "Id": "eny_0059_erhound",
+  "Name": "Hazefyre Tuskbeast",
+  "Image": "Hazefyre_Tuskbeast_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Common",
+  "SortId": "10"
+ },
+ {
+  "_pageName": "Heavy Ram",
+  "Enemy": "Heavy Ram",
+  "Id": "eny_0023_aghornb",
+  "Name": "Heavy Ram",
+  "Image": "Heavy_Ram_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Advanced",
+  "SortId": "2"
+ },
+ {
+  "_pageName": "Heavy Ram α",
+  "Enemy": "Heavy Ram α",
+  "Id": "eny_0069_aghornb2",
+  "Name": "Heavy Ram α",
+  "Image": "Heavy_Ram_α_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Advanced",
+  "SortId": "7"
+ },
+ {
+  "_pageName": "Heavy Sting",
+  "Enemy": "Heavy Sting",
+  "Id": "eny_0027_agscorp",
+  "Name": "Heavy Sting",
+  "Image": "Heavy_Sting_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Advanced",
+  "SortId": "4"
+ },
+ {
+  "_pageName": "Heavy Sting α",
+  "Enemy": "Heavy Sting α",
+  "Id": "eny_0070_agscorp2",
+  "Name": "Heavy Sting α",
+  "Image": "Heavy_Sting_α_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Advanced",
+  "SortId": "8"
+ },
+ {
+  "_pageName": "Hedron",
+  "Enemy": "Hedron",
+  "Id": "eny_0088_wgthorns",
+  "Name": "Hedron",
+  "Image": "Hedron_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "15"
+ },
+ {
+  "_pageName": "Hedron δ",
+  "Enemy": "Hedron δ",
+  "Id": "eny_0106_wgthorns2",
+  "Name": "Hedron δ",
+  "Image": "Hedron_δ_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "20"
+ },
+ {
+  "_pageName": "Highway Reaver",
+  "Enemy": "Highway Reaver",
+  "Id": "eny_0096_hsmob2",
+  "Name": "Highway Reaver",
+  "Image": "Highway_Reaver_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Common",
+  "SortId": "6"
+ },
+ {
+  "_pageName": "Hill Smasher",
+  "Enemy": "Hill Smasher",
+  "Id": "eny_0054_hsmino",
+  "Name": "Hill Smasher",
+  "Image": "Hill_Smasher_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Elite",
+  "SortId": "3"
+ },
+ {
+  "_pageName": "Imbued Quillbeast",
+  "Enemy": "Imbued Quillbeast",
+  "Id": "eny_0109_hshog2",
+  "Name": "Imbued Quillbeast",
+  "Image": "Imbued_Quillbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Advanced",
+  "SortId": "15"
+ },
+ {
+  "_pageName": "Indigenous Pincerbeast",
+  "Enemy": "Indigenous Pincerbeast",
+  "Id": "eny_0072_slimeml",
+  "Name": "Indigenous Pincerbeast",
+  "Image": "Indigenous_Pincerbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "3"
+ },
+ {
+  "_pageName": "Maned Measure",
+  "Enemy": "Maned Measure",
+  "Id": "eny_0133_inklion",
+  "Name": "Maned Measure",
+  "Image": "Maned_Measure_sprite.png",
+  "Type": "Apparition",
+  "Class": "Elite",
+  "SortId": "4"
+ },
+ {
+  "_pageName": "Marble Aggelomoirai (palecore)",
+  "Enemy": "Marble Aggelomoirai (palecore)",
+  "Id": "eny_0061_palecore",
+  "Name": "Marble Aggelomoirai (palecore)",
+  "Image": "Marble_Aggelomoirai_palecore_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Boss",
+  "SortId": "23"
+ },
+ {
+  "_pageName": "Marble Aggelomoirai (palesent)",
+  "Enemy": "Marble Aggelomoirai (palesent)",
+  "Id": "eny_0052_palesent",
+  "Name": "Marble Aggelomoirai (palesent)",
+  "Image": "Marble_Aggelomoirai_palesent_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Boss",
+  "SortId": "25"
+ },
+ {
+  "_pageName": "Marble Appendage",
+  "Enemy": "Marble Appendage",
+  "Id": "eny_0062_paletent",
+  "Name": "Marble Appendage",
+  "Image": "Marble_Appendage_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Boss",
+  "SortId": "24"
+ },
+ {
+  "_pageName": "Mudflow",
+  "Enemy": "Mudflow",
+  "Id": "eny_0087_wgslime",
+  "Name": "Mudflow",
+  "Image": "Mudflow_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "14"
+ },
+ {
+  "_pageName": "Mudflow δ",
+  "Enemy": "Mudflow δ",
+  "Id": "eny_0105_wgslime2",
+  "Name": "Mudflow δ",
+  "Image": "Mudflow_δ_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "19"
+ },
+ {
+  "_pageName": "Nefarith, \"Bonekrusher\"",
+  "Enemy": "Nefarith, \"Bonekrusher\"",
+  "Id": "eny_0078_nefarp1",
+  "Name": "Nefarith, \"Bonekrusher\"",
+  "Image": "Nefarith,_\"Bonekrusher\"_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Boss",
+  "SortId": "18"
+ },
+ {
+  "_pageName": "Nefarith, \"Conqueror\"",
+  "Enemy": "Nefarith, \"Conqueror\"",
+  "Id": "eny_0079_nefarp2",
+  "Name": "Nefarith, \"Conqueror\"",
+  "Image": "Nefarith,_\"Conqueror\"_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Boss",
+  "SortId": "19"
+ },
+ {
+  "_pageName": "Nimbus Razor",
+  "Enemy": "Nimbus Razor",
+  "Id": "eny_0085_hsrogue",
+  "Name": "Nimbus Razor",
+  "Image": "Nimbus_Razor_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Advanced",
+  "SortId": "5"
+ },
+ {
+  "_pageName": "Prism",
+  "Enemy": "Prism",
+  "Id": "eny_0089_wgreflec",
+  "Name": "Prism",
+  "Image": "Prism_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "16"
+ },
+ {
+  "_pageName": "Quillbeast",
+  "Enemy": "Quillbeast",
+  "Id": "eny_0093_hshog",
+  "Name": "Quillbeast",
+  "Image": "Quillbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Advanced",
+  "SortId": "8"
+ },
+ {
+  "_pageName": "Quillbeast Blightshade",
+  "Enemy": "Quillbeast Blightshade",
+  "Id": "eny_0118_klhog",
+  "Name": "Quillbeast Blightshade",
+  "Image": "Quillbeast_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Advanced",
+  "SortId": "2"
+ },
+ {
+  "_pageName": "Rakerbeast Blightshade",
+  "Enemy": "Rakerbeast Blightshade",
+  "Id": "eny_0119_kltiger",
+  "Name": "Rakerbeast Blightshade",
+  "Image": "Rakerbeast_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Elite",
+  "SortId": "3"
+ },
+ {
+  "_pageName": "Ram",
+  "Enemy": "Ram",
+  "Id": "eny_0021_agmelee",
+  "Name": "Ram",
+  "Image": "Ram_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Ram α",
+  "Enemy": "Ram α",
+  "Id": "eny_0063_agmelee2",
+  "Name": "Ram α",
+  "Image": "Ram_α_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "5"
+ },
+ {
+  "_pageName": "Rhodagn the Bonekrushing Fist",
+  "Enemy": "Rhodagn the Bonekrushing Fist",
+  "Id": "eny_0051_rodin",
+  "Name": "Rhodagn the Bonekrushing Fist",
+  "Image": "Rhodagn_the_Bonekrushing_Fist_sprite.png",
+  "Type": "Landbreakers",
+  "Class": "Boss",
+  "SortId": "17"
+ },
+ {
+  "_pageName": "Road Plunderer",
+  "Enemy": "Road Plunderer",
+  "Id": "eny_0053_hsmob",
+  "Name": "Road Plunderer",
+  "Image": "Road_Plunderer_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Common",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Rockhowler",
+  "Enemy": "Rockhowler",
+  "Id": "eny_0112_jzmonk",
+  "Name": "Rockhowler",
+  "Image": "Rockhowler_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "17"
+ },
+ {
+  "_pageName": "Ruan Yi",
+  "Enemy": "Ruan Yi",
+  "Id": "eny_0081_ruanyi",
+  "Name": "Ruan Yi",
+  "Image": "Ruan_Yi_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Boss",
+  "SortId": "10"
+ },
+ {
+  "_pageName": "Scroll of Tactics",
+  "Enemy": "Scroll of Tactics",
+  "Id": "eny_0131_inkscroll",
+  "Name": "Scroll of Tactics",
+  "Image": "Scroll_of_Tactics_sprite.png",
+  "Type": "Apparition",
+  "Class": "Common",
+  "SortId": "2"
+ },
+ {
+  "_pageName": "Sentinel",
+  "Enemy": "Sentinel",
+  "Id": "eny_0039_agcanno",
+  "Name": "Sentinel",
+  "Image": "Sentinel_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Elite",
+  "SortId": "9"
+ },
+ {
+  "_pageName": "Si/Enemy",
+  "Enemy": "Si/Enemy",
+  "Id": "eny_0134_jsspsi",
+  "Name": "Si",
+  "Image": "Si_sprite.png",
+  "Type": "Others",
+  "Class": "Boss",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Simmer's Purge",
+  "Enemy": "Simmer's Purge",
+  "Id": "eny_0132_inkkirin",
+  "Name": "Simmer's Purge",
+  "Image": "Simmer's_Purge_sprite.png",
+  "Type": "Apparition",
+  "Class": "Advanced",
+  "SortId": "3"
+ },
+ {
+  "_pageName": "Skydrummer",
+  "Enemy": "Skydrummer",
+  "Id": "eny_0082_hsbear",
+  "Name": "Skydrummer",
+  "Image": "Skydrummer_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Alpha",
+  "SortId": "5"
+ },
+ {
+  "_pageName": "Spotted Rakerbeast",
+  "Enemy": "Spotted Rakerbeast",
+  "Id": "eny_0083_hstiger",
+  "Name": "Spotted Rakerbeast",
+  "Image": "Spotted_Rakerbeast_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Elite",
+  "SortId": "6"
+ },
+ {
+  "_pageName": "Sting",
+  "Enemy": "Sting",
+  "Id": "eny_0025_agrange",
+  "Name": "Sting",
+  "Image": "Sting_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "3"
+ },
+ {
+  "_pageName": "Sting α",
+  "Enemy": "Sting α",
+  "Id": "eny_0064_agrange2",
+  "Name": "Sting α",
+  "Image": "Sting_α_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Common",
+  "SortId": "6"
+ },
+ {
+  "_pageName": "Sweeping Wind",
+  "Enemy": "Sweeping Wind",
+  "Id": "eny_0103_hshunt2",
+  "Name": "Sweeping Wind",
+  "Image": "Sweeping_Wind_sprite.png",
+  "Type": "Cangzei Pirates",
+  "Class": "Common",
+  "SortId": "7"
+ },
+ {
+  "_pageName": "Tidalklast",
+  "Enemy": "Tidalklast",
+  "Id": "eny_0090_wgabyss",
+  "Name": "Tidalklast",
+  "Image": "Tidalklast_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Alpha",
+  "SortId": "18"
+ },
+ {
+  "_pageName": "Tidewalker",
+  "Enemy": "Tidewalker",
+  "Id": "eny_0091_wgshoal",
+  "Name": "Tidewalker",
+  "Image": "Tidewalker_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Elite",
+  "SortId": "17"
+ },
+ {
+  "_pageName": "Tidewalker δ",
+  "Enemy": "Tidewalker δ",
+  "Id": "eny_0107_wgshoal2",
+  "Name": "Tidewalker δ",
+  "Image": "Tidewalker_δ_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Elite",
+  "SortId": "21"
+ },
+ {
+  "_pageName": "Triaggelos",
+  "Enemy": "Triaggelos",
+  "Id": "eny_0045_agtrinit",
+  "Name": "Triaggelos",
+  "Image": "Triaggelos_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Boss",
+  "SortId": "22"
+ },
+ {
+  "_pageName": "Tunneling Nidwyrm",
+  "Enemy": "Tunneling Nidwyrm",
+  "Id": "eny_0007_mimicw",
+  "Name": "Tunneling Nidwyrm",
+  "Image": "Tunneling_Nidwyrm_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Advanced",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Tuskbeast Blightshade",
+  "Enemy": "Tuskbeast Blightshade",
+  "Id": "eny_0117_klhound",
+  "Name": "Tuskbeast Blightshade",
+  "Image": "Tuskbeast_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Common",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Walking Chrysopolis",
+  "Enemy": "Walking Chrysopolis",
+  "Id": "eny_0077_agshield",
+  "Name": "Walking Chrysopolis",
+  "Image": "Walking_Chrysopolis_sprite.png",
+  "Type": "Aggeloi",
+  "Class": "Alpha",
+  "SortId": "13"
+ },
+ {
+  "_pageName": "Waterlamp",
+  "Enemy": "Waterlamp",
+  "Id": "eny_0094_hsfly",
+  "Name": "Waterlamp",
+  "Image": "Waterlamp_sprite.png",
+  "Type": "Wildlife",
+  "Class": "Common",
+  "SortId": "9"
+ },
+ {
+  "_pageName": "Wild Tuskbeast",
+  "Enemy": "Wild Tuskbeast",
+  "Id": "eny_0057_dog",
+  "Name": "Wild Tuskbeast",
+  "Image": "",
+  "Type": "",
+  "Class": "Common",
+  "SortId": ""
+ },
+ {
+  "_pageName": "Woodcraft Slug",
+  "Enemy": "Woodcraft Slug",
+  "Id": "eny_0129_slwood",
+  "Name": "Woodcraft Slug",
+  "Image": "Woodcraft_Slug_sprite.png",
+  "Type": "Witchcraft Creation",
+  "Class": "Common",
+  "SortId": "1"
+ },
+ {
+  "_pageName": "Woodcraft Wanderer",
+  "Enemy": "Woodcraft Wanderer",
+  "Id": "eny_0128_babyents",
+  "Name": "Woodcraft Wanderer",
+  "Image": "Woodcraft_Wanderer_sprite.png",
+  "Type": "Witchcraft Creation",
+  "Class": "Advanced",
+  "SortId": "2"
+ },
+ {
+  "_pageName": "YSTF Captain Blightshade",
+  "Enemy": "YSTF Captain Blightshade",
+  "Id": "eny_0124_kltdcap",
+  "Name": "YSTF Captain Blightshade",
+  "Image": "YSTF_Captain_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Elite",
+  "SortId": "8"
+ },
+ {
+  "_pageName": "YSTF Elite Blightshade",
+  "Enemy": "YSTF Elite Blightshade",
+  "Id": "eny_0122_kltdbud",
+  "Name": "YSTF Elite Blightshade",
+  "Image": "YSTF_Elite_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Common",
+  "SortId": "6"
+ },
+ {
+  "_pageName": "YSTF Glaiver Blightshade",
+  "Enemy": "YSTF Glaiver Blightshade",
+  "Id": "eny_0123_klcap",
+  "Name": "YSTF Glaiver Blightshade",
+  "Image": "YSTF_Glaiver_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Elite",
+  "SortId": "7"
+ },
+ {
+  "_pageName": "YSTF Vanguard Blightshade",
+  "Enemy": "YSTF Vanguard Blightshade",
+  "Id": "eny_0121_klbud",
+  "Name": "YSTF Vanguard Blightshade",
+  "Image": "YSTF_Vanguard_Blightshade_sprite.png",
+  "Type": "Blightshades",
+  "Class": "Common",
+  "SortId": "5"
+ }
+]

@@ -1,0 +1,58 @@
+{{Enemy infobox
+|name = Wild Tuskbeast
+|image = Wild_Tuskbeast_sprite.png
+|filename = eny_0057_dog
+|cnname = 野生牙兽
+|tcname = 野生牙獸
+|jpname = 野生牙獣
+|krname = 야생의 터스크비스트
+|spname = Bestia colmilluda salvaje
+|runame = Дикий звероклык
+|type = 
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = }}
+'''Wild Tuskbeast''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|Wild tuskbeasts are predators of the Talosian wilderness. Given the hostile environments of Talos-II, getting to the top of the food chain is no small feat.}}
+
+==Stats==
+{{Enemy data
+|HP = 1, 1, 1, 1, 1, 1
+|ATK = 16, 78, 241, 599, 901, 1032
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *A docile and timid creature. It will not attack operators on sight.
+|location = *[[The Hub]]
+*[[Valley Pass]]
+*[[Power Plateau]]
+|drops = {{I|Fillet}}
+|addendum = }}
+
+==Overview==
+As the only docile wildlife creature, Wild Tuskbeasts serve no purposes in combat, as they either run or howl.
+
+They are, however, a main source of {{I|Fillet|g=0}}, which make hunting them a task when crafting Tacticals.
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

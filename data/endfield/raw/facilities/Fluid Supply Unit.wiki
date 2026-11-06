@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Fluid Supply Unit
+|filename = item_port_dumper_1
+|images = Fluid Supply Unit icon.png:Icon;
+Fluid Supply Unit.png:Full
+|cnname = 给水器
+|tcname = 液體供給器
+|jpname = 排水機
+|krname = 액체 배출 장치
+|spname = Unidad de suministro de fluido
+|runame = Модуль подачи жидкости
+|type = Miscellaneous
+|rarity = 3
+|power = 10}}
+'''Fluid Supply Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for dispensing fluids.|"Give me an alternative function. I need sales!"}}
+==Usage==
+A facility for dispensing fluids.
+*Power Use : 10
+==Acquisition==
+*Production: [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Fluid Supply]]
+{{RecipeTable|product=Fluid Supply Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:miscellaneous Facilities]]

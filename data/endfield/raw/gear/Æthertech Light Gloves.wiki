@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Æthertech Light Gloves
+|image = Æthertech_Light_Gloves.png
+|filename = item_equip_t4_suit_poise01_hand_02
+|cnname = 轻超域轻护手
+|tcname = 輕超域輕護手
+|jpname = 軽量超域プロテクター
+|krname = 경량 초자연 경량 보호 장갑
+|spname = Guantes livianos de etertecnología
+|runame = Легкие перчатки «Эфиртех»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Æthertech Light Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Portable Æthertech Labs and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Lightweight experimental protective equipment. 
+"Always wear extra padding when using our products. If you experience any auditory or visual hallucinations, please TAKE OFF our products IMMEDIATELY and consume some food."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +65, +71, +78, +84
+|sstat = Agility
+|svalue = +43, +47, +51, +55
+|tstat = All Skill DMG
+|tvalue = +23.0%, +25.3%, +27.6%, +29.9%
+|setname = Æthertech
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+After the wearer applies {{G|Vulnerable|Vulnerability}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+8%|1d}} for 15s. This effect can reach 4 stacks. If the target has 4 stacks of {{G|Vulnerable|Vulnerability}}, the wearer gains an additional {{Color|Physical DMG Dealt|1}} {{Color|+16%|1d}} for 10s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Æthertech}}
+{{Gears|state=collapsed}}

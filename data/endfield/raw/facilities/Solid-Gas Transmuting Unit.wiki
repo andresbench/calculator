@@ -1,0 +1,32 @@
+{{Facility infobox
+|name = Solid-Gas Transmuting Unit
+|filename = item_port_phase_trans_2
+|images = Solid-Gas_Transmuting_Unit_icon.png:Icon;
+Solid-Gas_Transmuting_Unit.png:Full
+|cnname = 固气转化机
+|tcname = 固氣轉化機
+|jpname = ガス固体転換機
+|krname = 고체 · 기체 전환기
+|spname = Unidad de transmutación sólido-gas
+|runame = Модуль твердотельно-газового видоизменения
+|type = Production II
+|rarity = 4
+|power = 50}}
+'''Solid-Gas Transmuting Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|When activated by a steady input of Xiragen, this facility can transmute solid materials into gas, and vice versa.|A special facility that can transmute materials into another state. During the design phase, the engineers accessed every entry on Originium Arts and technology in the SOW database. Successful recovery of data lost during the Aggeloi War provided crucial inspiration for the scientists today.}}
+==Usage==
+The Solid-Gas Transmuting Unit requires a minimum input of 6/min {{I|Xiragen|g=0}} to activate.
+=== Solidify Mode ===
+{{RecipeTable|facility=Solid-Gas Transmuting Unit|showFacility=false|mode=Solidify}}
+
+=== Gasify Mode ===
+{{RecipeTable|facility=Solid-Gas Transmuting Unit|showFacility=false|mode=Gasify}}
+
+==Acquisition==
+Construction: Requires Specified Wuling AIC Plan Tech
+{{RecipeTable|product=Solid-Gas Transmuting Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

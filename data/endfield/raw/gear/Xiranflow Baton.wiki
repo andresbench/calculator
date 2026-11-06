@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Xiranflow Baton
+|image = Xiranflow_Baton.png
+|filename = item_equip_t4_suit_expend_spell01_edc_02
+|cnname = 壤流短棍
+|tcname = 壤流短棍
+|jpname = 壌流棍棒
+|krname = 식양의 흐름 단봉
+|spname = Bastón de Flujo Xiran
+|runame = Дубинка «Ксиранад»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Xiranflow Baton''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC Factory. This equipment can improve the wearer's combat capabilities.|An experimental weapon proposed as standard gear for the Wuling Watchguards.
+A lightweight baton... Do not doubt its stopping power. It can break a beast's bones when necessary.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +32, +35, +38, +41
+|sstat = Intellect
+|svalue = +21, +23, +25, +27
+|tstat = Battle Skill DMG Bonus
+|tvalue = +41.4%, +45.5%, +49.7%, +53.8%
+|setname = Xiranflow
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+10%|1d}}.
+Whenever the wearer {{G|Debuff Consumption|consumes}} {{G|Electrification|Electrification}} or {{G|Corrosion|Corrosion}}, the wearer gains a number of buff stacks equal to the {{G|Status Level|Status Level}} of the Arts Reaction consumed, with each buff stack giving {{Color|Electric DMG Dealt|6}} and {{Color|Nature DMG Dealt|5}} {{Color|+15%|1d}} for 25s. Max number of buff stacks: 3. Duration of each stack is counted separately.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Xiranflow}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Fortmaker
+|rarity = 5
+|images = 
+Fortmaker icon.png:Icon;
+Fortmaker.png:Full;
+Fortmaker max model.png:Max
+|filename = wpn_sword_0007
+|cnname = 坚城铸造者
+|tcname = 堅城鑄造者
+|jpname = 堅城鋳造者
+|krname = 불사의 성주
+|spname = Constructor de fuertes
+|runame = Скала
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Fortmaker''' is a 5★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the weapons made by Fort Forgefane. The sword features traditional architecture that made it extremely durable and sturdy. The thick, heavy blade left countless scars upon the permafrost as the frontlines shifted with the times.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Inspiring: Back to the Broken City|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Intellect [M]|ULT Efficiency [M]|Inspiring: Back to the Broken City}}
+
+==Basic Info==
+{{Quote|The mountain of a man laid against the wreck of the trailer truck. Blood oozed from the gaps of his heavy armor.<br>The man did not move. His unwavering gaze stared at the north.<br>"You never expected to be defeated, right?" Jerreth coughed and spat. He wiped the bloody bubbles of spit from his lips with a muddied sleeve and approached the huge figure. The shattered remains of dead Aggeloi surrounded him.<br>Jerreth picked up the man's broken weapon and tossed it aside to make room for a seat.<br>"We were heading south. WE WERE HEADING TOWARDS THE BLASTED SOUTH! Nobody knew we were going south until we started down the road!"<br>Jerreth toyed with the pen in his hand. Without ink, it was little more than an empty tube.<br>"I ... I don't know what to write... How should I report this? Gah... I should get the hell out of this place."<br>The supplies on the trailer truck were completely destroyed. One of the ropes for securing the cargo crates dangled next to Jerreth. <br>"You should have been the one who survived... You're the hero of the army... You were the only one who could see this through... the only one..."<br>"I'm just a journalist! How would I write about this crushing defeat? They'll murder my career for robbing the glory of this magnificent battle!"<br>Jerreth buried his face in his hands and howled in agony. He did not stop shaking since the fight began.<br>After quite a while, he finally stood up and felt the northern breeze brushing against him.<br>"There was this story. The hero's name was finally recited in an epic paean, his deeds glorified and enshrined by the lines. There is no such thing as a silent and ignominious death."<br><br>"I'm going home."<br>He mumbled to himself as he cast everything aside. He threw away his memories, career, and responsibilities at this very site right next to the suit of heavy armor.<br>"I'm going home..."<br>And thus he left a trail of footprints as he trudged towards a certain direction. He was indeed going home.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

@@ -1,0 +1,29 @@
+{{Facility infobox
+|name = Hydro Mining Rig
+|filename = item_port_miner_4
+|images = Hydro_Mining_Rig_icon.png:Icon;
+Hydro_Mining_Rig.png:Full
+|cnname = 水驱矿机
+|tcname = 水驅礦機
+|jpname = 水力採鉱機
+|krname = 수력 채굴기
+|spname = Plataforma de hidrominería
+|runame = Добывающая гидроустановка
+|type = Resourcing
+|rarity = 3
+|power = }}
+'''Hydro Mining Rig''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A mining rig for digging up various types of ore such as Cuprium Ore. This rig does not need power as it can be driven with Clean Water.|The Endfield Hydro Mining Rig features a special coating to minimize the risk of rusting in humid/wet environments.}}
+==Usage==
+A mining rig for digging up various types of ore such as [[Cuprium Ore]].
+*This rig does not need power as it can be driven with [[Clean Water]].
+
+==Acquisition==
+Requirement : [[AIC Factory Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC II - Hydro Mining]]
+{{RecipeTable|product=Hydro Mining Rig}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Resourcing Facilities]]

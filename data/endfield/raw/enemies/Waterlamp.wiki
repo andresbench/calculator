@@ -1,0 +1,66 @@
+{{Enemy infobox
+|name = Waterlamp
+|image = Waterlamp_sprite.png
+|filename = eny_0094_hsfly
+|cnname = 水灯虫
+|tcname = 水燈蟲
+|jpname = 水灯虫
+|krname = 수등충
+|spname = Lámpara de agua
+|runame = Плавучий фонарь
+|type = Wildlife
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 9
+}}
+'''Waterlamp''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A wild arthropod that lives in aquatic environments. The waterlamp gives off a faint glow and its body fluids contain irritants that may induce allergic reactions and even burns. Be careful when tackling this creature.}}
+
+==Stats==
+{{Enemy data
+|HP = 111, 795, 5029, 19800, 47629, 73373
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *An enemy that spews acids stored in its head. Operators hit by this attack will suffer reduced DEF. Though not very threatening, care should be taken in any case.
+|location = *[[Jingyu Valley]]
+*[[Wuling City]]
+*[[Test Area]]
+*[[Energy Alluvium: Test Area]]
+|drops = {{I|Waterlamp Glowbulb}}
+|addendum = }}
+
+==Overview==
+Wildlife creatures that resemble a lamp, Waterlamps are not much of a dangerous foe, but they often appear in groups, helping other enemies by decreasing the defense of Operators.
+*Attacks with a bubble barrage, each one dealing Nature damage and appling one stack of DEF reduction.
+*Swipes and deals Physical damage.
+*Spew acid after a wind up, dealing Nature damage and appling five stacks of DEF reduction in an area.
+
+Each stack reduces an Operator's Defense by 10%.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 111, 795, 5029, 19800, 47629, 73373 from 111, 935, 5917, 19800, 47629, 73373
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

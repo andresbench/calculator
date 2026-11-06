@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = OBJ Razorhorn
+|rarity = 5
+|images = 
+OBJ_Razorhorn icon.png:Icon;
+OBJ_Razorhorn.png:Full;
+OBJ_Razorhorn max model.png:Max
+|filename = wpn_lance_0013
+|cnname = O.B.J.尖峰
+|tcname = O.B.J.尖峰
+|jpname = O.B.J.鋭矛
+|krname = O.B.J. 스파이크
+|spname = OBJ Cuerno afilado
+|runame = OBJ Рог-бритва
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''OBJ Razorhorn''' is a 5★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard weapon produced by Endfield Industries. Design is provided by the Creative Prototyping Team founded by Senior Arsenal Engineer Opero. Wielders are free to make their own adjustments to the spearhead module.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Infliction: Conquest of Icy Peaks|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Will [M]|Physical DMG [M]|Infliction: Conquest of Icy Peaks}}
+
+==Basic Info==
+{{Quote|He had imagined his reunion with Ludson Walker countless times —<br>Maybe Mr. Walker could be hired as a military consultant for some New Wrankwood war movie and receive both respect and questions from the movie crew. Maybe Mr. Walker could appear before the library of Morospolis as a representative of the Order of Steel Oath and talk about an Oathkeeper's life with young UW crew mates. Maybe...<br>There were countless possibilities, all of them fitting for his fellow Oathkeeper, the "rising star" of the Order, and the glorious soldier who always fought at the very front. But the actual reunion was the complete opposite —<br>He saw the man who resembled Ludson on a coach to La Fantoma. "Ludson" carried an electric guitar on his back. He sighed at a poster for the Obsidian Festival as though he encountered a major problem. Perhaps he misread the coach schedules.<br>To ensure he only "mistook another person for an old comrade", he approached the middle-aged man and performed a standard salute, hoping to get or see "what the hell" or "friggin' nutcase" from the man. Unfortunately, his hopes were dashed when the man's face transformed to be a joyous surprise and shouted out his name.<br>"Bucky?! Is that you?!"<br>The middle-aged man who resembled Ludson ... happened to be Ludson himself. He counted the number of people throughout Talos-II who would call him "Bucky". That number was no more than five.<br>"Geesh, how many years have passed since we last met...?" Ludson looked seriously engaged in the counting and sighed heavily when he arrived at the figures, "Ugh. Close to twenty years! Time really does fly..."<br>Bucky nodded and before he could think of a proper response, Ludson continued his nostalgia.<br>"You're the one in our banner who always talked about getting a discharge... I even made a bet with Vincent and friends if you'd be the first to pack and scamper home.<br>"And I lost the entire thing! Vincent, that sorry sod, was the first to quit. He..."<br>"Wha...? WHY?" Bucky could not help but interrupt, "What happened to the saying, 'I'd only leave my life upon the fields of war'...?"<br>— Even the most experienced hero and veteran did not make it to the last.<br>Ludson became silent, his smile suddenly froze on his face. The middle-aged man who gripped the music festival poster in his hands only continued to speak after a pause.<br>"I never thought you'd be the first to ask me that question... Even the Castellan stayed silent when I submitted my discharge papers.<br>"But if you really want an explanation — I just gotta say... I found myself started getting the frights.<br>"I started to fear recon missions in the exclusion zones beyond the Aurora. The endless horde of buggers that grew tougher by the day began to scare me... I don't want to face them anymore...<br>"I felt it... I felt the virtue of 'courage' slipping away from my body and I couldn't find anyways to keep it within me. There will come a day when I grow too weak to even hold on to it.<br>"And since I couldn't hold on to my guts and balls, I might as well say my goodbyes in an honorable fashion. Voluntary discharge was my way... I don't want to wake up shaking like a spineless deserter pissing myself in a cave after running away from a rock bugger I can't beat."<br><br>"...But what's this? Why are you carrying an electric guitar?"<br><br>With that question, 46-year old Ludson Walker gave his signature smile of radiance that he always wore 20 years ago.<br>"This? Oh, it's a wonderful weapon that I found myself pretty good at.<br>"It still sputters occasionally, but it works for me and my comrades...<br>"My toy and my band mates are pretty accommodating. When I'm not a guitarist for a third-rate heavy metal band you've never heard of, I can still think about which of these guitar strings I can use to strangle a buggerloid and twist its blighted head off."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

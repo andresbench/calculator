@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Umbral Torch
+|rarity = 6
+|images = 
+Umbral_Torch icon.png:Icon;
+Umbral_Torch.png:Full;
+Umbral_Torch max model.png:Max
+|filename = wpn_sword_0010
+|cnname = 黯色火炬
+|tcname = 黯色火炬
+|jpname = ダークトーチ
+|krname = 암흑의 횃불
+|spname = Antorcha del umbral
+|runame = Ночной факел
+|type = Sword
+|source = Reward: Protocol Pass}}
+'''Umbral Torch''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A next-gen lightweight personal defense solution released by RAYTHEAN Industries. The sword has a special alloy blade and proved quite popular amongst certain "professionals".}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Infliction: Covetous Buildup|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Intellect [L]|Heat DMG [L]|Infliction: Covetous Buildup}}
+
+==Basic Info==
+{{Quote|"Huff... huff... Jennings. About time you picked up the phone.<br>"Listen. This is a corporate war. No... it's ... it's a political witch hunt! They learned about our discovery! They know how this would change the world!<br>"Those blighted buggers got their eyes on our research project! They're looking for us! Looking all over the world for us!<br>"I'll make these buggers regret their choices! I won't forget those blasted faces. I spent years working on the thing. NO! NOT RAYTHEAN! They won't protect us. We're dead meat once we hand our tech over!<br>"NO! I won't let them have it! NEVER! Look, I'm heading over to your place right now. Nutty got us a car. We must leave the Band. I got friends outside who'll pick us up.<br>"Who? Those warmongers, that's who. I know you don't like them, but at least the muscleheads are more reliable than the corpo-scum pulling the strings from their glassy penthouses!<br>"Choice? THERE IS NO OTHER CHOICE! Our tech is going to upset their entire setup! They want to keep their monopoly and they'll regret their decisions. But WE MUST STAY ALIVE, Jennings. We gotta keep ourselves breathing to enjoy the future!<br>"Jennings...? Hey? You there? Can you hear me? Jennings?"<br>"BWOOP... BWOOP... BWOOP..."<br>The man saw his own reflection on the windowpane. He had not slept for days and his eyes resembled lifeless orbs sinking in a dark mire. For a split second, he failed to recognize the ghastly image of himself.<br>"Blasted blightery!"}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

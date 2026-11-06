@@ -1,0 +1,25 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Engineering Division manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 28
+|region = [[Valley IV]]
+|effect = 3-piece set effect: Wearer's HP {{Color|+500|1d}}. 
+After the wearer defeats an enemy, the wearer gains ATK {{Color|+20|1d}} for {{Color|5|1d}}s.
+}}
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Structurally simple and modular equipment that offers light protection.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries Engineering Division.
+
+The biggest feature of this AIC gear is that it allows gears to be flexibly worn inside suits.<ref>[[AIC Light Plate]]</ref>, but comments are made criticizing its weak defense against external forces, with some mentioning that they cannot trust it because "it feels too light."<ref>[[AIC Ceramic Plate]]</ref>
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==References==
+{{Reflist}}
+{{Gears|state=collapsed}}

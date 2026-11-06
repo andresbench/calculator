@@ -1,0 +1,307 @@
+[[File:Electrification icon.png|right]]
+'''Electrification''' is an [[Arts Reaction]] in ''[[Arknights: Endfield]]''.
+
+==Overview==
+===Friendly===
+[[Electrification]], when applied to enemies, is a debuff that increases {{G|DMG Type| Arts DMG Taken}}.
+
+When an {{G|Electric Infliction}} is applied to an enemy with a ([[File:Heat Infliction icon.png|16x16px|link=]]/[[File:Cryo Infliction icon.png|16x16px|link=]]/[[File:Nature Infliction icon.png|16x16px|link=]]) Non-Electric Infliction, the Arts Infliction that was applied first is {{G|Debuff Consumption|consumed}} to trigger [[Electrification]].
+* The debuff lasts for {{Color|12 – 30s (based on the Status Level)|1d}}.
+* Deals an initial instance of {{Color|160% – 400% of ATK (based on the Status Level)|1d}} as {{Color|Electric DMG|6}}.
+* Applies Arts DMG Taken {{Color|+12% – 24% (based on the Status Level)|1d}}.
+{| class="wikitable wikitable-mobile"
+|-
+! {{G|Status Level}} !! Initial Electric DMG !! Increased Arts DMG Taken !! Duration
+|-
+| I || {{Color|160%|1d}} of ATK || Arts DMG Taken {{Color|+12%|1d}} || {{Color|12|1d}}s
+|-
+| II || {{Color|240%|1d}} of ATK || Arts DMG Taken {{Color|+16%|1d}} || {{Color|18|1d}}s
+|-
+| III || {{Color|320%|1d}} of ATK || Arts DMG Taken {{Color|+20%|1d}} || {{Color|24|1d}}s
+|-
+| IV || {{Color|400%|1d}} of ATK || Arts DMG Taken {{Color|+24%|1d}} || {{Color|30|1d}}s
+|}
+* Applying Electrification to a target with existing Electrification overrides the previous effect and resets the debuff's duration (unless otherwise specified).
+* Some operator skills can also {{Tooltip/Forcibly apply|Arts|forcibly apply}} Electrification without requiring a different Arts Infliction to be {{G|Debuff Consumption|consumed}} (see [[Arts Reaction]] for more information).
+
+===Hostile===
+{{Quote|Certain enemy skills can apply stacks of Electric Infliction to operators. At 4 stacks, the operator becomes Electrified: Temporarily stunned and take more Arts DMG for a certain duration.|Tutorial}}
+Some [[Enemies]] are capable of applying Electrification.
+* The debuff lasts for about 10 seconds.
+* Operators are stunned for 1 second upon receiving the debuff, preventing the Operator from taking any action.
+* Operators take 20% more Arts Damage for the duration of the debuff.
+* Operator also cannot receive any further Electric Inflictions. The Electrification effect is visualized by a darker yellow health bar and the Operator's model glows yellow.
+
+Currently, only the [[YSTF Captain Blightshade]] in the Umbral Monument stage [[Arc of Shadow Flare]] is capable of applying Electric Inflictions and the resulting Electrification. The stage mechanics dispels all Inflictions from Operators after the enemy inflicts Electric Infliction for the fourth time, and therefore should make it impossible to reach the 4 stacks required for the Electrification, but through the use of Snowshine's Arts Infliction immunity it is sometimes possible to cause a desync, resulting in the hostile Electrification on Operators.
+
+==Calculations==
+===Initial Electric DMG hit===
+{{Main|Damage calculation}}
+
+===Increased Arts DMG Taken===
+
+<math>{Final\,Electrification\,Arts\,DMG\,Taken} = {Electrification\,Arts\,DMG\,Taken}\times {Arts\,Intensity\,Multiplier}</math>
+<math> \times Electrification\,Buff\,Effect</math>
+
+Each point of [[Arts Intensity]] increases the effect by some percent, decreasing with more points of Arts Intensity up to a soft cap of {{Color|300%|1d}}.
+
+<math>{Arts\,Intensity\,Multiplier} = \dfrac{3 \times Arts\,Intensity + 300}{Arts\,Intensity + 300}</math><br>
+{| class="wikitable wikitable-mobile"
+|-
+! Arts Intensity !! Arts Intensity Multiplier
+|-
+| 0 || 100%
+|-
+| 100 || 150%
+|-
+| 200 || 180%
+|-
+| 300 || 200%
+|-
+| 400 || 214%
+|-
+| 500 || 225%
+|}
+
+Some operators have skills or talents that increase the effect of Electrification.
+
+<math>{Electrification\,Buff\,Effect} = \left(1 +\sum {Electrification\,Buff\,Effect\,Bonus}\right) \times \prod {Electrification\,Buff\,Effect\,Multi}</math>
+
+where <math>{Electrification\,Buff\,Effect\,Bonuses}</math> are all bonuses of the form 'Increase the effect of Electrification by {{Color|+x%|1d}}' 
+
+and <math>{Electrification\,Buff\,Effect\,Multi}</math> are all bonuses of the form 'Increase the effect of Electrification by {{Color|x|1d}} times'.
+
+==Sources==
+* Applying Electric Infliction to an enemy with a non-Electric Infliction triggers Electrification. Additional ways to apply Electrification are:
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Arclight
+| content =
+{{Operator table row/Combat skill
+| icon = Ult-Arclight
+| name = Exploding Blitz
+| type = Ultimate
+| content =
+Against {{G|Electric Infliction|Electric Inflicted}} enemies, {{G|Debuff Consumption|consume}} all {{G|Electric Infliction}} stacks on the target to {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Electrification}}.
+}}
+}}
+{{Operator table row
+| name = Perlica
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Perlica
+| name = Instant Protocol: Chain
+| type = Combo
+| content =
+{{Tooltip/Forcibly apply|Arts|Forcibly apply}} {{G|Electrification}} on target hit.
+}}
+}}
+{{Operator table row
+| name = Zhuang Fangyi
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Zhuangfangyi
+| name = Breath of Transformation
+| type = Combo
+| content =
+{{G|Debuff Consumption|Consume}} all {{G|Electric Infliction}} on the target to {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Electrification}}. If the target already has {{G|Electrification}}, apply {{G|Status Level|Status Level}} +1 to the enemy's {{G|Electrification|Electrification}}.
+}}
+}}
+}}
+==Interactions==
+<tabber>
+|-|Operators=
+{{Operator table
+| header = Interaction
+| content =
+
+{{Operator table row
+| name = Alesh
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Alesh
+| name = Auger Angling
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When the {{G|Arts Reaction}} or {{G|Originium Crystal|Originium Crystals}} of a nearby target is {{G|Debuff Consumption|consumed}}.
+}}
+}}
+
+{{Operator table row
+| name = Arclight
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Arclight
+| name = Peal of Thunder
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When an enemy suffers {{G|Electrification}} or after an enemy's {{G|Electrification}} is {{G|Debuff Consumption|consumed}}.
+}}
+{{Operator table row/Combat skill
+| icon = Skill-Arclight
+| name = Tempestuous Arc
+| type = Skill
+| content =
+Against enemies with {{G|Electrification}}, launch an additional strike that deals {{Color|Electric DMG|6}} and {{G|Debuff Consumption|consume}} the {{G|Electrification}} to recover some SP.
+}}
+}}
+
+{{Operator table row
+| name = Avywenna
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Avywenna
+| name = Thunderlance: Strike
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When controlled operator performs a {{G|Final Strike}} on a target with active {{G|Electric Infliction}} or {{G|Electrification}}.
+}}
+}}
+
+{{Operator table row
+| name = Gilberta
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Gilberta
+| name = Arcane Staff: Matrix Displacement
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When an {{G|Arts Reaction}} is applied to an enemy.
+}}
+}}
+
+{{Operator table row
+| name = Perlica
+| content =
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Crisis Handling
+| type = Potential 1
+| content =
+Combo skill {{Color|Instant Protocol: Chain|7}} improved: Increase {{G|Electrification}} duration by {{Color|75%|1d}}.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Supervisory Duties
+| type = Potential 3
+| content =
+When {{G|Electrification}} is applied, gain ATK {{Color|+20%|1d}} for 5s. This effect can stack up to 2 times.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 4
+| name = Constant Guidance
+| type = Potential 4
+| content =
+Combo skill {{Color|Instant Protocol: Chain|7}} improved: Increase the {{G|DMG Type|Increased Arts DMG Taken}} strength of this {{G|Electrification}} by {{Color|33%|1d}}.
+}}
+}}
+
+{{Operator table row
+| name = Wulfgard
+| content =
+{{Operator table row/Combat skill
+| icon = Skill-Wulfgard
+| name = Thermite Tracers
+| type = Skill
+| content =
+Against enemies with {{G|Combustion}} or {{G|Electrification}}, do not apply {{G|Heat Infliction}}; instead fire an additional shot that deals {{Color|Heat DMG|3}} and {{G|Debuff Consumption|consumes}} the {{G|Combustion}} or {{G|Electrification}}.
+}}
+{{Operator table row/Combat skill
+| icon = Wulfgard Talent 2 icon
+| name = Code of Restraint
+| type = Talent
+| content =
+Battle skill {{Color|Thermite Tracers|7}} improved: {{G|Debuff Consumption|Consuming}} an {{G|Arts Reaction}}{{Note|This Talent's description mentions {{G|Debuff Consumption|consumption}} of any Arts Reaction through {{Color|Thermite Tracers|7}}, but the battle skill is only able to consume Combustion and Electrification.}} {{G|SP Return|returns}} some SP.
+}}
+}}
+
+{{Operator table row
+| name = Zhuang Fangyi
+| content =
+{{Operator table row/Combat skill
+| icon = Skill-Zhuangfangyi
+| name = Mantra of Sundering
+| type = Skill
+| content =
+When the target enemy has {{G|Electrification}}, {{G|Debuff Consumption|consume}} the Electrification to deal additional {{Color|Electric DMG|6}} dealt per {{G|Electrification}} {{G|Status Level}}. While in {{Color|Empyrean of Truth|7}} form, increase this damage bonus. 
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Sense and Response
+| type = Potential 3
+| content =
+Battle skill {{Color|Mantra of Sundering|7}} improved: When {{G|Electrification}} is {{G|Debuff Consumption|consumed}}, {{G|SP Return|return}} some SP.
+}}
+}}
+
+}}
+{{Notelist}}
+|-|Weapons=
+{{Template:Weapon_list
+| header = Interaction
+| content = 
+
+{{Template:Weapon_list_row
+| name = Clannibal
+| content = '''Infliction: Vicious Purge'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, the target enemy suffers {{Color|Heat DMG Taken|3}} {{Tooltip/Weapon skill rank|+10%|28%}} for 15s. {{Color|Effects of the same name do not stack. Effect only triggers once every 25s.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Opus: The Living
+| content = '''Infliction: Road Home for All Life'''<br>When the wielder applies an {{G|Arts Reaction}}, the wielder gains ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Twelve Questions
+| content = '''Infliction: Sincere Interrogation'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Wedge
+| content = '''Infliction: Wedge of Civilization'''<br>When the wielder casts a battle skill that applies an {{G|Arts Reaction}}, the wielder gains {{G|DMG Type|Arts DMG Dealt}} {{Tooltip/Weapon skill rank|+16|44.8%}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = White Night Nova
+| content = '''Infliction: White Night Nova'''<br>When {{G|Combustion}} or {{G|Electrification}} is applied, the wielder gains {{G|DMG Type|Arts DMG Dealt}} {{Tooltip/Weapon skill rank|+12| 33.6%}} and Arts Intensity {{Tooltip/Weapon skill rank|+25|70}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Wild Wanderer
+| content = '''Infliction: Wilderness Cluster'''<br>When the wielder applies {{G|Electrification}}, the team gains {{Color|Physical DMG Dealt|1}} and {{Color|Electric DMG Dealt|6}} {{Tooltip/Weapon skill rank|+8|22.4%}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+}}
+}}
+
+|-|Gears =
+{{GearSetsTable
+|header = Interaction
+|content =
+<tr><td>
+<span style="font-weight:600;">[[Pulser Labs]]</span><br>
+{{I|Pulser Labs Disruptor Suit}} {{I|Pulser Labs Gloves}} {{I|Pulser Labs Calibrator}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+After the wearer applies {{G|Electrification}}, the wearer gains {{Color|Electric DMG|6}} {{Color|+50%|1d}} for 10s. After the wearer applies {{G|Solidification}}, the wearer gains {{Color|Cryo DMG|4}} {{Color|+50%|1d}} for 10s. {{Color|These aforementioned effects do not stack.|9}}
+</td></tr>
+<tr><td>
+<span style="font-weight:600;">[[Xiranflow]]</span><br>
+{{I|Xiranflow Light Armor}} {{I|Xiranflow Gloves}} {{I|Xiranflow Baton}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+When the wearer {{G|Debuff Consumption|consumes}} {{G|Electrification}} or {{G|Corrosion}}, the wearer gains 1 stack of {{Color|Xiranflow|7}} per {{G|Status Level}} consumed (up to 3 stacks). For each stack of {{Color|Xiranflow|7}} the wearer gains {{Color|Electric DMG Dealt|6}} and {{Color|Nature DMG Dealt|5}} {{Color|+15%|1d}} for 25s. {{Color|Duration of each stack counted separately.|9}}
+</td></tr>
+}}
+</tabber>
+
+== Changelog ==
+{{Changelog|
+* <b>[[At the Wake of Spring]]</b>
+** Electrification debuff icon shown below the enemy's healthbar will now display its Status Level.
+* <b>Beta Test I</b> 
+** Electrification added.
+}}
+
+{{Combat mechanics}}
+[[Category:Arts Reactions]]

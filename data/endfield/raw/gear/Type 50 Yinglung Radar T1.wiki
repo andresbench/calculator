@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Type 50 Yinglung Radar T1
+|image = Type_50_Yinglung_Radar_T1.png
+|filename = item_equip_t4_suit_atk02_edc_02
+|cnname = 50式应龙雷达·壹型
+|tcname = 50式應龍雷達·I
+|jpname = 50式応龍レーダーⅠ
+|krname = 응룡 50식 탐지기 · I
+|spname = Radar Yinglung tipo 50 T1
+|runame = Радар «Инлун-50» К1
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Type 50 Yinglung Radar T1''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A civilian version of Yinglung Special Task Force equipment. The lack of a crucial power component actually improved its compatibility with general users. 
+When the optimizations were finally complete, he added a few words next to the blueprints: "Heavens and earth may break asunder, but I shall prevail and emerge the victor."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Ultimate DMG Bonus
+|tvalue = +51.7%, +56.9%, +62.1%, +67.3%
+|setname = Type 50 Yinglung
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When any operator in the team casts a battle skill, the wearer gains 1 stack of {{Color|Yinglung's Edge|7}} that gives DMG {{Color|+20%|1d}} to the wearer's next combo skill. {{Color|Yinglung's Edge|7}} can stack 3 time(s).
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Type 50 Yinglung}}
+{{Gears|state=collapsed}}

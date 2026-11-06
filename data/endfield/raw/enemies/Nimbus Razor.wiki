@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Nimbus Razor
+|image = Nimbus_Razor_sprite.png
+|filename = eny_0085_hsrogue
+|cnname = 割云翁
+|tcname = 割雲翁
+|jpname = 切雲老
+|krname = 할운옹
+|spname = Navaja de Nimbus
+|runame = Тучерез
+|type = Cangzei Pirates
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = Breaking Gust|sortId = 5
+}}
+'''Nimbus Razor''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A criminal armed with a strange weapon. When the Cloud Stalker is tired of using the strange lantern, he would draw his short blade and engage in melee combat.}}
+
+==Stats==
+{{Enemy data
+|HP = 761, 5465, 34578, 136127, 327446, 504440
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 110
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 2.3
+|Weight = 1
+|wphysical = 0.6
+|wfire = 1
+|welectric = 1
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Uses chain hooks to attack allied operators. Chained operators will be Stunned unless freed.
+|location = *[[Qingbo Stockade]]
+*[[Energy Alluvium: Qingbo Stockade]]
+*[[Energy Alluvium: Sword Vault Dale]]
+|drops = {{I|Grovenymph Pupa}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

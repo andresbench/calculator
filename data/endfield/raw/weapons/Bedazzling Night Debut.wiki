@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Bedazzling Night Debut
+|rarity = 6
+|images = 
+Bedazzling_Night_Debut icon.png:Icon;
+Bedazzling_Night_Debut.png:Full;
+Bedazzling_Night_Debut max model.png:Max
+|filename = wpn_lance_0014
+|cnname = 曜夜的首演
+|tcname = 曜夜的首演
+|jpname = プリズムナイトデビュー
+|krname = 찬란한 밤의 데뷔
+|spname = Debut nocturno deslumbrante
+|runame = Блестящий ночной дебют
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''Bedazzling Night Debut''' is a 6★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A top-of-the-line product series from Mieszko Industries, tailor-made to order for popular thespians of the performing arts. The dreamy and conspicuously loud microphone-like design is coupled with extraordinary performance and power. This weapon has left quite an impression on every tester who tried it out.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Medicant: Shimmering Curtain|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Protocolith|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Will [L]|Treatment Efficiency [L]|Medicant: Shimmering Curtain}}
+
+==Basic Info==
+{{Quote|The youth looked at the clock in the room for the sixth time.<br>The minute hand slowly ticked its way to a number at the bottom left. He had been waiting in this chamber for three hours.<br>Three hours. Enough to attend two routine meetings, respond to the requests of four corporations, draft a reconstruction milestone report, and come up with the agenda for the next joint session.<br>If this were some other time, the youth would not have allowed anyone to squander his time in such a fashion. But persuading the master of the chamber to abandon the idea was crucial. He was willing to violate his immaculate habits to achieve that.<br>An example of the violation was the seemingly endless and boring wait. Another was his impatient burst of interruption: "Sir, no offense, but we hope you can reconsider this, thoroughly. We were barely six months into the construction of La Fantoma. At least forty percent of utility buildings must be completed ASAP. Many of our residents are still living in temporary housing. The concert can and should wait—"<br>"Mors," the old man and master of the chamber, softly interrupted the youth's increasingly hectic outburst. He then replaced the vinyl playing on the old phonograph resting upon the old Gallic poseur table.<br>A melody of the summer evening breeze along the beach filled the entire room.<br>"Listen to this. My favorite. The Tide Recedes. My grandfather on my mother's side received it as a coming-of-age gift. The vinyl was rare, even in Siesta back then. Only a single record store offered it..."<br>The old man seemed wholly engrossed in the tune. The youth tried to hide his disappointed sigh and went along dryly: "The music is good ... I won't deny that."<br>The youth then tightly gripped the armrests of his chair and continued: "Sir, I was born and raised on Talos-II. My knowledge of Terran music and ability to appreciate the fine arts might not be as refined as yours... However, I am the chief director in charge of building La Fantoma and I am accountable for the livelihoods of people out there. You should know this better than anyone, given your significant contributions to the TGCC. None of the companies would publicly oppose your proposal but this does not mean they agree to hold a concert of such a massive scale at this crucial moment. Otherwise —"<br>"Otherwise, you won't be here trying your best to persuade a stubborn old fool," the old man calmly finished the youth's line for him. He casually adjusted the turntable to fix the lag and smooth out the music. "I know everything. The status of La Fantoma and the concerns of the other corporations... Yet this knowledge is the exact reason I must hold this concert."<br>"What do you mean?"<br>"We can't simply survive, Mors. Never.<br>"Everyone needs an opportunity. A reason. Something to let them escape the grind for a while. Something that eases and comforts their frustration and pain. From Siesta to La Fantoma, there is nothing more perfect than an actual concert.<br>"Oh how hard I've wished to bring that beach of my memories to this place. I want the young people to see it... Better, I want them to remember it."<br>The phonograph started playing the last song of the vinyl. Even the youth seems rather taken in by the ancient melody, and chose to give his response after the music ended.<br>"I think I know what you're trying to say... Yet you must realize our current finances are in no shape to afford a large concert."<br>The old man smiled as though he had long expected the youth to complain about money. He went to the record rack and took a round, metal tin, and solemnly handed it to the youth.<br>"Wait. These aren't vinyls. They're ... your asset records?! And a letter of authorization..."<br>"Yes, they are. Before I get too old to move, I want them to do something meaningful ... and not end up as a pile of scrap paper that people fight each other for."<br>"I understand. Wait ... I did some quick estimates but from my experience, a single sheet of this can more than pay for a public entertainment event. What are your plans for the rest...?"<br>"Give them to the musicians forced to take up arms, to the new record studios just starting their journey, and to any businesses that can make people smile —<br>"If we can add more stars to the nights of La Fantoma, anything would be worth its while."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

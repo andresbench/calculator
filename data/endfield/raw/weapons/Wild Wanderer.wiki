@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Wild Wanderer
+|rarity = 5
+|images = 
+Wild_Wanderer icon.png:Icon;
+Wild_Wanderer.png:Full;
+Wild_Wanderer max model.png:Max
+|filename = wpn_funnel_0004
+|cnname = 迷失荒野
+|tcname = 迷失荒野
+|jpname = 荒野迷走
+|krname = 황무지의 방랑자
+|spname = Errante salvaje
+|runame = Дикий странник
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Wild Wanderer''' is a 5★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An Arts unit developed by RAYTHEAN Industries. This particular weapon is known for its minimalist and lightweight designs. Making it requires only half of the materials needed to produce a standard-issue Arts unit.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Infliction: Wilderness Cluster|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [M]|Electric DMG [M]|Infliction: Wilderness Cluster}}
+
+==Basic Info==
+{{Quote|I met them in the wilderness.<br>They were not friendly at first. One of their Aldertones inspected my wounds and permitted me to stay until I became well enough to move on my own. The others, however, refused to converse with me. Perhaps this was the price that I had to pay for wearing a uniform of TGCC origin.<br>Their way of life left quite ... an impression on me. These people developed a unique culture centered around the idea of "simplicity". No. "Restraint" would be a better word. They might not have the best technology, but they made the most out of every material. These people crafted tools with a unique minimalist aesthetic — a style of beauty molded by the harsh and unforgiving wildlands of this untamed world.<br>I told them I was a crafter and it gave me a chance to take part in their work. Observing their craftsmanship up close gave me a rather shocking revelation — their weapons were fashioned using far less materials and simpler processes, but overall performance was only marginally less than our TGCC counterparts. This discovery made me realize that our designs actually have plenty of room for improvement.<br>I left the Circuit after spending three whole years with them, and they gave me honors befitting their own Aldertones. Deep down, I learned far more from the people of the Circuit than what I taught them in return.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

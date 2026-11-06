@@ -1,0 +1,362 @@
+[[File:Solidification icon.png|right]]
+'''Solidification''' is an [[Arts Reaction]] in ''[[Arknights: Endfield]]''.
+
+==Overview==
+[[Solidification]] is a debuff applied by Operators and Enemies. Solidification lasts for a duration and prevents the unit from taking action.
+===Friendly===
+Some [[Operators]] are capable of applying [[Solidification]].
+* The debuff lasts for {{Color|5.75 – 8.75s (based on the Status Level)|1d}}.
+* When an operator applies {{G|Cryo Infliction}} to an enemy with a ([[File:Heat Infliction icon.png|16x16px|link=]]/[[File:Electric Infliction icon.png|16x16px|link=]]/[[File:Nature Infliction icon.png|16x16px|link=]]) Non-Cryo Infliction, the Arts Infliction that was applied first is {{G|Debuff Consumption|consumed}} to trigger [[Solidification]].
+** Deals an initial instance of {{Color|160% – 400% of ATK (based on the Status Level)|1d}} as {{Tip|Base|Unofficial term: Before being increased or decreased by other effects}} Cryo DMG.
+** Applying {{G|Vulnerable}} or a {{G|Physical Status}} {{G|Debuff Consumption|consumes}} the debuff to trigger {{G|Shatter}} and deal {{Color|240% – 600% of ATK (based on the Status Level)|1d}} as {{Tip|Base|Unofficial term: Before being increased or decreased by other effects}} Physical DMG. This is considered as Shatter DMG.
+
+<table class="mrfz-wtable wikitable-mobile" style="margin-left:40px; font-size:85%; border:1px solid var(--border-color); text-align:center;">
+<tr><th style="padding:5px;">{{G|Status Level}}</th><th style="padding:5px;">Initial {{Tip|Base|Before being increased by other effects}} Cryo DMG</th><th>{{Tip|Base|Before being increased by other effects}} Solidification Duration</th><th style="padding:5px;">Shatter {{Tip|Base|Before being increased by other effects}} Physical DMG</th></tr>
+<tr><td style="padding:5px;">I</td><td style="padding:5px;">{{Color|160% of ATK|1d}}</td><td style="padding:5px;">{{Color|5.75|1d}}s</td><td>{{Color|240% ATK|1d}}</td></tr>
+<tr><td style="padding:5px;">II</td><td style="padding:5px;">{{Color|240% of ATK|1d}}</td><td style="padding:5px;">{{Color|6.75|1d}}s</td><td>{{Color|360% ATK|1d}}</td></tr>
+<tr><td style="padding:5px;">III</td><td style="padding:5px;">{{Color|320% of ATK|1d}}</td><td style="padding:5px;">{{Color|7.75|1d}}s</td><td>{{Color|480% ATK|1d}}</td></tr>
+<tr><td style="padding:5px;">IV</td><td style="padding:5px;">{{Color|400% of ATK|1d}}</td><td style="padding:5px;">{{Color|8.75|1d}}s</td><td>{{Color|600% ATK|1d}}</td></tr>
+</table>
+
+* Some operator skills can also {{Tooltip/Forcibly apply|Arts|forcibly apply}} Solidification without requiring a different Arts Infliction to be {{G|Debuff Consumption|consumed}}.
+** Forced Solidification does not consume any Arts Inflictions (if any) and applies the reaction as {{G|Status Level|Status Level I}} (unless otherwise specified).
+** Forced Solidification does not trigger the initial instance of Cryo DMG caused by applying multiple Arts Inflictions of different elements.
+
+===Hostile===
+{{Quote|Certain enemy skills can apply stacks of Cryo Infliction to operators. At 4 stacks, the operator becomes Solidified: Cannot move for a certain duration.|Tutorial}}
+
+Some [[Enemies]] are capable of applying '''Solidification'''.
+* When an Operator reaches 4 stacks of Cryo Infliction, all existing Cryo Infliction stacks are removed to trigger Solidification.
+** Prevents the Operator from taking action over the debuff duration. This includes any movement or skill actions. If the controlled Operator is solidifed, the player will be also unable to switch Operators.
+* The debuff lasts {{Color|3.5s|1d}} (unless otherwise specified). {{Needs Verification}}.
+* While under the effects of '''Solidification''', the debuffed operator cannot be inflicted by further [[Cryo Infliction|Cryo Inflictions]].
+
+== Calculations ==
+<tabber>
+|-|Initial Cryo DMG=
+{{Main|Damage calculation}}
+* The following effects stack <u>multiplicatively</u> with each other and with the Base Initial Cryo DMG:
+** Each operator level increases the Base Initial Cryo DMG by {{Tip|{{Color|~0.51%|1d}}|0.510204081%}}.
+*** <math>{Level\,Multiplier} = \dfrac{195 + Operator\,Level}{196}</math><br>
+** Each point of [[Arts Intensity]] increases the Base Initial Cryo DMG by {{Color|1%|1d}}.
+*** <math>{Arts\,Intensity\,Multiplier} = \dfrac{100 + Arts\,Intensity}{100}</math><br>
+** If the damage critically strikes, increases the Base Initial Cryo DMG by some amount equal to the [[Critical DMG]].
+*** <math>
+{Critical\,Multiplier} =
+\begin{cases} 
+1 + {Critical\,DMG},  & \mbox{if the hit is critical}\\
+1, & \mbox{if the hit is not critical} 
+\end{cases}
+</math>
+** If the enemy is {{Color|Staggered|8}}, increases the Base Initial Cryo DMG by {{Color|30%|1d}}.
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Cryo DMG to form the <b>Multiplier Group</b>:
+** <math>{Multiplier\,Group} = 1 + \sum {Damage\,Bonuses}</math><br>
+** Arts DMG Bonus
+** Cryo DMG Bonus
+** If the enemy is {{Color|Staggered|8}}, DMG Bonus vs. Staggered
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Cryo DMG to form the <b>Amp Multiplier</b>:
+** <math>{Amp\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** {{G|Arts Amp}}
+** {{G|Cryo Amp}}
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Cryo DMG to form the <b>Susceptibility Multiplier</b>:
+** <math>{Susceptibility\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** {{G|Arts Susceptibility}}
+** {{G|Cryo Susceptibility}}
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Cryo DMG to form the <b>Increased DMG Taken Multiplier</b>:
+** <math>{Increased\,DMG\,Taken\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** If the enemy is affected by Arts DMG Taken effects
+** If the enemy is affected by Cryo DMG Taken effects
+** If the enemy is affected by {{G|Electrification}}, increases the sum multiplier by {{Color|12 – 24% (based on the Status Level)|1d}} at Base Strength
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Initial Cryo DMG to form the <b>Resistance Multiplier</b>:
+** <math>{Resistance\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** The enemy's Innate Cryo Resistance decreases the sum multiplier
+** If the enemy is affected by {{G|Corrosion}}, increases the sum multiplier by {{Color|3.6% – 24% (based on the Status Level and Total Duration Elapsed)|1d}}
+
+|-|Shatter DMG=
+{{Main|Damage calculation}}
+The following effects stack <u>multiplicatively</u> with the  Shatter DMG:
+* Each operator level increases the Shatter DMG by {{Tip|{{Color|~0.51%|1d}}|0.510204081%}}.
+** <math>{Level\,Multiplier} = \dfrac{195 + Operator\,Level}{196}</math><br>
+* Each point of [[Arts Intensity]] increases the Shatter DMG by {{Color|1%|1d}}.
+** <math>{Arts\,Intensity\,Multiplier} = \dfrac{100 + Arts\,Intensity}{100}</math>
+** If the damage critically strikes, increases the Shatter DMG by some amount equal to the [[Critical DMG]].
+*** <math>
+{Critical\,Multiplier} =
+\begin{cases} 
+1 + {Critical\,DMG},  & \mbox{if the hit is critical}\\
+1, & \mbox{if the hit is not critical} 
+\end{cases}
+</math>
+** If the enemy is {{Color|Staggered|8}}, increases the Shatter DMG by {{Color|30%|1d}}.
+** If the enemy is affected by {{G|Physical Susceptibility}}, increases the Shatter DMG by some amount equal to the strength of the debuff.
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Shatter DMG to form the <b>Multiplier Group</b>:
+** <math>{Multiplier\,Group} = 1 + \sum {Damage\,Bonuses}</math><br>
+** Physical DMG Bonus
+** If the enemy is {{Color|Staggered|8}}, DMG Bonus vs. Staggered
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Shatter DMG to form the <b>Increased DMG Taken Multiplier</b>:
+** <math>{Increased\,DMG\,Taken\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** If the enemy is affected by Physical DMG Taken effects
+** If the enemy is affected by {{G|Breach}}, increases the sum multiplier by {{Color|12 – 24% (based on the Status Level)|1d}} at Base Strength
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Shatter DMG to form the <b>Resistance Multiplier</b>:
+** <math>{Resistance\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** The enemy's Innate Physical Resistance decreases the sum multiplier
+** If the enemy is affected by {{G|Corrosion}}, increases the sum multiplier by {{Color|3.6% – 24% (based on the Status Level and Total Duration Elapsed)|1d}}
+</tabber>
+
+==Sources==
+*Applying Cryo Infliction to an enemy with a non-Cryo Infliction triggers Solidification. Additional ways to apply Solidification are:
+{{Operator table
+| header = Source
+| content =
+
+{{Operator table row
+| name = Alesh
+| content =
+{{Operator table row/Combat skill
+| icon = Skill-Alesh
+| name = Unconventional Lure
+| type = Skill
+| content =
+{{G|Debuff Consumption|Consume}} all {{G|Cryo Infliction}} on the target to {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Solidification}} and recover SP based on the number of {{G|Cryo Infliction}} stacks consumed.
+}}
+}}
+
+{{Operator table row
+| name = Snowshine
+| content =
+{{Operator table row/Combat skill
+| icon = Ult-Snowshine
+| name = Frigid Snowfield
+| type = Ultimate
+| content =
+{{Tooltip/Forcibly apply|Arts|Forcibly apply}} {{G|Solidification}} to enemies that linger in the {{Color|Snow Zone|7}} for 2 seconds. This effect can only occur once per ultimate cast.
+}}
+}}
+
+{{Operator table row
+| name = Yvonne
+| content =
+{{Operator table row/Combat skill
+| icon = Skill-Yvonne
+| name = Brr-Brr-Bomb β
+| type = Skill
+| content =
+{{G|Debuff Consumption|Consume}} all {{G|Nature Infliction}} or {{G|Cryo Infliction}} on the target to {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Solidification}} and deal additional {{Color|Cryo DMG|4}} based on the number of Arts Infliction stacks consumed.
+}}
+{{Operator table row/Combat skill
+| icon = Combo-Yvonne
+| name = Flashfreezer υ37
+| type = Combo
+| content =
+{{Tooltip/Forcibly apply|Arts|Forcibly apply}} {{G|Solidification}} to all nearby enemies in the explosion at the end of this skill's duration.
+}}
+}}
+}}
+==Interactions==
+{{Hatnote|This list includes interactions with {{G|Shatter}}.}}
+<tabber>
+|-|Operators=
+{{Operator table
+| header = Interaction
+| content =
+
+{{Operator table row
+| name = Alesh
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Alesh
+| name = Auger Angling
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When the {{G|Arts Reaction}} or {{G|Originium Crystal|Originium Crystals}} of a nearby target is {{G|Debuff Consumption|consumed}}.
+}}
+{{Operator table row/Combat skill
+| icon = Alesh Talent 1 icon
+| name = Flash-frozen for Freshness
+| type = Talent
+| content =
+When {{G|Solidification}} or {{G|Originium Crystal|Originium Crystals}} are applied to an enemy, gain Ultimate Energy. If applied by Alesh, gain additional Ultimate Energy. This effect can only occur once every 3 seconds.
+}}
+}}
+
+{{Operator table row
+| name = Estella
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Estella
+| name = Distortion
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When an enemy suffers {{G|Solidification}}.<br><br>
+Against {{G|Solidification|Solidified}} enemies, the skill deals increased {{Color|Physical DMG|2}} and applies {{G|Physical Susceptibility}}.
+}}
+{{Operator table row/Combat skill
+| icon = Estella Talent 1 icon
+| name = Commiseration
+| type = Talent
+| content =
+When applying {{G|Shatter}} to an enemy, your next [[Estella#Combat_Skills|{{Color|Onomatopeia|7}}]] {{G|SP Return|returns}} some SP. This effect cannot stack.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Survival is a Win
+| type = Potential 5
+| content =
+After applying {{G|Solidification}} to an enemy, Estella gains Ultimate Energy. Effect can only trigger once every 1s.
+}}
+}}
+
+{{Operator table row
+| name = Gilberta
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Gilberta
+| name = Arcane Staff: Matrix Displacement
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When an {{G|Arts Reaction}} is applied to an enemy.
+}}
+}}
+
+{{Operator table row
+| name = Snowshine
+| content =
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Polar Survival Guide
+| type = Potential 3
+| content =
+Ultimate {{Color|Frigid Snowfield|7}} improved: Increase {{G|Solidification}} duration applied by this skill by {{Color|2|1d}}s.
+}}
+}}
+
+{{Operator table row
+| name = Xaihi
+| content =
+{{Operator table row/Combat skill
+| icon = Xaihi Talent 1 icon
+| name = Execute Process
+| type = Talent
+| content =
+Against enemies with {{G|Cryo Infliction}} or {{G|Solidification}} enemies, hitting an enemy causes the enemy to suffer {{Color|Cryo DMG Taken|4}}. This effect cannot stack.
+}}
+{{Operator table row/Combat skill
+| icon = Xaihi Talent 2 icon
+| name = Freeze Protocol
+| type = Talent
+| content =
+Ultimate {{Color|Stack Overflow|7}} improved: {{G|Dispel|Dispels}} {{G|Cryo Infliction}} and {{G|Solidification}} from the entire team.
+}}
+}}
+
+{{Operator table row
+| name = Yvonne
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Yvonne
+| name = Flashfreezer υ37
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike}} on an enemy with {{G|Solidification}}.
+}}
+{{Operator table row/Combat skill
+| icon = Ult-Yvonne
+| name = Cryoblasting Pistolier
+| type = Ultimate
+| content =
+At the end of this ability, Yvonne's last enhanced BATK becomes an enhanced {{G|Final Strike}} that deals {{Color|Cryo DMG|4}}.<br><br>
+When performing the enhanced Final Strike against a {{G|Solidification|Solidified}} enemy, Yvonne performs an additional attack that deals additional {{Color|Cryo DMG|4}} and {{G|Debuff Consumption|consumes}} the {{G|Solidification}}.
+}}
+{{Operator table row/Combat skill
+| icon = Yvonne Talent 1 icon
+| name = Barrage of Technology
+| type = Talent
+| content =
+Battle skill {{Color|Brr-Brr-Bomb β|7}} improved: When {{G|Solidification}} is applied, your next basic attack performs a {{G|Final Strike}}. Increase Final Strike DMG Dealt by this Talent at [[File:Elite 2.png|16x16px|link=]] Elite 2.
+}}
+{{Operator table row/Combat skill
+| icon = Yvonne Talent 2 icon
+| name = Freezing Point
+| type = Talent
+| content =
+Against enemies with {{G|Cryo Infliction}} or {{G|Solidification}}, gain Critical DMG Dealt.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Tink-a-Power
+| type = Potential 3
+| content =
+Talent {{Color|Freezing Point|7}} improved: Increase Additional Critical DMG Dealt gained when against enemies with {{G|Cryo Infliction}} or {{G|Solidification}}.
+}}
+}}
+
+}}
+|-|Weapons=
+{{Template:Weapon_list
+| header = Interaction
+| content = 
+
+{{Template:Weapon_list_row
+| name = Clannibal
+| content = '''Infliction: Vicious Purge'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, the target enemy suffers {{Color|Heat DMG Taken|3}} {{Tooltip/Weapon skill rank|+10%|28%}} for 15s. {{Color|Effects of the same name do not stack. Effect only triggers once every 25s.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Finchaser 3.0
+| content = '''Suppression: Fin Chaser's Intent'''<br>When the wielder casts a battle skill that applies {{G|Solidification}}, the target enemy suffers {{Color|Cryo DMG Taken|4}} {{Tooltip/Weapon skill rank|+7|19.6%}} for 15s. {{Color|Effects of the same name do not stack. Effect only triggers once every 25s.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Grand Vision
+| content = '''Infliction: Long Time Wish'''<br>When the wielder applies {{G|Originium Crystal|Originium Crystals}} or {{G|Solidification}}, during the next battle skill or ultimate cast within 20s, the wielder gains {{Color|Physical DMG Dealt|1}} {{Tooltip/Weapon skill rank|+36|100.8%}}. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Navigator
+| content = '''Infliction: Lone and Distant Sail'''<br>When {{G|Solidification}} or {{G|Corrosion}} is applied, the wielder gains {{Color|Cryo DMG Dealt|4}} and {{Color|Nature DMG Dealt|5}} {{Tooltip/Weapon skill rank|+3.5|9.8%}} and Critical Rate {{Tooltip/Weapon skill rank|+2|5.6%}} for 15s. If this effect is triggered by the wielder, double the increase gained. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = OBJ Razorhorn
+| content = '''Infliction: Conquest of Icy Peaks'''<br>Against {{G|Cryo Infliction|Cryo Inflicted}} and {{G|Solidification|Solidified}} enemies, gain DMG Dealt {{Tooltip/Weapon skill rank|+8|22.4%}}. When the wielder {{G|Debuff Consumption|consumes}} {{G|Solidification}}, gain ATK {{Tooltip/Weapon skill rank|+12|33.6%}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Opus: The Living
+| content = '''Infliction: Road Home for All Life'''<br>When the wielder applies an {{G|Arts Reaction}}, the wielder gains ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Twelve Questions
+| content = '''Infliction: Sincere Interrogation'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Wedge
+| content = '''Infliction: Wedge of Civilization'''<br>When the wielder casts a battle skill that applies an {{G|Arts Reaction}}, the wielder gains {{G|DMG Type|Arts DMG Dealt}} {{Tooltip/Weapon skill rank|+16|44.8%}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+}}
+}}
+|-|Gears =
+{{GearSetsTable
+|header = Interaction
+|content =
+<tr><td>
+<span style="font-weight:600;">[[Pulser Labs]]</span><br>
+{{I|Pulser Labs Disruptor Suit}} {{I|Pulser Labs Gloves}} {{I|Pulser Labs Calibrator}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+After the wearer applies {{G|Electrification}}, the wearer gains {{Color|Electric DMG|6}} {{Color|+50%|1d}} for 10s. After the wearer applies {{G|Solidification}}, the wearer gains {{Color|Cryo DMG|4}} {{Color|+50%|1d}} for 10s. {{Color|These aforementioned effects do not stack.|9}}
+</td></tr>
+}}
+</tabber>
+
+== Changelog ==
+{{Changelog|
+* <b>[[At the Wake of Spring]]</b>
+** Solidification debuff icon shown below the enemy's healthbar will now display its Status Level.
+* <b>Beta Test I</b> 
+** Solidification added.
+}}
+
+{{Combat mechanics}}
+[[Category:Arts Reactions]]

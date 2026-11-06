@@ -1,0 +1,69 @@
+{{Enemy infobox
+|name = Bonekrusher Siegeknuckles
+|image = Bonekrusher_Siegeknuckles_sprite.png
+|filename = eny_0075_lbroshan
+|cnname = 碾骨破城者
+|tcname = 碾骨破城者
+|jpname = ボーンクラッシャーの攻城者
+|krname = 본 크러셔 파괴자
+|spname = Nudillos de asedio de Rompehuesos
+|runame = Осадный кастетчик Костоломов
+|type = Landbreakers
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 16
+}}
+'''Bonekrusher Siegeknuckles''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker combatant equipped with heavy explosive gauntlets. These serve as the mainstay of Bonekrusher mobs. A Siegeknuckles's gauntlets serve as portable weapons for taking down fortified positions.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 6
+|SD = 1
+|SPG = 50
+|AR = 6
+|Weight = 1
+|wphysical = 0.8
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *A relentless enemy. Even after being interrupted, he is likely going to try attacking again.
+*This enemy uses his armored sleeve to scatter reactive armor scales. Keep a safe distance, especially when accidentally stepping on it.
+*This enemy will try to retrieve armor scales from the ground to get back to form, and will launch a powerful attack upon successful retrieval.
+|location = *[[Originium Science Park]]
+|drops = {{I|Siegeknuckles Gauntlets}}
+|addendum = }}
+
+==Overview==
+One of the elite Bonekrushers, Bonekrusher Siegeknuckles are very mobile in attacks, and has several abilities that can really break the knuckles off:
+
+*Enters a blocking state, during which attacks will cause the Siegeknuckles to gain ATK and scatter a piece of reactive armor scale around, up to 5 times. 
+**The armor scales explode after a short period if an Operator comes near it, which deal Physical damage.
+**If a battle skill hit the Siegeknuckles when all attempts are used up, he will immediately throws a swiping punch followed by a straight punch, dealing Physical damage and scatter 4 armor scales around, which is then followed by an explosion on the fist, dealing Physical damage and scatter 8 armor scales around.
+*Throws two swiping punches, followed by another punch, dealing Physical damage.
+*Rush towards the target before delivering a straight punch, followed by an explosion, dealing Physical damage and scatter 4 armor scales around. This ability can be interrupted by skills.
+*Throws one swiping punch, followed by an upward swiping punch, lastly followed by an explosion and scatter 4 armor scales around, dealing Physical damage. This ability can be interrupted by skills.
+*Throws two swiping punches, followed by a 360-degree swing, then lastly a straight punch followed by an explosion and scatter 4 armor scales around, dealing Physical damage, This ability can be interrupted by skills before the explosion.
+*Pulls Operators toward self while retrieving armor scales that aren't triggered, then followed by a leap with a ground slam, dealing Physical damage. If armor scales are retrieved successfully, the attack is repeated once.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1246, 8942, 56582, 222753, 535821, 825447 from 1246, 10520, 66567, 222753, 535821, 825447
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

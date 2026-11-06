@@ -1,0 +1,107 @@
+local p = {}
+
+local getArgs = require('Module:Arguments').getArgs
+
+local areaData = mw.loadData("Module:Minimap/Data")
+
+-- list of commonly used marker icons
+local markerData = {
+	["exclamation mark"] = {
+		file = "[[File:Exclamation mark map icon.png|25px|link=]]"
+	}
+}
+
+local function starts_with(str, start)
+   return string.sub(str,1,string.len(start)) == start
+end
+
+local function split_string(inputstr, sep)
+	local ret = {}
+	for str in string.gmatch(inputstr, "([^"..sep.."]+)") do
+		table.insert(ret, str)
+	end
+	return ret
+end
+
+function p._main(area, x, y, width, height, markers)
+	if not x or not y then
+		error("Missing coordinates")
+	end
+
+	area = areaData[area]
+	if not area then
+		error("Unknown area")
+	end
+	
+	x = tonumber(x)
+	y = tonumber(y)
+	width = width or 240
+	height = height or 240
+
+	local xOffset = (x - width * 0.5) * (-1)
+	local yOffset = (y - height * 0.5) * (-1)
+	
+	local minimap = mw.html.create("div")
+		:addClass("area-minimap")
+		:addClass(area.imageClass)
+		:css{
+			width = width .. "px",
+			height = height .. "px",
+			["background-position"] = xOffset .. "px " .. yOffset .. "px"
+		}
+
+	if markers then
+		for i, marker in ipairs(markers) do
+			local text = split_string(marker, ';')
+			local icon = text[1]
+			local xmarker = text[2]
+			local ymarker = text[3]
+			
+			-- check for alias first, otherwise default to exclamation mark 
+			marker = markerData[icon] or markerData["exclamation mark"]
+			
+			-- if a mediawiki file is given, use that image instead
+			if starts_with(tostring(icon), "[[File:") then
+				marker.file = split_string(icon, ']')[1] .. "|25px|link=]]"
+			end
+			
+			local markerTag = minimap:tag("span"):addClass("minimap-marker"):wikitext(marker.file)
+			
+			-- adjust marker position with given coords, defaults to center when missing
+			if xmarker and ymarker then
+				local dx = xmarker - x + width * 0.5
+				local dy = ymarker - y + height * 0.5
+				
+				markerTag:css{
+					left = dx .. "px",
+					top = dy .. "px"
+				}
+			end
+		end
+	end
+
+	return tostring(minimap)
+end
+
+function p.main(frame)
+    local args = getArgs(frame)
+    local area = args.area and mw.ustring.lower(args.area)
+	local x = args.x
+	local y = args.y
+    local width = args["width"] or args["size"]
+    local height = args["height"] or args["size"]
+    
+    local markers = {}
+	if args["marker"] then
+		table.insert(markers, args["marker"])
+	end
+	local i = 2
+	while args["marker" .. i] do
+		table.insert(markers, args["marker" .. i])
+		i = i + 1
+	end
+
+    return p._main(area, x, y, width, height, markers)
+end
+
+return p

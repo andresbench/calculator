@@ -1,0 +1,47 @@
+local p = {}
+local data = {
+	weapon6 = mw.loadData('Module:Weapon/weapon6'),
+	weapon5 = mw.loadData('Module:Weapon/weapon5'),
+	weapon4 = mw.loadData('Module:Weapon/weapon4'),
+	weapon3 = mw.loadData('Module:Weapon/weapon3')
+}
+local getArgs = require('Module:Arguments').getArgs
+
+function p.Main( frame )
+	local args = getArgs(frame, {wrappers = 'Template:Weapon'})
+	return p._main(args)
+end
+
+function p._main( args )
+	local key = args[1]
+	mw.log(key)
+	local weapon
+	for key, index in pairs(data) do 
+		weapon = index[key]
+		mw.log(key)
+	end
+	
+end
+
+    -- local tables = frame['Weapons']
+    -- local fields = 'weapon, id, icon'
+    -- -- optional parameters are grouped in one table
+    -- -- you can omit any or all of them, except join if you use more than one table
+    -- -- local args = {
+    -- --     where = 'table1.fieldE="some value", etc.',
+    -- --     join = 'table1.fieldA = table2.fieldB,table2.fieldC=table3.fieldD, etc.',
+    -- --     groupBy = 'table1.fieldG',
+    -- --     having = 'table1.fieldG="some value", etc.',
+    -- --     orderBy = 'table2.fieldF, table1.fieldE DESC, etc.'
+    -- -- }
+    -- -- local results = cargo.query( tables, fields, args )
+    -- local results = cargo.query( tables, fields )
+    -- local out = mw.html.create()
+    
+    -- mw.log(results)
+    -- for i, row in ipairs(results) do
+    --     -- Do something with the result table, e.g. add row.alias1 to the output html
+    --     mw.log(row.weapon)
+    -- end
+
+return p

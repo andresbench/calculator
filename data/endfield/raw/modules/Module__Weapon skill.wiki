@@ -1,0 +1,117 @@
+local p = {}
+local glossary = require('Module:glossary')._main
+local data = mw.loadData("Module:Weapon skill/data")
+
+local function useGlossary(text)
+    return text:gsub("{{G|(.-)}}", function(params)
+    	params = mw.text.split(params, '|')
+        return tostring(glossary(params))
+    end)
+end
+
+local function fillText(pattern, values, rank)
+    if #values > 0 and type(values[1]) ~= "table" then
+        values = {values}
+    end
+    return (pattern:gsub("{(%d+)}", function(idx)
+        local groupIndex = tonumber(idx) + 1
+        local group = values[groupIndex]
+        if not group then
+            return "{missing}"
+        end
+        if type(group) == "table" then
+            return tostring(group[rank] or "{missing}")
+        elseif type(group) == "number" then
+            return tostring(group)
+        else
+            return "{missing}"
+        end
+    end))
+end
+
+local function buildHead(icon, colnames)
+    local out = {}
+
+    table.insert(out,
+        '<div class="mw-collapsible mw-expanded collapsible-table-wrapper" data-expandtext="Show effects" data-collapsetext="Hide effects" style="width:50%;">'
+    )
+
+    table.insert(out,
+        '{| id="skill-info-block" class="mrfz-wtable mrfz-tabber" width="100%" border="1" cellpadding="5" style="margin-bottom:0; font-size:12px; border: 3px solid; border-color: #3c3c3c;"'
+    )
+
+    table.insert(out,
+        '!width="70px" style="border-right:none; text-align:center;"|' ..
+        '[[File:Weapon-' .. (icon or "DefaultIcon") .. '.png|65x65px|link=]]'
+    )
+
+    table.insert(out,
+    	'!style="border-left:none;text-align:left;"|' ..
+    	'<div style="font-size:14px;">Weapon Skills</div>' ..
+    	'<div style="padding-top:5px;">' ..
+    	'<div title="Ability" style="display:inline-block; cursor:help; position:relative; margin:2px 0; padding:0 5px; width:auto; border-radius:5px; background:#BF00FF; color:white; font-size:12px; text-align:center; font-weight: normal;">Ability</div>' ..
+    	'</div>'
+	)
+
+    table.insert(out, '|}')
+    table.insert(out, '<div class="mw-collapsible-content">')
+
+    table.insert(out,
+        '{| width="100%" class="mrfz-wtable" border="1" cellpadding="5" style="margin-top:0; font-size:12px; border: 3px solid; border-color: #3c3c3c;"'
+    )
+
+    table.insert(out, '|-')
+    table.insert(out, '!width="40px"|Rank')
+
+    for _, colname in ipairs(colnames) do
+        if colname and colname ~= "" then
+            table.insert(out, '!width="auto"|' .. colname)
+        else
+            table.insert(out, '!width="auto"|–')
+        end
+    end
+
+    return table.concat(out, "\n")
+end
+
+local function buildRows(colnames)
+    local out = {}
+    for rank = 1, 9 do
+        table.insert(out, '|-')
+        table.insert(out,
+            '!style="text-align:center;"|' ..
+            '[[File:Rank ' .. rank .. '.png|35x35px|center|link=]]'
+        )
+        for _, key in ipairs(colnames) do
+            local entry = data[key]
+            if entry and entry.values then
+                local txt = fillText(entry.text, entry.values, rank)
+				txt = useGlossary(txt)
+				table.insert(out, '|style="text-align:center;"|' .. txt)
+            else
+                table.insert(out, '|style="text-align:center;"|&ndash;')
+            end
+        end
+    end
+    return table.concat(out, "\n")
+end
+
+local function buildEnd()
+    return '|}</div></div>'
+end
+
+function p.main(frame)
+    local args = frame:getParent().args
+    local icon = args[1] or "DefaultIcon"
+    local skill1 = args[2]
+    local skill2 = args[3]
+    local skill3 = args[4]
+    local columns = { skill1, skill2, skill3 }
+    local out = {}
+    table.insert(out, buildHead(icon, columns))
+    table.insert(out, buildRows(columns))
+    table.insert(out, buildEnd())
+    return table.concat(out, "\n")
+end
+
+return p

@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Fists
+|image = Miner_Fists.png
+|filename = item_equip_t1_parts_tundra01_hand_04
+|cnname = 矿场护手
+|tcname = 礦場護手
+|jpname = 鉱山プロテクター
+|krname = 광산 보호 장갑
+|spname = Puños de minero
+|runame = Защита рук шахтера
+|rarity = 2
+|artifice = no
+|type = Gloves
+|level = 28
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Fists''' is a {{gear|2|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +16.8
+|pstat = Will
+|pvalue = +28
+|sstat = Intellect
+|svalue = +18
+|tstat = HP
+|tvalue = +15.0%
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|160}} {{I|Amethyst Component|20}}
+}}
+
+
+
+{{Gears|state=collapsed}}

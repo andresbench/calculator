@@ -1,0 +1,29 @@
+{{Facility infobox
+|name = Sledgehammer Mortar
+|filename = item_port_battle_rocket_1
+|images = Sledgehammer Mortar icon.png:Icon;
+Sledgehammer Mortar.png:Full
+|cnname = 重锤迫击炮
+|tcname = 重錘迫擊炮
+|jpname = 鉄槌迫撃砲
+|krname = 중추 박격포
+|spname = Mortero de mazo
+|runame = Сокрушительная мортира
+|type = Combat & Support
+|rarity = 5
+|power = }}
+'''Sledgehammer Mortar''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|33000|7}}
+<b>Attack Interval</b>: {{Color|8|7}}s
+<b>Mode of Attack</b>: Consumes vast amounts of energy to fire an extremely powerful shell. The shell deals massive {{Color|Physical DMG|1}} to enemies in the area of effect.|A heavy weapon platform loaded with large Originium shells. This particular mortar offers the most devastating punch possible amongst ordnance of the same class.}}
+==Usage==
+
+==Acquisition==
+Research the specified tech in the Wuling AIC Plan to construct this.
+{{RecipeTable|product=Sledgehammer Mortar}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

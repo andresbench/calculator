@@ -1,0 +1,85 @@
+# Build the data bundle, run every test, build the site and publish it to
+# GitHub Pages (andresbench.moe — the domain is set in the repository's Pages
+# settings, so no CNAME file is needed).
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            engine/package-lock.json
+            app/package-lock.json
+      - run: npm ci
+        working-directory: engine
+      - run: npm ci
+        working-directory: app
+
+      # Icons are game assets: not committed, downloaded from the wiki and
+      # cached between runs (icons.py fetches only what changed, by sha1).
+      - uses: actions/cache@v4
+        with:
+          path: data/endfield/img
+          key: icons-${{ hashFiles('data/endfield/operators.json', 'data/endfield/weapons.json', 'data/endfield/gear.json') }}
+          restore-keys: icons-
+      - run: python3 tools/ef/icons.py
+
+      - name: Bundle (public: no roster)
+        run: python3 tools/ef/export.py --public
+
+      - name: Pipeline tests
+        run: python3 -m unittest discover -s tools/tests -t .
+      - name: Engine tests
+        run: npm test
+        working-directory: engine
+        env:
+          REQUIRE_BUNDLE: "1"
+      - name: Engine types
+        run: npx tsc --noEmit
+        working-directory: engine
+      - name: Site
+        run: npm run build
+        working-directory: app
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: app/dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

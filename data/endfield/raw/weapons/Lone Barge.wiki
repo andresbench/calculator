@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Lone Barge
+|rarity = 6
+|images = 
+Lone_Barge icon.png:Icon;
+Lone_Barge.png:Full;
+Lone_Barge max model.png:Max
+|filename = wpn_funnel_0015
+|cnname = 孤舟
+|tcname = 孤舟
+|jpname = 孤舟
+|krname = 고독한 나룻배
+|spname = Barca solitaria
+|runame = Одинокая ладья
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Lone Barge''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An Arts Unit developed by Hongshan Swordmancers. The weapon features a bold integration of novel Xiranite amalgams. Though the materials offer excellent performance that greatly improves casting efficiency, this Arts Unit can be quite challenging to use.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 52, 149, 252, 355, 458, 510
+|pot = Skill {{Color|Suppression: Streaming Blitz|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [L]|ATK [L]|Suppression: Streaming Blitz}}
+
+==Basic Info==
+{{Quote|"Sir Huang, the SAR teams we dispatched this morning have returned. None of them found any of the scientists on the list. We haven't heard anything from the team that went out this afternoon." <br>"Hmm. Stay vigilant. Are the wounded getting proper treatment?" <br>"We acted according to your instructions. Those with light injuries have been housed at a temporary shelter. The critically injured have been medevaced to the nearest city for more extensive treatment." <br>The old man sighed. Seventy-two hours had passed since the search and rescue (SAR) teams arrived at Wuling. And for seventy-two hours, the area around Wuling Science Station had remained submerged in the Blight Tide. HAS had invested its entire SAR capacity but failed to extricate any of the scientists trapped within the facility. <br>After receiving the orders, the young watchguard in his PPE overalls saluted and headed out. None of them had slept ever since the tent that served as their temporary HQ was pitched. <br>Peace returned to the command post. The only ones left in the tent were the old man and his disciples who were busy monitoring the status of the Very Large Rift. <br>"Tianshi Huang," a messenger bearing the latest orders from the Headquarters arrived. <br>"Appreciate the special delivery. I've received the documents. With Endfield's help, full restoration of long-range comms will be achieved by tomorrow morning. Messenger, I pray you can deliver this message to the temporary comm station outside Wuling and notify HQ of this update ASAP." <br>"It will be done. And we appreciate your hard work." <br>"Any instructions from the Academy?" the nearby Tianshi gathered around Huang after the messenger left. However, their faces froze when they read the contents of the document. <br>"After twenty-four hours, Hongshan Headquarters shall ... vote on whether we should suspend SAR operations in the rift rupture zone. The HQ believes that the opinions of the site personnel are extremely important." <br>"Vote? Why? Rupture growth has slowed down for now! It's obvious!" <br>"Maybe their next move would be asking us to bring everyone back to HQ." <br>"Are we giving up the entire region of Wuling?" <br>After a brief moment of silence, the old Tianshi arranged the work for various SAR teams. <br>"Keep your ideas to yourself. Other orders might come in once long-range comms are restored tomorrow. I'm taking the night shift. Use the opportunity to rest." <br>"Understood. Then let's ... excuse ourselves for now." <br>"Good luck, sir." <br>Silence returned to the tent. The old man stood before the map hologram as the blinking red lights reflected off his eyes and glowed against the wrinkled piece of paper he held. <br>His daughter as well as his own disciples were still there. <br>The old man gritted his teeth. With shaking hands he held up the monitoring reports his disciples left at the HQ and studied them under the lamplight. The inexperienced youths did not know that the cessation of rupture expansion did not translate into the containment of the threat. Instead, it was a herald to a greater disaster waiting to happen. All Blight matter near the rift would slowly "accumulate" and a secondary rupture would suddenly burst forth during this false lull of safety. He had noticed this phenomenon before he celebrated his thirtieth birthday, while he was a strong young man of adventure, courage, and energy. <br>The old man sat down on a plastic chair. For the first time in his life, he felt the need for retirement. <br><br>"Dozens of hours have passed. Unfortunately, we have picked up no vital signs in the vicinity of the Very Large Rift. Since we have a unanimous consensus, we shall act upon the decision and cease all SAR operations—" <br>The receiver was placed before the old Tianshi. The HQ had voted. His work was to announce their final decision. <br>The young Tianshi leaped to their feet and roared at him. The youths stood their ground and argued for another round of SAR operations. <br>He remembered saying something else and how he reiterated the importance of the decision. <br>But in the end, the old man closed his eyes and spoke no more.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

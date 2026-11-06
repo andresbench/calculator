@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Fitting Unit
+|filename = item_port_cmpt_mc_1
+|images = Fitting Unit icon.png:Icon;
+Fitting Unit.png:Full
+|cnname = 配件机
+|tcname = 配件機
+|jpname = 組立機
+|krname = 부품 가공기
+|spname = Unidad de ajuste
+|runame = Модуль штамповки
+|type = Production I
+|rarity = 2
+|power = 20}}
+'''Fitting Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility capable of processing various parts.|Comes with grinding wheels, planing wheels, polishing bits, and milling cutters.}}
+==Usage==
+A facility capable of processing various parts.
+*Power Use : 20
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Parts Fitting]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Fitting Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production I Facilities]]

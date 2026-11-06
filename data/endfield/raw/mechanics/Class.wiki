@@ -1,0 +1,45 @@
+{{#cargo_query:
+| tables = Operators
+| fields = CONCAT("{{((}}#vardefine:",class, "{{!}}", GROUP_CONCAT(operator ORDER BY rarity DESC, operator ASC SEPARATOR ","),"{{))}}")=data
+| group by = class
+| where = operator != "Endministrator" OR gender = "female"
+| delimiter = 
+| format = plain}}
+Each [[Operator]] in ''[[Arknights: Endfield]]'' is assigned to one of six '''classes''' or '''professions'''{{Note|name=term|The term "class" to describe a group of Operators is only used once in-game in the english description of the weapon [[Pathfinder's Beacon]], and does not appear in the original text. Otherwise the term "class" is only used on some promotional outside of the game, and the game files refer to them as "professions".}} which describe how they function, including which [[Weapon]]s they might use, what type of damage they do and what main purpose they serve in battle.
+
+==Guard==
+{{Quote|Guards are skilled at making enemies {{G|Vulnerable}} and applying {{G|Physical Status|Physical Statuses}}. They are also good damage dealers.|Class overview}}
+{{Character list|{{#var:Guard}}}}
+Guards mainly use either [[Sword]]s or [[Polearm]]s to deal [[Physical]] damage to enemies. They specialize in applying '''Physical Statuses''' and therefore also in dealing [[Stagger]] damage and typically include agility or strength as their main or sub attribute.
+
+==Caster==
+{{Quote|Casters are skilled at applying {{G|Arts Infliction|Arts Inflictions}} and {{G|Arts Reaction|Arts Reactions}}. They are also good damage dealers.|Class overview}}
+{{Character list|{{#var:Caster}}}}
+Casters use various weapon types to deal immense Arts damage and can easily apply Arts inflictions to enemies. They typically have Intellect as their main attribute.
+
+==Striker==
+{{Quote|Strikers exploit Physical or Arts effects inflicted by other operators to deal decisive damage.|Class overview}}
+{{Character list|{{#var:Striker}}}}
+
+==Vanguard==
+{{Quote|Great at recovering Skill Points (SP) to help their teammates' skill casting.|Class overview}}
+{{Character list|{{#var:Vanguard}}}}
+
+==Defender==
+{{Quote|Defenders are extremely tough. They are skilled in protecting and treating their teammates, as well as counterattacking the enemy.|Class overview}}
+{{Character list|{{#var:Defender}}}}
+Defenders use Great Swords to deal {{Color|Physical|2}} damage with Basic Attacks, but also have access to Arts damage via skills. They are also capable of treating their allies to restore HP. Defenders typically include strength as one of their preferred attributes.
+
+==Supporter==
+{{Quote|Supporters are skilled at applying various control effects that weaken the enemy. They can also buff and support their teammates.|Class overview}}
+{{Character list|{{#var:Supporter}}}}
+Supports use [[Arts Unit]]s to deal Arts damage, helping in battle with various skills and talents that weaken the enemy and strengthen their allies. Will and intellect are usually the support's preferred attributes.
+
+==Trivia==
+*Compared to the original game, ''[[Arknights]]'', ''Arknights: Endfield'' does not have the Sniper, Medic, and Specialist classes, the last one being removed in Beta Test II.
+
+==Notes==
+{{Notelist}}
+
+{{Features}} 
+[[Category:Terminology]]

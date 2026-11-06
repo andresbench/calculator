@@ -1,0 +1,27 @@
+local data={
+	["Chimeric Justice"]={name="Chimeric Justice", class="Polearm"},
+	["Exemplar"]={name="Exemplar", class="Great Sword"},
+	["Finishing Call"]={name="Finishing Call", class="Great Sword"},
+	["Fortmaker"]={name="Fortmaker", class="Sword"},
+	["Monaihe"]={name="Monaihe", class="Orbiter"},
+	["Never Dull"]={name="Never Dull", class="Great Sword"},
+	["Opus: Etch Figure"]={name="Opus: Etch Figure", class="Orbiter"},
+	["Opus: Stress"]={name="Opus: Stress", class="Guns"},
+	["Rational Farewell"]={name="Rational Farewell", class="Guns"},
+	["Rock Auger"]={name="Rock Auger", class="Polearm"},
+	["Sculptor of Time"]={name="Sculptor of Time", class="Guns"},
+	["Stanza of Memorials"]={name="Stanza of Memorials", class="Orbiter"},
+	["Sundering Steel"]={name="Sundering Steel", class="Sword"},
+	["Thermite Cutter"]={name="Thermite Cutter", class="Sword"},
+	["Umbral Torch"]={name="Umbral Torch", class="Sword"},
+	["Valiant"]={name="Valiant", class="Polearm"},
+	["Wild Wanderer"]={name="Wild Wanderer", class="Orbiter"},
+}
+--Alternative names
+	data["Opus: Stress"] = data["Opus Stress"]
+	data["Opus: Etch Figure"] = data["Opus Etch Figure"]
+	
+for k, v in pairs(data) do
+	v.star=(5)
+end
+return data

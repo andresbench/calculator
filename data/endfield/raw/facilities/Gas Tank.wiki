@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Gas Tank
+|filename = item_port_gas_storager_1
+|images = Gas_Tank_icon.png:Icon;
+Gas_Tank.png:Full
+|cnname = 储气罐
+|tcname = 儲氣罐
+|jpname = ガス貯蔵タンク
+|krname = 저장용 가스통
+|spname = Tanque de gas
+|runame = Газовый резервуар
+|type = Depot Access
+|rarity = 2
+|power = }}
+'''Gas Tank''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for storing gases.|When supplies run low, this gas tank can be modified to create improvised ammunition.}}
+==Usage==
+A facility for storing up to 500 unit of a type of gas.
+
+==Acquisition==
+Construction: Requires Specified Wuling AIC Plan Tech
+{{RecipeTable|product=Gas Tank}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

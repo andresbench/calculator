@@ -1,0 +1,62 @@
+local data={
+-- 6 STAR WEAPONS
+	["Abraxas"]={name="Abraxas", tier=6, use="", desc="", obtain=""},
+	["Cerulean Resonance"]={name="Cerulean Resonance", tier=6, use="", desc="", obtain=""},
+	["Clannibal"]={name="Clannibal", tier=6, use="", desc="", obtain=""},
+	["Chivalric Virtues"]={name="Chivalric Virtues", tier=6, use="", desc="", obtain=""},
+	["Detonation Unit"]={name="Detonation Unit", tier=6, use="", desc="", obtain=""},
+	["Former Finery"]={name="Former Finery", tier=6, use="", desc="", obtain=""},
+	["Heart's Content"]={name="Heart's Content", tier=6, use="", desc="", obtain=""},
+	["Home Longing"]={name="Home Longing", tier=6, use="", desc="", obtain=""},
+	["JET"]={name="JET", tier=6, use="", desc="", obtain=""},
+	["Mountain Bearer"]={name="Mountain Bearer", tier=6, use="", desc="", obtain=""},
+	["Oblivion"]={name="Oblivion", tier=6, use="", desc="", obtain=""},
+	["The Fifth Heirloom"]={name="The Fifth Heirloom", tier=6, use="", desc="", obtain=""},
+	["Thunderberge"]={name="Thunderberge", tier=6, use="", desc="", obtain=""},
+	["Torrent"]={name="Torrent", tier=6, use="", desc="", obtain=""},
+	["Wedge"]={name="Wedge", tier=6, use="", desc="", obtain=""},
+	["Vortex of Talos"]={name="Vortex of Talos", tier=6, use="", desc="", obtain=""},
+
+-- 5 STAR WEAPONS
+	["Chimeric Justice"]={name="Chimeric Justice", tier=5, use="", desc="", obtain=""},
+	["Exemplar"]={name="Exemplar", tier=5, use="", desc="", obtain=""},
+	["Finishing Call"]={name="Finishing Call", tier=5, use="", desc="", obtain=""},
+	["Fortmaker"]={name="Fortmaker", tier=5, use="", desc="", obtain=""},
+	["Monaihe"]={name="Monaihe", tier=5, use="", desc="", obtain=""},
+	["Never Dull"]={name="Never Dull", tier=5, use="", desc="", obtain=""},
+	["Opus: Etch Figure"]={name="Opus: Etch Figure", tier=5, use="", desc="", obtain=""},
+	["Opus: Stress"]={name="Opus: Stress", tier=5, use="", desc="", obtain=""},
+	["Rational Farewell"]={name="Rational Farewell", tier=5, use="", desc="", obtain=""},
+	["Rock Auger"]={name="Rock Auger", tier=5, use="", desc="", obtain=""},
+	["Sculptor of Time"]={name="Sculptor of Time", tier=5, use="", desc="", obtain=""},
+	["Stanza of Memorials"]={name="Stanza of Memorials", tier=5, use="", desc="", obtain=""},
+	["Sundering Steel"]={name="Sundering Steel", tier=5, use="", desc="", obtain=""},
+	["Thermite Cutter"]={name="Thermite Cutter", tier=5, use="", desc="", obtain=""},
+	["Umbral Torch"]={name="Umbral Torch", tier=5, use="", desc="", obtain=""},
+	["Valiant"]={name="Valiant", tier=5, use="", desc="", obtain=""},
+	["Wild Wanderer"]={name="Wild Wanderer", tier=5, use="", desc="", obtain=""},
+
+-- 4 STAR WEAPONS
+	["Aggeloslayer"]={name="Aggeloslayer", tier=4, use="", desc="", obtain=""},
+	["Contingent Measure"]={name="Contingent Measure", tier=4, use="", desc="", obtain=""},
+	["Florescent Roc"]={name="Florescent Roc", tier=4, use="", desc="", obtain=""},
+	["Grand Finale"]={name="Grand Finale", tier=4, use="", desc="", obtain=""},
+	["Howling Guard"]={name="Howling Guard", tier=4, use="", desc="", obtain=""},
+	["Hypernova Auto"]={name="Hypernova Auto", tier=4, use="", desc="", obtain=""},
+	["Industry 0.1"]={name="Industry 0.1", tier=4, use="", desc="", obtain=""},
+	["Long Road"]={name="Long Road", tier=4, use="", desc="", obtain=""},
+	["Oathborn"]={name="Oathborn", tier=4, use="", desc="", obtain=""},
+	["Pathfinder's Beacon"]={name="Pathfinder's Beacon", tier=4, use="", desc="", obtain=""},
+	
+-- 3 STAR WEAPONS
+	["Darhoff 7"]={name="Darhoff 7", tier=3, use="", desc="", obtain=""},
+	["Jiminy 12"]={name="Jiminy 12", tier=3, use="", desc="", obtain=""},
+	["Opero 77"]={name="Opero 77", tier=3, use="", desc="", obtain=""},
+	["Peco 5"]={name="Peco 5", tier=3, use="", desc="", obtain=""},
+	["Tarr 11"]={name="Tarr 11", tier=3, use="", desc="", obtain=""},
+
+}
+for k, v in pairs(data) do
+	v.image=(v.name .. " icon")
+end
+return data

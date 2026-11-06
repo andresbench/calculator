@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Sentinel
+|image = Sentinel_sprite.png
+|filename = eny_0039_agcanno
+|cnname = 岗哨天使
+|tcname = 崗哨天使
+|jpname = 哨戒アンゲロス
+|krname = 보초아겔로스
+|spname = Centinela
+|runame = Часовой
+|type = Aggeloi
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 9
+}}
+'''Sentinel''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Phrourossaron" (ARS316) is a suspected Aggeloid attempt at mimicking the shape and attack patterns of humanity's sentry guns. Despite its massive range, the Sentinel is a sessile organism.}}
+
+==Stats==
+{{Enemy data
+|HP = 415, 2981, 18861, 74251, 178607, 275149
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 200
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy has a powerful attack with extremely long range. Dodge its bombardment to progress.
+|location = *[[Special Protocol Spaces]]
+|drops = 
+|addendum = }}
+
+==Overview==
+An [[Aggelos]] that shaped like an artillery, the Sentinel is notably immobile, however it has extremely large attack range, allowing them to bombard Operators from far distance.
+
+Its only attack is fires at an area after a long wind up, dealing Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 415, 2981, 18861, 74251, 178607, 275149 from 415, 3507, 22189, 74251, 178607, 275149
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

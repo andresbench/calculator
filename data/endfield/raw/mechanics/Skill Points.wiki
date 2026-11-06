@@ -1,0 +1,23 @@
+'''Skill Points''' are a combat resource in ''[[Arknights: Endfield]]''.
+
+==Overview==
+Skill Points, or SP for short, are used to cast Battle Skills and are shared by all team members. Players can hold up to 300 SP, displayed in the HUD as three segmented bars of 100 SP each. A full bar is indicated with a pulsating yellow, while a partially filled bar appears white. Most Battle Skills consume 100 SP when used, with some consuming 50 or 25 SP instead.
+[[File:Screenshot Skill Points.png|thumb|Three SP bars on the HUD shown above the controlled Operator's health bar. A fully filled bar is indicated by the yellow color.]]
+
+===In Combat===
+During combat, SP regenerates naturally at a rate of 8 SP per second. Additional SP can be gained through various actions:
+* Hitting an enemy with a {{G|Final Strike}} restores SP based on the controlled [[Operator]], ranging from 15 SP as Fluorite and up to 30 SP as Last Rite.
+* A Perfect Dodge recovers approximately 7.5 SP, but pauses the natural regenaration for half a second.
+* Performing a Finisher recovers SP based on the enemy.
+* Fully destroying [[Shield Stack]]s of an enemy restores a small amount of SP.
+* Some Skills, notably those of [[Vanguard]]s, can also recover SP.
+* Many other Skills and effects can also {{G|SP Return|return}} SP.
+Returned SP is treated differently from naturally regenerated or recovered SP: it does '''not''' trigger SP Recovery-triggered effects and spending returned SP does not grant [[Ultimate Energy]].
+[[File:Screenshot Skill Points Recovery.png|thumb|The HUD at the moment SP is recovered by a Final Strike. The recovered SP is shown as a white flash, while the second bar briefly flashes yellow to indicate that it has been completely filled.]]
+
+===Outside of Combat===
+Outside of battle, SP rapidly regenerates to a maximum of 200, taking about 3 seconds from 0 to 200 SP, or drops at a rate of 40 SP per second when above 200.
+When leaving combat, natural SP regenaration or loss is paused for around two seconds.
+
+{{Combat mechanics}}
+[[Category:Combat Mechanics]]

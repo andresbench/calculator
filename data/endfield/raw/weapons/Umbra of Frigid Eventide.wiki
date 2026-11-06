@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Umbra of Frigid Eventide
+|rarity = 6
+|images = 
+Umbra_of_Frigid_Eventide icon.png:Icon;
+Umbra_of_Frigid_Eventide.png:Full;
+Umbra_of_Frigid_Eventide max model.png:Max
+|filename = wpn_funnel_0019
+|cnname = 寒夜幽影
+|tcname = 寒夜幽影
+|jpname = 寒夜の影
+|krname = 추운 밤의 그림자
+|spname = Sombra del gélido crepúsculo
+|runame = Тень закатной стужи
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Umbra of Frigid Eventide''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A weapon forged by Fort Forgefane. Housed in a sleek streamlined chassis with a special coating designed for combat operations in poorly-lit environments.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 148, 250, 352, 454, 505
+|pot = Skill {{Color|Detonate: Hunter Instinct|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Protocolith|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Agility [L]|ATK [L]|Detonate: Hunter Instinct}}
+
+==Basic Info==
+{{Quote|The sun had yet to rise.<br>The warrior of the Coldpine Tribe was already awake. His hand held a short charcoal pen and the paper beneath it was barely larger than his palm.<br>Every space counted, for there was a lot that he wanted to write. He scratched the words carefully and read every word out loud. Though he tried to keep his voice low, the one next to him stirred. The woman opened her remaining eye, gave him a vicious kick and a cold rasp: "Quiet."<br>The warrior gave her a foolish smile, then started reciting his writings silently in his mind: "Dear Mamma, the ice has melted and we could see the green mosses. They feel good. They look lovely. I believe spring has arrived at your place. The river must be flowing beneath your treehouse and giving water to the plants in the garden. The fowls have probably returned to roost beneath the roof, fluttering into the house when you open the window so they can rest in your hand. Perhaps a day will come when I can fly home to you like the fowls, and stay by your side where spring is eternal, and..."<br>It was a word that his mother often spoke of. The warrior remembered it but forgot how it was shaped. Left with no choice, he stopped writing and gave the woman a look of resignation and a sincere need for help.<br>The woman's annoyed words did not hide an undertone of curiosity: "Why stop writing?"<br>"There's a word, but I can't shape it."<br>"And what is that word?"<br>"Sa-Sanctuary."<br>"You never learned it?"<br>"Mamma left me before she taught me the word."<br>"Ooooooh," the woman dragged it out as though frustrated. She then raised her hand and drew it in the air, a criss-crossing pattern of curved arcs and straight lines, like the mid-air trails left by a darting fowl.<br>The woman wrote out the word quickly at first. The warrior's tired eyes could barely keep track of her fingertip. She saw his knotted brows and chuckled, and then wrote the word out again.<br>Together, the warrior's charcoal pen, the woman's finger, the lines on the paper, and the shape in the air formed the word. It came together like a fowl making a slow landing on the ground.<br>The paper was now full of words. He gave a satisfied smile and then chucked it into the campfire. It crackled as it burned, and the firelight danced in the woman's eye before spluttering out at the corner of her gaze.<br>"You believe this would never reach her?"<br>The warrior nodded. The woman let out a sigh. There was a moment of silence before she suddenly spoke again. "What is your name, child?"<br>"Björn, of the Coldpines."<br>The woman reminisced as she voiced out her memories, one fragment at a time: "The Coldpine Tribe... Oh yes, I remember your Chieftain... A brave warrior, and very admirable. She honored the warrior's creed when she fell."<br>"I am fortunate, for I grew up with her," the warrior's face was flushed as he nodded at her with gratitude.<br>"May she return to Sami's side, a place of eternal spring, the..."<br>"The Sanctuary," the warrior said the word together with the woman as she smiled.<br>The sun had yet to rise, but the horns were trumpeting. The Aggeloi appeared at the horizon, marching towards the frontlines as a mighty host.<br>The Coldpine warrior was already on his feet. He took up the spear and carried the woman. Together with the soldiers, he turned to face the Aggeloid tide.<br>Behind them, the fires consumed the paper. Stray embers flew out of flickering tongues and floated to a faraway place.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

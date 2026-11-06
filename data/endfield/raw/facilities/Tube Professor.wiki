@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Tube Professor
+|filename = item_port_air_dancer_1
+|images = Tube Professor icon.png:Icon;
+Tube Professor.png:Full
+|cnname = 充气教授
+|tcname = 充氣教授
+|jpname = バルーン教授
+|krname = 풍선 교수
+|spname = Profesor de tuberías
+|runame = Надувной профессор
+|type = Ornamental
+|rarity = 5
+|power = }}
+'''Tube Professor''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed.|Focus! The professor is going to lay down some serious factory know-how!}}
+==Usage==
+An ornamental that can be placed.
+
+==Acquisition==
+Purchase: Valley IV Stock Redistribution
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Type 50 Yinglung Heavy Armor T2
+|image = Type_50_Yinglung_Heavy_Armor_T2.png
+|filename = item_equip_t4_suit_atk02_body_03
+|cnname = 50式应龙重甲·贰型
+|tcname = 50式應龍重甲·II
+|jpname = 50式応龍重防具Ⅱ
+|krname = 응룡 50식 중갑 · II
+|spname = Armadura pesada Yinglung tipo 50 T2
+|runame = Тяжелая броня «Инлун-50» К2
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Type 50 Yinglung Heavy Armor T2''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A civilian version of Yinglung Special Task Force equipment. The lack of a crucial power component actually improved its compatibility with general users. 
+Very few people know that the armor designer is actually a reservist who almost passed the YSTF screening test. Almost.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +87, +95, +104, +113
+|sstat = Intellect
+|svalue = +58, +63, +69, +75
+|tstat = Combo Skill DMG Bonus
+|tvalue = +20.7%, +22.8%, +24.8%, +26.9%
+|setname = Type 50 Yinglung
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When any operator in the team casts a battle skill, the wearer gains 1 stack of {{Color|Yinglung's Edge|7}} that gives DMG {{Color|+20%|1d}} to the wearer's next combo skill. {{Color|Yinglung's Edge|7}} can stack 3 time(s).
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Type 50 Yinglung}}
+{{Gears|state=collapsed}}

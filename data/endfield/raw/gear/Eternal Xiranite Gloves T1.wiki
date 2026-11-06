@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Gloves T1
+|image = Eternal_Xiranite_Gloves_T1.png
+|filename = item_equip_t4_suit_usp02_hand_02
+|cnname = 长息护手·壹型
+|tcname = 長息護手·I
+|jpname = 流転ガントレットⅠ
+|krname = 식양의 숨결 보호 장갑 · I
+|spname = Guantes de Xiranita eterna T1
+|runame = Перчатки «Вечный ксиранит» К1
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Gloves T1''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+...Days passed and the mad Tianshi began to reject any food that "fail to deliver inspirations". After being reduced to skin and bones, he soon disappeared into the wildlands in pursuit of "palatable Xiranite".}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Intellect
+|pvalue = +65, +71, +78, +84
+|sstat = Will
+|svalue = +43, +47, +51, +55
+|tstat = Ultimate Gain Efficiency
+|tvalue = +20.5%, +22.6%, +24.6%, +26.7%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

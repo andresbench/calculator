@@ -1,0 +1,28 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Hongshan Swordmancers manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Hongshan Swordmancers]]
+|level= 70
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer's Stagger Efficiency Bonus {{Color|+20%|1d}}.
+After the wearer applies a {{G|Physical Status|Physical Status}}, the wearer also performs 1 hit that deals 250% ATK of Physical DMG and [{{Color|10|2}} Stagger]. Effect trigger cooldown: 15s.
+}}
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|One of the products marketed by the Bureau of Swordmancers in its early days.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by [[Hongshan Swordmancers]].
+It is designed with a "gorge-sized capacity" concept by the Tianshi, and achieved "absorption and neutralization" of energy-based attacks<ref>[[Swordmancer Heavy Armor]]: Description</ref> with its Swordmancer armor system, which its energy can be depleted in overclock for life and death situations.<ref>[[Swordmancer Flint]]: Description</ref> It have passed high product validation checks<ref>[[Swordmancer TAC Gauntlets]]: Description</ref> and is designed with [[Wuling]]'s [[Blight]] environments<ref>[[Swordmancer NAV Beacon]]: Description</ref><ref>[[Swordmancer Micro Filter]]:Description</ref> and culture<ref>[[Swordmancer Light Armor]]: Description</ref> in mind.
+{{Quote|Year's end. Brought my blade south. The mountain grew nine heads and roared incessantly. An auspicious day.|[[Swordmancer TAC Gloves]]: Description}}
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

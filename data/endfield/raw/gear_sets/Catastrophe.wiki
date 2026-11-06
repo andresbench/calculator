@@ -1,0 +1,31 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Triglava Armoury manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Triglava Armoury]]
+|level= 50
+|region = [[Valley IV]]
+|effect = 3-piece set effect: Wearer's Ultimate Gain Efficiency {{Color|+20%|1d}}.
+The wearer casts a battle skill, the action {{G|SP Return|returns}} {{Color|50|4}} SP. This effect only triggers 1 time per battle.
+}}
+
+{{Item description|Designed by Triglava Armoury and assembled in the AIC. This equipment improves the wearer's combat abilities |Part of an exoskeleton suit equipped by crystal growers at the Originium Science Park.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Triglava Armoury. Each gear is part of an exoskeleton suit designed to help [[United Workers' Syndicates of Talos-II|UWST]] crystal grower scientists, engineers, and workers at [[Originium Science Park]].
+
+This Exoskeleton suit is furnished with many features to help crystal growing and research, including:
+* a micro-electrical stimulation system that reduces the wearer's fatigue.<ref>[[Catastrophe Heavy Armor]]: Description</ref> 
+* filters for respiratory protection preventing pulmonary diseases and [[Oripathy]],<ref>[[Catastrophe Gauze Cartridge]]: Description</ref> which are designed for Catastrophe Mask's, and can be easily plugged or unplugged.<ref>[[Catastrophe Filter]]: Description</ref>
+* supporting structures at the finger joints and improved gripping strength, which improve work performance when cutting and carrying slabs of crystals.<ref>[[Catastrophe Gloves]]: Description</ref>
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

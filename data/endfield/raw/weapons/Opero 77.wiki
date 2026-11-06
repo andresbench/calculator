@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Opero 77
+|rarity = 3
+|images = 
+Opero_77 icon.png:Icon;
+Opero_77.png:Full;
+Opero_77 max model.png:Max
+|filename = wpn_lance_0009
+|cnname = 奥佩罗77
+|tcname = 奧佩羅77
+|jpname = オッペロ77
+|krname = 오페로 77
+|spname = Opero 77
+|runame = Оперо 77
+|type = Polearm
+|source = First Time Operator Acquisition}}
+'''Opero 77''' is a 3★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the standard-issue operator weapons manufactured by Endfield Industries. This weapon is personally designed by senior Endfield Arsenal Engineer Opero. It can be wielded effectively by even newly minted Endfield operators, thanks to its ergonomic designs.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 29, 83, 140, 197, 254, 283
+|pot = Skill {{Color|Assault: Armament Prep|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Main Attribute [S]|Assault: Armament Prep}}
+
+==Basic Info==
+{{Quote|...therefore, I must re-emphasize the necessity of making field practicality the prime design objective of any weapon — and that means the fuller grooves on 77 are obsolete and redundant features that serve no purpose! You must understand that our enemies neither bleed nor feel pain. Stop adopting design elements from those Rhodes Island engineering drawings.<br>Aesthetics?! I am taking that very personally, sir. The greatest virtue of any weapon lies not in its appearance! If I wanted to make things look nice, I would be working at Mieszko Industries and not at this blasted place!<br>— Meeting minutes of the third design conference for Opero 79}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

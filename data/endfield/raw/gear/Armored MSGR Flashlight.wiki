@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Armored MSGR Flashlight
+|image = Armored_MSGR_Flashlight.png
+|filename = item_equip_t2_suit_str01_edc_02
+|cnname = 重装信使手电
+|tcname = 重裝信使手電筒
+|jpname = 重装トランスポーターライト
+|krname = 중장갑 전달자 손전등
+|spname = Linterna de MSJR blindado
+|runame = Фонарик гонца-воина
+|rarity = 3
+|artifice = no
+|type = Kit
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Armored MSGR Flashlight''' is a {{gear|3|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A sturdy hand-held electric lamp. 
+The sharp spike on the other end can also be used to break the bones of those who refuse to talk.}}
+
+==Stats==
+{{Gear data
+|defense = +10.8
+|pstat = Strength
+|pvalue = +21
+|sstat = HP
+|svalue = +21.0%
+|tstat = 
+|tvalue = 
+|setname = Armored MSGR
+|seteffect = 3-piece set effect: Wearer's Strength {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, the wearer gains {{Color|30%|1d}} DMG Reduction against all types of DMG.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Armored MSGR}}
+{{Gears|state=collapsed}}

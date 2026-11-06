@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Zipline Tower
+|filename = item_port_travel_pole_2
+|images = Zipline Tower icon.png:Icon;
+Zipline Tower.png:Full
+|cnname = 长距滑索架
+|tcname = 長距滑索架
+|jpname = 長距離ジップライン
+|krname = 장거리 집라인 후크
+|spname = Torre de tirolesa
+|runame = Зиплайн-вышка
+|type = Miscellaneous
+|rarity = 4
+|power = 5}}
+'''Zipline Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A large zipline facility that can be connected to another zipline facility within a 110-meter radius to create a zipline.|Recently, ziplines became a growing fad in the tourism sector as well as extreme sports athletes. The Endfield marketing team really demonstrated their skills in this case.}}
+==Usage==
+A large zipline facility that can be connected to another zipline facility within a 110-meter radius to create a zipline.
+*Power Use : 5
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Field Mobility II]]
+{{RecipeTable|product=Zipline Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:miscellaneous Facilities]]

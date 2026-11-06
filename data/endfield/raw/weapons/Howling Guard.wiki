@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Howling Guard
+|rarity = 4
+|images = 
+Howling_Guard icon.png:Icon;
+Howling_Guard.png:Full;
+Howling_Guard max model.png:Max
+|filename = wpn_pistol_0002
+|cnname = 呼啸守卫
+|tcname = 呼嘯守衛
+|jpname = ロアーガード
+|krname = 하울링 가드
+|spname = Guardia aullador
+|runame = Ревущий страж
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''Howling Guard''' is a 4★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A mid-tier product of Mieszko Industries. These pistols are perfect combinations of vintage Lateran designs with modern industrial construction. Blue metallic coating gave the finishing touches for these unique works of art.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Suppression: Emergency Boost|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Intellect [S]|ATK [S]|Suppression: Emergency Boost}}
+
+==Basic Info==
+{{Quote|Regarding the Feasibility of Using Aggeloi as Cost-Effective Tools<br><br>I have fully reflected upon my last letter where I proposed to treat the Aggeloi as "potential clients", to which you correctly criticized as an act of misguided error on my part. However, my core philosophy has remained the same. We should not treat the Aggeloi purely as an enemy, and our studies on their other potential roles and/or uses should continue.<br>Firstly, there is no evidence suggesting that all Aggeloi are under the control of Ankhors or the great nemesis in the north. A significant number of Aggeloi may have exhibited destructive behaviors, but their actions were not governed by any logic and we failed to discern any higher objectives thereof. Thus, the Aggeloid modus operandi can be safely considered as part of their natural instincts. And our own natural instinct is to take inspirations from various creatures (and I know Aggeloi aren't beasts!) and invent things that benefit human civilization.<br>Much has been achieved throughout the last century, the same century during which we strove to build a strong foundation upon Talos-II. However, we hardly made any progress in our understanding of the Aggeloi. The only thing we elicited was displeasure from the Sankta who felt extremely offended by how we decided to name these creatures. Our lack of knowledge about the Aggeloi is a travesty. I beg you to acknowledge the importance of my pursuit and offer a grant large enough to continue my research.<br>That being said, my team (which comprises my son) successfully captured a small Aggelos specimen in the wildlands. It was slightly smaller than an Originium Slug and resembled a clawbeast pup. Perhaps you think I would attempt to domesticate it, but that was not my intent. If that were possible, someone would have done it during the last hundred years. My objective was to identify parts of the creature that could be of use to us.<br>Instead of physical or mechanical connections, the academic consensus believes that there exists some form of an energy or magnetic field between the Aggeloid tagmata and the "joints" of their 4 (and sometimes 8) segmented appendages. Field researchers had already provided witness reports of the Aggeloi "activating" these fields.<br>Perhaps the working principles of this Aggeloid articular spatial field can be used in actual applications. Attaching Aggeloid components to 2 articulating parts of a robotic servo arm may provide the machinery with a ready and endless source of power.<br>With that in mind, I came up with an ingenious invention at my own residence — Aggeloid Auto-Nutcracker! I fashioned this particular device by attaching small, excised parts of an Aggelos onto a makeshift ram and base made from cast metal. Placing a walnut on the base and "contracting" the Aggeloid articular spatial field generated sufficient force to crush the walnut.<br>I believe similar setups can be applied to other applications, so long as we find Aggeloid components of the right size and shape.<br>Attached are detailed blueprints and instructions of the Aggeloid Auto-Nutcracker. I certainly hope to hear from you soon.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

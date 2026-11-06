@@ -1,0 +1,53 @@
+# Alesh. Cryo Vanguard: Solidification from his battle skill, a combo on
+# a consumed reaction or crystals. Rare Fin is a chance, not a state.
+operator: Alesh
+
+talents:
+  - name: Forged
+    stacking: cumulative
+    confidence: confirmed
+    evidence: "attribute talents add up (measurements, #22)"
+    levels:
+      - {condition: Elite 1, seen: "Operator Strength +10.", apply: [{stat: attr, attribute: STR, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Strength +15.", apply: [{stat: attr, attribute: STR, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Strength +15.", apply: [{stat: attr, attribute: STR, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Strength +20.", apply: [{stat: attr, attribute: STR, value: 20}]}
+
+  - name: Flash-frozen for Freshness
+    levels:
+      - condition: Elite 1
+        seen: "After Solidification or Originium Crystals are applied to a nearby enemy, Alesh gains 3 Ultimate Energy. If the said Solidification is applied by Alesh, he gains an additional 6 Ultimate Energy. This effect can only trigger once every 3s."
+        unmodeled: "ultimate energy from effects cannot be expressed in the vocabulary"
+      - condition: Elite 2
+        seen: "After Solidification or Originium Crystals are applied to a nearby enemy, Alesh gains 4 Ultimate Energy. If the said Solidification is applied by Alesh, he gains an additional 8 Ultimate Energy. This effect can only trigger once every 3s."
+        unmodeled: "ultimate energy from effects cannot be expressed in the vocabulary"
+
+  - name: Veteran Angler
+    levels:
+      - condition: Elite 2
+        seen: "Combo skill Auger Angling improved: Every 10 Intellect grants Rare Fin catching chance +0.2% (max: +30%)."
+        unmodeled: "a chance to catch a Rare Fin; the track has no chances"
+      - condition: Elite 3
+        seen: "Combo skill Auger Angling improved: Every 10 Intellect grants Rare Fin catching chance +0.5% (max: +30%)."
+        unmodeled: "a chance to catch a Rare Fin; the track has no chances"
+
+potentials:
+  - rank: 1
+    seen: "Battle skill Unconventional Lure improved: SP Recovery grants an additional 10 SP."
+    unmodeled: "+10 SP on top of the battle skill's SP Recovery — the skill row is not edited by effects yet"
+  - rank: 2
+    confidence: inferred
+    seen: "Strength +15, Intellect +15."
+    apply:
+      - {stat: attr, attribute: STR, value: 15}
+      - {stat: attr, attribute: INT, value: 15}
+  - rank: 3
+    seen: "Combo skill Auger Angling improved: After catching a Rare Fin, the entire team gains ATK +15% for 10s. This effect cannot stack."
+    unmodeled: "team ATK +15 % after a Rare Fin — a chance, see Veteran Angler"
+  - rank: 4
+    confidence: inferred
+    seen: "Ultimate One Monster Catch! improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    seen: "Ultimate One Monster Catch! improved: Hitting a target below 50% HP increases the DMG Multiplier to 1.5 times the original."
+    unmodeled: "«below 50 % HP» — the dummy does not model target HP"

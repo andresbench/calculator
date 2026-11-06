@@ -1,0 +1,21 @@
+local util_cargo = require('Module:CargoUtil')
+local rows = util_cargo.query{
+	tables='Weapons=W, Locales=Uses, Locales=Descriptions',
+	join = 'W.Weapon = Uses.Entity, W.Weapon = Descriptions.Entity',
+	fields = 'W.Weapon=weapon, W.Rarity=rarity, Uses.Value=use, Descriptions.Value=description, W.Source=source',
+	where = 'Uses.Lang = "en" AND Uses.Param = "use" AND Descriptions.Lang = "en" AND Descriptions.Param = "description"'
+}
+local data = {}
+for i, row in ipairs(rows) do
+	data[row.weapon] = {
+		name = row.weapon,
+		tier = row.rarity,
+		use = row.use,
+		desc = row.description,
+		obtain = row.source,
+		link = row.weapon,
+		image = row.weapon..' icon',
+	}
+end
+
+return data

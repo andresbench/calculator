@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork Medic Armor
+|image = AIC_Fieldwork_Medic_Armor.png
+|filename = item_equip_t4_parts_wuling00_body_05
+|cnname = 集成实训医疗护甲
+|tcname = 集成實訓醫療護甲
+|jpname = 集成訓練医療防具
+|krname = 통합 실전 훈련 의료 방어구
+|spname = Armadura médica para Trabajo de campo del CAI
+|runame = Медицинская броня «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork Medic Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+The basic AIC Fieldwork equipment can be furnished with medical module connection ports for better monitoring of the wearer's vitals.}}
+
+==Stats==
+{{Gear data
+|defense = +48
+|pstat = Main Attribute
+|pvalue = +74, +81, +88, +96
+|sstat = Secondary Attribute
+|svalue = +49, +53, +58, +63
+|tstat = Treatment Bonus
+|tvalue = +8.8%, +9.7%, +10.6%, +11.5%
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

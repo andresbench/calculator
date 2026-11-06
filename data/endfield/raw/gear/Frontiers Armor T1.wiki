@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Frontiers Armor T1
+|image = Frontiers_Armor_T1.png
+|filename = item_equip_t4_suit_atb01_body_02
+|cnname = 拓荒护甲·壹型
+|tcname = 拓荒護甲·I
+|jpname = パイオニア防具Ⅰ
+|krname = 개척자 방어구 · I
+|spname = Armadura Fronteras T1
+|runame = Броня «Колонист» К1
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Frontiers Armor T1''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Northmarch Support Hub and assembled by the AIC. This equipment improves the wearer's combat capabilities.|The heavy frame model of the Frontiersmate Armor series. This equipment is also furnished with an artificial exospine to help support shoulder-mounted heavy cannons.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Strength
+|pvalue = +87, +95, +104, +113
+|sstat = Agility
+|svalue = +58, +63, +69, +75
+|tstat = Battle Skill DMG Bonus
+|tvalue = +20.7%, +22.8%, +24.8%, +26.9%
+|setname = Frontiers
+|seteffect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+After the wearer's skill recovers SP, the team gains DMG {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Frontiers}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Opus: The Living
+|rarity = 5
+|images = 
+Opus_The_Living icon.png:Icon;
+Opus_The_Living.png:Full;
+Opus_The_Living max model.png:Max
+|filename = wpn_pistol_0006
+|cnname = 作品：众生
+|tcname = 作品：眾生
+|jpname = 作品：衆生
+|krname = 작품: 중생
+|spname = Opus: El Viviente
+|runame = Опус живого
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''Opus: The Living''' is a 5★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A contracted project developed by Portable Æthertech Labs. Cræft-adepts boldly furnished this weapon lined with relicolith, upon which special patterns have been engraved.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Infliction: Road Home for All Life|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Agility [M]|Arts DMG [M]|Infliction: Road Home for All Life}}
+
+==Basic Info==
+{{Quote|The Sankta navigated through the battlefield and stopped by a severely injured UWST crew mate. She stooped over and made a cursory check of the wounds. The crew mate was unlikely to survive until the arrival of a qualified medic.<br><br>"May you finally find eternal rest. Aeternam habeas requiem."<br><br>The Sankta held his hands and prayed that the poor soul may find peace.<br>How many like him had she found? Thirty? Or three hundred? The Sankta tried to remember as she held the hands that were already growing cold. She felt the rocks and dirt move behind her and drew her handcannon at once — An Aggelos, with a flickering halo above its head.<br>The Sankta slowly approached the paralyzed Aggelos. It was no longer a threat. Half of its body was already pulverized by the artillery of the Worker's Guard.<br><br>She had a question that she knew could not be explained by the things she saw in this place. Ever since the Cabal of Tranquility activated its Nomadic Monastery upon Talos-II, and ever since the Sankta witnessed the first Aggelos, they — we were destined to seek the answers on our own, for none could ever respond to that question.<br><br>"By the graces of the Law, lead me to the journey home..."<br><br>Every Sankta of the Cabal knew how to sing this anthem. They sang the song as they bathed in the gazes of the saints and crossed the Cosmic Gate. They sang the same song when they traversed the ruins scattered across the world of Talos-II.<br>She still remembered the story that Abbess Vronta said during morning prayer: During ancient times that predate the oldest annals, the Teekaz who sought the Lord's protection became the Sankta. And during the time when the Lord left the Temple, the First Saint revealed her Teekaz form to the Sankta. But this story only filled her with confusion.<br>If the halo was the Lord's exclusive gift to the Sankta and only the Sankta, then what about the hosts of lifeless yet animate constructs called the Aggeloi of Talos-II? Where did their halos come from?<br><br>Or rather, who was the one that made you?<br><br>Sankta gripped her gun tightly. No one could answer her question. The only thing that felt real was the weapon in her hand.<br>Soon, the final Ankhor disappeared from the horizon. The steam whistle of victory echoed throughout the battle lines. Once again the UWST pioneers pushed deeper into the frontier. This was the moment when the Civilization Band finds another secure footing in the desolate lands.<br>While those around her cheered, the Sankta placed both her hands on the head of the "dying" Aggelos. She thought she had felt something pulse within the supposedly unfeeling abomination ... but the feeling quickly gave way to empty silence.<br>The Lord may have blessed the Sankta with their halos, but this blessing may have been granted to others. She kept thinking about what this might mean until faith once again filled her heart. It was at this moment, and at this very place, that the Sankta from the Cabal must perform another mass for the departed.<br><br>"No matter where you are from, may you finally find eternal rest. Aeternam habeas requiem."<br><br>The rocks cracked and disintegrated as dust leaked out through the gaps between the Sankta's fingers. The flickering halo finally dissipated into the air.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

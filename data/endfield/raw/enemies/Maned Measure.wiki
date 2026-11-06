@@ -1,0 +1,56 @@
+{{Enemy infobox
+|name = Maned Measure
+|image = Maned_Measure_sprite.png
+|filename = eny_0133_inklion
+|cnname = 行度
+|tcname = 行度
+|jpname = 行度
+|krname = 행도
+|spname = Medida de la crin
+|runame = Мерило с гривой
+|type = Apparition
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 4
+}}
+'''Maned Measure''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An apparition enlightened by Si. Curves and lines, measured and fine. An enlightened pursuit, as decreed up high.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *A Maned Measure has jade orb hemispheres by its sides that can greatly reduce the DMG of hits that strike them. Try to attack the ink spirit's head and tail instead.
+|location = *[[Si's Painting]]
+*[[Energy Alluvium: Si's Painting]]
+|drops = {{I|Edified Jade Orb}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

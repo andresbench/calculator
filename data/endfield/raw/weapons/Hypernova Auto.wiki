@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Hypernova Auto
+|rarity = 4
+|images = 
+Hypernova_Auto icon.png:Icon;
+Hypernova_Auto.png:Full;
+Hypernova_Auto max model.png:Max
+|filename = wpn_funnel_0001
+|cnname = 全自动骇新星
+|tcname = 全自動駭新星
+|jpname = オート・ハイパーノヴァ
+|krname = 오토 하이퍼노바
+|spname = Auto hipernova
+|runame = Гиперновая
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Hypernova Auto''' is a 4★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the advanced weaponry manufactured by Endfield for their operators. The Endfield arsenal adopted Andre's blueprints to create a drone capable of storing Arts so that they can be quickly cast in emergencies.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Inspiring: Start of a Saga|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [S]|Arts DMG [S]|Inspiring: Start of a Saga}}
+
+==Basic Info==
+{{Quote|"Talos will become an incredible city," pa and ma said, "Andre Zlotareed, be a good apprentice, learn the chores, and attend a proper trades school. Once you're a big owl, you gotta leave this tiny village, find a good job at the largest Band city of Talos-II, start a family, and enjoy your happy, cozy life."<br>"Talos," Andre read his textbook, "is the gas giant that Talos-II orbits around. During the few years when the Cosmic Gate was still open, the famous scientist Ferdinand Clooney calculated the mass of the planet as well as the orbital radius of Talos-II. The Starpod is seemingly absent on Talos-II, allowing astronomers to create star maps far more extensive than those they made by studying the skies of Terra."<br>"The stars are pretty close, but the Cosmic Gate has already closed," Andre's mentor told him. "If you want to learn something more besides applied Originium sciences, you can attend the astrologer's salon in the Academy. Divination is not the salon's only focus. They're also interested in astronomy. Scientific astronomy, that is. But I think your interest in the stars goes beyond observations and records, Andre. You want to build a star, right?"<br>"The stars are beyond your reach," the dealers and proxies of violence were always an arrogant lot.<br>"No. The stars are in my hand," Andre answered, "Gentlemen, allow me to introduce ... the very first Arts Unit prototype that I've designed for Endfield Industries." The Arts Unit perched on his shoulder leaped into the air and gave off a burst of light so bright that it resembled a hypernova in the deepest recesses of space.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

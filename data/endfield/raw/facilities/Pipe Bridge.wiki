@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Pipe Bridge
+|filename = item_log_pipe_connector
+|images = Pipe Bridge icon.png:Icon;
+Pipe Bridge.png:Full
+|cnname = 管道桥
+|tcname = 管道橋
+|jpname = パイプブリッジ
+|krname = 파이프 물류 브리지
+|spname = Puente de tuberías
+|runame = Мостик для трубы
+|type = Logistics Units
+|rarity = 2}}
+'''Pipe Bridge''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A logistics unit that lets 2 pipelines intersect without obstructing each other.|This logistics unit is furnished with special fluid control valves developed by Endfield Industries. However, its unique industrial designs have greatly limited its success in the market.}}
+==Usage==
+A logistics unit that lets 2 pipelines intersect without obstructing each other.
+
+The Pipe Bridge allows a pipeline to go over another without disrupting the flow of fluids in both pipelines.
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Pipe Fittings]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Logistics Facilities]]

@@ -1,0 +1,38 @@
+{{Facility infobox
+|name = Separating Unit
+|filename = item_port_dismantler_1
+|images = Separating Unit icon.png:Icon;
+Separating Unit.png:Full
+|cnname = 拆解机
+|tcname = 拆解機
+|jpname = 解体機
+|krname = 분해기
+|spname = Unidad de separación
+|runame = Модуль разделения
+|type = Production II
+|rarity = 3
+|power = 20}}
+'''Separating Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that physically disassembles various items.|Eighty percent of those who first heard the story of the separating unit simply refused to believe this fact: The design of this facility was inspired by large UWST disassembling stations for sawing and cutting apart Aggeloi carcasses.}}
+==Usage==
+A facility that physically disassembles various items.
+*Power Use : 20
+{{RecipeTable|facility=Separating Unit|showFacility=false|mode=Fluid}}
+=== Gas & Fluid Mode ===
+In addition to the fluid recipes listed above: 
+{{RecipeTable|facility=Separating Unit|showFacility=false|mode=Gas & Fluid}}
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Separation Technique]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Separating Unit}}
+
+==Changelog==
+{{Changelog|
+*'''[[At the Wake of Spring]]''' 
+**Facility was degraded from 4 to 3 rarity.}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

@@ -1,0 +1,47 @@
+local p = {}
+
+local OTHER_LANGUAGES = {
+	{ prefix = 'cn', code = "zh-Hans", label = 'Simplified Chinese'},
+	{ prefix = 'tc', code = "zh-Hant", label = 'Traditional Chinese'},
+	{ prefix = 'jp', code = "ja", label = 'Japanese'},
+	{ prefix = 'kr', code = "ko", label = 'Korean'},
+	{ prefix = 'sp', code = "es", label = 'Spanish'},
+	{ prefix = 'ru', code = "ru", label = 'Russian'},
+	{ prefix = 'de', code = "de", label = 'German'},
+	{ prefix = 'fr', code = "fr", label = 'French'},
+	{ prefix = 'id', code = "id", label = 'Indonesian'},
+	{ prefix = 'it', code = "it", label = 'Italian'},
+	{ prefix = 'pt', code = "pt", label = 'Portuguese'},
+	{ prefix = 'th', code = "th", label = 'Thai'},
+	{ prefix = 'vi', code = "vi", label = 'Vietnamese'},
+}
+
+function p.onCastArgsStart(args, sep, kind)
+end
+
+function p.onCastArgsEnd(args, sep, kind)
+	for i, section in ipairs(args.sections) do
+		if section == 'OtherLanguagesSection' or section == 'In Other Languages' then
+			args[section] = {}
+			args[section..'_collapsed'] = true
+			args[section..'_label'] = 'In Other Languages'
+			for i, lang in ipairs(OTHER_LANGUAGES) do
+				local prefix = lang.prefix
+				local label = lang.label
+				local code = lang.code
+				if prefix == 'cn' and not args['tcname'] then
+					label = 'Chinese'
+					code = 'zh'
+				end
+				local key = prefix .. 'name'
+				if args[key] then
+					args[key..'_label'] = label
+					args[key] = string.format('<span lang="%s">%s</span>', code, args[key])
+				end
+				args[section][i] = key
+			end
+		end
+	end
+end
+
+return p

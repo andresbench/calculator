@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Bonekrusha Figurine
+|image = Bonekrusha_Figurine.png
+|filename = item_equip_t4_suit_attri01_edc_03
+|cnname = 碾骨小雕像
+|tcname = 碾骨小雕像
+|jpname = 骨砕の小像
+|krname = 본 크러셔 조각상
+|spname = Figurilla Rompehuesos
+|runame = Костоломская фигурка
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Bonekrusha Figurine''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A trinket with hardly any practical purpose. The designer, however, claims that it can induce excitement and euphoria.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +32, +35, +38, +41
+|sstat = Agility
+|svalue = +21, +23, +25, +27
+|tstat = Battle Skill DMG Bonus
+|tvalue = +41.4%, +45.5%, +49.7%, +53.8%
+|setname = Bonekrusha
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When the wearer casts a combo skill, the wearer gains 1 stack of {{Color|Bonekrushing Smash|7}} that grants the wearer's next battle skill DMG Dealt {{Color|+30%|1d}}. {{Color|Bonekrushing Smash|7}} can stack 2 time(s).
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Bonekrusha}}
+{{Gears|state=collapsed}}

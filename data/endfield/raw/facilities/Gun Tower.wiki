@@ -1,0 +1,38 @@
+{{Facility infobox
+|name = Gun Tower
+|filename = item_port_battle_turret_1
+|images = Gun Tower icon.png:Icon;
+Gun Tower.png:Full
+|cnname = 铳械塔
+|tcname = 銃械塔
+|jpname = 銃器塔
+|krname = 총기 타워
+|spname = Torre de cañón
+|runame = Орудийная вышка
+|type = Combat & Support
+|rarity = 1
+|power = 5}}
+'''Gun Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|609|7}}
+<b>Attack Interval</b>: {{Color|2|7}}s
+
+<b>Attack Range</b>: {{Color|15|7}} meters
+
+<b>Mode of Attack</b>: Continuously fires energy bolts that deal {{Color|Physical DMG|1}}.
+
+Once the complex firing mechanism was simplified, it was combined with the logic of automation designs to create this integrated weapon platform. Many frontier outposts and villages used prototypes of this system to defend themselves against dangerous wildlife.}}
+==Usage==
+*<b>ATK</b>: {{Color|609|7}}
+*<b>Attack Interval</b>: {{Color|2|7}}s
+*<b>Attack Range</b>: {{Color|15|7}} meters
+*<b>Mode of Attack</b>: Continuously fires energy bolts that deal {{Color|Physical DMG|1}}.
+*Power Use : 5
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Defense I]]
+{{RecipeTable|product=Gun Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

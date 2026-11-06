@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Swordmancer NAV Beacon
+|image = Swordmancer_NAV_Beacon.png
+|filename = item_equip_t4_suit_phy01_edc_01
+|cnname = 点剑定位信标
+|tcname = 點劍定位信標
+|jpname = 宏山点剣定位ビーコン
+|krname = 검술사 위치 신호기
+|spname = Baliza NAV de espadachín
+|runame = Маячок «Мастер меча»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Swordmancer NAV Beacon''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|One of the products marketed by the Bureau of Swordmancers in its early days. 
+Most Blighted environments are extremely dangerous. A single misstep might lead to an erroneous path with no return — just like what happened to Wuling all those years ago.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +41, +45, +49, +53
+|sstat = Arts Intensity
+|svalue = +41.4, +45.5, +49.7, +53.8
+|tstat = 
+|tvalue = 
+|setname = Swordmancer
+|seteffect = 3-piece set effect: Wearer's Stagger Efficiency Bonus {{Color|+20%|1d}}.
+After the wearer applies a {{G|Physical Status|Physical Status}}, the wearer also performs 1 hit that deals 250% ATK of Physical DMG and [{{Color|10|2}} Stagger]. Effect trigger cooldown: 15s.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Swordmancer}}
+{{Gears|state=collapsed}}

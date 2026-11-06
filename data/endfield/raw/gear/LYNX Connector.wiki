@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = LYNX Connector
+|image = LYNX_Connector.png
+|filename = item_equip_t4_suit_heal01_edc_01
+|cnname = 生物辅助接驳器
+|tcname = 生物輔助接駁器
+|jpname = 生物補助コンタクタ
+|krname = 생체 보조 접속기
+|spname = Conector LYNX
+|runame = Коннектор «Рысь»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''LYNX Connector''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Rhodes Island and assembled by the AIC. This equipment improves the wearer's combat capabilities.|The medics' preferred equipment. 
+A connector component developed by Rhodes Island for data calibration. It can be connected to different health support systems to complete various forms of emergency medical care.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +32, +35, +38, +41
+|sstat = Will
+|svalue = +21, +23, +25, +27
+|tstat = Final DMG Reduction
+|tvalue = +17.1%, +18.5%, +19.9%, +21.2%
+|setname = LYNX
+|seteffect = 3-piece set effect: Wearer's HP Treatment Efficiency {{Color|+20%|1d}}. 
+After the wearer gives HP treatment to an allied target, that target also gains {{Color|15%|1d}} DMG Reduction against all types of DMG for 10s. If the said treatment exceeds the target's Max HP, the target gains {{Color|30%|1d}} DMG Reduction against all types of DMG. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|LYNX}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Memo Beacon
+|filename = item_port_marker_1
+|images = Memo Beacon icon.png:Icon;
+Memo Beacon.png:Full
+|cnname = 留言信标
+|tcname = 留言信標
+|jpname = 伝言ビーコン
+|krname = 전언 신호기
+|spname = Baliza de mensajes
+|runame = Маячок с запиской
+|type = Miscellaneous
+|rarity = 2}}
+'''Memo Beacon''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that can be used to post and leave beacon memos.|Assist or deceive. Observe with your eyes. Validate with your actions... This is the proof of our "links" as we face the challenges of Talos-II together.}}
+==Usage==
+A facility that can be used to post and leave beacon memos.
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Memo Beacon Technology]]
+{{RecipeTable|product=Memo Beacon}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:miscellaneous Facilities]]

@@ -1,0 +1,30 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Triglava Armoury manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Triglava Armoury]]
+|level= 50
+|region = [[Valley IV]]
+|effect = 3-piece set effect: Wearer's Skill DMG {{Color|+24%|1d}}. 
+When the wearer casts a battle skill, combo skill, or ultimate, the wearer gains ATK {{Color|+5%|1d}} for 15s. The buff from each of the three skill types is unique and does not stack with itself.
+}}
+
+{{Item description|Designed by Triglava Armoury and assembled in the AIC. This equipment improves the wearer's combat abilities |Novel protective equipment modified to suit the work environment of the Aburrey Quarry.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Triglava Armoury with the purpose of protecting [[United Workers' Syndicates of Talos-II|UWST]] workers in the [[Aburrey Quarry]].
+
+This gear is modified by the engineers for the work environment of the Aburrey Quarry, and includes safety and emergency measures<ref>[[Aburrey UV Lamp]]: Description</ref>. Some gear even include features that will help the workers through emergencies even during loss of hearing<ref>[[Aburrey Auditory Chip]]: Description</ref> and sight,<ref>[[Aburrey Gauntlets]]: Description</ref> with future iterations aim is to evacuate the wearer, even after incapacitation.<ref>[[Aburrey Sensor Chip]]: Description</ref>
+
+This gear is also equipped with defensive and offensive capabilities<ref>[[Aburrey Heavy Armor]]: Description</ref>, some features eyesight and hearing protection after modifications<ref>[[Aburrey UV Lamp]]: Description</ref>, and some features additional weapon connection ports for further offensive capabilities.<ref>[[Aburrey Heavy Armor T1]]: Description</ref>
+
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+{{Gears|state=collapsed}}

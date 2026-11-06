@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = JET
+|rarity = 6
+|images = 
+JET icon.png:Icon;
+JET.png:Full;
+JET max model.png:Max
+|filename = wpn_lance_0011
+|cnname = J.E.T.
+|tcname = J.E.T.
+|jpname = J.E.T.
+|krname = J.E.T.
+|spname = JET
+|runame = Реактивная пика
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''JET''' is a 6★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An experimental weapon manufactured to the highest standards of Northmarch Support Hub. The prototype was designed by the now-disbanded Aerospace Research Center. An array of Originium compression jet engines gives this lance its turbo performance.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Suppression: Astrophysics|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Main Attribute [L]|ATK [L]|Suppression: Astrophysics}}
+
+==Basic Info==
+{{Quote|"Our home, Terra, lies somewhere faraway in the vast voidness of the endless space."<br>Shayen did not feel sadness when he heard that the entirety of the Aerospace Research Center was to be disbanded. Trained as a scientist, Shayen successfully steered his rationality to govern his mind and actions for the past few months. He understood the challenges faced by humanity on Talos-II. Northmarch Support Hub had taken on an immense mission. Space exploration must make way for more pressing matters and important projects.<br>But as Shayen packed and moved his personal belongings from the lab he worked at, he could not help but look at the two volumes of Ferdinandian Physics on the bookshelf. An indescribable sense of emptiness and defeat washed over him. He reviewed his life. Everything he worked for and loved became mere exhibits covered by canvas.<br>Shayen remembered the childhood fairytale about Dusk Beauty Flying to the Moon, the teenage science fiction novels of high adventure in outer space he read as a school kid, and the empirical laws laid down by the legendary physicist Ferdinand Clooney. He had always felt that his soul was never trapped to a single world.<br>For the past 40 years, Shayen spent most of his time working on Originium propulsors, heat and Blight resistant materials, processed and compressed Originium fuel, and other technological instruments and products too esoteric for the laypeople. He worked with teams who shared his vision of reaching out into space itself. Though he never saw Terra, he had faith that she existed somewhere in the infinite cosmos. To reach out for the stars was to start a journey of endless questions, results, and answers.<br>Shayen made an important decision that night. He ignored the regulation that required him to archive years of his research notes and results. Instead, he secreted a copy into a data disk along with the blueprints. He then contacted the director of innovations and science at Northmarch Support Hub. Many of the world's brightest minds toiled for years on these next-gen technologies. Even if the descendants of Terra no longer yearned for the stars, these discoveries and knowledge will help them explore the new world of Talos-II.<br>He must give meaning to everything they had done.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

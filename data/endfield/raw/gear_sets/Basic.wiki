@@ -1,0 +1,24 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Endfield Industries manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 10
+|region = [[Valley IV]]
+|effect = No Set Effects
+}}
+
+{{Item description|Provisionally made and failed the final product verification and validation (V&V) process of Endfield Industries. This equipment offers only limited defense.|Basic armor with simple structures.<br>Gives people a peace of mind that far exceeds its actual defense capabilities.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries.
+
+
+==Set Items==
+{{Gear Set|Basic}}
+==References==
+{{Reflist}}
+{{Gears|state=collapsed}}

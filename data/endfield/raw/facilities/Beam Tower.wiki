@@ -1,0 +1,37 @@
+{{Facility infobox
+|name = Beam Tower
+|filename = item_port_battle_laser_1
+|images = Beam Tower icon.png:Icon;
+Beam Tower.png:Full
+|cnname = 射线塔
+|tcname = 射線塔
+|jpname = 光線塔
+|krname = 빔 타워
+|spname = Torre de rayos
+|runame = Лучевая вышка
+|type = Combat & Support
+|rarity = 4
+|power = 10}}
+'''Beam Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|22338|7}}
+<b>Attack Interval</b>: {{Color|8|7}}s
+
+<b>Attack Range</b>: {{Color|12.5|7}} meters
+
+<b>Mode of Attack</b>: Consumes vast amounts of energy to emit a beam that deals massive {{Color|Electric DMG|6}} to enemies.
+|An experimental weapon armed with an energy converter. Treat this as a miniaturized version of a city-defense giga-cannon. The system is unpopular in the arms market due to its steep energy demands and the fact that it is an unstable and risky weapon platform.}}
+==Usage==
+*<b>ATK</b>: {{Color|22338|7}}
+*<b>Attack Interval</b>: {{Color|8|7}}s
+*<b>Attack Range</b>: {{Color|12.5|7}} meters
+*<b>Mode of Attack</b>: Consumes vast amounts of energy to emit a beam that deals massive {{Color|Electric DMG|6}} to enemies.
+*Power Use : 10
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Point Defense I]]
+{{RecipeTable|product=Beam Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

@@ -1,0 +1,56 @@
+# Perlica. The only parsed source of a permanent DMG Bonus against Staggered enemies.
+operator: Perlica
+
+talents:
+  - name: Keen Mind
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Intellect +10.", apply: [{stat: attr, attribute: INT, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Intellect +20.", apply: [{stat: attr, attribute: INT, value: 20}]}
+
+  - name: Obliteration Protocol
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      The game adds "DMG Dealt" and "DMG Bonus" into one group and shows them
+      as one number (measured 2026-09-06). The sheet already has a "vs
+      Staggered" bucket — gear fills it.
+    levels:
+      - condition: Elite 1
+        seen: "DMG Dealt +20% to Staggered enemies."
+        apply: [{stat: dmg_bonus, staggered: true, value: 20}]
+      - condition: Elite 2
+        seen: "DMG Dealt +30% to Staggered enemies."
+        apply: [{stat: dmg_bonus, staggered: true, value: 30}]
+
+  - name: Cycle Protocol
+    levels:
+      - condition: Elite 3
+        unmodeled: "an extra chain jump over Vulnerable; there is one dummy"
+
+potentials:
+  - rank: 1
+    unmodeled: "Electrification duration +75 %: the engine does not type reactions"
+  - rank: 2
+    confidence: confirmed
+    seen: "Ultimate Protocol ε: 70.41K improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 3
+    confidence: inferred
+    seen: "After Perlica applies Electrification to the enemy, she gains ATK +20% for 5s. This effect can reach 2 stacks."
+    apply:
+      - {stat: atk_pct, value: 20, stacks: {max: 2}, duration: 5, trigger: "applies:Electrification", target: self}
+  - rank: 4
+    unmodeled: "Arts DMG Taken from Electrification ×1.33 — an edit to the reaction's effect"
+  - rank: 5
+    confidence: inferred
+    seen: "Ultimate Protocol ε: 70.41K improved: Critical Rate +30%."
+    unmodeled: "+30 % crit rate: apparently only for the ultimate, but crit rate on the sheet has no per-skill filter"

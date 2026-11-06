@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Twelve Questions
+|rarity = 5
+|images = 
+Twelve_Questions icon.png:Icon;
+Twelve_Questions.png:Full;
+Twelve_Questions max model.png:Max
+|filename = wpn_sword_0018
+|cnname = 十二问
+|tcname = 十二問
+|jpname = 十二問
+|krname = 십이문
+|spname = Doce Preguntas
+|runame = Двенадцать вопросов
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Twelve Questions''' is a 5★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A razor sharp sword born of the wildlands. Different weaponsmiths would apply decorative wrappings on the weapon in very different ways.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Infliction: Sincere Interrogation|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [M]|ATK [M]|Infliction: Sincere Interrogation}}
+
+==Basic Info==
+{{Quote|...And next to the twelve corpses, Orisha the Aldertone candidate questioned the Sandreaver.<br>"Why murder the Hannabit Circuitwalkers?"<br>"Hate," the Sandreaver replied.<br>"Why hate?"<br>"Because black is the reflection of white," the Sandreaver replied.<br>The path of the Hannabit Circuit went against the one taken by the Landbreakers. The Circuit taught people to avoid disasters so no one had to fight for survival. The Circuit taught people to farm and grow so no one had to kill each other for food... But for the killers, these only strengthen their refusal to take the Circuit's path.<br>...And next to the twelve corpses, the Sandreaver questioned Orisha.<br>"Why do you choose to be cowards?"<br>"Because that is the greatest form of courage." Orisha replied.<br>"Why do you refuse to kill?"<br>"Because we are not enemies of each other." Orisha replied once more.<br>The Hannabit Circuit chose nature, a path beyond a greater distance. Coexistence with Talos-II was not cowardice, and one did not dispense with vigor and braveness when helping the needy. The melodies of the hanna began with the most primal and intense of sufferings. When the entire world choruses with the hanna, no one would be left behind.<br>...And thus Orisha pulled out a knife from one of the twelve bodies and asks the Sandreaver her final questions.<br>"From whence did they come, marks made ten thousand years ago?<br>"And where will they go, stars that shimmer in the heavens above?<br>"Why do they stop, bedazzling colors that soak the lands and the soil?<br>"How can they claim wisdom, when they stare blankly at nature's trove?<br>"Did they truly choose to fight never-ending battles and wars?<br>"Are they courageous by raising weapons against those who held naught?<br>"How can a clan unite if they only raid but never protect nor grow?<br>"How can a people survive if they ignore change and pursue the feuds of old?"<br><br>The Sandreaver, drunk on violence, had no answer. But the fledgling Aldertone was not there to guide.<br>The twelve questions weave together to form a weapon.<br>The end point of vengeance is but a shattered soul.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

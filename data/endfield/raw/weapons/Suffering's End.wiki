@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Suffering's End
+|rarity = 6
+|images = 
+Suffering's_End icon.png:Icon;
+Suffering's_End.png:Full;
+Suffering's_End max model.png:Max
+|filename = wpn_funnel_0020
+|cnname = 苦难的尽头
+|tcname = 苦難的盡頭
+|jpname = 苦難の果
+|krname = 고난의 끝
+|spname = Fin del sufrimiento
+|runame = Конец страданий
+|type = Arts Unit
+|source = Reward: Protocol Pass}}
+'''Suffering's End''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the strange Arts Units from Witching Hour. It seems to be imbued with a rather odd form of Originium Arts that gives the wielder an unfathomable sense of safety.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Detonate: Dawn of the Long Night|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Agility [L]|Nature DMG [L]|Detonate: Dawn of the Long Night}}
+
+==Basic Info==
+{{Quote|"Suffering will end. There shall be peace ... for all Sarkaz..."<br>The ancient Sarkaz mulled over these words as he cleaned the Arts Unit in his hand. Surrounding him was an endless stream of tourists who came with loved ones and friends. Liches created spectacular displays of fireworks with their Arts while children clambered on the Gargoyle warriors. People of every creed and tribe and race cheered, just as they did on the day when Seš'qa took to the skies, and on every Open Day that celebrated the end of the war.<br>"Is this ... our 'Suffering's End'...?"<br>The ancient Sarkaz packed his belongings quickly. He had already saved enough T-Creds to travel to various Band cities. For years he had planned to leave Seš'qa and visit the Civilization Band.<br><br>The journey was smooth and without event till that very day. He was lying on a giant boulder to gaze at the stars when the Originium coffee kettle suddenly switched itself off with a resounding snap. He was initially confused until he heard explosions, shouting, and screaming.<br>With alert eyes he gazed at the spreading hazefyre. A family of three was fleeing across the wilderness on foot while a mob of thirty mottled figures bearing arms chased after them. Landbreakers. The ancient Sarkaz witnessed the pursuit ... and did nothing. He laid himself back to rest again.<br><br>He was simply too old, and too ordinary. He was neither a Gargoyle blessed with a constitution as sturdy as a bastion, nor a Lich wielding esoteric and deadly Arts, nor a Nachzehrer with their terrifying and impossible strengths. He was simply a mixed Sarkaz lucky enough to outlive the Aggeloi War, the Humiliation War, and the Jakubine War that crushed the Warlord of the Wilds. The odd tricks of survival were the only thing he knew.<br>But barely a dozen seconds passed when the Sarkaz took out his Arts Unit and leaped down from the great boulder. He remembered the mad Speaker who gave a speech and promise to the Sarkaz, a piece of oratorical text that was obviously not written by herself. Nevertheless, there is something that never changes. If suffering were to end, someone has to do something about it.<br>He gently cleaned his Arts Unit. The chassis reflected the face of a Sarkaz who had aged far, far beyond yesteryear.<br><br>An arrow buried itself in the fleeing father who carried his child. Both collapsed to the ground. The woman threw away her comm device and tried to drag her man to safety. It was in vain. The breakers were upon them. The night in the wilderness instantly grew silent.<br>The breakers howled and laughed as they approached the stricken family from all sides. Mercilessly they raised their weapons. The man and woman tried, in vain, to shield their child. Torchlight glinted off the sabers, crossbow bolts, as well as the tears of the poor kid.<br>A great shadow wearing two horns suddenly appeared behind the breakers. With neither sound nor warning, a blackness darker than the night spread across the scene. One by one it seized the breakers who howled with despair as life was snuffed out of them. The rest of them were terrified. Desperately they searched to find where the unannounced attack came from. Words echoing in the night breeze found them first, words spoken in old, raspy Sarkazian —<br>"My suffering has ended. But yours ... has just begun."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

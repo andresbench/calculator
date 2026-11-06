@@ -1,0 +1,79 @@
+{{Hatnote|Not to be confused with [[Protection]] which grants temporary damage reduction or [[Shield Stack]] which grants temporary immunity to damage and certain statuses.}}
+{{Status infobox
+|Shield
+|The Shield can absorb damage while it is active. Some Shields may only absorb certain type(s) of DMG.
+|type = Buff
+|source = Operator
+}}
+
+[[Shield]] is a type of buff applied to operators in ''[[Arknights: Endfield]]''.
+
+When an operator in the team casts a Combat Skill that grants Shield, any incoming damage that would otherwise reduce the operator's health reduces the operator's Shield instead for a set duration. If the Shield is reduced to zero, any effects that are granted while the Shield is active such as {{Icon|Ember icon|[[Ember]]'s}} {{Icon|Potential 5|{{Color|The Steel Oath|7}}}} is removed.
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Catcher
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Catcher
+| name = Timely Suppression
+| type = Skill
+| content = 
+'''COMBO TRIGGER:''' When an enemy starts charging up a skill, or when the controlled operator is attacked and falls below 40% HP. <br />'''SKILL DESCRIPTION:''' A powerful downward punch that deals {{Color|Physical DMG|1}} to the enemy, while granting {{G|Shield|shields}} to self and another teammate (controlled operator prioritized).<br />DEF can further increase Shield points.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Unwavering Post
+| content = 
+Combo skill {{Color|Timely Suppression|7}} improved: {{G|Shield|Shield}} duration {{Color|+5|1d}}s.
+}}
+}}
+{{Operator table row
+| name = Ember
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Ember
+| name = Re-Ignited Oath
+| type = Ultimate
+| content = 
+'''SKILL DESCRIPTION:''' Slams the ground to deal {{Color|Heat DMG|3}} to nearby enemies, while granting every teammate a {{G|Shield|Shield}} based on Ember's Max HP.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = The Steel Oath
+| content = 
+Ultimate {{Color|Re-Ignited Oath|7}} improved: {{G|Shield|Shield}} effect is multiplied by {{Color|1.2|1d}}; while this {{G|Shield|shield}} is active, the wielder gains ATK +{{Color|10%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Mi Fu
+| content = 
+{{Operator table row/Combat skill
+| icon = Mi Fu Talent 2 icon
+| name = Vigilant Fury
+| type = Talent
+| content = 
+{{Icon|Elite 2|text=false}}: Combo skill improved: Casting the combo creates a {{G|Shield|shield}} with {{Color|15%|1d}} Max HP and a duration of 10s. While the shield is active, Mi Fu becomes harder to interrupt.
+This effect can only trigger once every 60s.<hr>
+{{Icon|Elite 3|text=false}}: Combo skill improved: Casting the combo creates a {{G|Shield|shield}} with {{Color|30%|1d}} Max HP and a duration of 10s. While the shield is active, Mi Fu becomes harder to interrupt.
+This effect can only trigger once every 60s.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Complete Warmup
+| content = 
+Talent {{Color|Vigilant Fury|7}} improved: {{G|Shield|Shield}} duration {{Color|+5|1d}}s. {{G|Shield|Shield}} trigger cooldown {{Color|-15|1d}}s. Each time the shield is triggered, Mi Fu gains ATK {{Color|+6%|1d}} for 20s.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Shield|Shield}} keyword added with [[Catcher]] and [[Ember]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

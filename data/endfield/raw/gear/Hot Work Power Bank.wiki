@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Hot Work Power Bank
+|image = Hot_Work_Power_Bank.png
+|filename = item_equip_t4_suit_fire_natr01_edc_01
+|cnname = 动火用储能匣
+|tcname = 動火用儲能匣
+|jpname = 火山用パワーバッテリー
+|krname = 열 작업용 에너지 저장함
+|spname = Banco de energía resistente al calor
+|runame = Аккумулятор «Термоудар»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Hot Work Power Bank''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment that features excellent fire resistance rating. 
+The Hot Work Power Bank can be treated as miniature generators. It effectively converts ambient heat of high temperature environments into usable power for the user.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +32, +35, +38, +41
+|sstat = Agility
+|svalue = +21, +23, +25, +27
+|tstat = Arts Intensity
+|tvalue = +41.4, +45.5, +49.7, +53.8
+|setname = Hot Work
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Combustion|Combustion}}, the wearer gains {{Color|Heat DMG|3}} +{{Color|50%|1d}} for 10s. After the wearer applies {{G|Corrosion|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} +{{Color|50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Hot Work}}
+{{Gears|state=collapsed}}

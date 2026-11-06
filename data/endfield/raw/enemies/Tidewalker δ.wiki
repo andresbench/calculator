@@ -1,0 +1,70 @@
+{{Enemy infobox
+|name = Tidewalker δ
+|image = Tidewalker_δ_sprite.png
+|filename = eny_0107_wgshoal2
+|cnname = 潮行天使δ
+|tcname = 潮行天使δ
+|jpname = 潮進アンゲロスδ
+|krname = 조류아겔로스 · δ
+|spname = Caminante de mareas δ
+|runame = Волноход δ
+|type = Aggeloi
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 21
+}}
+'''Tidewalker δ''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Genesklydan Dinedon" (archive ID: AGM321δ) is an energized variant of AGM321. Its constituent matter is in a constant, turbulent flow. This also explains its particularly terrifying form when it appears at night.}}
+
+==Stats==
+{{Enemy data
+|HP = 1869, 13413, 84872, 334130, 803731, 1238171
+|ATK = 72, 341, 1061, 2635, 3965, 4543
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.2
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *Attacks with abilities that apply Cryo Infliction, and applies Solidification to operators it hits.
+|location = *[[Jingyu Valley]]
+*[[Wuling City]]
+*[[Marker Stone]]
+*[[Yinglung Pass]]
+*[[Energy Alluvium: Marker Stone]]
+|drops = {{I|Black Treacle}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Tidewalker]], the Tidewalker δ has similar appearance with its counterpart, but it doesn't make them less of the threat with most abilities remained:
+
+*Swings with one of its tentacles, followed by a thrust into the ground and lastly a swing, dealing Physical damage.
+*Swings with both of its tentacles, dealing Physical damage and knock Operators back.
+*Thrusts both of its tentacles into the ground, dealing Physical damage. This is followed by pulling them up, dealing Physical damage to a short distance at front.
+*Swings both of its tentacles three times, with each swing creates grounded shockwaves, dealing Cryo damage and {{G|Cryo Infliction}}.
+*Fires lasers three times, each dealing Cryo damage, {{G|Cryo Infliction}}, knock Operators back, and leaving marks on the ground. The marks detonate after a short period, dealing Cryo damage and {{G|Cryo Infliction}}.
+*Thrusts both of its tentacles into the ground, dealing Physical damage, then extends them into nine areas, dealing Cryo damage and {{G|Cryo Infliction}}. This ability can be interrupted by skills.
+
+==See Also==
+*[[Tidewalker]] - a basic variant of Tidewalker δ.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1869, 13413, 84872, 334130, 803731, 1238171 from 1869, 15780, 99850, 334130, 803731, 1238171
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Tartpepper Plot
+|filename = item_port_soil_sp_2
+|cnname = 苦叶椒田块
+|tcname = 苦葉椒田塊
+|jpname = 苦葉椒畑
+|krname = 쓴맛 나는 고추 논배미
+|spname = Terreno de pimienta ácida
+|runame = Участок терпкого перца
+|type = Planting
+|rarity = 3
+|power = }}
+'''Tartpepper Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Tartpeppers.|A cultivation plot with various parameters adjusted for growing Tartpeppers. Overall soil quality of the plot is far better than that of the average arable land in Valley IV.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Tartpepper Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

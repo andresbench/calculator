@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Junction Point
+|rarity = 6
+|images = 
+Junction_Point icon.png:Icon;
+Junction_Point.png:Full;
+Junction_Point max model.png:Max
+|filename = wpn_funnel_0018
+|cnname = 联结点
+|tcname = 聯結點
+|jpname = 連結点
+|krname = 공명점
+|spname = Punto de unión
+|runame = Узловая точка
+|type = Arts Unit
+|source = Reward: Protocol Pass}}
+'''Junction Point''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|Based on a winning entry of a concept design competition organized by Mieszko Industries. Projectile acceleration with microsecond-scale precision and outstanding hovering performance are features made possible by incorporating the designer's unique understanding of zero gravity environments.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Efficacy: Feedback Loop|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [L]|ULT Efficiency [L]|Efficacy: Feedback Loop}}
+
+==Basic Info==
+{{Quote|Can you believe it, Lonna? I'm not on Talos-II when delivering this letter. <br>You probably guessed it too. That's right! I was part of the special delegation from the Talos-II General Chamber of Commerce, and we were attending a closed-door meeting with Endfield aboard their ship, Dijiang. <br>It was my first time boarding a vessel capable of traversing the sea of stars. And what a sea it is! It's far deeper and quieter than the oceans we have, with faint stars glittering in the distance. From space, Talos-II looks just like baby Baily fast asleep in his crib. <br>Oh, my cute little Baily. Give our sweet baby a kiss on the head for me. <br>I thought all my curiosities could be satisfied by the stars and the view of Talos-II from space, but on day four, Endfield arranged something special for us as part of the reception. We visited their zero gravity experience chamber. It looked like a simple, empty room. When we were ready, the lights grew dim and the sky window slowly opened, allowing the light from Talos the gas giant to pour in. The huge planet seized all of our attention. <br>And then, gravity itself disappeared. <br>Even for our negotiators and corporate officers. All of them lost their solemn gravity and instincts took over. My ears were filled with gasps of astonishment and wonder. I even heard a soft chuckle, and I swear it came from the Endfield operator who served as our guide. Looking at big-timer suits acting like playful or scared children must have offered a pure sense of joy. If this wasn't a closed-door and confidential meeting, the walls of this zero-g chamber would be plastered with photos of its "victims". <br>As for me... I don't know how to say this to you, Lonna. When I floated in the sky, abandoned by every ounce of my weight and by the land itself, a refreshing sense of freedom coursed through my body as I faced the celestial object before me. I... <br>I felt a sense of duty. <br>A sense of the most impossible duty. <br>I suddenly felt compelled to bring this experience to every resident of the Civilization Band. <br>We are the children born into the cradle of Talosian gravity. But the birth of Dijiang would be the first time in our history when we finally have the chance to live differently. <br>I remember father telling me that the most priceless thing is not a luxurious mansion or merchandise. That honor goes to the way of life. <br>Can anything be more special than transcending the grips of gravity and living amongst the stars? <br>We'll get an artificial geostationary orbit experience cabins in the future. We start from the basics, then work our way towards commercial complexes and space arenas. Every sport will get new rules, new tournaments, and new superstars competing in the zero-g environment. When knights wearing jet packs rocket through arenas, when race cars make perfect turns across toroid tracks, when the football flies into the goal under the influence of mechanics and gravity... When all these happen, our achievements will far outstrip any sum of money we imagined, Lonna. <br>Of course, none of this would be possible without your support, dear. Do remember to take a look at the attached design drawings. Even if we didn't get the chance to pull it off, at least we can leave our ideas for posterity. If I secured your approval with proposal, then let us try to build this together and submit this to the concept design event. The company and the TGCC will remember it for us. <br>I'll be back soon, but I really hope to hear back from you when I reach home, Lonna. <br>Love you. <br><br>NOTE: A design draft is attached to this letter. A table listing the manufacturing specifications is provided at the lower right corner of the draft. A temporary name has also been proposed: <br>"Junction Point"}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

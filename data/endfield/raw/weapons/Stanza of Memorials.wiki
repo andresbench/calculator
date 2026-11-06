@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Stanza of Memorials
+|rarity = 5
+|images = 
+Stanza_of_Memorials icon.png:Icon;
+Stanza_of_Memorials.png:Full;
+Stanza_of_Memorials max model.png:Max
+|filename = wpn_funnel_0005
+|cnname = 悼亡诗
+|tcname = 悼亡詩
+|jpname = 弔いの詩
+|krname = 망자의 노래
+|spname = Estrofa de memoriales
+|runame = Станс памяти
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Stanza of Memorials''' is a 5★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the strange-looking Arts units released by Witching Hour. Its counter-intuitive designs include a deliberately reduced Originium Arts compatibility just to highlight the dark logic of Ancient Teekaz witchcraft.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Twilight: Lustrous Pyre|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [M]|ATK [M]|Twilight: Lustrous Pyre}}
+
+==Basic Info==
+{{Quote|She would arrive at the cemetery to pray in the morning and leave at noon. Then she would do some community work in the afternoon, return to the cemetery during the evening, and leave the place only in the deep of night. I followed her before. Her home was no more than a klick southeast of the cemetery. Like most Songseekers of the Hannabit Circuit, she could survive the wildlands on her own.<br>She did not avoid external contact. Some of the UWST crew mates talked to her before to barter a thing or two.<br>She appeared young, gentle, and even a little shy. There was nothing dangerous about her.<br>But you must know the closest Circuit settlement was over a hundred klicks away. We have but only 1 cemetery at this place and only one undertaker!<br>I did my own investigations. The people we buried here had nothing to do with her. Most were travelers killed by the Aggeloi or Blight accidents. With the exception of the unmarked headstones, I checked all the names and every one of them went missing in recent years.<br>It got me spooked. In fact, even the truckers and crew mates driving past this place were getting spooked.<br>I'm quitting. I'll do this just for another week and I'll give you all the photos and video recordings I've made. I don't care about the money. I'm getting my sorry arse out of this blighted place.<br>She's definitely an eater of the dead! A Nachzehrer!}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

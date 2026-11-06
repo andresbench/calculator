@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Armored MSGR Jacket T1
+|image = Armored_MSGR_Jacket_T1.png
+|filename = item_equip_t3_suit_str01_body_01
+|cnname = 重装信使夹克·壹型
+|tcname = 重裝信使夾克·I
+|jpname = 重装トランスポータージャケットⅠ
+|krname = 중장갑 전달자 재킷 · I
+|spname = Chaqueta de MSJR blindada T1
+|runame = Куртка гонца-воина К1
+|rarity = 4
+|artifice = no
+|type = Armor
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Armored MSGR Jacket T1''' is a {{gear|4|Armor}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A jacket that any messenger would love to wear. 
+Scramblers are cheap and effective modes of transport on Talos-II. Messengers would often outfit these bikes with different mods and modules.}}
+
+==Stats==
+{{Gear data
+|defense = +40
+|pstat = Strength
+|pvalue = +61
+|sstat = Will
+|svalue = +41
+|tstat = HP
+|tvalue = +14.7%
+|setname = Armored MSGR
+|seteffect = 3-piece set effect: Wearer's Strength {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, the wearer gains {{Color|30%|1d}} DMG Reduction against all types of DMG.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Armored MSGR}}
+{{Gears|state=collapsed}}

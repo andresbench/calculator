@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Prominent Edge
+|rarity = 4
+|images = 
+Prominent_Edge icon.png:Icon;
+Prominent_Edge.png:Full;
+Prominent_Edge max model.png:Max
+|filename = wpn_sword_0008
+|cnname = 显锋
+|tcname = 顯鋒
+|jpname = 顕鋒
+|krname = 드러난 칼날
+|spname = Filo prominente
+|runame = Выдающийся клинок
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Prominent Edge''' is a 4★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the advanced weaponry manufactured by Endfield for their operators. Minimalist modular architecture resulted in a lightweight weapon with excellent balance and handling. The blade itself is extremely durable.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Suppression: Emergency Boost|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [S]|Physical DMG [S]|Suppression: Emergency Boost}}
+
+==Basic Info==
+{{Quote|Don't worry. What you see is what you get.<br>Twin edges, a rather thick ridge, and center of gravity near the holding end towards the grip.<br>The crossguard is slightly curved, but it might be too small for a novice.<br>Go on. Hold it.<br>This is a single-handed weapon. Tighten your grip, but keep your wrist supple enough for movement.<br>Now, stand before the dummy. Swing and strike with your entire body.<br>Make a descending hew from above the shoulder to the other side of the chest. Repeat the motion.<br>So you want to fight like the Endmin? And you're afraid you'll never succeed?<br>Don't let that idea get in your head. What you see is what you get.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

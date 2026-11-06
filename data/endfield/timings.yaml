@@ -1,0 +1,83 @@
+# Action durations — a hand-written layer (WEBAPP_PLAN.md, E3).
+#
+# They are given neither on the wiki nor in the game in readable form: cast
+# time is measured only by counting frames of a fight recording. Until
+# measured, the values here are nominal, and each is marked `measured: false`.
+#
+# WHY A NOMINAL SECOND IS NOT "ALMOST TRUE"
+#
+# One second per action is wrong in both directions at once:
+#
+#   Chen's combo cooldown 15 s  → needs 15 actions, while in reality a cycle
+#                                 of eight most likely already covers it
+#   Breach debuff 30 s          → covers 30 actions instead of ~12–15
+#
+# So cooldowns look stricter than they are, and debuff windows more generous.
+# One coefficient does not fix it: the errors point in opposite directions.
+#
+# So the engine does not pretend to know time. It runs the track three times —
+# with the multipliers from `sensitivity` — and marks a step fragile if a
+# verdict ("combo open", "debuff still up") changes between runs. A verdict
+# that does not change holds whatever the timings.
+
+meta:
+  measured: partial
+  updated: 2026-10-28
+  note: >-
+    Basic attacks ARE measured: the full chain cycle per operator comes from
+    the client's frame data (data/endfield/basic_attacks.json, written by
+    tools/ef/frames.py --export and checked against a community-measured
+    table) and overrides these values. Battle skills, combos and ultimates
+    still use a nominal second.
+
+# Seconds per action. The keys are the same as in the .rot notation.
+defaults:
+  # BA and FS come from the basic attack data, per operator: the cycle
+  # PERIOD in seconds — from the start of the first hit to the moment the
+  # first hit can start again. The Final Strike hit itself lands before the
+  # end of the cycle (for Endministrator, frame 18 of the last link's 26).
+  # The reading is checked against the datamine frames:
+  # tools/ef/frames.py --verify, measurements #35. `BA > FS` is one cycle
+  # split at the last hit (`finalStrikeSeconds`): BA the hits before it, FS
+  # the last hit. An FS with no BA before it is the whole cycle. The values
+  # below are only a fallback for an operator missing from the data.
+  BA: 1.0     # one basic attack sequence
+  FS: 1.0     # Final Strike
+  FIN: 1.0    # finisher on a Staggered enemy
+  DIVE: 1.0
+  BS: 1.0     # battle skill — nominal: no video yet (checklist AH)
+  # CS and ULT come from the client per operator (basic_attacks.json,
+  # `skillWindows`): the combo's first AllowNextSkillAction + 1 frame, the
+  # ultimate's cutscene end + 1 — measured on the Endministrator (#35).
+  # These are only the fallback for an operator missing from the data.
+  CS: 1.0     # combo skill
+  ULT: 1.0    # ultimate
+  # A perfect dodge, estimated from the client (measurements, #40): a plain
+  # dodge is 6–16 frames before it can be cancelled (0.2–0.53 s, 12 for
+  # most), but a perfect one then casts a 15-frame recovery under its own
+  # slow-mo: time to the hit (≤ 0.33 s) + 0.35 s + ≈ 0.47 s ≈ 1 s from press
+  # to attack. An estimate, not a measurement.
+  DODGE: 1.0
+  # WAIT has no default: a pause lasts exactly as long as written (`WAIT 2s`).
+
+# Whether buff and debuff timers freeze during the action.
+#
+# ✅ CHECKED 2026-09-12 by observation: they do NOT freeze. Both the fight
+# timer and buff countdowns run during animations, ultimates included
+# (measurements, #16).
+#
+# The hypothesis was the opposite, and it would have required two clocks: one
+# for buff expiry, another for damage per second. With no freezing there is
+# one clock, and the model is simpler. The mechanism is kept in case an action
+# that does freeze turns up.
+freezes_timers: {}
+
+# Duration multipliers for the verdict fragility check.
+sensitivity: [0.5, 1.0, 2.0]
+
+# Durations of specific skills, once measured.
+# Key — "Operator: Skill type", value — seconds.
+#
+#   overrides:
+#     "Chen Qianyu: Ultimate": 4.2   # measured 2026-09-20, 252 frames at 60 fps
+overrides: {}

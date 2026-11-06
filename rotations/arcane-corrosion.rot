@@ -1,0 +1,200 @@
+# The basic rotation around Arcane (Array Arcana: INT).
+#
+# Built for one account: roster/endfield.profile.yaml, snapshot of
+# 2026-09-03. Skill levels, weapons and gear are real, not defaults.
+#
+#   Arcane    sk.12/12/12/12  Junction Point r1       Hot Work ×3 + LYNX Slab
+#   Tangtang  sk.10/11/11/10  Brigand's Calling r1    Bonekrusha ×3 + MI Security
+#   Xaihi     sk.3/10/9/12    Detonation Unit r1      Eternal Xiranite ×3, P5
+#   Perlica   sk.3/11/12/9    Stanza of Memorials r4  Pulser Labs ×3, P5
+#
+# THE MAIN RULE: Arcane comes in LAST.
+#
+# All of the team's damage hangs on Corrosion, and it only happens when Nature
+# Infliction lands ON Cryo stacks already built. The order decides the reaction:
+#
+#   Nature ON Cryo  →  Corrosion       (resistance shred to EVERY element)
+#   Cryo ON Nature  →  Solidification  (freeze, no shred)
+#
+# If Arcane applies Nature too early, Tangtang's next Waterspout produces
+# Solidification, the Cryo stacks burn away, and there is no Corrosion this cycle.
+#
+# THE SECOND RULE: Arcane's combo goes BEFORE her battle skill, not after.
+#
+# The combo trigger of the INT form has two branches:
+#   "When Nature Infliction OR at least 2 stacks of non-Nature Arts Infliction
+#    are applied on an enemy"
+# The second branch means two Cryo stacks from Xaihi and Tangtang are already
+# enough, and there is NO NEED to spend her own Nature Infliction to arm the combo.
+#
+# The combo itself does not use up the Cryo stacks: it deals Nature DMG but
+# applies only Susceptibility, not Infliction. The stacks survive until the
+# battle skill.
+#
+# So the battle skill AFTER the combo does two things in one cast:
+#   - the first Nature Infliction lands on the built Cryo  → Corrosion;
+#   - the hit lands on a target under Imprisonment         → the signature bonus
+#     (30 SP back, a 120% burst, a 500% bonus, a second Susceptibility instance).
+# The order "battle → combo → battle" would waste an extra 100 SP per cycle.
+#
+# The Imprisonment window is 4 s, and that limit decides WHAT to hold back.
+# Hold the COMBO, not the battle skill: the combo is armed at 2 Cryo stacks
+# already, and stays armed as long as the stacks are up (Arts Infliction lasts
+# 20 s). After the combo there are only 4 seconds for everything, no time to
+# build stacks inside that window.
+#
+# Corrosion's Status Level = the number of stacks eaten. With the talent
+# Weapon Honing E3 (×1.1) and Hot Work ×3 (Arts Intensity +30 → ×1.18) the
+# shred tops out at:
+#   2 stacks → −20.8 and 240% ATK on the initial hit
+#   3 stacks → −26.0 and 320%
+#   4 stacks → −31.2 and 400%
+# The ramp to the cap takes 10 s regardless of level.
+#
+# How many stacks to build DEPENDS ON THE ENCOUNTER, and this was checked in a fight:
+#
+#   boss, one big target  →  build to 4 and dump it into a shared window with the ultimates.
+#     The −31.2 shred stays up for 25 s and multiplies the whole burst, not one
+#     cast. The 10 s Corrosion ramp pays off, because the target lives that long.
+#
+#   waves of small enemies →  combo and battle skill right away at 2 stacks.
+#     Corrosion is back-loaded: its value is in the 10-second ramp, and small
+#     enemies die before the shred grows. Tempo and AOE matter more here:
+#     Tangtang's battle skill with 3 pillars and Arcane's AOE grid clear a wave
+#     faster than deep Corrosion on one target.
+#
+# There are only two sources of Cryo, and both give exactly one stack per cast
+# (Tangtang's data says so outright: "once per skill cast"), so the 4th stack
+# costs a separate cast — that pays off on a boss, not on waves.
+
+# Perlica: NEVER press her battle skill. It applies Electric Infliction, which
+# eats the Cryo stacks and produces Electrification instead of Corrosion. Her
+# combo applies Electrification FORCIBLY, and forced reactions do not consume
+# stacks — so the combo is safe, and the battle skill breaks the whole cycle.
+
+title: Arcane corrosion: Arcane / Tangtang / Xaihi / Perlica
+team: Arcane, Tangtang, Xaihi, Perlica
+# ===========================================================================
+variant: waves
+# Many small targets. No waiting for stacks or for the Corrosion ramp — tempo,
+# AOE and frequent battle skills from Tangtang for clearing matter more.
+# ===========================================================================
+
+Tangtang: BS
+# Open the fight with her: at the start there is no Cryo Infliction on the
+# target, and Tangtang's combo needs "applying Cryo Infliction OR dealing Arts
+# Burst DMG" — nothing can arm it until the battle skill has landed. The first
+# Waterspout applies Cryo.
+
+Tangtang: CS
+# Now the trigger is met. Whirlpool + a Bonekrusha stack
+# (set ×3: the next battle skill +30%, up to 2 stacks).
+
+Tangtang: BS
+# Eats the Whirlpool → extra Waterspouts: this is the main AOE clear.
+# Arts Susceptibility, the Brigand's Calling debuff, SP back, and Cryo stacks
+# on everyone within the radius.
+
+Xaihi: BS
+Arcane: BA > FS
+Perlica: CS
+Arcane: BA > FS
+Xaihi: CS
+# A second Cryo stack on the target + Arts Burst. Arcane's combo is armed.
+
+Arcane: CS
+# Hits the target AND nearby enemies — on a wave it lands on several at once.
+
+Arcane: BS
+# Corrosion SL II (−20.8). Small, but nothing more is needed here: the
+# Jadecrushing Grid is AOE, and it finishes off the pack.
+
+Arcane: BA > FS
+
+cycle 2:
+Tangtang: CS > CS
+Tangtang: BS
+Arcane: CS > BS
+Xaihi: ULT~
+# Press Xaihi's ultimate if it is charged: Amp ~31% and Eternal Xiranite +16% to the team.
+
+# ===========================================================================
+variant: boss
+# One big target. Build to 4 stacks and dump everything into one window.
+# ===========================================================================
+
+Xaihi: BS
+Tangtang: BS
+Tangtang: CS
+Arcane: BA > FS
+Perlica: CS
+Arcane: BA > FS
+Xaihi: CS
+# Cryo stack #2 + Arts Burst.
+
+Tangtang: CS
+Tangtang: BS
+# Stack #3, three pillars, Arts Susceptibility 9%, 40 SP back.
+
+Tangtang: ULT
+Arcane: DIVE
+# The cheap way to the 4th stack. Talent Riot Bringer E3: a dive attack during
+# OLDEN STARE ends the spin early and creates a Waterspout, and every Whirlpool
+# nearby turns into extra ones. These pillars have the same effects as those
+# from the battle skill (so they apply Cryo Infliction) and get DMG Dealt +60%.
+# Plus an early Rogue Wave at 599% instead of 342% and Stagger 20 instead of
+# 15 — that is the contribution to the stagger window.
+
+Arcane: ULT
+# IMPORTANT: put the array down IN ADVANCE, before the stagger window. It lasts
+# 20 s and is not going anywhere. Casting it inside the window loses seconds
+# on the wind-up. On creation: 180% damage, Stagger 10, forced Corrosion and
+# Arts Amp 24% on Arcane from talent E2.
+
+Perlica: ULT
+# 800% and Stagger 20 — fills the stagger bar. Plus Stanza of Memorials r4:
+# casting the ultimate gives operators of OTHER elements ATK +12.8% for 20 s.
+# Arcane, Tangtang and Xaihi are all non-Electric, so the buff lands on all three.
+# Perlica's P5 adds Crit Rate +30% to her ultimate.
+
+Xaihi: ULT
+# The last of the buffers, right before the burst: the Amp window is only 12 s.
+# Cryo and Nature Amp ~31% + Eternal Xiranite ×3 → the team gets +16% damage for 15 s.
+
+Arcane: CS
+# The combo at 4 Cryo stacks. Imprisonment for 4 s, Nature and Cryo Susceptibility.
+
+Arcane: BS
+# Corrosion STATUS LEVEL IV: an initial hit of 400% ATK and a shred cap of
+# −31.2 on every element for 25 s. At the same time — the signature bonus on
+# the target under Imprisonment (30 SP, a 120% burst, a 500% bonus) and the
+# Hot Work window, +50% Nature.
+
+Arcane: FIN
+Arcane: FIN
+# THIS SOLVES CHARGING THE ULTIMATE'S SECOND HIT.
+# The Cluster Strike trigger: "hitting an enemy within the Gloompurger Array
+# with a Finisher OR a Final Strike". A finisher is a basic attack on a
+# STAGGERED enemy, which is exactly what the stagger window offers.
+# Two finishers charge both stages of Cluster Strike many times faster than
+# two full five-hit chains up to a Final Strike. And the finisher itself hits
+# for 900% ATK and returns SP.
+
+Arcane: ULT
+# Gloompurge Arcana — 1440%, in a window of Corrosion IV, Xaihi's Amp, ATK
+# from Perlica's ultimate, Hot Work +50% and both Susceptibilities.
+
+
+# ---------------------------------------------------------------------------
+# WHAT THIS FILE DOES NOT CHECK
+#
+# Written before the simulation counted resources. On SP: cycle 1 spends 400 SP
+# (Xaihi 100, Tangtang 200, Arcane 100) and gets 70 back → 330 net. Natural
+# regeneration is ~8 SP/s, so ~41 s of pure regen. Final Strikes cover the
+# difference, and that is why the BA > FS steps here are not decoration but
+# part of the economy.
+# The order "combo → battle" saves exactly 100 SP per cycle against
+# "battle → combo → battle": a whole extra cast somewhere else.
+#
+# There are no "this gives +N% damage" figures here on purpose: they come
+# from the damage track now, not from a hand count.

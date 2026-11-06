@@ -1,0 +1,26 @@
+local p = {}
+
+local getArgs = require('Module:Arguments').getArgs
+local util_vars = require('Module:VarsUtil')
+local lang = mw.getContentLanguage()
+local OFFSETS = {asia = ' +08:00', ameu = ' -05:00'}
+local PHASES = {'start', 'end'}
+
+function p.main(frame)
+	local args = getArgs(frame)
+	for server, default_offset in pairs(OFFSETS) do
+		for i, phase in ipairs(PHASES) do
+			local key = server .. ' ' .. phase
+			local timestamp = args[key] or args[phase]
+
+			if timestamp then
+				local synced = args[phase .. ' synced'] and not args[key]
+				local offset = synced and OFFSETS.asia or default_offset
+				timestamp = lang:formatDate('c', timestamp .. offset)
+			end
+			util_vars.setVar(key, timestamp)
+		end
+	end
+end
+
+return p

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Turbid Cutting Torch
+|image = Turbid_Cutting_Torch.png
+|filename = item_equip_t4_suit_burst01_edc_02
+|cnname = 浊流切割炬
+|tcname = 濁流切割炬
+|jpname = 濁流ホットカッター
+|krname = 탁류 화염 절단기
+|spname = Antorcha de corte turbia
+|runame = Антиморовый газовый резак
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Turbid Cutting Torch''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Equipment designed by the Bureau of Swordmancers for those working near the Blight Tide. 
+This is a touch of fear regarding the Blight Tide: When will the overhanging calamity make itself seen?}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Intellect
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Basic Attack DMG Bonus
+|tvalue = +27.6%, +30.4%, +33.1%, +35.9%
+|setname = Tide Surge
+|seteffect = 3-piece set effect: Wearer's Skill DMG Dealt {{Color|+20%|1d}}.
+After the wearer applies {{Color|2|7}} or more stacks of {{G|Arts Infliction|Arts Infliction}} on the enemy, the wearer gains {{Color|Arts DMG Dealt|7}} {{Color|+35%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Tide Surge}}
+{{Gears|state=collapsed}}

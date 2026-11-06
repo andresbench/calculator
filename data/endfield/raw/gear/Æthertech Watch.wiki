@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Æthertech Watch
+|image = Æthertech_Watch.png
+|filename = item_equip_t4_suit_poise01_edc_04
+|cnname = 轻超域腕表
+|tcname = 輕超域腕錶
+|jpname = 軽量超域腕時計
+|krname = 경량 초자연 손목시계
+|spname = Reloj de etertecnología
+|runame = Часы «Эфиртех»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Æthertech Watch''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Portable Æthertech Labs and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Lightweight experimental protective equipment. 
+"Some users suspect our products to exert hemo-mutagenic effects. These claims are nothing but baseless accusations."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +32, +35, +38, +41
+|sstat = Agility
+|svalue = +21, +23, +25, +27
+|tstat = Battle Skill DMG Bonus
+|tvalue = +41.4%, +45.5%, +49.7%, +53.8%
+|setname = Æthertech
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+After the wearer applies {{G|Vulnerable|Vulnerability}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+8%|1d}} for 15s. This effect can reach 4 stacks. If the target has 4 stacks of {{G|Vulnerable|Vulnerability}}, the wearer gains an additional {{Color|Physical DMG Dealt|1}} {{Color|+16%|1d}} for 10s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Æthertech}}
+{{Gears|state=collapsed}}

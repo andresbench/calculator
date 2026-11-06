@@ -1,0 +1,77 @@
+# Camille. Applies Link with the combo skill — that is why he is in the rotations with Chen.
+operator: Camille
+
+talents:
+  - name: Skirmisher
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Agility +10.", apply: [{stat: attr, attribute: AGL, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Agility +20.", apply: [{stat: attr, attribute: AGL, value: 20}]}
+
+  - name: Hunter of Transgression
+    levels:
+      - condition: Elite 1
+        unmodeled: "self-healing and granting Link; the engine tracks Link through synergies, not the effects layer"
+      - condition: Elite 2
+        unmodeled: "twice the self-healing and granting Link; the engine tracks Link through synergies, not the effects layer"
+
+  - name: Bloodfount Revival
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      Elemental DMG Dealt is the same additive group as DMG Bonus (measured
+      2026-09-06). The share for other operators is recorded as teamShare;
+      the engine does not spread it over the team yet.
+    levels:
+      - condition: Elite 2
+        seen: |-
+          Whenever Camille restores HP via a skill, he gains Heat DMG Dealt +2% (max stacks: 5) for 40s while other operators in the team gain 25% of this effect. This effect can reach 5 stacks.
+          If Camille is already at Max HP, each trigger gives 2 stacks of the effect.
+        apply:
+          - {stat: dmg_bonus, element: Heat, value: 2, stacks: {max: 5}, duration: 40, trigger: hp_restored, target: self, teamShare: 0.25}
+      - condition: Elite 3
+        seen: |-
+          Whenever Camille restores HP via a skill, he gains Heat DMG Dealt +4% (max stacks: 5) for 40s while other operators in the team gain 25% of this effect. This effect can reach 5 stacks.
+          If Camille is already at Max HP, each trigger gives 2 stacks of the effect.
+        apply:
+          - {stat: dmg_bonus, element: Heat, value: 4, stacks: {max: 5}, duration: 40, trigger: hp_restored, target: self, teamShare: 0.25}
+
+potentials:
+  - rank: 1
+    confidence: inferred
+    seen: "Battle skill Blazing Exorcism improved: The skill applies Weakness +5% and Heat Susceptibility +5%. Firefang Vesperwings hover duration +15s."
+    apply:
+      - {stat: weaken, value: 5, trigger: "cast:Battle Skill", target: enemy}
+    grants:
+      # Heat Susceptibility lasts as long as the Vesperwings hover.
+      - {term: Heat Susceptibility, skillType: Battle Skill, add: 5, durationDelta: 15}
+  - rank: 2
+    confidence: confirmed
+    seen: "Agility +20, Intellect +20."
+    apply:
+      - {stat: attr, attribute: AGL, value: 20}
+      - {stat: attr, attribute: INT, value: 20}
+  - rank: 3
+    confidence: confirmed
+    seen: "Combo skill Heartstake Thorn improved: Length of cooldown -2s. Heartstake Thorn and Hunter Pursuit improved: DMG Multipliers are increased to 1.3 times the original; SP Recoveries are increased to 1.15 times the original."
+    apply:
+      - {stat: cooldown_flat, skillType: Combo Skill, value: -2}
+      - {stat: skill_multiplier, skill: Heartstake Thorn, value: 1.3}
+      - {stat: skill_multiplier, skill: Hunter Pursuit, value: 1.3}
+      - {stat: sp_return_mult, skillType: Combo Skill, value: 1.15}
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Sanguine Downpour improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    confidence: inferred
+    seen: "Talent Bloodfount Revival improved: Heat DMG boost per stack +6%."
+    modifies: {effect: Bloodfount Revival, valueDelta: 6}

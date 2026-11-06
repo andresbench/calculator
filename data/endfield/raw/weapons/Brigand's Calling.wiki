@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Brigand's Calling
+|rarity = 6
+|images = 
+Brigand's_Calling icon.png:Icon;
+Brigand's_Calling.png:Full;
+Brigand's_Calling max model.png:Max
+|filename = wpn_pistol_0011
+|cnname = 落草
+|tcname = 落草
+|jpname = 落草
+|krname = 반항
+|spname = Llamado del bandido
+|runame = Призвание разбойника
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''Brigand's Calling''' is a 6★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|Guns developed by Hongshan Swordmancers. Constructed using durable and reliable materials with simple designs, they are also light and easy to carry around. Very useful in all sorts of complex environments and situations.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 148, 250, 352, 454, 505
+|pot = Skill {{Color|Detonate: Brigand's Bane|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Agility [L]|ATK [L]|Detonate: Brigand's Bane}}
+
+==Basic Info==
+{{Quote|I remember our last encounter with the "Angel". It was one hundred days ago. It was February. It was our last sweep for potential cave-ins caused by Ankhorfalls. The Aggelos appeared without warning at the back of the team just as we approached the edge of a sinkhole. Old Liu was the first to get hit. His alarm failed to alert him and only started shrieking when the enemy disabled his Tianshi apparatus. That was how we learned of the threat. Tobin reacted quickly. He immediately fired at the Aggelos's abdomen. It howled and then swung its razor-sharp tail. Tobin and Kachinsky could not evade but took the hit for me. They bought me an opportunity to unload my last bullet. The Aggelos collapsed in pain. Maybe. People say the Aggeloi do not feel anything. Not even pain — This blightery is unfair. <br>I never saw the Aggelos again after that. <br>The war finally ended. <br><br>The investiture was held at our base near the North. They organized it to praise and award the soldiers who performed admirably. As the only survival of Outpost 158, I walked in the middle of the column of awardees, flanked front, back, left, and right by veterans like me. We're all war heroes now, dressed in brand new uniforms fitting for the investiture. Speaking of uniforms, the last time I got a new outfit was during my first arrival at Talos-II. The local committee of the frontiers organized a mass marriage to uphold the spirit of the Black Hole Protocol. Fifty-two pairs of newlyweds from Yan, Ursus, Victoria ... settling down and starting families in this foreign world. I was one of them. I was young but crossing that Gate drained every ounce of courage out of me. Old Liu was young too. Just passed the Tianshi admission exams and so proud of himself. He took my hand and told me to have no fear. Liu promised that we would, together, overcome every obstacle of this world and build our new home upon this planet. <br>And so I marched alone down the lengthy path towards the investiture platform. The cheering of the crowd was passionate, but distant. I counted the awardees and could not even finish. <br>The war finally ended. <br><br>The aftermath of the war was worse than we thought. Refugees from the north kept coming in. They brought news that "everything we built was gone". Every receiving area was packed of them. Sprawling industrial parks and factory plants from more than ten years ago are now replaced by drab, ashen temporary shelters. Riots quickly followed. Workers fought corporate soldiers in Development Zone 2. They were one step away from full out war. News of such unrest also fanned the unrest within the Tianshi Bureau. Some Tianshi started labeling factions as "Protocolites" and "Anti-Protocolites" and seemed eager to introduce hostilities amidst our ranks. Tianshi Ruan, one of Old Liu's classmate, petitioned the Bureau multiple times, hoping that they would issue an official statement to quell the increasingly antagonistic atmosphere. All he received was the same rebuke: "True strength lies in maintaining our unwavering neutrality." Some even tried to contact Dijiang that continued to cruise in orbit, but even Endfield Industries stayed silent. Only the attack on Hongshan-1 Mass Driver made them realize that the facade of neutrality can no longer disguise the long festering rifts amongst ourselves. <br>It just another day, but a group of farmers barged into the Hongshan-1 power supply facilities. Though quickly apprehended and confined by the Tianshi, the farmers barked loudly at us: "Why won't you fix that Cosmic Gate! Why won't you send us home with this mass driver?" The Tianshi paid them no heed and kept them behind bars. One of the arrested farmers was a Feline girl less than ten years of age. She asked her father: "Papa, why are we going home? I thought we have a home at this place." Her father could not give her an answer. <br>Then again, how are we supposed to tell her that this massive "refugee camp" was her home? How are we supposed to explain why we left Terra and stepped onto this planet in the first place? Many of us could hardly remember the reasons. <br>We found ourselves trapped behind a prison of our own making. <br>The war finally ended. <br><br>There was a minor disturbance during noon. It was deliberately started it to distract the patrolling Tianshi. We came out of hiding from the vehicles and crossed the boundary line. A young security Tianshi guarded the final pass out of Hongshan. Our gazes crossed as I loaded a round into the firing chamber. The Tianshi did not activate his alarm or raise his Arts Unit. <br>"I'm a humble disciple of Tianshi Ruan, and I've been waiting for a while," his words brought me out of my startled stupor. <br>"What of Tianshi Ruan himself?" <br>"My mentor instructed that the departure is best done in groups. He left before any of you. If finding a new home is your wish, he will do his best to see it fulfilled." <br>He pushed a pass of emerald bamboo into my hand as he spoke. "Qingbo" was the word inscribed upon it. <br>"Exit the city, then make for the mountains. He shall meet you there." <br>The war finally ended.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

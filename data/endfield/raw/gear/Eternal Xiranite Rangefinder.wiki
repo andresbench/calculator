@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Rangefinder
+|image = Eternal_Xiranite_Rangefinder.png
+|filename = item_equip_t4_suit_usp02_edc_07
+|cnname = 长息测距仪
+|tcname = 長息測距儀
+|jpname = 流転レンジファインダー
+|krname = 식양의 숨결 거리 측정기
+|spname = Telémetro de Xiranita eterna
+|runame = Дальномер «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Rangefinder''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+"The precision-fitted structure is excellent, but ... Okay, fine. I can't find anything wrong with it this time."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Intellect
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Combo Skill DMG Bonus
+|tvalue = +41.4%, +45.5%, +49.7%, +53.8%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

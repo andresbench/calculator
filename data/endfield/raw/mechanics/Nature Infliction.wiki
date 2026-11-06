@@ -1,0 +1,230 @@
+[[File:Nature Infliction icon.png|right]]
+[[Nature Infliction]] is an [[Arts Infliction]] in [[Arknights: Endfield]].
+
+== Overview ==
+[[Nature Infliction]] is a debuff applied by Operators lasting for {{Color|20|1d}} seconds. If Nature Infliction is applied to a unit who already has Nature Infliction, then the debuff's duration is reset and the Nature Infliction gains a stack (up to a maximum of 4 stacks).
+
+=== Friendly ===
+
+Some [[Operators]] are capable of applying [[Nature Infliction]].
+* If an Operator applies Nature Infliction to an enemy with Nature Infliction, then an [[Arts Burst|Nature Burst]] is triggered dealing {{Color|160% ATK|1d}} as {{Color|Nature DMG|5}}.
+* If an Operator applies Nature Infliction to an enemy with a [[Arts Infliction|Non-Nature Arts Infliction]], then [[Corrosion]] is triggered.
+
+=== Enemies ===
+
+There are no [[Enemies]] currently capable of applying [[Nature Infliction]].
+
+== Sources ==
+Some Operators are capable of applying [[Nature Infliction]] through Combat Skills, as follows:
+{{Operator table
+|header = Interaction
+|content =
+
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+When an operator applies a {{G|Physical Status}} or {{G|Arts Infliction}} to a target with {{Color|Focus|7}}, applies another stack of the same {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Fluorite
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Fluorite
+|name = Tiny Surprise
+|type = Skill
+|content = 
+Attaches an {{Color|Improvised Explosive|7}} at the target. When the target is defeated, detonated early using Fluorite's Ultimate {{Color|Apex Prankster|7}}, or at the end of the {{Color|Improvised Explosive|7}}'s duration, the explosion applies {{G|Nature Infliction}} to the attached target and nearby enemies.
+}}
+
+{{Operator table row/Combat skill
+|icon = Combo-Fluorite
+|name = Free Giveaway
+|type = Combo
+|content = 
+When against a target with two or more stacks of {{G|Cryo Infliction}} or {{G|Nature Infliction}}, applies an additional stack of {{G|Cryo Infliction}} or {{G|Nature Infliction}} again.
+}}
+
+{{Operator table row/Combat skill
+|icon = Ult-Fluorite
+|name = Apex Prankster
+|type = Ultimate
+|content = 
+This ultimate is divided into multiple parts. When against a target with two or more stacks of {{G|Cryo Infliction}} or {{G|Nature Infliction}}, performing the last sequence of this ultimate applies an additional stack of {{G|Cryo Infliction}} or {{G|Nature Infliction}} again.
+}}
+}}
+
+{{Operator table row
+|name = Gilberta
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Gilberta
+|name = Arcane Staff: Gravity Mode
+|type = Skill
+|content = 
+Creates a {{Color|Gravity Well|7}} on the field. At the end of the {{Color|Gravity Well|7}}'s duration, the implosion applies {{G|Nature Infliction}} to all targets hit.
+}}
+{{Operator table row/Combat skill
+|icon = Ult-Gilberta
+|name = Arcane Staff: Gravity Field
+|type = Ultimate
+|content = 
+Creates an {{Color|Autonomous Gravity Field|7}} on the field. When an enemy is within range of an {{Color|Autonomous Gravity Field|7}}, applies a stack of {{G|Nature Infliction}}. An enemy can only be inflicted by {{G|Nature Infliction}} once per skill cast.
+}}
+}}
+
+}}
+== Interactions ==
+<tabber>
+|-|Operators=
+{{Operator table
+|header = Interaction
+|content =
+
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy with active {{Color|Focus|7}} suffers a {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Arclight
+|content = 
+{{Operator table row/Combat skill
+|icon = Arclight Talent 2 icon
+|name = Hannabit Wisdom
+|type = Talent
+|content = 
+Chance to ignore {{G|Arts Infliction}} applied on her.
+}}
+}}
+{{Operator table row
+|name = Ardelia
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Ardelia
+|name = Eruption Column
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike}} on an enemy with {{Color|no|7}} stacks of {{G|Vulnerable|Vulnerability}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Fluorite
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Fluorite
+|name = Free Giveaway
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy has 2 or more stacks of {{G|Cryo Infliction}} or {{G|Nature Infliction}}.
+}}
+
+{{Operator table row/Combat skill
+|icon = Potential 5
+|name = Craver of Chaos
+|type = Potential 5
+|content = 
+Combo skill {{Color|Free Giveaway|7}} improved: Whenever {{G|Cryo Infliction}} or {{G|Nature Infliction}} is applied to the enemy, cooldown is shortened by {{Color|1|1d}}s. Effect can only trigger once every 1s.
+}}
+}}
+
+{{Operator table row
+|name = Last Rite
+|content = 
+{{Operator table row/Combat skill
+|icon = Last Rite Talent 1 icon
+|name = Hypothermia
+|type = Talent
+|content = 
+{{G|Debuff Consumption|Consuming}} any {{G|Arts Infliction}} inflicts {{G|Cryo Susceptibility}} with the strength based on the number of stacks consumed. {{Color|This effect cannot stack.|9}}
+}}
+}}
+
+{{Operator table row
+|name = Rossi
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Rossi
+|name = Moment of Blazing Shadow
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy has both {{G|Vulnerable|Vulnerability}} and {{G|Arts Infliction}} stacks.<br><br>
+This combo skill is split into two sequences. For a short time after performing the first sequence, Rossi may recast this skill to perform the second sequence. The second sequence of this combo {{G|Debuff Consumption|consumes}} all {{G|Arts Infliction}} stacks and deals additional {{Color|Physical DMG|2}} based on the number of stacks consumed.
+}}
+}}
+
+{{Operator table row
+|name = Wulfgard
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Wulfgard
+|name = Frag Grenade·β
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an {{G|Arts Infliction}} is applied to an enemy.
+}}
+}}
+
+{{Operator table row
+|name = Yvonne
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Yvonne
+|name = Brr-Brr-Bomb β
+|type = Skill
+|content = 
+Against enemies with {{G|Cryo Infliction}} or {{G|Nature Infliction}}, {{G|Debuff Consumption|consume}} all {{G|Cryo Infliction}} or {{G|Nature Infliction}} stacks, {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Solidification}}, and deal additional {{Color|Cryo DMG|4}} based on the number of Arts Infliction stacks consumed. 
+}}
+}}
+
+}}
+|-|Weapons=
+{{Template:Weapon_list
+|header = Interaction
+|content = 
+
+{{Template:Weapon_list_row
+|name = OBJ Velocitous
+|content = '''Detonate: Rapid Strike'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Infliction}}, gain {{Color|Nature DMG Dealt|5}} {{Color|+[{{Tooltip/Weapon skill rank|5%|14%}} × Stacks Consumed]|1d}} for 20s. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+|name = Opus: Etch Figure
+|content = '''Suppression: Tillite Etchings'''<br>When the wielder's battle skill applies {{G|Nature Infliction}}, other operators in the team gain {{Color|Arts DMG Dealt|7}} {{Tooltip/Weapon skill rank|+5%|14%}} for 15s. For every enemy inflicted with {{G|Nature Infliction}} applied by the said battle skill, other operators in the team gain bonus {{Color|Arts DMG Dealt|7}} {{Tooltip/Weapon skill rank|+2%|5.6%}}, up to a max of {{Tooltip/Weapon skill rank|+6%|16.8%}}. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+}}
+</tabber>
+
+==Changelog==
+{{Changelog|
+* <b>Beta Test II</b> {{Needs Verification}}
+** {{G|Nature Infliction}} can now stack up to four times.
+*** [[Arts Burst|Nature Burst]] changed.
+**** <b>New:</b> When an Operator applies Nature Infliction to an enemy with Arts Infliction, add one more stack of Nature Infliction (up to 4 times) and trigger an Nature Burst.
+**** <b>Old:</b> When an Operator applies Nature Infliction to an enemy with Nature Infliction, {{G|Debuff Consumption|consume}} the Nature Inflictions and trigger an Nature Burst.
+*** [[Corrosion]] changed.
+**** <b>New:</b> When an Operator applies Nature Infliction to an enemy with a non-Nature Arts Infliction, {{G|Debuff Consumption|consume}} existing stacks of Nature Infliction to trigger [[Corrosion]] with the latter determining the strength or {{G|Status Level}} of the reaction.
+**** <b>Old:</b> When an Operator applies a Nature Infliction to an enemy with a non-Nature Arts Infliction, {{G|Debuff Consumption|consume}} both Arts Inflictions and trigger Corrosion.
+* <b>Beta Test I</b> {{Needs Verification}}
+** {{G|Nature Infliction}} added.
+*** When an Operator applies Nature Infliction to an enemy with Nature Infliction, {{G|Debuff Consumption|consume}} the Nature Inflictions and trigger an [[Arts Burst|Nature Burst]].
+*** When an Operator applies Nature Infliction to an enemy with a non-Nature Arts Infliction, {{G|Debuff Consumption|consume}} both Arts Inflictions and trigger [[Corrosion]].
+}}
+
+{{Combat mechanics}}
+[[Category: Arts Inflictions]]

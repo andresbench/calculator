@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Golden Age
+|rarity = 6
+|images = 
+Golden_Age icon.png:Icon;
+Golden_Age.png:Full;
+Golden_Age max model.png:Max
+|filename = wpn_lance_0016
+|cnname = 黄金时代
+|tcname = 黃金時代
+|jpname = 黄金時代
+|krname = 전성기
+|spname = Edad de oro
+|runame = Золотой век
+|type = Polearm
+|source = Reward: Protocol Pass}}
+'''Golden Age''' is a 6★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the top-end products of Mieszko Industries. The tip of the lance is constructed using a special alloy that features incredible toughness and razor-sharp edges. Such weapons are elegant, sublime, and incredibly expensive to make, and are usually wielded by individuals who wish to highlight their prestige.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 49, 142, 240, 338, 436, 485
+|pot = Skill {{Color|Pursuit: Great Hero|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Will [L]|Treatment Efficiency [L]|Pursuit: Great Hero}}
+
+==Basic Info==
+{{Quote|"Age can be a real bummer, old man. Your spearmancy ... got slow and clunky.“ <br>The Kuranta thrust the spear into the cracked rooftop and removed the heavy armor pieces. <br>"You're just a few years younger than me, so that makes you just as old. Don't tell me that you're still a brat in love with heroic tales." <br>"Stop being stupid and head back with me. The warlord Jakub is dead. His dream of 'an even greater city' is no more. This isn't worth dying for." <br><br>"I thought you'd see things my way." the Kuranta looked at the Liberi who stepped over the body of the thirty-ninth Landbreaker, then drew a short blade from a once-ornate scabbard covered in decades of rust. The blade itself glimmered coldly. "I believe in the dream, the one our mentor told us when we were handed these blades. Go back to Terra and let the Golden Age return again. But an Ankhor smashed his tomb. We even couldn't make our way back to the north of Talos-II... Jakub wasn't the only one disappointed. You treat us as dreamers. Tell me then, what is that utopia thing long promised by the Civilization Band when we're facing 'occasional' supply shortages, encroaching Blight masses, and Aggelos attacks?" <br><br>The Liberi sighed with resignation, stopped ten paces away from the Kuranta, pressed a boot into the windswept dust, and made the roof creak. <br>"You chose a good place. Strong winds on the roof. The fowlbeasts could easily soar without flapping their wings." <br>"Strong winds indeed ... but they're dying down." the Kuranta raised the blade, "We won the Aggeloi War. But what happened next? We're getting old. I'll never live to see my mentor's dream if I kept waiting. I have to act." <br>"That's no excuse for following Jakub and pointing our mentor's lance against those who have even less and suffer more." <br>"The strong devours the weak. Someone had to do it." the Kuranta straightened and gave a few rather clumsy swings of the blade, "I chose this path to fulfill our mentor's dream... You can't stop me." <br>"You were once a hero who charged for ten miles to save a village from an Aggelos attack," the Liberi drew a weapon. It was the exact same sword wielded by the Kuranta. <br>He still remembered the day when their mentor handed the blades to them and how his eyes sparkled the moment his fingers touched the weapon. He remembered how his sworn brother asked for their mentor's lance, and how he laughed when his sworn brother boasted about becoming a "great hero". Why did he laugh? The reason escaped his memories. <br><br>"Hero? I'm no hero," the Kuranta raised the blade to chest level, "The hero you mentioned only lives in your mind, or he probably died that night." <br>"Your actions disgrace our mentor's lance." the Liberi's handcannon was out of etched ammo and he tossed it away before charging towards the Kuranta, "Return it." <br>"See if you're good enough ... to take it off my hands."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

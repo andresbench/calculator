@@ -1,0 +1,11 @@
+local data={
+	["Darhoff 7"]={name="Darhoff 7", class="Great Sword"},
+	["Jiminy 12"]={name="Jiminy 12", class="Orbiter"},
+	["Opero 77"]={name="Opero 77", class="Polearm"},
+	["Peco 5"]={name="Peco 5", class="Guns"},
+	["Tarr 11"]={name="Tarr 11", class="Sword"},
+}
+for k, v in pairs(data) do
+	v.star=(3)
+end
+return data

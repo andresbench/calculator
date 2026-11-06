@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Grizzled Edge Armor
+|image = Grizzled_Edge_Armor.png
+|filename = item_equip_t4_suit_crush_fracture_body_01
+|cnname = 旧锋装甲
+|tcname = 舊鋒裝甲
+|jpname = 旧鋒防具
+|krname = 고검의 잔향 장갑
+|spname = Armadura de Filo curtido
+|runame = Броня «Потертое лезвие»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Grizzled Edge Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A multi-functional piece of defensive equipment developed by Hongshan Swordmancers by studying lost tech design documents. 
+One can see signs of the Aggeloi War in its design. Heavy, coarse, but also effective.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Strength
+|pvalue = +87, +95, +104, +113
+|sstat = Will
+|svalue = +58, +63, +69, +75
+|tstat = Physical DMG Bonus
+|tvalue = +11.5%, +12.7%, +13.8%, +14.9%
+|setname = Grizzled Edge
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+When the wearer applies {{G|Crush|Crush}} or {{G|Breach|Breach}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+[6% × Max number of {{G|Vulnerable|Vulnerability|1d}} stacks {{G|Debuff Consumption|consumed}} from one enemy]}} for 20s. If the target already has {{G|Physical Susceptibility|Physical Susceptibility}}, is {{Color|Staggered|2}}, or has attached {{G|Originium Crystal|Originium Crystals}}, increase the aforementioned buff to {{Color|1.5|1d}} times. This buff cannot stack.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Grizzled Edge}}
+{{Gears|state=collapsed}}

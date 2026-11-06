@@ -1,0 +1,261 @@
+local p = {}
+local data = {
+	Employment_Contracts = mw.loadData('Module:Item/Employment_Contracts'),
+	Operator_Tokens = mw.loadData('Module:Item/Operator_Tokens'),
+	Operator_Snapshots = mw.loadData('Module:Item/Operator_Snapshots'),
+	Weapons = mw.loadData('Module:Item/Weapons'),
+	Gear = mw.loadData('Module:Item/Gear'),
+	Progression_Materials = mw.loadData('Module:Item/Progression_Materials'),
+	Rare_Materials = mw.loadData('Module:Item/Rare_Materials'),
+	Gatherables = mw.loadData('Module:Item/Gatherables'),
+	Naturals = mw.loadData('Module:Item/Naturals'),
+	AIC_Products = mw.loadData('Module:Item/AIC Products'),
+	Facilities = mw.loadData('Module:Item/Facilities'),
+	Quest_Items = mw.loadData('Module:Item/Quest_Items'),
+	Gifts = mw.loadData('Module:Item/Gifts'),
+	Seeds = mw.loadData('Module:Item/Seeds'),
+	Containers = mw.loadData('Module:Item/Containers'),
+	Consumables = mw.loadData('Module:Item/Consumables'),
+	Packages = mw.loadData('Module:Item/Packages'),
+	System_Blueprints = mw.loadData('Module:Item/System_Blueprints'),
+	Essences = mw.loadData('Module:Item/Essences'),
+	Formulas = mw.loadData('Module:Item/Formulas'),
+	Photo = mw.loadData('Module:Item/Photo'),
+	Profile = mw.loadData('Module:Item/Profile'),
+	Etchspace = mw.loadData('Module:Item/Etchspace'),
+	Sanity = mw.loadData('Module:Item/Sanity'),
+	Currency = mw.loadData('Module:Item/Currency'),
+	Headhunting = mw.loadData('Module:Item/Headhunting'),
+	Miscellaneous = mw.loadData('Module:Item/Miscellaneous'),
+	Personal_Device = mw.loadData('Module:Item/Personal_Devices'),
+}
+function p.getItemAttr(itemKey, attr)
+	if type(itemKey) ~= "string" then
+		error("Invalid item key: Expected string, got " .. type(itemKey))
+	end
+	local item
+	for _, module in pairs(data) do
+		item = module[itemKey]
+		if item then break end
+	end
+	if not item then
+		error("Item not found: " .. itemKey)
+	end
+	return item[attr] or ""
+end
+function p.itemDescription(frame)
+	local itemKey = frame.args[1] or frame.args.item
+	return p.getItemAttr(itemKey, "desc")
+end
+function p.itemUse(frame)
+	local itemKey = frame.args[1] or frame.args.item
+	return p.getItemAttr(itemKey, "use")
+end
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+-- local function that returns all needed attrs needed for the tooltip of an item
+local function getItemAttrs(itemKey)
+	if type(itemKey) ~= "string" then
+		error("Invalid item key: Expected string, got " .. type(itemKey))
+	end
+	local item
+	for _, module in pairs(data) do
+		item = module[itemKey]
+		if item then break end
+	end
+	
+	if not item then
+		mw.log('Item not found: '..itemKey)
+		return '[['..itemKey..']]'
+	end
+	
+	local tier = tonumber(item.tier) or 1
+	local description = item.desc or "No description available"
+	local attrs = {
+		['data-name'] = item.name,
+		['data-title'] = item.title,
+		['data-tier'] = tier,
+		['data-use'] = item.use,
+		['data-desc'] = description,
+		['data-obtain'] = item.obtain,
+		['data-filename'] = item.image,
+		['data-link'] = item.link,
+	}
+	return attrs
+end
+-- function used to create the html objects required for an item display box
+local function renderItemBox(itemName, count, attrs)
+    if not itemName or itemName == "" then
+        return ""
+    end
+
+    local rarity = attrs['data-tier'] or 1
+
+    local bgClasses = {
+        [1] = "item-bg-t1",
+        [2] = "item-bg-t2",
+        [3] = "item-bg-t3",
+        [4] = "item-bg-t4",
+        [5] = "item-bg-t5",
+        [6] = "item-bg-t6",
+    }
+    local barClasses = {
+        [1] = "item-bar-t1",
+        [2] = "item-bar-t2",
+        [3] = "item-bar-t3",
+        [4] = "item-bar-t4",
+        [5] = "item-bar-t5",
+        [6] = "item-bar-t6",
+    }
+
+	local dim = 55
+    local filename = attrs['data-filename'] or itemName
+    local link = attrs['data-link'] or itemName
+
+    local countText = ""
+    if count and math.abs(count) > 0 then
+    	local M = 10^6
+		local K = 10^3
+		
+		if math.abs(count) >= M then
+			count = (count / M) .. 'M'
+		elseif math.abs(count) >= K then
+			count = (count / K) .. 'K'
+		end
+		
+        countText = tostring(count)
+    end
+
+    -- wrapper with margin
+    local box = mw.html.create("div")
+        :addClass("item-box-wrapper")
+
+    -- background / main square
+    local bg = box:tag("div")
+        :addClass("item-bg")
+        :addClass(bgClasses[rarity])
+
+    -- image wrapper
+    local inner = bg:tag("div")
+    	:addClass("item-inner")
+
+    -- tooltip
+    local a = inner:tag("div")
+        :addClass("a")
+
+    local tt = a:tag("div")
+        :addClass("item-tooltip")
+        :attr(attrs)
+        :wikitext(('[[File:%s.png|%sx%spx|link=%s]]'):format(filename, dim, dim, link))
+
+    -- rarity color bar thing at the bottom
+    tt:tag("div")
+        :addClass("item-bar")
+        :addClass(barClasses[rarity])
+
+    -- item count
+    if countText ~= "" then
+        box:tag("div")
+            :addClass("item-count")
+            :wikitext(countText)
+    end
+
+    return tostring(box)
+end
+-- public function that can be called by other modules to generate an item display
+function p.renderItemBox(itemName, count)
+	local attrs = getItemAttrs(itemName)
+	
+	if type(itemName) ~= "string" then
+		error("Invalid item key: Expected string, got " .. type(itemName))
+	end
+	local item
+	for _, module in pairs(data) do
+		item = module[itemName]
+		if item then break end
+	end
+	
+	if not item then
+		mw.log('Item not found: '..itemName)
+		return '[['..itemName..']]'
+	end
+	
+	local tier = tonumber(item.tier) or 1
+	local description = item.desc or "No description available"
+	local attrs = {
+		['data-name'] = item.name,
+		['data-title'] = item.title,
+		['data-tier'] = tier,
+		['data-use'] = item.use,
+		['data-desc'] = description:gsub('\n', '<br>'),
+		['data-obtain'] = item.obtain,
+		['data-filename'] = item.image,
+		['data-link'] = item.link,
+	}
+	
+	return renderItemBox(itemName, count, attrs)
+end
+function p.main(frame)
+	local args = getArgs(frame)
+	return p._main(args)
+end
+function p._main(args)
+	local key = args[1]
+	local sign, qty = string.match(args[2] or '', '^([%+%-]?)(%d+)')
+	qty = tonumber(qty)
+
+	if not key then error('Item name is required') end
+	local item
+	for k, v in pairs(data) do
+		item = v[key]
+		if item then
+			break
+		end
+	end
+	if not item then
+		mw.log('Item not found: '..key)
+		if qty and math.abs(qty) > 0 then
+			return '[['..key..']]×'..qty
+		else
+			return '[['..key..']]'
+		end
+	end
+	local name = item.name
+	local filename = item.image or name
+	local text = item.title or name
+	local link = item.link or name
+	local tier = tonumber(item.tier) or 0
+	local description = item.desc or "No description available"
+	local attrs = {
+		['data-name'] = item.name,
+		['data-title'] = item.title,
+		['data-tier'] = tier,
+		['data-use'] = item.use,
+		['data-desc'] = description:gsub('\n', '<br>'),
+		['data-obtain'] = item.obtain,
+		['data-filename'] = item.image,
+		['data-link'] = item.link,
+	}
+	local gdim = tonumber(item.gdim) or 22
+	local gridview = yesno(args.g or args.gv or args.gridview)
+	if gridview == nil then
+		gridview = true
+	end
+	
+	local root = mw.html.create('')
+	if gridview then
+		return renderItemBox(name, qty, attrs)
+	else
+		local span = root:tag('span')
+		:css('display', 'inline-block')
+		if qty and math.abs(qty) > 0 then
+			span:wikitext(sign..qty..' ')
+		end
+		local tt = span:tag('span')
+		:addClass('item-tooltip')
+		:attr(attrs)
+		:wikitext(('[[File:%s.png|%sx%spx|link=%s|alt=%s]] [[%s|%s]]'):format(filename, gdim, gdim, link, text, link, text))
+	end
+	return root
+end
+return p

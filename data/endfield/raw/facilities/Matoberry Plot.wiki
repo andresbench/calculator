@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Matoberry Plot
+|filename = item_port_soil_corp_tomato_1
+|images = Matoberry_Plot.png
+|cnname = 茄果田块
+|tcname = 茄果田塊
+|jpname = トマベリー畑
+|krname = 토마토 논배미
+|spname = Terreno de Bayatomate
+|runame = Участок томатинки
+|type = Planting
+|rarity = 3
+|power = }}
+'''Matoberry Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Matoberries.|A cultivation plot with various parameters adjusted for growing Matoberries. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Matoberry Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

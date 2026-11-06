@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Gauntlets
+|image = Miner_Gauntlets.png
+|filename = item_equip_t1_parts_tundra01_hand_01
+|cnname = 矿场手甲
+|tcname = 礦場手甲
+|jpname = 鉱山ガントレット
+|krname = 광산 금속 장갑
+|spname = Guanteletes de minero
+|runame = Рукавицы шахтера
+|rarity = 2
+|artifice = no
+|type = Gloves
+|level = 20
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Gauntlets''' is a {{gear|2|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +12
+|pstat = Strength
+|pvalue = +20
+|sstat = Agility
+|svalue = +13
+|tstat = HP
+|tvalue = +11.0%
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|20}} {{I|Amethyst Component|5}}
+}}
+
+
+
+{{Gears|state=collapsed}}

@@ -1,0 +1,57 @@
+{{Enemy infobox
+|name = Ereignis
+|image = Ereignis_sprite.png
+|filename = eny_0080_reaper
+|cnname = 埃尔埃格尼斯
+|tcname = 埃爾埃格尼斯
+|jpname = エアアイグニス
+|krname = 엘 아이그니스
+|spname = Ereignis
+|runame = Эрайгнис
+|type = 
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = }}
+'''Ereignis''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|What is the meaning of progress? What constitutes meaning? What is the nature of life?}}
+
+==Stats==
+{{Enemy data
+|HP = 886, 6359, 40236, 158402, 381028, 586985
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 280
+|SR = 20
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = 
+|location = *TBA
+|drops = 
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 886, 6359, 40236, 158402, 381028, 586985 from 886, 7481, 47336, 158402, 381028, 586985
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

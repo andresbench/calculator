@@ -1,0 +1,41 @@
+{{Gear infobox
+|name = Deep Rampart Comms
+|image = Deep_Rampart_Comms.png
+|filename = item_equip_t4_suit_spellburst_edc_01
+|cnname = 险关通信器
+|tcname = 險關通訊器
+|jpname = 天険通信機
+|krname = 관문 통신기
+|spname = Comunicador de Baluarte profundo
+|runame = Система связи «Далекий бастион»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Deep Rampart Comms''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Designed by Endfield after referencing standard-issue equipment of the YSTF. 
+"Should we shorten the power charging..."
+"Got it. We'll add Xiranite batteries to the Protocol comms to maximize operational duration!"}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +32, +35, +38, +41
+|sstat = Will
+|svalue = +21, +23, +25, +27
+|tstat = Arts Intensity
+|tvalue = +41.4, +45.5, +49.7, +53.8
+|setname = Deep Rampart
+|seteffect = 3-piece set effect: Wearer's Arts DMG Dealt {{Color|+16%|1d}}.
+When the wearer applies {{G|Nature Burst|Nature Burst}} or {{G|Cryo Burst|Cryo Burst}}, the wearer gains Arts Intensity {{Color|+16|1d}} for 20s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Deep Rampart}}
+{{Gears|state=collapsed}}

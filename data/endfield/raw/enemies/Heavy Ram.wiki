@@ -1,0 +1,64 @@
+{{Enemy infobox
+|name = Heavy Ram
+|image = Heavy_Ram_sprite.png
+|filename = eny_0023_aghornb
+|cnname = 刚角天使
+|tcname = 剛角天使
+|jpname = 剛角アンゲロス
+|krname = 쌍뿔아겔로스
+|spname = Carnero grande
+|runame = Крупный рогач
+|type = Aggeloi
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 2
+}}
+'''Heavy Ram''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Thrylissoron" (archive ID: ACL072) is a non-standard variant of ACL071. It can manipulate its environment and make tactical decisions.}}
+
+==Stats==
+{{Enemy data
+|HP = 831, 5961, 37721, 148502, 357214, 550298
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 160
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 3.2
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[Aburrey Quarry]]
+*[[Origin Lodespring]]
+|drops = {{I|Hard Aggagrit}}
+|addendum = }}
+
+==Overview==
+Being a larger version of [[Ram]]s, Heavy Rams have similar appearance with its counterpart, notably being larger, and has additional attacks:
+
+*Rams at front, dealing Physical damage.
+*Leaps after a short wind up, and followed by a ground pound, dealing Physical damage to Operators around.
+*Charges ahead, dealing Physical damage and knock Operators back.
+*A stronger ram after a charge up, dealing Physical damage. This ability can be interrupted by skills.
+
+==See Also==
+*[[Heavy Ram α]] - a stronger variant of Heavy Ram.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 831, 5961, 37721, 148502, 357214, 550298 from 831, 7013, 44378, 148502, 357214, 550298
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

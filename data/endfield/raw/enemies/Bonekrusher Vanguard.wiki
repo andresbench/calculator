@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = Bonekrusher Vanguard
+|image = Bonekrusher_Vanguard_sprite.png
+|filename = eny_0074_lbshield
+|cnname = 碾骨先锋
+|tcname = 碾骨先鋒
+|jpname = ボーンクラッシャーの先鋒
+|krname = 본 크러셔 돌격수
+|spname = Vanguardia Rompehuesos
+|runame = Штурмовик Костоломов
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 15
+}}
+'''Bonekrusher Vanguard''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Bonekrusher combatant armed with spears and shields. Though armed with weapons crudely cobbled together, the vanguard has developed a combat technique that unites attack and defense. Practice caution when fighting this foe.}}
+
+==Stats==
+{{Enemy data
+|HP = 166, 1192, 7544, 29700, 71443, 110060
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 0.8
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy will block all incoming attacks unless he is attacking. Stagger him to shatter his shield.
+|location = *[[Originium Science Park]]
+*[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Bitter Flour}}
+|addendum = }}
+
+==Overview==
+A Bonekrusher wielding spear and shield: Unless they are attacking, they will block all incoming attack directed at them, which greatly reduces the damage they take, indicated by a shield icon next to the floating damage number, making them a though nut to crack. If the Bonekrusher Vanguard becomes {{Color|Staggered|8}}, their shield will shatter, taking away their option of blocking attacks. Making them unable to move through actions like {{G|Lift}}, {{G|Knock Down}}, {{G|Crush}} or {{G|Solidification}} also temporarily stops them from blocking attacks.
+
+When not attacked, they instead attack with a spear thrust, or a spear swing and slam dealing Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 166, 1192, 7544, 29700, 71443, 110060 from 166, 1403, 8876, 29700, 71443, 110060
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

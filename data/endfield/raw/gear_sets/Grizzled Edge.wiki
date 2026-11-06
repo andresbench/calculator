@@ -1,0 +1,27 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Hongshan Swordmancers manufacturer icon.png 
+|cnname = 
+|jpname = 
+|krname = 
+|spname =
+|runame =
+|manufacturer= [[Hongshan Swordmancers]]
+|level= 70
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+When the wearer applies {{G|Crush}} or {{G|Breach}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+[6% × Max number of|1d}} {{G|Vulnerable|Vulnerability}} {{Color|stacks {{G|Debuff Consumption|consumed}} from one enemy]|1d}} for 20s. If the target already has {{G|Physical Susceptibility}}, is {{Color|Staggered|8}}, or has attached {{G|Originium Crystal|Originium Crystals}}, increase the aforementioned buff to {{Color|1.5|1d}} times. This buff cannot stack.
+}}
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A multi-functional piece of defensive equipment developed by Hongshan Swordmancers by studying lost tech design documents.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Hongshan Swordmancers by studying lost tech design documents.
+==Obtaining==
+Blueprints for the Gear can be found in [[Sword Vault Dale]].
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

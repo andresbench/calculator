@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Wedge
+|rarity = 6
+|images = 
+Wedge icon.png:Icon;
+Wedge.png:Full;
+Wedge max model.png:Max
+|filename = wpn_pistol_0008
+|cnname = 楔子
+|tcname = 楔子
+|jpname = 楔
+|krname = 쐐기
+|spname = Cuña
+|runame = Клин
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''Wedge''' is a 6★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A legendary work of Northmarch Support Hub that perfectly embodies the style and virtues of Northmarch weapons. Features devastating firepower, total reliability, and absolutely abysmal handling and recoil.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Infliction: Wedge of Civilization|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Main Attribute [L]|Critical Rate [L]|Infliction: Wedge of Civilization}}
+
+==Basic Info==
+{{Quote|"We're the wedge that was hammered into Talos-II." Mama always said those words.<br>When I was a kid, Mama always gave me a strong, tight hug after coming back from her shift. I kept telling her to change out of her crew outfit first. I felt I wasn't getting hugged by mom. I was getting crushed by a hardware store and always ended up with a mess of sore, reddish imprints of hammers, pliers, wrenches, and even a big blasted handcannon on me.<br>And then she bought me those friggin' buggly toys, you know. I've been seeing actual cranes, drill crawlers, dumpster trucks, crushers, and pile drivers in real life. I saw entire fleets of steel giants heading north every friggin' day and every friggin' year of my childhood. I did not want mini and fake versions of them in my toybox.<br>And mama never treated this world as "home". She never stopped saying: "Talos-II is just too dangerous. We'll never make this our place."<br>I'm a Talosian, born and raised, and could never really understand why she never stopped complaining. Yet those words left an imprint on me, like those hardware tools she carried when she gave me those powerful, crushing hugs. I never knew what "imprints" meant back then.<br>Then came a day when mama failed to come back from the north. Uncle Walther gave me her outfit. Them laundry crew didn't wash it right and it still had this dark bloodstain on the collar. I held it tight to feel the familiar coarseness of the fabrics and the cold, hardness of her tools. And then I found that blasted handcannon — the big iron responsible for all those painful imprints I suffered. The thing sported a new dent beneath the barrel.<br>She emptied the magazine and then slapped an Aggelos real good with that big slab of iron.<br>I asked Uncle Walther to cast me a new barrel and furnish it with a chain cutter. I also got mama's position when another convoy roared for the north.<br><br>'Cause I'm the hardest wedge to be hammered into Talos-II.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

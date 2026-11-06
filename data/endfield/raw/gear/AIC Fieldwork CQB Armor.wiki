@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork CQB Armor
+|image = AIC_Fieldwork_CQB_Armor.png
+|filename = item_equip_t4_parts_wuling00_body_06
+|cnname = 集成实训刃装护甲
+|tcname = 集成實訓刃裝護甲
+|jpname = 集成訓練剣術防具
+|krname = 통합 실전 훈련 도검형 방어구
+|spname = Armadura CEC para Trabajo de campo del CAI
+|runame = Броня для ближнего боя «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork CQB Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+A modification of AIC Fieldwork defensive equipment for close-quarters battle training. It provides wearers with effective protection during melee action.}}
+
+==Stats==
+{{Gear data
+|defense = +48
+|pstat = Main Attribute
+|pvalue = +74, +81, +88, +96
+|sstat = Secondary Attribute
+|svalue = +49, +53, +58, +63
+|tstat = Physical DMG Bonus
+|tvalue = +9.8%, +10.8%, +11.8%, +12.8%
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

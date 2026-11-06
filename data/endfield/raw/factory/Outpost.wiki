@@ -1,0 +1,177 @@
+[[File:Outpost Management Tutorial.png|thumb|Outposts can generate plenty of stock bills over time, which can be earned by trading goods.]]
+'''Outpost''' is one of the core mechanic of ''[[Arknights: Endfield]]'', acting as one of the primary source to obtain Regional Stock Bills.
+
+==Overview==
+Outposts are available as [[Sub-PAC]]s are unlocked, which the player can trade AIC products to gain Regional Stock Bills and increase the Prosperity of the Outpost. 
+
+Each Outpost starts with deploying a '''Sub-PAC'''. The Sub-PAC and PAC share similar functions. Both can be used as [[TP Point]]s and automatically supply power to Electric Pylons within their Core AIC Areas. Both also expands via [[AIC Steward]].
+
+Stock Bills are accumulated overtime with a limit, and cannot accumulate further once the limit is reached, which the player must trade to allow it continue accumulating. If the Stock Bill in the Outpost was depleted, however, the player cannot trade further, and must wait for it to accumulate.
+
+Prosperity are gained for every base Stock Bill obtained from trading, and maximum prosperity allows upgrades of the Outpost, increasing the Stock Bill limit and Prosperity limit, and unlock new items for trade.
+
+===Operator Assignment===
+An [[Operator]] can be assigned to the outpost as the Liaison of the Outpost; When the faction, hobby, and expertise of the Operator matches what was needed for the Outpost, the Outpost's efficiency to gain Prosperity, accumulate Stock Bills or give Stock Bills may increase.
+
+===Area Defense===
+Area defense can be accessed through the 'Early Warning Terminal'. By completing the area defense for the outpost, the overall Stock Bills regeneration rate are {{Tip|increased by 5% per level|To be exact, it gives each Stock Bill regenerated have a 5% chance of doubling}}. These bonuses stack with one another and are enabled permanently on completion.
+
+==List of Outposts==
+All Outposts are tied to a [[Mission]], with those that are the first to the region are tied to a [[Mission/Main|Main Mission]], while others tied to a [[Mission/Side|Side Mission]].
+
+A Side Mission will also be available once the Outposts reached maximum prosperity, which is required to be completed for upgrading the Outpost.
+
+{| class="wikitable" style="width: auto;"
+! style="width:20%"; | Region
+! style="width:30%"; | Outpost
+! colspan="2"; style="width:50%"; | Mission
+|-
+! rowspan="12"; | [[Valley IV]]
+! rowspan="4"; | [[Refugee Camp]]
+! style="width:5%"; | 1
+| [[Building an Outpost]]
+|-
+! style="width:5%"; | 2
+| [[OD Project: Refugee Camp I]]
+|-
+! style="width:5%"; | 3
+| [[OD Project: Refugee Camp II]]
+|-
+! style="width:5%"; | 4
+| [[OD Project: Refugee Camp III]]
+|-
+! rowspan="4"; | [[Infra-Station]]
+! style="width:5%"; | 1
+| [[Outpost: Infra-Station]]
+|-
+! style="width:5%"; | 2
+| [[OD Project: Infra-Station I]]
+|-
+! style="width:5%"; | 3
+| [[OD Project: Infra-Station II]]
+|-
+! style="width:5%"; | 4
+| [[OD Project: Infra-Station III]]
+|-
+! rowspan="4"; | [[Reconstruction HQ]]
+! style="width:5%"; | 1
+| [[Outpost: Reconstruction HQ]]
+|-
+! style="width:5%"; | 2
+| [[OD Project: Reconstruction HQ I]]
+|-
+! style="width:5%"; | 3
+| [[OD Project: Reconstruction HQ II]]
+|-
+! style="width:5%"; | 4
+| [[OD Project: Reconstruction HQ III]]
+|-
+! rowspan="12"; | [[Wuling]]
+! rowspan="4"; | [[Sky King Flats Construction Site]]
+! style="width:5%"; | 1
+| [[Where Danger Sleeps]]
+|-
+! style="width:5%"; | 2
+| [[OD Project: Sky King Flats I]]
+|-
+! style="width:5%"; | 3
+| [[OD Project: Sky King Flats II]]
+|-
+! style="width:5%"; | 4
+| [[OD Project: Sky King Flats III]]
+|-
+! rowspan="4"; | [[Cardiac Remediation Station]]
+! style="width:5%"; | 1
+| [[Free Will]]
+|-
+! style="width:5%"; | 2
+| [[OD Project: Remediation Station I]]
+|-
+! style="width:5%"; | 3
+| [[OD Project: Remediation Station II]]
+|- 
+! style="width:5%"; | 4
+| [[OD Project: Remediation Station III]]
+|-
+! rowspan="4"; | [[Xiranflow Cloudseeder Station]]
+! style="width:5%"; | 1
+| [[Outpost: Cloudseeder STN]]
+|-
+! style="width:5%"; | 2
+| [[OD Project: Cloudseeder STN I]]
+|-
+! style="width:5%"; | 3
+| [[OD Project: Cloudseeder STN II]]
+|-
+! style="width:5%"; | 4
+| [[OD Project: Cloudseeder STN III]]
+|}
+
+== Outpost Exchange ==
+When the '''Outpost''' is unlocked, AIC products may be exchanged through the outpost for Regional Stock Bills. Some AIC products can only be exchanged through certain outposts. The following table shows the list of exchangable AIC products for Regional Stock Bills:
+
+<tabber>
+Valley IV=
+{| class="wikitable" style="width: auto;"
+|-
+! colspan= "3"; | Refugee Camp
+! colspan= "3"; | Infra-Station
+! colspan= "3"; | Reconstruction HQ
+|-
+! Item !! Price !! Level !! Item !! Price !! Level !! Item !! Price !! Level 
+|-
+| {{I|Origocrust}} || {{Cur|Valley Stock Bill|1}} || 1 || {{I|Ferrium Part}} || {{Cur|Valley Stock Bill|1}} || 1 || {{I|Steel Part}} || {{Cur|Valley Stock Bill|3}} || 1
+|-
+| {{I|Amethyst Part}} || {{Cur|Valley Stock Bill|1}} || 1 || {{I|Canned Citrome (C)}} || {{Cur|Valley Stock Bill|10}} || 4 || {{I|Canned Citrome (C)}} || {{Cur|Valley Stock Bill|10}} || 3
+|-
+| {{I|Amethyst Bottle}} || {{Cur|Valley Stock Bill|2}} || 1 || {{I|Buck Capsule (B)}} || {{Cur|Valley Stock Bill|27}} || 2 || {{I|Buck Capsule (B)}} || {{Cur|Valley Stock Bill|27}} || 1
+|-
+| {{I|Buck Capsule (C)}} || {{Cur|Valley Stock Bill|10}} || 1 || {{I|Canned Citrome (B)}} || {{Cur|Valley Stock Bill|27}} || 4 || {{I|Canned Citrome (B)}} || {{Cur|Valley Stock Bill|27}} || 3
+|-
+| {{I|Canned Citrome (C)}} || {{Cur|Valley Stock Bill|10}} || 2 || {{I|LC Valley Battery}} || {{Cur|Valley Stock Bill|30}} || 1 || {{I|SC Valley Battery}} || {{Cur|Valley Stock Bill|30}} || 1
+|-
+| {{I|Buck Capsule (B)}} || {{Cur|Valley Stock Bill|27}} || 2 || {{I|SC Valley Battery}} || {{Cur|Valley Stock Bill|30}} || 2 || {{I|Buck Capsule (A)}} || {{Cur|Valley Stock Bill|70}} || 2
+|-
+| {{I|Canned Citrome (B)}} || {{Cur|Valley Stock Bill|27}} || 3 || {{I|Buck Capsule (A)}} || {{Cur|Valley Stock Bill|70}} || 3 || {{I|Canned Citrome (A)}} || {{Cur|Valley Stock Bill|70}} || 3
+|-
+| {{I|SC Valley Battery}} || {{Cur|Valley Stock Bill|30}} || 2 || {{I|Canned Citrome (A)}} || {{Cur|Valley Stock Bill|70}} || 4 || {{I|HC Valley Battery}} || {{Cur|Valley Stock Bill|70}} || 2
+|-
+| {{I|Buck Capsule (A)}} || {{Cur|Valley Stock Bill|70}} || 3 || {{I|HC Valley Battery}} || {{Cur|Valley Stock Bill|70}} || 3 || - || - || -
+|-
+| {{I|Canned Citrome (A)}} || {{Cur|Valley Stock Bill|70}} || 4 || - || - || - || - || - || -
+|-
+| {{I|HC Valley Battery}} || {{Cur|Valley Stock Bill|70}} || 3 || - || - || - || - || - || -
+|}
+|-|
+Wuling=
+{| class="wikitable" style="width: auto;"
+|-
+! colspan= "3"; | Sky King Flats
+! colspan= "3"; | Cardiac Remediation Station
+! colspan= "3"; | Xiranflow Cloudseeder Station
+|-
+! Item !! Price !! Level !! Item !! Price !! Level !! Item !! Price !! Level
+|-
+| {{I|Xiranite}} || {{Cur|Wuling Stock Bill|1}} || 1 || {{I|Xiranite}} || {{Cur|Wuling Stock Bill|1}} || 1 || {{I|Xiranite}} || {{Cur|Wuling Stock Bill|1}} || 1
+|-
+| {{I|Cuprium Part}} || {{Cur|Wuling Stock Bill|1}} || 2 || {{I|Jincao Tea}} || {{Cur|Wuling Stock Bill|22}} || 1 || {{I|Separator Core}} || {{Cur|Wuling Stock Bill|1}} || 1
+|-
+| {{I|Jincao Drink}} || {{Cur|Wuling Stock Bill|16}} || 2 || {{I|Yazhen Syringe (A)}} || {{Cur|Wuling Stock Bill|22}} || 1 || {{I|Jincao Tea}} || {{Cur|Wuling Stock Bill|22}} || 1
+|-
+| {{I|Yazhen Syringe (C)}} || {{Cur|Wuling Stock Bill|16}} || 1 || {{I|LC Wuling Battery}} || {{Cur|Wuling Stock Bill|25}} || 1 || {{I|Yazhen Syringe (A)}} || {{Cur|Wuling Stock Bill|22}} || 1
+|-
+| {{I|Yazhen Syringe (A)}} || {{Cur|Wuling Stock Bill|22}} || 3 || {{I|Heavy Xiranite}} || {{Cur|Wuling Stock Bill|27}} || 1 || {{I|Heavy Xiranite}} || {{Cur|Wuling Stock Bill|27}} || 1
+|-
+| {{I|LC Wuling Battery}} || {{Cur|Wuling Stock Bill|25}} || 1 || {{I|SC Wuling Battery}} || {{Cur|Wuling Stock Bill|54}} || 2 || {{I|SC Wuling Battery}} || {{Cur|Wuling Stock Bill|54}} || 1
+|-
+| {{I|Hetonite Part}} || {{Cur|Wuling Stock Bill|48}} || 3 || {{I|Hetonite Part}} || {{Cur|Wuling Stock Bill|48}} || 3 || {{I|Pyrrolite Part}} || {{Cur|Wuling Stock Bill|70}} || 1
+|-
+| {{I|SC Wuling Battery}} || {{Cur|Wuling Stock Bill|54}} || 3 || {{I|Pyrrolite Part}} || {{Cur|Wuling Stock Bill|70}} || 3 || - || - || -
+|-
+| {{I|Heavy Xiranite}} || {{Cur|Wuling Stock Bill|27}} || 1 || - || - || - || - || - || -
+|}
+</tabber>
+
+== Navigation ==
+{{Features nav}}
+[[Category: Terminology]] [[Category: Facility (Regional Development)]]

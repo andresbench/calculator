@@ -1,0 +1,65 @@
+{{Enemy infobox
+|name = Bonekrusher Arsonist
+|image = Bonekrusher_Arsonist_sprite.png
+|filename = eny_0047_firebat
+|cnname = 碾骨清道夫
+|tcname = 碾骨清道夫
+|jpname = ボーンクラッシャーの始末屋
+|krname = 본 크러셔 집행자
+|spname = Rompehuesos Pirómano
+|runame = Поджигатель Костоломов
+|type = Landbreakers
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 5
+}}
+'''Bonekrusher Arsonist''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker armed with a flamethrower. Although these weapons look shoddily made, they serve their intended purpose well enough. Arsonists can easily clear out strong points and send the defenders, however stubborn, running for their lives.}}
+
+==Stats==
+{{Enemy data
+|HP = 831, 5961, 37721, 148502, 357214, 550298
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 170
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 7
+|Weight = 1.5
+|wphysical = 1
+|wfire = 0.5
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy can continuously spew fire at the operators. Try to move behind this enemy to avoid the flames.
+|location = *[[Originium Science Park]]
+*[[Power Plateau]]
+*[[Energy Alluvium: Originium Science Park]]
+|drops = {{I|Chromatic Lipids}}
+|addendum = }}
+
+==Overview==
+As Bonekrushers with a flamethrower, Bonekrusher Arsonists are known for their abilities to cause mayhem with their flamethrowers:
+
+*Jets fire at front, dealing continuous Heat damage and {{G|Heat Infliction}}.
+*Jets fire at front continuously, dealing continuous Heat damage and {{G|Heat Infliction}}.
+*Kicks at front, dealing Physical damage and knock Operators back.
+*Jets fire in an arc, dealing Heat damage and {{G|Heat Infliction}}, and leaving the ground burning, which deals continuous Heat damage and {{G|Heat Infliction}} to Operators on it.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 831, 5961, 37721, 148502, 357214, 550298 from 831, 7013, 44378, 148502, 357214, 550298
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

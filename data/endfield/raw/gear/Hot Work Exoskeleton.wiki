@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Hot Work Exoskeleton
+|image = Hot_Work_Exoskeleton.png
+|filename = item_equip_t4_suit_fire_natr01_body_01
+|cnname = 动火用外骨骼
+|tcname = 動火用外骨骼
+|jpname = 火山用パワードスーツ
+|krname = 열 작업용 강화 골격
+|spname = Exoesqueleto resistente al calor
+|runame = Экзоскелет «Термоудар»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Hot Work Exoskeleton''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment that features excellent fire resistance rating. 
+"Humanity shall spread to every corner of Talos-II." Those who sacrificed their labors and lives believed in this. Thus they stood in the oceans to stop the rushing tide and fought upon the charred lands to subdue the flames.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Strength
+|pvalue = +87, +95, +104, +113
+|sstat = Agility
+|svalue = +58, +63, +69, +75
+|tstat = Heat & Nature DMG
+|tvalue = +11.5%, +12.7%, +13.8%, +14.9%
+|setname = Hot Work
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Combustion|Combustion}}, the wearer gains {{Color|Heat DMG|3}} +{{Color|50%|1d}} for 10s. After the wearer applies {{G|Corrosion|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} +{{Color|50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Hot Work}}
+{{Gears|state=collapsed}}

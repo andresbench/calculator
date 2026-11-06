@@ -1,0 +1,41 @@
+name: Measurement
+description: Numbers from the game that answer a question in docs/measurements.md, or show the calculator is off
+labels: [measurement]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Measurement item
+      description: The number from docs/measurements.md, if there is one (for example "#47")
+      placeholder: "#47"
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Team, builds (weapon, gear, potentials, skill levels), enemy, game version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did
+      description: The actions in order, with pauses if they matter
+    validations:
+      required: true
+  - type: textarea
+    id: numbers
+    attributes:
+      label: Numbers
+      description: The damage numbers (mark crits), stat screens, gauge readings
+    validations:
+      required: true
+  - type: textarea
+    id: calculator
+    attributes:
+      label: What the calculator says
+      description: Optional — the same thing in the calculator, or a link to the rotation
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or a recording
+      description: A 60 fps recording lets numbers be read frame by frame

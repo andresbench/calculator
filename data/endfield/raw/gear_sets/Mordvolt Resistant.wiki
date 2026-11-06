@@ -1,0 +1,25 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Mordvolt 2 manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 38-50
+|region = [[Valley IV]]
+|effect = 3-piece set effect: Wearer's Will {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, Treatment Effect {{Color|+30%|1d}}.
+}}
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries.
+This Sturdy Gear is worn by workers in emergency blight repair sites.<ref>[[Mordvolt Resistant Vest]]: Description</ref> 
+Although sturdy, Endfield Industries has yet to develop PPE suits with true Blight resistance. This is due to most PPE and protective solutions in service could only cope with secondary disasters of Blight events.<ref>[[Mordvolt Resistant Gloves T1]]: Description</ref>
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Reference==
+{{Reflist}}
+{{Gears|state=collapsed}}

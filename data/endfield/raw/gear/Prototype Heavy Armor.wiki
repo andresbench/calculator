@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Prototype Heavy Armor
+|image = Prototype_Heavy_Armor.png
+|filename = item_equip_t1_parts_tundra01_body_03
+|cnname = 测试型重甲
+|tcname = 測試型重甲
+|jpname = 試作型重防具
+|krname = 시험형 중갑
+|spname = Prototipo de Armadura Pesada
+|runame = Прототип тяжелой брони
+|rarity = 2
+|artifice = no
+|type = Armor
+|level = 28
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Prototype Heavy Armor''' is a {{gear|2|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Though heavy enough, this improvised equipment only offers limited protection.}}
+
+==Stats==
+{{Gear data
+|defense = +22.4
+|pstat = Strength
+|pvalue = +37
+|sstat = Intellect
+|svalue = +25
+|tstat = Attack
+|tvalue = +11.7
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|160}} {{I|Amethyst Component|20}}
+}}
+
+
+
+{{Gears|state=collapsed}}

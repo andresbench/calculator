@@ -1,0 +1,49 @@
+local p = {}
+local data = mw.loadData('Module:Faction/data')
+
+local getArgs = require('Module:Arguments').getArgs
+local chara = require('Module:Character')._main
+
+local elites = {
+	["Mechanist"] = true,
+	["Misery"] = true,
+	["Pith"] = true,
+	["Raidian"] = true,
+	["Sharp"] = true,
+	["Stormeye"] = true,
+	["Touch"] = true,
+	["Tulip"] = true,
+}
+
+function p.operators(frame)
+	local args = getArgs(frame, {
+		wrappers = 'Template:Faction cell'
+	})
+	return p._operators(args)
+end
+
+function p._operators(args)
+	local t = {}
+	local faction = data[args.name]
+	if not faction then
+		return "'''N/A'''"
+	end
+	local seen = {} -- unique results only
+	for k, v in pairs(faction.operators) do
+		if v.title ~= 'Amiya' -- not Amiya's versions
+		and not v.name:find('Reserve Operator')
+		and not elites[v.name]
+		and not seen[v.name]
+		then
+			t[#t+1] = v.name
+			seen[v.name] = true
+		end
+	end
+	table.sort(t)
+	for i, k in ipairs(t) do
+		t[i] = tostring(chara{k, gridview=true})
+	end
+	return table.concat(t)
+end
+
+return p

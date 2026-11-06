@@ -1,0 +1,56 @@
+{{Enemy infobox
+|name = Highway Reaver
+|image = Highway_Reaver_sprite.png
+|filename = eny_0096_hsmob2
+|cnname = 莫惜命
+|tcname = 莫惜命
+|jpname = 不惜命
+|krname = 막석명
+|spname = Bandido de autopistas
+|runame = Дорожный разбойник
+|type = Cangzei Pirates
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 6
+}}
+'''Highway Reaver''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An armed criminal active in Wuling territories. They would usually set up illegal road barricades or engage in the smuggling of illegal goods. Some of them would even attack travelers.}}
+
+==Stats==
+{{Enemy data
+|HP = 291, 2086, 13202, 51976, 125025, 192604
+|ATK = 43, 202, 627, 1557, 2343, 2684
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.3
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[Qingbo Stockade]]
+*[[Energy Alluvium: Qingbo Stockade]]
+|drops = {{I|Young Bamboo Sprout}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

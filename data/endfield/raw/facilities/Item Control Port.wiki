@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Item Control Port
+|filename = item_log_conditioner
+|images = Item Control Port icon.png:Icon;
+Item Control Port.png:Full
+|cnname = 物品准入口
+|tcname = 物品准入口
+|jpname = 通過制御口
+|krname = 아이템 컨트롤 포트
+|spname = Puerto de control de objetos
+|runame = Порт проверки предметов
+|type = Logistics Units
+|rarity = 2}}
+'''Item Control Port''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An adjustable belt logistics unit that controls the type and quantity of items passed through the belt.|Sorting creates order.}}
+==Usage==
+An adjustable belt logistics unit that controls the type and quantity of items passed through the belt.
+
+Item Control Ports limit the type and quantity of items allowed to pass through transport belts. Use Item Control Ports in blueprints to mark the type of items to be moved onto various transport belt sections.
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Item Control Port]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:logistics Facilities]]

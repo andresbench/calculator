@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Conduit Inlet
+|filename = item_port_udpipe_loader_1
+|images = Conduit_Inlet_icon.png:Icon;
+Conduit Inlet.png:Full
+|cnname = 暗管入口
+|tcname = 暗管入口
+|jpname = 地下配管（入）
+|krname = 암관 입구
+|spname = Entrada de conducto
+|runame = Подвод трубопровода
+|type = Depot Access
+|rarity = 3
+|power = }}
+'''Conduit Inlet''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An inlet for an underground pipeline. Connect this to a matching Conduit Outlet to transport fluids through it.|The development process of underground pipelines has not been a smooth one. The Tianshi of Wuling once conceptualized Xiranite pipelines. They envisioned Xiranite particles being capable of carrying and encasing fluid molecules to achieve flexible adjustments of flow volume and flow rate. Unfortunately, such amorphous pipelines were never produced due to various safety concerns.}}
+==Usage==
+An inlet for an underground pipeline. Connect this to a matching Conduit Outlet to transport fluids through it.
+
+==Acquisition==
+Requirement : [[AIC Factory Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC II - Conduits]]
+{{RecipeTable|product=Conduit Inlet}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

@@ -1,0 +1,30 @@
+[
+ {
+  "_pageName": "Template:Servers",
+  "Server": "AMEU",
+  "Name": "Americas / Europe",
+  "Timezone": "UTC-5",
+  "TzOffset": "300"
+ },
+ {
+  "_pageName": "Template:Servers",
+  "Server": "AMEU",
+  "Name": "Americas / Europe",
+  "Timezone": "UTC-5",
+  "TzOffset": "300"
+ },
+ {
+  "_pageName": "Template:Servers",
+  "Server": "ASIA",
+  "Name": "Asia",
+  "Timezone": "UTC+8",
+  "TzOffset": "-480"
+ },
+ {
+  "_pageName": "Template:Servers",
+  "Server": "ASIA",
+  "Name": "Asia",
+  "Timezone": "UTC+8",
+  "TzOffset": "-480"
+ }
+]

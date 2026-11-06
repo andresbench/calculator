@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Hot Work Insulation Slab
+|image = Hot_Work_Insulation_Slab.png
+|filename = item_equip_t4_suit_fire_natr01_edc_04
+|cnname = 动火用隔温板
+|tcname = 動火用隔溫板
+|jpname = 火山用遮熱板
+|krname = 열 작업용 단열판
+|spname = Losa aislante para trabajos en caliente
+|runame = Изолированная пластина «Термоудар»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Hot Work Insulation Slab''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment that features excellent fire resistance rating. 
+"Not even lava can melt this stuff, pal. It's like my love for her. It'll never melt through and reach her heart."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Intellect
+|pvalue = +32, +35, +38, +41
+|sstat = Will
+|svalue = +21, +23, +25, +27
+|tstat = All Skill DMG
+|tvalue = +27.6%, +30.4%, +33.1%, +35.9%
+|setname = Hot Work
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Combustion|Combustion}}, the wearer gains {{Color|Heat DMG|3}} +{{Color|50%|1d}} for 10s. After the wearer applies {{G|Corrosion|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} +{{Color|50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Hot Work}}
+{{Gears|state=collapsed}}

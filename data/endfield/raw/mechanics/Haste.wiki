@@ -1,0 +1,51 @@
+{{Status infobox
+|Haste
+|Temporarily raises the movement speed of a target. The number represents the degree of the speed increase. Effects of the same type can stack until hitting the speed cap.
+|image = [[File: Haste icon.png]]
+|type = Buff
+|source = Operator
+}}
+{{Icon|Haste icon|'''Haste'''}} is a type of buff applied to operators in ''[[Arknights: Endfield]]''.
+
+When operators are affected by '''Haste''', they temporarily have increased movement speed. The number represents the degree of the speed increase.
+
+Despite the tooltip stating that Haste can stack, multiple sources of Haste <u>do not stack</u>. Instead, only the most recently applied source takes effect. An operator's movement speed increase from Haste is capped at {{Color|30%|1d}}.
+
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Si
+| content = 
+{{Operator table row/Combat skill
+| icon = Si Talent 1 icon
+| name = Unsoiled Brush
+| type = Talent
+| content = 
+{{Icon|Elite 2|text=false}}: When the {{Color|Inksoul|7}} disappears, allied operators gain {{Color|15%|1d}} {{G|Haste|Haste}} for 5s.<hr>
+{{Icon|Elite 3|text=false}}: When the {{Color|Inksoul|7}} disappears, allied operators gain {{Color|30%|1d}} {{G|Haste|Haste}} for 5s.
+}}
+}}
+{{Operator table row
+| name = Tangtang
+| content = 
+{{Operator table row/Combat skill
+| icon = Tangtang Talent 1 icon
+| name = Fam of Honor
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}}: When within a {{Color|5|1d}}-meter radius of a {{Color|Whirlpool|7}}, allied operators gain {{Color|10%|1d}} {{G|Haste|Haste}} while enemies suffer {{Color|20%|1d}} {{G|Slow|Slow}}. These effects persist for 3s after leaving the area of effect.<hr>
+{{Icon|Elite 2|text=false}}: When within a {{Color|5|1d}}-meter radius of a {{Color|Whirlpool|7}}, allied operators gain {{Color|20%|1d}} {{G|Haste|Haste}} while enemies suffer {{Color|40%|1d}} {{G|Slow|Slow}}. These effects persist for 3s after leaving the area of effect.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''[[Old Deep Water Dies, by Rising Tide It is Denied]]'''
+** {{G|Haste}} keyword added with [[Tangtang]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

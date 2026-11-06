@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Pulser Labs Light Gauntlets
+|image = Pulser_Labs_Light_Gauntlets.png
+|filename = item_equip_t4_suit_pulse_cryst01_hand_02
+|cnname = 脉冲式轻护手
+|tcname = 脈衝式輕護手
+|jpname = パルス式プロテクター
+|krname = 펄스식 경량 보호 장갑
+|spname = Guanteletes ligeros de Laboratorios Pulso
+|runame = Легкие рукавицы «Импульс»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Pulser Labs Light Gauntlets''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with novel designs. 
+This is furnished with multiple micro Arts units that help the wearer choose the spark they want from an entire sea of electrical currents.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +65, +71, +78, +84
+|sstat = Strength
+|svalue = +43, +47, +51, +55
+|tstat = Cryo & Electric DMG
+|tvalue = +19.2%, +21.1%, +23.0%, +24.9%
+|setname = Pulser Labs
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Electrification|Electrification}}, the wearer gains {{Color|Electric DMG|6}}{{Color| +50%|1d}} for 10s. After the wearer applies {{G|Solidification|Solidification}}, the wearer gains {{Color|Cryo DMG|4}}{{Color| +50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Pulser Labs}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,27 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Engineering Division manufacturer icon.png 
+|cnname = 
+|jpname = 
+|krname = 
+|spname =
+|runame =
+|manufacturer= [[Engineering Division]]
+|level= 70
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer's Arts DMG Dealt {{Color|+16%|1d}}.
+When the wearer applies {{G|Nature Burst}} or {{G|Cryo Burst}}, the wearer gains Arts Intensity {{Color|+16|1d}} for 20s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.
+}}
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Designed by Endfield after referencing standard-issue equipment of the YSTF.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries after referencing standard-issue equipment of the YSTF.
+==Obtaining==
+Blueprints for the Gear can be found in [[Snowy Forest]].
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

@@ -1,0 +1,58 @@
+{{Enemy infobox
+|name = Hill Smasher
+|image = Hill_Smasher_sprite.png
+|filename = eny_0054_hsmino
+|cnname = 摧山将
+|tcname = 摧山將
+|jpname = 砕山将
+|krname = 최산장
+|spname = Demoledor de colinas
+|runame = Скалолом
+|type = Cangzei Pirates
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 3
+}}
+'''Hill Smasher''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A criminal armed with a heavy weapon. The name may sound like an exaggerated joke, but the Hill Smasher's quadruple rocket launcher delivers serious firepower. Do not underestimate this foe.}}
+
+==Stats==
+{{Enemy data
+|HP = 1108, 7948, 50295, 198003, 476285, 733731
+|ATK = 59, 279, 868, 2156, 3244, 3717
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 1
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Uses the heavy rocket launcher as a melee weapon. Also shoots fireworks for its ranged attacks. Getting rammed and lifted by its horns might set off some super fireworks!
+*Don't try to backstab it. It has a powerful hind kick!
+|location = *[[Qingbo Stockade]]
+*[[Sword Vault Dale]]
+*[[Energy Alluvium: Qingbo Stockade]]
+|drops = {{I|Qingbo Bamboo Chimes}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

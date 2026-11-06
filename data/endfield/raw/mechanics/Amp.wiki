@@ -1,0 +1,28 @@
+{{Amp nav}}
+{{Status infobox
+|Amp
+|Amped targets deal more DMG of the Element it is Amped for. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Amp icon.png]]
+|type = Buff
+|source = Operator
+}}
+
+{{Icon|Amp icon|'''Amp'''}} is a category of buffs applied to operators in ''[[Arknights: Endfield]]''.
+
+As of October 2026, there are currently no operators who directly apply Amp. When operators are affected by a type of Amp, they temporarily deal more damage for a set duration based on the type applied and the [[Element]] of the incoming damage. The number represents the degree of increase.
+
+An operator that is '''Arts Amped''' is also considered Amped to all Arts Elements. For example, while {{I|Flickers in the Mist|g=0}}'s passive only explicitly states that it is triggered from the wielder gaining {{G|Electric Amp}}, gaining {{G|Arts Amp}} through an equipping {{Icon|Xaihi icon|[[Xaihi]]'s}} Battle Skill {{Color|Distributed DoS|7}} also triggers the weapon's passive.
+
+Multiple sources of '''Amp''' stack <u>additively</u> to form the '''Amp Multiplier''' for that damage instance. The resulting Amp Mulitplier stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+{{Clr}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Heat Amp}} keyword added with [[Antal]].
+** {{G|Electric Amp}} keyword added with [[Antal]].
+** {{G|Cryo Amp}} keyword added with [[Xaihi]].
+** {{G|Nature Amp}} keyword added with [[Xaihi]].
+** {{G|Arts Amp}} keyword added with [[Xaihi]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

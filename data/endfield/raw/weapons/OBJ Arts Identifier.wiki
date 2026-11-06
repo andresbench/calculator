@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = OBJ Arts Identifier
+|rarity = 5
+|images = 
+OBJ_Arts_Identifier icon.png:Icon;
+OBJ_Arts_Identifier.png:Full;
+OBJ_Arts_Identifier max model.png:Max
+|filename = wpn_funnel_0014
+|cnname = O.B.J.术识
+|tcname = O.B.J.術識
+|jpname = O.B.J.術識
+|krname = O.B.J. 아츠 아이덴티티
+|spname = OBJ Identificador de Artes
+|runame = OBJ Идентификатор искусств
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''OBJ Arts Identifier''' is a 5★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard weapon produced by Endfield Industries. Design is provided by the Creative Prototyping Team founded by Senior Arsenal Engineer Opero. Power is determined by the user's mastery in the Originium Arts.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Pursuit: Transcendent Arts|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [M]|Arts Intensity [M]|Pursuit: Transcendent Arts}}
+
+==Basic Info==
+{{Quote|I once had extreme confidence.<br>Confidence for my gifts in wielding the (applicable) Originium Arts. And my gifts were rare indeed, even when taking every caster of Talos-II into account.<br>I believe all of my Arts instructors I had since my childhood could attest to this fact, and there were 23 of them.<br>While my peers struggled to light a candle with an Arts Unit, I was debating the possibility of having an unaided Infected cast the Arts for extended periods time and at higher throughputs... It was a time when I first heard about the legendary Endministrator. Back then, at least, I once believed that I might be capable of achieving the same.<br>My performances in the Originium Arts Proficiency Assessment for the last 20 years, my GPA from the courses on Originium Arts theories during the academy, and the accolades I received for my graduation thesis titled The Gap Between Practical Applications and Theory — A Discourse on the Future of the Originium Arts, only served to strengthen my belief as I spent every year perfecting my Arts. There is a significant possibility that I am a "genius".<br>— And I held on to that belief until I joined the company that I have dreamed about since my childhood. Endfield Industries.<br><br>I could hardly describe my feelings when I underwent the routine integrated physical examinations for new employees and received the report.<br>— My Originium Arts Assimilation was rated as "Standard". How was it possible? They must have made a mistake.<br>At that moment, I felt as though I was struck by the devious Arts of a Djall, and it struck so hard I could fight off the mental fog.<br>When I came to my senses, I went straight to the Human Resources Division and delivered a severe protest. I demanded a re-examination and declared my absolute refusal to accept such a brusque conclusion made without sufficient evidence.<br>The HR Division seemed to be expecting my applications. I was entreated by Martin Marvin Malen in a most sincere manner.<br>"...We understand your requests and have arranged two additional Originium Arts Assimilation testing sessions after three working days. A total of two operators will also be assigned to take the tests with you and serve as control references."<br><br>Three days later —<br>As per the instructions, I cut out a perfect square out of a ferric slab before me with my Arts Unit. I turned around saw the Savra who should be at the opposing testing station. He looked at me curiously.<br>"Is this the way to do it? I thought I had to cut 16 squares with a single move!"<br>This is my confession. I thought I heard him wrongly and subconsciously gazed at the results of his test... And I saw sixteen perfect squares neatly laid out on the floor of the training cabin. The clock stopped at exactly 1 minute and 1 second.<br>— What was I doing at that time? Oh, I just finished calibrating my Arts Unit and thought about the perfect approach to start cutting the slab.<br><br>There was no question that I lost the first trial. It was a complete disaster.<br>But negativity had yet to catch up to me. I simply prepped for the second session. I comforted myself with this thought: "Endfield's a big place, and they have a legend like the Endministrator. A fellow Endfielder of such competence ... should be something to expect."<br>Soon, an accident, or the stroke of Fate ... dawned upon me.<br>While I was checking the Arts Unit, an Ægir youth wearing an elite operator's uniform poked his head out of the training cabin. He simply wagged his tail and undid the safeties of over fifty standard Arts Units. They orbited him like an obedient school of fins as he left the place and mumbled these words: "What a hassle... Shouldn't have come here at the first place..."<br>This was when I first experienced despair from seeing an "unattainable gap" that could never be closed.<br>I learned that even if I mastered every form of Originium Arts to my knowledge, the tracelessness and effortless elegance of his Arts wielding were qualities that I could never achieve...<br>Never, not in my entire lifetime.<br>I suddenly felt that all my achievements in the Arts for the last twenty years only gave me better knowledge of what I witnessed at a particular moment in life — I am not the prodigy. That title belongs to someone else.<br>I chose to forfeit the second testing session.<br><br>After the test, I also gave up joining the Specialist Tech Division. Thankfully, the Arsenal took a good look at my CV and asked if I was interested in doing some weapon engineering.<br>I agreed.<br><br>They said that the classic "Arts Identifier" would be returning for the Arts Unit Obstacle Challenge this year — I received five of those, but I would not mind getting a sixth.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

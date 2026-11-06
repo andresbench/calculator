@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Frontiers Extra O2 Tube
+|image = Frontiers_Extra_O2_Tube.png
+|filename = item_equip_t4_suit_atb01_edc_04
+|cnname = 拓荒增量供氧栓
+|tcname = 拓荒增量供氧栓
+|jpname = パイオニアガス供給強化装置
+|krname = 개척자 증량 산소 공급 장치
+|spname = Tubo de O2 Extra Fronteras
+|runame = Улучшенная кислородная трубка «Колонист»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Frontiers Extra O2 Tube''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Northmarch Support Hub and assembled by the AIC. This equipment improves the wearer's combat capabilities.|The standard Frontiersmate oxygen tube guarantees at least 4 hours of heavy duty underwater operations thanks to its oxygen cycler technology. The upgraded version further extends this duration to 6 hours.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +32, +35, +38, +41
+|sstat = Intellect
+|svalue = +21, +23, +25, +27
+|tstat = Secondary Attribute
+|tvalue = +20.7%, +22.8%, +24.8%, +26.9%
+|setname = Frontiers
+|seteffect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+After the wearer's skill recovers SP, the team gains DMG {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Frontiers}}
+{{Gears|state=collapsed}}

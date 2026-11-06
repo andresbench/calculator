@@ -1,0 +1,81 @@
+-- Value Range
+-- - This module generates a list of values given a min value, max value, and
+--   number of elements in the list.
+-- - Used to populate the weapon skill rank table tooltip given two values.
+
+local p = {}
+
+-- Helper function to convert the string to a number. Removes all plus and percent
+-- characters. i.e. "67%" becomes 67.
+local function parse_value(str)
+	if (not str) then
+		return nil
+	end
+	str = mw.text.trim(str)
+	str = str:gsub("%%", "")
+    str = str:gsub("%+", "")
+    return tonumber(str)
+end
+
+-- Helper function to convert the number to a string. Removes all trailing zeroes
+-- and if there are no decimals, removes the decimal point.
+local function format_value(num)
+	return tostring(num)
+		:gsub("(%..-)0+$", "%1") -- Remove trailing zeros
+		:gsub("%.$", "")		 -- Remove decimal point if any
+end
+
+-- Helper function that creates a struct {plus, percent} that records whether
+-- the string originally contained such characters. Used to return the characters
+-- when constructing the new list.
+local function get_format(str)
+	if (not str) then
+		return {plus = false, percent = false}
+	end
+	str = mw.text.trim(str)
+
+	return {plus = str:sub(1,1) == "+", percent = str:sub(-1) == "%"}
+end
+
+-- Returns a range of values given a min, max, and number of steps.
+local function _get_list(args)
+	local min_str = args[1]
+	local max_str = args[2]
+	
+	local min = parse_value(min_str)
+	local max = parse_value(max_str)
+	local steps = tonumber(args[3]) or 9
+
+    if ((not min) or (not max)) then
+        return ""
+    end
+
+    local step_size = (max - min) / steps
+    local results = {}
+    
+    -- Check formatting of min_str and max_str and use same formatting.
+    local min_format = get_format(min_str)
+	local max_format = get_format(max_str)
+
+	local is_use_plus = min_format.plus or max_format.plus
+	local is_use_percent = min_format.percent or max_format.percent
+	
+	local prefix = is_use_plus and "+" or ""
+	local suffix = is_use_percent and "%" or ""
+    
+    for i = 0, steps do
+    	local value = min + step_size * i
+        results[#results + 1] = string.format("%s%s%s", prefix, format_value(value), suffix)
+    end
+    
+    local output = table.concat(results, ",")
+    mw.log(output)
+    return output
+end
+
+function p.get_list(frame)
+    local args = frame:getParent().args
+    return _get_list(args)
+end
+
+return p

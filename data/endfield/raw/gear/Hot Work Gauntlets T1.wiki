@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Hot Work Gauntlets T1
+|image = Hot_Work_Gauntlets_T1.png
+|filename = item_equip_t4_suit_fire_natr01_hand_03
+|cnname = 动火用手甲·壹型
+|tcname = 動火用手甲·I
+|jpname = 火山用ガントレットⅠ
+|krname = 열 작업용 금속 장갑 · I
+|spname = Guanteletes resistentes al calor T1
+|runame = Рукавицы «Термоудар» К1
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Hot Work Gauntlets T1''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment that features excellent fire resistance rating. 
+"Shh, quiet. You might wake it up."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +65, +71, +78, +84
+|sstat = Intellect
+|svalue = +43, +47, +51, +55
+|tstat = Heat & Nature DMG
+|tvalue = +19.2%, +21.1%, +23.0%, +24.9%
+|setname = Hot Work
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Combustion|Combustion}}, the wearer gains {{Color|Heat DMG|3}} +{{Color|50%|1d}} for 10s. After the wearer applies {{G|Corrosion|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} +{{Color|50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Hot Work}}
+{{Gears|state=collapsed}}

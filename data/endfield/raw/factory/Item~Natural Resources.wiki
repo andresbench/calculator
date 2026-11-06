@@ -1,0 +1,89 @@
+{{Items navigation}}
+'''Natural resources''' are local resources that can be found across the various regions of [[Talos-II]]. These items can then be processed in the [[AIC]] to create diverse products such as [[Usable]]s.
+
+==Mineral Ore==
+{{Quote|{{Color|Mineral ores|1}} are key resources found throughout Talos-II. You must attack and smash certain mineral formations into smaller pieces for gathering. Mineral ores have plenty of uses. Use them to support production and growth of your AIC Factory. They can also be used for crafting special facilities to help in your exploration.|Tutorial}}
+
+Found in various '''Mineral Beds''' in the overworld, Mineral Ores are crucial in AIC production as they can be used to craft [[AIC Product]]s for either progression, for [[Outpost]]s or for [[Usable]]s.
+
+To automatically gather from Mineral Beds, one must have an active Mining Rig planted on top of the Mineral Bed appropriate to each material: {{Item|Portable Originium Rig|g=0}} for Originium Ores, {{Item|Electric Mining Rig|g=0}} for Amethyst Ores, {{Item|Electric Mining Rig Mk II|g=0}} for Ferrium Ores, and {{Item|Hydro Mining Rig|g=0}} for Cuprium Ores.
+
+All Mining Rigs can mine Ores that are at lower tier than the Mining Rig usually mines. For example, an Electric Mining Rig Mk II can mine Originium, Amethyst and Ferrium Ore, but cannot mine Cuprium Ore. The efficiency of the rig is determined by the Mineral Bed's '''Purity''', with a Low Purity bed provide one Ore every 6 seconds (10 ores/minute), while a High Purity one have its mining rate doubled (1 ore every 3s or 20 ores/minute). Some Mineral Beds has its Purity increased by upgrading [[Regional Development]] Level.
+
+Type of Mineral Ores:
+*{{I|Originium Ore|gridview=false}}
+*{{I|Amethyst Ore|gridview=false}}
+*{{I|Ferrium Ore|gridview=false}}
+*{{I|Cuprium Ore|gridview=false}}
+
+==Natural Liquid==
+{{Stub|section}}
+Natural liquids are a crucial Natural Resource for [[Wuling]] AIC Factory, serving various purposes.
+
+These liquids can be pumped from corresponding to them sources by either {{I|Fluid Pump|g=0}} or {{I|Acid Resistant Pump Mk II|g=0}}, at a base rate of 1 unit/second (or 60 units/minute). Most of (for example), water sources in the form of lake or river are infinite and cannot be drained. This excludes any artificial bank for liquids due to their limited space.
+
+Similiar to Mining Rigs, higher tier Fluid Pumps can pump all lower tier liquids than the corresponding Fluid Pump usually does. For example, {{I|Acid Resistant Pump Mk II|g=0}} can pump Precipitation Acid and Clean Water, when {{I|Fluid Pump|g=0}} can pump only Clean Water.
+
+Types of natural liquids:
+*{{I|Clean Water|gridview=false}}
+*{{I|Precipitation Acid|gridview=false}}
+
+==Natural Gas==
+{{Quote|We [[Yinglung Special Task Force|Yinglungs]] spent years charting this place, and found some useful resources in the [[North Wuling Exclusion Zone|Zone]]. Some natural minerals can actually exists as gas, and exhibit rather unique properties and functions.|[[Summit]]}}
+Like natural liquids, Natural gas serves various purposes for [[Wuling]] AIC Factory.
+
+To gather gas, one must deploy a {{I|Gas Extractor|g=0}} above the Gas Vent to extract gas. They do '''not''' need an active power source to function. Like Natural Ores, The efficiency of the extractor is determined by the Gas Vent's '''Purity''', down to the extraction rate (10 units/minute and 20 units/minute for Low and High Purity vents, respectively).
+
+Type of Natural Gas:
+*{{I|Inergen|g=0}}
+*{{I|Xiragen|g=0}}
+
+==Plant==
+Plants grew across the land of overworld that can be gathered directly, and is the main material for Usables through AIC or Crafting.
+
+Type of Plants for production:
+*{{I|Buckflower|gridview=false}}
+*{{I|Citrome|gridview=false}}
+*{{I|Aketine|gridview=false}}
+*{{I|Sandleaf|gridview=false}}
+*{{I|Jincao|gridview=false}}
+*{{I|Yazhen|gridview=false}}
+
+Some plants are unique in a sense that they can't be processed in AIC, but can still be used for Crafting:
+*{{I|Tartpepper|gridview=false}}
+*{{I|Reed Rye|gridview=false}}
+*{{I|Redjade Ginseng|gridview=false}}
+*{{I|Amber Rice|gridview=false}}
+
+Some plants are variants of the plants that has a small chance to replace them as the product from gathering or planting, while also cannot be processed in AIC:
+*{{I|Firebuckle|gridview=false}} - variant of {{I|Buckflower|gridview=false}}
+*{{I|Umbraline|gridview=false}} - variant of {{I|Citrome|gridview=false}}
+*{{I|Fluffed Jincao|gridview=false}} - variant of {{I|Jincao|gridview=false}}
+*{{I|Thorny Yazhen|gridview=false}} - variant of {{I|Yazhen|gridview=false}}
+
+===Seed===
+The core of life of plants, seeds are only obtainable via putting the said Plants into a {{I|Seed-Picking Unit|gridview=false}}.
+
+Seeds from Plants that can be processed can be put into a {{I|Planting Unit|gridview=false}} to produce the corresponding Plant automatically, while those that cannot be processed can only be reproduced manually through planting. Variant Plants ''do not'' have Seeds to reproduce.
+
+===Planting===
+{{Quote|Use the {{Color|Planting|1}} section of {{Color|Crafting|1}} to craft Plots that can be used for planting crops. When you acquire a {{Color|plant|1}}, you will automatically unlock the crafting formula for the {{Color|plot|1}} to grow that plant. When you have a Plot, you can place it in the specified area for planting. Planting has 4 stages: (1) Germinating, (2) Watering, (3) Growing, and (4) Harvesting. 
+A fully grown plant can be harvested.|Tutorial}}
+
+With Seeds, [[Planting|Plots]] obtained from Crafting and a land suitable for farming in [[Originium Science Park]] or [[Wuling City]], the Plants can be grown and gathered naturally by manual planting.
+
+To start, the Seeds need to be Germinated, afterwards the player need to water the Seeds for it to start growing. Growing takes a while (but the time runs offscreen), and afterwards, depending on the Seeds, the Plant will either be ready for harvesting, or need another section of watering.
+
+Do note that Variant Plants can also be obtained this way.
+
+{{#cargo_query:
+| tables = Items
+| fields = CONCAT("<div>'''Tier ", Rarity, "'''</div>", GROUP_CONCAT("{{((}}I{{!}}", Item, "{{))}}" SEPARATOR " "), "")=Naturals
+| where = Type="Naturals"
+| group by = Rarity
+| delimiter = \n
+| format = table
+| class = wikitable
+}}
+
+[[Category:Items]]

@@ -1,0 +1,66 @@
+{{Enemy infobox
+|name = Hazefyre Axe Armorbeast
+|image = Hazefyre_Axe_Armorbeast_sprite.png
+|filename = eny_0098_sandb2
+|cnname = 雾火斧甲兽
+|tcname = 霧火斧甲獸
+|jpname = 霧火斧甲獣
+|krname = 안갯불에 물든 엑스 아머비스트
+|spname = Bestia armadura con hacha de bruma ardiente
+|runame = Тенепламенный бронезверь-секач
+|type = Wildlife
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 10
+}}
+'''Hazefyre Axe Armorbeast''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An axe armorbeast corrupted by hazefyre. The creature has become extremely aggressive, having been driven into a state of rabid insanity. Approach with caution if you do not intend to be split in half by its "great axe".}}
+
+==Stats==
+{{Enemy data
+|HP = 1800, 12916, 81729, 321755, 773964, 1192313
+|ATK = 72, 341, 1061, 2635, 3965, 4543
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *A raging Axe Armorbeast will use its massive horns to chase out enemies intruding its territories. Watch out for its ramming charge.
+*The enemy will perform various large area attacks. Interrupt it when it becomes Enraged.
+|location = *[[The Hub]]
+*[[Power Plateau]]
+|drops = {{I|Axehorn}}
+|addendum = }}
+
+==Overview==
+An [[Axe Armorbeast]] that has been corrupted by hazefyre, the Hazefyre Axe Armorbeast has similar appearance with its counterpart. While they retain most of the abilities of their normal relatives, they also have unique abilities as well: 
+
+*Thrusts its horn upwards after a short step, dealing Physical damage.
+*Rolls to either left or right, dealing Physical damage, but makes it immobile for a short period.
+*Lifts up its limbs before a heavy landing, dealing Physical damage and knock Operators back.
+*After a short delay, charges ahead, dealing Physical damage and knock Operators back. After repeating this two more times, thrusts its horn upwards and deals Physical damage.
+*Lifts up its limbs before a heavy landing, dealing Physical damage. After that, the Hazefyre Axe Armorbeast will charge up, then deals Physical damage to a wide area ahead, and knock Operators back. This ability can be interrupted by skills.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1800, 12916, 81729, 321755, 773964, 1192313 from 1800, 15196, 96152, 321755, 773964, 1192313
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

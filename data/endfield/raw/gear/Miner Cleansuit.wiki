@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Cleansuit
+|image = Miner_Cleansuit.png
+|filename = item_equip_t1_parts_tundra01_body_06
+|cnname = 矿场滤尘衣
+|tcname = 礦場濾塵衣
+|jpname = 鉱山保護服
+|krname = 광산 방진복
+|spname = Traje protector de minero
+|runame = Защитный костюм шахтера
+|rarity = 2
+|artifice = no
+|type = Armor
+|level = 28
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Cleansuit''' is a {{gear|2|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +22.4
+|pstat = Will
+|pvalue = +37
+|sstat = Agility
+|svalue = +25
+|tstat = HP
+|tvalue = +9.0%
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|160}} {{I|Amethyst Component|20}}
+}}
+
+
+
+{{Gears|state=collapsed}}

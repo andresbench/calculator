@@ -1,0 +1,59 @@
+{{Enemy infobox
+|name = Falsewings
+|image = Falsewings_sprite.png
+|filename = eny_0076_agfly
+|cnname = 仿生翅天使
+|tcname = 仿生翅天使
+|jpname = 擬翼アンゲロス
+|krname = 모방아겔로스
+|spname = Alas falsas
+|runame = Лжекрыл
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 11
+}}
+'''Falsewings''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Psuthopteron" (archive ID: ARA07C) has flight capabilities that are wholly unrelated to its morphology. This pattern was originally regarded as biomimicry. However, the modern consensus believes it was a mimic of Terran flying vehicles.}}
+
+==Stats==
+{{Enemy data
+|HP = 111, 795, 5029, 19800, 47629, 73373
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Launches small whirlwinds that can also slow down operators.
+|location = *[[Origin Lodespring]]
+*[[Energy Alluvium: Origin Lodespring]]
+|drops = {{I|Hollow Aggagrit}}
+|addendum = }}
+
+==Overview==
+As one of the basic ranged [[Aggeloi]], Falsewings are slightly more threatening than [[Sting]]s, but it doesn't make them more of the threat; Aside from a shot, which deals Æther damage, they can now create a moving whirlwind that deals continuous Æther damage and slows Operators in it.
+
+==See Also==
+*[[Falsewings α]] - an alternate version of Falsewings.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 111, 795, 5029, 19800, 47629, 73373 from 111, 935, 5917, 19800, 47629, 73373
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

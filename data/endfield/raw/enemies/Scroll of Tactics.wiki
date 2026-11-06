@@ -1,0 +1,56 @@
+{{Enemy infobox
+|name = Scroll of Tactics
+|image = Scroll_of_Tactics_sprite.png
+|filename = eny_0131_inkscroll
+|cnname = 用奇
+|tcname = 用奇
+|jpname = 奇用
+|krname = 용기
+|spname = Pergamino de tácticas
+|runame = Свиток тактики
+|type = Apparition
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 2
+}}
+'''Scroll of Tactics''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An apparition enlightened by Si. Master of battle, no stranger to deception. Bearer of arms, and defender of peace.}}
+
+==Stats==
+{{Enemy data
+|HP = 166, 1192, 7544, 29700, 71443, 110060
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *The thrown halberds create Ink Pools when they land. These pools can apply an Ink Mark on operators who step on them. Try to avoid them.
+|location = *[[Si's Painting]]
+*[[Energy Alluvium: Si's Painting]]
+|drops = {{I|Ink Droplet}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

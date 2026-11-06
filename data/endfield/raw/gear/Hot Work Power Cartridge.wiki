@@ -1,0 +1,41 @@
+{{Gear infobox
+|name = Hot Work Power Cartridge
+|image = Hot_Work_Power_Cartridge.png
+|filename = item_equip_t4_suit_fire_natr01_edc_03
+|cnname = 动火用电力匣
+|tcname = 動火用電力匣
+|jpname = 火山用モバイルバッテリー
+|krname = 열 작업용 전력 상자
+|spname = Cartucho de energía resistente al calor
+|runame = Картридж энергии «Термоудар»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = *Purchase: Wuling Stock Redistribution
+*Stock Redistribution Terminal Upgrade
+}}
+'''Hot Work Power Cartridge''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment that features excellent fire resistance rating. 
+"Someone heard a song at that very volcano."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +32, +35, +38, +41
+|sstat = Intellect
+|svalue = +21, +23, +25, +27
+|tstat = Arts Intensity
+|tvalue = +41.4, +45.5, +49.7, +53.8
+|setname = Hot Work
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Combustion|Combustion}}, the wearer gains {{Color|Heat DMG|3}} +{{Color|50%|1d}} for 10s. After the wearer applies {{G|Corrosion|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} +{{Color|50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Hot Work}}
+{{Gears|state=collapsed}}

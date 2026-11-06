@@ -1,0 +1,72 @@
+{{Enemy infobox
+|name = Bonekrusher Pyromancer
+|image = Bonekrusher_Pyromancer_sprite.png
+|filename = eny_0046_lbshamman
+|cnname = 碾骨焰术师
+|tcname = 碾骨焰術師
+|jpname = ボーンクラッシャーの炎術師
+|krname = 본 크러셔 염술사
+|spname = Piromante Rompehuesos
+|runame = Пиромант Костоломов
+|type = Landbreakers
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 4
+}}
+'''Bonekrusher Pyromancer''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker who can wield the Originium Arts of Evocation. Pyromancers are extremely dangerous as they can easily ignite the battlefield with their fiery arts.}}
+
+==Stats==
+{{Enemy data
+|HP = 761, 5465, 34578, 136127, 327446, 504440
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 160
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 7
+|Weight = 1.5
+|wphysical = 1
+|wfire = 0.5
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has powerful ranged attacks that deal Heat DMG, but it has poor mobility.
+*This enemy causes hazefyre to erupt from the ground to deal Heat DMG. Try to dodge the attack.
+*Instantly teleports somewhere far away when opponents get too close.
+|location = *[[The Hub]]
+*[[Valley Pass]]
+*[[Originium Science Park]]
+*[[Origin Lodespring]]
+*[[Power Plateau]]
+*[[Energy Alluvium: Originium Science Park]]
+|drops = {{I|Cartilage Bit}}
+|addendum = }}
+
+==Overview==
+As Bonekrushers trained with Originium Arts, contrary to what was used as enhancement of the Bonekrushers, Bonekrusher Pyromancers are known from their long range fire attacks, allowing them to burn the defense from a distance:
+
+*Fires one fireball, dealing Heat damage and {{G|Heat Infliction}}. This is followed by another, and lastly three fireballs at once, dealing Heat damage and {{G|Heat Infliction}}.
+*Erupts three areas near Operators, dealing Heat damage and {{G|Heat Infliction}}.
+*Thrusts their staff forward, followed by a slam, dealing Heat damage and {{G|Heat Infliction}}.
+*After a charge up, thrusts their staff into the ground and erupts the ground around, dealing Heat damage, {{G|Heat Infliction}} and knock Operators back. This ability can be interrupted by skills.
+
+Bonekrusher Pyromancers may also teleport away randomly if engaged in melee.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 761, 5465, 34578, 136127, 327446, 504440 from 761, 6429, 40680, 136127, 327446, 504440
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

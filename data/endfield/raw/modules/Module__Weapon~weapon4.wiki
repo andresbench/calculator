@@ -1,0 +1,16 @@
+local data={
+	["Aggeloslayer"]={name="Aggeloslayer", class="Polearm"},
+	["Contingent Measure"]={name="Contingent Measure", class="Sword"},
+	["Florescent Roc"]={name="Florescent Roc", class="Orbiter"},
+	["Grand Finale"]={name="Grand Finale", class="Sword"},
+	["Howling Guard"]={name="Howling Guard", class="Guns"},
+	["Hypernova Auto"]={name="Hypernova Auto", class="Sword"},
+	["Industry 0.1"]={name="Industry 0.1", class="Great Sword"},
+	["Long Road"]={name="Long Road", class="Guns"},
+	["Oathborn"]={name="Oathborn", class="Great Sword"},
+	["Pathfinder's Beacon"]={name="Pathfinder's Beacon", class="Polearm"},
+}
+for k, v in pairs(data) do
+	v.star=(4)
+end
+return data

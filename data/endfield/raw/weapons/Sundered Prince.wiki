@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Sundered Prince
+|rarity = 6
+|images = 
+Sundered_Prince icon.png:Icon;
+Sundered_Prince.png:Full;
+Sundered_Prince max model.png:Max
+|filename = wpn_claym_0008
+|cnname = 破碎君王
+|tcname = 破碎君王
+|jpname = 破砕君主
+|krname = 분쇄의 군주
+|spname = Príncipe desgarrado
+|runame = Растерзанный принц
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Sundered Prince''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A special limited-release weapon from the Witching Hour. The appearance of the greatsword is probably based on an ancient legend. It seems capable of ripping wails of anguish out of the realm of dreams.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Crusher: Princely Deterrence|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [L]|Critical Rate [L]|Crusher: Princely Deterrence}}
+
+==Basic Info==
+{{Quote|The Sarkaz was a mountain. He picked me up with one hand and stomped towards a less conspicuous place in Seš'qa.<br>The children nearby pointed at us excitedly. They jabbered to their parents about what they saw and probably mistook this altercation as an audience moment featured in the "Parade of the Royal Courts". I was the "lucky" guy who got to interact with the Kings of the Royal Court.<br>I was also just as excited when my old man brought me to this flying theme park for the first time.<br>But now, it felt as though I was about to be executed by this emotionless and silent Sarkaz warrior.<br>"SORRY! I should've bought a ticket!"<br>"..."<br>I didn't know if I would end up like the victim shown in the oldies. I could not remember its title, but the poor lad was completely drained of all his blood by an elegant Vampire to fill his dinner goblet.<br>"I ... I had fun at this place when I was a kid! 'Errant's Grand Adventure' was my favorite attraction! I just wanna relive my childhood again!"<br>"..."<br>I wondered if I would end up like the guy shown in super popular "Records of the Kazdelian Wars" manga. The dude was chopped to pieces by a sword as long as the dude himself, thrown into a furnace for fuel, and burned to raging hot ash that scattered to the winds!<br>"NO! PLEASE! I CONFESS! I pick-pocketed parents distracted by screaming kids when they crowded up at the ticket booths! I'M SORRY!"<br>"..."<br>That did not work. Perhaps my real intent was already foretold by a Cyclops who secretly dwelt in this City of Witchcraft. That would be the end of me! To hold on to dear life, I decided to spill everything!<br>"STAAAAHHHP! I'LL TELL YOU THE TRUTH! I'm completely broke! And I'm a ... a damn criminal! I might have schemed to steal a creator-signed 'Sundered Prince' from the Witching Hour flagship store just before Seš'qa Open Day ends! But that's just an evil plot! You caught me right after I stepped into Seš'qa! None of my plot ever happened! I PROMISE! I SWEAR!"<br>"Here's the guy. A real squealer this one."<br>I crumpled to the floor with a resounding thud. The room was dark. I carefully opened my eyes and found myself upon a soft and well-fashioned sofa instead of the cold, hard floors of a dungeon.<br>"Welcome back, my brave adventurer."<br>A Sarkaz recited the classic line of Errant's Grand Adventure as she took the seat behind a simple stone table. She was decked out in a fine business suit, leather shoes, and a parade mask.<br><br>"Mr. Maxim from Asphalt Roundabout. Sixteen years have passed since you last visited Seš'qa. Nevertheless, we have held on to your prize."<br>Wait. I thought the host of the "Errant's Grand Adventure" was supposed to roleplay as a mysterious diviner witch wearing an ancient courtly dress. Before I could sort out my confusion, a load of bad memories that I had always avoided suddenly surged within me.<br>I completed the "Errant's Grand Adventure" and could finally exchange my winnings for the final "Treasure from the Lord of Fiends" — a most intricately crafted toy sword. It was my childhood obsession. But I missed the final window for prize exchange when the bells tolled and signaled the end of the Open Day. My old man tried to comfort me and said we'd visit again when the flying city of Seš'qa returns.<br>But our days at La Fantoma didn't last till the return of Seš'qa. My old man told me that we were broke and gotta head to the Asphalt Roundabout to "dodge the collectors". Of course, I never became a fearless adventurer. Instead, I turned into a petty thief, a dirty smuggler, and a scummy fraud... I only revisited this place because I thought there was a killing to be made.<br>The Sarkaz then removed the cloth to reveal the prize under it. It sure wasn't a toy sword that blinked and flickered when you pressed a button. It was an actual "Sundered Prince"! An authentic blade painstakingly fashioned by the witch-crafters! Not only that, the Sarkaz manifested a pen out of thin air and signed the weapon for me.<br>"Are ... are you sure? That prize I missed sixteen years ago... It can't be a weapon of such immense value!"<br>"I am quite certain. A weapon of a true adventurer, just as revealed by the divination."<br>"A divination...? Could I ... beg you to divine another reading for me?"<br>"I'm listening."<br>"Will my life ... ever get better?"<br>The Sarkaz looked at me and said something, but the only sound that filled my ears were the tolling of bells that signaled the end of the Open Day that I had not heard for sixteen long years. When I returned to my senses, my legs once again found solid ground. People crowded around me. Everyone, children and grown-ups of every race, looked into the air and waved their goodbyes at the Seš'qa amidst the erupting fireworks. I felt like a young boy again as I gripped my blade. I hoped that the bells tolled a little later. I wanted a sword that flickered and shone when I pressed a button.<br>But no. I received something that I wanted and I knew exactly what to do.<br>My grand adventure was about to begin.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

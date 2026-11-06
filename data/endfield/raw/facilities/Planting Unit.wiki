@@ -1,0 +1,33 @@
+{{Facility infobox
+|name = Planting Unit
+|filename = item_port_planter_1
+|images = Planting Unit icon.png:Icon;
+Planting Unit.png:Full
+|cnname = 种植机
+|tcname = 種植機
+|jpname = 栽培機
+|krname = 재배기
+|spname = Unidad de cultivo
+|runame = Модуль посадки
+|type = Production I
+|rarity = 3
+|power = 20}}
+'''Planting Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A cultivating silo for growing various common plants and crops.|This facility is designed entirely by Endfield Industries. Its cutting edge technologies include real-time monitoring and modulation of silo lighting, temperature, and plant hormone levels.}}
+==Usage==
+A cultivating silo for growing various common plants and crops.
+*Power Use : 20
+{{RecipeTable|facility=Planting Unit|showFacility=false|mode=solid}}
+===Fluid Mode===
+{{RecipeTable|facility=Planting Unit|showFacility=false|mode=fluid}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Planting]]
+*Fluid Mode Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Hydroponics]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Planting Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production I Facilities]]

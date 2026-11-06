@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Torrent Gun Tower
+|filename = item_port_battle_turret_3
+|images = Torrent_Gun_Tower_icon.png:Icon;
+Torrent_Gun_Tower.png:Full
+|cnname = “暴雨”铳械塔
+|tcname = 「暴雨」銃械塔
+|jpname = 「豪雨」銃器塔
+|krname = '폭우' 총기 타워
+|spname = Torre de cañón torrencial
+|runame = Орудийная вышка «Ливень»
+|type = Combat & Support
+|rarity = 5
+|power = 20}}
+'''Torrent Gun Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|10310|7}}
+<b>Attack Interval</b>: {{Color|2|7}}s
+<b>Mode of Attack</b>: Continuously fires Mk Ⅲ energy bolts and an empowered energy bolt for every 6th attack at enemies within range. The bolts deal {{Color|Physical DMG|1}}.|A new gun tower that is strongly recommended by arsenal engineers of Endfield Industries. An engineer ran for miles in a torrential hailstorm. It comes as no surprise that she'd design a weapon platform that unleashes fusillades of extreme devastation.}}
+==Usage==
+
+==Acquisition==
+Construction: Requires Specified Wuling AIC Plan Tech
+{{RecipeTable|product=Torrent Gun Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

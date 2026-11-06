@@ -1,0 +1,69 @@
+{{Enemy infobox
+|name = Bonekrusher Executioner
+|image = Bonekrusher_Executioner_sprite.png
+|filename = eny_0018_lbtough
+|cnname = 碾骨行刑人
+|tcname = 碾骨行刑人
+|jpname = ボーンクラッシャーの処刑人
+|krname = 본 크러셔 처형자
+|spname = Verdugo Rompehuesos
+|runame = Палач Костоломов
+|type = Landbreakers
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 3
+}}
+'''Bonekrusher Executioner''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker armed with a heavy axe. These massive brutes are way more powerful than their common counterparts and can easily damage defensive works or flip over armored vehicles.}}
+
+==Stats==
+{{Enemy data
+|HP = 1108, 7948, 50295, 198003, 476285, 733731
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *His grab attack deals massive DMG. If an operator is grabbed, use another operator's skill to interrupt him and free the grabbed operator.
+*Dodging the charged double axe swings will not be easy. Try to interrupt him instead.
+|location = *[[The Hub]]
+*[[Valley Pass]]
+*[[Origin Lodespring]]
+*[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Shattered Axe Blade}}
+|addendum = }}
+
+==Overview==
+An axe-wielding Bonekrusher, the Bonekrusher Executioner is a strong opponent to tackle, due to their strong attacks that can overwhelm weak defenses:
+
+*Swings with their axe, dealing Physical damage.
+*Conduct an upwards swing, digging rocks out of the ground, landing at five spots which deals Physical damage.
+*Attack with a headbutt, dealing Physical damage and knock Operators back.
+*Slams with their axe after a leap, dealing Physical damage but makes them immobile due to the axe stuck at the ground. This is followed by pulling it out which also deals Physical damage.
+*Attempts to grab an Operator nearby; If success, deals continuous Physical damage. After a charge up, throws the Operator and deals heavy Physical damage. This ability can be interrupted by skills.
+*After a short charge up, swings their axe twice, dealing Physical damage and knock Operators back. This ability can be interrupted by skills.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1108, 7948, 50295, 198003, 476285, 733731 from 1108, 9351, 59170, 198003, 476285, 733731
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

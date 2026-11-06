@@ -1,0 +1,138 @@
+local data={
+	["Test"]={name="Test", color=4, desc="This is a test description. <span style='color:green'>This text is green.</span> This text is about <test>Heat.</span>", link="none"},
+	["Temp"]={name="", desc="temp", link="none"},
+	--General
+	["DMG Type"]={name="DMG Type", color=9, desc="Damage can be divided into <phys>Physical DMG</span>, <arts>Arts DMG</span>, and <aether>Æther DMG</span>.<br><arts>Arts DMG</span> can be further divided into <heat>Heat DMG</span>, <electric>Electric DMG</span>, <cryo>Cryo DMG</span>, and <nature>Nature DMG</span>.", link="none"},
+	["Final Strike"]={name="Final Strike", desc="Final Strike is the last sequence of basic attack. When the controlled Operator's Final Strike hits the enemy, it also deals <stagger>Stagger</span> and restores some Skill Points (SP).", link="none"},
+	["Stagger Node"]={name="Stagger Node", color=10, desc="Some powerful enemies have <stagger>Stagger Nodes</span>. Deal enough <stagger>Stagger</span> to reach the <stagger>Stagger Nodes</span> to interrupt such enemies and make them stumble.", link="none"},
+	["SP Return"]={name="SP Return", desc="After spending SP and meeting certain criteria, some of the SP spent will be returned.<br>SP Return is not \"SP Recovery\" and does not activate SP Recovery-triggered effects. Spending returned SP does not gain Ultimate Energy.", link="none"},
+	["DMG Over Time"]={name="DMG Over Time", desc="DMG over time cannot trigger critical hits.", link="none"},
+	["Fixed DMG"]={name="Fixed DMG", color=9, desc="Fixed DMG ignores the target's DEF and resistances. The amount of Fixed DMG is not changed by any increase or reduction effects.", link="none"},
+	-- General Physical Status and Arts Stuff
+	["Status Level"]={name="Status Level", color=9, desc="Status Level is the number of <phys>Vulnerable</span> or <arts>Arts Infliction</span> stacks (max 4) <u>consumed</u> when triggering a <phys>Physical Status</span> or <arts>Arts Reactions</span>. The higher the <arts>Status Level</span>, the stronger the resulting <phys>Physical Status</span> or <arts>Arts Reactions</span>.", link="none"},
+	["Debuff Consumption"]={name="Debuff Consumption", desc="Various Physical and Arts debuffs can be ended early. For example, <icrush><phys>Crush</span> consumes <ivulnerable><phys>Vulnerable</span> debuffs, while <icombust><heat>Combustion</span> consumes <arts>Arts Infliction</span> debuffs.", link="none"},
+	["Absorb"]={name="Absorb", desc="A way to end a Physical or Arts debuff early. <arts>Absorb</span> is not the same as <u>consume</u>.", link="none"},
+	--Physical Stuff
+	["Physical Status"]={name="Physical Status", color=1, desc="Physical Statuses refer to physical debuffs applied to the enemy. They include: <ilift><phys>Lifted</span>, <iknockdown><phys>Knocked Down</span>, <icrush><phys>Crushed</span>, and <ibreach><phys>Breached</span>.", link="Physical Status"},
+	["Vulnerable"]={icon="<ivulnerable>", name="Vulnerable", title="Vulnerable", color=1, desc="Hitting an enemy for the first time with a skill with <phys>Physical Status</span> applies <ivulnerable><phys>Vulnerable</span> instead of the actual Physical Status.<br>A <phys>Vulnerable</span> enemy can be <ilift><phys>Lifted</span> and <iknockdown><phys>Knocked Down</span> to add more Vulnerable stacks (up to 4). Hitting a Vulnerable enemy with <icrush><phys>Crush</span> or <ibreach><phys>Breach</span> will <u>consume</u> the Vulnerable stacks.", link="Vulnerability"},
+	["Lift"]={icon="<ilift>", name="Lift", title="Physical Status: Lift", color=1, desc="Applies <ivulnerable><phys>Vulnerable</span> on an enemy. If the enemy is already <ivulnerable><phys>Vulnerable</span>, then add 1 stack of <ivulnerable><phys>Vulnerable</span>, and deal <phys>Physical DMG</span> and <stagger>Stagger</span>.", link="Lift"},
+	["Knock Down"]={icon="<iknockdown>", name="Knock Down", title="Physical Status: Knock Down", color=1, desc="Applies <ivulnerable><phys>Vulnerable</span> on an enemy. If the enemy is already <ivulnerable><phys>Vulnerable</span>, then add 1 stack of <ivulnerable><phys>Vulnerable</span>, and deal <phys>Physical DMG</span> and <stagger>Stagger</span>.", link="Knock Down"},
+	["Crush"]={icon="<icrush>", name="Crush", title="Physical Status: Crush", color=1, desc="Applies <ivulnerable><phys>Vulnerable</span> on an enemy. If the enemy is already <ivulnerable><phys>Vulnerable</span>, then consume all <ivulnerable><phys>Vulnerable</span> stacks and deal massive <phys>Physical DMG</span>.", link="Crush"},
+	["Breach"]={icon="<ibreach>", name="Breach", title="Physical Status: Breach", color=1, desc="Applies <ivulnerable><phys>Vulnerable</span> on an enemy. If the enemy is already <ivulnerable><phys>Vulnerable</span>, then consume all <ivulnerable><phys>Vulnerable</span> stacks, deal <phys>Physical DMG</span>, and temporarily increase the <phys>Physical DMG</span> taken by the enemy.", link="Breach"},
+	--Arts Inflictions
+	["Arts Infliction"]={name="Arts Infliction", color=9, desc="<arts>Arts Inflictions</span> are special Arts debuff inflicted upon the enemy. There are 4 Elements of Arts Inflctions: <iheat><heat>Heat Infliction</span>, <ielectric><electric>Electric Infliction</span>, <icryo><cryo>Cryo Infliction</span>, and <inature><nature>Nature Infliction</span>.<br>Up to 4 stacks of <arts>Arts Inflictions</span> of the same Element can be applied.", link="Arts Infliction"},
+	["Heat Infliction"]={icon="<iheat>", name="Heat Infliction", title="Arts Infliction: Heat", color=4, desc="<iheat><heat>Heat Infliction</span> is a type of <arts>Arts Infliction</span>.<br>Up to 4 stacks of <iheat><heat>Heat Infliction</span> can be applied and stacking triggers <heat>Heat Burst</span>.<br>A <arts>non-Heat Infliction</span> (<ielectric>/<icryo>/<inature>) + <iheat><heat>Heat Infliction</span> = <icombust><heat>Combustion</span>", link="Heat Infliction"},
+	["Electric Infliction"]={icon="<ielectric>", name="Electric Infliction", title="Arts Infliction: Electric", color=7, desc="<ielectric><electric>Electric Infliction</span> is a type of <arts>Arts Infliction</span>.<br>Up to 4 stacks of <ielectric><electric>Electric Infliction</span> can be applied and stacking triggers <electric>Electric Burst</span>.<br>A <arts>non-Electric Infliction</span> (<iheat>/<icryo>/<inature>) + <ielectric><electric>Electric Infliction</span> = <ielectrify><electric>Electrification</span>", link="Electric Infliction"},
+	["Cryo Infliction"]={icon="<icryo>", name="Cryo Infliction", title="Arts Infliction: Cryo", color=5, desc="<icryo><cryo>Cryo Infliction</span> is a type of <arts>Arts Infliction</span>.<br>Up to 4 stacks of <icryo><cryo>Cryo Infliction</span> can be applied and stacking triggers <cryo>Cryo Burst</span>.<br>A <arts>non-Cryo Infliction</span> (<iheat>/<ielectric>/<inature>) + <icryo><cryo>Cryo Infliction</span> = <isolidify><cryo>Solidification</span>", link="Cryo Infliction"},
+	["Nature Infliction"]={icon="<inature>", name="Nature Infliction", title="Arts Infliction: Nature", color=6, desc="<inature><nature>Nature Infliction</span> is a type of <arts>Arts Infliction</span>.<br>Up to 4 stacks of <inature><nature>Nature Infliction</span> can be applied and stacking triggers <nature>Nature Burst</span>.<br>A <arts>non-Nature Infliction</span> (<iheat>/<ielectric>/<icryo>) + <inature><nature>Nature Infliction</span> = <icorrosion><nature>Corrosion</span>", link="Nature Infliction"},
+	--Arts Reacions
+	["Arts Reaction"]={name="Arts Reaction", title="Arts Reaction", color=9, desc="<arts>Arts Reactions</span> are Arts debuffs that can be applied to the enemy. They include: <icombust><heat>Combustion</span>, <ielectrify><electric>Electrification</span>, <isolidify><cryo>Solidification</span>, and <icorrosion><nature>Corrosion</span>.", link="Arts Reaction"},
+	["Combustion"]={icon="<icombust>", name="Combustion", title="Arts Reaction: Combustion", color=4, desc="An enemy with <icombust><heat>Combustion</span> takes <heat>Heat DMG</span> over time.<br><icombust><heat>Combustion</span> = A <arts>non-Heat Infliction</span> (<ielectric>/<icryo>/<inature>) + <iheat><heat>Heat Infliction</span>", link="Combustion"},
+	["Electrification"]={icon="<ielectrify>", name="Electrification", title="Arts Reaction: Electrification", color=7, desc="An enemy with <ielectrify><electric>Electrification</span> takes more <arts>Arts DMG</span>.<br><ielectrify><electric>Electrification</span> = A <arts>non-Electric Infliction</span> (<iheat>/<icryo>/<inature>) + <ielectric><electric>Electric Infliction</span>", link="Electrification"},
+	["Solidification"]={icon="<isolidify>", name="Solidification", title="Arts Reaction: Solidification", color=5, desc="An enemy with <isolidify><cryo>Solidification</span> cannot move, and applying <ivulnerable><phys>Vulnerable</span> or a <phys>Physical Status</span> to the enemy triggers the <ishatter><cryo>Shatter</span> effect.<br><isolidify><cryo>Solidification</span> = A <arts>non-Cryo Infliction</span> (<iheat>/<ielectric>/<inature>) + <icryo><cryo>Cryo Infliction</span>", link="Solidification"},
+	["Corrosion"]={icon="<icorrosion>", name="Corrosion", title="Arts Reaction: Corrosion", color=6, desc="An enemy with <icorrosion><nature>Corrosion</span> gradually loses resistance against all Elements.<br><icorrosion><nature>Corrosion</span> = A <arts>non-Nature Infliction</span> (<iheat>/<ielectric>/<icryo>) + <inature><nature>Nature Infliction</span>", link="Corrosion"},
+	--Arts Burst
+	["Arts Burst"]={name="Arts Burst", color=9, desc="<arts>Arts Bursts</span> are triggered by stacking <arts>Arts Inflictions</span> of the same Elements. They include <heat>Heat Burst</span>, <electric>Electric Burst</span>, <cryo>Cryo Burst</span>, and <nature>Nature Burst</span>.", link="Arts Burst"},
+	["Heat Burst"]={name="Heat Burst", title="Arts Burst: Heat", color=4, desc="<heat>Heat Burst</span> = <iheat><heat>Heat Infliction</span> + <iheat><heat>Heat Infliction</span><br>Applies 1 stack of <iheat><heat>Heat Infliction</span> and deals <heat>Heat DMG</span>", link="Heat Burst"},
+	["Electric Burst"]={name="Electric Burst", title="Arts Burst: Electric", color=7, desc="<electric>Electric Burst</span> = <ielectric><electric>Electric Infliction</span> + <ielectric><electric>Electric Infliction</span><br>Applies 1 stack of <ielectric><electric>Electric Infliction</span> and deals <electric>Heat DMG</span>", link="Electric Burst"},
+	["Cryo Burst"]={name="Cryo Burst", title="Arts Burst: Cryo", color=5, desc="<cryo>Cryo Burst</span> = <icryo><cryo>Cryo Infliction</span> + <icryo><cryo>Cryo Infliction</span><br>Applies 1 stack of <icryo><cryo>Cryo Infliction</span> and deals <cryo>Cryo DMG</span>", link="Cryo Burst"},
+	["Nature Burst"]={name="Nature Burst", title="Arts Burst: Nature", color=6, desc="<nature>Nature Burst</span> = <inature><nature>Nature Infliction</span> + <inature><nature>Nature Infliction</span><br>Applies 1 stack of <inature><nature>Nature Infliction</span> and deals <nature>Nature DMG</span>", link="Nature Burst"},
+	--Amp
+	["Amp"]={icon="<iamp>", name="Amp", title="Amp", color=9, desc="Amped targets deal more DMG of the Element it is Amped for. The number represents the degree of increase. Effects of the same type can stack.", link="Amp"},
+	["Arts Amp"]={icon="<iartsamp>", name="Arts Amp", title="Arts Amp", color=9, desc="Arts Amped targets temporarily deal more <arts>Arts DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Arts Amp"},
+	["Heat Amp"]={icon="<iheatamp>", name="Heat Amp", color=4, desc="Heat Amped targets temporarily deal more <heat>Heat DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Heat Amp"},
+	["Electric Amp"]={icon="<ielecticamp>", name="Electric Amp", color=7, desc="Electric Amped targets temporarily deal more <electric>Electric DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Electric Amp"},
+	["Cryo Amp"]={icon="<icryoamp>", name="Cryo Amp", color=5, desc="Cryo Amped targets temporarily deal more <cryo>Cryo DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Cryo Amp"},
+	["Nature Amp"]={icon="<inatureamp>", name="Nature Amp", color=6, desc="Nature Amped targets temporarily deal more <nature>Nature DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Nature Amp"},
+	--Susceptibility
+	["Susceptible"]={icon="<isus>", name="Susceptible", title=" Susceptible", color=9, desc="Susceptible targets temporarily take more DMG of the element it is Susceptible to. The number represents the degree of increase. Effects of the same type can stack.", link="Susceptibility"},
+	["Physical Susceptibility"]={icon="<iphysicalsus>", name="Physical Susceptibility", title="Physical Susceptibility", color=1, desc="Physical Susceptible targets temporarily take more <phys>Physical DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Physical Susceptibility"},
+	["Arts Susceptibility"]={icon="<iartssus>", name="Arts Susceptibility", title="Arts Susceptibility", color=9, desc="Arts Susceptible targets temporarily take more <arts>Arts DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Arts Susceptibility"},
+	["Heat Susceptibility"]={icon="<iheatsus>", name="Heat Susceptibility", title="Heat Susceptibility", color=4, desc="Heat Susceptible targets temporarily take more <heat>Heat DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Heat Susceptibility"},
+	["Electric Susceptibility"]={icon="<ielectricsus>", name="Electric Susceptibility", title="Electric Susceptibility", color=7, desc="Electric Susceptible targets temporarily take more <electric>Electric DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Electric Susceptibility"},
+	["Cryo Susceptibility"]={icon="<icryosus>", name="Cryo Susceptibility", title="Cryo Susceptibility", color=5, desc="Cryo Susceptible targets temporarily take more <cryo>Cryo DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Cryo Susceptibility"},
+	["Nature Susceptibility"]={icon="<inaturesus>", name="Nature Susceptibility", title="Nature Susceptibility", color=6, desc="Nature Susceptible targets temporarily take more <nature>Nature DMG</span>. The number represents the degree of increase. Effects of the same type can stack.", link="Nature Susceptibility"},
+	--Buffs / general positive effects 
+	["Dispel"]={name="Dispel", title="Dispel", color=9, desc="This removes specific debuffs from the Operator.", link="none"},
+	["Link"]={icon="<ilink>", name="Link", title="Link", color=9, desc="Next Battle Skill or Ultimate cast by the team consumes the Link buff and deals more DMG, with Battle Skills getting a higher increase. Effects of the same type can stacks, but with diminishing returns.", link="Link"},
+	["Protect"]={icon="<iprotect>", name="Protect", title="Protect", color=9, desc="Protected targets temporarily take reduced DMG. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies.", link="Protection"},
+	["Shield"]={name="Shield", title="Shield", color=9, desc="The Shield can absorb damage while it is active. Some Shields may only absorb specific type(s) of DMG.", link="Shield"},
+	["Haste"]={icon="<ihaste>", name="Haste", title="Haste", color=9, desc="Temporarily raises the movement speed of a target. The number represents the degree of the speed increase. Effects of the same type can stack until hitting the speed cap.", link="Haste"},
+	--Debuffs / general negative effects
+	["Slow"]={icon="<islow>", name="Slow", title="Slow", color=9, desc="Slowed targets temporarily suffer movement speed reduction. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies.", link="Slow"},
+	["Weaken"]={icon="<iweaken>", name="Weaken", title="Weaken", color=9, desc="Weakend targets temporarily deal reduced DMG. The number represents the degree of reduction. Effects of the same type can stack non-linearly.", link="Weakness"},
+	["Immobilization"]={name="Immobilization", title="Immobilization", color=9, desc="A target affected by Immobilization cannot perform any actions for the duration of this effect.", link="Immobilization"},
+	--Special
+	["Originium Crystal"]={name="Originium Crystal",title="Originium Crystal", color=9, desc="The Endministrator's Combo Skill attaches Originium Crystals to enemies and immobilizes them.", link="none"},
+	["Shatter"]={icon="<ishatter>", name="Shatter", title="Shatter", color=5, desc="To an enemy with active <isolidify><cryo>Solidification</span>, applying <ivulnerable><phys>Vulnerable</span> or <phys>Physical Status</span> effects will <u>consume</u> the <isolidify><cryo>Solidification</span> to trigger Shatter that deals massive <phys>Physical DMG</span>", link="Shatter"},
+	["Razor Clawmark"]={name="Razor Clawmark", title="Razor Clawmark", color=9, desc="Rossi's battle skill applies a special status on the enemy. The affected target will take <phys>Physical DMG</span> over time, and suffers higher Physical DMG Taken and Heat DMG Taken.", link="none"},
+
+	["Sign"]={name="Sign", title="Sign", color=9, desc="Typhoeus gains Signs when she consumes the enemy's <inature><nature>Nature Infliction</span> stacks or when triggering <nature>Nature Burst</span> on enemies. Her combo skill can then convert the Signs into <u>Hunting Arrows</u>.", link="none"},
+	["Hunting Arrow"]={name="Hunting Arrow", title="Hunting Arrow", color=9, desc="When Typhoeus is in her <u>Hovering</u> state, she can consume Hunting Arrows to empower her shots, dealing higher DMG while also triggering <nature>Nature Burst</span>.", link="none"},
+
+	
+}
+
+local function tag_substitution(text)
+	if not text then
+		return text end
+	--test only
+	text = text:gsub("<test>", "[[File:Heat.png|15px|link=]] <span style='color:#FF8E59'>")
+	--start of text color tags substitution
+	text = text:gsub("<stagger>", "<span style='color:#FFAE6B'>")
+	text = text:gsub("<phys>", "<span style='color:#D3B591'>")
+	text = text:gsub("<arts>", "<span style='color:#33C2FF'>")
+	text = text:gsub("<heat>", "<span style='color:#FF8E59'>")
+	text = text:gsub("<electric>", "<span style='color:#FFCC00'>")
+	text = text:gsub("<cryo>", "<span style='color:#30D6E0'>")
+	text = text:gsub("<nature>", "<span style='color:#B4D945'>")
+	text = text:gsub("<aether>", "<span style='color:#C59EFF'>")
+	--start of icon tags substitution
+	text = text:gsub("<ivulnerable>", "[[File:Vulnerable icon.png|15px|link=]]")
+	text = text:gsub("<ilift>", "[[File:Lift icon.png|15px|link=]]")
+	text = text:gsub("<iknockdown>", "[[File:Knock Down icon.png|15px|link=]]")
+	text = text:gsub("<icrush>", "[[File:Crush icon.png|15px|link=]]")
+	text = text:gsub("<ibreach>", "[[File:Breach icon.png|15px|link=]]")
+	
+	text = text:gsub("<iheat>", "[[File:Heat Infliction icon.png|15px|link=]]")
+	text = text:gsub("<ielectric>", "[[File:Electric Infliction icon.png|15px|link=]]")
+	text = text:gsub("<icryo>", "[[File:Cryo Infliction icon.png|15px|link=]]")
+	text = text:gsub("<inature>", "[[File:Nature Infliction icon.png|15px|link=]]")
+	
+	text = text:gsub("<icombust>", "[[File:Combustion icon.png|15px|link=]]")
+	text = text:gsub("<ielectrify>", "[[File:Electrification icon.png|15px|link=]]")
+	text = text:gsub("<isolidify>", "[[File:Solidification icon.png|15px|link=]]")
+	text = text:gsub("<icorrosion>", "[[File:Corrosion icon.png|15px|link=]]")
+	
+	text = text:gsub("<iamp>", "[[File:Amp icon.png|15px|link=]]")
+	text = text:gsub("<iartsamp>", "[[File:Arts Amp icon.png|15px|link=]]")
+	text = text:gsub("<iheatamp>", "[[File:Heat Amp icon.png|15px|link=]]")
+	text = text:gsub("<ielecticamp>", "[[File:Electric Amp icon.png|15px|link=]]")
+	text = text:gsub("<icryoamp>", "[[File:Cryo Amp icon.png|15px|link=]]")
+	text = text:gsub("<inatureamp>", "[[File:Nature Amp icon.png|15px|link=]]")
+	
+	text = text:gsub("<isus>", "[[File:Susceptibility icon.png|15px|link=]]")
+	text = text:gsub("<iphysicalsus>", "[[File:Physical Susceptibility icon.png|15px|link=]]")
+	text = text:gsub("<iartssus>", "[[File:Arts Susceptibility icon.png|15px|link=]]")
+	text = text:gsub("<iheatsus>", "[[File:Heat Susceptibility icon.png|15px|link=]]")
+	text = text:gsub("<ielectricsus>", "[[File:Electric Susceptibility icon.png|15px|link=]]")
+	text = text:gsub("<icryosus>", "[[File:Cryo Susceptibility icon.png|15px|link=]]")
+	text = text:gsub("<inaturesus>", "[[File:Nature Susceptibility icon.png|15px|link=]]")
+	
+	text = text:gsub("<ilink>", "[[File:Link icon.png|15px|link=]]")
+	text = text:gsub("<iprotect>", "[[File:Protect icon.png|15px|link=]]")
+	text = text:gsub("<ihaste>", "[[File:Haste icon.png|15px|link=]]")
+	text = text:gsub("<islow>", "[[File:Slow icon.png|15px|link=]]")
+	text = text:gsub("<iweaken>", "[[File:Weaken icon.png|15px|link=]]")
+	text = text:gsub("<ishatter>", "[[File:Shatter icon.png|15px|link=]]")
+	
+	return text
+end
+
+for _, v in pairs(data) do
+	v.desc = tag_substitution(v.desc)
+	v.name = tag_substitution(v.name)
+	v.icon = tag_substitution(v.icon)
+end
+
+return data

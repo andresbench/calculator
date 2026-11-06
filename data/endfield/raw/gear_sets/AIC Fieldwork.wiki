@@ -1,0 +1,25 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Engineering Division manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 60
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer gain DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|+10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+}}
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by [[Endfield Industries]].
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite MOD Armor
+|image = Eternal_Xiranite_MOD_Armor.png
+|filename = item_equip_t4_suit_usp02_body_06
+|cnname = 长息改装护甲
+|tcname = 長息改裝護甲
+|jpname = 流転改造防具
+|krname = 식양의 숨결 개조 방어구
+|spname = Armadura MOD de Xiranita eterna
+|runame = Улучшенная броня «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite MOD Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+"I disagree with your single-minded addition of synchronized defense Arts units mods... Why protect the entire team when someone gets a scratch? This obsession is unhealthy."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Intellect
+|pvalue = +87, +95, +104, +113
+|sstat = Strength
+|svalue = +58, +63, +69, +75
+|tstat = Combo Skill DMG Bonus
+|tvalue = +20.7%, +22.8%, +24.8%, +26.9%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Miniature Tree on a Hill
+|filename = item_port_pear_blossom_bonsai_1
+|images = Miniature Tree on a Hill icon.png:Icon;
+Miniature Tree on a Hill.png:Full
+|cnname = 山樆小景
+|tcname = 山樆小景
+|jpname = 梨の花の盆栽
+|krname = 배꽃 조경
+|spname = Árbol en miniatura sobre una colina
+|runame = Деревце на холме
+|type = Ornamental
+|rarity = 5
+|power = }}
+'''Miniature Tree on a Hill''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed.|Verdant spring wakes upon the enduring land, yet friends have gone and times have changed.}}
+==Usage==
+An ornamental that can be placed.
+
+==Acquisition==
+Reward: Main Mission
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

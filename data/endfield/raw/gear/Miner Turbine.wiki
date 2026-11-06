@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Turbine
+|image = Miner_Turbine.png
+|filename = item_equip_t2_parts_tundra01_edc_01
+|cnname = 矿场增压轮
+|tcname = 礦場增壓輪
+|jpname = 鉱山過給機
+|krname = 광산 과급기
+|spname = Turbina de minero
+|runame = Турбина шахтера
+|rarity = 3
+|artifice = no
+|type = Kit
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Turbine''' is a {{gear|3|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +10.8
+|pstat = Strength
+|pvalue = +22
+|sstat = Combo Skill DMG Bonus
+|svalue = +22.8%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

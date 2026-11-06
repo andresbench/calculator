@@ -1,0 +1,17 @@
+return {
+	{ field = "uid", type = "String", desc = "" },
+	{ field = "name", type = "String", desc = "" },
+	{ field = "no", type = "Integer", desc = "" },
+	{ field = "bannerType", type = "String", desc = "" },
+	{ field = "server", type = "String", desc = "" },
+	{ field = "upcoming", type = "Boolean", desc = "" },
+	{ field = "operators", type = "List (,) of Page", desc = "" },
+	{ field = "store", type = "List (,) of Integer", desc = "" },
+	{ field = "limited", type = "List (,) of Integer", desc = "" },
+	{ field = "including", type = "String", desc = "" },
+	{ field = "image", type = "String", desc = "" },
+	{ field = "startTime", type = "Datetime", desc = "" },
+	{ field = "endTime", type = "Datetime", desc = "" },
+	{ field = "startTimeGlobal", type = "Datetime", desc = "" },
+	{ field = "endTimeGlobal", type = "Datetime", desc = "" },
+}

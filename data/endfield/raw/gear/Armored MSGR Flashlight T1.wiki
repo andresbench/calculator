@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Armored MSGR Flashlight T1
+|image = Armored_MSGR_Flashlight_T1.png
+|filename = item_equip_t3_suit_str01_edc_02
+|cnname = 重装信使手电·壹型
+|tcname = 重裝信使手電筒·I
+|jpname = 重装トランスポーターライトⅠ
+|krname = 중장갑 전달자 손전등 · I
+|spname = Linterna de MSJR blindado T1
+|runame = Фонарик гонца-воина К1
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Armored MSGR Flashlight T1''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A sturdy hand-held electric lamp. 
+The sharp spike on the other end can also be used to break the bones of those who refuse to talk.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Strength
+|pvalue = +23
+|sstat = Agility
+|svalue = +15
+|tstat = Critical Rate
+|tvalue = +7.3%
+|setname = Armored MSGR
+|seteffect = 3-piece set effect: Wearer's Strength {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, the wearer gains {{Color|30%|1d}} DMG Reduction against all types of DMG.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Armored MSGR}}
+{{Gears|state=collapsed}}

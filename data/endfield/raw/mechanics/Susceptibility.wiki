@@ -1,0 +1,32 @@
+{{Susceptibility nav}}
+{{Status infobox
+|Susceptibility
+|Susceptible targets temporarily take more DMG of the element it is Susceptible to. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Susceptibility icon.png]]
+|type = Debuff
+|source = Operator
+}}
+{{Icon|Susceptibility icon|text=false|nolink=true}} [[Susceptibility]] is a category of debuffs inflicted to enemies in ''[[Arknights: Endfield]]''.
+
+As of October 2026, there are currently no operators who directly apply Susceptibility, although it appears as an icon through enemies affected by {{Icon|Ardelia icon|[[Ardelia]]'s}} Battle Skill {{Color|Dolly Rush|7}} which applies both {{G|Physical Susceptibility}} and {{G|Arts Susceptibility}}. Applying both types of Susceptibility through different operators does not show the icon.
+
+When enemies are inflicted with a type of '''Susceptibility''', they temporarily take more damage for a set duration based on the type inflicted and the [[Element]] of the incoming damage type. The number represents the degree of increase.
+
+An enemy that is considered '''Arts Susceptible''' is also considered Susceptible to all Arts Elements. For example, while {{Icon|Avywenna icon|[[Avywenna]]'s}} {{Icon|Potential 5|{{Color|Carrot and Sharp Stick|7}}}} only explicitly states that it is triggered from enemies that are {{G|Electric Susceptibility|Electric Susceptible}}, applying Arts Susceptibility to the target also triggers this Potential.
+
+Multiple sources of Susceptibility stack <u>additively</u> to form the '''Susceptibility Multiplier''' for that damage instance. The resulting Susceptibility Mulitplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+{{Clr}}
+== Changelog ==
+{{Changelog|
+* '''[[Homecoming]]'''
+** {{G|Nature Susceptibility}} keyword added with [[Arcane]].
+* '''Beta Test II'''
+** {{G|Physical Susceptibility}} keyword added with [[Ardelia]], [[Estella]] and [[Lifeng]].
+** {{G|Arts Susceptibility}} keyword added with [[Ardelia]] and [[Gilberta]].
+** {{G|Heat Susceptibility}} keyword added with [[Antal]].
+** {{G|Electric Susceptibility}} keyword added with [[Antal]] and [[Avywenna]].
+** {{G|Cryo Susceptibility}} keyword added with [[Last Rite]].
+}}
+
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

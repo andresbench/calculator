@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = LYNX Cuirass
+|image = LYNX_Cuirass.png
+|filename = item_equip_t4_suit_heal01_body_02
+|cnname = 生物辅助胸甲
+|tcname = 生物輔助胸甲
+|jpname = 生物補助ベスト
+|krname = 생체 보조 흉갑
+|spname = Coraza LYNX
+|runame = Бронежилет «Рысь»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''LYNX Cuirass''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Rhodes Island and assembled by the AIC. This equipment improves the wearer's combat capabilities.|The medics' preferred equipment. 
+People usually refer to combatants wearing the LYNX Cuirass as "Walking Medkits". These lifesavers often stuff every pocket and holder of their armor with emergency medical supplies.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Will
+|pvalue = +87, +95, +104, +113
+|sstat = Intellect
+|svalue = +58, +63, +69, +75
+|tstat = Treatment Bonus
+|tvalue = +10.3%, +11.4%, +12.4%, +13.5%
+|setname = LYNX
+|seteffect = 3-piece set effect: Wearer's HP Treatment Efficiency {{Color|+20%|1d}}. 
+After the wearer gives HP treatment to an allied target, that target also gains {{Color|15%|1d}} DMG Reduction against all types of DMG for 10s. If the said treatment exceeds the target's Max HP, the target gains {{Color|30%|1d}} DMG Reduction against all types of DMG. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|LYNX}}
+{{Gears|state=collapsed}}

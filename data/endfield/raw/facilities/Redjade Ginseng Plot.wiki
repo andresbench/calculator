@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Redjade Ginseng Plot
+|filename = item_port_soil_sp_3
+|cnname = 琼叶参田块
+|tcname = 瓊葉蔘田塊
+|jpname = 玉葉人参畑
+|krname = 홍옥 인삼 논배미
+|spname = Terreno de ginseng de jade rojo
+|runame = Участок нефритового женьшеня
+|type = Planting
+|rarity = 3
+|power = }}
+'''Redjade Ginseng Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng.|A cultivation plot with various parameters adjusted for growing Redjade Ginseng. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Redjade Ginseng Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

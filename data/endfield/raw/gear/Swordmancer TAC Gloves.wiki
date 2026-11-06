@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Swordmancer TAC Gloves
+|image = Swordmancer_TAC_Gloves.png
+|filename = item_equip_t4_suit_phy01_hand_01
+|cnname = 点剑战术手套
+|tcname = 點劍戰術手套
+|jpname = 宏山点剣戦闘用グローブ
+|krname = 검술사 전술 장갑
+|spname = Guantes TAC de espadachín
+|runame = Тактические перчатки «Мастер меча»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Swordmancer TAC Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|One of the products marketed by the Bureau of Swordmancers in its early days. 
+"Year's end. Brought my blade south. The mountain grew nine heads and roared incessantly. An auspicious day."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Strength
+|pvalue = +65, +71, +78, +84
+|sstat = Will
+|svalue = +43, +47, +51, +55
+|tstat = Physical DMG Bonus
+|tvalue = +19.2%, +21.1%, +23.0%, +24.9%
+|setname = Swordmancer
+|seteffect = 3-piece set effect: Wearer's Stagger Efficiency Bonus {{Color|+20%|1d}}.
+After the wearer applies a {{G|Physical Status|Physical Status}}, the wearer also performs 1 hit that deals 250% ATK of Physical DMG and [{{Color|10|2}} Stagger]. Effect trigger cooldown: 15s.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Swordmancer}}
+{{Gears|state=collapsed}}

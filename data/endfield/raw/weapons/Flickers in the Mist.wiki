@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Flickers in the Mist
+|rarity = 6
+|images = 
+Flickers_in_the_Mist icon.png:Icon;
+Flickers_in_the_Mist.png:Full;
+Flickers_in_the_Mist max model.png:Max
+|filename = wpn_funnel_0017
+|cnname = 雾中微光
+|tcname = 霧中微光
+|jpname = 朧光
+|krname = 안개 속 불빛
+|spname = Destellos en la niebla
+|runame = Всполохи в тумане
+|type = Arts Unit
+|source = Reward: Protocol Pass}}
+'''Flickers in the Mist''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A classical product of Endfield Industries. Numerous units were deployed during the Polar Expedition. These Arts Units have conspicuous golden-yellow coating, making them clearly visible, even in heavy snowstorms.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Efficacy: Overlapping Flickers|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [L]|Electric DMG [L]|Efficacy: Overlapping Flickers}}
+
+==Basic Info==
+{{Quote|Kjersch was snowing again. There were no winds that day. The snowflakes fell right into the tomb. <br>"Too cold," thought the messenger who stood next to the resting place. He trembled and held tightly onto the cup of warm tea in his hands. "But why is it that gentleman ... seems unfazed by the cold?" He lifted his gaze and saw the peaks wrapped in a mist that a flicker of golden ray made through. With squinted eyes he studied it. It was the Arts Unit brought by the Collector, and it looked like very antique as well. <br>Seven years had passed since he accepted this commission. He lost count of how many times he scaled the mountain or how many packages he had delivered. <br>Every package was important. The Collector kept telling him that. Every one of them was the final heirloom for the surviving family of the deceased. A successful delivery must be ensured. <br>The deceased. A distant and cold word. That was what the Collector called the people buried in the snowy mount. But when he entered the cemetery, the Collector would become focused beyond measure. He would tell stories about them as though he was the closest acquaintance that the poor souls ever had. <br>—Beneath a pile of stones wrapped with three colorful ribbons rested a young, energetic Perro. A lad who passed away before he reached the North Pole. <br>—Under a mound of black rocks at the northeast laid a most powerful Forte warrior, one who ran like the wind despite burdened by the heaviest supplies. <br>—As for this heap of gray pebbles, whose ribbons had long lost their colors, it was the cold bed for... <br>Who was it? The messenger's memory failed him. Perhaps only the Collector knew the stories of everyone. <br>"That old gent really seems to know everyone," the messenger mused. It was really odd. Some tombs were not made ten years ago. As per the traditions of Kjersch, older tombs could be identified with their higher mounds. The messenger was willing to bet that the biggest mound was at least half a century old. <br>Perhaps the Collector experienced more than just the Polar Expedition. Perhaps he had more stories than he could even imagine. <br>"The cold bites. Apologies for keeping you here for this long," the Collector suddenly walked over and interrupted the messenger's train of ideas. <br>The messenger quickly shook his head and gave the cup of tea, brewed in advance, to the gent. "Something to ward off the cold, sir. And what would be the package for today? I have to expedite this delivery as we have an incoming snowstorm this afternoon. Things might get difficult if they stop the cable cars." <br>"Just this," the Collector takes up the Arts Unit that flickered with a faint glow. "This is the last, as all the other heirlooms have been delivered. This would be your last hike for the deliveries. Take these Talosian credit notes. Free yourself from the abuses of nature and start a business at the foot of this mountain." <br>The messenger took the thick stack of notes. This seven-year commission finally ended. Yet after all those years of deliveries, he still did not know the Collector's name, where he was from, nor where he intended to go. <br>Perhaps the Collector read the messenger's mind as the latter hesitated for a while. "Do you have question for me?" <br>"Saw right through me, sir. I'm just curious. All these years you told me so many stories from the past, but all of them were about other people. What about you? You took part in many battles. Don't you have stories about yourself?" <br>The Collector became quiet. <br>The snowstorm was at the very threshold of the mountain. The winds grew stronger and lifted his silvery hair. It came with such a force that the messenger could barely see the Collector's face. <br>Quite a moment passed before the messenger heard the Collector's answer. <br>"I regard the expedition ... as a probation of self-deceit." <br>The snow continued. A slow shower of crystalline flakes that fell on heads of the living, and the tombs of the deceased.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

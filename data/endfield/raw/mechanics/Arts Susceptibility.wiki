@@ -1,0 +1,104 @@
+{{Susceptibility nav}}
+{{Status infobox
+|Arts Susceptibility
+|Arts Susceptible targets temporarily take more {{Color|Arts DMG|7}}. The number represents the degree od increase. Effects of the same type can stack.
+|image = [[File: Arts Susceptibility icon.png]]
+|type = Debuff
+|source = Operator
+}}
+{{Icon|Arts Susceptibility icon|text=false|nolink=true}} [[Arts Susceptibility]] is a type of debuff inflicted to enemies in ''[[Arknights: Endfield]]''.
+
+When enemies are inflicted with '''Arts Susceptibility''', they temporarily take more {{Color|Arts DMG|7}}. The number represents the degree of increase.
+
+An enemy that is considered '''Arts Susceptible''' is also considered Susceptible to all Arts Elements. For example, while {{Icon|Avywenna icon|[[Avywenna]]'s}} {{Color|Carrot and Sharp Stick|7}} only explicitly states that it is triggered from enemies that are {{G|Electric Susceptibility|Electric Susceptible}}, applying Arts Susceptibility to the target also triggers this Potential.
+
+Multiple sources of Arts Susceptibility, as well as Susceptibility specific to only Arts [[Element]]s such as {{G|Heat Susceptibility}} stack <u>additively</u> to form the '''Susceptibility Multiplier''' for that DMG instance. The resulting Susceptibility Multiplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Ardelia
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Ardelia
+| name = Dolly Rush
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Hops on Mr. Dolly and rams the target to deal {{Color|Nature DMG|5}}. If the target has {{G|Corrosion}}, then consume the {{G|Corrosion}} and apply {{G|Physical Susceptibility}} and {{G|Arts Susceptibility}} to the target.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Dolly Paradise
+| content = 
+Battle skill {{Color|Dolly Rush|7}} improved: Consuming {{G|Corrosion}} now applies {{G|Physical Susceptibility}} and {{G|Arts Susceptibility}} with effects {{Color|+8%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Gilberta
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Gilberta
+| name = Arcane Staff: Gravity Field
+| type = Ultimate
+| content = 
+'''SKILL DESCRIPTION:''' Creates an {{Color|Anomalous Gravity Field|7}} that instantly deals 1 hit of {{Color|Nature DMG|5}} and applies {{G|Nature Infliction}} to enemies caught in the field. Targets in the {{Color|Anomalous Gravity Field|7}} also suffer from {{G|Slow}} and {{G|Arts Susceptibility}}. The effect of {{G|Arts Susceptibility}} is further increased based on the number of active {{G|Vulnerable|Vulnerability}} stacks on the target.<br>
+{{Color|If a target in the field is Lifted, the Lifted status will persist until the field wears off.|9}}
+}}
+{{Operator table row/Combat skill
+| icon = Potential 2
+| name = Wind Walker
+| content = 
+Ultimate {{Color|Arcane Staff: Gravity Field|7}} improved: When an enemy is affected by the {{Color|Anomalous Gravity Field|7}} of the ultimate, double the {{G|Arts Susceptibility}} increase per {{G|Vulnerable|Vulnerability}} stack. When finalizing this effect, the target is treated as having 1 additional stack of {{G|Vulnerable|Vulnerability}} (total stacks max out at 4).
+}}
+}}
+{{Operator table row
+| name = Purrchena
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Purrchena
+| name = NAUGHTY IS BANNED!
+| type = Ultimate
+| content = 
+'''SKILL DESCRIPTION:''' Purrchena opens 3 {{Color|Big Feline's Prezzies|7}}. Each {{Color|Big Feline's Prezzie|7}} randomly reveals a {{Color|Bomb|7}} or a piece of {{Color|Handicraft|7}}.<br>
+There is a chance that the Prezzie reveals {{Color|Ambassador's Special|7}} that applies {{G|Arts Susceptibility}} and deals {{Color|Physical DMG|1}} as well as additional Stagger to enemies.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Hot Like a BBQ Fire
+| content = 
+Ultimate {{Color|NAUGHTY IS BANNED!|7}} improved: {{Color|Ambassador's Special|7}} DMG Multiplier is increased to {{Color|1.2|1d}} times the original.
+
+{{Color|Ambassador's Special|7}}: {{G|Arts Susceptibility}} is increased to {{Color|1.2|1d}} times the original.
+}}
+}}
+{{Operator table row
+| name = Tangtang
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Ardelia
+| name = IMA WAVERIDAAH!
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Tangtang jumps out from the water and fires a point-blank shot that deals {{Color|Cryo DMG|4}} to the enemy and creates a {{Color|Waterspout|7}}.<br>
+Casting the battle skill also consumes all nearby {{Color|Whirlpools|7}} to create additional {{Color|Waterspouts|7}} and return some SP based on the number of Waterspouts created.
+{{Color|Waterspout|7}}: Applies 1 stack of {{G|Cryo Infliction}} on enemies within range and deals {{Color|Cryo DMG|4}} over time. If the battle skill creates multiple {{Color|Waterspouts|7}}, they also apply {{G|Arts Susceptibility}} to enemies (but not another stack of {{G|Cryo Infliction}}).
+{{Color|DMG dealt by the Waterspout is treated as Battle Skill DMG.|9}}
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Chiefly Vibe
+| content = 
+Battle skill {{Color|IMA WAVERIDAAH!|7}} improved: DMG Multiplier is increased to {{Color|1.1|1d}} times the original. When forming multiple Waterspouts, the resulting {{G|Arts Susceptibility}} effect is increased by {{Color|+5%|1d}}.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Arts Susceptibility}} keyword added with [[Ardelia]] and [[Gilberta]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

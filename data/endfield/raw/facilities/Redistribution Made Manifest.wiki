@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Redistribution Made Manifest
+|filename = item_port_stock_board_1
+|images = Redistribution_Made_Manifest icon.png:Icon;
+Redistribution_Made_Manifest.png:Full;
+|cnname = 调度的具象
+|tcname = 調度的具象
+|jpname = 取引というもの
+|krname = 관리의 형상화
+|spname = Redistribución materializada
+|runame = Материализация перераспределения
+|type = Ornamental
+|rarity = 5}}
+'''Redistribution Made Manifest''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental item. It is stored in the Ornamental panel of the Facility List.|"Lucky Carrot has restocked? Time to dump it all."}}
+==Usage==
+An ornamental item.
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

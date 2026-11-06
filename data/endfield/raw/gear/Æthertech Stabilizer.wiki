@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Æthertech Stabilizer
+|image = Æthertech_Stabilizer.png
+|filename = item_equip_t4_suit_poise01_edc_02
+|cnname = 轻超域稳定盘
+|tcname = 輕超域穩定器
+|jpname = 軽量超域安定器
+|krname = 경량 초자연 안정판
+|spname = Estabilizador de etertecnología
+|runame = Стабилизатор «Эфиртех»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Æthertech Stabilizer''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Portable Æthertech Labs and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Lightweight experimental protective equipment. 
+"Keep the stabilizer on at all times, thank you. This will prevent you from soaring to the skies like an untethered balloon during parameter fluctuations."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Arts Intensity
+|tvalue = +41.4, +45.5, +49.7, +53.8
+|setname = Æthertech
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+After the wearer applies {{G|Vulnerable|Vulnerability}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+8%|1d}} for 15s. This effect can reach 4 stacks. If the target has 4 stacks of {{G|Vulnerable|Vulnerability}}, the wearer gains an additional {{Color|Physical DMG Dealt|1}} {{Color|+16%|1d}} for 10s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Æthertech}}
+{{Gears|state=collapsed}}

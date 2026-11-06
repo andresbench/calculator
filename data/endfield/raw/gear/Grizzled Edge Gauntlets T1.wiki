@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Grizzled Edge Gauntlets T1
+|image = Grizzled_Edge_Gauntlets_T1.png
+|filename = item_equip_t4_suit_crush_fracture_hand_02
+|cnname = 旧锋手甲·壹型
+|tcname = 舊鋒手甲·I
+|jpname = 旧鋒ガントレットⅠ
+|krname = 고검의 잔향 금속 장갑 · I
+|spname = Guanteletes de Filo curtido T1
+|runame = Рукавицы «Потертое лезвие» К1
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Grizzled Edge Gauntlets T1''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A multi-functional piece of defensive equipment developed by Hongshan Swordmancers through the study of lost tech design documents. 
+The supporting functions provided by this pair of gauntlets are slightly less than ideal. There are resources from the past that we could not replicate. This means our Tianshi must think of alternatives.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Agility
+|pvalue = +65, +71, +78, +84
+|sstat = Strength
+|svalue = +43, +47, +51, +55
+|tstat = Arts Intensity
+|tvalue = +34.5, +38, +41.4, +44.9
+|setname = Grizzled Edge
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+When the wearer applies {{G|Crush|Crush}} or {{G|Breach|Breach}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+[6% × Max number of {{G|Vulnerable|Vulnerability|1d}} stacks {{G|Debuff Consumption|consumed}} from one enemy]}} for 20s. If the target already has {{G|Physical Susceptibility|Physical Susceptibility}}, is {{Color|Staggered|2}}, or has attached {{G|Originium Crystal|Originium Crystals}}, increase the aforementioned buff to {{Color|1.5|1d}} times. This buff cannot stack.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Grizzled Edge}}
+{{Gears|state=collapsed}}

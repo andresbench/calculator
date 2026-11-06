@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Sprinkler
+|filename = item_port_squirter_1
+|images = Sprinkler icon.png:Icon;
+Sprinkler.png:Full
+|cnname = 洒水机
+|tcname = 灑水機
+|jpname = スプリンクラー
+|krname = 스프링클러
+|spname = Aspersor
+|runame = Спринклер
+|type = Miscellaneous
+|rarity = 3
+|power = 10}}
+'''Sprinkler''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that sprays fluids at a fixed direction.|Blight pollution of aquifers was a problem that plagued Talosians for years until Hongshan Academy of Sciences provided the definitive water treatment solution.}}
+==Usage==
+A facility that sprays fluids at a fixed direction.
+*Power Use : 10
+==Acquisition==
+*Production: [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Fluid Sprinkler]]
+{{RecipeTable|product=Sprinkler}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:miscellaneous Facilities]]

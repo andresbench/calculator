@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = Brutal Pincerbeast
+|image = Brutal_Pincerbeast_sprite.png
+|filename = eny_0099_slimeml2
+|cnname = 残暴原生钳兽
+|tcname = 殘暴原生鉗獸
+|jpname = 凶暴原生鉗獣
+|krname = 브루탈 핀서비스트
+|spname = Bestia pinza brutal
+|runame = Свирепый зверохват
+|type = Wildlife
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 11
+}}
+'''Brutal Pincerbeast''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A wild creature infected by Originium. The giant beast carries numerous clusters of Originium that exhibit higher levels of activity. It also sports a thicker carapace than its ordinary counterparts.}}
+
+==Stats==
+{{Enemy data
+|HP = 277, 1987, 12574, 49501, 119071, 183433
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *An enemy that shows up in groups. Watch out for their razor sharp forward appendages.
+|location = *[[The Hub]]
+*[[Originium Science Park]]
+*[[Power Plateau]]
+*[[Energy Alluvium: The Hub]]
+|drops = {{I|Slug Meat}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Indigenous Pincerbeast]], but that doesn't make them more of a threat. Brutal Pincerbeasts have similar behavior to their counterpart, they still attack with a cross cut or a leap attack, dealing Physical damage. While preparing an attack, the Originium clusters on their back begin to glow. Sometimes during battle and especially after succesfully landing a hit they will taunt the player by screaming and spitting.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 277, 1987, 12574, 49501, 119071, 183433 from 277, 2338, 14793, 49501, 119071, 183433
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

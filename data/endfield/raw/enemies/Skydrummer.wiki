@@ -1,0 +1,55 @@
+{{Enemy infobox
+|name = Skydrummer
+|image = Skydrummer_sprite.png
+|filename = eny_0082_hsbear
+|cnname = 天鼓
+|tcname = 天鼓
+|jpname = 天鼓
+|krname = 천고
+|spname = Tamborilero celestial
+|runame = Небесный барабанщик
+|type = Wildlife
+|class = Alpha
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 5
+}}
+'''Skydrummer''' is an [[Alpha enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A howlerbeast that grew up in the wilderness. This beast is indigenous to Talos-II. Strong membranes on its head and neck allow it to unleash powerful howling loud enough to shake the hills and forests.}}
+
+==Stats==
+{{Enemy data
+|HP = 1661, 11923, 75442, 297005, 714428, 1100596
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Low HP triggers the enemy's Enraged state. During this state, the enemy performs its charge-up attacks more often, deals more DMG, and gains DMG Reduction. Interrupt the enemy in time to end the Enraged state.
+|location = *[[Energy Alluvium: Test Area]]
+|drops = {{I|Howlerbeast Braid}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Alpha enemies]]

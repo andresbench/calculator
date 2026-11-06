@@ -1,0 +1,68 @@
+{{Enemy infobox
+|name = Bonekrusher Ballista
+|image = Bonekrusher_Ballista_sprite.png
+|filename = eny_0048_hvybow
+|cnname = 碾骨射手
+|tcname = 碾骨射手
+|jpname = ボーンクラッシャーの狙撃手
+|krname = 본 크러셔 사수
+|spname = Balista Rompehuesos
+|runame = Бомбардир Костоломов
+|type = Landbreakers
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 6
+}}
+'''Bonekrusher Ballista''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker armed with a heavy ranged weapon. Ballistas are elites selected from Ambushers who proved their worth. Their heavy bolts are capable of punching right through heavy body armor.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 72, 341, 1061, 2635, 3965, 4543
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 12
+|Weight = 1.5
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Fires a barrage of arrows that deal DMG over time and explode after a delay of several seconds.
+*Despite being armed with a giant ballista, this enemy is also a skilled melee combatant.
+|location = *[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Haze-Soaked Ballista}}
+|addendum = }}
+
+==Overview==
+A Bonekrusher that wields a Ballista, the Bonekrusher Ballista is a strong foe to tackle, due to their abilities that allow them to pummel Operators easily, close or afar:
+
+*Swings their ballista, dealing Physical damage.
+*Swings their ballista twice, dealing Physical damage.
+*Attacks with a shoulder charge, knocking Operators back.
+*Fires one explosive shot, dealing Physical damage, followed by the explosion that deals Physical damage.
+*Fires three consecutive shots, dealing Physical damage.
+*Fires two arrow rains, dealing Heat damage in an area. This ability can be interrupted by skills.
+**Arrows stay on the area for a short period, dealing continuous Heat damage to Operators on them.
+*Leaps towards the controlled Operator and slams, dealing Physical damage. This is followed by a short charge up, afterwards leaps backwards and fires a shot in the process, dealing Physical damage. This ability can be interrupted by skills.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1246, 8942, 56582, 222753, 535821, 825447 from 1246, 10520, 66567, 222753, 535821, 825447
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

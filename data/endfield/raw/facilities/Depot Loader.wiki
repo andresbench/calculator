@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Depot Loader
+|filename = item_port_loader_1
+|images = Depot Loader icon.png:Icon;
+Depot Loader.png:Full
+|cnname = 仓库存货口
+|tcname = 倉庫存貨口
+|jpname = 倉庫搬入口
+|krname = 창고 입력 포트
+|spname = Cargador del depósito
+|runame = Узел загрузки склада
+|type = Depot Access
+|rarity = 3}}
+'''Depot Loader''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A placeable loading point that delivers goods from the AIC Factory to a local depot. The Depot Loader must be placed right next to the Depot Bus.|An upgrade plan was stipulated after the AIC Factory was deployed for a second time in a high-threat area. Blight-resistant steel was used to construct Depot Loaders and Depot Unloaders.}}
+==Usage==
+A placeable loading point that delivers goods from the AIC Factory to a local depot. The Depot Loader must be placed right next to the Depot Bus.
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Depot Bus]]
+{{RecipeTable|product=Depot Loader}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

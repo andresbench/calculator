@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Bonekrusha Heavy Armor
+|image = Bonekrusha_Heavy_Armor.png
+|filename = item_equip_t4_suit_attri01_body_01
+|cnname = 碾骨重护甲
+|tcname = 碾骨重護甲
+|jpname = 骨砕の重防具
+|krname = 본 크러셔 중갑 방어구
+|spname = Armadura pesada Rompehuesos
+|runame = Костоломская тяжелая броня
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Bonekrusha Heavy Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with designs inspired by the Bonekrusher Clan. 
+This heavy suit of armor not only provides decent protection, wildland roamers also regard it as a symbol for a brutal and merciless way of life.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +87, +95, +104, +113
+|sstat = Intellect
+|svalue = +58, +63, +69, +75
+|tstat = Ultimate Gain Efficiency
+|tvalue = +12.3%, +13.6%, +14.8%, +16.0%
+|setname = Bonekrusha
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When the wearer casts a combo skill, the wearer gains 1 stack of {{Color|Bonekrushing Smash|7}} that grants the wearer's next battle skill DMG Dealt {{Color|+30%|1d}}. {{Color|Bonekrushing Smash|7}} can stack 2 time(s).
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Bonekrusha}}
+{{Gears|state=collapsed}}

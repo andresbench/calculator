@@ -1,0 +1,37 @@
+{{Facility infobox
+|name = Grenade Tower
+|filename = item_port_battle_cannon_1
+|images = Grenade Tower icon.png:Icon;
+Grenade Tower.png:Full
+|cnname = 榴弹塔
+|tcname = 榴彈塔
+|jpname = 榴弾塔
+|krname = 유탄 타워
+|spname = Torre de granadas
+|runame = Гранатометная вышка
+|type = Combat & Support
+|rarity = 2
+|power = 10}}
+'''Grenade Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|981|7}}
+<b>Attack Interval</b>: {{Color|3|7}}s
+
+<b>Attack Range</b>: {{Color|12.5|7}} meters
+
+<b>Mode of Attack</b>: Launches grenades in a ballistic trajectory. The grenades detonate above ground near enemies and deal area of effect {{Color|Heat DMG|3}}.|
+A launcher of compressed Originium grenades. Designs are based on small field guns used during the Aggeloi War.}}
+==Usage==
+*<b>ATK</b>: {{Color|981|7}}
+*<b>Attack Interval</b>: {{Color|3|7}}s
+*<b>Attack Range</b>: {{Color|12.5|7}} meters
+*<b>Mode of Attack</b>: Launches grenades in a ballistic trajectory. The grenades detonate above ground near enemies and deal area of effect {{Color|Heat DMG|3}}.
+*Power Use : 10
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Area Denial I]]
+{{RecipeTable|product=Grenade Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

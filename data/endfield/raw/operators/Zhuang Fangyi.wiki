@@ -1,0 +1,268 @@
+{{Operator infobox
+|name = Zhuang Fangyi
+|rarity = 6
+|class = Striker
+|weapon = Arts Unit
+|element = Electric
+|faction = Hongshan Academy of Sciences (HAS)
+|tags = Damage Dealer, Electrify
+|main = Will
+|sub = Intellect
+|starting = 
+|headhunting = chartered
+|quote = Endmin, before I officially come on board, I'd like to say a few words. As Viceroy, I am experienced in administrative duties. However ... here in Endfield, I wish to serve as a regular Tianshi and focus on research.
+|image = 
+Zhuang_Fangyi Splash Art.png
+|filename = chr_0030_zhuangfy
+|cnname = 庄方宜
+|tcname = 莊方宜
+|jpname = ゾアン・ファンイ
+|krname = 장방이
+|spname = Zhuang Fangyi
+|runame = Чжуан Фанъи
+|fullname = 
+|fileno = 
+|theme = Yi
+|illustrator = 
+|jpcv = Houko Kuwashima
+|cncv = Qin Ziyi
+|encv = Molly Zhang
+|krcv = Song Ha-rim
+|gender = Female
+|authentication = Hongshan Academy of Sciences
+|birthdate = August 7
+|race = Kylin
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Standard
+|tactical = Excellent
+|skill = Standard
+|originium = Outstanding
+|exp1 = Erudite
+|exp1d = Erudite: Prodigy 
+Her knowledge is vast and her experience extensive. She is often the first to figure out a solution in difficult times.
+|exp2 = Team Management
+|exp2d = Team Management: Empathizer 
+She is attentive to every detail when welcoming guests and handling various tasks. Working with her is like basking in the spring breeze.
+|hb1 = Charity
+|hb1d = Charity: Guardian 
+A single heart beats within her, yet it alone has space enough for the entire city and everyone living in it.
+|hb2 = Culture
+|hb2d = Culture: Sunrise Industry 
+She has plans for the future of Wuling, and they go far beyond Xiranite technology.
+|prefer = Wuling Tianshi Bureau's Choice
+|matskill = Lone Barge, Flickers in the Mist, Oblivion
+|matstats = Monaihe
+}}
+'''Zhuang Fangyi''' is a 6★ [[Electric]] [[Striker]] [[Operator]] from the [[Hongshan Academy of Sciences]] in ''[[Arknights: Endfield]]''. She is an [[Arts Unit]] user who can deal continuous and massive {{Color|Electric DMG|6}}. Her battle skills can create {{Color|Sunderblades|7}} that unleash Thunder Strikes on the enemy. Her ultimate also greatly enhances her combat capabilities.
+
+==Profile==
+"If you never give up, you never really lose." 
+
+Operator Zhuang Fangyi, serves as the Viceroy of the Wuling Scientific Developmental District, and also the Tianshi in charge of the Novel Xiranite-based Materials Project. Upon recommendation from the HAS, she joined Endfield Industries to conduct rift-related research.
+
+Zhuang Fangyi, a native of Hongshan, demonstrated extraordinary aptitude from an early age and was admitted to the Tianshi Bureau Academies before reaching adulthood with outstanding academic performance. She was later selected for the Xiranite Project due to her exceptional abilities, becoming the youngest member of the Wuling Science Station. Following a disaster that resulted in near-total loss of personnel at the Science Station, she, despite being the most junior member, was appointed to the position of Viceroy, assuming leadership responsibilities and bearing the weight of all Wuling.
+
+Appointed in a time of crisis, she quickly pulled herself together. In just a single decade, she not only built Wuling into a thriving city but also, through trial and error, grew into a dedicated and responsible leader. However, the disaster from a decade ago remains a sword hanging over everyone's heads, constantly reminding her that the peace and prosperity of Wuling City could vanish in an instant.
+
+"So long as we still stand, nothing is truly lost."
+
+==Stats==
+{{Operator data
+|main = Will
+|sub = Intellect
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 93, 160, 227, 293, 326
+|STR = 10.0, 29.0, 49.0, 69.0, 89.0, 99.0
+|AGL = 10.0, 29.0, 49.0, 69.0, 89.0, 99.0
+|INT = 17.01, 39.831, 63.854, 87.877, 111.9, 123.911
+|WIL = 24.742, 58.8, 94.651, 130.502, 166.353, 184.279
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Triphasic Nanoflake x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Battle skill {{Color|Mantra of Sundering|7}} improved: DMG multiplier is increased to {{Color|1.15|1d}} times the original. After entering battle, Zhuang Fangyi's first battle skill casting also creates 1 more {{Color|Sunderblade|7}}.
+{{Color|The additional Sunderblade created by this skill can exceed the Sunderblade creation limit from a single casting of the battle skill.|9}}
+|pot1t = Four Symbols of Harmony
+|pot2 = Will {{Color|+20|1d}}, Battle Skill DMG Dealt {{Color|+15%|1d}}.
+|pot2t = Acuity of Fine Details
+|pot3 = Battle skill {{Color|Mantra of Sundering|7}} improved: After {{G|Debuff Consumption|consuming}} {{G|Electrification|Electrification}}, the battle skill {{G|SP Return|returns}} {{Color|10|1d}} SP. {{Color|Sunderblade|7}} duration {{Color|+10|1d}}s.
+|pot3t = Sense and Response
+|pot4 = Ultimate {{Color|Smiting Tempest|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Absolute Composure
+|pot5 = During the {{Color|Empyrean of Truth|7}} transformation, DMG Dealt by Zhuang Fangyi ignores {{Color|15|1d}} of the enemy's {{Color|Electric Resistance|6}}.
+|pot5t = Storm of Transformation
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Jolting Arts
+|icon= Attack-Artsunit
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Electric DMG|6}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|18|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Electric DMG|6}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Electric DMG|6}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 16%, 18%, 19%, 21%, 22%, 24%, 26%, 27%, 29%, 31%, 33%, 36%
+|stat2= BATK SEQ 2 Multiplier, 24%, 26%, 29%, 31%, 34%, 36%, 38%, 41%, 43%, 46%, 50%, 54%
+|stat3= BATK SEQ 3 Multiplier, 32%, 35%, 39%, 42%, 45%, 48%, 52%, 55%, 58%, 62%, 67%, 72%
+|stat4= BATK SEQ 4 Multiplier, 45%, 50%, 54%, 59%, 63%, 68%, 72%, 77%, 81%, 87%, 93%, 101%
+|stat5= BATK SEQ 5 Multiplier, 48%, 53%, 58%, 62%, 67%, 72%, 77%, 82%, 86%, 92%, 100%, 108%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Mantra of Sundering
+|icon= Skill-Zhuangfangyi
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> {{G|Debuff Consumption|Consumes}} the target's {{G|Electrification|Electrification}} to increase the DMG multiplier of this battle skill and create [{{G|Status Level|Status Level}} of {{G|Electrification|Electrification}} {{G|Debuff Consumption|consumed}} {{Color|+1|7}}] {{Color|Sunderblades|7}}. If the battlefield has fewer than 3 {{Color|Sunderblades|7}}, Mantra of Sundering can still create 1 {{Color|Sunderblade|7}}, even if it does not {{G|Debuff Consumption|consume}} any target's {{G|Electrification|Electrification}}.<br />Zhuang Fangyi then channels all {{Color|Sunderblades|7}} nearby to successively unleash Thunder Strikes on the target, dealing {{Color|Electric DMG|6}} and giving bonus Ultimate Energy, with the final Thunder Strike dealing 6 times the DMG.<br />{{Color|A single battle skill casting can only create a max of 3 Sunderblades.|9}}
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Thunder Strike DMG Multiplier, 20%, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 36%, 39%, 42%, 45%
+|stat3= Total Stagger, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat4= Bonus DMG Multiplier per Status Level of Electrification Consumed, 3%, 4%, 4%, 4%, 5%, 5%, 5%, 6%, 6%, 7%, 8%, 9%
+|stat5= Bonus Ultimate Energy per Thunder Strike, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
+|stat6= Sunderblade Limit, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+|stat7= Sunderblade Duration (s), 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36
+|stat8= During Ultimate: Thunder Strike DMG Multiplier, 36%, 40%, 43%, 47%, 50%, 54%, 58%, 61%, 65%, 69%, 75%, 81%
+|stat9= During Ultimate: Bonus DMG Multiplier per Status Level of Electrification Consumed, 8%, 9%, 10%, 11%, 11%, 12%, 13%, 14%, 15%, 16%, 17%, 18%
+}}
+{{Combat skill
+|name= Breath of Transformation
+|icon= Combo-Zhuangfangyi
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When the controlled operator's {{G|Final Strike|Final Strike}} or Finisher hits an enemy with {{G|Electric Infliction|Electric Infliction}}.<br /><b>SKILL DESCRIPTION:</b> Zhuang Fangyi creates a Xiranblitz Array that attacks the enemy and deals {{Color|Electric DMG|6}}. If the Array hits an enemy that has {{G|Electric Infliction|Electric Infliction}} stack(s), then it will {{G|Debuff Consumption|consume}} the said {{G|Electric Infliction|Electric Infliction}} stack(s), forcibly apply {{G|Electrification|Electrification}}, and give Ultimate Energy based on the number of stacks {{G|Debuff Consumption|consumed}}.<br />If {{G|Electrification|Electrification}} is forcibly applied to an enemy that already has {{G|Electrification|Electrification}}, then apply {{G|Status Level|Status Level}} +1 to the enemy's {{G|Electrification|Electrification}}.
+|stat1= Cooldown, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 17, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 17
+|stat2= DMG Multiplier, 160%, 176%, 192%, 208%, 224%, 240%, 256%, 272%, 288%, 308%, 332%, 360%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat5= Additional Ultimate Energy per Infliction Stack, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat6= During Ultimate: DMG Multiplier, 240%, 264%, 288%, 312%, 336%, 360%, 384%, 408%, 432%, 462%, 498%, 540%
+}}
+{{Combat skill
+|name= Smiting Tempest
+|icon= Ult-Zhuangfangyi
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Transforms into the {{Color|Empyrean of Truth|7}} that grants these enhancements:<br />Zhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt;<br />Battle skill {{Color|Mantra of Sundering|7}} gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies {{G|Electric Infliction|Electric Infliction}} to the target hit.<br />Combo skill {{Color|Breath of Transformation|7}} gains a higher DMG multiplier, cooldown becomes 4 times faster, and effects are applied to enemies within a small area.<br />The first casting of the battle skill {{Color|Mantra of Sundering|7}} does not consume SP nor {{G|Electrification|Electrification}}, and if a target is available, the battle skill is guaranteed to create 3 {{Color|Sunderblades|7}} even if the target has no {{G|Electrification|Electrification}}.
+|stat1= Ultimate Energy Cost, 240, 240, 240, 240, 240, 240, 240, 240, 240, 240, 240, 240
+|stat2= Duration (s), 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25
+|stat3= During Ultimate: BATK SEQ 1 Multiplier, 67%, 73%, 80%, 86%, 93%, 100%, 106%, 113%, 120%, 128%, 138%, 150%
+|stat4= During Ultimate: BATK SEQ 2 Multiplier, 94%, 103%, 112%, 122%, 131%, 140%, 150%, 159%, 168%, 180%, 194%, 210%
+|stat5= During Ultimate: BATK SEQ 3 Multiplier, 134%, 147%, 160%, 174%, 187%, 200%, 214%, 227%, 240%, 257%, 277%, 300%
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Jolting Arts|skill2=Mantra of Sundering|skill3=Breath of Transformation|skill4=Smiting Tempest|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=D96 Steel Sample 4,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Tachyon Screening Lattice,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=D96 Steel Sample 4,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Tachyon Screening Lattice,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Jolting Arts|skill2=Mantra of Sundering|skill3=Breath of Transformation|skill4=Smiting Tempest|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=D96 Steel Sample 4,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Tachyon Screening Lattice,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=D96 Steel Sample 4,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Tachyon Screening Lattice,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Jolting Arts|skill2=Mantra of Sundering|skill3=Breath of Transformation|skill4=Smiting Tempest|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=D96 Steel Sample 4,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Tachyon Screening Lattice,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=D96 Steel Sample 4,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Tachyon Screening Lattice,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Stalwart
+|icon = Will
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Will +10.
+|cond2 = Elite 2
+|desc2 = Operator Will +15.
+|cond3 = Elite 3
+|desc3 = Operator Will +15.
+|cond4 = Elite 4
+|desc4 = Operator Will +20.
+}}
+{{Operator talent
+|name = Force of Nature
+|icon = Zhuang Fangyi Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Battle skill {{Color|Mantra of Sundering|7}} improved: Casting the battle skill grants Zhuang Fangyi {{Color|9%|1d}} {{G|Electric Amp|Electric Amp}} for {{Color|5|1d}}s.
+Scoring hits with the battle skill's Thunder Strike increases this effect by {{Color|+1%|1d}}.
+Every casting of the battle skill {{Color|Mantra of Sundering|7}} again resets this {{G|Electric Amp|Electric Amp}} effect.
+|cond2 = Elite 2
+|desc2 = Battle skill {{Color|Mantra of Sundering|7}} improved: Casting the battle skill grants Zhuang Fangyi {{Color|18%|1d}} {{G|Electric Amp|Electric Amp}} for {{Color|5|1d}}s.
+Scoring hits with the battle skill's Thunder Strike increases this effect by {{Color|+2%|1d}}.
+Every casting of the battle skill {{Color|Mantra of Sundering|7}} again resets this {{G|Electric Amp|Electric Amp}} effect.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Ordained by Heaven
+|icon = Zhuang Fangyi Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Gains a {{Color|9%|1d}} chance of immunity against DMG taken, with each {{Color|Sunderblade|7}} nearby increasing this chance by {{Color|+1%|1d}}.
+After DMG Immunity is triggered, Zhuang Fangyi is also restored for {{Color|9%|1c}} Max HP. The HP restoration effect can only trigger once every {{Color|99|1d}}s.
+|cond2 = Elite 3
+|desc2 = Gains a {{Color|9%|1d}} chance of immunity against DMG taken, with each {{Color|Sunderblade|7}} nearby increasing this chance by {{Color|+1%|1d}}.
+After DMG Immunity is triggered, Zhuang Fangyi is also restored for {{Color|18%|1c}} Max HP. The HP restoration effect can only trigger once every {{Color|99|1d}}s.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Will
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Viceroy Experience
+|icon = MFG-manufacture_power_consume
+|facility = Manufacturing Cabin
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator base skill
+|name = Tianshi Chi Meditation
+|icon = MFG-manufacture_efficiency
+|facility = Manufacturing Cabin
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +30%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_power_consume
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = MFG-manufacture_efficiency
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]''' introduced.
+}}
+
+==Navigation==
+{{Operators_nav}}

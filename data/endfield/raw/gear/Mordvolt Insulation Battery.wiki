@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Mordvolt Insulation Battery
+|image = Mordvolt_Insulation_Battery.png
+|filename = item_equip_t2_suit_wisd01_edc_03
+|cnname = 蚀电屏蔽电池
+|tcname = 蝕電絕緣電池
+|jpname = 蝕電遮断バッテリー
+|krname = 침식 차단 배터리
+|spname = Batería de aislamiento de Mordvolt
+|runame = Изолированная батарея «Мортвольт»
+|rarity = 3
+|artifice = no
+|type = Kit
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Mordvolt Insulation Battery''' is a {{gear|3|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|An extremely durable battery. 
+In Talos-II, emergency repair work in Blighted conditions is an extremely dangerous job. Hence, workers must undergo strict training based on special standards before they are allowed to use batteries in such environments.}}
+
+==Stats==
+{{Gear data
+|defense = +10.8
+|pstat = Intellect
+|pvalue = +21
+|sstat = Critical Rate
+|svalue = +5.2%
+|tstat = 
+|tvalue = 
+|setname = Mordvolt Insulation
+|seteffect = 3-piece set effect: Wearer's Intellect {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Arts DMG|7}} {{Color|+20%|1d}}.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Mordvolt Insulation}}
+{{Gears|state=collapsed}}

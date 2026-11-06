@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Aburrey UV Lamp
+|image = Aburrey_UV_Lamp.png
+|filename = item_equip_t3_suit_atk01_edc_01
+|cnname = 阿伯莉紫光灯
+|tcname = 阿伯莉紫光燈
+|jpname = アブリーUVランプ
+|krname = 아부레이 UV 램프
+|spname = Lámpara UV de Aburrey
+|runame = УФ-лампа «Эберрей»
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Aburrey UV Lamp''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Designed by Triglava Armoury and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Novel protective equipment modified to suit the work environment of the Aburrey Quarry. 
+The engineers worked through the night to slap on mods when work at Aburrey Quarry suddenly involved excavation and digging. This armor now features eyesight and hearing protection.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Strength
+|pvalue = +23
+|sstat = Agility
+|svalue = +15
+|tstat = All Skill DMG
+|tvalue = +19.6%
+|setname = Aburrey's Legacy
+|seteffect = 3-piece set effect: Wearer's Skill DMG {{Color|+24%|1d}}. 
+When the wearer casts a battle skill, combo skill, or ultimate, the wearer gains ATK {{Color|+5%|1d}} for 15s. The buff from each of the three skill types is unique and does not stack with itself.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Aburrey's Legacy}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Jincao Plot
+|filename = item_port_soil_grass_1
+|cnname = 锦草田块
+|tcname = 錦草田塊
+|jpname = 錦草畑
+|krname = 금초 논배미
+|spname = Terreno de Jincao
+|runame = Участок цзиньцао
+|type = Planting
+|rarity = 2
+|power = }}
+'''Jincao Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao and a higher chance of Fluffed Jincao.|A cultivation plot with various parameters adjusted for growing jincao. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Jincao Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

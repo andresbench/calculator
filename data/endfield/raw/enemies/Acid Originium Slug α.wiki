@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = Acid Originium Slug α
+|image = Acid_Originium_Slug_α_sprite.png
+|filename = eny_0100_slimerg2
+|cnname = 酸液源石虫·α
+|tcname = 酸液源石蟲·α
+|jpname = 酸液オリジムシα
+|krname = 산성원석충 · α
+|spname = Babosa de Originio ácida α
+|runame = Едкий ориджиниевый слизень α
+|type = Wildlife
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 12
+}}
+'''Acid Originium Slug α''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A wild creature infected by Originium. This acid Originium slug is more hazardous than its ordinary part. The Originium cluster on its back is gaining higher levels of activity and makes the creature increasingly aggressive.}}
+
+==Stats==
+{{Enemy data
+|HP = 249, 1788, 11316, 44551, 107164, 165089
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *A timid enemy that retreats into its shell to protect itself. It will also mindlessly fire Originium crystals from its body to intimidate its opponents.
+|location = *[[Originium Science Park]]
+*[[Energy Alluvium: The Hub]]
+*[[Energy Alluvium: Snowy Forest]]
+|drops = {{I|Slug Meat}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Acid Originium Slug]], Acid Originium Slugs α have similar appearance to their counterpart, but it doesn't make them more of a threat; They can still shoot out acid that deals Nature damage, or rams and deals Physical damage. They can also get into their shell, which greatly reduce the damage taken, while spewing acid and deals Nature damage at ten spots.
+
+==See Also==
+* [[Firemist Originium Slug]] &ndash; a variant that uses fire based attacks and can explode on death.
+* [[Blazemist Originium Slug]] &ndash; a stronger variant of the Firemist slug.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 249, 1788, 11316, 44551, 107164, 165089 from 249, 2104, 13313, 44551, 107164, 165089
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

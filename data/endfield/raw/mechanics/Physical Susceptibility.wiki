@@ -1,0 +1,138 @@
+{{Susceptibility nav}}
+{{Status infobox
+|Physical Susceptibility
+|Physical Susceptible targets temporarily take more {{Color|Physical DMG|2}}. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Susceptibility icon.png]]
+|type = Debuff
+|source = Operator
+}}
+{{Icon|Physical Susceptibility icon|text=false|nolink=true}} [[Physical Susceptibility]] is a type of debuff inflicted to enemies in ''[[Arknights: Endfield]]''.
+
+When enemies are inflicted with '''Physical Susceptibility''', temporarily take more {{Color|Physical DMG|1}}. The number represents the degree of increase.
+
+Multiple sources of '''Physical Susceptibility''' stack <u>additively</u> to form the '''Susceptibility Multiplier''' for that DMG instance. The resulting Susceptibility Multiplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Ardelia
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Ardelia
+| name = Dolly Rush
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Hops on Mr. Dolly and rams the target to deal {{Color|Nature DMG|5}}. If the target has {{G|Corrosion}}, then consume the {{G|Corrosion}} and apply {{G|Physical Susceptibility}} and {{G|Arts Susceptibility}} to the target.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Dolly Paradise
+| content = 
+Battle skill {{Color|Dolly Rush|7}} improved: Consuming {{G|Corrosion}} now applies {{G|Physical Susceptibility}} and {{G|Arts Susceptibility}} with effects {{Color|+8%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Estella
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Estella
+| name = Distortion
+| type = Combo
+| content = 
+'''COMBO TRIGGER:''' When an enemy suffers {{G|Solidification}}.<br>
+'''SKILL DESCRIPTION:''' Quickly moves to the enemy's side to deal {{Color|Physical DMG|1}} and forcibly {{G|Lift}} enemies in a small area. If the skill hits a target with {{G|Solidification}}, the skill deals additional DMG and applies {{G|Physical Susceptibility}}.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Habitual Delay
+| content = 
+Combo skill {{Color|Distortion|7}} improved: {{G|Physical Susceptibility}} duration {{Color|+3s|1d}}.
+}}
+}}
+{{Operator table row
+| name = Lifeng
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Lifeng
+| name = Turbid Avatar
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Swings the polearm multiple times to deal 2 hits of {{Color|Physical DMG|1}}, then slams the ground to deal {{Color|Physical DMG|1}} and {{G|Knock Down}} to all enemies in the area of effect.<br>
+If the enemy struck by the last hit of this skill has no {{G|Vulnerable|Vulnerability}} stacks, apply {{G|Physical Susceptibility}} to the said enemy as well.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Breaking the Obsession
+| content = 
+Battle skill {{Color|Turbid Avatar|7}} improved: {{G|Physical Susceptibility}} {{Color|+5%|1d}}; also triggers this additional effect to enemies with no more than 2 {{G|Vulnerable|Vulnerability}} stacks.
+}}
+}}
+{{Operator table row
+| name = Mi Fu
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Mifu
+| name = Fists of No Regrets
+| type = Combo
+| content = 
+'''COMBO TRIGGER:''' When an enemy has 3 or more {{G|Vulnerable|Vulnerability}} stacks.<br>
+'''SKILL DESCRIPTION:''' Mi Fu unleashes a devastating uppercut at the enemy, dealing {{Color|Physical DMG|1}} and applying temporary {{G|Physical Susceptibility}}. After casting this skill, the next battle skill is temporarily replaced with {{Color|Trail and Mangle|7}}.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Restless Watch
+| content = 
+Combo skill {{Color|Fists of No Regrets|7}} improved: Length of cooldown {{Color|-2s|1d}}. {{G|Physical Susceptibility}} effect applied by the skill is further increased by {{Color|+5%|1d}} and has {{Color|+4s|1d}} duration.
+}}
+}}
+}}
+== Interactions ==
+{{Operator table
+| header = Interactions
+| content =
+{{Operator table row
+| name = Estella
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Estella
+| name = Tremolo
+| type = Ultimate
+| content = 
+'''SKILL DESCRIPTION:''' Estella expends all her strength to unleash a powerful slam of the spear shaft, dealing {{Color|Physical DMG|1}} to all enemies in a circular area around self. To enemies with {{G|Physical Susceptibility}}, the skill forcibly applies {{G|Lift}} to them.
+}}
+}}
+{{Operator table row
+| name = Lifeng
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Lifeng
+| name = Aspect of Wrath
+| type = Combo
+| content = 
+'''COMBO TRIGGER:''' When the controlled operator performs a {{G|Final Strike}} on an enemy with {{G|Physical Susceptibility}} or {{G|Breach}}.<br>
+'''SKILL DESCRIPTION:''' Unleashes an aspect that performs a spear thrust to deal {{Color|Physical DMG|1}} and grants {{G|Link}}.
+}}
+}}
+{{Operator table row
+| name = Mi Fu
+| content = 
+{{Operator table row/Combat skill
+| icon = Mi Fu Talent 1 icon
+| name = Stern Crackdown
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}} Battle skill move {{Color|World Splitter|7}} improved: When hitting a target with {{G|Physical Susceptibility}} or {{Color|Staggered|2}}, DMG Multiplier is increased to {{Color|1.1|1d}} times the original.<hr>
+{{Icon|Elite 2|text=false}} Battle skill move {{Color|World Splitter|7}} improved: When hitting a target with {{G|Physical Susceptibility}} or {{Color|Staggered|2}}, DMG Multiplier is increased to {{Color|1.2|1d}} times the original.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Physical Susceptibility}} keyword added with [[Ardelia]], [[Estella]] and [[Lifeng]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

@@ -1,0 +1,71 @@
+{{Enemy infobox
+|name = Tunneling Nidwyrm
+|image = Tunneling_Nidwyrm_sprite.png
+|filename = eny_0007_mimicw
+|cnname = 潜地虬兽
+|tcname = 潛地虯獸
+|jpname = 潜地蛟獣
+|krname = 터널링 니드웜
+|spname = Nidwyrm Subterráneo
+|runame = Роющий нидвурм
+|type = Wildlife
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Tunneling Nidwyrm''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A creature that spews highly corrosive fluids. Nidwyrms usually live underground. They would dissolve metallic materials with acids before consuming them. Nidwyrm hunters are therefore advised to take proper care of their weapons.}}
+
+==Stats==
+{{Enemy data
+|HP = 692, 4968, 31434, 123752, 297678, 458582
+|ATK = 56, 264, 820, 2036, 3064, 3510
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 160
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 0.7
+|waether = 1
+|abilities = *Avoid the poisonous spit. Stepping on it will deal continuous Nature DMG to the operator.
+|location = *[[The Hub]]
+*[[Valley Pass]]
+*[[Aburrey Quarry]]
+*[[Originium Science Park]]
+*[[Origin Lodespring]]
+*[[Wuling City]]
+*[[Snowy Forest]]
+*[[Energy Alluvium: The Hub]]
+*[[Energy Alluvium: Snowy Forest]]
+|drops = {{I|Nidwyrm Whiskers}}
+|addendum = }}
+
+==Overview==
+As wildlife creatures that comes from underground, Tunneling Nidwyrms are known for their immobility yet having attacks that serve them for close or far range combat:
+
+*Swings their head around, dealing Physical damage and knock Operators back.
+*Thrusts their head onto the ground, dealing Physical damage and knock Operators back in an area.
+*Spits and deals Nature damage.
+*Spits three times in a row. The spits upon landing create poisonous zones that deal Nature damage to Operators on them. This ability can be interrupted by skills.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 692, 4968, 31434, 123752, 297678, 458582 from 692, 5844, 36981, 123752, 297678, 458582
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

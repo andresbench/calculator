@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Industry 0.1
+|rarity = 4
+|images = 
+Industry_0.1 icon.png:Icon;
+Industry_0.1.png:Full;
+Industry_0.1 max model.png:Max
+|filename = wpn_claym_0003
+|cnname = 工业零点一
+|tcname = 工業零點一
+|jpname = 工業零点一
+|krname = 공업 0.1
+|spname = Industria 0.1
+|runame = Индустрия 0.1
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Industry 0.1''' is a 4★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A weapon commonly seen in the frontiers. No one knows who came up with the basic designs. This particular piece can be easily produced by common industrial machinery.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Suppression: Emergency Boost|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [S]|ATK [S]|Suppression: Emergency Boost}}
+
+==Basic Info==
+{{Quote|Though this wasn't the first time they talked about Bander Scavs, I never really saw one myself.<br>People can't really appreciate how difficult life could be out there on Talos-II. Band cities and neighborhoods must work closely together to survive, yet many Banders chose to leave the city behind to live as a nomad or prospector in the frontiers.<br>I myself wasn't too surprised by this. These people had lost too much. I interviewed around a dozen refugees last week from a disaster-stricken neighborhood that ran out of food. They had no other choice.<br>However, there were also some who refused to live in a world of law or were simply sociopaths. These individuals preferred a life filled with constant violence and danger.<br>Regardless of their intents, no Bander nomads could truly give up the touch of civilization. Also last week, I saw them craft weapons with a scavenged machine tool. I was extremely curious how they managed to get their hands on a working lathe. The answer was simple. They got lucky with a scavenging run through a Bander city dumpsite. These landfills provided for their every need.<br>Turned out that Bander Scav was a pretty accurate name for these people.<br>If you're reading this, tell that little Bander journalist to stop stalking me. People who complain about sleeping bags do not belong in the wildlands. She should get back to her cushy Bander place and stick to being a celebrity tabloid writer.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

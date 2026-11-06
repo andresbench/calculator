@@ -1,0 +1,88 @@
+{{Status infobox
+|Link
+|Next Battle Skill or Ultimate cast by the team consumes the Link buff and deals more DMG, with Battle Skills getting a higher increase. Effects of the same type can stacks, but with diminishing returns.
+|image = [[File: Link icon.png]]
+|type = Buff
+|source = Operator
+}}
+{{Icon|Link icon|text=false|nolink=true}} [[Link]] is a type of buff applied to the entire team in ''[[Arknights: Endfield]]''.
+
+When an operator in the team casts a Combat Skill that grants '''Link''', they gain an active {{G|Link}} buff for a set duration. Each Link buff has an independent duration. The next damaging Battle Skill or Ultimate cast consumes all active Link buffs on the team and grants a '''Link Multiplier''' to the incoming damage. The additional damage granted by the Link Multiplier is as follows:
+
+{| class="wikitable"
+! Active Buffs
+! Next Battle Skill Cast
+! Next Ultimate Cast
+|-
+| 1
+| {{Color|30%|1d}}
+| {{Color|20%|1d}}
+|-
+| 2
+| {{Color|45%|1d}}
+| {{Color|30%|1d}}
+|-
+| 3
+| {{Color|60%|1d}}
+| {{Color|40%|1d}}
+|-
+| 4
+| {{Color|75%|1d}}
+| {{Color|50%|1d}}
+|}
+
+The resulting Link Multiplier stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Akekuri
+| content = 
+{{Operator table row/Combat skill
+| icon = Akekuri Talent 2 icon
+| name = Staying in the Zone
+| type = Talent
+| content = 
+{{Icon|Elite 3|text=false}}: Ultimate {{Color|SQUAD! ON ME!|7}} improved: When ultimate is active, grants a {{G|Link|Link}} buff.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Tempo of Awareness
+| content = 
+Talent {{Color|Staying in the Zone|7}} improved: Even when the ultimate {{Color|SQUAD! ON ME!|7}} ends, the {{G|Link|Link}} buff persists for {{Color|5|1d}}s.
+}}
+}}
+{{Operator table row
+| name = Camille
+| content = 
+{{Operator table row/Combat skill
+| icon = Camille Talent 1 icon
+| name = Hunter of Transgression
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}}: Combo skill {{Color|Heartstake Thorn|7}} improved: When hitting an enemy with {{Color|hovering|7}}{{Color| Firefang Vesperwings|7}}, Camille restores {{Color|[30 + Intellect × 0.15]|1c}} HP to himself and grants a {{G|Link|Link}} buff for 15s. When casting {{Color|Hunter Pursuit|7}}, this effect can be triggered even when hitting a target with no {{Color|hovering|7}} Vesperwings.<hr>
+{{Icon|Elite 2|text=false}}: Combo skill {{Color|Heartstake Thorn|7}} improved: When hitting an enemy with {{Color|hovering|7}}{{Color| Firefang Vesperwings|7}}, Camille restores {{Color|[60 + Intellect × 0.3]|1c}} HP to himself and grants a {{G|Link|Link}} buff for 15s. When casting {{Color|Hunter Pursuit|7}}, this effect can be triggered even when hitting a target with no {{Color|hovering|7}} Vesperwings.
+}}
+}}
+{{Operator table row
+| name = Lifeng
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Lifeng
+| name = Aspect of Wrath
+| type = Combo
+| content = 
+'''COMBO TRIGGER:''' When the controlled operator performs a {{G|Final Strike|Final Strike}} on an enemy with {{G|Physical Susceptibility|Physical Susceptibility}} or {{G|Breach|Breach}}. <br />'''SKILL DESCRIPTION:''' Unleashes an aspect that performs a spear thrust to deal {{Color|Physical DMG|1}} and grants {{G|Link|Link}}.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Link}} keyword added with [[Akekuri]] and [[Lifeng]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

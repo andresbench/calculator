@@ -1,0 +1,20 @@
+local util_cargo = require('Module:CargoUtil')
+local rows = util_cargo.query{
+	tables = 'Items=I, Locales=L',
+	join = 'I.Item = L.Entity',
+	fields = 'I._pageName=page, I.Rarity=rarity, I.Type=type, GROUP_CONCAT(L.Param, ":::", L.Value, ";;;" SEPARATOR "")=locales',
+	where = 'L.Lang="en"',
+	groupBy = 'I.Item',
+}
+local data = {}
+for _, row in ipairs(rows) do
+	local item = {}
+	item.page = row.page
+	item.rarity = tonumber(row.rarity)
+	item.type = row.type
+	for k, v in row.locales:gmatch('(.-):::(.-);;;') do
+		item[k] = v
+	end
+	data[item.name] = item
+end
+return data

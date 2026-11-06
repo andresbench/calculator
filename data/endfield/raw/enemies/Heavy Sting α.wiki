@@ -1,0 +1,65 @@
+{{Enemy infobox
+|name = Heavy Sting α
+|image = Heavy_Sting_α_sprite.png
+|filename = eny_0070_agscorp2
+|cnname = 重刺天使α
+|tcname = 重刺天使α
+|jpname = 槍棘アンゲロスα
+|krname = 삼미아겔로스 · α
+|spname = Aguijón fuerte α
+|runame = Крупный скорпион α
+|type = Aggeloi
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 8
+}}
+'''Heavy Sting α''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Varykentron Anavon" (archive ID: ARL141α) is an energized variant of ARL141 that has retained a plethora of attack patterns. It is a tougher and more dangerous entity.}}
+
+==Stats==
+{{Enemy data
+|HP = 1094, 7849, 49666, 195528, 470332, 724559
+|ATK = 59, 279, 868, 2156, 3244, 3717
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 180
+|SR = 7.5
+|SD = 1.25
+|SPG = 35
+|AR = 7
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy attacks by causing Originium pillars to erupt under the operators.
+*When approached, this enemy will summon stone pillars around itself for protection.
+|location = *[[Aburrey Quarry]]
+*[[Energy Alluvium: Origin Lodespring]]
+|drops = {{I|Energized Aggagrit}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Heavy Sting]], Heavy Stings α have similar appearance with their counterpart, but it doesn't make them less of the threat with most abilities remained:
+
+*Fires one shot from their tail, dealing Physical damage.
+*Fires three consecutive shots from their tail, dealing Physical damage.
+*Thrusts their tail into the ground, and erupts three areas around, dealing Physical damage and knock Operators back.
+*Thrusts their tail into the ground, and erupts the ground below an Operator for three times, dealing Physical damage and knock them back. This ability can be interrupted by skills.
+
+==See Also==
+*[[Heavy Sting]] a basic variant of Heavy Sting α.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1094, 7849, 49666, 195528, 470332, 724559 from 1094, 9234, 58431, 195528, 470332, 724559
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Thunderberge
+|rarity = 6
+|images = 
+Thunderberge icon.png:Icon;
+Thunderberge.png:Full;
+Thunderberge max model.png:Max
+|filename = wpn_claym_0007
+|cnname = 大雷斑
+|tcname = 大雷斑
+|jpname = 大雷斑
+|krname = 천둥의 흔적
+|spname = Truenoberge
+|runame = Громберг
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Thunderberge''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A specialized weapon manufactured by Endfield. The flamberge was furnished with interlaced Originium circuitry to enhance essence performance. This setup was inspired by various phenomena observed on Talos.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 145, 245, 345, 445, 495
+|pot = Skill {{Color|Medicant: Eye of Talos|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [L]|HP [L]|Medicant: Eye of Talos}}
+
+==Basic Info==
+{{Quote|She saw it more clearly than anyone else.<br>Stepping through the gate was a journey that was a tad quicker than she had imagined. Her eyes saw illusions and indescribable colors while her skin felt unreal sensations brushing against it. There were flashes of dizziness, bursts of murmurings, and fragments from the past. These were quickly followed by a bitter cold of winter trailing into something even more frigid. Everything felt so real to her.<br>She immediately asked everyone around and they gave her different answers. Some said it was over in a blink of an eye. Others panted with exhaustion and claimed that they were trapped in a stasis for days.<br>She was curious about the things she saw, for curiosity was part of her nature. She spent hours memorizing the patches, lines, and irregular hues of color that covered them. Yet all of them remained ephemeral and meaningless like the whimsical daydreams of spring.<br>Then she saw a gossamer-like beam and a clear glimpse of the starry skies unhindered by the Barrier.<br>She witnessed Talos.<br><br>Time did not bring sunrise to the polar regions of Talos-II. The huge, new world dominated everyone's view and it gripped her soul with a power that far exceeded the Arts of the Witch King himself. She could not avert her gaze. She could not have imagined how this natural-occurring astronomical entity enraptured her just as knowledge and wealth had seized her every attention. In fact, she was not sure if this view of the Universe could be classified as a natural phenomenon.<br>She took her time to inspect Talos. It was a massive yet almost motionless orb veiled in pale blue and decorated with rings that resembled the fringes of petals, like lovely ribbons that she only saw from her aunt's sewing machine. As she looked on, she realized that the "motionlessness" of Talos was a visual trick it played on her. It moved at an almost imperceivable pace and shimmered ever so gently. She could hear the wind.<br>However, the motions stopped quickly and Talos became an unmoving giant once more. Her heart raced as irregular explosions of thoughts, memories, and ideas surged through her mind. She remembered handing in her first Arts exam when she was still a girl and the moment when she completed her advanced studies at the Spire. She saw her parents, her mentor, the hand that reached out from the devastated ruins, and the flowing sands in the far distance. The last things she saw as she steadied her gait by the dark coastline were her own face, the skies of Leithanien, and childhood friends who counted the stars with her. All of them wore her own face.<br>For the first time in her life, she felt the powerful impulse of passionate love. Her heart yearned for Talos and she would do anything to touch the giant.<br>It was her belief that the giant celestial body was the knot that tied everything together.<br>And these ties made the Originium flowing within her whisper into a chorus.<br>That was the day when she stopped changing. She must become a long-lived one, like the world she had hopelessly fallen in love with.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

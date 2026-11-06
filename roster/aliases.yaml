@@ -1,0 +1,32 @@
+# Operator aliases for hand-written rotations.
+#
+# The key is the name in the data (data/endfield/operators.json); the values are
+# any spellings, Russian ones included — they are data, not comments. Case and
+# spaces are ignored when parsing, so "Ми фу", "мифу" and "МиФу" all work.
+
+Chen Qianyu:   [Чень, Чен, Чэнь, Chen, ChenQianyu, CQY]
+Camille:       [Камиль, Камилла, Cam]
+Rossi:         [Росси, Рosси, Ros]
+Mi Fu:         [Ми Фу, Мифу, MiFu, Mifu]
+Endministrator: [Эндмин, Эндминистратор, Endmin, Endie]
+Lifeng:        [Лифэн, Лифен, Ли Фэн]
+Tangtang:      [Тангтанг, Тантан, Тан]
+Last Rite:     [Ласт Райт, ЛастРайт, LR]
+Ardelia:       [Арделия, Ардель]
+Arcane:        [Аркейн, Аркан]
+Ember:         [Эмбер]
+Pogranichnik:  [Пограничник, Погран, Pogr]
+Xaihi:         [Сяохи, Ксайхи, Хайхи, Сайхи]
+Wulfgard:      [Вульфгард, Вульф]
+Perlica:       [Перлика]
+Alesh:         [Алеш, Алёш]
+Estella:       [Эстелла, Эстель]
+Si:            [Си]
+Fluorite:      [Флюорит, Фторит]
+Antal:         [Антал]
+Da Pan:        [Да Пан, ДаПан, Пан]
+Akekuri:       [Акекури]
+Arclight:      [Арклайт]
+Snowshine:     [Сноушайн]
+Avywenna:      [Авивенна, Ависенна]
+Catcher:       [Кэтчер, Кетчер]

@@ -1,0 +1,62 @@
+{{Amp nav}}
+{{Status infobox
+|Heat Amp
+|Heat Amped targets temporarily deal more {{Color|Heat DMG|3}}. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Heat Amp icon.png]]
+|type = Buff
+|source = Operator
+}}
+{{Icon|Heat Amp icon|'''Heat Amp'''}} is a type of buff applied to operators in ''[[Arknights: Endfield]]''.
+
+When operators are affected by '''Heat Amp''', they temporarily deal more {{Color|Heat DMG|3}}. The number represents the degree of increase.
+
+Multiple sources of Heat Amp, as well as {{G|Arts Amp}} stack <u>additively</u> to form the '''Amp Multiplier''' for that damage instance. The resulting Amp Mulitplier stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Antal
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Antal
+| name = Overclocked Moment
+| type = Ultimate
+| content = 
+<b>SKILL DESCRIPTION:</b> Applies temporary {{G|Electric Amp|Electric Amp}} and {{G|Heat Amp|Heat Amp}} to the entire team.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Arts Talent
+| content = 
+Ultimate {{Color|Overclocked Moment|7}} improved: {{G|Electric Amp|Electric Amp}} and {{G|Heat Amp|Heat Amp}} effects are increased to {{Color|1.1|1d}} times the original.
+}}
+}}
+{{Operator table row
+| name = Si
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Si
+| name = No One Spoils the Fun
+| type = Ultimate
+| content = 
+<b>SKILL DESCRIPTION:</b> Si summons a {{Color|Giant Ink Lung|7}} from her painting that deals {{Color|Cryo DMG|4}} and grants temporary {{G|Cryo Amp|Cryo Amp}} and {{G|Heat Amp|Heat Amp}} to the entire team.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Study of Muscles and Bones
+| type = Ultimate
+| content = 
+Ultimate {{Color|No One Spoils the Fun|7}} improved: DMG Dealt is increased to {{Color|1.2|1d}} times the original; {{G|Amp|Amp}} effect is increased to {{Color|1.2|1d}} times the original.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Heat Amp}} keyword added with [[Antal]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

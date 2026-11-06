@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Protocol Stash
+|filename = item_port_storager_1
+|images = Protocol Stash icon.png:Icon;
+Protocol Stash.png:Full;
+|cnname = 协议储存箱
+|tcname = 協議儲存箱
+|jpname = 協約貯蔵箱
+|krname = 프로토콜 저장함
+|spname = Reserva de protocolo
+|runame = Протокольный запасник
+|type = Depot Access
+|rarity = 1
+|power = 5}}
+'''Protocol Stash''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A storage facility with several item storage slots. Once connected to the power grid and given enough power, it can teleport items to the Depot. Hence, the stash is often placed at the end of production lines.|It took Endfield engineers nearly a decade to achieve tele-protocol of small items within limited range.}}
+==Usage==
+A storage facility with several item storage slots. Once connected to the power grid and given enough power, it can teleport items to the Depot. Hence, the stash is often placed at the end of production lines.
+*Power Use : 5
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Field Stash]]
+{{RecipeTable|product=Protocol Stash}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

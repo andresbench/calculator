@@ -1,0 +1,91 @@
+# Yvonne. Cryo carry: Solidification from her battle skill, then the
+# ultimate's barrage. The barrage itself — shots and crit stacks — is the
+# skill's own (`Skill.barrage`, export.py); this file holds talents and
+# potentials.
+operator: Yvonne
+
+talents:
+  - name: Keen Mind
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Intellect +10.", apply: [{stat: attr, attribute: INT, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Intellect +20.", apply: [{stat: attr, attribute: INT, value: 20}]}
+
+  - name: Barrage of Technology
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      «The next basic attack becomes a Final Strike»: the rotation writes it
+      as `Yvonne: FS`, and the simulation plays what is written. The client's
+      buff_chr_0017_yvonne_talent_1_valid lasts 15 s with dmg_up 0.5; the
+      next basic attack spends it.
+    levels:
+      - condition: Elite 1
+        seen: "Battle skill Brr-Brr-Bomb β improved: After applying Solidification, the next basic attack performed becomes a Final Strike."
+        unmodeled: "the basic attack after it is a Final Strike — write it as FS in the rotation"
+      - condition: Elite 2
+        seen: "Battle skill Brr-Brr-Bomb β improved: After applying Solidification, the next basic attack directly becomes a Final Strike with DMG Dealt +50%."
+        apply:
+          - {stat: dmg_bonus, skillType: Basic Attack, value: 50, duration: 15, trigger: "applies:Solidification@Battle Skill", spentBy: "cast:Basic Attack", target: self}
+
+  - name: Freezing Point
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      «Doubled against Solidification» is two rows: one for either term, one
+      more for Solidification — a target with both gets double, not triple.
+      The client gives the talent no attributes (a damage modifier), so the
+      datamine check is silent on it.
+    levels:
+      - condition: Elite 2
+        seen: "Against enemies with active Cryo Infliction, gains Critical DMG Dealt +10%. Effect is doubled against enemies with Solidification."
+        apply:
+          - {stat: crit_dmg, value: 10, trigger: "target_has:Cryo Infliction|target_has:Solidification", target: self}
+          - {stat: crit_dmg, value: 10, trigger: "target_has:Solidification", target: self}
+      - condition: Elite 3
+        seen: "Against enemies with active Cryo Infliction, gains Critical DMG Dealt +20%. Effect is doubled against enemies with Solidification."
+        apply:
+          - {stat: crit_dmg, value: 20, trigger: "target_has:Cryo Infliction|target_has:Solidification", target: self}
+          - {stat: crit_dmg, value: 20, trigger: "target_has:Solidification", target: self}
+
+potentials:
+  - rank: 1
+    seen: "Combo skill Flashfreezer υ37 improved: Effect radius +20%; releases energy 2 more times; and gains an additional 15 Ultimate Energy after dealing DMG."
+    unmodeled: "two more energy releases — a potential does not change a row's hit count yet; +15 Ultimate Energy"
+  - rank: 2
+    confidence: confirmed
+    seen: "Intellect +20, Critical Rate +7%."
+    apply:
+      - {stat: attr, attribute: INT, value: 20}
+      - {stat: crit_rate, value: 7}
+  - rank: 3
+    confidence: inferred
+    seen: "Talent Freezing Point improved: Against enemies with Cryo Infliction, Critical DMG Dealt +10%; this effect is also doubled against enemies with Solidification."
+    apply:
+      - {stat: crit_dmg, value: 10, trigger: "target_has:Cryo Infliction|target_has:Solidification", target: self}
+      - {stat: crit_dmg, value: 10, trigger: "target_has:Solidification", target: self}
+  - rank: 4
+    confidence: inferred
+    seen: "Battle skill Brr-Brr-Bomb β improved: If the explosion hits only one enemy, return 10 SP."
+    evidence: "there is one dummy: the explosion always hits only it"
+    apply:
+      - {stat: sp_return, value: 10, trigger: "cast:Battle Skill", target: self}
+  - rank: 5
+    confidence: inferred
+    seen: "Ultimate Cryoblasting Pistolier improved: During the ultimate, ATK +10% and Critical DMG Dealt +30%."
+    evidence: >-
+      The client's buff_chr_0017_yvonne_potential_5_new: ATK BaseMultiplier
+      and CritDmg, 10 s. The barrage step lasts longer than that, so the buff
+      does not reach the next step; the barrage's shots are counted after
+      the cast's own triggers and get it.
+    apply:
+      - {stat: atk_pct, value: 10, duration: 10, trigger: "cast:Ultimate", target: self}
+      - {stat: crit_dmg, value: 30, duration: 10, trigger: "cast:Ultimate", target: self}

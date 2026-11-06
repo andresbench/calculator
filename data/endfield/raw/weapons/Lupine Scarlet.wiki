@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Lupine Scarlet
+|rarity = 6
+|images = 
+Lupine_Scarlet icon.png:Icon;
+Lupine_Scarlet.png:Full;
+Lupine_Scarlet max model.png:Max
+|filename = wpn_sword_0022
+|cnname = 狼之绯
+|tcname = 狼之緋
+|jpname = 狼緋
+|krname = 늑대의 혈흔
+|spname = Lupina escarlata
+|runame = Волчий багрянец
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Lupine Scarlet''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A popular sword produced by RAYTHEAN Industries. Plenty have been smuggled to regions outside the Civilization Band as they proved to be quite the catch amongst the Landbreakers. Many users also furnish them with specialized modifications.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 148, 250, 352, 454, 505
+|pot = Skill {{Color|Fracture: Gnashing Wolves|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [L]|Critical Rate [L]|Fracture: Gnashing Wolves}}
+
+==Basic Info==
+{{Quote|The man walked in and quickly slammed the door of the simple barracks. The recalcitrant door barely managed a painful creak before it was forcibly shut to block the frigid air outside. The man then looked around and breathed a long sigh of relief. His daughter was still asleep in her cubicle. The cub of the Pack was four, and the hardest to coddle to sleep.<br>His wife prepared the weapons. The scope and Arts Unit had been taken apart, the parts laid out across the table. She was wholly focused on honing a short blade when her man walked in.<br>"Cleaning up the weapons rack?" The man sat on the opposite side of the table and pried open a preheated tin of meat provisions. The temperature was just right and appetizing enough.<br>"I hardly make the wrong guesses, dear. You'll be using these soon enough, right?"<br>"I actually wanted to play a prank on you and tell you that: 'My sweet darling, your judgment about the Hunt Meet was completely off.' Unfortunately, the Old Wolves said those very same words, as though they read a secret script you prepared for them... So yes, I lost the bet and so I'll coddle our pup to sleep for a week... But just so you know, I don't like losing."<br>The woman threw the sharpened blade to her man and gestured him to try the balance. She then picked up a gun to load it up with ammo.<br>"The Pack never shared Jakub's views. The Landbreaker clans will definitely break apart... And if we're no longer 'friends', we can only be this — predator and prey... The clan must hunt them down and feast upon the kill. We'll become clannibals."<br>"Clannibals... I like that word. Old Louis shared that view in the meeting: 'The Civilization Band is closing its grip around the Landbreakers' neck. The Wolves cannot die like this. We must see if our friends are good enough for the table...' Hah! That old geezer has a way with words."<br>"So which Clan will it be?"<br>"Bonekrushers. They like Jakub too much. These fanatics kinda disgust me."<br>"And the hit?"<br>"A denstack smash-and-run, maybe? Grab their supplies tonight and then head home right afterwards. Nobody would know that the Pack did it. If I set off in half an hour, I can even make it back for breakfast."<br>"Just don't forget to say goodbye to our baby."<br>"...We probably shouldn't wake her."<br>"You sure?"<br>"I'm sure. The hit is just a stroll in the park..."<br>*BAMMM*.<br>The man saw his woman slam the gun on the table and coldly glared at him. An unloaded bullet rolled across the table, fell off the corner, clinked on the floor, and continued its journey to the corner of the barracks. He knew his wife saw through his lies.<br>"Don't lie to me."<br>"I never..."<br>"Guessing the details of your meeting wasn't hard... Jakub's negotiations with the Civilization Band fell apart. He and his loyalists will be torn apart... There's only one thing you want ... to keep the Pack safe in these turbulent times." The woman paused and breathed deeply before continuing. "Wolves will be killing Wolves. The Clan will be forced to do housekeeping. Those who stand with Jakub will be eliminated. Even the Wolves who made their 'names' in the Civilization Band by raiding and killing will be bled dry and left to die in the wildlands. And that isn't the end of it. Some of you will be sent out to war with the other Clans. Direct, open war. It's a sign. The Banders know the best time for their offensive approaches. They know the Pack takes a different path compared to the other Clans... You want to rush the end of the Landbreakers... And some of you volunteered for this suicidal path so that the Clan can survive."<br>"How did you guess?"<br>"Because my tally is higher than yours, dear. I see murder glistening in your eyes."<br>"Love, I do not fear this... Maybe when I close my eyes, I'll see Nonno waiting at our old villa in Siracusa... I'll tell him that I took care of my beloved wife, my baby girl, and all the other cubs... I'll tell him that our legacy lives on, running atop the grazing fields, counting creds in a city alley, or even embracing new lives as Talosians... Our Famiglia name will be cleansed anew with the name of our Clan... No matter the life we chose... the Pack will decide for ourselves..."<br>"I'll go with you."<br>"I forbid it. I chose to join this Hunt and accept death so that you may live. And you must live, even if you have to forget about our homes and abandon the Famiglia. I..."<br>The man could not go on. The girl's little palm opened to reveal the bullet that rolled off to the corner.<br>"Good hunting, Papa..."<br>His girl just woke up and heard only part of the conversation, but that was enough. He originally planned to leave without goodbye, and had to armor his resolve by taking a long walk in the blistering cold. But those soft words of encouragement shattered it and jerked him out from the great river called Death.<br>"I..."<br>"We are bound by blood, and that is how legacy is carried out, isn't it?"<br>The soft hands, small hands, and rough hands gripped each other.<br>"Before the cubs could freely roam the wilderness, no one can kill us. No one."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

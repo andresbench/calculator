@@ -1,0 +1,24 @@
+{
+  "name": "@gacha/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Arknights: Endfield damage engine. No DOM, pure functions.",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "calc": "tsx cli.ts",
+    "sim": "tsx sim.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.13",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}

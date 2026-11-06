@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Roving MSGR Flashlight
+|image = Roving_MSGR_Flashlight.png
+|filename = item_equip_t2_suit_agi01_edc_02
+|cnname = 巡行信使手电
+|tcname = 巡行信使手電筒
+|jpname = 遍歴トランスポーターライト
+|krname = 순행 전달자 손전등
+|spname = Linterna de MSJR móvil
+|runame = Фонарик гонца-странника
+|rarity = 3
+|artifice = no
+|type = Kit
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Roving MSGR Flashlight''' is a {{gear|3|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A sturdy hand-held electric lamp. 
+The sharp spike on the other end can also be used to break open old boxes or containers.}}
+
+==Stats==
+{{Gear data
+|defense = +10.8
+|pstat = Agility
+|pvalue = +21
+|sstat = Combo Skill DMG Bonus
+|svalue = +21.0%
+|tstat = 
+|tvalue = 
+|setname = Roving MSGR
+|seteffect = 3-piece set effect: Wearer's Agility {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Physical DMG|1}} {{Color|+20%|1d}}.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Roving MSGR}}
+{{Gears|state=collapsed}}

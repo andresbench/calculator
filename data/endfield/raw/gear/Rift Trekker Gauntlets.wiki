@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Rift Trekker Gauntlets
+|image = Rift_Trekker_Gauntlets.png
+|filename = item_equip_t4_parts_wuling02_hand_04
+|cnname = 涉渊手甲
+|tcname = 涉淵手甲
+|jpname = 渡淵ガントレット
+|krname = 절망 금속 장갑
+|spname = Guanteletes del Trotagrietas
+|runame = Рукавицы «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Gauntlets''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequent high-threat areas to carry out various missions. "I thundered the crimson drums, to make the mountains quake."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Strength
+|pvalue = +86, +94, +103, +111
+|sstat = Basic Attack DMG Bonus
+|svalue = +24.0%, +26.4%, +28.8%, +31.2%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

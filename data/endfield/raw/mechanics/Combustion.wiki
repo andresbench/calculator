@@ -1,0 +1,140 @@
+{{Arts Reaction tab}}
+{{Status infobox
+|Combustion
+|An enemy with {{G|Combustion}} takes {{Color|Heat DMG|3}} over time.
+{{G|Combustion}} &equals; A {{Color|non-Heat Infliction|7}} ({{Icon|Electric Infliction icon|text=false|size=16}}/{{Icon|Cryo Infliction icon|text=false|size=16}}/{{Icon|Nature Infliction icon|text=false|size=16}}) + {{G|Heat Infliction}}
+|image = [[File:Combustion icon.png]]
+|type = Debuff, Damage Instance
+|source = Operator, Enemy
+}}
+{{Icon|Combustion icon|'''Combustion'''}} is a type of debuff applied by both operators and enemies in ''[[Arknights: Endfield]]''.
+
+When an operator applies {{G|Heat Infliction}} to an enemy with Non-Heat Infliction, {{G|Debuff Consumption|consume}} all Non-Heat Infliction stacks and apply Combustion: Deals {{Color|160% – 400% ATK|1d}} {{Color|Heat DMG|3}} of the triggering operator on application and {{Color|24% – 60% ATK|1d}} {{Color|Heat DMG|3}} of the triggering operator per second for {{Color|10|1d}}s.
+
+The following table shows the amount of damage dealt to the target on application and over time based on the {{G|Status Level}} or the amount of Non-Heat Infliction stacks consumed:
+
+{|class="wikitable wikitable-mobile"
+!Status Level
+!Heat DMG Application
+!Heat DMG Over Time
+|-
+|I
+|{{Color|160% ATK|1d}}
+|{{Color|24% ATK|1d}} / second
+|-
+|II
+|{{Color|240% ATK|1d}}
+|{{Color|36% ATK|1d}} / second
+|-
+|III
+|{{Color|320% ATK|1d}}
+|{{Color|48% ATK|1d}} / second
+|-
+|IV
+|{{Color|400% ATK|1d}}
+|{{Color|60% ATK|1d}} / second
+|}
+
+Combustion can be <u>forcibly applied</u> by some operators without requiring Non-Heat Infliction stacks. Forced Combustion does not deal the Heat DMG instance, deals {{Color|24% ATK|1d}} per second for {{Color|10|1d}}s, and is treated as Status Level I. The resulting damage over time and duration from a Forced Combustion may be increased by some operator abilities such as {{Icon|Laevatain icon|{{C|Laevatain}}}}'s {{Icon|Potential 4|{{Color|Fragments of the Past|7}}}}.
+
+Applying Combustion to a target with existing Combustion overrides the previous effect regardles of Status Level and resets the debuff's duration.
+
+{{TOC limit|2}}
+{{Clr}}
+
+==Hostile Combustion==
+{{Quote|''Certain enemy skills can apply stacks of Heat Infliction to operators. At 4 stacks, the operator becomes Combusted: Temporarily suffer continuous Heat DMG that ignores DEF.''|Tutorial}}
+Some [[Enemies]] or stage mechanics are capable of applying Heat Infliction or Combustion to Operators. When an Operator reaches 4 stacks of Heat Inflictions, the stacks are removed and the Operator becomes Combusted: 
+* The debuff lasts for {{Color|8|1d}} seconds (unless otherwise specified).
+* Deals an initial instance of {{Color|[4% of Operator's Max HP]|1d}} as {{Color|Heat DMG|3}}.
+* Deals {{Color|[2% of Operator's Max HP]|1d}} per second as {{Color|Heat DMG|3}}.
+* The initial instance and damage over time ignores the Operator's [[Defense]] but can still be modified by other effects such as Heat Resistance, Heat DMG Reduction, or {{G|Protect}}.
+** The damage done ignores Defense by treating the Defense stat value of the Operator as 0.
+** The [[Critical Rate]] of the damage is also set to 0%. Though as all enemies have a Critical Rate of 0%, this has no effect.  
+
+* While under the effects of [[Combustion]], the Operators cannot receive any further [[Heat Infliction|Heat Inflictions]]. The combustion effect is visualized by an <span style="background-color:#ff880088;">orange-red</span> health bar and the Operator's model burning in orange flames.
+
+== Calculations ==
+=== Heat DMG Instance & Heat DMG Over Time ===
+{{Main|Damage calculation}}
+
+==Sources==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Laevatain
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Laevatain
+| name = Smouldering Fire
+| type = Skill
+| content = 
+<b>SKILL DESCRIPTION:</b> Summons a Magma Fragment to continuously attack enemies and deal {{Color|Heat DMG|3}}. Hitting the enemy grants 1 stack of {{Color|Melting Flame|7}}. <br />If Laevatain already has 4 stack(s) of {{Color|Melting Flame|7}} when casting the skill, then consume all the stacks and perform 1 additional attack that deals {{Color|Heat DMG|3}} and forcibly trigger temporary {{G|Combustion|Combustion}} to all enemies in a large area.<br />When the additional attack hits the enemy, restore additional Ultimate Energy.<br />{{Color|Battle skill effects are enhanced while Laevatain's ultimate is active.|9}}
+}}
+}}
+{{Operator table row
+| name = Wulfgard
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Wulfgard
+| name = Wolven Fury
+| type = Ultimate
+| content = 
+<b>SKILL DESCRIPTION:</b> Fire a rapid barrage of shots and unleashes the {{Color|Wolven Fury|7}} to attack nearby enemies, dealing 5 hits of {{Color|Heat DMG|3}} and forcibly applying {{G|Combustion|Combustion}}.
+}}
+}}
+}}
+==Interactions==
+{{Operator table
+| header = Interaction
+| content =
+{{Operator table row
+| name = Laevatain
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Laevatain
+| name = Seethe
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When an enemy suffers {{G|Combustion|Combustion}} or {{G|Corrosion|Corrosion}}. <br /><b>SKILL DESCRIPTION:</b> Fire erupts beneath the feet of any enemy with {{G|Combustion|Combustion}} or {{G|Corrosion|Corrosion}}, dealing {{Color|Heat DMG|3}} to them. <br />If the skill hits the enemy, Laevatain gains 1 stack of {{Color|Melting Flame|7}} and further gains Ultimate Energy per enemy hit.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Fragments of the Past
+| type = Potential 3
+| content =
+Battle skill {{Color|Smouldering Fire|7}} improved: Duration of the {{G|Combustion|Combustion}} applied by the skill is increased by {{Color|50%|1d}}. DMG of the {{G|Combustion|Combustion}} applied by the skills is increased to {{Color|1.5|1d}} times the original.
+}}
+}}
+{{Operator table row
+| name = Wulfgard
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Wulfgard
+| name = Thermite Tracers
+| type = Skill
+| content =
+<b>SKILL DESCRIPTION:</b> Fires multiple shots at the target that deal some {{Color|Heat DMG|3}}. The final shot also applies {{G|Heat Infliction|Heat Infliction}}. If the target has active {{G|Combustion|Combustion}} or {{G|Electrification|Electrification}}, do not apply {{G|Heat Infliction|Heat Infliction}} but instead {{G|Debuff Consumption|consume}} the Arts Reaction to fire an additional shot that deals massive {{Color|Heat DMG|3}}.
+}}
+{{Operator table row/Combat skill
+| icon = Wulfgard Talent 1 icon
+| name = Scorching Fangs
+| type = Talent
+| content =
+{{Icon|Elite 1|text=false}}: Whenever Wulfgard applies {{G|Combustion|Combustion}}, he gains {{Color|Scorching Fangs|7}} for 10s. This effect cannot stack. Scorching Fangs: While active, Wulfgard gains {{Color|Heat DMG Dealt|3}} {{Color|+20%|1d}}.<hr>
+{{Icon|Elite 2|text=false}}: Whenever Wulfgard applies {{G|Combustion|Combustion}}, he gains {{Color|Scorching Fangs|7}} for 10s. This effect cannot stack. Scorching Fangs: While active, Wulfgard gains {{Color|Heat DMG Dealt|3}} {{Color|+30%|1d}}.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* <b>[[At the Wake of Spring]]</b>
+** Combustion debuff icon shown below the enemy's healthbar will now display its Status Level.
+* <b>Beta Test I</b> 
+** Combustion added.
+}}
+
+{{Combat mechanics}}
+[[Category:Arts Reactions]]

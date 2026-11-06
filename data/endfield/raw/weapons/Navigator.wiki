@@ -1,0 +1,45 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Navigator
+|rarity = 6
+|images = 
+Navigator icon.png:Icon;
+Navigator.png:Full;
+Navigator max model.png:Max
+|filename = wpn_pistol_0005
+|cnname = 领航者
+|tcname = 領航者
+|jpname = ナビゲーター
+|krname = 항로의 개척자
+|spname = Navegante
+|runame = Навигатор
+|type = Handcannon
+|source = Reward: Protocol Pass}}
+{{Hatnote|This article is about the weapon. For the [[NPC]] nicknamed "Navigator", see [[Falken Gravning]].}}
+'''Navigator''' is a 6★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A novel concept of the year by Mieszko Industries. Let's use it to celebrate the memories of the great Navigator who led us in our unending journey across Talos-II.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Infliction: Lone and Distant Sail|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Intellect [L]|Cryo DMG [L]|Infliction: Lone and Distant Sail}}
+
+==Basic Info==
+{{Quote|Interested in the story of the messenger named Falken Gravning?<br>Hardly any Terran remembered his name. What they did remember was his job — a Catastrophe Messenger.<br>Falken was born in the borders of Kazimierz and started this lonesome career when he was but a young man. With sturdy steps he hiked across mountains and navigated rivers to bring verified data of Catastrophe signs to villages, towns, and cities facing inevitable destruction. He was not a savior. The only thing he could do was to warn people of the "impending footsteps of annihilation". Some were grateful, while others bore grudges. He suffered more than a few wounds, vile curses, as well as cold, hateful gaze over the years, and witnessed grave sacrifices as well. Suffocating depression constantly loomed over his soul.<br>When he turned 53, he decided to leave his homeland behind and devote the final years of his life to the newly discovered planet — Talos-II.<br>Here in the new world, he was no longer a "prophet of doom" but a mere common messenger. For those few short years, the serene, open expanses of Talos-II was free from Catastrophes and the ever-present threat of destruction. A sense of long-absent peace filled Falken. He took his backpack and roamed the lands between the pioneering bases, delivering letters, escorting supplies, and conveying intel with every trip.<br>When he had time for himself, he continued to travel alone. He even cobbled together several Originium devices to create a rudimentary aircraft. Though it flew awkwardly across the skies, he could land it upon unexplored wilderness. He climbed majestic peaks, waded through dark swamps, and left his footprints in this untouched realm.<br>He started to picture a beautiful future for the land untouched by Catastrophes — Once he retires, he would build a wooden cabin in some valley. He would also have a mountaintop summer retreat where he could enjoy clean, refreshing air. His notebook was filled with trails, routes, contour maps, and ideas for his "ideal home". As he spread footprints across the world, more and more of the blank areas were filled.<br>Until that very day.<br>The day when the Ankhors fell from the skies and the Aggeloi descended upon Civilization. People were once again forced to flee as they had done with Catastrophes struck.<br>During the era of chaos, Falken once again took up his old profession. He became the most reliable guide and led the survivors in a desperate southbound trek of survival. People said he stepped up to the challenge in numerous occasions to mark out the road forward. He even flew that ramshackle aircraft of his into the storm, and returned with a beaten and badly wounded body. With experience, grit, and courage, he paved multiple trails of life for the refugees. Numerous outposts, villages, and towns were founded thanks to his way markers or verbal directions. Without Falken as their guide, many would fail to reach the Civilization Band alive.<br>But that was not the end of Falken's journey.<br>During the last years of his life, Falken continued to journey south. He traversed the mountain ranges and roamed the entire Band until he finally arrived at the edge of the great ocean. Legend then claimed that Falken built a ship at that very place and sailed off to find a place even further south.<br>And Falken was never seen again after that.<br>A particular story was rather popular amongst the oceanic navigators of Talos-II: Should one see a cloud, shaped like a raised mast with full sails at the place where the oceans and heavens meet, that would be "Falken's Sail", and that would be tidings for good weather.<br>People call him the "Navigator". Falken's story was told in every city, school, and port. He was a messenger, a pathfinder, a lonely traveler, and the one who raised the beacon high during humanity's hour of darkness.<br>Mieszko Industries is proud to uphold this concept. Our latest series for this year have been imbued with the spirit of the Navigator. We dedicate it to every ambitious and courageous individual eager to face the boundless future.<br><br>"This is just a promotional tale. Is this all I'm going to read?"<br>"Of course not. I'm about to introduce this latest paper on the untold secrets of Falken Gravning."<br>"Oh?"<br>"Falken Gravning kept going south because of his belief that another undiscovered Cosmic Gate may exist in the south pole of this world."<br>"Another ... Cosmic Gate? Is that even possible?"<br>"Who knows? Nobody could prove nor disprove it. Who knows? He might have found a way home at the end of the sea, or simply disappeared beneath the waves."<br>"So..."<br>"So towards the end of his life, what kept the 'Navigator' going wasn't his passion for exploration or adventure. It was a far more deeper desire — He wanted to go home."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

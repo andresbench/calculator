@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = AF1 Armor Fragger
+|filename = item_port_battle_trap_1
+|images = AF1 Armor Fragger icon.png:Icon;
+AF1 Armor Fragger.png:Full
+|cnname = AF1“熔甲者”
+|tcname = AF1「熔甲者」
+|jpname = AF1装甲融解
+|krname = AF1 '아머 멜터'
+|spname = Fragmentador de armadura FA1
+|runame = Бронедробитель AF1
+|type = Combat & Support
+|rarity = 5
+|power = }}
+'''AF1 Armor Fragger''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|17252|7}}<br>
+<b>Mode of Attack</b>: Fires a flaming jet to attack approaching enemies. The flaming jet deals {{Color|Heat DMG|3}} over time to enemies within range.|A combat facility that can project jets of fire. It uses a fuel comprising a mixture of various flammable liquids. The power to set everything aflame reminds people of the merciless infernos often described in Terran history.}}
+==Usage==
+
+==Acquisition==
+Research the specified tech in the Wuling AIC Plan to construct this.
+{{RecipeTable|product=AF1 Armor Fragger}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Bonekrusha Mask
+|image = Bonekrusha_Mask.png
+|filename = item_equip_t4_suit_attri01_edc_04
+|cnname = 碾骨面具
+|tcname = 碾骨面具
+|jpname = 骨砕のマスク
+|krname = 본 크러셔 마스크
+|spname = Máscara Rompehuesos
+|runame = Костоломская маска
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Bonekrusha Mask''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with designs inspired by the Bonekrusher Clan. 
+The mask is a symbol of fanaticism. Yet faith alone will not keep anyone alive in a Blighted environment. It does not matter if it is dangling from a belt or being worn on the face. This mask is just a piece of flimsy wood.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = DMG Bonus vs. Staggered
+|tvalue = +41.4%, +45.5%, +49.7%, +53.8%
+|setname = Bonekrusha
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When the wearer casts a combo skill, the wearer gains 1 stack of {{Color|Bonekrushing Smash|7}} that grants the wearer's next battle skill DMG Dealt {{Color|+30%|1d}}. {{Color|Bonekrushing Smash|7}} can stack 2 time(s).
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Bonekrusha}}
+{{Gears|state=collapsed}}

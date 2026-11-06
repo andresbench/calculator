@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Catastrophe Filter
+|image = Catastrophe_Filter.png
+|filename = item_equip_t3_suit_usp01_edc_03
+|cnname = 天灾防护滤芯
+|tcname = 天災防護濾心
+|jpname = 天災防護フィルター
+|krname = 재앙 방호 필터
+|spname = Filtro de la catástrofe
+|runame = Фильтр «Катастрофа»
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Catastrophe Filter''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Designed by Triglava Armoury and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Part of an exoskeleton suit equipped by crystal growers at the Originium Science Park. 
+These filters are designed to work with the Catastrophe Mask, and can be easily plugged or unplugged.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Will
+|pvalue = +23
+|sstat = Intellect
+|svalue = +15
+|tstat = Arts Intensity
+|tvalue = +29.4
+|setname = Catastrophe
+|seteffect = 3-piece set effect: Wearer's Ultimate Gain Efficiency {{Color|+20%|1d}}.
+The wearer casts a battle skill, the action {{G|SP Return|returns}} {{Color|50|1d}} SP. This effect only triggers 1 time per battle.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Catastrophe}}
+{{Gears|state=collapsed}}

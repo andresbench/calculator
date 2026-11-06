@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Sting α
+|image = Sting_α_sprite.png
+|filename = eny_0064_agrange2
+|cnname = 钉刺天使α
+|tcname = 釘刺天使α
+|jpname = 針棘アンゲロスα
+|krname = 일미아겔로스 · α
+|spname = Aguijón α
+|runame = Скорпион α
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = Sting
+|upgrade = |sortId = 6
+}}
+'''Sting α''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Kentron Anavon" (archive ID: ARL121α) is an energized variant of ARL121. The entity's higher energy density gives it greater firepower. The energy efficiency of its firing mechanism remains low.}}
+
+==Stats==
+{{Enemy data
+|HP = 208, 1490, 9430, 37126, 89303, 137575
+|ATK = 36, 171, 531, 1317, 1982, 2271
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 90
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[Aburrey Quarry]]
+*[[Origin Lodespring]]
+*[[Energy Alluvium: Origin Lodespring]]
+|drops = {{I|Energized Aggagrit}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Sting]], Stings α have similar appearance with their counterpart, but it doesn't make them more of the threat; Aside from a shot from their tail, which deals Physical damage, they can now perform a high shot that deals Physical damage in an area.
+
+==See Also==
+*[[Sting]] - an alternate version of Sting α.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 208, 1490, 9430, 37126, 89303, 137575 from 208, 1753, 11094, 37126, 89303, 137575
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

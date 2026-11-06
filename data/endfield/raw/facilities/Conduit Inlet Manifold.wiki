@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Conduit Inlet Manifold
+|filename = item_port_udpipe_loader_2
+|images = Conduit Inlet Manifold icon.png:Icon;
+Conduit Inlet Manifold.png:Full
+|cnname = 多口暗管入口
+|tcname = 多口暗管入口
+|jpname = 多口地下配管（入）
+|krname = 다중 암관 입구
+|spname = Colector de entrada de conducto
+|runame = Распределяющий подвод трубопровода
+|type = Depot Access
+|rarity = 4
+|power = }}
+'''Conduit Inlet Manifold''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A large inlet facility for an underground pipeline. Connect this to a matching Conduit Outlet Manifold to transport fluids through it.|Underground pipelines with a rather convoluted history of development. This upgrade of the Conduit Inlet is furnished with a manifold of connection openings. Plumbers often call these by their nicknames: pan flute inlets.}}
+==Usage==
+A large inlet facility for an underground pipeline. Connect this to a matching Conduit Outlet Manifold to transport fluids through it.
+
+==Acquisition==
+Requirement : [[AIC Factory Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC III - Conduit Manifolds]]
+{{RecipeTable|product=Conduit Inlet Manifold}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

@@ -1,0 +1,341 @@
+{{Operator page tab}}
+'''Operators''' are the playable characters in ''[[Arknights: Endfield]]''.
+
+==Overview==
+Operators have many abilities, ranging from directly fighting the enemy either with melee or long-ranged weaponry, using [[Nexus Files: Originium Arts|Originium Arts]] to attack the enemy with destructive magic, healing other Operators, or providing some form of offensive or defensive support.
+
+Operators can be distinguished not only by their [[Class]], [[Weapon]] type, and [[Element]], but also by their unique Skills and Talents.
+
+Many Operators are aligned with [[Endfield Industries]], though some serve as contacts or liaisons for their [[Faction]], while others act as mercenaries or volunteers. This does not affect their accessibility or usage in gameplay.
+
+===Teams===
+{{Quote|Use the Team screen to view and adjust the lineup of the exploration team. Try to deploy operators who can better deal with various challenges.|Tutorial}}
+Operators are assigned to teams, with each one consisting of up to four unique Operators. One Operator can be assigned to multiple different teams.
+Players have access to five squads, of which one is actively deployed. Teams can also be renamed.
+
+===Acquisition===
+Operators can be obtained through [[Headhunting]]. A few selected Operators also join the players' roster during the main story or through sign-in events.
+
+===Attributes===
+{{Main|Attribute}}
+
+Operators' Attributes are displayed on the left side of the Character Overview page, below the character name. The icon of the Main Attribute of an Operator is shown in white with a yellow square, while the Secondary Attribute is shown in a grey square. Other Attributes are displayed with a dark grey icon.
+
+Raising an Operator's level, equipping [[Gear]], and increasing the Operator's Potential can provide a bonus to their Attributes.
+
+==Progression==
+
+===Level===
+
+Raising an Operator's level increases their Attributes, as well as their Base ATK and Base HP. Levels can be increased by granting Experience through Operator EXP materials. Operators below level 20 also gain Experience when Enemies are defeated. Leveling an Operator beyond level 10 additionally requires {{I|T-Creds|gridview=false}}. The maximum Level an Operator can reach is 90, but there are several Level caps along the way. Upon reaching a Level cap, the Operator needs to be '''promoted''' first, before they can be leveled again. All Operators have the same costs to level up, regardless of their rarity.
+
+It is worth noting that, although higher Levels require an increasing amount of Experience and {{I|T-Creds|gridview=false}}, the amount of Stats gained remains the same. For example, upgrading the [[Endministrator]] from level 10 to 11 increases their ATK from 59 to 62, and upgrading them from level 80 to 81 increases their ATK from 287 to 290. In both cases, they gained 3 ATK, but the last-mentioned level-up needs more than 60 times the amount of experience compared to the level-up from 10 to 11. Also, unlike [[Weapon]]s, any excess EXP gained above a level cap does '''not''' get returned and is instead lost.
+
+The Experience amounts provided by different Items are as follows:
+* Combat Records used for Operators level 1 - 60
+** {{I|Elementary Combat Record|gridview=false}} provide 200 Operator EXP
+** {{I|Intermediate Combat Record|gridview=false}} provide 1,000 Operator EXP
+** {{I|Advanced Combat Record|gridview=false}} provide 10,000 Operator EXP
+* Cognitive Carriers used for Operators level 61 - 90
+** {{I|Elementary Cognitive Carrier|gridview=false}} provide 1,000 Operator EXP
+** {{I|Advanced Cognitive Carrier|gridview=false}} provide 10,000 Operator EXP
+
+These are the cumulative costs to upgrade an Operator to a specific level from level 1:
+* Level 20: 22,860 EXP and 820 T-Creds
+* Level 40: 271,400 EXP and 13,360 T-Creds
+* Level 60: 747,110 EXP and 37,260 T-Creds
+* Level 80: 1,212,340 EXP and 146,440 T-Creds
+* Level 90: 1,792,290 EXP and 385,420 T-Creds
+
+The costs for individual levels can be taken from the following table:
+{| class="wikitable mw-collapsible mw-collapsed "
+! Level !! EXP !! Total EXP !! T-Creds !! Total T-Creds
+|-
+| 2 || 20 || 20 || 0 || 0
+|-
+| 3 || 30 || 50 || 0 || 0
+|-
+| 4 || 40 || 90 || 0 || 0
+|-
+| 5 || 60 || 150 || 0 || 0
+|-
+| 6 || 90 || 240 || 0 || 0
+|-
+| 7 || 140 || 380 || 0 || 0
+|-
+| 8 || 200 || 580 || 0 || 0
+|-
+| 9 || 280 || 860 || 0 || 0
+|-
+| 10 || 390 || 1250 || 0 || 0
+|-
+| 11 || 510 || 1760 || 10 || 10
+|-
+| 12 || 700 || 2460 || 10 || 20
+|-
+| 13 || 940 || 3400 || 20 || 40
+|-
+| 14 || 1230 || 4630 || 30 || 70
+|-
+| 15 || 1580 || 6210 || 40 || 110
+|-
+| 16 || 2000 || 8210 || 60 || 170
+|-
+| 17 || 2560 || 10770 || 90 || 260
+|-
+| 18 || 3210 || 13980 || 130 || 390
+|-
+| 19 || 3990 || 17970 || 180 || 570
+|-
+| 20 || 4890 || 22860 || 250 || 820
+|-
+| 21 || 6080 || 28940 || 310 || 1130
+|-
+| 22 || 7610 || 36550 || 390 || 1520
+|-
+| 23 || 8440 || 44990 || 430 || 1950
+|-
+| 24 || 9200 || 54190 || 470 || 2420
+|-
+| 25 || 9890 || 64080 || 500 || 2920
+|-
+| 26 || 10510 || 74590 || 530 || 3450
+|-
+| 27 || 11050 || 85640 || 560 || 4010
+|-
+| 28 || 11830 || 97470 || 600 || 4610
+|-
+| 29 || 12370 || 109840 || 620 || 5230
+|-
+| 30 || 12690 || 122530 || 640 || 5870
+|-
+| 31 || 13100 || 135630 || 660 || 6530
+|-
+| 32 || 13510 || 149140 || 680 || 7210
+|-
+| 33 || 14100 || 163240 || 710 || 7920
+|-
+| 34 || 14580 || 177820 || 730 || 8650
+|-
+| 35 || 14950 || 192770 || 750 || 9400
+|-
+| 36 || 15210 || 207980 || 770 || 10170
+|-
+| 37 || 15460 || 223440 || 780 || 10950
+|-
+| 38 || 15720 || 239160 || 790 || 11740
+|-
+| 39 || 15990 || 255150 || 800 || 12540
+|-
+| 40 || 16250 || 271400 || 820 || 13360
+|-
+| 41 || 16520 || 287920 || 830 || 14190
+|-
+| 42 || 17010 || 304930 || 860 || 15050
+|-
+| 43 || 17510 || 322440 || 880 || 15930
+|-
+| 44 || 18030 || 340470 || 910 || 16840
+|-
+| 45 || 18570 || 359040 || 930 || 17770
+|-
+| 46 || 19050 || 378090 || 960 || 18730
+|-
+| 47 || 19760 || 397850 || 990 || 19720
+|-
+| 48 || 20470 || 418320 || 1030 || 20750
+|-
+| 49 || 21230 || 439550 || 1070 || 21820
+|-
+| 50 || 22070 || 461620 || 1110 || 22930
+|-
+| 51 || 22990 || 484610 || 1150 || 24080
+|-
+| 52 || 23980 || 508590 || 1200 || 25280
+|-
+| 53 || 25050 || 533640 || 1260 || 26540
+|-
+| 54 || 26210 || 559850 || 1320 || 27860
+|-
+| 55 || 27460 || 587310 || 1380 || 29240
+|-
+| 56 || 28820 || 616130 || 1450 || 30690
+|-
+| 57 || 30270 || 646400 || 1520 || 32210
+|-
+| 58 || 31840 || 678240 || 1600 || 33810
+|-
+| 59 || 33530 || 711770 || 1680 || 35490
+|-
+| 60 || 35340 || 747110 || 1770 || 37260
+|-
+| 61 || 14510 || 761620 || 1820 || 39080
+|-
+| 62 || 14710 || 776330 || 1960 || 41040
+|-
+| 63 || 14910 || 791240 || 2110 || 43150
+|-
+| 64 || 15030 || 806270 || 2250 || 45400
+|-
+| 65 || 15390 || 821660 || 2430 || 47830
+|-
+| 66 || 15920 || 837580 || 2660 || 50490
+|-
+| 67 || 16620 || 854200 || 2930 || 53420
+|-
+| 68 || 17500 || 871700 || 3240 || 56660
+|-
+| 69 || 18560 || 890260 || 3610 || 60270
+|-
+| 70 || 19810 || 910070 || 4050 || 64320
+|-
+| 71 || 21250 || 931320 || 4560 || 68880
+|-
+| 72 || 22880 || 954200 || 5140 || 74020
+|-
+| 73 || 24710 || 978910 || 5820 || 79840
+|-
+| 74 || 26750 || 1005660 || 6590 || 86430
+|-
+| 75 || 29000 || 1034660 || 7470 || 93900
+|-
+| 76 || 31460 || 1066120 || 8480 || 102380
+|-
+| 77 || 33400 || 1099520 || 9400 || 111780
+|-
+| 78 || 35440 || 1134960 || 10410 || 122190
+|-
+| 79 || 37580 || 1172540 || 11520 || 133710
+|-
+| 80 || 39800 || 1212340 || 12730 || 146440
+|-
+| 81 || 42100 || 1254440 || 14040 || 160480
+|-
+| 82 || 45220 || 1299660 || 15720 || 176200
+|-
+| 83 || 48510 || 1348170 || 17570 || 193770
+|-
+| 84 || 51960 || 1400130 || 19600 || 213370
+|-
+| 85 || 55550 || 1455680 || 21830 || 235200
+|-
+| 86 || 59300 || 1514980 || 24260 || 259460
+|-
+| 87 || 63180 || 1578160 || 26910 || 286370
+|-
+| 88 || 67190 || 1645350 || 29800 || 316170
+|-
+| 89 || 71340 || 1716690 || 32930 || 349100
+|-
+| 90 || 75600 || 1792290 || 36320 || 385420
+|}
+
+===Ability Matrix===
+In the Combat section of the Ability Matrix, the player can upgrade the Operator's Basic Attack, Battle Skill, Combo Skill, and Ultimate. Upgrading Combat Skills primarily increases their ATK multiplier, and may also improve debuff effectiveness or duration. Combo Skills additionally benefit from reduced cooldowns. The following table lists the required Promotion level and Items needed to upgrade a Battle Skill. All Battle Skills can be upgraded individually and have the same upgrade costs.
+
+To upgrade one Skill to the highest rank requires a total of:
+*{{I|T-Creds|172200|gridview=false}}
+*{{I|Protoprism|82|gridview=false}}
+*{{I|Protohedron|118|gridview=false}} 
+*{{I|Kalkodendra|3|gridview=false}}
+*{{I|Chrysodendra|4|gridview=false}}
+*{{I|Vitrodendra|4|gridview=false}}
+*{{I|Mark of Perseverance|6|gridview=false}}
+*21 Valuable Vitrified Plants such as {{I|Blighted Jadeleaf|gridview=false}} or {{I|False Aggela|gridview=false}}
+*58 Rare Progression Materials (for example {{I|D96 Steel Sample 4|gridview=false}}) 
+
+<div style="overflow-x: auto; white-space: nowrap;">
+{| class="mrfz-wtable" border="1" cellpadding="5" style="width: 500px; text-align: center;border: 3px solid; border-color: #3c3c3c;"
+|-
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | '''Rank'''
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 1
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 2
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 3
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 4
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 5
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 6
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 7
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 8
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | 9
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | {{Tip|M1|Mastery 1}}
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | {{Tip|M2|Mastery 2}}
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | {{Tip|M3|Mastery 3}}
+|-
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | '''Promotion'''
+| style="min-width: 57px; max-width: 57px; padding: 10px;" | [[File:Elite 0.png|25x25px|Elite 0]]
+| style="padding: 10px;" | [[File:Elite 1.png|25x25px|Elite 1]]
+| style="padding: 10px;" | [[File:Elite 1.png|25x25px|Elite 1]]
+| style="padding: 10px;" | [[File:Elite 2.png|25x25px|Elite 2]]
+| style="padding: 10px;" | [[File:Elite 2.png|25x25px|Elite 2]]
+| style="padding: 10px;" | [[File:Elite 2.png|25x25px|Elite 2]]
+| style="padding: 10px;" | [[File:Elite 3.png|25x25px|Elite 3]]
+| style="padding: 10px;" | [[File:Elite 3.png|25x25px|Elite 3]]
+| style="padding: 10px;" | [[File:Elite 3.png|25x25px|Elite 3]]
+| style="padding: 10px;" | [[File:Elite 4.png|25x25px|Elite 4]]
+| style="padding: 10px;" | [[File:Elite 4.png|25x25px|Elite 4]]
+| style="padding: 10px;" | [[File:Elite 4.png|25x25px|Elite 4]]
+|-
+| style="height: 30px; vertical-align: middle; border: 1px solid #535353; background: #2a2a2a; border: 3px solid; border-color: #3c3c3c;" | '''Cost'''
+| style="padding: 10px;" | -
+| style="padding: 10px;" | {{I|Protoprism|6}} {{I|Kalkodendra|1}} {{I|T-Creds|1000}}
+| style="padding: 10px;" | {{I|Protoprism|12}} {{I|Kalkodendra|2}} {{I|T-Creds|2700}}
+| style="padding: 10px;" | {{I|Protoprism|16}} {{I|Chrysodendra|1}} {{I|T-Creds|3200}}
+| style="padding: 10px;" | {{I|Protoprism|21}} {{I|Chrysodendra|1}} {{I|T-Creds|4200}}
+| style="padding: 10px;" | {{I|Protoprism|27}} {{I|Chrysodendra|2}} {{I|T-Creds|5400}}
+| style="padding: 10px;" | {{I|Protohedron|6}} {{I|Vitrodendra|1}} {{I|T-Creds|8200}}
+| style="padding: 10px;" | {{I|Protohedron|8}} {{I|Vitrodendra|1}} {{I|T-Creds|10500}}
+| style="padding: 10px;" | {{I|Protohedron|15}} {{I|Vitrodendra|2}} {{I|T-Creds|18000}}
+| style="padding: 10px;" | {{I|Mark of Perseverance|1}} {{I|Protohedron|15}} {{I|T-Creds|24000}} <br>+ Rare Materials and Plants
+| style="padding: 10px;" | {{I|Mark of Perseverance|2}} {{I|Protohedron|24}} {{I|T-Creds|30000}} <br>+ Rare Materials and Plants
+| style="padding: 10px;" | {{I|Mark of Perseverance|3}} {{I|Protohedron|50}} {{I|T-Creds|65000}} <br>+ Rare Materials and Plants
+|}</div>
+
+In the Talent Nodes section of the Ability Matrix, the player can unlock and upgrade various passive effects displayed as nodes for the Operator. These include an Attribute increase, Talents, Base Skills, Gear nodes, and also their Promotion level. Most of the Nodes have the same unlock costs across all Operators, except for some Talent Nodes, which can have varied costs depending on whether the Talent is already unlocked on E0 and how many ranks the Talent has, and the [[Endministrator]], who does not have any Base Skills and no Trust requirements for the Attribute Increase nodes.
+
+The required Promotion Level and Item costs to unlock various nodes in the Talent Nodes section are as follows:
+* Attribute Increase
+** [[File:Elite 1.png|25x25px|Elite 1]] Rank 1: {{I|T-Creds|1000|gridview=false}}, {{I|Protoprism|5|gridview=false}} and at least 20% Trust
+** [[File:Elite 2.png|25x25px|Elite 2]] Rank 2: {{I|T-Creds|1800|gridview=false}}, {{I|Protoprism|10|gridview=false}} and at least 50% Trust
+** [[File:Elite 3.png|25x25px|Elite 3]] Rank 3: {{I|T-Creds|6000|gridview=false}}, {{I|Protohedron|10|gridview=false}} and at least 100% Trust
+** [[File:Elite 4.png|25x25px|Elite 3]] Rank 4: {{I|T-Creds|12000|gridview=false}}, {{I|Protohedron|20|gridview=false}} and at least 100% Trust
+* First Base Skill
+** [[File:Elite 1.png|25x25px|Elite 1]] Rank 1: {{I|T-Creds|1600|gridview=false}}, {{I|Protoprism|6|gridview=false}}
+** [[File:Elite 3.png|25x25px|Elite 3]] Rank 2: {{I|T-Creds|8000|gridview=false}}, {{I|Protohedron|12|gridview=false}}
+* Second Base Skill
+** [[File:Elite 2.png|25x25px|Elite 2]] Rank 1: {{I|T-Creds|3000|gridview=false}}, {{I|Protoprism|12|gridview=false}}
+** [[File:Elite 4.png|25x25px|Elite 4]] Rank 2: {{I|T-Creds|20000|gridview=false}}, {{I|Protohedron|20|gridview=false}}
+* Gearing
+** [[File:Elite 1.png|25x25px|Elite 1]] Outfitting I (Blue): {{I|T-Creds|1800|gridview=false}}
+** [[File:Elite 2.png|25x25px|Elite 2]] Outfitting II (Purple): {{I|T-Creds|6500|gridview=false}}
+** [[File:Elite 3.png|25x25px|Elite 3]] Outfitting III (Gold): {{I|T-Creds|18000|gridview=false}}
+* Elite
+** Promotion I: {{I|T-Creds|1600|gridview=false}}, {{I|Protodisk|8|gridview=false}}, {{I|Pink Bolete|3|gridview=false}} and Operator Level 20
+** Promotion II: {{I|T-Creds|6500|gridview=false}}, {{I|Protodisk|25|gridview=false}}, {{I|Red Bolete|5|gridview=false}}, Operator Level 40 and Outfitting I
+** Promotion III: {{I|T-Creds|18000|gridview=false}}, {{I|Protoset|24|gridview=false}}, {{I|Ruby Bolete|5|gridview=false}}, Operator Level 60 and Outfitting II
+** Promotion IV: {{I|T-Creds|100000|gridview=false}}, {{I|Protoset|36|gridview=false}}, 8 Fungal Matter such as {{I|Bloodcap|gridview=false}} or {{I|Cosmagaric|gridview=false}}, 20 Rare Progression Materials (e.g. {{I|D96 Steel Sample 4|gridview=false}}), Operator Level 80 and Outfitting III
+
+===Potential===
+An Operator's Potential can be upgraded to unlock various passive effects, which often include improvements to their Skills and Talents, a flat increase to Attributes, and cost reductions for Ultimates.
+Operators have six stages of Potential, starting at 0 and ending at 5, denoted by white lines going counterclockwise that gradually form an inverted pentagram, with a yellow overlay indicating the next level. Operator Potentials can be increased by using [[Potential Token]]s of the respective Operator, raising the Potential by one for each Token used.
+
+Upgrading a 6-star Operator to their full Potential also changes their appearance, usually adding a glow effect to their equipment.
+
+===Cost Summary===
+This is the total cost that is required to max out a single Operator, excluding equippable items (such as Weapons, Essences, Gear and their artificing), Talents (because of their differing costs across Operators), and Potentials:
+* {{I|T-Creds|1280020|gridview=false}}
+* {{I|Advanced Combat Record|75|gridview=false}} or {{I|Advanced Combat Record|74|gridview=false}}, {{I|Intermediate Combat Record|7|gridview=false}}, {{I|Elementary Combat Record|1|gridview=false}}
+* {{I|Advanced Cognitive Carrier|105|gridview=false}} or {{I|Advanced Cognitive Carrier|104|gridview=false}}, {{I|Elementary Cognitive Carrier|6|gridview=false}}
+* {{I|Protoprism|361|gridview=false}}, {{I|Protohedron|534|gridview=false}}
+* {{I|Kalkodendra|12|gridview=false}}, {{I|Chrysodendra|16|gridview=false}}, {{I|Vitrodendra|16|gridview=false}}, 84 Valuable Vitrified Plants such as {{I|Blighted Jadeleaf|gridview=false}} or {{I|False Aggela|gridview=false}}
+* {{I|Pink Bolete|3|gridview=false}}, {{I|Red Bolete|5|gridview=false}}, {{I|Ruby Bolete|5|gridview=false}}, 8 Fungal Matter such as {{I|Bloodcap|gridview=false}} or {{I|Cosmagaric|gridview=false}}
+* 252 Rare Progression Materials (for example {{I|D96 Steel Sample 4|gridview=false}}) 
+* {{I|Protodisk|33|gridview=false}}, {{I|Protoset|60|gridview=false}}
+* {{I|Mark of Perseverance|24|gridview=false}}
+
+== Navigation ==
+
+{{Operators/icon|state=expanded}}
+
+{{Features}} 
+[[Category:Terminology]]
+[[Category:Characters]]

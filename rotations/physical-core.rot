@@ -1,0 +1,12 @@
+# The core physical team.
+# Written down from a plain-language description:
+#   "Chen: battle, combo, Camille battle, Rossi combo, enhanced combo,
+#    Camille combo, Mi Fu combo, Mi Fu battle, battle"
+title: Physical core: Chen / Camille / Rossi / Mi Fu
+team: Chen Qianyu, Camille, Rossi, Mi Fu
+
+Chen Qianyu: BS > CS
+Camille: BS
+Rossi: CS1 > CS2
+Camille: CS
+Mi Fu: CS > BS1 > BS2

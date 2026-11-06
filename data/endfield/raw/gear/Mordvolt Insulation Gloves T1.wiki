@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Mordvolt Insulation Gloves T1
+|image = Mordvolt_Insulation_Gloves_T1.png
+|filename = item_equip_t3_suit_wisd01_hand_01
+|cnname = 蚀电屏蔽手套·壹型
+|tcname = 蝕電絕緣手套·I
+|jpname = 蝕電遮断グローブⅠ
+|krname = 침식 차단 장갑 · I
+|spname = Guantes de aislamiento de Mordvolt T1
+|runame = Изолированные перчатки «Мортвольт» К1
+|rarity = 4
+|artifice = no
+|type = Gloves
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Mordvolt Insulation Gloves T1''' is a {{gear|4|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A piece of equipment essential for special environment operations. 
+All engineers making electrical repairs at Blight rupture sites must wear specialized PPE to avoid injuries caused by anomalous bursts of electrical discharge.}}
+
+==Stats==
+{{Gear data
+|defense = +30
+|pstat = Intellect
+|pvalue = +46
+|sstat = Strength
+|svalue = +30
+|tstat = Attack
+|tvalue = +12.2%
+|setname = Mordvolt Insulation
+|seteffect = 3-piece set effect: Wearer's Intellect {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Arts DMG|7}} {{Color|+20%|1d}}.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Mordvolt Insulation}}
+{{Gears|state=collapsed}}

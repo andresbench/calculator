@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Monaihe
+|rarity = 5
+|images = 
+Monaihe icon.png:Icon;
+Monaihe.png:Full;
+Monaihe max model.png:Max
+|filename = wpn_funnel_0007
+|cnname = 莫奈何
+|tcname = 莫奈何
+|jpname = 術無
+|krname = 무가내하
+|spname = Monaihe
+|runame = Монаихэ
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Monaihe''' is a 5★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An Arts unit developed by Hongshan Swordmancers and made using Xiranite. Given the fickle nature of this rare material, only wielders capable of the highest levels of focus and precision could wield this Arts unit effectively.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Inspiring: Mortise-and-Tenon Analysis|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [M]|ULT Efficiency [M]|Inspiring: Mortise-and-Tenon Analysis}}
+
+==Basic Info==
+{{Quote|Your graduation exams take place tomorrow, my dear. The importance of this review can't be overemphasized as the results will determine the job you'll be assigned with. I hoped to drive you to your exam but my Blight Tide monitoring job got in the way.<br>I believe you've already made all the essential preparations, but I must highlight the difficult challenge posed by the Originium Arts precision assessment. This is where most candidates fail, but you must succeed if you wish to join the Yinglung Special Task Force.<br>For this assessment, you'll be using an Arts Unit that the Hongshan Swordmancers specifically developed for Wuling. This unit includes Xiranite components whose circuitries change with the material. Wielding it would put your focus and all your senses to the test.<br>You probably know all of this by now. Youths of your age are calling this Arts Unit as Monaihe and I can't help but agree. You won't find another Arts Unit capable of eliciting more helpless frustration and anger from its wielder. The nickname even caught on with grown-ups like us.<br>I'm afraid I can't tell you more about this puzzle-box of an Arts Unit just to keep the assessment fair. Nevertheless, I have complete faith in you. Remember the wooden lock puzzles I bought you when you were a child? They kept you busy for a while but you always found a way to take them apart. Monaihe is the same thing. Overcome it like how you overcame those lock puzzles. Focus on the challenge and enjoy the process.<br>Good luck out there.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

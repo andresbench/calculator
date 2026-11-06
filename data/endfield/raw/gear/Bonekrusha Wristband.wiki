@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Bonekrusha Wristband
+|image = Bonekrusha_Wristband.png
+|filename = item_equip_t4_suit_attri01_hand_01
+|cnname = 碾骨腕带
+|tcname = 碾骨腕帶
+|jpname = 骨砕のグローブ
+|krname = 본 크러셔 장갑(손목)
+|spname = Pulsera Rompehuesos
+|runame = Костоломские краги
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Bonekrusha Wristband''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with designs inspired by the Bonekrusher Clan. 
+Not every wildlander becomes a Landbreaker, but no one could ever escape the bindings of the wild.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Strength
+|pvalue = +65, +71, +78, +84
+|sstat = Agility
+|svalue = +43, +47, +51, +55
+|tstat = Heat & Nature DMG
+|tvalue = +19.2%, +21.1%, +23.0%, +24.9%
+|setname = Bonekrusha
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When the wearer casts a combo skill, the wearer gains 1 stack of {{Color|Bonekrushing Smash|7}} that grants the wearer's next battle skill DMG Dealt {{Color|+30%|1d}}. {{Color|Bonekrushing Smash|7}} can stack 2 time(s).
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Bonekrusha}}
+{{Gears|state=collapsed}}

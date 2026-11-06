@@ -1,0 +1,132 @@
+# The Endministrator for the challenge "20 Arts Infliction → Final DMG Dealt +50 %".
+#
+# Built for one account: roster/endfield.profile.yaml, snapshot of 2026-09-25.
+# Gear and weapons were picked for this challenge (worked out that day):
+#
+#   Endmin   sk.12/12/12/12  Grand Vision r1 (6,6,3)      Grizzled Edge ×3 +3, P3
+#   Estella  sk.9/9/10/9     OBJ Razorhorn r5 (3,3,3)     Type 50 Yinglung ×3, P5
+#   Alesh    sk.9/10/12/10   Never Rest (4,4,3)           AIC Fieldwork ×4 (UGE), P5
+#   Antal    sk.6/6/6/6      Stanza of Memorials (4,4,2)  AIC Fieldwork ×3 + Frontiers Suit, P5
+#
+# Stanza is borrowed from Perlica, Never Rest was free. Give Stanza back afterwards.
+#
+# The challenge counter counts PER ENEMY (checked in a fight with Rossi's
+# ultimate), so area applications pay off many times over.
+#
+# The AXIS is Cryo. Heat and Electric stay out: on top of Cryo they cause a
+# different reaction and eat the stacks before Alesh's battle skill.
+#
+# Who applies Arts Infliction:
+#   Estella BS  — Cryo to everyone on the line of the strike  (+1 per enemy)
+#   Antal CS    — one more stack of the same infliction on the Focus target (+1, one target)
+#   Alesh ULT   — Cryo over a large area                       (+1 per enemy)
+# Nobody else. Alesh's battle skill CONSUMES the stacks, it does not apply them.
+#
+# The chain sustains itself, the combos arm each other:
+#   Estella BS → Cryo → Antal CS (+1 stack) → Alesh BS (eats it, Solidification)
+#   → Estella CS (Lift breaks the freeze: Shatter, physical damage)
+#   → Alesh CS (Arts Reaction consumed) → Endmin CS (crystals)
+#   → Endmin BS (Crush breaks the crystals, P1: 50 SP back).
+
+title: Endmin cryo: Endmin / Estella / Alesh / Antal
+team: Endministrator, Estella, Alesh, Antal
+
+# ===========================================================================
+variant: basic
+# ===========================================================================
+
+Antal: BS
+# Focus on the main target: lasts 60 s, one target on the field. Antal's
+# combo works only on it, so mark whoever will live the longest.
+# His Electric/Heat Susceptibility is useless here — the price of the duplicator.
+
+Estella: BS
+# Cryo along the line. Line the enemies up: each one hit is +1 to the counter.
+
+Antal: CS
+# Trigger: the Focus target received Arts Infliction. A second Cryo stack.
+# This combo deals damage and also arms the Endministrator's combo — but the
+# Endministrator is NOT pressed here: Estella's Lift would break the crystals,
+# and P1 (50 SP) would be lost.
+
+Alesh: BS
+# Eats both stacks → Solidification at Status Level II on the Focus target
+# (SL I on the rest). SP Recovery: 25 for 2 stacks (lv 10) + 10 from P1.
+# Every SP recovery is a Never Rest stack: Physical DMG +4 % to the others
+# for 30 s, up to 5 stacks. Alesh recovers SP with his battle skill, combo and
+# ultimate, so the +20 % holds almost all the time.
+
+Estella: CS
+# Trigger: Solidification. Lift breaks the freeze → Shatter, physical.
+# Physical Susceptibility 15 % (combo lv 10) — on all of the team's physical
+# damage, and the Endministrator hits inside this window. Talent E2: her next
+# battle skill returns 15 SP.
+
+Alesh: CS
+# Trigger: Arts Reaction consumed. +15 SP (lv 12), a chance of Rare Fin
+# (+10 SP, and P3 gives the team ATK +15 % for 10 s).
+
+Endministrator: CS
+# Trigger: a teammate's combo. Crystals on the target, a seal for 5 s.
+# Grand Vision: applying crystals → the Endministrator's next battle skill or
+# ultimate gets Physical DMG +57.6 %. Alesh's Solidification does NOT arm
+# this effect: the condition is "when the wielder applies".
+
+Endministrator: BS
+# Crush breaks the crystals: P1 returns 50 SP, talent E2 gives ATK +30 %,
+# P2 gives half of that to the others.
+
+Alesh: CS~ [crystals consumed — a second trigger, if the 8 s cooldown is back]
+
+Endministrator: BA > FS
+
+# ===========================================================================
+variant: wave
+# A pack of small enemies. Open with Alesh's ultimate, so the counter goes
+# up on all of them at once.
+# ===========================================================================
+
+Antal: BS
+Alesh: ULT
+# Cryo to everyone in a large area: +1 to the counter for each. Returns SP
+# for kills (up to 100).
+
+Estella: BS
+# A second Cryo stack on everyone in the line (+Arts Burst): another +1 each.
+
+Antal: CS
+# A third stack on the Focus target.
+
+Alesh: BS
+# Solidification SL III on the Focus target, SL II on those hit by both.
+
+Estella: CS
+Alesh: CS
+
+Antal: ULT~
+# The ultimate itself (Electric/Heat Amp) is useless here — it is pressed for
+# Stanza of Memorials: the other three are of another element and get ATK
+# +11.2 % for 20 s. Put it right before the Endministrator's burst, so the
+# window covers her ultimate and battle skill.
+
+Endministrator: CS
+Endministrator: ULT~ [hits the crystals: extra hit 600 %, P3 +15 energy; the Grand Vision buff goes here]
+Endministrator: BS
+
+# ===========================================================================
+# WHAT THIS FILE DOES NOT CHECK
+#
+# The trigger logic is validated, not the timing or the resources.
+#
+# The counter per "basic" cycle: 2 applications on the Focus target + 1 for
+# each extra enemy on Estella's line. On a single target that is 10 cycles —
+# the challenge has to be done on packs, not on a boss.
+#
+# SP (roughly, a cycle is ~25 s, set by Antal's combo cooldown): 4 battle
+# skills = 400; back come Alesh 35 + 15, Endmin 50, Estella 15, regen ≈ 200.
+# The first cycle is ~85 short; from the second one Antal skips his battle
+# skill (Focus lasts 60 s) — and the cycle comes out positive. Final Strikes
+# cover the rest.
+#
+# The Endministrator's refund is an SP Return: spending it gives no Ultimate Energy.
+# ===========================================================================

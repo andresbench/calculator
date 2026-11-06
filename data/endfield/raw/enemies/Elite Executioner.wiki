@@ -1,0 +1,66 @@
+{{Enemy infobox
+|name = Elite Executioner
+|image = Elite_Executioner_sprite.png
+|filename = eny_0068_lbtough2
+|cnname = 精锐行刑人
+|tcname = 精銳行刑人
+|jpname = 処刑人・精鋭
+|krname = 처형자 · 정예
+|spname = Ejecutor de élite
+|runame = Элитный палач
+|type = Landbreakers
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 14
+}}
+'''Elite Executioner''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An elite Landbreaker brute enhanced by fumes known as hazefyre. This particular LB is a towering giant armed with a great axe. Such elites are usually seen leading Bonekrusher raiding mobs.}}
+
+==Stats==
+{{Enemy data
+|HP = 1661, 11923, 75442, 297005, 714428, 1100596
+|ATK = 105, 496, 1543, 3832, 5767, 6607
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 340
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *His grab attack deals massive DMG. If an operator is grabbed, use another operator's skill to interrupt him and free the grabbed operator.
+*Dodging the charged double axe swings will not be easy. Try to interrupt him instead.
+|location = *[[Originium Science Park]]
+|drops = {{I|Shattered Axe Blade}}
+|addendum = }}
+
+==Overview==
+A [[Bonekrusher Executioner]] that got enhanced by hazefyre, the Elite Executioner has similar appearance with its counterpart, but it doesn't make them less of the threat with most abilities remained with additions:
+
+*Swings with their axe, dealing Physical damage.
+*Conduct an upwards swing, digging rocks out of the ground, landing at five spots which deals Physical damage.
+*Attack with a headbutt, dealing Physical damage and knock Operators back.
+*Slams with their axe after a leap, dealing Physical damage but makes them immobile due to the axe stuck at the ground. This is followed by pulling it out which also deals Physical damage.
+*Attempts to grab an Operator nearby; If success, deals continuous Physical damage. After a charge up, throws the Operator and deals heavy Physical damage. This ability can be interrupted by skills.
+*After a short charge up, swings their axe twice, dealing Physical damage and knock Operators back. This is followed by another swing, dealing Physical damage and knock Operators back. This ability can be interrupted by skills.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1661, 11923, 75442, 297005, 714428, 1100596 from 1661, 14027, 88756, 297005, 714428, 1100596
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

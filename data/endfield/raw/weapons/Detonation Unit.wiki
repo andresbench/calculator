@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Detonation Unit
+|rarity = 6
+|images = 
+Detonation_Unit icon.png:Icon;
+Detonation_Unit.png:Full;
+Detonation_Unit max model.png:Max
+|filename = wpn_funnel_0008
+|cnname = 爆破单元
+|tcname = 爆破單元
+|jpname = 破壊ユニット
+|krname = 폭발 유닛
+|spname = Unidad de detonación
+|runame = Модуль взрыва
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Detonation Unit''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An Arts unit developed by Northmarch Support Hub. It is, without question, the unit with the best Originium Arts conductance. Only the most capable casters could master this weapon.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Detonate: Imposing Champion|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Main Attribute [L]|Arts Intensity [L]|Detonate: Imposing Champion}}
+
+==Basic Info==
+{{Quote|I received Walther's specifications. Absolutely ludicrous! I had to double-check with the man because I suspect he wrote an extra zero for the desired yield. Mister blightbrain wasn't asking for an Arts Unit. He was asking for a portable giga-cannon. The nutcase claimed that he desperately needed the weapon to push our frontiers further into the wildlands. Even if I were to successfully make this mother-of-all-guns, I balk at the idea of handing over this dangerous weapon of mass devastation to the frontiersfolk.<br>......<br>Theoretically speaking, the yield was ... feasible. My calculations placed it within achievable limits but the numbers look risky. I had to redesign the structure of the Arts Unit but this would ... double the weight of the entire setup.<br>......<br>A powered eviscerator with a moving chain of cutting bits? Their demands are getting nuttier with every single day. Are they really going to smash an enemy's head with this Arts Unit? Come to think about it, the current build does have enough room for a motor. Maybe I'll give it a shot.<br>......<br>They pushed further into the front and Walther invited me for a field tour. To quote the man, he wanted to see what my works had "achieved". It would be nice if mister blightbrain could explain how my prototype vanished and how they failed to salvage anything. Not even a piece of scrap.<br>......<br>It was a monumental sight that I'd remember for life. The Aggelos was as big as a mountain and its carcass blocked the entire valley. Walther told me how he remotely controlled the prototype to ram against the Aggelos and how the mounted power eviscerator created an opening on its crust. The explosive payload was then detonated with ... ground shattering effects.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

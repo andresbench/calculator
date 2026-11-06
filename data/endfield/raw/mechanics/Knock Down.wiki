@@ -1,0 +1,122 @@
+{{Physical Status tab}}
+{{Status infobox
+|Knock Down
+|Applies {{G|Vulnerable}} on an enemy. If the enemy is already {{G|Vulnerable}}, then add 1 stack of {{G|Vulnerable}}, and deal {{Color|Physical DMG|2}} and {{Color|Stagger|2}}.
+|image = [[File: Knock Down icon.png]]
+|type = Debuff, Crowd Control, Damage Instance
+|source = Operator
+}}
+{{Icon|Knock Down icon|'''Knock Down'''}} is a type of debuff, crowd control, and damage instance applied to enemies in ''[[Arknights: Endfield]]''.
+
+When an operator applies Knock Down to an enemy that is not currently {{G|Vulnerable}}, a stack of Vulnerability is applied instead. Otherwise, it deals {{Color|120% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator, applies {{Color|10|8}} Stagger, and applies a stack of Vulnerability.
+
+Weaker enemies are briefly '''Knocked Down''' into the ground for {{Color|1|1d}} second. Stronger enemies are immune to the crowd control effect but will continue to receive the additional damage, stagger, and Vulnerability debuff.
+
+Knock Down can be <u>forcibly applied</u> by some operators without requiring the enemy to be Vulnerable.
+
+{{TOC limit|2}}
+{{Clr}}
+
+== Calculations ==
+=== Physical DMG Instance ===
+{{Main|Damage calculation}}
+=== Stagger ===
+{{Main|Stagger}}
+
+==Sources==
+{{Operator table
+|header = Source
+|content =
+{{Operator table row
+|name = Catcher
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Catcher
+|name = Textbook Assault
+|type = Ultimate
+|content = 
+<b>SKILL DESCRIPTION:</b> Swings the greatsword to perform 2 consecutive slashes to deal {{Color|Physical DMG|1}} and apply {{G|Weaken|Weakness}}, followed by a powerful downward slam that deals massive {{Color|Physical DMG|1}} and applies {{G|Knock Down|Knock Down}} to all enemies within the area of effect.}}
+}}
+{{Operator table row
+|name = Da Pan
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Dapan
+|name = HOP 'N DUNK!
+|type = Ultimate
+|content = 
+<b>SKILL DESCRIPTION:</b> Da Pan slams the chopping board to forcibly {{G|Lift|Lift}} all enemies in the area of effect in front of him. This is followed by a 6-sequence flurry of slashes that deals {{Color|Physical DMG|1}}. The final step is to bash every enemy to the ground to forcibly {{G|Knock Down|Knock Down}} and deal massive {{Color|Physical DMG|1}} to them.
+}}
+}}
+{{Operator table row
+|name = Ember
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Ember
+|name = Forward March
+|type = Skill
+|content = 
+<b>SKILL DESCRIPTION:</b> A leap followed by a heavy slam that deals {{Color|Heat DMG|3}}, {{G|Knock Down|Knock Down}}, and Stagger to all enemies in a fan-shaped area. <br />If Ember takes DMG from enemies during casting, the slam deals more Stagger when it hits.
+}}
+{{Operator table row/Combat skill
+|icon = Combo-Ember
+|name = Frontline Support
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the controlled operator is attacked. <br /><b>SKILL DESCRIPTION:</b> Leaps at the target enemy and unleashes a heavy slam that deals {{Color|Physical DMG|1}} and {{G|Knock Down|Knock Down}} while giving HP treatment to the controlled operator. The attribute of Will increases the amount of HP treatment.
+}}
+}}
+{{Operator table row
+|name = Lifeng
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Lifeng
+|name = Turbid Avatar
+|type = Skill
+|content = 
+<b>SKILL DESCRIPTION:</b> Swings the polearm multiple times to deal 2 hits of {{Color|Physical DMG|1}}, then slams the ground to deal {{Color|Physical DMG|1}} and {{G|Knock Down|Knock Down}} to all enemies in the area of effect. <br />If the enemy struck by the last hit of this skill has no {{G|Vulnerable|Vulnerability}} stacks, apply {{G|Physical Susceptibility|Physical Susceptibility}} to the said enemy as well.
+}}
+
+{{Operator table row/Combat skill
+|icon = Ult-Lifeng
+|name = Heart of the Unmoving
+|type = Ultimate
+|content = 
+<b>SKILL DESCRIPTION:</b> Unleashes an aspect that performs an Immovable Vajra Slam. The Slam deals {{Color|Physical DMG|1}} and applies {{G|Knock Down|Knock Down}} to all enemies in a large area of effect (AOE), and pulls enemies towards the center of the AOE. After a while, the Slam unleashes one more hit that deals massive {{Color|Physical DMG|1}} and applies another {{G|Knock Down|Knock Down}} to enemies still within its AOE.<br />If the skill {{G|Debuff Consumption|consumes}} a {{G|Link|Link}}, then it deals an additional hit of massive {{Color|Physical DMG|1}}.
+}}
+}}
+}}
+==Interactions==
+{{Operator table
+|header = Interaction
+|content =
+{{Operator table row
+|name = Lifeng
+|content = 
+{{Operator table row/Combat skill
+|icon = Lifeng Talent 2 icon
+|name = Subduer of Evil
+|type = Talent
+|content = 
+{{Icon|Elite 2|text=false}}: Applying {{G|Knock Down|Knock Down}} also deals {{Color|50%|1d}} ATK of {{Color|Physical DMG|1}}.<hr>
+{{Icon|Elite 3|text=false}}: Applying {{G|Knock Down|Knock Down}} also deals {{Color|100%|1d}} ATK of {{Color|Physical DMG|1}}.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* <b>Beta Test II</b>
+** {{Tooltip/Forcibly apply|Physical|Forcibly applied}} {{G|Knock Down}} added.
+*** When an operator {{Tooltip/Forcibly apply|Physical|forcibly applies}} {{G|Knock Down|Knocked Down}}, the enemy is not required to be {{G|Vulnerable}} for the effects to be applied.
+*** 
+** {{G|Knock Down}} changed.
+*** <b>New:</b> When an operator applies {{G|Knock Down|Knocked Down}} to a {{G|Vulnerable}} enemy, deal additional {{Color|Physical DMG|2}}, apply {{Color|Stagger|8}}, and add one more stack of {{G|Vulnerable|Vulnerability}} (up to 4 times).
+*** <b>Old:</b> When an operator applies {{G|Knock Down|Knocked Down}} to a {{G|Vulnerable}} enemy, {{G|Debuff Consumption|consume}} the debuff to deal additional {{Color|Physical DMG|2}} and apply {{Color|Stagger|8}}.
+* <b>Beta Test I</b>
+** {{G|Knock Down}} added.
+*** When an operator applies {{G|Knock Down|Knocked Down}} to a {{G|Vulnerable}} enemy, {{G|Debuff Consumption|consume}} the debuff to deal additional {{Color|Physical DMG|2}} and apply {{Color|Stagger|8}}.
+*** When an operator applies {{G|Knock Down|Knocked Down}} to a non-{{G|Vulnerable}} enemy, apply {{G|Vulnerable}} instead.
+}}
+
+{{Combat mechanics}}
+[[Category:Physical Status]]

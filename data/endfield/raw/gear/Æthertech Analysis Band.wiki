@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Æthertech Analysis Band
+|image = Æthertech_Analysis_Band.png
+|filename = item_equip_t4_suit_poise01_edc_01
+|cnname = 轻超域分析环
+|tcname = 輕超域分析環
+|jpname = 軽量超域分析バンド
+|krname = 경량 초자연 분석 반지
+|spname = Banda de análisis de etertecnología
+|runame = Аналитический обруч «Эфиртех»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Æthertech Analysis Band''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Portable Æthertech Labs and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Lightweight experimental protective equipment. 
+"We're exploring the means of digitally analyzing signs of Blight growth. Everyone is welcome to sign-up for product trials."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +32, +35, +38, +41
+|sstat = Will
+|svalue = +21, +23, +25, +27
+|tstat = Physical DMG Bonus
+|tvalue = +23.0%, +25.3%, +27.6%, +29.9%
+|setname = Æthertech
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+After the wearer applies {{G|Vulnerable|Vulnerability}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+8%|1d}} for 15s. This effect can reach 4 stacks. If the target has 4 stacks of {{G|Vulnerable|Vulnerability}}, the wearer gains an additional {{Color|Physical DMG Dealt|1}} {{Color|+16%|1d}} for 10s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Æthertech}}
+{{Gears|state=collapsed}}

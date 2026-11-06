@@ -1,0 +1,72 @@
+[
+ {
+  "_pageName": "At the Wake of Spring",
+  "Version": "At the Wake of Spring",
+  "VersionNumber": "1.2",
+  "NewsNumber": "0751",
+  "StartTime": "2026-04-17 04:00:00",
+  "EndTime": "2026-06-04 22:00:00",
+  "StartTime__precision": "0",
+  "EndTime__precision": "0"
+ },
+ {
+  "_pageName": "Dreamscape of Wind and Snow",
+  "Version": "Dreamscape of Wind and Snow",
+  "VersionNumber": "1.5",
+  "NewsNumber": "5208",
+  "StartTime": "2026-09-02 04:00:00",
+  "EndTime": "2026-10-14 22:00:00",
+  "StartTime__precision": "0",
+  "EndTime__precision": "0"
+ },
+ {
+  "_pageName": "Homecoming",
+  "Version": "Homecoming",
+  "VersionNumber": "1.4",
+  "NewsNumber": "5200",
+  "StartTime": "2026-07-16 04:00:00",
+  "EndTime": "2026-09-01 22:00:00",
+  "StartTime__precision": "0",
+  "EndTime__precision": "0"
+ },
+ {
+  "_pageName": "Old Deep Water Dies, by Rising Tide It is Denied",
+  "Version": "Old Deep Water Dies, by Rising Tide It is Denied",
+  "VersionNumber": "1.1",
+  "NewsNumber": "8907",
+  "StartTime": "2026-03-12 04:00:00",
+  "EndTime": "2026-04-16 22:00:00",
+  "StartTime__precision": "0",
+  "EndTime__precision": "0"
+ },
+ {
+  "_pageName": "Sanctuary of Ink",
+  "Version": "Sanctuary of Ink",
+  "VersionNumber": "1.6",
+  "NewsNumber": "",
+  "StartTime": "2026-10-15 04:00:00",
+  "EndTime": "2026-11-24 22:00:00",
+  "StartTime__precision": "0",
+  "EndTime__precision": "0"
+ },
+ {
+  "_pageName": "Sketches of Lost Heirlooms",
+  "Version": "Sketches of Lost Heirlooms",
+  "VersionNumber": "1.3",
+  "NewsNumber": "0758",
+  "StartTime": "2026-06-05 04:00:00",
+  "EndTime": "2026-07-15 22:00:00",
+  "StartTime__precision": "0",
+  "EndTime__precision": "0"
+ },
+ {
+  "_pageName": "Zeroth Directive",
+  "Version": "Zeroth Directive",
+  "VersionNumber": "1.0",
+  "NewsNumber": "",
+  "StartTime": "2026-01-22 03:00:00",
+  "EndTime": "2026-03-11 22:00:00",
+  "StartTime__precision": "0",
+  "EndTime__precision": "0"
+ }
+]

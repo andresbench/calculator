@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Darhoff 7
+|rarity = 3
+|images = 
+Darhoff_7 icon.png:Icon;
+Darhoff_7.png:Full;
+Darhoff_7 max model.png:Max
+|filename = wpn_claym_0010
+|cnname = 达尔霍夫7
+|tcname = 達爾霍夫7
+|jpname = ダルホフ7
+|krname = 다호프 7
+|spname = Darhoff 7
+|runame = Дархофф 7
+|type = Great Sword
+|source = First Time Operator Acquisition}}
+'''Darhoff 7''' is a 3★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the standard-issue operator weapons manufactured by Endfield Industries. This weapon is designed by Endfield Arsenal Engineer Darhoff. Its designs offer a viable option for those taking part in assault operations.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 29, 83, 140, 197, 254, 283
+|pot = Skill {{Color|Assault: Armament Prep|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Main Attribute [S]|Assault: Armament Prep}}
+
+==Basic Info==
+{{Quote|We believe that a task force composed of 12 operators must include at least 2 to 3 heavy melee weapon specialists. These operators must be extremely competent combatants with great mental fortitude and extensive combat experience. These operators would perform dangerous roles that include assault of hostile positions and strong points. Given the increasing threat posed by the Aggeloi to Endfield facilities, we must establish new training standards, raise the levels of our combat simulation programs, and restructure our field operator teams. The following is a proposal to achieve these objectives...}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

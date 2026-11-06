@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Fluorescent Roc
+|rarity = 4
+|images = 
+Fluorescent_Roc icon.png:Icon;
+Fluorescent_Roc.png:Full;
+Fluorescent_Roc max model.png:Max
+|filename = wpn_funnel_0003
+|cnname = 荧光雷羽
+|tcname = 螢光雷羽
+|jpname = 蛍光雷羽
+|krname = 섬광 번개
+|spname = Roc fluorescente
+|runame = Флуоресценция
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Fluorescent Roc''' is a 4★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the Arts units manufactured by Endfield Industries. It sports bold structural designs, superb Arts conductance, but is incredibly difficult to control. Mastering this weapon was considered a proof of competency amongst operators.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Suppression: Emergency Boost|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [S]|ATK [S]|Suppression: Emergency Boost}}
+
+==Basic Info==
+{{Quote|We found this piece of rock on an unnamed peak and your Dad exhausted himself 3 times trying to dig it out. Don't worry, he's fine. Old man just needed more exercise. We saw your Arts unit design drawings and felt really impressed. The white metal will make wonderful eyes for the unit. Hope you're doing well, sweetheart. We'll see you back at Dijiang soon.<br>......<br>We met an ingenious designer at the TGCC and paid quite a steep price for his flagship design from RAYTHEAN Industries. This was meant to be your birthday present but we spent all our money during the auction and got in quite a bit of trouble for that. Our return to Dijiang will be slightly delayed but we'll be there to celebrate your birthday. Hope everything's well, sweetheart. And don't forget to give our kindest regards to Supervisor Perlica.<br>......<br>We met Uncle Semyon and saw the handcannons you designed at Valley IV. It was so incredibly touching, but your old man spoiled the moment by ignoring me and "stealing" one of them without observing the proper protocol. I had to submit an application for him afterwards and wonder if you could apologize to Supervisor Perlica on his behalf. The bold design of the handcannon as well as your little innovation in the etched ammo took me by surprise... Something happened at Valley IV before we arrived and your Dad didn't contact me for hours after he ran off into the wildlands on his own. Don't worry. We'll be back onboard the ship to celebrate your birthday, sweetheart.<br>......<br>By Talos, your handcannon is a work of wonder!<br>......<br>I contacted my old friends working at Hongshan Swordmancers. They agreed to support your latest ideas. Listen to your Ma and stop those insane overtimes! And DON'T forget to exercise! Listen to Supervisor Perlica and help her achieve her grand vision. Hopefully you'll be a little taller when we see you next time aboard Dijiang.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

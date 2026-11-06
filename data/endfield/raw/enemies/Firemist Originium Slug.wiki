@@ -1,0 +1,64 @@
+{{Enemy infobox
+|name = Firemist Originium Slug
+|image = Firemist_Originium_Slug_sprite.png
+|filename = eny_0092_slbomb
+|cnname = 火雾源石虫
+|tcname = 火霧源石蟲
+|jpname = 熱霧オリジムシ
+|krname = 화염원석충
+|spname = Babosa de Originio de brumafuego
+|runame = Ориджиниевый слизень огнетумана
+|type = Wildlife
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 7
+}}
+'''Firemist Originium Slug''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A wild creature infected by Originium with extremely high body temperatures. This slug explodes when near death, covering everything nearby with acidic body fluids at boiling temperatures as well as active Originium dust.}}
+
+==Stats==
+{{Enemy data
+|HP = 180, 1292, 8173, 32175, 77396, 119231
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy self-detonates at low HP. The detonation applies an unstable material on the operator it hits. If the operator takes DMG, the material will explode.
+|location = *[[Jingyu Valley]]
+*[[Wuling City]]
+*[[Test Area]]
+*[[Energy Alluvium: Test Area]]
+|drops = {{I|Slug Meat}}
+|addendum = }}
+
+==Overview==
+An unstable variant of [[Acid Originium Slug]], Firemist Originium Slugs are similar to their stable counterpart in term of attacking; They either attack with a ram, which deal Physical damage, or spew out acid and deal Nature damage at five spots. 
+
+What is setting them apart, however, is that Firemist Originium Slugs will self detonate when their HP is below 50%, which kills them in the process, but also deals Physical damage and knock Operators back. Operators that got affected will be attached with an unstable material, which explode and deal Physical damage when receiving damage from other sources. This material wears off after a short period.
+
+==See Also==
+* [[Acid Originium Slug α]] &ndash; a stronger variant of the Acid slug.
+* [[Blazemist Originium Slug]] &ndash; a stronger variant of the Firemist slug.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 180, 1292, 8173, 32175, 77396, 119231 from 180, 1520, 9615, 32175, 77396, 119231
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

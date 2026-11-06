@@ -1,0 +1,58 @@
+{{Enemy infobox
+|name = Falsewings α
+|image = Falsewings_α_sprite.png
+|filename = eny_0101_agfly2
+|cnname = 仿生翅天使α
+|tcname = 仿生翅天使α
+|jpname = 擬翼アンゲロスα
+|krname = 모방아겔로스 · α
+|spname = Alas falsas α
+|runame = Лжекрыл α
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 12
+}}
+'''Falsewings α''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Psuthopteron Anavon" (archive ID: ARA07Cα) is an energized variant of the ARA07C. Most observers regard color as the only differentiating feature between the Anavon and the basic variants.}}
+
+==Stats==
+{{Enemy data
+|HP = 166, 1192, 7544, 29700, 71443, 110060
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Launches small whirlwinds that can also slow down operators.
+|location = *[[Energy Alluvium: Origin Lodespring]]
+|drops = {{I|Hollow Aggagrit}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Falsewings]], Falsewings α have similar appearance with their counterpart, but it doesn't make them more of the threat; Aside from a shot, which deals Æther damage, they can create a moving whirlwind that deals continuous Æther damage and slows Operators in it.
+
+==See Also==
+*[[Falsewings]] - an alternate version of Falsewings α.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 166, 1192, 7544, 29700, 71443, 110060 from 166, 1403, 8876, 29700, 71443, 110060
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Exemplar
+|rarity = 6
+|images = 
+Exemplar icon.png:Icon;
+Exemplar.png:Full;
+Exemplar max model.png:Max
+|filename = wpn_claym_0004
+|cnname = 典范
+|tcname = 典範
+|jpname = 鑑
+|krname = 모범
+|spname = Ejemplar
+|runame = Эталон
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Exemplar''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|The latest standalone product from Mieszko Industries. Designs were based on a relic unearthed by the Cabal of Tranquility. The weapon itself was furnished with highly classified technologies, allowing it to cut through almost anything with ease.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Suppression: Stacked Hew|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Main Attribute [L]|ATK [L]|Suppression: Stacked Hew}}
+
+==Basic Info==
+{{Quote|I refused to agree with Henry's ideas.<br>The RAYTHEAN motto of making practical products is mere escapism. The form of a weapon is a conclusive result of both traditions and experience. Nature has granted us intuitive senses to differentiate between things that work and things that don't. Elegance and harmony are the unspoken answers for perfection that we arrived at thanks to the countless years of our history and hard-earned experiences.<br>And I must seize this bid just to prove this point.<br><br>I got 9 ways to achieve the level of destruction desired by the client, but none of them should be used by a weapon of this size.<br>I also heard that Henry decided to test out his flash-burn impulse technology. Laughable. The client specifically requested a sword, not a cannon with a hilt welded to it.<br><br>Weapon performance failed to meet the desired specifications.<br>Henry had a short discussion with me. His team was also out of ideas. I didn't know what the client might think if they saw this private meeting of weapon designers from 2 competing companies. <br><br>Their specifications were impossible. Why did the boss agree to take on this contract?<br>Even if the dude took the sample prototype to HQ and wanted something with the exact same performance, he would just get another strange artifact unearthed by another bunch of weirdos. We now have more than reputation to worry about. These untested and strange devices pose a threat to our very lives.<br><br>I received a flash of inspiration during shower that might just help us meet the minimum specs. I knew bathroom opera would work.<br>A stack of 4 core armor slabs of armored vehicles? Hmph. My solution could go through that in a single slash. I doubt if RAYTHEAN has a better alternative. Physics is a hard science with hard limits. We may have our differences, but both of us should acknowledge this truth.<br><br>The Cabal of Tranquility re-activated the prototype.<br>It went through ... a stack of 16 armor slabs. The Cabal intends to run another test with a stack of 32 once emergency repairs for the ceiling is complete.<br>They even proposed a diagonal cut from corner to corner.<br>Maybe I should talk to the boss about this.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

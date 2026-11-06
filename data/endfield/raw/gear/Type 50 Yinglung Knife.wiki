@@ -1,0 +1,41 @@
+{{Gear infobox
+|name = Type 50 Yinglung Knife
+|image = Type_50_Yinglung_Knife.png
+|filename = item_equip_t4_suit_atk02_edc_04
+|cnname = 50式应龙短刃
+|tcname = 50式應龍短刃
+|jpname = 50式応龍短剣
+|krname = 응룡 50식 단검
+|spname = Cuchillo Yinglung tipo 50
+|runame = Нож «Инлун-50»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = *Purchase: Wuling Stock Redistribution
+*Stock Redistribution Terminal Upgrade
+}}
+'''Type 50 Yinglung Knife''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A civilian version of Yinglung Special Task Force equipment. The lack of a crucial power component actually improved its compatibility with general users. 
+"When I saw familiar faces whom I once trained with carrying out crucial roles and protecting key locations, I felt ... like a defeated loser fleeing a terrible battlefield. I felt like a deserter."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +32, +35, +38, +41
+|sstat = Agility
+|svalue = +21, +23, +25, +27
+|tstat = Combo Skill DMG Bonus
+|tvalue = +41.4%, +45.5%, +49.7%, +53.8%
+|setname = Type 50 Yinglung
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When any operator in the team casts a battle skill, the wearer gains 1 stack of {{Color|Yinglung's Edge|7}} that gives DMG {{Color|+20%|1d}} to the wearer's next combo skill. {{Color|Yinglung's Edge|7}} can stack 3 time(s).
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Type 50 Yinglung}}
+{{Gears|state=collapsed}}

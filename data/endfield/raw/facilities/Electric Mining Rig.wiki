@@ -1,0 +1,29 @@
+{{Facility infobox
+|name = Electric Mining Rig
+|filename = item_port_miner_2
+|images = Electric Mining Rig icon.png:Icon;
+Electric Mining Rig.png:Full
+|cnname = 电驱矿机
+|tcname = 電驅礦機
+|jpname = 電動採鉱機
+|krname = 전동 채굴기
+|spname = Plataforma de minería eléctrica
+|runame = Добывающая ЭУ
+|type = Resourcing
+|rarity = 2
+|power = 5}}
+'''Electric Mining Rig''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|Requires power. This mining rig can mine Originium Ore and Amethyst Ore.|Market performance for this facility was mediocre due to its equally mediocre stats.}}
+==Usage==
+Requires power. This mining rig can mine [[Originium Ore]] and [[Amethyst Ore]].
+*Power Use : 5
+
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Mining II]]
+{{RecipeTable|product=Electric Mining Rig}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Resourcing Facilities]]

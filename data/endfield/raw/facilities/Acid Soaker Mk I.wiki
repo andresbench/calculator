@@ -1,0 +1,29 @@
+{{Facility infobox
+|name = Acid Soaker Mk I
+|filename = item_port_battle_debuff_1
+|images = Acid Soaker Mk I icon.png:Icon;
+Acid Soaker Mk I.png:Full
+|cnname = “酸洗”MK-Ⅰ
+|tcname = 「酸洗」MK-I
+|jpname = 酸液MK-Ⅰ
+|krname = '피클링' MK-I
+|spname = Lanzador de ácido Mk I
+|runame = Кислотная камера Mk I
+|type = Combat & Support
+|rarity = 5
+|power = }}
+'''Acid Soaker Mk I''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|12375|7}}
+<b>Attack Interval</b>: {{Color|5|7}}s
+<b>Mode of Attack</b>: Launches special acid grenades that detonate above ground near enemies to deal {{Color|Nature DMG|5}} and apply DEF Reduction to enemies in the area of effect.|A special upgrade to Marsh Gas Mk I designed to counter units with high defense. The tower fires shells filled with highly corrosive fluids that effectively eat away the enemy's defensive capabilities.}}
+==Usage==
+
+==Acquisition==
+Research the specified tech in the Wuling AIC Plan to construct this.
+{{RecipeTable|product=Acid Soaker Mk I}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

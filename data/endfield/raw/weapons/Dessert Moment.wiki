@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Dessert Moment
+|rarity = 5
+|images = 
+Dessert_Moment icon.png:Icon;
+Dessert_Moment.png:Full;
+Dessert_Moment max model.png:Max
+|filename = wpn_sword_0023
+|cnname = 点心时刻
+|tcname = 點心時刻
+|jpname = スイーツタイム
+|krname = 간식 시간
+|spname = Momento del postre
+|runame = Время десерта
+|type = Sword
+|source = [[Purry Big Feline! RAWR!]]}}
+'''Dessert Moment''' is a 5★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A unique work released by the Portable Æthertech Labs. The designs are supposedly inspired by a medical center that the fine artist visited. The construction is bold and uses avant-garde materials. The product carries a keen edge for satisfying any gastronomic ... or combat needs.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Medicant: Sweetness and Dreams|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Protocolith|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Strength [M]|Treatment Efficiency [M]|Medicant: Sweetness and Dreams}}
+
+==Basic Info==
+{{Quote|The little girl stretched. She placed the cake fork, decorated with a cute bow tie, at the side. She was dizzy and her mind swam. Where was she? The little girl looked around and found herself lying on an egg crate foam bed within an intricate dessert box of a soft, gentle pastel blue.<br>"Who is it?" the little girl asked as she raised her gaze. The lady who always visited her with a gift of dessert came, and she wore a dress of white chocolate. There was a little plate of something in her hand. "WOW! STRAWBERRY CAKE!"<br>"Hi there, Starlight. This is your cake for today."<br>"YAY!" Starlight always loved cake. She had wanted more but Starlight could not understand anything that the grown-ups told her.<br>"Just take ... rest ... day off. You've been exposed in a ... for too long."<br>"This ... a novel approach ... If we succeed, we'll ... dispel the mist..."<br>Starlight speared a piece of the cake base. She always preferred to start with the actual cake before moving onto the cream and finishing up with the strawberries.<br>"Miss, how do you make cake bases out of fowl eggs?"<br>"Hmm... Let me think... You need to whip the eggs first, then bake them in an oven. They'll slowly get bigger and fluffier, and end up as the soft, spongy, and delicious cake you're eating right now, Starlight."<br>"Okay..." Starlight understood none of that, so she secretly treated it as a form of Arts Arcana that makes fowl eggs delicious.<br><br>"Careful. Don't drop ... Sorry. Make way, please."<br>"Endfield donated these instruments to us. The UWST also ... these samples. Don't break any of them."<br>Starlight scooped up forkfuls of cream and kept eating. It felt as though many people were playing with her cheeks. The pain in her head subsided and felt far less horrible than before.<br>"Annual donations of medical supplies and T-Creds from the Band have arrived. We're getting slightly more this year."<br>"Slightly more? Oh, they're from members of the public. We got more people caring about our work than before."<br>Starlight speared a strawberry as she listened to the grown-ups. The fruit was not very big, but it completed the delicious cake.<br>There was one more mouthful of cake. Starlight did not finish it. A strange idea suddenly popped to her mind. Why didn't the baker eat this cake?<br>"Something wrong, Starlight? You don't like the cake?"<br>It was during this moment that Starlight heard the whispering outside the walls.<br>"If only we had discovered this anomaly a few years ago, we wouldn't have been so helpless when it struck Moonlight."<br>"Thank goodness Starlight's coma gave us the tip. Every cloud has a silver lining. Nobody would ever fall victim to this again."<br>Starlight slowly ate the last bit of cake. Some cakes were probably baked so that they could be enjoyed by others.<br><br>"YUMMY YUM!" Starlight placed the plate and tiny fork in her dessert box. The cake was good and her head no longer felt as though it was swimming in pain and dizziness.<br>"I'm glad you liked it," the physician wearing white lab coat gave Starlight a head rub. She stood up from the bed and took Starlight's dessert box. "The old pastry shop closed its business and I was worried you wouldn't like the taste of the new shop. And yes, I hope the place isn't too noisy for you."<br>Starlight shook her head. Though she never understood what the grown-ups said, she loved the way they talked. It was never too noisy for her.<br>"Miss?"<br>"Yes, dear?"<br>"When can I play with my friends again?"<br>"Once you get better, I'll take you to them so you can play together. How does that sound?"<br>"Alright..." she wanted to ask when that might happen, but the lady probably did not have the answer.<br>"Sleep well, dear," the physician gave Starlight her cake fork-shaped body pillow then left for the exit with the intricate dessert box. When she pushed open the door, the noises of the corridor instantly surged into the quiet sickroom and the light shone on the sign that read: "Ætherside Syndrome Monitoring Ward".<br>"I will, Miss! Buh-bye!"}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

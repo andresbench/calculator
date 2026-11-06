@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Marble Aggelomoirai (palecore)
+|image = Marble_Aggelomoirai_palecore_sprite.png
+|filename = eny_0061_palecore
+|cnname = 白垩界卫
+|tcname = 白堊界衛
+|jpname = 白亜・アンゲロミラ
+|krname = 마블 아겔로미레
+|spname = Aggelomoirai de mármol
+|runame = Мраморная аггел-мойра
+|type = Aggeloi
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 23
+}}
+'''Marble Aggelomoirai (palecore)''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''. Alternate form(s): [[Marble Aggelomoirai (palesent)]]
+
+{{Enemy description|NO PREVIOUS RECORDS. This has been classified as an Aggelos due to the nature of its formation. Though its morphic modules were re-assembled, the entity continues to mimic Nefarith's appearance. No satisfactory explanations have been proposed for this phenomenon.}}
+
+==Stats==
+{{Enemy data
+|HP = 2077, 14903, 94303, 371256, 893035, 1375745
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 200
+|SR = 24
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Defeat all Marble Appendages to force the dormant Marble Aggelomoirai to temporarily expose its vulnerable core to the attack.
+|location = *[[Power Plateau]]
+|drops = 
+|addendum = }}
+
+==Overview==
+A creation of Blight, made by [[Nefarith]], Marble Aggelomoirai begins fights in the '''Palecore phase''', during which it is invulnerable, immobile, and does not directly attack, instead relying on [[Marble Appendage]]s to deal damage. However, it will take 50 Stagger every time a Marble Appendage is defeated, and once it becomes Staggered, its core will be exposed, rendering it vulnerable.
+
+Reducing its HP to 0 will trigger a cutscene where Marble Aggelomoirai [[Marble Aggelomoirai (palesent)|enters the Palesent phase]].
+
+For unknown reasons, the Palecore phase is immune to {{G|Corrosion}}.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 2077, 14903, 94303, 371256, 893035, 1375745 from 2077, 17533, 110944, 371256, 893035, 1375745
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

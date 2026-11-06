@@ -1,0 +1,34 @@
+{{Facility infobox
+|name = Omnidirectional Sonic Tower
+|filename = item_port_battle_shockwave_1
+|images = Omnidirectional Sonic Tower icon.png:Icon;
+Omnidirectional Sonic Tower.png:Full
+|cnname = 全向声波塔
+|tcname = 全向聲波塔
+|jpname = 音波塔
+|krname = 전 방향 음파 타워
+|spname = Torre sónica omnidireccional
+|runame = Всенаправл. звуковая вышка
+|type = Combat & Support
+|rarity = 3
+|power = 20}}
+'''Omnidirectional Sonic Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>Attack Interval</b>: {{Color|5|7}}s
+<b>Attack Range</b>: {{Color|6|7}} meters
+
+<b>Mode of Attack</b>: Fires a shockwave that {{Color|stuns|1a}} common and advanced enemies within the area of effect.
+|A crowd control facility furnished with a specialized Arts unit. It can emit targeted sonic waves that overwhelm an entity's nervous systems to stun them. The overwhelming power of the sonic waves seem to allow them to disrupt Aggeloid movements.}}
+==Usage==
+*<b>Attack Interval</b>: {{Color|5|7}}s
+*<b>Attack Range</b>: {{Color|6|7}} meters
+*<b>Mode of Attack</b>: Fires a shockwave that {{Color|stuns|1a}} common and advanced enemies within the area of effect.
+*Power Use : 20
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Hostile Control II]]
+{{RecipeTable|product=Omnidirectional Sonic Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

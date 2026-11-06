@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Cabbage Plot
+|filename = item_port_soil_corp_cabbage_1
+|images = Cabbage_Plot.png
+|cnname = 青菜田块
+|tcname = 青菜田塊
+|jpname = 青野菜畑
+|krname = 청경채 논배미
+|spname = Terreno de Col
+|runame = Участок капусты
+|type = Planting
+|rarity = 3
+|power = }}
+'''Cabbage Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Cabbage.|A cultivation plot with various parameters adjusted for growing Cabbage. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Cabbage Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

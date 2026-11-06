@@ -1,0 +1,30 @@
+# Hybrid: the physical core plus Arcane for resistance shred.
+# Against enemies with high Resistance (e.g. +50 to every element).
+#
+# The idea: Arcane replaces Camille, doing the same job and one more on top.
+#   - feeds Rossi's combo with Arts Infliction (Nature instead of Heat)
+#   - her ultimate FORCES Corrosion with the INT form of the array
+# The team's stagger engine stays as it is — physical.
+#
+# IMPORTANT: Arcane needs Intellect >= Will, otherwise the WILL array
+# comes up and there is NO forced Corrosion.
+title: Corrosion for the physical core: Chen / Arcane / Rossi / Mi Fu
+team: Chen Qianyu, Arcane, Rossi, Mi Fu
+
+variant: cycle 1 — no ultimate yet
+Chen Qianyu: BS > CS [Lift twice. 2 stacks]
+Arcane: BS       [Nature Infliction. 100 SP]
+Arcane: CS       [triggered by her own Nature. applies Imprisonment for 4 s]
+Arcane: BS       [battle skill on Imprisonment. bonus 5.0 plus 30 SP back]
+Rossi: CS1 > CS2 [CS2 eats the Nature stacks and applies Lift. 3-4 stacks]
+Mi Fu: CS        [trigger at 3 stacks. turns the battle skill into Trail and Mangle]
+Mi Fu: BS2 > BS3 [Trail and Mangle, then World Splitter]
+
+variant: cycle 2 — Corrosion window
+Arcane: ULT      [forced Corrosion for 15 s. press it EARLY — the shred ramps up over 10 s]
+Chen Qianyu: BS > CS [2 stacks]
+Arcane: BS       [Nature Infliction for Rossi's combo]
+Rossi: CS1 > CS2 [eats Nature. plus Lift]
+Mi Fu: CS
+Mi Fu: BS2 > BS3 [the whole burst inside the shred]
+Rossi: ULT       [6.0 + 2.5 + 7.5 = 16.0 in total. the team's biggest hit]

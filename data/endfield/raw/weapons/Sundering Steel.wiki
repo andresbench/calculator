@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Sundering Steel
+|rarity = 5
+|images = 
+Sundering_Steel icon.png:Icon;
+Sundering_Steel.png:Full;
+Sundering_Steel max model.png:Max
+|filename = wpn_sword_0005
+|cnname = 钢铁余音
+|tcname = 鋼鐵餘音
+|jpname = 鋼鉄余音
+|krname = 강철의 여운
+|spname = Acero hendiente
+|runame = Стальной раскол
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Sundering Steel''' is a 5★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the elite weaponry manufactured by Endfield for their operators. The sword features a seamless grip-and-guard hilt and stress-triggered energy storage mechanisms to enhance its damage potential.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Combative: Anthem of Cinder|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [M]|Physical DMG [M]|Combative: Anthem of Cinder}}
+
+==Basic Info==
+{{Quote|I know who you are. I know where you came from.<br>You were one of them. You must be. I see the forge fire in your eyes. You stood vigils over the smelting furnaces for years.<br>You came to the south because you could no longer face the Aggeloid nightmares. But you feared of being called a deserter. That was why you changed your name and joined us as an arsenal engineer. You found this simpler life at Endfield worth living. You helped fellow Endfielders survive their battles. They were grateful and praised the weapons you designed. Your work was balanced and operated smoothly. Your designs incorporated years of actual combat experience. You read Endfield science and research and it probably made you think about things. If the Fort had these technologies, you might have stayed at that place.<br>Despite your reputation as a cranky old man, the girl likes you a lot. You always had a story to tell, stories that her parents never talked about. Stories about heroes, how they lived, how they fought without a care of their lives, and how their sacrifices went unsung and unremembered. You even learned a thing or two from her, right? This seamless design feature ... would be an oddity at the place where you once served.<br>This was why you hesitated when the girl asked you to teach her how to swing a sword. At first, you thought of your dashing, youthful years. Fencing skills would help the girl better protect herself. But your mind changed. The girl had the entire Endfield arsenal as well as loving parents to support her. She did not need to know about fencing. You then convinced yourself that the girl needed no instructions from a deserter and ex-butcher who broke his oaths. The old road had been abandoned for years. No one should take it anymore. It calls for no one, and needs none.<br>Thus, you applied for divisional transfer. You wanted to leave the arsenal and force yourself back to field service — you believe you should be able to stomach the frontlines of Endfield Industries.<br>Please do not look at me like I'm some sort of a Sarkaz Djall mind-floggers. And no. I wasn't using any mind-reading instruments.<br>I do have a message for you: Supervisor Perlica will not oppose any decision you make, but please, don't make the girl sad.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

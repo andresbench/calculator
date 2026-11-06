@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Easy Stash
+|filename = item_port_carrier_1
+|images = Easy Stash icon.png:Icon;
+Easy Stash.png:Full
+|cnname = 便捷存取站
+|tcname = 便利存取站
+|jpname = 倉庫中継ボックス
+|krname = 간편 보관소
+|spname = Reserva fácil
+|runame = Легкий запасник
+|type = Miscellaneous
+|rarity = 2
+|power = 5}}
+'''Easy Stash''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that allows quick access of items in the Depot.|"Are you sure the things inside belong to the Endmin?"}}
+==Usage==
+A facility that allows quick access of items in the Depot.
+*Power Use : 5
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Protocol Transfer Technology]]
+{{RecipeTable|product=Easy Stash}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:miscellaneous Facilities]]

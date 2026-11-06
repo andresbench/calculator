@@ -1,0 +1,33 @@
+{{Quote|The {{Color|AIC Factory Plan|1}} gives a detailed display of AIC technology and development tree. Every node represents an AIC technology.|Tutorial}}
+[[File:Wuling AIC Plan Tutorial.png|thumb|Each region has its own regional AIC Plan and technology research tree.]]
+
+'''{{PAGENAME}}''' is a part of [[AIC]] in ''Arknights: Endfield''.
+
+==Description==
+The AIC Factory Plan is essentially a progress tree that unlocks or upgrades [[AIC#Facilities|AIC Facilities]]. The AIC Factory Plan is divided into multiple phases. To unlock a new phase, the player must progress through the [[Main Mission]] in order to acquire an '''Expansion Core'''. Player also need to interact with the [[Overworld Content#Protocol Datalogger|Protocol Datalogger]] in order to acquire an '''AIC Index''' which are used to unlock each of AIC Plan's research node.
+Various AIC technologies also have a related simulation which provide relevant guides, small amount of [[Oroberyl]], [[Operational EXP]], and system blueprints for the relevant production line.
+
+==Basic AIC Plan==
+An AIC Factory Plan that includes basic factory facilities, transport belts, and logistics units.
+
+{{AICPlanBasic}}
+
+==Wuling AIC Plan==
+{{Quote|In the region of Wuling, switch to the {{Color|Wuling AIC Plan|1}} to research new AIC technologies. {{Color|Protocol Dataloggers|1}} can also be collected in Wuling to earn Wuling AIC Index.|Tutorial}}
+An AIC Factory Plan that includes fluid facilities, pipes, and pipe logistics units.
+
+In order to expand the AIC Plan, progress through the following missions:
+* '''{{Color|Wuling AIC Plan I|0}}''' — Chapter II Process II: [[Ready the Easterlies]]
+* '''{{Color|Xiranite Industry|0}}''' — Chapter II Process II: [[Of Grace and Gentle Might]]
+* '''{{Color|Wuling AIC Plan II|0}}''' — Chapter II Process III: [[Surging From a Withered Spring]]
+* '''{{Color|Wuling AIC Plan III|0}}''' — Chapter II Process IV: [[Free Will]]
+* '''{{Color|Forge Expansion IV|0}}''' — [[Spring's Return III]]
+* '''{{Color|Gas Facilities|0}}''' — Chapter II Process VII: [[Thus Begins the Homeward March]]
+** Specific nodes such as '''{{Color|Rift Neutralization|0}}''' and '''{{Color|Gas Dispersal|0}}''' require doing [[Fissure Filling and Land Grouting]] (Exploration Mission)
+
+{{AICPlanWuling}}
+
+==Navigation==
+{{Features}}
+
+[[Category: Terminology]]

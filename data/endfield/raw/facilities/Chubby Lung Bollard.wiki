@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Chubby Lung Bollard
+|filename = item_port_chubby_lung_stone_1
+|images = Chubby Lung Bollard icon.png:Icon;
+Chubby Lung Bollard.png:Full
+|cnname = 龙泡泡石墩
+|tcname = 龍泡泡石墩
+|jpname = 龍泡泡の石像
+|krname = 드래곤 버블 돌기둥
+|spname = Bolardo de Lung regordete
+|runame = Столбик с пухликом-луном
+|type = Ornamental
+|rarity = 5
+|power = }}
+'''Chubby Lung Bollard''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed.|"According to our inventory, these are pieces of public art made to custom specifications..."<br/>"Are you sure we didn't just nick them from the streets of Wuling?"}}
+==Usage==
+An ornamental that can be placed.
+
+==Acquisition==
+Purchase: Wuling Stock Redistribution
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

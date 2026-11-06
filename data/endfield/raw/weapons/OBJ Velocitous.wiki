@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = OBJ Velocitous
+|rarity = 5
+|images = 
+OBJ_Velocitous icon.png:Icon;
+OBJ_Velocitous.png:Full;
+OBJ_Velocitous max model.png:Max
+|filename = wpn_pistol_0012
+|cnname = O.B.J.迅极
+|tcname = O.B.J.迅極
+|jpname = O.B.J.迅速
+|krname = O.B.J. 벨로시투스
+|spname = OBJ Velocitante
+|runame = OBJ Прыть
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''OBJ Velocitous''' is a 5★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard weapon produced by Endfield Industries. Design is provided by the Creative Prototyping Team founded by Senior Arsenal Engineer Opero. The weapon is constructed using lightweight, practical, and durable materials.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Detonate: Rapid Strike|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Agility [M]|ULT Efficiency [M]|Detonate: Rapid Strike}}
+
+==Basic Info==
+{{Quote|I raised my handcannon three times in my life.<br>When I raised a handcannon for the first time, I thought I had the entire world in my hands.<br>I had a fight with my old man. I didn't want to study in a UWST med school for a cushy future. I hid in my bed and secretly binged on videos with my handyterm, things that my father never allowed me to watch: Iberian Inquisitors and invincible Laterano Gun-Knights with weapons raised. I emulated the figures in the handyterm and fumbled with the old man's big iron. I imagined the Arts coursing from my fingertips into the Originium circuitry within the weapon, propelling the non-existent etched ammo to create a non-existent hole in the wall.<br>......<br>When I raised a handcannon for the second time, I thought it was my last.<br>I departed from Valley IV to perform a field medical rescue operation at a nearby village. While the operation was underway, we were set upon by a vicious band of Landbreakers. We could only panic at that time. None of us expected to see LBs so close to Valley IV.<br>I activated the Originium comms and tried calling the Valley Fort for assistance. As the LB howling got louder and louder, I tweaked the frequency knob faster and faster. But all I got was static and noise. I raised my handcannon and squeezed the trigger blindly. Then I led the children and made for the Valley Fort at the distant horizon as fast as our legs could carry us.<br>......<br>I could not remember how long we ran upon the wildlands, but the day grew late. The pursuing LBs were long gone but I dared not lead the children back to their village. Who knows, there could be a trap waiting for us. I had already taken a few hits from crossbow bolts and my vision began to blur and swim. I could no longer make up the shape of the Fort, and could only trudge onwards as I struggled to recall what I saw during the ride to this place.<br>......<br>I collapsed, exhausted, and my body instinctively curled up. The children were trying as they tried to shake me awake. I told myself to keep my eyes open but my eyelids won the struggle. When I woke up the following day, I found myself lying in a Dusthair camp far from Valley IV. It was only then when I knew that we took off in the wrong direction, and it was the crying of the children that brought the Dusthair surgeon to my aid.<br>The experience taught me how powerless I was, and I would be better off pursuing a career in general practice and inherit the family clinic. I made up my mind to submit my resignation once my body recovered.<br>......<br>When I raised my handcannon for the third time, it was over a medal.<br>I saw my schooling days in a dream. My father, stern-faced as usual, listened to my med school instructors' complaints about my oddness and peculiarities. The old man later went to my dorms. He did not confiscate my handyterm, but sat down and watched the videos with me. It was at that time when I saw him take out a medal that he never wore from a chest pocket.<br>I dreamed some more. It felt as though I arrived upon the Land shown in the videos. I ran across the plains with a handcannon. That medal turned into a bullet and I fired it into the sky.<br>That was when I woke. My entire strength seemed to had been sapped away by this dream.<br>I was sweating profusely upon the sickbed. I heard cries of surprise, shock, and terror. This time it wasn't just the LBs. There were Ankhors as well.<br>I took out the handcannon from under my pillow. My father gifted it to me when he learned I joined Endfield Industries.<br>It was this very moment that I knew I would keep raising this handcannon for the fourth, fifth, or even the sixth time...}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

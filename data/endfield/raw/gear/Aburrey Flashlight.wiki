@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Aburrey Flashlight
+|image = Aburrey_Flashlight.png
+|filename = item_equip_t3_suit_atk01_edc_04
+|cnname = 阿伯莉照明器
+|tcname = 阿伯莉照明器
+|jpname = アブリーライト
+|krname = 아부레이 조명 장치
+|spname = Linterna de Aburrey
+|runame = Фонарик «Эберрей»
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Aburrey Flashlight''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Designed by Triglava Armoury and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Novel protective equipment modified to suit the work environment of the Aburrey Quarry. 
+"It was embedded in the rock, and I thought I just dug out some rebars in the concrete. But ... but I think I heard it talking to me..."}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Intellect
+|pvalue = +23
+|sstat = Strength
+|svalue = +15
+|tstat = Ultimate Gain Efficiency
+|tvalue = +17.5%
+|setname = Aburrey's Legacy
+|seteffect = 3-piece set effect: Wearer's Skill DMG {{Color|+24%|1d}}. 
+When the wearer casts a battle skill, combo skill, or ultimate, the wearer gains ATK {{Color|+5%|1d}} for 15s. The buff from each of the three skill types is unique and does not stack with itself.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Aburrey's Legacy}}
+{{Gears|state=collapsed}}

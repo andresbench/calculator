@@ -1,0 +1,290 @@
+{{Operator infobox
+|name = Yvonne
+|rarity = 6
+|class = Striker
+|weapon = Handcannon
+|element = Cryo
+|faction = Endfield Industries
+|tags = Damage Dealer, Solidify, Crit
+|main = Intellect
+|sub = Agility
+|starting = 
+|headhunting = chartered
+|quote = Hi, Endmin. We meet again. Just call me Yvonne. It's been a very long time since I last went out. Pleasure doing business together!
+|image = 
+Yvonne Splash Art.png
+|filename = chr_0017_yvonne
+|cnname = 伊冯
+|tcname = 伊馮
+|jpname = イヴォンヌ
+|krname = 이본
+|spname = Yvonne
+|runame = Ивонна
+|fullname = 
+|fileno = 
+|theme = Lollipop Neo-nista
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Sora_Amamiya Amamiya Sora]
+|cncv = [https://baike.baidu.com/en/item/Hou%20Xiaofei/25909 Hou Xiaofei]
+|encv = [https://www.imdb.com/name/nm2463762/ Clare Louise Connolly]
+|krcv = [https://en.namu.wiki/w/여윤미 Yeo Yun-mi]
+|gender = Female
+|authentication = Endfield Industries
+|birthdate = May 9
+|race = Vouivre
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Standard
+|tactical = Standard
+|skill = Normal
+|originium = Excellent
+|exp1 = Epiphany
+|exp1d = Epiphany: Spark of Design
+She's always filled with wild, imaginative ideas. In fact, she managed to assemble modules that couldn't be more different to create gadgets with strange, unexpected functions.
+|exp2 = Team Management
+|exp2d = Team Management: Efficiency
+Her bot companions never tire, follow her every whim, and guarantee her work efficiency.
+|hb1 = Fashion
+|hb1d = Fashion: Machine Aesthetics
+A leader of Endfield fashion and trends. Yvonne treats science as a form of aesthetics, and aesthetics as a form of science.
+|hb2 = Technology
+|hb2d = Technology: Ætherside Deciphering
+She stands at the very fringe of Ætherside technology of Talos-II. Every step she takes is an all-new adventure.
+|prefer = Valley Protocol's Choice
+|matskill = Artzy Tyrannical, Opus: The Living
+|matstats = Wedge, Navigator
+}}
+'''Yvonne''' is a 6★ [[Cryo]] [[Striker]] [[Operator]] from [[Endfield Industries]] in ''[[Arknights: Endfield]]''. She is a [[Handcannon]] DMG dealer who leverages her critical hits. Apply {{G|Solidification|Solidification}} with her skills to quickly gain Ultimate Energy. After casting her ultimate, Yvonne becomes a powerful single-target DMG dealer.
+
+==Profile==
+"This pair of handcannons feels just right. Hmm... Noticed a few design OFIs. Guess I'll just mod them into a pair of Yvonne-specials!"<br/>Yvonne is an operator in the Specialist Tech Division of [[Endfield Industries]], currently responsible for research on [[Æther]], [[Blight]] and related devices.<br/>At first glance, Yvonne looks like your typical rebellious fashionista — painting her horns, tail, and nails in eye-popping colors. She'll skip out on academic conferences just to snag the latest fashion magazines and pop albums. Drawn to all things new and unconventional, Yvonne has a knack for staying one step ahead of the trends, always marching to the beat of her own drum.<br/>But no one can deny that she is a true genius. Even back in her school days, she was racking up accolades in scientific research that others could only dream of. Everyone expected her to join a top-tier research institute and lead the charge in her field. Instead, Yvonne turned her back on it all and chose to join Endfield.<br/>The reason? She never explained it. Maybe you can ask her yourself.<br/>"Can I apply new layer of coating for my gear? This color scheme doesn't really match my hair."
+
+==Stats==
+{{Operator data
+|main = Intellect
+|sub = Agility
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 92, 157, 223, 288, 321
+|STR = 8.35, 24.216, 40.917, 57.618, 74.319, 82.67
+|AGL = 14.742, 38.953, 64.438, 89.924, 115.409, 128.152
+|INT = 24.587, 57.057, 91.235, 125.413, 159.592, 176.681
+|WIL = 10.618, 30.793, 52.03, 73.268, 94.505, 105.123
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Tachyon Screening Lattice x20, Bloodcap x8, T-Creds x100000
+|pot1 = Combo skill {{Color|Flashfreezer υ37|7}} improved: Effect radius {{Color|+20%|1d}}; releases energy {{Color|2|1d}} more times; and gains an additional {{Color|15|1d}} Ultimate Energy after dealing DMG.
+|pot1t = Flash Freezer
+|pot2 = Intellect {{Color|+20|1d}}, Critical Rate {{Color|+7%|1d}}.
+|pot2t = Flawless Creation
+|pot3 = Talent {{Color|Freezing Point|7}} improved: Against enemies with {{Color|Cryo Infliction|4}}, Critical DMG Dealt {{Color|+10%|1d}}; this effect is also doubled against enemies with {{Color|Solidification|4}}.
+|pot3t = Tink-a-Power
+|pot4 = Battle skill {{Color|Brr-Brr-Bomb β|7}} improved: If the explosion hits only one enemy, {{G|SP Return|return}} {{Color|10|1d}} SP.
+|pot4t = Rebellious Mood
+|pot5 = Ultimate {{Color|Cryoblasting Pistolier|7}} improved: During the ultimate, ATK {{Color|+10%|1d}} and Critical DMG Dealt {{Color|+30%|1d}}.
+|pot5t = Expert Mechcrafter
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Exuberant Trigger
+|icon= Attack-Handcannon
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Cryo DMG|4}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|17|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Cryo DMG|4}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Cryo DMG|4}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 24%, 26%, 28%, 31%, 33%, 35%, 38%, 40%, 42%, 45%, 49%, 53%
+|stat2= BATK SEQ 2 Multiplier, 25%, 28%, 30%, 33%, 35%, 38%, 40%, 43%, 45%, 48%, 52%, 56%
+|stat3= BATK SEQ 3 Multiplier, 32%, 35%, 38%, 41%, 44%, 47%, 50%, 54%, 57%, 61%, 65%, 71%
+|stat4= BATK SEQ 4 Multiplier, 41%, 45%, 49%, 53%, 58%, 62%, 66%, 70%, 74%, 79%, 85%, 92%
+|stat5= BATK SEQ 5 Multiplier, 56%, 62%, 67%, 73%, 79%, 84%, 90%, 96%, 101%, 108%, 117%, 126%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Brr-Brr-Bomb β
+|icon= Skill-Yvonne
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Throws a freezing bomb. The bomb explodes when it hits the enemy to deal {{Color|Cryo DMG|4}}. If hitting an enemy with {{G|Cryo Infliction|Cryo Infliction}} or {{G|Nature Infliction|Nature Infliction}}, then {{G|Debuff Consumption|consume}} all {{G|Arts Infliction|Arts Infliction}} stacks, forcibly apply {{G|Solidification|Solidification}}, and deal {{Color|Cryo DMG|4}} to the target based on the number of stacks {{G|Debuff Consumption|consumed}}.<br />After the battle skill successfully applies {{G|Solidification|Solidification}}, Yvonne gains additional Ultimate Energy based on the number of stacks {{G|Debuff Consumption|consumed}}. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Base DMG Multiplier, 111%, 122%, 133%, 144%, 155%, 167%, 178%, 189%, 200%, 214%, 230%, 250%
+|stat3= DMG Multiplier of Solidification Applied, 67%, 73%, 80%, 87%, 93%, 100%, 107%, 113%, 120%, 128%, 138%, 150%
+|stat4= Bonus DMG Multiplier per Infliction Stack, 89%, 98%, 107%, 116%, 124%, 133%, 142%, 151%, 160%, 171%, 185%, 200%
+|stat5= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat6= Ultimate Energy from Solidification Applied, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat7= Additional Ultimate Energy Gain per Infliction Stack, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+}}
+{{Combat skill
+|name= Flashfreezer υ37
+|icon= Combo-Yvonne
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike|Final Strike}} on an enemy with {{G|Solidification|Solidification}}.<br /><b>SKILL DESCRIPTION:</b> Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deals {{Color|Cryo DMG|4}} to them, and {{Color|pulls|7}} them towards itself. After Frost-e-Bytee expires, it explodes to forcibly apply {{G|Solidification|Solidification}} and deal {{Color|Cryo DMG|4}} to nearby enemies.<br />After the combo skill successfully hits the enemy, Yvonne gains additional Ultimate Energy. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.
+|stat1= Cooldown, 20, 20, 20, 20, 20, 20, 20, 20, 19, 19, 19, 18
+|stat2= Duration (s), 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+|stat3= Number of Energy Releases, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+|stat4= Energy DMG Multiplier, 45%, 49%, 54%, 58%, 62%, 67%, 71%, 76%, 80%, 86%, 93%, 100%
+|stat5= Explosion DMG Multiplier, 89%, 98%, 107%, 116%, 125%, 134%, 142%, 151%, 160%, 171%, 185%, 200%
+|stat6= Explosion Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat7= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat8= Additional Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Cryoblasting Pistolier
+|icon= Ult-Yvonne
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Immediately deploys the support bot Tink-a-Bella and makes Yvonne the controlled operator.<br />Temporarily {{Color|enhances|7}} Yvonne's basic attack (BATK). Each enhanced BATK sequence performed grants a stack of Critical Rate buff. After reaching max stacks, Yvonne also gains a Critical DMG buff. When the skill is about to end, Yvonne's last enhanced BATK becomes an enhanced {{G|Final Strike|Final Strike}} that deals massive {{Color|Cryo DMG|4}}.<br />If the enemy is {{G|Solidification|Solidified}}, Yvonne performs an additional attack that deals {{Color|Cryo DMG|4}} and then {{G|Debuff Consumption|consumes}} the enemy's {{G|Solidification|Solidification}}.
+|stat1= Ultimate Energy Cost, 220, 220, 220, 220, 220, 220, 220, 220, 220, 220, 220, 220
+|stat2= Duration (s), 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7
+|stat3= BATK DMG Multiplier, 8.9%, 9.8%, 10.7%, 11.6%, 12.5%, 13.4%, 14.3%, 15.1%, 16%, 17.2%, 18.5%, 20%
+|stat4= Enhanced Final Strike DMG Multiplier, 133%, 147%, 160%, 173%, 186%, 200%, 213%, 226%, 240%, 256%, 276%, 300%
+|stat5= Additional ATK DMG Multiplier, 267%, 294%, 320%, 347%, 374%, 400%, 427%, 454%, 480%, 514%, 554%, 600%
+|stat6= Enhanced Final Strike Stagger, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat7= Max Stacks, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat8= Critical Rate Boost per Stack, 3%, 3%, 3%, 3%, 3%, 3%, 3%, 3%, 3%, 3%, 3%, 3%
+|stat9= Critical DMG Boost at Max Stacks, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%, 60%
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Exuberant Trigger|skill2=Brr-Brr-Bomb β|skill3=Flashfreezer υ37|skill4=Cryoblasting Pistolier|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Metadiastima Photoemission Tube,6|m14=False Aggela,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=D96 Steel Sample 4,6|m24=False Aggela,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Metadiastima Photoemission Tube,6|m34=False Aggela,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=D96 Steel Sample 4,6|m44=False Aggela,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Exuberant Trigger|skill2=Brr-Brr-Bomb β|skill3=Flashfreezer υ37|skill4=Cryoblasting Pistolier|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Metadiastima Photoemission Tube,16|m14=False Aggela,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=D96 Steel Sample 4,16|m24=False Aggela,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Metadiastima Photoemission Tube,16|m34=False Aggela,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=D96 Steel Sample 4,16|m44=False Aggela,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Exuberant Trigger|skill2=Brr-Brr-Bomb β|skill3=Flashfreezer υ37|skill4=Cryoblasting Pistolier|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Metadiastima Photoemission Tube,36|m14=False Aggela,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=D96 Steel Sample 4,36|m24=False Aggela,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Metadiastima Photoemission Tube,36|m34=False Aggela,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=D96 Steel Sample 4,36|m44=False Aggela,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Keen Mind
+|icon = Intellect
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Intellect +10.
+|cond2 = Elite 2
+|desc2 = Operator Intellect +15.
+|cond3 = Elite 3
+|desc3 = Operator Intellect +15.
+|cond4 = Elite 4
+|desc4 = Operator Intellect +20.
+}}
+{{Operator talent
+|name = Barrage of Technology
+|icon = Yvonne Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Battle skill {{Color|Brr-Brr-Bomb β|7}} improved: After applying {{G|Solidification|Solidification}}, the next basic attack performed becomes a {{G|Final Strike|Final Strike}}.
+|cond2 = Elite 2
+|desc2 = Battle skill {{Color|Brr-Brr-Bomb β|7}} improved: After applying {{G|Solidification|Solidification}}, the next basic attack directly becomes a {{G|Final Strike|Final Strike}} with DMG Dealt {{Color|+50%|1d}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Freezing Point
+|icon = Yvonne Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Against enemies with active {{G|Cryo Infliction|Cryo Infliction}}, gains Critical DMG Dealt {{Color|+10%|1d}}. Effect is doubled against enemies with {{G|Solidification|Solidification}}.
+|cond2 = Elite 3
+|desc2 = Against enemies with active {{G|Cryo Infliction|Cryo Infliction}}, gains Critical DMG Dealt {{Color|+20%|1d}}. Effect is doubled against enemies with {{G|Solidification|Solidification}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Intellect
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Fungal Pigment Extraction
+|icon = GC-plant_fungus
+|facility = Growth Chamber
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Growth Chamber to grant fungal matter growth rate +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Growth Chamber to grant fungal matter growth rate +30%
+}}
+{{Operator base skill
+|name = Fashionista
+|icon = GC-plant_power_consume
+|facility = Growth Chamber
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Growth Chamber to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Growth Chamber to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = GC-plant_fungus
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = GC-plant_power_consume
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+*'''Zeroth Directive'''
+** General
+*** Class changed to [[Striker]]
+*** Tags changed from Cryo Infliction, Damage Dealer, Crit to Damage Dealer, Solidify, Crit.
+** Potential Flash Freezer changed
+*** Old: Combo skill {{Color|Flashfreezer υ37|7}} improved: Effect radius {{Color|+20%|1d}}; releases energy {{Color|2|1d}} more times.
+*** New: Combo skill {{Color|Flashfreezer υ37|7}} improved: Effect radius {{Color|+20%|1d}}; releases energy {{Color|2|1d}} more times; and gains an additional {{Color|15|1d}} Ultimate Energy after dealing DMG.
+** Potential Tink-a-Power changed
+*** Old: Talent {{Color|Freezing Point|7}} improved: Against enemies with {{Color|Cryo Infliction|4}}, DMG Dealt {{Color|+9%|1d}}; this effect is also doubled against enemies with {{Color|Solidification|4}}.
+*** New: Talent {{Color|Freezing Point|7}} improved: Against enemies with {{Color|Cryo Infliction|4}}, Critical DMG Dealt {{Color|+10%|1d}}; this effect is also doubled against enemies with {{Color|Solidification|4}}.
+** Potential Expert Mechcrafter changed
+*** Old: Ultimate {{Color|Cryoblasting Pistolier|7}} improved: During the ultimate, Critical DMG Dealt {{Color|+15%|1d}} and ATK {{Color|+30%|1d}}.
+*** New: Ultimate {{Color|Cryoblasting Pistolier|7}} improved: During the ultimate, ATK {{Color|+10%|1d}} and Critical DMG Dealt {{Color|+30%|1d}}.
+** Battle Skill Brr-Brr-Bomb β changed
+*** Old: Fires a freezing bomb. The bomb explodes when it hits the enemy, dealing {{Color|Cryo DMG|4}} and applying {{G|Cryo Infliction|Cryo Infliction}} to nearby enemies. If this battle skill successfully applies {{G|Solidification|Solidification}}, it deals another hit of {{Color|Cryo DMG|4}} with greatly increased Critical Rate after a short delay.
+*** New: Throws a freezing bomb. The bomb explodes when it hits the enemy to deal {{Color|Cryo DMG|4}}. If hitting an enemy with {{G|Cryo Infliction|Cryo Infliction}} or {{G|Nature Infliction|Nature Infliction}}, then {{G|Debuff Consumption|consume}} all {{G|Arts Infliction|Arts Infliction}} stacks, forcibly apply {{G|Solidification|Solidification}}, and deal {{Color|Cryo DMG|4}} to the target based on the number of stacks {{G|Debuff Consumption|consumed}}. After the battle skill successfully applies {{G|Solidification|Solidification}}, Yvonne gains additional Ultimate Energy based on the number of stacks {{G|Debuff Consumption|consumed}}. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.
+** Combo Skill Flashfreezer υ37 changed
+*** Old: Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deal {{Color|Cryo DMG|4}} to them, and {{Color|pull|7}} them towards itself. When Frost-e-Bytee expires, it explodes to deal {{Color|Cryo DMG|4}} and apply {{G|Cryo Infliction|Cryo Infliction}} to nearby enemies.
+*** New: Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deals {{Color|Cryo DMG|4}} to them, and {{Color|pulls|7}} them towards itself. After Frost-e-Bytee expires, it explodes to forcibly apply {{G|Solidification|Solidification}} and deal {{Color|Cryo DMG|4}} to nearby enemies. After the combo skill successfully hits the enemy, Yvonne gains additional Ultimate Energy. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.
+** Ultimate Cryoblasting Pistolier changed
+*** Old: Temporarily {{Color|enhances|7}} Yvonne's basic attack (BATK). Each BATK sequence performed grants a stack of DMG buff to her BATK. At max stacks, Yvonne also gains a Critical Rate buff. When the skill is about to end, Yvonne's last BATK becomes a {{G|Final Strike|Final Strike}} that deals massive {{Color|Cryo DMG|4}} and applies {{G|Cryo Infliction|Cryo Infliction}}. {{Color|Yvonne gains Ultimate Energy whenever her battle skill, combo skill, and Final Strike (as the controlled operator) deals Critical DMG. This effect only triggers once every 0.1s.|9}}
+*** New: Temporarily {{Color|enhances|7}} Yvonne's basic attack (BATK). Each BATK sequence performed grants a stack of Critical Rate buff. After reaching max stacks, Yvonne also gains a Critical DMG buff. When the skill is about to end, Yvonne's last BATK becomes a {{G|Final Strike|Final Strike}} that deals massive {{Color|Cryo DMG|4}}. If the enemy is {{G|Solidification|Solidified}}, Yvonne performs an additional attack that deals {{Color|Cryo DMG|4}} and then {{G|Debuff Consumption|consumes}} the enemy's {{G|Solidification|Solidification}}.
+** Talent Barrage of Technology changed
+*** Old: Battle skill {{Color|Brr-Brr-Bomb β|7}} improved: Triggering the additional effect converts the next basic attack performed into a {{G|Final Strike|Final Strike}} [that has a buff of DMG Dealt {{Color|+50%|1d}}].
+*** New: Battle skill {{Color|Brr-Brr-Bomb β|7}} improved: After applying {{G|Solidification|Solidification}}, the next basic attack directly becomes a {{G|Final Strike|Final Strike}} [with DMG Dealt {{Color|+50%|1d}}].
+** Talent Freezing Point changed
+*** Old: DMG Dealt {{Color|+9%|1d}} / {{Color|+18%|1d}} to enemies with active {{G|Cryo Infliction|Cryo Infliction}}. Effect is doubled against enemies with {{G|Solidification|Solidification}}.
+*** New: Against enemies with active {{G|Cryo Infliction|Cryo Infliction}}, gains Critical DMG Dealt {{Color|+10%|1d}} / {{Color|+20%|1d}}. Effect is doubled against enemies with {{G|Solidification|Solidification}}.
+** Base Skill Fungal Pigment Extraction
+*** Fungal matter growth rate increased from +10% / +20% to +20% / +30%.
+** Base Skill Fashionista
+*** Slower Mood Drop increased from 10% / 14% to 14% / 18%.
+*'''Beta Test II'''
+**Now only available in [[Chartered Headhunting]].
+*'''Beta Test I''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

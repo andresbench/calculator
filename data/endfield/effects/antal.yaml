@@ -1,0 +1,57 @@
+# Antal. Electric Supporter: Focus with Electric and Heat Susceptibility
+# from his battle skill, Electric and Heat Amp from his ultimate (skill
+# rows, `grants`). His talents heal; damage comes from the potentials.
+operator: Antal
+
+talents:
+  - name: Keen Mind
+    stacking: cumulative
+    confidence: confirmed
+    evidence: "attribute talents add up (measurements, #22)"
+    levels:
+      - {condition: Elite 1, seen: "Operator Intellect +10.", apply: [{stat: attr, attribute: INT, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Intellect +20.", apply: [{stat: attr, attribute: INT, value: 20}]}
+
+  - name: Improviser
+    levels:
+      - condition: Elite 1
+        seen: "After an Amped teammate's skill deals DMG, Antal restores the said teammate's HP by [72 + Strength×0.6]. This HP restoring effect triggers 1 time every 30s for each operator."
+        unmodeled: "healing"
+      - condition: Elite 2
+        seen: "After an Amped teammate's skill deals DMG, Antal restores the said teammate's HP by [108 + Strength×0.9]. This HP restoring effect triggers 1 time every 30s for each operator."
+        unmodeled: "healing"
+
+  - name: Subconscious Act
+    levels:
+      - condition: Elite 2
+        seen: "Gains 30% chance of Physical DMG immunity and restores HP of self by [27 + Strength×0.23]."
+        unmodeled: "defence and self-healing"
+      - condition: Elite 3
+        seen: "Gains 30% chance of Physical DMG immunity and restores HP of self by [45 + Strength×0.38]."
+        unmodeled: "defence and self-healing"
+
+potentials:
+  - rank: 1
+    confidence: inferred
+    seen: "Ultimate Overclocked Moment improved: Electric Amp and Heat Amp effects are increased to 1.1 times the original."
+    grants:
+      - {term: Electric Amp, skillType: Ultimate, multiplier: 1.1}
+      - {term: Heat Amp, skillType: Ultimate, multiplier: 1.1}
+  - rank: 2
+    confidence: inferred
+    seen: "Ultimate Overclocked Moment improved: Ultimate Energy cost -10%."
+    apply: [{stat: ult_cost_pct, value: -10}]
+  - rank: 3
+    seen: "When an enemy with an active Focus debuff is defeated, return 15 SP."
+    unmodeled: "SP when an enemy with Focus is defeated — there are no kills on the dummy"
+  - rank: 4
+    confidence: inferred
+    seen: "Intellect +10, Max HP +10%."
+    apply:
+      - {stat: attr, attribute: INT, value: 10}
+      - {stat: hp_pct, value: 10}
+  - rank: 5
+    seen: "Applying Focus on the same target for 20s increases Electric Susceptibility and Heat Susceptibility effects by 4%."
+    unmodeled: "Susceptibility +4 % after Focus has stood 20 s on the same target — a time condition the grants cannot express"

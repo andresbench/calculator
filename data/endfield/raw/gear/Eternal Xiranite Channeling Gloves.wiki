@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Channeling Gloves
+|image = Eternal_Xiranite_Channeling_Gloves.png
+|filename = item_equip_t4_suit_usp02_hand_05
+|cnname = 长息导能护手
+|tcname = 長息導能護手
+|jpname = 流転伝導プロテクター
+|krname = 식양의 숨결 전도 보호 장갑
+|spname = Guantes canalizadores de Xiranita eterna
+|runame = Проводящие перчатки «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Channeling Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+"Energy conductivity is decent ... but things can get a little hot for the hands."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Intellect
+|pvalue = +65, +71, +78, +84
+|sstat = Strength
+|svalue = +43, +47, +51, +55
+|tstat = Combo Skill DMG Bonus
+|tvalue = +34.5%, +38.0%, +41.4%, +44.9%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

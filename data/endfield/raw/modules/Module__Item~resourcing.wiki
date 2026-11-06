@@ -1,0 +1,8 @@
+local data={
+	["Portable Originium Rig"]={name="Portable Originium Rig", tier=1, use="A mining rig for digging up Originium Ore. This rig does not need to be connected to the power grid to work as it powers itself using the Originium it mines.", desc="The best selling product of Endfield Industries.", obtain=""},
+	["Electric Mining Rig"]={name="Electric Mining Rig", tier=2, use="Must be connected to the power grid with adequate power to work. This mining rig can mine Originium Ore and Krystallite.", desc="Market performance for this facility was mediocre due to its equally mediocre stats.", obtain=""},
+	["Fluid Pump"]={name="Fluid Pump", tier=2, use="A facility for pumping bulk fluids.", desc="The Endfield manufacturing center constructs this pressure engine by attaching a power module to a basic water pump purchased by the Procurement Division.", obtain=""},
+	["Electric Mining Rig Mk II"]={name="Electric Mining Rig Mk II", tier=3, use="Must be connected to the power grid with adequate power to work. This mining rig can mine Ferrium Ore and other minerals.", desc="The Mk II upgrade of the electric mining rig features improved drill bit hardness, improved performance in rugged environment, and deeper mining capabilities.", obtain=""},
+	["Hydro Mining Rig"]={name="Hydro Mining Rig", tier=3, use="A mining rig for digging up Cuprium Ore. This rig does not need power as it can be driven with Clean Water.", desc="The Endfield hydro mining rig features a special rust-resistant coating to minimize the risk of rusting in humid/wet environments.", obtain=""},
+}
+return data

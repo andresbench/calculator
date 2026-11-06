@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Never Rest
+|rarity = 6
+|images = 
+Never_Rest icon.png:Icon;
+Never_Rest.png:Full;
+Never_Rest max model.png:Max
+|filename = wpn_sword_0016
+|cnname = 不知归
+|tcname = 不知歸
+|jpname = 不知帰
+|krname = 끝없는 방랑
+|spname = Sin descanso
+|runame = Неустанность
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Never Rest''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A weapon from the furnaces of Fort Forgefane. Though it has undergone multiple rounds of recasting, the subsumed edge is still imbued with an intimidating force of domination.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Flow: Reincarnation|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Will [L]|ATK [L]|Flow: Reincarnation}}
+
+==Basic Info==
+{{Quote|As the great guns thundered into the skies, night finally returned to Fort Forgefane. The steam stopped hissing as the last Aggelos was crushed into gravel. Victory trumpeted throughout the icefields, the clarion call of triumph echoed amongst collapsed bastions before it reached a stone crypt used as a provisional morgue to house the fallen warriors.<br>To the smiths of Fort Forgefane, the clarion call felt more like a final farewell to the soldier. A forgesmith pulled a cart of salvaged equipment and paused before a young Oathkeeper, long bereft of breath.<br>Why did the smith stop? Was it his fear of death? He did not think so. He dreamed about falling like a true Oathkeeper soldier from the day he submitted his enlisting papers to the Order of Steel Oath. And since his first arrival at the gates of Fort Forgefane, he was determined to be a nail, permanently hammered into his post. There were only two things that could stop him from swinging his hammer: the future he dreamed had been achieved, or it became necessary for someone else to take his post.<br>The smith stooped over and took the long sword from the hands of the young soldier.<br>He could not remove his gaze from the soldier's face. Was he paying his final respects to a former comrade? No. He had said his farewells to all sorts of people in the south before he marched for the north. He saw his loved ones secretly weeping for his sake, witnessed the reluctance in their eyes, and even attended a close friend's funeral on the night before he reported to the training camp.<br>But what he felt at this very moment was new. A mysterious surge of emotions gripped him to the ground, even though he tried, again and again, to get himself to leave.<br>Heavy footsteps echoed in the crypt. The smith raised his head and held his breath.<br>"Lord Castellan Gerald! Apologies, I'm just ... salvaging the equipment."<br>The armored giant stretched out his hand and took the blade from the smith. The edge was curled and a fine crack ran along its length.<br>"Do you know him?"<br>"No... We're not familiar. But I did share some drink with him in the welcoming feast held for us several days ago..."<br>"What do you intend to do with this blade?"<br>The smith took the blade and shook off the snow from the hilt. He carefully studied the wounds suffered by the weapon and gave his verdict: "It will be my honor to return this blade to the furnace and have it recast, and the joy will be equal to seeing you throw this Aggeloid host back to whence they came. He is a hero ... that no one will remember."<br>"He is also a common man, just as common as this blade."<br>"My Lord Castellan... what would you have me do to this blade?"<br>"Even the perfect blade will one day shatter," Gerald patted the smith on the shoulder. "It shall be returned to the forge, pass through the ranks of Oathkeepers, and fulfill his unfinished duty."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

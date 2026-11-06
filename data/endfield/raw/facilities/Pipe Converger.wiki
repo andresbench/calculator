@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Pipe Converger
+|filename = item_log_pipe_converger
+|images = Pipe Converger icon.png:Icon;
+Pipe Converger.png:Full
+|cnname = 管道汇流器
+|tcname = 管道匯流器
+|jpname = パイプ合流器
+|krname = 파이프 합류기
+|spname = Convergente de tuberías
+|runame = Объединитель труб
+|type = Logistics Units
+|rarity = 2}}
+'''Pipe Converger''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A logistics unit that merges up to 3 pipelines into 1 single pipeline.|A pipeline adjustment unit with a smart sorting module. Can be used in all sorts of production lines.}}
+==Usage==
+A logistics unit that merges up to 3 pipelines into 1 single pipeline.
+
+The Pipe Converger can converge up to 3 pipelines into a single pipeline.
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Pipe Fittings]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Logistics Facilities]]

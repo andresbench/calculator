@@ -1,0 +1,260 @@
+{{Operator infobox
+|name = Alesh
+|rarity = 5
+|class = Vanguard
+|weapon = Sword
+|element = Cryo
+|faction = United Workers' Syndicates of Talos II
+|tags = SP Recovery, Solidify
+|main = Strength
+|sub = Intellect
+|starting = 
+|headhunting = standard
+|quote = Excuse me, is this where we sign up for the job? Nice meeting you. Name's Alesh. I like to read, and I can do angling with my eyes closed. Happy to be on board.
+|image = 
+Alesh Splash Art.png
+|filename = chr_0024_deepfin
+|cnname = 阿列什
+|tcname = 阿列什
+|jpname = アレッシュ
+|krname = 알레쉬
+|spname = Alesh
+|runame = Алеш
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Masaya_Matsukaze Matsukaze Masaya]
+|cncv = [https://baike.baidu.com/en/item/Cao%20Zhen/663515 Cao Zhen]
+|encv = [https://www.imdb.com/name/nm14446503/ Heitor Assali]
+|krcv = [https://en.namu.wiki/w/임채빈 Im Chae-bin]
+|gender = Male
+|authentication = United Workers' Syndicates of Talos II
+|birthdate = September 1
+|race = Anaty
+|infection = Oripathy positive (infected), based on medical examination reports.
+|strength = Standard
+|tactical = Excellent
+|skill = Standard
+|originium = Excellent
+|exp1 = Outdoors Survival
+|exp1d = Outdoors Survival: Aquatic Biomes
+Skilled at surviving uncharted waters, no matter how deep or shallow it is.
+|exp2 = Battlefield Tactics
+|exp2d = Battlefield Tactics: Operations Planning
+Alesh is always planning something. Sometimes it's angling. Other times it's pulling up the finning nets.
+|hb1 = Culture
+|hb1d = Culture: Serious Literature
+"Mr. Alesh usually naps with a book on his face. And he changes the book once every week."
+|hb2 = Sports
+|hb2d = Sports: Ocean Angling
+Fin angling may look like a peaceful sport, but it's actually a wrestling match against monstrous waves.
+|prefer = Valley Industry's Choice
+|matskill = Finchaser 3.0, OBJ Edge of Lightness, Thermite Cutter
+|matstats = Umbral Torch
+}}
+'''Alesh''' is a 5★ [[Cryo]] [[Vanguard]] [[Operator]] from the [[UWST]] in ''[[Arknights: Endfield]]''. He is a [[Sword]] user with crowd control and SP recovery abilities. His battle skill can immediately apply {{G|Solidification|Solidification}} to enemies with {{G|Cryo Infliction|Cryo Infliction}}, while his combo skill recovers plenty of SP.
+
+==Profile==
+"You can always retrieve a cast lure when angling. But in real life, there's no easy way out once you're in hot water."<br/>Introduced by a liaison from the [[UWST]] Security Bureau, Alesh joined [[Endfield Industries]] to take on communications and cover duties in the frontier. When he's not on the job, he doubles as the instructor for Endfield's angling class.<br/> He isn't keen on talking about his "boring" past. All that's known is that he clawed his way through the frontier's underclass, enduring strife and betrayal at every turn. In the end, he left the streets behind with one blind eye and a body worn by exhaustion.<br/>By trade, Alesh is a fin seller, spending his days absorbed in angling. But beneath that laid-back surface lie sharp instincts and keen judgment. In a pinch, his eyes cut like the tip of a hook, and he has got as many tricks for handling trouble as he does for reeling in a catch. On missions, he wears that same easy smile, pulling off victories where no one expects them.<br/>"Livin' the happy life is important. True legit wisdom from an old boy, Endmin."
+
+==Stats==
+{{Operator data
+|main = Strength
+|sub = Intellect
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 90, 152, 215, 277, 309
+|STR = 20.103, 49.556, 80.56, 111.563, 142.567, 158.069
+|AGL = 9.484, 27.936, 47.36, 66.783, 86.207, 95.919
+|INT = 13.608, 37.564, 62.781, 87.998, 113.215, 125.823
+|WIL = 10.824, 27.722, 45.508, 63.295, 81.082, 89.975
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Metadiastima Photoemission Tube x20, Bloodcap x8, T-Creds x100000
+|pot1 = Battle skill {{Color|Unconventional Lure|7}} improved: SP Recovery grants an additional {{Color|10|1d}} SP.
+|pot1t = Super Salty Comeback
+|pot2 = Strength {{Color|+15|1d}}, Intellect {{Color|+15|1d}}.
+|pot2t = Calm and Tranquil
+|pot3 = Combo skill {{Color|Auger Angling|7}} improved: After catching a {{Color|Rare Fin|7}}, the entire team gains ATK {{Color|+15%|1d}} for {{Color|10|1d}}s. This effect cannot stack.
+|pot3t = May the Willing Bite
+|pot4 = Ultimate {{Color|One Monster Catch!|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Insane Angling Set
+|pot5 = Ultimate {{Color|One Monster Catch!|7}} improved: Hitting a target below {{Color|50%|1d}} HP increases the DMG Multiplier to {{Color|1.5|1d}} times the original.
+|pot5t = Mega Lunker Rumors
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Basic Rod Casting
+|icon= Attack-Sword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|17|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 18%, 19%, 21%, 23%, 25%, 26%, 28%, 30%, 32%, 34%, 36%, 39%
+|stat2= BATK SEQ 2 Multiplier, 10%, 11%, 12%, 13%, 14%, 15%, 16%, 17%, 18%, 19%, 21%, 23%
+|stat3= BATK SEQ 3 Multiplier, 28%, 30%, 33%, 36%, 39%, 41%, 44%, 47%, 50%, 53%, 57%, 62%
+|stat4= BATK SEQ 4 Multiplier, 28%, 30%, 33%, 36%, 39%, 41%, 44%, 47%, 50%, 53%, 57%, 62%
+|stat5= BATK SEQ 5 Multiplier, 55%, 61%, 66%, 72%, 77%, 83%, 88%, 94%, 99%, 106%, 114%, 124%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Unconventional Lure
+|icon= Skill-Alesh
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Hooks a block of ice and slams it to deal {{Color|Physical DMG|1}} to the enemy target. When hitting a target with {{G|Cryo Infliction|Cryo Infliction}}, Alesh {{G|Debuff Consumption|consumes}} all of the target's {{G|Cryo Infliction|Cryo Infliction}} stacks, forcibly applies {{G|Solidification|Solidification}} to the target, and recovers some SP based on the number of stacks {{G|Debuff Consumption|consumed}}. This SP recovery effect can only trigger 1 time, even if the skill hits multiple enemies.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 200%, 220%, 240%, 260%, 280%, 300%, 320%, 340%, 360%, 385%, 415%, 450%
+|stat3= SP Recovery by Consuming 1 Infliction Stack, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 15
+|stat4= SP Recovery by Consuming 2 Infliction Stacks, 20, 20, 20, 20, 20, 20, 20, 20, 20, 25, 25, 25
+|stat5= SP Recovery by Consuming 3 Infliction Stacks, 30, 30, 30, 30, 30, 30, 30, 30, 30, 35, 35, 35
+|stat6= SP Recovery by Consuming 4 Infliction Stacks, 40, 40, 40, 40, 40, 40, 40, 40, 40, 45, 45, 45
+|stat7= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Auger Angling
+|icon= Combo-Alesh
+|type= {{SB|3}}
+|info= The Additional SP Recovery from catching a Rare Fin is not considered to be sourced from a Skill, and therefore does not trigger effects like [[Thermite Cutter]]'s Thermal Release and does not benefit from the stage mechanics in [[Protocol Space: Promotions]].
+|desc= <b>COMBO TRIGGER:</b> When the {{G|Arts Reaction|Arts Reaction}} or {{G|Originium Crystal|Originium Crystals}} of a nearby target is {{G|Debuff Consumption|consumed}}. <br /><b>SKILL DESCRIPTION:</b> Opens an angling hole beneath the enemy that deals {{Color|Physical DMG|1}} and recovers some SP. The skill has a chance to hook a {{Color|Rare Fin|7}} that greatly increases the DMG dealt and recovers some more SP.
+|stat1= Cooldown, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8
+|stat2= DMG Multiplier, 133%, 147%, 160%, 173%, 187%, 200%, 213%, 227%, 240%, 257%, 277%, 300%
+|stat3= Rare Fin Chance, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%, 10%
+|stat4= Enhanced DMG Multiplier, 213%, 235%, 256%, 277%, 299%, 320%, 341%, 363%, 384%, 411%, 443%, 480%
+|stat5= SP Recovery, 10, 10, 10, 10, 10, 12, 12, 12, 12, 13, 13, 15
+|stat6= Additional SP Recovery, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat7= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat8= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= One Monster Catch!
+|icon= Ult-Alesh
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Alesh hooks a fin of unbelievable size and slams it to deal {{Color|Cryo DMG|4}} and apply {{G|Cryo Infliction|Cryo Infliction}} to enemies in a large area of effect in front of him. He recovers some SP on hit, with additional SP gained for each target defeated.
+|stat1= Ultimate Energy Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Ultimate DMG Multiplier, 436%, 479%, 523%, 566%, 610%, 653%, 697%, 741%, 784%, 839%, 904%, 980%
+|stat3= Base SP Recovery, 20, 20, 20, 20, 20, 20, 20, 20, 20, 25, 25, 25
+|stat4= Additional SP Recovery per Target Defeated, 12, 12, 12, 12, 12, 12, 12, 12, 12, 15, 15, 15
+|stat5= MAX SP Recovery, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat6= Stagger, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Basic Rod Casting|skill2=Unconventional Lure|skill3=Auger Angling|skill4=One Monster Catch!|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Quadrant Fitting Fluid,6|m14=False Aggela,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Triphasic Nanoflake,6|m24=False Aggela,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Quadrant Fitting Fluid,6|m34=False Aggela,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Triphasic Nanoflake,6|m44=False Aggela,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Basic Rod Casting|skill2=Unconventional Lure|skill3=Auger Angling|skill4=One Monster Catch!|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Quadrant Fitting Fluid,16|m14=False Aggela,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Triphasic Nanoflake,16|m24=False Aggela,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Quadrant Fitting Fluid,16|m34=False Aggela,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Triphasic Nanoflake,16|m44=False Aggela,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Basic Rod Casting|skill2=Unconventional Lure|skill3=Auger Angling|skill4=One Monster Catch!|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Quadrant Fitting Fluid,36|m14=False Aggela,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Triphasic Nanoflake,36|m24=False Aggela,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Quadrant Fitting Fluid,36|m34=False Aggela,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Triphasic Nanoflake,36|m44=False Aggela,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Forged
+|icon = Strength
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Strength +10.
+|cond2 = Elite 2
+|desc2 = Operator Strength +15.
+|cond3 = Elite 3
+|desc3 = Operator Strength +15.
+|cond4 = Elite 4
+|desc4 = Operator Strength +20.
+}}
+{{Operator talent
+|name = Flash-frozen for Freshness
+|icon = Alesh Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = After {{G|Solidification|Solidification}} or {{G|Originium Crystal|Originium Crystals}} are applied to a nearby enemy, Alesh gains {{Color|3|1d}} Ultimate Energy. If the said {{G|Solidification|Solidification}} is applied by Alesh, he gains an additional {{Color|6|1d}} Ultimate Energy. This effect can only trigger once every 3s.
+|cond2 = Elite 2
+|desc2 = After {{G|Solidification|Solidification}} or {{G|Originium Crystal|Originium Crystals}} are applied to a nearby enemy, Alesh gains {{Color|4|1d}} Ultimate Energy. If the said {{G|Solidification|Solidification}} is applied by Alesh, he gains an additional {{Color|8|1d}} Ultimate Energy. This effect can only trigger once every 3s.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Veteran Angler
+|icon = Alesh Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Combo skill {{Color|Auger Angling|7}} improved: Every {{Color|10|1d}} Intellect grants {{Color|Rare Fin|7}} catching chance {{Color|+0.2%|1d}} (max: {{Color|+30%|1d}}).
+|cond2 = Elite 3
+|desc2 = Combo skill {{Color|Auger Angling|7}} improved: Every {{Color|10|1d}} Intellect grants {{Color|Rare Fin|7}} catching chance {{Color|+0.5%|1d}} (max: {{Color|+30%|1d}}).
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Strength
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Casual Angling
+|icon = CN-physical_power
+|facility = Control Nexus
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Control Nexus to grant all operators' Mood Regen +8%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Control Nexus to grant all operators' Mood Regen +12%
+}}
+{{Operator base skill
+|name = Anglers' Intel Network
+|icon = RR-guestroom_clue
+|facility = Reception Room
+|postfix1 = α
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to grant operators a small Clue 1 Rate-UP: UWST (activates upon assignment; effects of the same type cannot stack)
+|postfix2 = β
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to grant operators Clue 1 Rate-UP: UWST (activates upon assignment; effects of the same type cannot stack)
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = CN-physical_power
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_clue
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Talent Flash-frozen for Freshness
+*** Ultimate Energy gained reduced from 4 / 6 to 3 / 4.
+*** Bonus Ultimate Energy gained changed from "double the amount" to an additional 6 / 8.
+** Base Skill Efficient Work changed to Anglers' Intel Network
+*** Old: Assign to Manufacturing Cabin to grant operator EXP material production efficiency +10% / +20%.
+*** New: Assign to Reception Room to grant operators [a small] Clue 1 Rate-UP: UWST (activates upon assignment; effects of the same type cannot stack)
+*'''Beta Test II''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

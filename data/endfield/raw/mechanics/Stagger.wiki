@@ -1,0 +1,21 @@
+'''Stagger''' is a combat mechanic in ''Arknights: Endfield''.
+{{Quote|The controlled operator's {{Color|Final Strike|1}} and most {{Color|skills|1}} also deal {{Color|Stagger|1}} to the enemies hit. Once the {{Color|Stagger meter|1}} is full, the enemy becomes {{Color|Staggered|1}}. Such enemies cannot perform actions and take more damage for a short duration.|Tutorial}}
+
+==Description==
+Most [[Enemy|Enemies]] have a Stagger meter, which can be filled by various actions such as:
+*Final Strikes,
+*Battle Skills, Combo Skills or Ultimates,
+*[[Physical Status]]
+
+When the Stagger meter is full, Enemies will enter the '''Staggered''' state; When Staggered, Enemies are immobile for a while and take 30% increased damage. Additionally, the first Basic Attack from the currently controlled Operator becomes a Finisher, dealing increased damage and restoring SP. While staggered, Enemies can't receive more stagger. After a certain amount of time passed the Enemy will recover from its staggered state.
+
+Some Enemies, usually powerfull ones such categorized as [[Enemy/Alpha|Alpha]] or [[Enemy/Boss|Boss]], also have Stagger Nodes on their Stagger meter. When enough Stagger is build up to reach a Stagger Node, the Enemy will be interrupted and stumbles for a short time.
+
+Certain [[Weapon]]s and [[Gear]] can increase the wearer's damage against Staggered Enemies or the amount of Stagger applied.
+
+==Sources of Stagger Bonuses==
+* [[Swordmancer]]'s Set Effect: Wearer's Stagger Efficiency Bonus +20%, After the wearer applies a Physical Status, the wearer also performs 1 hit that deals +250% ATK of Physical DMG and [10 Stagger]. Effect trigger cooldown: 15s. 
+* [[Sundered Prince]]'s Crusher: Princely Deterrence: When the wielder performs a Final Strike on the Enemy, the wielder gains ATK +10% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +12% to the Enemy. Effects of the same name cannot stack.
+
+{{Combat mechanics}}
+[[Category:Combat Mechanics]]

@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork Assault Push Knife
+|image = AIC_Fieldwork_Assault_Push_Knife.png
+|filename = item_equip_t4_parts_wuling00_edc_04
+|cnname = 集成实训突袭刺刃
+|tcname = 集成實訓突襲刺刃
+|jpname = 集成訓練強襲ナイフ
+|krname = 통합 실전 훈련 습격 단검
+|spname = Cuchillo de empuje de asalto para Trabajo de campo del CAI
+|runame = Штурмовой тычковый нож «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork Assault Push Knife''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+The handle and blade of this push knife have been tuned and rebalanced to reduce the user's wrist fatigue.}}
+
+==Stats==
+{{Gear data
+|defense = +18
+|pstat = Main Attribute
+|pvalue = +27, +29, +32, +35
+|sstat = Secondary Attribute
+|svalue = +18, +19, +21, +23
+|tstat = Arts Intensity
+|tvalue = +35.4, +38.9, +42.5, +46
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

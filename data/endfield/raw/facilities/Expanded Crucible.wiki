@@ -1,0 +1,29 @@
+{{Facility infobox
+|name = Expanded Crucible
+|filename = item_port_mix_pool_2
+|images = Expanded Crucible icon.png:Icon;
+Expanded Crucible.png:Full
+|cnname = 扩容反应池
+|tcname = 擴容反應池
+|jpname = 大型化学反応炉
+|krname = 확장 반응기
+|spname = Crisol expandido
+|runame = Расширенная камера
+|type = Production II
+|rarity = 3
+|power = }}
+'''Expanded Crucible''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for running solid or liquid-state chemical reactions. It also comes with additional input and output ports and the ability to run multiple reactions simultaneously.|Higher capacity. Better safety.}}
+==Usage==
+A facility for running solid or liquid-state chemical reactions. It also comes with additional input and output ports and the ability to run multiple reactions simultaneously.
+*Power use: 100
+{{RecipeTable|facility=Expanded Crucible}}
+==Acquisition==
+*Fluid Mode Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC III - Expanded Reaction]]
+{{RecipeTable|product=Expanded Crucible}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

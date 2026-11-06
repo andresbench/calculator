@@ -1,0 +1,15 @@
+local data={
+	["Arclight"]={name="Arclight", class="Vanguard", element="Electric", weapon="Sword", faction="Hannabit Circuit"},
+	["Alesh"]={name="Alesh", class="Vanguard", element="Cryo", weapon="Great Sword", faction="United Workers' Syndicates of Talos II"},
+	["Avywenna"]={name="Avywenna", class="Striker", element="Electric", weapon="Polearm", faction="Talos-II General Chamber of Commerce"},
+	["Chen Qianyu"]={name="Chen Qianyu", class="Guard", element="Physical", weapon="Sword", faction="Endfield Industries"},
+	["Da Pan"]={name="Da Pan", class="Guard", element="Nature", weapon="Great Sword", faction="Hongshan"},
+	["Perlica"]={name="Perlica", class="Caster", element="Electric", weapon="Orbiter", faction="Endfield Industries"},
+	["Snowshine"]={name="Snowshine", class="Defender", element="Cryo", weapon="Great Sword", faction="Rhodes Island"},
+	["Wulfgard"]={name="Wulfgard", class="Caster", element="Heat", weapon="Guns", faction="Endfield Industries"},
+	["Xaihi"]={name="Xaihi", class="Supporter", element="Cryo", weapon="Orbiter", faction="Cabal of Tranquility"},
+}
+for k, v in pairs(data) do
+	v.star=(5)
+end
+return data

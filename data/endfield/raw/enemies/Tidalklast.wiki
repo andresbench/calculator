@@ -1,0 +1,76 @@
+{{Enemy infobox
+|name = Tidalklast
+|image = Tidalklast_sprite.png
+|filename = eny_0090_wgabyss
+|cnname = 破潮之像
+|tcname = 破潮之像
+|jpname = 破潮の像
+|krname = 파조의 상
+|spname = Tidalklast
+|runame = Приливолом
+|type = Aggeloi
+|class = Alpha
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 18
+}}
+'''Tidalklast''' is an [[Alpha enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Anavatklydan" (archive ID: AGM32L) is a non-model variant of AGM321. Such entities come in a wide range of sizes. The sight of particularly large individuals breaking out of the water has become a nightmare for those who witnessed it.}}
+
+==Stats==
+{{Enemy data
+|HP = 1385, 9936, 62869, 247504, 595357, 917164
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 640
+|SR = 13
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *The enemy has two states: Ranged and Melee.
+*Melee State: In this state, the enemy will try to approach the target to unleash melee attacks.
+*Ranged State: In this state, the enemy will maintain its distance and attack with more powerful abilities.
+*The ranged state suffers more Heat DMG, but has significant DMG Reduction against other elements.
+|location = *[[Energy Alluvium: Marker Stone]]
+|drops = {{I|Instant Vintage}}
+|addendum = }}
+
+==Overview==
+One of the larger [[Aggeloi]], the Tidalklast is a true nightmare, due to its versatile abilities that can break through most formations if not being careful.
+
+The Tidalklast initially starts in '''Melee State''' with the following abilities:
+*Swings at front with both tentacles, dealing Physical damage in an arc. This ability will only be used if the controlled Operator is close to the Tidalklast.
+*Thrusts to the ground with both tentacles, dealing Physical damage. This is followed by a 360-degree swipe, dealing Physical damage and knock Operators back. This ability will only be used if the controlled Operator is close to the Tidalklast.
+*Spins vertically and dash forward, dealing Physical damage and knock Operators back. This ability will only be used if the controlled Operator is far away from the Tidalklast.
+
+The Tidalklast can also enter '''Ranged State''', where it encases itself in ice, gaining DMG reduction to all but Heat DMG, which it is now more vulnerable to it, and gain the following abilities:
+*Flies away and fires a barrage of 6 shots, dealing Cryo damage and {{G|Cryo Infliction}}. After the first use, subsequent uses now have it swings both of its tentacles after the barrage, each creating grounded shockwaves, identical to those of the [[Tidewalker]], that deal Cryo damage and {{G|Cryo Infliction}} on top of another barrage, both of which was repeated two extra times.
+*Fires several lasers at a fixed pattern and leave marks on the ground, which is followed by detonation of the marks that deals Cryo damage and {{G|Cryo Infliction}}. After that, the Tidalklast starts charging up, and then fires a laser at front, dealing continuous Cryo damage and periodically deal {{G|Cryo Infliction}} to those caught inside. This laser can be interrupted by skills.
+**The marks after detonation stay for a short period, which deals continuous Cryo damage to Operators on it.
+*Fires laser at a total of three spots, dealing Cryo damage, {{G|Cryo Infliction}}, knock Operators back, and freeze the ground when doing so, which deals continuous Cryo damage to Operators on it. This ability can be interrupted by skills.
+*Thrusts to the ground with both of its tentacles, dealing Physical damage; This is followed by three consecutive wave attacks, dealing Cryo damage and {{G|Cryo Infliction}}. This ability can be interrupted by skills.
+
+The Tidalklast also reset its Stagger whenever it changes to Ranged State.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1385, 9936, 62869, 247504, 595357, 917164 from 1385, 11689, 73963, 247504, 595357, 917164
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Alpha enemies]]

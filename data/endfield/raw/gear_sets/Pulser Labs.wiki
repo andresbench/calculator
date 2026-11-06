@@ -1,0 +1,26 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Pulser Labs manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 70
+|region = [[Wuling]]
+|effect =  3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Electrification|Electrification}}, the wearer gains {{Color|Electric DMG|6}}{{Color| +50%|1d}} for 10s. After the wearer applies {{G|Solidification|Solidification}}, the wearer gains {{Color|Cryo DMG|4}}{{Color| +50%|1d}} for 10s. The aforementioned effects cannot stack.
+}}
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with novel designs.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries Pulser Labs.
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

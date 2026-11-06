@@ -1,0 +1,65 @@
+# Argent Flow (Ming He in the client, chr_0037_minghe). Sunderization —
+# the mark his Electrification leaves and Crush detonates — is not a buff
+# and lives in the synergy (`synergy.marks`, measurements #59).
+operator: Argent Flow
+
+talents:
+  - name: Stalwart
+    stacking: cumulative
+    confidence: confirmed
+    evidence: "attribute talents add up (measurements, #22)"
+    levels:
+      - {condition: Elite 1, seen: "Operator Will +10.", apply: [{stat: attr, attribute: WIL, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Will +15.", apply: [{stat: attr, attribute: WIL, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Will +15.", apply: [{stat: attr, attribute: WIL, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Will +20.", apply: [{stat: attr, attribute: WIL, value: 20}]}
+
+  - name: Zenith of Voltmancy
+    levels:
+      - condition: Elite 1
+        seen: "When Argent Flow applies Electrification, this Electrification also increases all types of DMG Taken of the target for the same duration, and he also applies Sunderization stack(s) on the target, the number of stacks is equal to the Electrification Status Level and maxes out at 12. Sunderization lasts for 60s.\nWhen dealing Crush DMG to a target with Sunderization, this Crush DMG is increased to 1.2 times the original and detonates all Sunderization stacks. The explosion deals [Number of Sunderization stacks × 220% ATK] of Electric DMG to the target and 40% of that DMG to other enemies near the said target.\nWhen the explosion DMG of Sunderization is dealt to another enemy with Sunderization, it also detonates all Sunderization stacks of that enemy."
+        note: "Sunderization, the boosted Crush and the all-type DMG Taken are the synergy's `marks` (measurements, #59)"
+      - condition: Elite 2
+        seen: "When Argent Flow applies Electrification, this Electrification also increases all types of DMG Taken of the target for the same duration, and he also applies Sunderization stack(s) on the target, the number of stacks is equal to the Electrification Status Level and maxes out at 12. Sunderization lasts for 60s.\nWhen dealing Crush DMG to a target with Sunderization, this Crush DMG is increased to 1.2 times the original and detonates all Sunderization stacks. The explosion deals [Number of Sunderization stacks × 330% ATK] of Electric DMG to the target and 40% of that DMG to other enemies near the said target.\nWhen the explosion DMG of Sunderization is dealt to another enemy with Sunderization, it also detonates all Sunderization stacks of that enemy."
+        note: "Sunderization, the boosted Crush and the all-type DMG Taken are the synergy's `marks` (measurements, #59)"
+
+  - name: Springvolt Galore
+    stacking: replaces
+    confidence: confirmed
+    evidence: "the Endministrator's stat screen right after Bolt Rush: Arts Intensity 108 → 153 (+45, Elite 3; measurements, #59)"
+    levels:
+      - condition: Elite 2
+        seen: "Battle skill Bolt Rush improved: The entire team gains Arts Intensity +30 for 20s.\nFor every point of Arts Intensity that Argent Flow has, increase Sunderization explosion DMG by another 0.4%."
+        apply:
+          - {stat: arts_intensity, value: 30, duration: 20, trigger: "cast:Bolt Rush", target: team, name: Springvolt Galore}
+      - condition: Elite 3
+        seen: "Battle skill Bolt Rush improved: The entire team gains Arts Intensity +45 for 20s.\nFor every point of Arts Intensity that Argent Flow has, increase Sunderization explosion DMG by another 0.6%."
+        apply:
+          - {stat: arts_intensity, value: 45, duration: 20, trigger: "cast:Bolt Rush", target: team, name: Springvolt Galore}
+
+potentials:
+  - rank: 1
+    seen: "Talent Zenith of Voltmancy improved: When applying Crush to a target with Sunderization, the DMG dealt by this Crush is increased to 1.4 times the original. Proportion of Sunderization explosion DMG dealt to other enemies near the target is increased to 50%."
+    unmodeled: "Crush ×1.4 instead of ×1.2 and 50 % to neighbours — the synergy's mark takes the talent's value"
+  - rank: 2
+    confidence: inferred
+    seen: "Will +20, Arts Intensity +16."
+    apply:
+      - {stat: attr, attribute: WIL, value: 20}
+      - {stat: arts_intensity, value: 16}
+  - rank: 3
+    confidence: inferred
+    seen: "Battle skill Bolt Rush improved: For every 1 stack of Electric Infliction consumed, Argent Flow gains Electric DMG Dealt +6% for 25s. This effect can reach 6 stacks. Duration of each stack is counted separately."
+    apply:
+      - {stat: dmg_bonus, element: Electric, value: 6, stacks: {max: 6, from: consumed}, duration: 25, trigger: "consumes:Electric Infliction", target: self}
+    note: "per stack consumed by Bolt Rush; stacks from separate casts are not tracked apart"
+  - rank: 4
+    confidence: inferred
+    seen: "Ultimate Heavens Sundered improved: Ultimate Energy Cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    confidence: inferred
+    seen: "Talent Springvolt Galore improved: When casting the battle skill Bolt Rush, the entire team gains an additional Arts Intensity +15.\nSunderization explosion DMG bonus per point of Argent Flow's Arts Intensity is increased to 1.2 times the original."
+    apply:
+      - {stat: arts_intensity, value: 15, duration: 20, trigger: "cast:Bolt Rush", target: team, name: Invitation to Celestial Lights}
+    unmodeled: "the explosion's bonus per point of AI ×1.2"

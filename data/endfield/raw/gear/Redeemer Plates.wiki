@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Redeemer Plates
+|image = Redeemer_Plates.png
+|filename = item_equip_t4_parts_wuling01_body_01
+|cnname = 纾难重甲
+|tcname = 紓難重甲
+|jpname = 救国重防具
+|krname = 위기 탈출 중장갑
+|spname = Placas de redentor
+|runame = Латы «Освободитель»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Redeemer Plates''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|This piece of gear is the byword for the difficult road ahead. "The quest is not yet finished, and so the journey is not yet complete."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +115, +126, +138, +149
+|sstat = Basic Attack DMG Bonus
+|svalue = +14.4%, +15.8%, +17.3%, +18.7%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

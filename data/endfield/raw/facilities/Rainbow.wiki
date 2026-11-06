@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Rainbow
+|filename = item_port_rainbow_1
+|images = Rainbow_icon.png:Icon;
+Rainbow.png:Full
+|cnname = 彩虹
+|tcname = 彩虹
+|jpname = 虹
+|krname = 무지개
+|spname = Arcoíris
+|runame = Радуга
+|type = Ornamental
+|rarity = 5}}
+'''Rainbow''' is an [[Ornamental|Ornamental]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Every wave is a rainbow, a perfect smile to hide one's title in.}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Ornamental Facilities]]

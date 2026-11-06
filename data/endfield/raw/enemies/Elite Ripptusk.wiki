@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Elite Ripptusk
+|image = Elite_Ripptusk_sprite.png
+|filename = eny_0067_hound2
+|cnname = 精锐撕裂牙兽
+|tcname = 精銳撕裂牙獸
+|jpname = 凶猛牙獣・精鋭
+|krname = 립터스크 · 정예
+|spname = Colmillo desgarrador de élite
+|runame = Элитный рваноклык
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 13
+}}
+'''Elite Ripptusk''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An elite Landbreaker warbeast enhanced by fumes known as hazefyre. This particular ripptusk is more ferocious and cunning, and attacks with less predictable moves.}}
+
+==Stats==
+{{Enemy data
+|HP = 228, 1639, 10373, 40838, 98234, 151332
+|ATK = 39, 186, 579, 1437, 2163, 2478
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 90
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Nimble and agile. Will keep trying to approach and attack its target.
+|location = *[[The Hub]]
+*[[Originium Science Park]]
+*[[Power Plateau]]
+*[[Sword Vault Dale]]
+*[[Energy Alluvium: Originium Science Park]]
+|drops = {{I|Fillet}}
+|addendum = }}
+
+==Overview==
+[[Bonekrusher Ripptusk]]s enhanced by hazefyre, Elite Ripptusks have similar appearance to their counterpart, but it doesn't make them more of a threat; They still attack with a bite or a leaping bite, which deals Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 228, 1639, 10373, 40838, 98234, 151332 from 228, 1929, 12204, 40838, 98234, 151332
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

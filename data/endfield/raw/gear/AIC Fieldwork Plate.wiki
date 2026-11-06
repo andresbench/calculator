@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork Plate
+|image = AIC_Fieldwork_Plate.png
+|filename = item_equip_t4_parts_wuling00_body_02
+|cnname = 集成实训钢甲
+|tcname = 集成實訓鋼甲
+|jpname = 集成訓練鋼製防具
+|krname = 통합 실전 훈련 강철 방어구
+|spname = Placa para trabajo de campo del CAI
+|runame = Пластина «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork Plate''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+The powerful production capacity of the AIC ensures that the Fieldwork series plate armor can crush its competition as it offers far better protection at an extremely affordable price tag.}}
+
+==Stats==
+{{Gear data
+|defense = +48
+|pstat = Main Attribute
+|pvalue = +74, +81, +88, +96
+|sstat = Secondary Attribute
+|svalue = +49, +53, +58, +63
+|tstat = Ultimate Gain Efficiency
+|tvalue = +10.5%, +11.6%, +12.6%, +13.7%
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

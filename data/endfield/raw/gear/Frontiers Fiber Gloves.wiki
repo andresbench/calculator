@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Frontiers Fiber Gloves
+|image = Frontiers_Fiber_Gloves.png
+|filename = item_equip_t4_suit_atb01_hand_02
+|cnname = 拓荒纤维手套
+|tcname = 拓荒纖維手套
+|jpname = パイオニア繊維グローブ
+|krname = 개척자 섬유 장갑
+|spname = Guantes de fibra Fronteras
+|runame = Волоконные перчатки «Колонист»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Frontiers Fiber Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Northmarch Support Hub and assembled by the AIC. This equipment improves the wearer's combat capabilities.|The underwater combat model of the Frontiersmate Armor series. Special fiber weaving technology gave these gloves oxygen cycling functions.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +65, +71, +78, +84
+|sstat = Strength
+|svalue = +43, +47, +51, +55
+|tstat = All Skill DMG
+|tvalue = +23.0%, +25.3%, +27.6%, +29.9%
+|setname = Frontiers
+|seteffect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+After the wearer's skill recovers SP, the team gains DMG {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Frontiers}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = "Idol Pose" Ad Stand
+|filename = item_port_display_stand_1
+|images = "Idol Pose" Ad Stand icon.png:Icon;
+"Idol Pose" Ad Stand.png:Full
+|cnname = “偶像的身姿”立牌
+|tcname = 「偶像的身姿」立牌
+|jpname = 「アイドルポーズ」スタンディ
+|krname = '아이돌의 모습' 스탠드
+|spname = Stand publicitario “Pose de idol”
+|runame = Рекламная подставка «Поза айдола»
+|type = Ornamental
+|rarity = 5}}
+'''{{PAGENAME}}''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Any fan of Liino who walks past this ad stand cannot help but stop to take a snapshot of their favorite idol. This ad stand is the most frequent icon for any discussion about Liino's concerts. Fans have been using it to embellish their memories of the fan-meets.}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities nav}}
+
+[[Category:Ornamental Facilities]]

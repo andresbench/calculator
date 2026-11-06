@@ -1,0 +1,63 @@
+{{Enemy infobox
+|name = Cloud Stalker
+|image = Cloud_Stalker_sprite.png
+|filename = eny_0055_hscrane
+|cnname = 劫云客
+|tcname = 劫雲客
+|jpname = 盗雲客
+|krname = 겁운객
+|spname = Acechador de nubes
+|runame = Буревестник
+|type = Cangzei Pirates
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 4
+}}
+'''Cloud Stalker''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A criminal armed with a strange weapon that appears like a harmless lantern. Do not be fooled. The Cloud Stalker's "lantern" is actually a flying decapitator with terrifying reach.}}
+
+==Stats==
+{{Enemy data
+|HP = 761, 5465, 34578, 136127, 327446, 504440
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 110
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 2.3
+|Weight = 1
+|wphysical = 1
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Spews disrupting smoke. Operators caught in the smoke suffer shorter line of sight, slower movement speed, and cannot dodge.
+*The enemy is a relatively poor combatant. Try to take it out first.
+*Spews green smoke that heals other enemies.
+|location = *[[Qingbo Stockade]]
+*[[Energy Alluvium: Qingbo Stockade]]
+*[[Energy Alluvium: Sword Vault Dale]]
+|drops = {{I|Grovenymph Pupa}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+*[[Nimbus Razor]]
+*[[Breaking Gust]]
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

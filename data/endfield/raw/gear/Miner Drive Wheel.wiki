@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Drive Wheel
+|image = Miner_Drive_Wheel.png
+|filename = item_equip_t2_parts_tundra01_edc_02
+|cnname = 矿场传动轮
+|tcname = 礦場傳動輪
+|jpname = 鉱山伝動装置
+|krname = 광산 전동기
+|spname = Rueda de minero
+|runame = Двигатель шахтера
+|rarity = 3
+|artifice = no
+|type = Kit
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Drive Wheel''' is a {{gear|3|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +10.8
+|pstat = Agility
+|pvalue = +22
+|sstat = Critical Rate
+|svalue = +5.7%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

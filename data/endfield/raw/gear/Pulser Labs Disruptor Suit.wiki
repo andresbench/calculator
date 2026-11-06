@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Pulser Labs Disruptor Suit
+|image = Pulser_Labs_Disruptor_Suit.png
+|filename = item_equip_t4_suit_pulse_cryst01_body_01
+|cnname = 脉冲式干扰服
+|tcname = 脈衝式干擾服
+|jpname = パルス式妨害服
+|krname = 펄스식 교란 방어구
+|spname = Traje disruptor de Laboratorios Pulso
+|runame = Дестабилизирующие доспехи «Импульс»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Pulser Labs Disruptor Suit''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with novel designs. 
+Most could not understand why Endfield Industries developed a defensive suit for fighting digital warfare.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Intellect
+|pvalue = +87, +95, +104, +113
+|sstat = Will
+|svalue = +58, +63, +69, +75
+|tstat = Arts Intensity
+|tvalue = +20.7, +22.8, +24.8, +26.9
+|setname = Pulser Labs
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Electrification|Electrification}}, the wearer gains {{Color|Electric DMG|6}}{{Color| +50%|1d}} for 10s. After the wearer applies {{G|Solidification|Solidification}}, the wearer gains {{Color|Cryo DMG|4}}{{Color| +50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Pulser Labs}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,49 @@
+local data={
+	-----T-Creds Oroberyl-----
+	["T-Creds"]={name="T-Creds", tier=4, use="TC for short. This currency is recognized and used in many places.", desc="A popular currency furnished with highly advanced anti-counterfeiting technologies. You know it's good money when you can purchase things with it.", obtain="Protocol Space: T-Creds, Reward: Daily Missions, Acquisition Center: AIC Trading, Exploring and Gathering"},
+	["Oroberyl"]={name="Oroberyl", tier=6, use="An artificial material often used for recruiting operators.", desc="A special product of cut Origeometry. These stones are extremely popular due to their beauty and wide range of uses.", obtain="Exchangeable with Origeometry, Reward: Protocol Pass, Reward: Operation Manual, Acquisition Center: Credit Store, Reward: Daily Missions, Exploring and Gathering, Reward: Mission"},
+
+	-----Origeometry-----
+	["Origeometry"]={name="Origeometry", tier=6, use="An extremely rare crystal habit of Originium with many potential uses.", desc="A derivative of Protocol Originium that can only be made with the most extreme processing environments. Some Endfielders call this the Tear of the Protocol. They believe that Dijiang felt sorrow and shed these Tears when she silently gazed upon the suffering of the Talosians.", obtain="Acquisition Center: Originium Exchange, Reward: Protocol Pass, Reward: Main Mission, Submit Aurylene at TP Points, Sub-Energy Alluvium"},
+
+	-----Certs-----
+	["Credits"]={name="Credits", tier=4, use="Exchangeable for progression materials and other important resources at the Acquisition Center - Credit Store.", desc="Proof of friendship.", obtain="Social Gameplay (Production Assist and Clue Exchange), Acquisition Center: Credit Store, Reward: Dijiang Production Assist"},
+	
+	-----Supply Exchange Certs-----
+	["AIC Quota"]={name="AIC Quota", tier=4, use="Exchangeable for goods at the Quota Exchange.", desc="A certificate recognized in the exchanges of supply quotas. People say the AIC Factory doesn't produce goods. It \"prints\" them. That's how fast and powerful it is.", obtain="Acquisition Center: Arsenal Exchange, Acquisition Center: Potential Exchange"},
+	["Bond Quota"]={name="Bond Quota", tier=5, use="Exchangeable for goods at the Quota Exchange.", desc="A certificate recognized in the exchanges of supply quotas. Endfield operators are guaranteed a wide range of amenities that cover daily expenses, traveling, and accommodations.", obtain="Gift: Operator Onboarding"},
+	["Endpoint Quota"]={name="Endpoint Quota", tier=6, use="A rare quota resource. Exchangeable for goods at the Quota Exchange.", desc="A certificate that symbolizes the breadth of expertise and knowledge of Endfield operators. Your Endfielders come from all corners of the world. They have etched their names, their stories, and their lives upon this place.", obtain="Acquisition Center: Potential Exchange"},
+
+	-----Arsenal Ticket-----
+	["Arsenal Ticket"]={name="Arsenal Ticket", tier=6, use="A special Arsenal Issue currency. Can be used to purchase weapons.", desc="\"It doesn't hurt to be armed to the teeth.\" — Shayen Krad", obtain="Headhunting, Protocol Pass: Protocol Customized, Acquisition Center: Credit Store, Acquisition Center: Bundles"},
+
+	-----Region Bills Currency-----
+	["Valley Stock Bill"]={name="Valley Stock Bill", tier=5, use="A currency issued in Valley IV and only usable in the said region. It has all sorts of uses.", desc="Pursuant to relevant provisions of the Band Accord, all signatories shall, in addition to simultaneously guaranteeing that Talosian Credit Notes provide a currency circulation sufficient for the civil economy, guarantee a commodity stockpile sufficient for the agreed-upon supply of such types of allocation orders so as to achieve an orderly and effective joint allocation during extraordinary circumstances.", obtain="Drop: Enemy Encounters during Exploration, Reward: Valley IV Outpost Orders, Reward: Valley IV Pack and Deliver, Enemy Drops"},
+	["Wuling Stock Bill"]={name="Wuling Stock Bill", tier=5, use="A currency issued in Valley IV and only usable in the said region. It has all sorts of uses.", desc="Pursuant to relevant provisions of the Band Accord, all Accordatories shall, while ensuring the unimpeded circulation of Talosian Credit Notes in the civilian economy, maintain commodity stockpiles to cover the issuance of such stock bills, thereby facilitating orderly and effective joint stockpile redistribution under exceptional circumstances.", obtain="Drop: Enemy Encounters during Exploration, Reward: Wuling Outpost Orders, Reward: Wuling Pack and Deliver, Enemy Drops"},
+
+	-----Wuling Artificing Catalyst-----
+	["Wuling Artificing Catalyst"]={name="Wuling Artificing Catalyst", tier=5, use="A gear artificing material. Use it to perform artificing on a piece of Wuling gear.", desc="A metallurgical catalyst designed for the ambient conditions of Wuling. The catalyst's formula has been adjusted to fit humid environments of Wuling as they exert minute influences on the artificing process. This further proves that the Arsenal release products of the most reliable quality.", obtain="Purchase: Wuling Stock Redistribution, Stock Redistribution Terminal Upgrade"},
+
+	-----Essence Engraving-----
+	["Valley Engraving Permit"]={name="Valley Engraving Permit", tier=5, use="Use this at Severe Energy Alluvium sites of Valley IV. It can pre-engrave the stats of weapon essences acquired.", desc="A permit for expanded engraving produced in Valley IV. Engraving must be done in a strictly sealed environment to prevent uncontrollable corruption between different essences.", obtain="Purchase: Valley IV Stock Redistribution, Stock Redistribution Terminal Upgrade"},
+	["Wuling Engraving Permit"]={name="Wuling Engraving Permit", tier=5, use="Use this at Severe Energy Alluvium sites of Wuling. It can pre-engrave the stats of weapon essences acquired.", desc="A permit for expanded engraving produced in Wuling. Engraving must be done in a strictly sealed environment to prevent uncontrollable corruption between different essences.", obtain="Purchase: Wuling Stock Redistribution, Stock Redistribution Terminal Upgrade"},
+
+	-----Coolant Gel-----
+	["Coolant Gel"]={name="Coolant Gel", tier=5, use="A rare material that upgrades essence skills.", desc="A special coolant gel used in the essence etching process. Results of etching are extremely sensitive to temperature changes. This process thus requires the use of coolant gels, which can be extremely expensive to make.", obtain="Essence Etching"},
+
+	-----Sanity Usage Permit-----
+	["Sanity Usage Permit"]={name="Sanity Usage Permit", tier=4, use="Use this to consume double Sanity and claim double rewards from Sanity-consuming game modes. 1 permit must be used for every 10 Sanity consumed.", desc="A permit that instantly consumes massive Sanity. Excessive Sanity depletion is extremely harmful to the human physique. Before you proceed, you'll need to go through a full medical examination from the Medical Division.", obtain="Reward: Protocol Pass"},
+	
+	-----CC Coins-----
+	["Vitrified Coin"]={name="Vitrified Coin", tier=5, use="A special item acquired by completing contract missions. It is exchangeable for rewards at the [Secret Sanctuary] of the [Contingency Contract] event. The item will be removed once the [Secret Sanctuary] is closed.", desc="Spin it on your fingertip. The shimmering radiance reflecting off its surface is proof that the ancient contract lives on.", obtain="Contingency Contract: Re-Ignition Experimental Operation"},
+	["Vitrified Indigo"]={name="Vitrified Indigo", tier=5, use="A special item acquired by completing contract missions. It is exchangeable for rewards at the [Secret Sanctuary] of the [Contingency Contract] event. The item will be removed once the [Secret Sanctuary] is closed.", desc="Spin it on your fingertip. The shimmering radiance reflecting off its surface is proof that the ancient contract lives on.", obtain="Contingency Contract: Indigo Experimental Operation"},
+	
+	----Events-----
+	["Journey Points"]={name="Journey Points", tier=5, use="Acquired by gathering Aurylene Fragments or completing Realm Quests in The Rooted Realm event activities. They are exchangeable for rewards.", desc="Your journey, once written down, will become and inspiring legend that the youths of posterity will never forget.", obtain="The Rooted Realm event"},
+	["Arena Points"]={name="Arena Points", tier=5, use="Acquired by completing Arena Trials or Arena Tasks in Arena of Games event activities. They are exchangable for rewards.", desc="The Arena never rests. The game never ceases.", obtain="Completing Arena Trials or Arena Tasks in Arena of Games event activities."},
+
+	-----Yuanyuan Manor Inn-----
+	["Spirit Money"]={name="Spirit Money", tier=4, use="Can be used for Innkeeping and purchasing Inn renovations.", desc="The spirit of daily life lingers in every bustle and taste.", obtain="Yuanyuan Manor Inn"},
+
+}
+return data

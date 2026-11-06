@@ -1,0 +1,136 @@
+{{Hatnote|Not to be confused with [[Arts Infliction]] which applies [[Arts Burst]] under certain conditions.}}
+[[Arts Burst]] is a [[Combat Mechanic]] in [[Arknights: Endfield]].
+
+== Overview ==
+[[Arts Burst]] is an instance of {{G|DMG Type|Arts DMG}} applied by Operators.
+* When an [[Operator]] applies an [[Arts Infliction]] to an enemy already affected by an Arts Infliction of the same element, the stacks of the Arts Infliction increases by 1 stack (up to 4 stacks) and an [[Arts Burst]] is triggered.
+** Deals an instance of {{Color|160% ATK|1d}} as {{Tip|Base|Before being increased or decreased by other effects (Unofficial term)}} Arts DMG based on the element of the Arts Infliction.
+** Can be divided into {{G|Heat Burst}}, {{G|Electric Burst}}, {{G|Cryo Burst}}, and {{G|Nature Burst}}.
+
+== Calculations ==
+<tabber>
+|-|Arts DMG=
+{{Hatnote|{{Main|Damage calculation}}}}
+* The following effects stack <u>multiplicatively</u> with each other and with the Base {{Color|Arts DMG|7}}:
+** Each operator level increases the Base Arts DMG by {{Tip|{{Color|~0.51%|1d}}|0.510204081%}}.
+*** <math>{Level\,Multiplier} = \dfrac{195 + Operator\,Level}{196}</math><br>
+** Each point of [[Arts Intensity]] increases the Base Arts DMG by {{Color|1%|1d}}.
+*** <math>{Arts\,Intensity\,Multiplier} = \dfrac{100 + Arts\,Intensity}{100}</math><br>
+** If the damage critically strikes, increases the Base Arts DMG by some amount equal to the [[Critical DMG]].
+*** <math>
+{Critical\,Multiplier} =
+\begin{cases} 
+1 + {Critical\,DMG},  & \mbox{if the hit is critical}\\
+1, & \mbox{if the hit is not critical} 
+\end{cases}
+</math>
+** If the enemy is {{Color|Staggered|8}}, increases the Base Arts DMG by {{Color|30%|1d}}.
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Arts DMG to form the <b>Multiplier Group</b>:
+** <math>{Multiplier\,Group} = 1 + \sum {Damage\,Bonuses}</math><br>
+** Arts DMG Bonus
+** Heat DMG Bonus, Electric DMG Bonus, Cryo DMG Bonus, or Nature DMG Bonus (based on the [[Element]] of the Arts Burst)
+** If the enemy is {{Color|Staggered|8}}, DMG Bonus vs. Staggered
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Arts DMG to form the <b>Amp Multiplier</b>:
+** <math>{Amp\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** {{G|Arts Amp}}
+** {{G|Heat Amp}}, {{G|Electric Amp}}, {{G|Cryo Amp}}, {{G|Nature Amp}} (based on the [[Element]] of the Arts Burst)
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base {{Color|Arts DMG|7}} to form the <b>Susceptibility Multiplier</b>:
+** <math>{Susceptibility\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** {{G|Arts Susceptibility}}
+** {{G|Heat Susceptibility}} or {{G|Electric Susceptibility}} or {{G|Cryo Susceptibility}} or {{G|Nature Susceptibility}} (based on the [[Element]] of the Arts Burst)
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base Arts DMG to form the <b>Increased DMG Taken Multiplier</b>:
+** <math>{Increased\,DMG\,Taken\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** If the enemy is affected by Arts DMG Taken effects
+** If the enemy is affected by Heat DMG Taken, Electric DMG Taken, Cryo DMG Taken, or Nature DMG Taken effects (based on the [[Element]] of the Arts Burst)
+* If the enemy is affected by {{G|Electrification}}, increases the sum multiplier by {{Color|12 – 24% (based on the {{G|Status Level}})|1d}} at Base Strength
+* The following effects stack <u>additively</u> with each other but <u>multiplicatively</u> with the Base {{Color|Arts DMG|7}} to form the <b>Resistance Multiplier</b>:
+** <math>{Resistance\,Multiplier} = 1 + \sum {Damage\,Bonuses}</math><br>
+** The enemy's Innate Heat Resistance, Electric Resistance, Cryo Resistance, or Nature Resistance (based on the [[Element]] of the Arts Burst) decreases the sum multiplier
+** Ignore Heat Resistance ([[Laevatain]]) or Ignore Electric Resistance ([[Zhuang Fangyi]]) (if {{G|Heat Burst}} or {{G|Electric Burst}})
+** If the enemy is affected by {{G|Corrosion}}, increases the sum multiplier by {{Color|3.6% – 24% (based on the {{G|Status Level}} and Total Duration Elapsed)|1d}}
+</tabber>
+
+== Sources ==
+Some Operators are capable of applying [[Arts Burst|Arts Burst]] through Combat Skills, as follows:
+{{Operator table
+|header = Source
+|content =
+
+
+{{Operator table row
+|name= Typhoeus
+|content=
+{{Operator table row/Combat skill
+|icon= Skill-Typhoeus
+|name= Piercing Arrows of the Woods
+|type= Skill
+|content = 
+
+{{Color|Power Shot|7}}: After hitting an enemy, Power Shot forcibly applies 1 instance of {{G|Nature Burst|Nature Burst}}.
+}}
+}}
+
+
+}}
+
+== Interactions ==
+<tabber>
+|-|Operators=
+{{Operator table
+|header = Interaction
+|content =
+{{Operator table row
+|name = Tangtang
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Tangtang
+|name = RIVER, TO ME!
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When applying {{G|Cryo Infliction}} or dealing {{G|DMG Type|Arts Burst DMG}}{{Note|If a non-{{G|Cryo Burst}} is applied and the enemy does not receive damage due to temporary DMG immunity, this does not trigger Tangtang's {{Color|RIVER, TO ME!|7}}. {{Needs Verification}}}} to an enemy.
+}}
+}}
+}}
+{{Notelist}}
+
+|-|Weapons=
+{{Template:Weapon_list
+|header = Interaction
+|content = 
+
+{{Template:Weapon_list_row
+|name = Detonation Unit
+|content = '''Detonate: Imposing Champion'''<br>When the wielder applies an {{G|Arts Burst}}, target enemy suffers {{Color|Arts DMG Taken|7}} {{Tooltip/Weapon skill rank|+9%|25.2%}} for 15s. {{Color|Effects of the same name cannot stack.|9}}
+ }}
+
+{{Template:Weapon_list_row
+|name = OBJ Arts Identifier
+|content = '''Pursuit: Transcendent Arts'''<br>When the wielder's combo skill applies an {{G|Arts Burst}}, the wielder gains {{Color|Heat DMG Dealt|3}} and {{Color|Electric DMG Dealt|6}} {{Tooltip/Weapon skill rank|+8%|22.4%}} for 15s. {{Color|Effects of the same name cannot stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+|name = Rational Farewell
+|content = '''Pursuit: Aid from the Past'''<br>When the wielder's combo skill applies an {{G|Arts Burst}}, the wielder gains ATK {{Tooltip/Weapon skill rank|+16%|44.8%}} for 15s. {{Color|Effects of the same name cannot stack.|9}}
+ }}
+
+{{Template:Weapon_list_row
+|name = Seeker of Dark Lung
+|content = '''Detonate: Seeker of the Esoteric'''<br>When the wielder applies an {{G|Arts Burst}}, the wielder gains ATK {{Tooltip/Weapon skill rank|+6%|16.8%}} for 30s. {{Color|Stacks up to 3 times with the same name. Duration of each stack is counted separately. Effect only triggers once every 0.1s.|9}}
+ }}
+}}
+</tabber>
+
+==Changelog==
+{{Changelog|
+* <b>Beta Test II</b> {{Needs Verification}}
+** {{G|Arts Burst}} changed.
+*** <b>New:</b> When an Operator applies an {{G|Arts Infliction}} to an enemy who already has an Arts Infliction of the same element, add one more stack of Arts Infliction to the enemy (max 4 times) and trigger an Arts Burst.
+*** <b>Old:</b> When an Operator applies an {{G|Arts Infliction}} to an enemy who already has an Arts Infliction of the same element, {{G|Debuff Consumption|consume}} all Arts Infliction stacks and trigger an Arts Burst.
+* <b>Beta Test I</b> {{Needs Verification}}
+** {{G|Arts Burst}} added.
+*** {{G|Heat Burst}}, {{G|Electric Burst}}, {{G|Cryo Burst}}, and {{G|Nature Burst}} added.
+*** When an Operator applies an {{G|Arts Infliction}} to an enemy who already has an Arts Infliction of the same element, {{G|Debuff Consumption|consume}} all Arts Infliction stacks and trigger an Arts Burst.
+}}
+
+{{Combat mechanics}}
+[[Category: Arts Bursts]]

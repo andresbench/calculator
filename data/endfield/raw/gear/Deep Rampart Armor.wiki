@@ -1,0 +1,41 @@
+{{Gear infobox
+|name = Deep Rampart Armor
+|image = Deep_Rampart_Armor.png
+|filename = item_equip_t4_suit_spellburst_body_01
+|cnname = 险关装甲
+|tcname = 險關裝甲
+|jpname = 天険防具
+|krname = 관문 장갑
+|spname = Armadura de Baluarte profundo
+|runame = Броня «Далекий бастион»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Deep Rampart Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Designed by Endfield after referencing standard-issue equipment of the YSTF. 
+"I don't think we need to face the Blight directly..."
+"Got it. Time to add an entire set of steel plating for integrated defense."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +87, +95, +104, +113
+|sstat = Will
+|svalue = +58, +63, +69, +75
+|tstat = Arts Intensity
+|tvalue = +20.7, +22.8, +24.8, +26.9
+|setname = Deep Rampart
+|seteffect = 3-piece set effect: Wearer's Arts DMG Dealt {{Color|+16%|1d}}.
+When the wearer applies {{G|Nature Burst|Nature Burst}} or {{G|Cryo Burst|Cryo Burst}}, the wearer gains Arts Intensity {{Color|+16|1d}} for 20s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Deep Rampart}}
+{{Gears|state=collapsed}}

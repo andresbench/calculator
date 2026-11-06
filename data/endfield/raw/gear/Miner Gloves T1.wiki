@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Gloves T1
+|image = Miner_Gloves_T1.png
+|filename = item_equip_t2_parts_tundra01_hand_02
+|cnname = 矿场手套·壹型
+|tcname = 礦場手套·I
+|jpname = 鉱山作業用グローブⅠ
+|krname = 광산 장갑 · I
+|spname = Guantes de minero T1
+|runame = Перчатки шахтера К1
+|rarity = 3
+|artifice = no
+|type = Gloves
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Gloves T1''' is a {{gear|3|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +21.6
+|pstat = Intellect
+|pvalue = +36
+|sstat = Agility
+|svalue = +24
+|tstat = HP
+|tvalue = +19.0%
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

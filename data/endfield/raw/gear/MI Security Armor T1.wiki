@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = MI Security Armor T1
+|image = MI_Security_Armor_T1.png
+|filename = item_equip_t4_suit_criti01_body_06
+|cnname = M.I.警用护甲·壹型
+|tcname = M. I.警用護甲·I
+|jpname = M.I.警備防具Ⅰ
+|krname = M. I. 경찰용 방어구 · I
+|spname = Armadura de seguridad MI T1
+|runame = Броня охраны «Мьешко» К1
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''MI Security Armor T1''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Mieszko Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment from the MI Security series. 
+It first saw service with human armies fighting at the Aggeloid Front.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +87, +95, +104, +113
+|sstat = Intellect
+|svalue = +58, +63, +69, +75
+|tstat = Ultimate Gain Efficiency
+|tvalue = +12.3%, +13.6%, +14.8%, +16.0%
+|setname = MI Security
+|seteffect = 3-piece set effect: Wearer's Critical Rate {{Color|+5%|1d}}. 
+After the wearer scores a critical hit, the wearer gains ATK {{Color|+5%|1d}} for 5s. This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate {{Color|+5%|1d}}. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|MI Security}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,31 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Rhodes Island manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Rhodes Island]]
+|level= 70
+|region = [[Wuling]]
+|effect =  3-piece set effect: Wearer's HP Treatment Efficiency {{Color|+20%|1d}}. 
+After the wearer gives HP treatment to an allied target, that target also gains {{Color|15%|1d}} DMG Reduction against all types of DMG for 10s. If the said treatment exceeds the target's Max HP, the target gains {{Color|30%|1d}} DMG Reduction against all types of DMG. The aforementioned effects cannot stack.
+}}
+
+{{Item description|Designed by Rhodes Island and assembled by the AIC. This equipment improves the wearer's combat capabilities.|The medics' preferred equipment.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Rhodes Island.
+Preferred by their medics' and used combatants that wears them and stuff pockets of medical supplies in them<ref>[[LYNX Cuirass]]: Description</ref>, this gear helps in emergency medical care with tools for various conditions. The tools include;
+* Shield sealants<ref>[[LYNX Aegis Injector]]: Description</ref>
+* Data calibrator & connector<ref>[[LYNX Connector]]: Description</ref>
+* [[Blight]] sensitive detector<ref>[[LYNX Slab]]: Description</ref>
+Some gear include features that comes from their tradition of furnishing their PPE with [[Oripathy]] monitoring modules,<ref>[[LYNX Gauntlets]]: Description</ref> and other gears come with heavier versions than what the medics' team preferred.<ref>[[LYNX Heavy Armor]]: Description</ref>
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

@@ -1,0 +1,59 @@
+{{Enemy infobox
+|name = Nefarith, "Bonekrusher"
+|image = Nefarith,_"Bonekrusher"_sprite.png
+|filename = eny_0078_nefarp1
+|cnname = 聂菲斯，“碾骨”
+|tcname = 聶菲斯，「碾骨」
+|jpname = 「ボーンクラッシャー」ネファリス
+|krname = '본 크러셔' 네파리스
+|spname = Nefarith, “Rompehuesos”
+|runame = Неферит «Костолом»
+|type = Landbreakers
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 18
+}}
+'''Nefarith, "Bonekrusher"''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|Thanks to Nefarith, the "Bonekrushers" became a byword for terror in the Civilization Band. Her brutal conquest has not yet ended, and her true ambitions have not yet been revealed.}}
+
+==Stats==
+{{Enemy data
+|HP = 2354, 16890, 106876, 420756, 1012106, 1559178
+|ATK = 46, 217, 675, 1677, 2523, 2891
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 480
+|SR = 11
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Unleashes Æther energy waves that cannot be dodged. Use Zhuang Fangyi's Xiranite to leap into mid-air and avoid it completely.
+*Leaps to great heights to charge-up for an attack. To interrupt this enemy move, use Xiranite to jump into the air, then perform a dive attack to summon a lightning strike.
+|location = *[[Wuling City]]
+|drops = 
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+Nefarith's second form, [[Nefarith, "Conqueror"|"Conqueror"]]
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

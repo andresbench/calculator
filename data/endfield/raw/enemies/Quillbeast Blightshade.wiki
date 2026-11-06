@@ -1,0 +1,59 @@
+{{Enemy infobox
+|name = Quillbeast Blightshade
+|image = Quillbeast_Blightshade_sprite.png
+|filename = eny_0118_klhog
+|cnname = 蚀影球刺兽
+|tcname = 蝕影球刺獸
+|jpname = 球刺獣の蝕影
+|krname = 그림자에 물든 프릭비스트
+|spname = Sombra contaminada de Bestia pluma
+|runame = Моротень колючего зверя
+|type = Blightshades
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 2
+}}
+'''Quillbeast Blightshade''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A manifestation of residual Æther energy that projects the outward form of a quillbeast. This blightshade seems to exhibit far more aggressive rolling and bouncing attacks than its living counterpart, though it may just be a matter of imagination.}}
+
+==Stats==
+{{Enemy data
+|HP = 969, 6955, 44008, 173253, 416750, 642014
+|ATK = 43, 202, 627, 1557, 2343, 2684
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 200
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 6
+|Weight = 1
+|wphysical = 0.8
+|wfire = 1
+|welectric = 0.65
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *After a short charge-up, the Quillbeast Blightshade can summon multiple bolts of lightning and activate Blightshade Energy within a large area. Interrupt the beast quickly when it starts charging up.
+|location = *[[North Wuling Exclusion Zone]]
+*[[Energy Alluvium: Yinglung Pass]]
+|drops = {{I|Blightshade Bezoar}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Rapid Ascent
+|rarity = 6
+|images = 
+Rapid_Ascent icon.png:Icon;
+Rapid_Ascent.png:Full;
+Rapid_Ascent max model.png:Max
+|filename = wpn_sword_0011
+|cnname = 扶摇
+|tcname = 扶搖
+|jpname = フーヤオ
+|krname = 부요
+|spname = Ascenso Rápido
+|runame = Резкий подъем
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Rapid Ascent''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A high-end ornamental sword from Hongshan Swordmancers. The weapon is often used as an award for outstanding individuals. The name is finalized after an internal voting process in Hongshan Academy of Sciences.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 145, 245, 345, 445, 495
+|pot = Skill {{Color|Twilight: Azure Clouds|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Main Attribute [L]|Critical Rate [L]|Twilight: Azure Clouds}}
+
+==Basic Info==
+{{Quote|Fuyao:<br>Mama dreamed of you last night again. By this time, you should be back at Baizao with your Dada and having fun together with your grandparents. The streets should be filled with the smells of delicious feasts for New Year's Eve. Had your dumplings yet? Hope your Dada didn't make them this time. He never learned how to make them proper — He never rested his dough properly, and his wrappings were either too thick or too thin. If he insisted, just pray he wouldn't mess up again. I remember that time when you were one year old. He hid a coin in the dumplings and you accidentally choked on it. Your entire face turned blue and I was panicking beyond words. Thankfully the old Tianshi visited us at just the right time and saved your life.<br>Alas, the mobile container-home where we once ate dumplings together got smashed by an Ankhor. Everything got drilled straight into the earth, including those crooked couplets. Mama is now escorting the crew of the pioneering base southwards. Thank goodness your father is now off duty so I got him to bring you home to the rest of the family... Otherwise you'd be on this terrible road with me, crying non-stop from the cold and hunger. The monstrosities they call "Aggeloi" are merciless and cruel. But don't you worry, your Mama's a master in the School of Thunder.<br>For tonight, we found shelter in a valley. A farmer lady made a new year rice cake soup with the food we had left and doled it out to everyone. Mama also snipped out a few window flowers and pasted them on our temporary shelter. There are workers singing a chorus with their coarse yet passionate Ursine and Victorian accents. Mama certainly did not expect to be separated from you and Dada for our second New Year Festival in Talos-II.<br>Mama misses you. And if you miss Mama, just squeeze the doll I tucked in your wrappings. Mama made it, you know. I can totally feel your tender squishes, no matter the number of stars that separate us.<br>Sincerely, Mama<br><br>Fuyao:<br>You're about to go to school, right? Mama wonders how tall you are right now. Who do you look like more? Mama or Dada? How goes your lessons? I'm sorry I couldn't be at your side and help you with your homework. Though your Dada graduated from the Academy, he could never figure out mathematics. I hope he doesn't slow you down. Speaking of which, what is your favorite subject right now?<br>So, do you know the origins of your name, Fuyao? Mama and Dada came to Talos-II because we love the cosmos. You were born right under the Cosmic Gate. We thought you might just become a Tianshi of spaceflight and thus named you Fuyao, the rapid essence. But names are just a dream. Mama's actual wish is to see you grow up in peace. I don't care if you like reading or enjoy doing other things. Mama will always support your choice.<br>Times are difficult in this war we are fighting. Not too long ago my mentor paid a visit and asked me to join a project on building a great vessel to orbit around Talos-II. We're not the only one. The team includes many Terrans stranded at this place... Everyone generously provided all the secret tech, artifacts, and wonders they have. Many of these are unique technological marvels that could never be recreated, but they willingly staked everything for the sake of victory.<br>Mama is now part of the project, but I'm just responsible for the design and construction of a small support module. I never thought I could reach for the stars with my own strength so quickly. Then again, Mama also felt I've been waiting for this moment for far too long.<br>After all, we've spent too many days suffering upon this planet, and I missed too many moments of you growing up.<br>Sincerely, Mama<br><br>Fuyao:<br>The war has ended. But I can't but feel bitter about what happened after our "victory". We could no longer return to Terra. Every road home has been permanently closed. We failed to make any progress. Not only that, we almost annihilated ourselves in the internecine conflicts that followed.<br>Mama dreamed of you again. I saw you all grown up and becoming an accomplished Tianshi with a Tianshi apparatus in hand. But when I woke, I realized I could hardly remember how you looked like in the dream. We haven't met for so many years. Do you still remember how Mama looked like? You probably won't recognize Mama right now since Mama's not that young anymore. Hongshan is a massive crater, and it has been granted to the Tianshi who stayed in Talos-II. There are many compatriots from Yan here. Together, we built the Hongshan Academy of Sciences and started growing crops at this place. Mama shared the techniques and knowledge of hydroponics that I prepared for the space-faring tech demo. It took us several years but we finally received a bountiful harvest. Plenty of people can finally stop worrying about starving when the next batch of seeds are ready.<br>Once our granaries are full and our people clothed, I hope we can once again cast our eyes upon the celestial heights. Though the Cosmic Gate is beyond our reach, Mama shall take a great ship, ride the uplifting Fuyao vortex, sail through the stars, and reunite with you.<br>Please wait for that day, my dearest darling child.<br>Sincerely, Mama}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

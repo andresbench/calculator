@@ -1,0 +1,71 @@
+{{Amp nav}}
+{{Status infobox
+|Arts Amp
+|Arts Amped targets temporarily deal more {{Color|Arts DMG|7}}. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Arts Amp icon.png]]
+|type = Buff
+|source = Operator
+}}
+{{Icon|Arts Amp icon|[[Arts Amp]]}} is a type of buff applied to operators in ''[[Arknights: Endfield]]''.
+
+When operators are affected by '''Arts Amp''', they temporarily deal more {{Color|Arts DMG|7}}. The number represents the degree of increase.
+
+An operator that is '''Arts Amped''' is also considered Amped to all Arts Elements. For example, while {{I|Flickers in the Mist|g=0}}'s passive only explicitly states that it is triggered from the wielder gaining {{G|Electric Amp}}, gaining {{G|Arts Amp}} through an equipping {{Icon|Xaihi icon|[[Xaihi]]'s}} Battle Skill {{Color|Distributed DoS|7}} also triggers the weapon's passive.
+
+Multiple sources of Arts Amp, as well as Amp specific only to Arts [[Element]]s such as {{G|Heat Amp}} stack <u>additively</u> to form the '''Amp Multiplier''' for that damage instance. The resulting Amp Mulitplier stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Arcane
+| content = 
+{{Operator table row/Combat skill
+| icon = Arcane Talent 1 icon
+| name = Tactical Planning
+| type = Talent
+| content = 
+{{Icon|Elite 0|text=false}}: When Arcane's Intellect ≥ Will, switch skill type to {{Color|Array Arcana: INT|7}}. If not, then switch to {{Color|Array Arcana: WILL|7}}.<br>
+{{Color|Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons.|9}}<hr>
+{{Icon|Elite 2|text=false}}: When Arcane's Intellect ≥ Will, switch skill type to {{Color|Array Arcana: INT|7}}. If not, then switch to {{Color|Array Arcana: WILL|7}}. Ultimate {{Color|Gloompurge|7}} improved:<br>
+{{Color|Array Arcana: INT|7}}:<br>
+- During the ultimate, Arcane gains {{Color|24%|1d}} {{G|Arts Amp|Arts Amp}}.<br>
+{{Color|Array Arcana: WILL|7}}:<br>- When {{Color|Gloompurger Array|7}} (ultimate sequence 1) and {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) deal DMG to the enemy, they also apply {{Color|[Will × 0.02%]|1d}} {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} (max: {{Color|12.8%|1d}}) for {{Color|10|1d}}s. This effect cannot stack.
+{{Color|Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons.|9}}
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Homeward Glance
+| content = 
+Ultimate {{Color|Gloompurge|7}} improved:
+{{Color|Array Arcana: INT|7}}: During the ultimate, Arcane gains {{Color|16%|1d}} {{G|Arts Amp|Arts Amp}}. DMG Multiplier of {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) is increased to {{Color|1.3|1d}} times the original.
+{{Color|Array Arcana: WILL|7}}: Further increases the effects of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} applied by {{Color|Gloompurger Array|7}} (ultimate sequence 1) and {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) by {{Color|+7%|1d}}. After casting {{Color|Gloompurge Arcana|7}} (ultimate sequence 2), if combo skill {{Color|Yinglung Stance IV|7}} is still in its cooldown, immediately shorten the length of the cooldown by {{Color|30%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Xaihi
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Xaihi
+| name = Distributed DoS
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Summons an {{Color|Auxiliary Crystal|7}} that orbits the controlled operator for a while. <br />After the controlled operator performs a {{G|Final Strike|Final Strike}} on the enemy, the {{Color|Auxiliary Crystal|7}} will restore the said operator's HP. This effect can trigger 2 times. The attribute of Will increases the amount of HP treatment. <br />When the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary {{G|Arts Amp|Arts Amp}} as well. This effect cannot stack.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Agile Execution
+| content = 
+{{G|Arts Amp|Arts Amp}} granted by the {{Color|Auxiliary Crystal|7}} is increased by another {{Color|5%|1d}}.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Arts Amp}} keyword added with [[Xaihi]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

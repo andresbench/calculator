@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Craghowler
+|image = Craghowler_sprite.png
+|filename = eny_0114_jzmking
+|cnname = 巨山犼兽
+|tcname = 巨山犼獸
+|jpname = 大山吼獣
+|krname = 거대한 록하울러
+|spname = Aullador del peñasco
+|runame = Скальный ревун
+|type = Wildlife
+|class = Alpha
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 19
+}}
+'''Craghowler''' is an [[Alpha enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|Craghowlers are the dominant members of rockhowler communities. These beasts will fight each other countless times before the strongest champion emerges as the leading craghowler. There is no question that such individuals have mastered combat in ways that their kin could only dream of.}}
+
+==Stats==
+{{Enemy data
+|HP = 2008, 14407, 91159, 358880, 863267, 1329887
+|ATK = 53, 248, 772, 1916, 2884, 3304
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *When enraged, the Craghowler will start breaking the ruins. Loosened rocks will fall into the battlefield and deal DMG to operators hit by them.
+*The Craghowler can use the pillars within the ruins to great effect and give itself a huge attack range.
+*The Craghowler will feign a retreat, and suddenly throw huge rocks to attack unsuspecting enemies.
+|location = *[[Sword Vault Dale]]
+|drops = 
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Alpha enemies]]

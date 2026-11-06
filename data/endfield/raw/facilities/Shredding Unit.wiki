@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Shredding Unit
+|filename = item_port_grinder_1
+|images = Shredding Unit icon.png:Icon;
+Shredding Unit.png:Full
+|cnname = 粉碎机
+|tcname = 粉碎機
+|jpname = 粉砕機
+|krname = 분쇄기
+|spname = Unidad de triturado
+|runame = Модуль перемалыв.
+|type = Production I
+|rarity = 1
+|power = 5}}
+'''Shredding Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A heavy facility that shreds and pulverizes various materials.|Can you hear the crunch of the heavy industrial shredders?}}
+==Usage==
+A heavy facility that shreds and pulverizes various materials.
+*Power Use : 5
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Shredding I]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Shredding Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production I Facilities]]

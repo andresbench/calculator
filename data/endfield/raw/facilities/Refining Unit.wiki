@@ -1,0 +1,33 @@
+{{Facility infobox
+|name = Refining Unit
+|filename = item_port_furnance_1
+|images = Refining Unit icon.png:Icon;
+Refining Unit.png:Full
+|cnname = 精炼炉
+|tcname = 精煉爐
+|jpname = 精錬炉
+|krname = 정련로
+|spname = Unidad de refinado
+|runame = Модуль очистки
+|type = Production I
+|rarity = 1
+|power = 5}}
+'''Refining Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that performs high temperature refining of various materials.|Crystal delamination and thermal moulding... Heat changes, transforms, and even enables reactions in various materials to create something new.}}
+==Usage==
+A facility that performs high temperature refining of various materials.
+*Power Use : 5
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false|mode=solid}}
+===Fluid Mode===
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false|mode=fluid}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Refine I]]
+*Fluid Mode Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC II - Liquid Refining]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Refining Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production I Facilities]]

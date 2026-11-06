@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Gas Reactor Globe
+|filename = item_port_gas_reactor_1
+|images = Gas_Reactor_Globe_icon.png:Icon;
+Gas_Reactor_Globe.png:Full
+|cnname = 气体反应炉
+|tcname = 氣體反應爐
+|jpname = ガス反応装置
+|krname = 기체 반응로
+|spname = Globo del reactor de gas
+|runame = Газовый реактор
+|type = Production II
+|rarity = 4
+|power = 50}}
+'''Gas Reactor Globe''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for performing gas-phase reactions.|"The facility must be completely hermetic and include thermostats, humidity controllers, and separator modules... You think I'm complaining about design challenges? No. In fact, I'm planning to fit a self-destruct module into this contraption."}}
+==Usage==
+{{RecipeTable|facility=Gas Reactor Globe|showFacility=false}}
+
+
+==Acquisition==
+Construction: Requires Specified Wuling AIC Plan Tech
+{{RecipeTable|product=Gas Reactor Globe}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

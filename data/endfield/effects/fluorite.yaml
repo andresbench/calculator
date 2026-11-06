@@ -1,0 +1,63 @@
+# Fluorite. Nature support: her explosive, its early detonation by the
+# ultimate (`Synergy.detonates`) and the element her combo and ultimate
+# repeat (`Synergy.echoes`) are the skills' own; this file holds talents and
+# potentials.
+operator: Fluorite
+
+talents:
+  - name: Skirmisher
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Agility +10.", apply: [{stat: attr, attribute: AGL, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Agility +20.", apply: [{stat: attr, attribute: AGL, value: 20}]}
+
+  - name: Love the Stab and Twist
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      The simulation keeps Slow on the target with no end: the wiki gives
+      the skill no duration for it. The client's SlowAction on her
+      explosive's hit lasts 3.1 s, so the talent follows her own Slow for
+      3.1 s. Somebody else's Slow is not counted.
+    levels:
+      - condition: Elite 1
+        seen: "Fluorite gains DMG Dealt +10% against Slowed targets."
+        apply:
+          - {stat: dmg_bonus, value: 10, duration: 3.1, trigger: "applies:Slow", target: self}
+      - condition: Elite 2
+        seen: "Fluorite gains DMG Dealt +20% against Slowed targets."
+        apply:
+          - {stat: dmg_bonus, value: 20, duration: 3.1, trigger: "applies:Slow", target: self}
+
+  - name: Unpredictable
+    levels:
+      - condition: Elite 2
+        unmodeled: "ATK +10 % for 10 s after a 20 % chance to ignore an Arts hit — the dummy never attacks"
+      - condition: Elite 3
+        unmodeled: "ATK +20 % for 10 s after a 20 % chance to ignore an Arts hit — the dummy never attacks"
+
+potentials:
+  - rank: 1
+    confidence: confirmed
+    seen: "Agility +10, Intellect +10."
+    apply:
+      - {stat: attr, attribute: AGL, value: 10}
+      - {stat: attr, attribute: INT, value: 10}
+  - rank: 2
+    unmodeled: "a higher chance to ignore Arts DMG — the dummy never attacks"
+  - rank: 3
+    unmodeled: "Slow for 6 s after the explosion: it lengthens the talent's window, and the simulation has no Slow duration"
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Apex Prankster improved: Ultimate Energy cost -10%."
+    apply: [{stat: ult_cost_pct, value: -10}]
+  - rank: 5
+    unmodeled: "combo cooldown −1 s per Cryo or Nature Infliction applied — the simulation cuts cooldowns only by team-slot rules"

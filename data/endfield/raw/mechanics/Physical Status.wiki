@@ -1,0 +1,97 @@
+{{Physical Status tab}}
+{{Status infobox
+|Physical Status
+|Physical Statuses refer to physical debuffs applied to the enemy. The include: {{G|Lift|Lifted}}, {{G|Knock Down|Knocked Down}}, {{G|Crush|Crushed}} and {{G|Breach|Breached}}.
+|type = Debuff
+|source = Operator
+}}
+'''Physical Status''' is a category of debuffs applied to enemies in ''[[Arknights: Endfield]]''.
+
+When an operator attempts to apply a type of Physical Status to an enemy that is not currently {{G|Vulnerable}}, a stack of Vulnerability is applied instead. Otherwise, the effects based on the type of Physical Status is triggered.
+
+Some Physical Statuses such as {{G|Lift}} and {{G|Knock Down}} can be <u>forcibly applied</u> to trigger '''Lifted''' and '''Knocked Down''' respectively without requiring the enemy to be Vulnerable.
+
+Applying a Physical Status to an enemy affected by {{G|Solidification}} consumes the Solidification and applies {{G|Shatter}}: Deals {{Color|240 — 600% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator based on the {{G|Status Level}} of the Solidification.
+{{TOC limit|3}}
+{{Clr}}
+== Types ==
+A '''Physical Status''' can be one of the following types:
+
+{{Icon|Lift icon|'''[[Lift]]'''}}
+* If the target is Vulnerable, deals {{Color|120% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator, applies {{Color|10|8}} Stagger, and applies a stack of Vulnerability.
+** Weaker enemies are '''Lifted''' into the air and are unable to act for {{Color|1|1d}} second. Some operators such as {{Icon|Chen Qianyu icon|[[Chen Qianyu]]}} are able to lift the enemy for a longer duration.
+** Stronger enemies are not lifted but will continue to receive the additional damage, stagger, and Vulnerability debuff.
+** Lifted can be <u>forcibly applied</u> by some operators without requiring the enemy to be Vulnerable.
+
+{{Icon|Knock Down icon|'''[[Knock Down]]'''}}
+* If the target is Vulnerable, deals {{Color|120% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator, applies {{Color|10|8}} Stagger, and applies a stack of Vulnerability.
+** Weaker enemies are '''Knocked Down''' and are unable to act for {{Color|1|1d}} second.
+** Stronger enemies are immune to the crowd control effect but will continue to receive the additional damage, stagger, and Vulnerability debuff.
+** Knocked Down can be <u>forcibly applied</u> by some operators without requiring the enemy to be Vulnerable.
+
+{{Icon|Crush icon|'''[[Crush]]'''}}
+* If the target is Vulnerable, applies '''Crushed''': Consumes all Vulnerability stacks and deals {{Color|300% - 750% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator based on the number of stacks consumed.
+* Some skills such as {{Icon|Mi Fu icon|[[Mi Fu]]'s}} {{Color|World Splitter|7}} deal their damage as Crush DMG and are increased by [[Arts Intensity]] but not {{G|Link}} or Battle Skill DMG Bonus. This damage is not considered as being '''Crushed''' or as applying a Physical Status for the purposes of {{Icon|Pogranichnik icon|[[Pogranichnik]]'s}} {{Color|Shieldguard Banner, Forward|7}}.
+
+{{Icon|Breach icon|'''[[Breach]]'''}}
+* If the target is Vulnerable, applies '''Breached''': Consumes all Vulnerability stacks, deals {{Color|100% - 250% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator based on the number of stacks consumed. While the debuff is active, {{Color|Additional Physical DMG Taken|2}} {{Color|+12 - 24%|1d}} based on the number of stacks consumed.
+
+==Interactions==
+'''Interactions''' refer to operator combat skills which are affected from applying any type of {{G|Physical Status}}.
+{{Operator table
+|header = Interaction
+|content =
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy with active {{Color|Focus|7}} suffers a {{G|Physical Status|Physical Status}} or {{G|Arts Infliction|Arts Infliction}}. <br /><b>SKILL DESCRIPTION:</b> Triggers 1 energy explosion on the enemy that deals {{Color|Electric DMG|6}} and applies another stack of the same {{G|Physical Status|Physical Status}} or {{G|Arts Infliction|Arts Infliction}}.
+}}
+}}
+{{Operator table row
+|name = Endministrator
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Endmin
+|name = Sealing Sequence
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When another operator in the team deals DMG with combo skills. <br /><b>SKILL DESCRIPTION:</b> Rushes to the enemy's side to deal {{Color|Physical DMG|1}} and attach {{Color|Originium Crystals|7}} that temporarily seal them. Applying {{G|Physical Status|Physical Status}} or {{G|Vulnerable|Vulnerability}} to the sealed enemy shatters the {{Color|Originium Crystals|7}} and deals additional {{Color|Physical DMG|1}}.
+}}
+}}
+{{Operator table row
+|name = Pogranichnik
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Pogranichnik
+|name = Shieldguard Banner, Forward
+|type = Ultimate
+|content = 
+<b>SKILL DESCRIPTION:</b> Summons 4 Shieldguards to advance and push all enemies along the way towards the target, dealing {{Color|Physical DMG|1}} while generating 5 points of {{Color|Steel Oath|7}}. After an enemy suffers a {{G|Physical Status|Physical Status}} or takes DMG from Pogranichnik's combo skill, Pogranichnik consumes 1 point of {{Color|Steel Oath|7}} and summons 1 Shieldguard to harass the said enemy, dealing {{Color|Physical DMG|1}} and recovering some SP. When the last {{Color|Steel Oath|7}} point is consumed, all 4 Shieldguards will initiate a Decisive Assault that deals massive {{Color|Physical DMG|1}} to the target while recovering plenty of SP.
+}}
+}}
+}}
+
+
+==Changelog==
+{{Changelog|
+* '''Beta Test II'''
+** '''Vulnerable''' is now '''Vulnerability'''. Vulnerability now stacks up to four times on a target.
+** '''Breach''' added.
+** <u>Forcibly applied</u> '''Lift''' and '''Knock Down''' added.
+*** No longer requires the target to be Vulnerable in order to apply their effects.
+** '''Lift''' and '''Knock Down''' changed.
+*** No longer consumes Vulnerable if the target is already Vulnerable. Instead, adds a stack of Vulnerability.
+** '''Knock Back''' changed.
+*** Renamed as '''Crush'''. Damage is now variable based on the number of Vulnerability stacks consumed.
+
+* '''Beta Test I'''
+** '''Lift''', '''Knock Down''', and '''Knock Back''' added.
+*** When an operator applies the Physical Status to a Vulnerable enemy, consume the debuff to deal additional Physical DMG and apply Stagger. If the enemy is not Vulnerable, applies Vulnerable instead.
+}}
+
+{{Combat mechanics nav}}

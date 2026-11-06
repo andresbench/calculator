@@ -1,0 +1,264 @@
+{{Operator infobox
+|name = Last Rite
+|rarity = 6
+|class = Striker
+|weapon = Great Sword
+|element = Cryo
+|faction = Seš'qa
+|tags = Damage Dealer, Cryo Infliction
+|main = Strength
+|sub = Will
+|starting = 
+|headhunting = standard
+|quote = Seš'qa liaison, reporting in for duty... My name... I-I mean my codename's Last Rite... Just call me that...
+|image = 
+Last_Rite Splash Art.png
+|filename = chr_0026_lastrite
+|cnname = 别礼
+|tcname = 別禮
+|jpname = ラストライト
+|krname = 라스트 라이트
+|spname = Last Rite
+|runame = Панихида
+|fullname = Adelheid
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Haruka_Shiraishi Shiraishi Haruka]
+|cncv = Wu Tong
+|encv = [https://www.imdb.com/name/nm0393441/ Amber Hood]
+|krcv = [https://en.namu.wiki/w/이이로 Lee I-ro]
+|gender = Female
+|authentication = Seš'qa
+|birthdate = November 12
+|race = Sarkaz
+|infection = Oripathy positive (infected), based on medical examination reports.
+|strength = Excellent
+|tactical = Normal
+|skill = Standard
+|originium = ■■
+|exp1 = Combat Technique
+|exp1d = Combat Technique: Massive Collaterals
+At least she's efficient, if you're willing to overlook the cleanup and repair fees.
+|exp2 = Constitution
+|exp2d = Constitution: Fortitude
+Needs double the nomnom, but gives five times the power.
+|hb1 = Mind Honing
+|hb1d = Mind Honing: Portable Pacifiers
+When her anxiety gets excessive, Last Rite would play with these little things. They work far better than getting someone to talk to her.
+|hb2 = Charity
+|hb2d = Charity: Community Service
+Last Rite prefers taking care of the sick or harvesting grain instead of swinging weapons around.
+|prefer = Valley Industry's Choice
+|matskill = Khravengger, Seeker of Dark Lung
+|matstats = Sundered Prince
+}}
+'''Last Rite''' is a 6★ [[Cryo]] [[Striker]] [[Operator]] from [[Seš'qa]] in ''[[Arknights: Endfield]]''. She is a [[Great Sword]] user who deals DMG by stacking {{G|Cryo Infliction|Cryo Inflictions}}. Her battle skill consumes little SP and help generate Final Strikes that apply {{G|Cryo Infliction|Cryo Inflictions}} to enemies. Last Rite can also stack {{G|Cryo Infliction|Cryo Inflictions}} to trigger combo skills and ultimates that deal massive {{Color|Cryo DMG|4}}.
+
+==Profile==
+"I am the ... something of war, I guess?"<br/>Before the Sarkaz of the floating city found her, Last Rite was a kind-hearted girl adopted by a Caprinae gravekeeper couple. Shaped by their teachings, the young Nachzehrer refused to disturb the dead, resisting her instinct to feed. But that restraint left her reeling with hunger, and her insecurity made her shrink away from others.<br/>A chance encounter revealed Last Rite's potential to Seš'qa. Enticed by the promise of "well-paid temp work" and "training to suppress instincts," she came to be known among merchants as the Princess of the War Court. Now, clad in a [[Witching Hour]] prototype combat suit, she wields frost and steel for Endfield's cause — both to fulfill her contract and to strive toward the peaceful future that Endfield has set before her.<br/>"If my contract with Seš'qa expires, you can contact me... O-oh no! I wasn't supposed to say that! Please... Don't tell anyone about this..."
+
+==Stats==
+{{Operator data
+|main = Strength
+|sub = Will
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 95, 162, 230, 298, 332
+|STR = 21.649, 50.155, 80.161, 110.168, 140.174, 155.177
+|AGL = 8.762, 29.146, 50.603, 72.06, 93.517, 104.245
+|INT = 9.484, 27.505, 46.474, 65.443, 84.412, 93.896
+|WIL = 15.876, 35.83, 56.835, 77.84, 98.845, 109.347
+|CR = 0.05
+|AS = 100
+|AR = 5 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Triphasic Nanoflake x20, Bloodcap x8, T-Creds x100000
+|pot1 = When the controlled operator with {{Color|Hypothermic Perfusion|7}} performs a {{G|Final Strike|Final Strike}} that hits the enemy, it deals another {{Color|20%|1d}} DMG and {{Color|5|1d}} Stagger.
+|pot1t = Undertaker's Gift
+|pot2 = Strength {{Color|+20|1d}}, Cryo DMG Dealt {{Color|+10%|1d}}.
+|pot2t = Absolute Zero Armament
+|pot3 = Combo skill {{Color|Winter's Devourer|7}} and ultimate {{Color|Vigil Services|7}} improved: DMG multiplier increased to {{Color|1.15|1d}} times the original.
+|pot3t = Overlord of Winter
+|pot4 = Ultimate {{Color|Vigil Services|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Sincere Wake
+|pot5 = Battle skill {{Color|Esoteric Legacy of Seš'qa|7}} improved: Amount of SP {{G|SP Return|returned}} is increased by another {{Color|5|1d}}; Mirage Additional ATK Multiplier is increased to {{Color|1.2|1d}} times the original.
+|pot5t = Winter is Returning
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Dance of Rime
+|icon= Attack-Greatsword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Cryo DMG|4}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|25|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Cryo DMG|4}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Cryo DMG|4}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 30%, 33%, 36%, 39%, 42%, 45%, 48%, 51%, 54%, 58%, 62%, 68%
+|stat2= BATK SEQ 2 Multiplier, 55%, 61%, 66%, 72%, 77%, 83%, 88%, 94%, 99%, 106%, 114%, 124%
+|stat3= BATK SEQ 3 Multiplier, 68%, 75%, 82%, 88%, 95%, 102%, 109%, 116%, 122%, 131%, 141%, 153%
+|stat4= BATK SEQ 4 Multiplier, 90%, 99%, 108%, 117%, 126%, 135%, 144%, 153%, 162%, 173%, 187%, 203%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Esoteric Legacy of Seš'qa
+|icon= Skill-Lastrite
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Performs a {{Color|Hypothermic Perfusion|7}} on the controlled operator's weapon and {{G|SP Return|returns}} some SP. <br />The next {{G|Final Strike|Final Strike}} performed by the currently controlled operator within a certain duration creates Last Rite's Mirages that unleash an additional attack at the target. This attack deals {{Color|Cryo DMG|4}} and applies {{G|Cryo Infliction|Cryo Infliction}}. <br />When the controlled operator is Last Rite herself, casting this battle skill does not reset her basic attack sequence.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Mirage Additional ATK DMG Multiplier, 142%, 156%, 171%, 185%, 199%, 213%, 228%, 242%, 256%, 274%, 295%, 320%
+|stat3= SP Return, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+|stat4= Duration (s), 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat5= Ultimate Energy Gain, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16
+}}
+{{Combat skill
+|name= Winter's Devourer
+|icon= Combo-Lastrite
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When an enemy has 3 or more {{G|Cryo Infliction|Cryo Infliction}} stacks. <br /><b>SKILL DESCRIPTION:</b> Encases the target enemy in icicles and shatters them to {{G|Debuff Consumption|consume}} all {{G|Cryo Infliction|Cryo Infliction}} stacks of the said enemy. The number of {{G|Cryo Infliction|Cryo Infliction}} stacks {{G|Debuff Consumption|consumed}} determines the amount of {{Color|Cryo DMG|4}} dealt to the said enemy and Ultimate Energy gained by Last Rite.
+|stat1= Cooldown, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8
+|stat2= Ice Shard DMG Multiplier, 71%, 78%, 85%, 92%, 99%, 107%, 114%, 121%, 128%, 137%, 147%, 160%
+|stat3= Slash Base DMG Multiplier, 71%, 78%, 85%, 92%, 99%, 107%, 114%, 121%, 128%, 137%, 147%, 160%
+|stat4= Slash Stagger, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat5= Bonus DMG Multiplier per Infliction Stack, 107%, 117%, 128%, 139%, 149%, 160%, 171%, 181%, 192%, 205%, 221%, 240%
+|stat6= Base Ultimate Energy Gain, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40
+|stat7= Additional Ultimate Energy Gain per Infliction Stack, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+}}
+{{Combat skill
+|name= Vigil Services
+|icon= Ult-Lastrite
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Last Rite encases herself in frost armor, creates an ice scythe to perform 3 slashes, and gains immunity to all damages while this state is active. <br />Each slash deals massive {{Color|Cryo DMG|4}}. <br />{{Color|Last Rite can only gain Ultimate Energy from her own battle skills and combo skills.|9}}
+|stat1= Ultimate Energy Cost, 240, 240, 240, 240, 240, 240, 240, 240, 240, 240, 240, 240
+|stat2= SEQ 1 DMG Multiplier, 178%, 196%, 213%, 231%, 249%, 267%, 284%, 302%, 320%, 342%, 369%, 400%
+|stat3= SEQ 1 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= SEQ 2 DMG Multiplier, 178%, 196%, 213%, 231%, 249%, 267%, 284%, 302%, 320%, 342%, 369%, 400%
+|stat5= SEQ 2 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat6= SEQ 3 DMG Multiplier, 356%, 391%, 427%, 462%, 498%, 533%, 569%, 604%, 640%, 684%, 738%, 800%
+|stat7= SEQ 3 Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Dance of Rime|skill2=Esoteric Legacy of Seš'qa|skill3=Winter's Devourer|skill4=Vigil Services|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Tachyon Screening Lattice,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Quadrant Fitting Fluid,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Tachyon Screening Lattice,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Quadrant Fitting Fluid,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Dance of Rime|skill2=Esoteric Legacy of Seš'qa|skill3=Winter's Devourer|skill4=Vigil Services|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Tachyon Screening Lattice,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Quadrant Fitting Fluid,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Tachyon Screening Lattice,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Quadrant Fitting Fluid,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Dance of Rime|skill2=Esoteric Legacy of Seš'qa|skill3=Winter's Devourer|skill4=Vigil Services|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Tachyon Screening Lattice,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Quadrant Fitting Fluid,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Tachyon Screening Lattice,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Quadrant Fitting Fluid,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Forged
+|icon = Strength
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Strength +10.
+|cond2 = Elite 2
+|desc2 = Operator Strength +15.
+|cond3 = Elite 3
+|desc3 = Operator Strength +15.
+|cond4 = Elite 4
+|desc4 = Operator Strength +20.
+}}
+{{Operator talent
+|name = Hypothermia
+|icon = Last Rite Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = After Last Rite {{G|Debuff Consumption|consumes}} any {{G|Arts Infliction|Arts Infliction}}, she applies {{G|Cryo Susceptibility|Cryo Susceptibility}} to the target with the effect of [Number of {{G|Arts Infliction|Arts Infliction}} stacks {{G|Debuff Consumption|consumed}} × {{Color|2%|1d}}] for {{Color|15|1d}}s. This effect cannot stack.
+|cond2 = Elite 2
+|desc2 = After Last Rite {{G|Debuff Consumption|consumes}} any {{G|Arts Infliction|Arts Infliction}}, she applies {{G|Cryo Susceptibility|Cryo Susceptibility}} to the target with the effect of [Number of {{G|Arts Infliction|Arts Infliction}} stacks {{G|Debuff Consumption|consumed}} × {{Color|4%|1d}}] for {{Color|15|1d}}s. This effect cannot stack.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Cryogenic Embrittlement
+|icon = Last Rite Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Ultimate {{Color|Vigil Services|7}} improved: When the ultimate deals DMG to an enemy with {{G|Cryo Susceptibility|Cryo Susceptibility}}, the effect of that {{G|Cryo Susceptibility|Cryo Susceptibility}} is {{Color|1.2|1d}} times the original.
+|cond2 = Elite 3
+|desc2 = Ultimate {{Color|Vigil Services|7}} improved: When the ultimate deals DMG to an enemy with {{G|Cryo Susceptibility|Cryo Susceptibility}}, the effect of that {{G|Cryo Susceptibility|Cryo Susceptibility}} is {{Color|1.5|1d}} times the original.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Strength
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Cemetery Gardening
+|icon = GC-plant_flower
+|facility = Growth Chamber
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Growth Chamber to grant vitrified plant growth rate +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Growth Chamber to grant vitrified plant growth rate +30%
+}}
+{{Operator base skill
+|name = Fame of the Royal Courts
+|icon = RR-guestroom_clue
+|facility = Reception Room
+|postfix1 = α
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to grant operators a small Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack)
+|postfix2 = β
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to grant operators Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack)
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = GC-plant_flower
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_clue
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Battle Skill Esoteric Legacy of Seš'qa
+*** Mirage Additional ATK DMG Multiplier reduced from 151% - 340% to 142% - 320%.
+** Combo Skill Winter's Devourer
+*** Bonus DMG Multiplier per Infliction Stack reduced by 1% on Skill Rank 5, 8, M1 and M2. (Other ranks unchanged.)
+** Ultimate Vigil Services
+*** SEQ 1 DMG Multiplier reduced from 200% - 450% to 178% - 400%.
+*** SEQ 2 DMG Multiplier reduced from 200% - 450% to 178% - 400%.
+*** SEQ 3 DMG Multiplier reduced from 400% - 900% to 356% - 800%.
+** Base Skill Cemetery Gardening
+*** Vitrified plant growth rate increaed from 10% / 20% to 20% / 30%.
+** Base Skill Expert MFG changed to Fame of the Royal Courts
+*** Old: Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10% / 14%.
+*** New: Assign to Reception Room to grant operators [a small] Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack).
+*'''Beta Test II''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

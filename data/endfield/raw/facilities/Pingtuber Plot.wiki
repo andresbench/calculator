@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Pingtuber Plot
+|filename = item_port_soil_corp_potato_1
+|images = Pingtuber_Plot.png
+|cnname = 平薯田块
+|tcname = 平薯田塊
+|jpname = ひらいも畑
+|krname = 납작 감자 논배미
+|spname = Terreno de Pingtuber
+|runame = Участок плоских клубней
+|type = Planting
+|rarity = 3
+|power = }}
+'''Pingtuber Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Pingtubers.|A cultivation plot with various parameters adjusted for growing Pingtubers. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Pingtuber Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

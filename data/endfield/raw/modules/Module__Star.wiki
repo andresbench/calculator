@@ -1,0 +1,14 @@
+local p = {}
+
+function p.render(frame)
+    local args = frame:getParent().args
+    
+    local count = tonumber(args[1]) or 1
+    local link = args[2] or ""
+    local star = "[[File:Star.svg|20px|link=" .. link .. "]]"
+    local result = string.rep(star, count)
+    
+    return result
+end
+
+return p

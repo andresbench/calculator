@@ -1,0 +1,37 @@
+local util_cargo = require('Module:CargoUtil')
+
+local operators = util_cargo.query{
+	tables = 'Operators=O, Locales=Loc',
+	join = 'O.Operator = Loc.Entity',
+	fields = 'Operator=link, Loc.Value=name, Rarity=star, Class=class, Element=element, Weapon=weapon, Faction=faction, Gender=gender, Icon=iconImage, Banner=bannerImage, Portrait=portraitImage',
+	where = 'Lang="en" AND Param="name"',
+}
+local characters = util_cargo.query{
+	tables = 'Characters=C, Locales=Loc',
+	join = 'C.Chara = Loc.Entity',
+	fields = 'C.Chara=link, Loc.Value=name, Faction=faction',
+	where = 'Lang="en" AND Param="name"',
+}
+
+local data = {}
+
+for i, row in ipairs(operators) do
+	row.star = tonumber(row.star)
+	local key = row.name
+	local gender = row.gender
+	if key == "Endministrator" then
+		key = string.format("%s (%s)", key, gender:lower())
+	end
+	data[key] = row
+end
+-- alias
+data["Endministrator"] = data["Endministrator (female)"] -- default as female Endmin.
+
+-- add all Characters that are not already in the list (e.g. Operators)
+for i, row in ipairs(characters) do
+	if not data[row.name] then
+		data[row.name] = row
+	end
+end
+
+return data

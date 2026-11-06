@@ -1,0 +1,40 @@
+[[File:recycling Station Small Image.png|thumb|A Level 4 Recycling Station that is yet to be collected]]
+
+{{Quote|The Recycling Station will regularly fill up with resources. Approach a full Recycling Station to raise its material cache. Interact with it to collect all recycled resources.|Tutorial}}
+
+'''Recycling Station''' is a [[Facility (Regional Development)|facility]] in ''[[Arknights: Endfield]]''.
+
+The stations produce {{I|Aerospace Material I|g=0}} and {{I|Aerospace Material II|g=0}} which are necessary materials for [[Dijiang]] and have a cooldown in-between collections. Only a limited amount of Aerospace Materials are required to complete all upgrades on Dijiang.
+
+[[Depot Node]] Deliveries have Recycling Stations in their list of potential recipients.
+
+{| class="mrfz-wtable" border="1" cellpadding="5" style="text-align:center; font-size: 12px;"
+! width="30px" | Level Upgrade
+! | Changes
+! width="80px" | Cost
+! width="80px" | {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1
+| style="text-align:left;" | {{I|Aerospace Material I|3|g=0}} per Claim
+| {{Currency|Valley Stock Bill|100}} or {{Currency|Wuling Stock Bill|100}}
+| {{Currency|Wuling Regional Development Metric|50}}
+|-
+| 1 ▶ 2
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} per Claim
+| {{Currency|Valley Stock Bill|1 000}} or {{Currency|Wuling Stock Bill|1 000}}
+| {{Currency|Wuling Regional Development Metric|75}}
+|-
+| 2 ▶ 3
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} <br>{{I|Aerospace Material II|3|g=0}} per Claim
+| {{Currency|Valley Stock Bill|5 000}} or {{Currency|Wuling Stock Bill|5 000}}
+| {{Currency|Wuling Regional Development Metric|100}}
+|-
+| 3 ▶ 4
+| style="text-align:left;" | {{I|Aerospace Material I|6|g=0}} <br> {{I|Aerospace Material II|6|g=0}} per Claim
+| {{Currency|Valley Stock Bill|20 000}} or {{Currency|Wuling Stock Bill|20 000}}
+| {{Currency|Wuling Regional Development Metric|125}}
+|}
+
+== Navigation ==
+{{Features nav}}
+[[Category: Facility (Regional Development)]]

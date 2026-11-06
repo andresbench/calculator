@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Æthertech Plating
+|image = Æthertech_Plating.png
+|filename = item_equip_t4_suit_poise01_body_01
+|cnname = 轻超域护板
+|tcname = 輕超域護板
+|jpname = 軽量超域プレート
+|krname = 경량 초자연 보호판
+|spname = Blindaje de etertecnología
+|runame = Латы «Эфиртех»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Æthertech Plating''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Portable Æthertech Labs and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Lightweight experimental protective equipment. 
+"The people of Hongshan use feather as a simile for lightness in weight. The anti-gravity solutions provided by our Labs are just one tiny step away."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Strength
+|pvalue = +87, +95, +104, +113
+|sstat = Will
+|svalue = +58, +63, +69, +75
+|tstat = DMG Bonus vs. Staggered
+|tvalue = +20.7%, +22.8%, +24.8%, +26.9%
+|setname = Æthertech
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}.
+After the wearer applies {{G|Vulnerable|Vulnerability}}, the wearer gains {{Color|Physical DMG Dealt|1}} {{Color|+8%|1d}} for 15s. This effect can reach 4 stacks. If the target has 4 stacks of {{G|Vulnerable|Vulnerability}}, the wearer gains an additional {{Color|Physical DMG Dealt|1}} {{Color|+16%|1d}} for 10s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Æthertech}}
+{{Gears|state=collapsed}}

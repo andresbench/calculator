@@ -1,0 +1,26 @@
+[
+ {
+  "_pageName": "Template:BaseFacilities",
+  "Id": "0",
+  "Icon": "Control Nexus icon.png",
+  "Facility": "Control Nexus"
+ },
+ {
+  "_pageName": "Template:BaseFacilities",
+  "Id": "1",
+  "Icon": "Manufacturing Cabin icon.png",
+  "Facility": "Manufacturing Cabin"
+ },
+ {
+  "_pageName": "Template:BaseFacilities",
+  "Id": "2",
+  "Icon": "Growth Chamber icon.png",
+  "Facility": "Growth Chamber"
+ },
+ {
+  "_pageName": "Template:BaseFacilities",
+  "Id": "5",
+  "Icon": "Reception Room icon.png",
+  "Facility": "Reception Room"
+ }
+]

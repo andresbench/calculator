@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Mordvolt Insulation Wrench T2
+|image = Mordvolt_Insulation_Wrench_T2.png
+|filename = item_equip_t3_suit_wisd01_edc_01
+|cnname = 蚀电屏蔽扳手·贰型
+|tcname = 蝕電絕緣扳手·II
+|jpname = 蝕電遮断スパナⅡ
+|krname = 침식 차단 스패너 · II
+|spname = Llave de aislamiento de Mordvolt T2
+|runame = Изолированный ключ «Мортвольт» К2
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Mordvolt Insulation Wrench T2''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A wrench with special protective coating. 
+This can also be used as a weapon when necessary. It is fully capable of crushing and pulverizing Aggelos limbs.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Intellect
+|pvalue = +23
+|sstat = Agility
+|svalue = +15
+|tstat = Attack
+|tvalue = +14.7%
+|setname = Mordvolt Insulation
+|seteffect = 3-piece set effect: Wearer's Intellect {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Arts DMG|7}} {{Color|+20%|1d}}.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Mordvolt Insulation}}
+{{Gears|state=collapsed}}

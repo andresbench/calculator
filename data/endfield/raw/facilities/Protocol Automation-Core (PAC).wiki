@@ -1,0 +1,23 @@
+{{Item infobox
+|name = Protocol Automation-Core (PAC)
+|filename = item_port_sp_hub_1
+|cnname = 协议核心
+|tcname = 協議核心
+|jpname = 協約核心
+|krname = 프로토콜 코어
+|spname = Núcleo de automatización de protocolos (NAP)
+|runame = Протокольный блок автоматизации (ПБА)
+|type = Facilities
+|rarity = 5}}
+'''Protocol Automation-Core (PAC)''' is a [[Facilities|facility]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|The Protocol PAC (PAC) represents the core technology of Endfield Industries. The seed was planted when they stepped through the door, and it is slowly growing to become a massive technological oak.}}
+==Usage==
+A massive Endfield core facility that can supply power to various facilities and industrial processes.
+==Acquisition==
+Special Asset: Endfield Industries
+
+
+==Navigation==
+{{Items}}
+[[Category:Facilities]]

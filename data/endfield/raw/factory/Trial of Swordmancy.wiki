@@ -1,0 +1,507 @@
+{{#invoke:Infobox|main
+|sep = ;
+| title = Trial of Swordmancy
+| image = [[File:Trial Arena Lvl 4.png]]
+| sections = Intro; Duration
+| Intro = type; region
+| Intro_nolabel = Yes
+| type_label = Type
+| type = Facility
+| region_label = Region
+| region = [[Wuling]]
+}}
+
+{{Quote|An arena fashioned using digital data and realistic light and shadow rendering effects. It awaits your choices and eagerness for battle.}}
+
+'''Trial of Swordmancy''' is a [[Facility (Regional Development)|facility]] in ''[[Arknights: Endfield]]''.
+
+Trial of Swordmancy is a facility where players can challenge enemies in rounds called Trials to earn {{Currency|Wuling Stock Bill}} [[Wuling Stock Bill]]s. Upgrading the facility increases the amount of currency granted in Trials.
+
+== Participation Criteria ==
+In the side mission [[Trial of Swordmancy (Mission)|[Trial of Swordmancy]]], complete [[Activate the Trial Arena|[Activate the Trial Arena]]] to unlock this mode.
+
+{{Color|※ Complete side mission [[Deep Vaulted Steel|[Deep Vaulted Steel]]] to unlock side mission [Trial of Swordmancy].|9}}
+
+== Gameplay Details ==
+=== Trials ===
+In '''Trial of Swordmancy''', the player fights a constantly varying combination of enemies in a number of rounds called '''Trials'''. Before each Trial, the player may draw up to 5 Dataplates from a pre-selected deck. Trials are divided into [[Trial of Swordmancy#Rewarded Trial Mode|Rewarded Trial Mode]] and [[Trial of Swordmancy#Free Trial Mode|Free Trial Mode]]. There are up to 3 Rewarded Trial attempts per day.
+
+'''Dataplates''' determine the type and number of enemies to be fought in the Trial. A Dataplate can have a '''Battle Points''' value of 1 to 5 correlating with the enemy's strength. The total number of Battle Points determines the Trial Rewards earned upon successfully completing the Trial. If the total number of Battle Points exceeds 10, [[Trial of Swordmancy#Data Overflow|Data Overflow]] occurs.
+
+If dissatisfied with the current draw result, the player can also choose to abandon the draw. The first 3 abandons do not count toward the daily limit, while subsequent abandons consume daily Rewarded Trial attempts. The [[Trial_of_Swordmancy#Dataplate_Decks|Dataplate deck]] refreshes once every {{Tip|3 server days|A server day is defined as the amount of time between two daily resets or from 04:00AM of the current day to 04:00AM of the next day (server time).}}, changing the cards of the Dataplate deck used, resulting in different enemy types on the Dataplates.
+
+An area of 13 x 6 tiles can also be used to place [[Facility/Combat & Support|Combat Facilities]] to assist in battle.
+
+Players can freely leave the Trial of Swordmancy menu without abandoning or starting the Trial. This allows them to better prepare for the expected fight. This cannot be used to save a "good draw" from a Free Trial Mode draw for the next day's Rewarded Trial Mode, as whether a Trial is Free or Rewarded is determined once the first Dataplate is drawn.
+
+=== Data Overflow ===
+* When the total number of Battle Points in a Trial goes over 10, '''Data Overflow''' occurs. Data Overflow increases the level of all Dataplate enemies by 30. If the player is in [[Trial of Swordmancy#Rewarded Trial Mode|Rewarded Trial Mode]], this also resets the rewards to {{Currency|Wuling Stock Bill|0}}.
+* When the total number of Battle Points in a Trial goes over 21, Data overflowes twice. In addition to the effects caused by a single Data Overflow, the trial timer is reduced to 180s.
+
+== Trial Arena ==
+The '''Trial Arena''' is an upgradable facility<!--TODO: link to proper article/section--> in [[Sword Vault Dale|Sword Vault Dale]] related to '''Trial of Swordmancy'''.
+
+The following table shows the max amount of {{I|Wuling Stock Bill|gridview=false}} earnable and the number of Reward Doubling Attempts per day in [[Trial of Swordmancy#Rewarded Trial Mode|Rewarded Trial Mode]] by Facility Level:
+
+<table class="wikitable wikitable-mobile" style="font-size:85%; border:1px solid var(--border-color); text-align:center;">
+<tr>
+<th style="padding:5px;">Level</th>
+<th style="padding:5px;">Cost</th>
+<th style="padding:5px;">Max Reward<br>per Trial</th>
+<th style="padding:5px;">Reward Doubling<br>Attempts per Day</th>
+</tr>
+<tr>
+<td style="padding:5px;">0</td>
+<td style="padding:5px; text-align:right;">0 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">0 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">0</td>
+</tr>
+<tr>
+<td style="padding:5px;">1</td>
+<td style="padding:5px; text-align:right;">10 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">30 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">0</td>
+</tr>
+<tr>
+<td style="padding:5px;">2</td>
+<td style="padding:5px; text-align:right;">150 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">60 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">1</td>
+</tr>
+<tr>
+<td style="padding:5px;">3</td>
+<td style="padding:5px; text-align:right;">600 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">100 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">2</td>
+</tr>
+<tr>
+<td style="padding:5px;">4</td>
+<td style="padding:5px; text-align:right;">1 600 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">160 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">2</td>
+</tr>
+</table>
+
+== Rewarded Trial Mode ==
+In '''Rewarded Trial Mode''', a successful Trial grants a corresponding amount of {{I|Wuling Stock Bill|gridview=false}}. The player can have up to 3 Rewarded Trial attempts per day. Abandoning a Rewarded Trial does not consume daily attempts (up to 3 times a day). After the first 3 abandons, subsequent abandons will consume daily Rewarded Trial attempts.
+
+Before making the third draw in a Trial, players can optionally activate '''Rewards Doubling'''. Activating this feature and successfully completing the Trial will double the Trial Rewards earned. Daily Rewards Doubling attempts increase with the [[Trial of Swordmancy#Trial Arena|[device level]]], up to a maximum of 2 per day.
+
+The following table shows the base amount of {{I|Wuling Stock Bill|gridview=false}} earned depedending on the number of Battle Points for that trial:
+<table class="mrfz-wtable wikitable-mobile" style="font-size:85%; border:1px solid var(--border-color); text-align:center;">
+<tr>
+<th style="padding:5px;" rowspan="2">Level</th>
+<th style="padding:5px;" colspan="11">Battle Points</th>
+</tr>
+<tr>
+<th style="padding:5px;">0</th>
+<th style="padding:5px;">1</th>
+<th style="padding:5px;">2</th>
+<th style="padding:5px;">3</th>
+<th style="padding:5px;">4</th>
+<th style="padding:5px;">5</th>
+<th style="padding:5px;">6</th>
+<th style="padding:5px;">7</th>
+<th style="padding:5px;">8</th>
+<th style="padding:5px;">9</th>
+<th style="padding:5px;">10</th>
+</tr>
+
+<tr>
+<td style="padding:5px;">1</td>
+<td style="padding:5px; text-align:right;">0 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">500 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">800 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">1 200 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">2 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">3 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">5 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">8 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">12 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">20 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">30 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+</tr>
+
+<tr>
+<td style="padding:5px;">2</td>
+<td style="padding:5px; text-align:right;">0 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">750 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">1 500 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">2 400 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">3 600 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">6 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">10 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">16 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">24 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">40 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">60 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+</tr>
+
+<tr>
+<td style="padding:5px;">3</td>
+<td style="padding:5px; text-align:right;">0 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">1 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">2 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">4 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">6 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">10 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">15 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">25 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">40 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">60 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">100 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+</tr>
+
+<tr>
+<td style="padding:5px;">4</td>
+<td style="padding:5px; text-align:right;">0 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">1 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">2 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">4 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">7 500 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">12 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">20 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">36 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">60 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">100 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+<td style="padding:5px; text-align:right;">160 000 [[File: Wuling Stock Bill.png|link=|20x20px]]</td>
+</tr>
+</table>
+
+== Free Trial Mode ==
+After using all daily Rewarded Trial attempts, players can continue challenge enemies in Free Trial Mode. In Free Trial Mode, players can start an unlimited number of Trials, but these will not grant any {{I|Wuling Stock Bill|gridview=false}}.
+
+After completing a certain number of Free Trials in a day, enemy drops will be greatly reduced. This effect will reset at 04:00 ({{Tip|server time|UTC+8 for Asia, UTC-5 for AM/EU}}) the following day.
+
+== Dataplate Decks ==
+Every 3 days, the Dataplate deck used changes. Listed below are the possible decks that can appear. Rows with a golden background (currently only Bonekrusher Ripptusk), are considered bonus Dataplates. They award a lot of Battle Points despite being weaker enemies.
+
+<tabber>
+Deck 1=
+{| class="wikitable sortable"
+|+ Dataplate deck 1
+|-
+! Enemy !! Battle Points !! Dataplates in Deck
+|-
+| {{E|Ram|1|gv=true}} || 1 || 1
+|-
+| {{E|Firemist Originium Slug|2|gv=true}} || 1 || 2
+|-
+| {{E|Mudflow|2|gv=true}} || 1 || 2
+|-
+| {{E|Grove Archer|2|gv=true}} || 2 || 2
+|-
+| {{E|Hedron|2|gv=true}} || 2 || 2
+|-
+| {{E|Waterlamp|2|gv=true}} || 2 || 1
+|-
+| {{E|Prism|2|gv=true}} || 3 || 2
+|-
+| {{E|Heavy Ram|1|gv=true}} || 3 || 1
+|-
+| {{E|Bonekrusher Vanguard|2|gv=true}} || 3 || 2
+|-
+| {{E|Bonekrusher Pyromancer|1|gv=true}} || 4 || 2
+|-
+| {{E|Bonekrusher Arsonist|1|gv=true}} || 4 || 2
+|-
+| {{E|Elite Executioner|1|gv=true}} || 4 || 2
+|-
+| {{E|Tunneling Nidwyrm|1|gv=true}} || 4 || 2
+|-
+| {{E|Bonekrusher Siegeknuckles|1|gv=true}} || 5 || 1
+|-
+| {{E|Bonekrusher Ballista|1|gv=true}} || 5 || 2
+|-
+| {{E|Effigy|1|gv=true}} || 5 || 2
+|- style="background:#382a01;"
+| {{E|Bonekrusher Ripptusk|2|gv=true}} || 5 || 1
+|}
+|-|Deck 2=
+{| class="wikitable sortable"
+|+ Dataplate deck 2
+|-
+! Enemy !! Battle Points !! Dataplates in Deck
+|-
+| {{E|Firemist Originium Slug|2|gv=true}} || 1 || 1
+|-
+| {{E|Mudflow|2|gv=true}} || 1 || 1
+|-
+| {{E|Road Plunderer|1|gv=true}} || 1 || 2
+|-
+| {{E|Bonekrusher Infiltrator|1|gv=true}} || 2 || 1
+|-
+| {{E|Hedron|2|gv=true}} || 2 || 2
+|-
+| {{E|Waterlamp|2|gv=true}} || 2 || 2
+|-
+| {{E|Prism|2|gv=true}} || 3 || 2
+|-
+| {{E|Heavy Ram|1|gv=true}} || 3 || 2
+|-
+| {{E|Bonekrusher Vanguard|2|gv=true}} || 3 || 2
+|-
+| {{E|Quillbeast|1|gv=true}} || 4 || 1
+|-
+| {{E|Nimbus Razor|1|gv=true}} || 4 || 2
+|-
+| {{E|Tidewalker|1|gv=true}} || 4 || 1
+|-
+| {{E|Cloud Stalker|1|gv=true}} || 4 || 2
+|-
+| {{E|Axe Armorbeast|1|gv=true}} || 5 || 2
+|-
+| {{E|Hill Smasher|1|gv=true}} || 5 || 2
+|-
+| {{E|Spotted Rakerbeast|1|gv=true}} || 5 || 2
+|- style="background:#382a01;"
+| {{E|Bonekrusher Ripptusk|2|gv=true}} || 5 || 1
+|}
+|-|Deck 3=
+{| class="wikitable sortable"
+|+ Dataplate deck 3
+|-
+! Enemy !! Battle Points !! Dataplates in Deck
+|-
+| {{E|Ram|1|gv=true}} || 1 || 1
+|-
+| {{E|Firemist Originium Slug|2|gv=true}} || 1 || 2
+|-
+| {{E|Mudflow|2|gv=true}} || 1 || 2
+|-
+| {{E|Road Plunderer|1|gv=true}} || 1 || 2
+|-
+| {{E|Grove Archer|2|gv=true}} || 2 || 1
+|-
+| {{E|Bonekrusher Infiltrator|1|gv=true}} || 2 || 1
+|-
+| {{E|Waterlamp|2|gv=true}} || 2 || 1
+|-
+| {{E|Æthillu|2|gv=true}} || 3 || 2
+|-
+| {{E|Prism|2|gv=true}} || 3 || 2
+|-
+| {{E|Heavy Ram|1|gv=true}} || 3 || 2
+|-
+| {{E|Bonekrusher Vanguard|2|gv=true}} || 3 || 1
+|-
+| {{E|Quillbeast|1|gv=true}} || 4 || 1
+|-
+| {{E|Nimbus Razor|1|gv=true}} || 4 || 1
+|-
+| {{E|Cloud Stalker|1|gv=true}} || 4 || 1
+|-
+| {{E|Bonekrusher Siegeknuckles|1|gv=true}} || 5 || 1
+|-
+| {{E|Bonekrusher Ballista|1|gv=true}} || 5 || 1
+|-
+| {{E|Axe Armorbeast|1|gv=true}} || 5 || 1
+|-
+| {{E|Hill Smasher|1|gv=true}} || 5 || 2
+|-
+| {{E|Spotted Rakerbeast|1|gv=true}} || 5 || 1
+|- style="background:#382a01;"
+| {{E|Bonekrusher Ripptusk|2|gv=true}} || 5 || 1
+|}
+|-|Deck 4=
+{| class="wikitable sortable"
+|+ Dataplate deck 4
+|-
+! Enemy !! Battle Points !! Dataplates in Deck
+|-
+| {{E|Firemist Originium Slug|2|gv=true}} || 1 || 1
+|-
+| {{E|Mudflow|2|gv=true}} || 1 || 1
+|-
+| {{E|Road Plunderer|1|gv=true}} || 1 || 1
+|-
+| {{E|Grove Archer|2|gv=true}} || 2 || 3
+|-
+| {{E|Bonekrusher Infiltrator|1|gv=true}} || 2 || 1
+|-
+| {{E|Hedron|2|gv=true}} || 2 || 3
+|-
+| {{E|Æthillu|2|gv=true}} || 3 || 3
+|-
+| {{E|Prism|2|gv=true}} || 3 || 3
+|-
+| {{E|Bonekrusher Vanguard|2|gv=true}} || 3 || 1
+|-
+| {{E|Bonekrusher Pyromancer|1|gv=true}} || 4 || 2
+|-
+| {{E|Quillbeast|1|gv=true}} || 4 || 2
+|-
+| {{E|Tunneling Nidwyrm|1|gv=true}} || 4 || 2
+|-
+| {{E|Heavy Sting α|1|gv=true}} || 4 || 1
+|-
+| {{E|Bonekrusher Ballista|1|gv=true}} || 5 || 2
+|-
+| {{E|Effigy|1|gv=true}} || 5 || 1
+|-
+| {{E|Hill Smasher|1|gv=true}} || 5 || 2
+|}
+|-|Deck 5=
+{| class="wikitable sortable"
+|+ Dataplate deck 5
+|-
+! Enemy !! Battle Points !! Dataplates in Deck
+|-
+| {{E|Ram|1|gv=true}} || 1 || 1
+|-
+| {{E|Firemist Originium Slug|2|gv=true}} || 1 || 2
+|-
+| {{E|Mudflow|2|gv=true}} || 1 || 2
+|-
+| {{E|Road Plunderer|1|gv=true}} || 1 || 1
+|-
+| {{E|Grove Archer|2|gv=true}} || 2 || 1
+|-
+| {{E|Bonekrusher Infiltrator|1|gv=true}} || 2 || 1
+|-
+| {{E|Hedron|2|gv=true}} || 2 || 2
+|-
+| {{E|Waterlamp|2|gv=true}} || 2 || 2
+|-
+| {{E|Æthillu|2|gv=true}} || 3 || 1
+|-
+| {{E|Prism|2|gv=true}} || 3 || 3
+|-
+| {{E|Heavy Ram|1|gv=true}} || 3 || 2
+|-
+| {{E|Bonekrusher Vanguard|2|gv=true}} || 3 || 3
+|-
+| {{E|Bonekrusher Arsonist|1|gv=true}} || 4 || 1
+|-
+| {{E|Quillbeast|1|gv=true}} || 4 || 1
+|-
+| {{E|Nimbus Razor|1|gv=true}} || 4 || 1
+|-
+| {{E|Tidewalker|1|gv=true}} || 4 || 1
+|-
+| {{E|Bonekrusher Siegeknuckles|1|gv=true}} || 5 || 1
+|-
+| {{E|Hill Smasher|1|gv=true}} || 5 || 1
+|-
+| {{E|Spotted Rakerbeast|1|gv=true}} || 5 || 1
+|}
+|-|Deck 6=
+{| class="wikitable sortable"
+|+ Dataplate deck 6
+|-
+! Enemy !! Battle Points !! Dataplates in Deck
+|-
+| {{E|Ram|1|gv=true}} || 1 || 1
+|-
+| {{E|Firemist Originium Slug|2|gv=true}} || 1 || 1
+|-
+| {{E|Mudflow|2|gv=true}} || 1 || 1
+|-
+| {{E|Road Plunderer|1|gv=true}} || 1 || 1
+|-
+| {{E|Grove Archer|2|gv=true}} || 2 || 1
+|-
+| {{E|Bonekrusher Infiltrator|1|gv=true}} || 2 || 2
+|-
+| {{E|Hedron|2|gv=true}} || 2 || 2
+|-
+| {{E|Æthillu|2|gv=true}} || 3 || 1
+|-
+| {{E|Prism|2|gv=true}} || 3 || 2
+|-
+| {{E|Bonekrusher Vanguard|2|gv=true}} || 3 || 1
+|-
+| {{E|Quillbeast|1|gv=true}} || 4 || 2
+|-
+| {{E|Nimbus Razor|1|gv=true}} || 4 || 2
+|-
+| {{E|Tidewalker|1|gv=true}} || 4 || 2
+|-
+| {{E|Heavy Sting α|1|gv=true}} || 4 || 2
+|-
+| {{E|Bonekrusher Siegeknuckles|1|gv=true}} || 5 || 2
+|-
+| {{E|Bonekrusher Ballista|1|gv=true}} || 5 || 2
+|-
+| {{E|Axe Armorbeast|1|gv=true}} || 5 || 2
+|- style="background:#382a01;"
+| {{E|Bonekrusher Ripptusk|2|gv=true}} || 5 || 1
+|}
+|-|Deck 7=
+{| class="wikitable sortable"
+|+ Dataplate deck 7
+|-
+! Enemy !! Battle Points !! Dataplates in Deck
+|-
+| {{E|Ram|1|gv=true}} || 1 || 2
+|-
+| {{E|Firemist Originium Slug|2|gv=true}} || 1 || 2
+|-
+| {{E|Mudflow|2|gv=true}} || 1 || 2
+|-
+| {{E|Road Plunderer|1|gv=true}} || 1 || 2
+|-
+| {{E|Grove Archer|2|gv=true}} || 2 || 2
+|-
+| {{E|Bonekrusher Infiltrator|1|gv=true}} || 2 || 2
+|-
+| {{E|Hedron|2|gv=true}} || 2 || 1
+|-
+| {{E|Æthillu|2|gv=true}} || 3 || 1
+|-
+| {{E|Prism|2|gv=true}} || 3 || 1
+|-
+| {{E|Bonekrusher Pyromancer|1|gv=true}} || 4 || 1
+|-
+| {{E|Elite Executioner|1|gv=true}} || 4 || 1
+|-
+| {{E|Tunneling Nidwyrm|1|gv=true}} || 4 || 2
+|-
+| {{E|Heavy Sting α|1|gv=true}} || 4 || 1
+|-
+| {{E|Bonekrusher Siegeknuckles|1|gv=true}} || 5 || 2
+|-
+| {{E|Bonekrusher Ballista|1|gv=true}} || 5 || 1
+|-
+| {{E|Effigy|1|gv=true}} || 5 || 2
+|-
+| {{E|Spotted Rakerbeast|1|gv=true}} || 5 || 2
+|- style="background:#382a01;"
+| {{E|Bonekrusher Ripptusk|2|gv=true}} || 5 || 1
+|}
+</tabber>
+
+
+== Path of Glory ==
+{{Main|Path_of_Glory/Construction|Path of Glory}}
+
+The following medals in [[Path of Glory]] are related to pariticipating in '''Trial of Swordmancy''':
+{{Medal head}}
+{{Medal cell
+|name = "Zenith of the Trials"
+|desc = With impeccable tact, you ascended the zenith in the Trial of Swordmancy.
+|cond = Complete 1 Trial with a total of 10 Battle Points
+|trim = After 1 instance of Data Overflow, complete 1 Trial with a total of 10 Battle Points <ref name="ref1">The trimming condition for this medal may be misunderstood. Trimming this medal requires the player to complete a single Trial with a total of '''21 Battle Points''' since overflowing occurs at 11 Battle Points, resetting the counter to 0 and any more Battle Points afterwards increases the counter again. Additionally, the Data Overflow and the 10 leftover Battle Points must occur in a single Trial. Simply completing a Trial with 10 Battle Points after encountering Data Overflow in a previous Trial does not work. Both medals may also be obtained in [[Trial of Swordmancy#Free Trial Mode|Free Trial Mode]].</ref>}}
+{{Table end}}
+
+Notes
+{{reflist}}
+
+== Events ==
+[[File:Trial Algorithmics event.png|center|400px|link=]]
+
+{{Main|Trial Algorithmics}}
+Trial Algorithmics is an exclusive limited-time event for the [[Sketches of Lost Heirlooms|Sketches of Lost Heirlooms]] version that launches at the same time as '''Trial of Swordmancy'''. During the event, complete specific challenges in '''Trial of Swordmancy''' to claim rewards such as [{{I|Oroberyl|gridview=false}}] on the Trial Algorithmics event screen.
+
+== Gallery ==
+<gallery>
+File:Trial of Swordmancy Gameplay Intro Page 1.png|Gameplay Intro (Page 1)
+File:Trial of Swordmancy Gameplay Intro Page 2.png|Gameplay Intro (Page 2)
+File:Trial Arena Lvl 1.png|The '''Trial Arena''' facility at Level 1
+File:Trial Arena Lvl 2.png|The '''Trial Arena''' facility at Level 2
+File:Trial Arena Lvl 3.png|The '''Trial Arena''' facility at Level 3
+File:Trial Arena Lvl 4.png|The '''Trial Arena''' facility at Level 4
+</gallery>
+
+{{Features}}
+[[Category: Facility (Regional Development)]]

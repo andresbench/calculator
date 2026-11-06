@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Valiant
+|rarity = 6
+|images = 
+Valiant icon.png:Icon;
+Valiant.png:Full;
+Valiant max model.png:Max
+|filename = wpn_lance_0010
+|cnname = 骁勇
+|tcname = 驍勇
+|jpname = 勇猛
+|krname = 용사
+|spname = Valiente
+|runame = Доблесть
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''Valiant''' is a 6★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A mid-tier product of Mieszko Industries. The lance is rare yet highly sought after, thanks to vintage designs that make it resemble a ballista bolt as well as its effective field performance.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 145, 245, 345, 445, 495
+|pot = Skill {{Color|Combative: Virtuous Gain|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Agility [L]|Physical DMG [L]|Combative: Virtuous Gain}}
+
+==Basic Info==
+{{Quote|I do acknowledge the value of these "virtues". In fact, I am willing to commit my complete support for such values! But you must understand, sir, actual value must be quantifiable.<br>What does the audience like better? Courage or valor? Generosity or mercy? We don't need a just arbitrator when we already have the most reliable judge of our products — the market itself! Sir, a man of your years and experience should have seen the great upheavals when the index figures fluctuated and the lines leaped up and down the charts... Oh! You and your grandfather actually visited the old Terran General Chamber of Commerce...? Wonderful! Truly wonderful childhood memories! I'll just skip the things you already know. You should be well aware that everything we see is the result of our efforts in quantifying "virtues" into actual value that we can trade with.<br>Of course. Commerce is a field of knowledge exclusive to humanity. Oh, and I got something about that. Forget about the rancorous criticisms of our top economists and financial experts. I don't care if we're living on a sphere, on top of a pyramid, or a pillar. Makes no difference to us as long as the people living here are human. We never left ourselves. What I meant was that living at a new place didn't suddenly give us a new mind.<br>Those who wanted to keep moving describe this place as untamed and filled with dangers. But I see a land untouched and filled with potential! I can't emphasize enough the immensity of the profits we can reap by investing in this project. The Virtues-series equipment is but the smallest step in our great strategy... And I am not the only one who recognizes this opportunity. You'd be wise to keep that in mind.<br>Mr. Derriam, before they fill the entire place up with people and start putting price tags on all sorts of "virtues" ... I promise, every cent you invest via this contract will grant you incalculable wealth in the future.<br>Oh, that's right! Just sign right there... I knew I saw a keen-eyed investor who saw exactly where the killing can be made — Hold on. Got to take this call. Yes? Good. Have him wait in the VIP lounge.<br>— And that should wrap things up. Don't let me keep you here, sir.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

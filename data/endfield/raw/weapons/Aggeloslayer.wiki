@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Aggeloslayer
+|rarity = 4
+|images = 
+Aggeloslayer icon.png:Icon;
+Aggeloslayer.png:Full;
+Aggeloslayer max model.png:Max
+|filename = wpn_lance_0008
+|cnname = 天使杀手
+|tcname = 天使殺手
+|jpname = アンゲロス・スレイヤー
+|krname = 아겔로스 사냥꾼
+|spname = Asesino de Aggelos
+|runame = Аггелоубийца
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''Aggeloslayer''' is a 4★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard-issue lance made by Fort Forgefane to arm the common soldiery. Furnished with an extremely sharp tip specifically designed for fighting the Aggeloi.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Suppression: Emergency Boost|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Will [S]|Arts DMG [S]|Suppression: Emergency Boost}}
+
+==Basic Info==
+{{Quote|I specifically focused on the needs of our rank and file during this frontline review. The life of every Oathkeeper, no matter the rank, is invaluable to the Order. The fall of any Oathkeeper, no matter their skill in arms, is a grievous loss for the defense of this civilization.<br>......<br>The host of Aggeloi is a unique form of existence. Though the host has no combat techniques or strategies to speak of, it also feels no pain or fear. The host never retreats and simply keeps fighting until the last Aggelos is slain. Extended Aggeloid crusades often dull the minds and senses of Order soldiers. The Oathkeepers do not detest the killing. No. They simply realized that the host of Aggeloi could crush entire mountains with their weight of numbers alone.<br>......<br>I humbly propose to arm our common soldiery with lances and spears. These ancient weapons will find new purpose in the Aggeloid crusades. The length of the weapons will let our soldiers attack these abominations from safer distances and the sharp, tapered tips should be sufficient to puncture their defensive shells. We must also design new arms strong enough to withstand the weight of these inorganic creatures. And the tips require sharper tips. The sharper, the better.<br>......<br>I've sent my blueprints to our headquarters. The lance and spear have always been the mainstay of every army in history ranging from Kazimierzian Knights to Sarkaz mercenary bands. They shall serve once more in our crusades.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

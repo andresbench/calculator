@@ -1,0 +1,61 @@
+{{Susceptibility nav}}
+{{Status infobox
+|Heat Susceptibility
+|Heat Susceptible targets temporarily take more {{Color|Heat DMG|3}}. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Heat Susceptibility icon.png]]
+|type = Debuff
+|source = Operator
+}}
+{{Icon|Heat Susceptibility icon|text=false|nolink=true}} [[Heat Susceptibility]] is a type of debuff inflicted to enemies in ''[[Arknights: Endfield]]''.
+
+When enemies are inflicted with '''Heat Susceptibility''', they temporarily take more {{Color|Heat DMG|3}}. The number represents the degree of increase.
+
+Multiple sources of Heat Susceptibility, as well as {{G|Arts Susceptibility}}, stack <u>additively</u> to form the '''Susceptibility Multiplier''' for that DMG instance. The resulting Susceptibility Multiplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Antal
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Antal
+| name = Specified Research Subject
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Applies {{Color|Focus|7}} with a long duration on the enemy and deals {{Color|Electric DMG|6}}. An enemy with an active {{Color|Focus|7}} also suffers {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}}. {{Color|Focus|7}} can only be applied to 1 enemy at any given time.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = High-Specs Tech Tester
+| content = 
+Applying {{Color|Focus|7}} on the same target for {{Color|20|1d}}s increases {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}} effects by {{Color|4%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Camille
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Camille
+| name = Blazing Exorcism
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Camille summons {{Color|Firefang Vesperwings|7}} that fly towards the enemy to deal {{Color|Heat DMG|3}} and apply {{G|Heat Infliction|Heat Infliction}} on enemies in a small area of effect. The {{Color|Firefang Vesperwings|7}} then temporarily {{Color|hover|7}} around the target and apply {{G|Weaken|Weakness}} and {{G|Heat Susceptibility|Heat Susceptibility}} to the said target for the duration of the hovering. When the target is defeated, the {{Color|Firefang Vesperwings|7}} fly to another nearby enemy, deal {{Color|Heat DMG|3}}, and apply {{G|Heat Infliction|Heat Infliction}}, {{G|Weaken|Weakness}}, and {{G|Heat Susceptibility|Heat Susceptibility}} to the new target.<br />Hitting an enemy with {{Color|hovering|7}} {{Color|Firefang Vesperwings|7}} with Camille's combo skill sets off an explosion after a short delay. This explosion deals additional {{Color|Heat DMG|3}}.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Flame-Annointed Lance
+| content = 
+Battle skill {{Color|Blazing Exorcism|7}} improved: The skill applies {{G|Weaken|Weakness}} {{Color|+5%|1d}} and {{G|Heat Susceptibility|Heat Susceptibility}} {{Color|+5%|1d}}. {{Color|Firefang Vesperwings|7}} {{Color| hover|7}} duration {{Color|+15|1d}}s.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Heat Susceptibility}} keyword added with [[Antal]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

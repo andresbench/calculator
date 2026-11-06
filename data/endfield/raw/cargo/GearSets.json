@@ -1,0 +1,272 @@
+[
+ {
+  "_pageName": "Aburrey's Legacy",
+  "GearSet": "Aburrey&#39;s Legacy",
+  "Icon": "Triglava Armoury manufacturer icon.png",
+  "Level": "50",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Triglava Armoury]]",
+  "Effect": "3-piece set effect: Wearer's Skill DMG <span style=\"color:\n#8DA2DF\">+24%</span>. \nWhen the wearer casts a battle skill, combo skill, or ultimate, the wearer gains ATK <span style=\"color:\n#8DA2DF\">+5%</span> for 15s. The buff from each of the three skill types is unique and does not stack with itself."
+ },
+ {
+  "_pageName": "AIC Fieldwork",
+  "GearSet": "AIC Fieldwork",
+  "Icon": "Engineering Division manufacturer icon.png",
+  "Level": "60",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer gain DMG Dealt <span style=\"color:\n#8DA2DF\">+20%</span> for all types of DMG, <span style=\"color:\n#8DA2DF\">+10%</span> DMG Reduction against all types of DMG, and Ultimate Gain Efficiency <span style=\"color:\n#8DA2DF\">+10%</span>."
+ },
+ {
+  "_pageName": "AIC Heavy",
+  "GearSet": "AIC Heavy",
+  "Icon": "Engineering Division manufacturer icon.png",
+  "Level": "28",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's HP <span style=\"color:\n#8DA2DF\">+500</span>. \nAfter the wearer defeats an enemy, the wearer restores <span style=\"color:\n#ABD040\">100</span> HP. Effect trigger cooldown: 5s."
+ },
+ {
+  "_pageName": "AIC Light",
+  "GearSet": "AIC Light",
+  "Icon": "Engineering Division manufacturer icon.png",
+  "Level": "28",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's HP <span style=\"color:\n#8DA2DF\">+500</span>. \nAfter the wearer defeats an enemy, the wearer gains ATK <span style=\"color:\n#8DA2DF\">+20</span> for <span style=\"color:\n#8DA2DF\">5</span>s."
+ },
+ {
+  "_pageName": "Armored MSGR",
+  "GearSet": "Armored MSGR",
+  "Icon": "Gift of the Wilds 2 manufacturer icon.png",
+  "Level": "36",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's Strength <span style=\"color:\n#8DA2DF\">+50</span>. \nWhen the wearer's HP is below 50%, the wearer gains <span style=\"color:\n#8DA2DF\">30%</span> DMG Reduction against all types of DMG."
+ },
+ {
+  "_pageName": "Æthertech",
+  "GearSet": "Æthertech",
+  "Icon": "Æthertech Lab manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Portable Æthertech Labs]]",
+  "Effect": "3-piece set effect: Wearer's ATK <span style=\"color:\n#8DA2DF\">+8%</span>. \nAfter the wearer applies <span class=\"glossary\" data-desc=\"Hitting an enemy for the first time with a skill with &lt;span style='color:#D3B591'&gt;Physical Status&lt;/span&gt; applies [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; instead of the actual Physical Status.&lt;br&gt;A &lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; enemy can be [[File:Lift icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Lifted&lt;/span&gt; and [[File:Knock Down icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Knocked Down&lt;/span&gt; to add more Vulnerable stacks (up to 4). Hitting a Vulnerable enemy with [[File:Crush icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Crush&lt;/span&gt; or [[File:Breach icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Breach&lt;/span&gt; will &lt;u&gt;consume&lt;/u&gt; the Vulnerable stacks.\" data-title=\"Vulnerable\" data-color=\"1\" data-name=\"Vulnerable\" style=\"text-decoration:underline;color:#DFBB92\">[[File:Vulnerable icon.png|15px|link=]]Vulnerability</span>, the wearer gains <span style=\"color:\n#DFBB92\">Physical DMG</span> <span style=\"color:\n#8DA2DF\">+8%</span> for 15s. This effect can reach 4 stacks. If the target already has 4 stack(s) of <span class=\"glossary\" data-desc=\"Hitting an enemy for the first time with a skill with &lt;span style='color:#D3B591'&gt;Physical Status&lt;/span&gt; applies [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; instead of the actual Physical Status.&lt;br&gt;A &lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; enemy can be [[File:Lift icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Lifted&lt;/span&gt; and [[File:Knock Down icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Knocked Down&lt;/span&gt; to add more Vulnerable stacks (up to 4). Hitting a Vulnerable enemy with [[File:Crush icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Crush&lt;/span&gt; or [[File:Breach icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Breach&lt;/span&gt; will &lt;u&gt;consume&lt;/u&gt; the Vulnerable stacks.\" data-title=\"Vulnerable\" data-color=\"1\" data-name=\"Vulnerable\" style=\"text-decoration:underline;color:#DFBB92\">[[File:Vulnerable icon.png|15px|link=]]Vulnerability</span>, the wearer gains an additional Physical DMG <span style=\"color:\n#8DA2DF\">+16%</span> for 10s. This effect cannot stack."
+ },
+ {
+  "_pageName": "Basic",
+  "GearSet": "Basic",
+  "Icon": "Endfield Industries manufacturer icon.png",
+  "Level": "10",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "No Set Effects"
+ },
+ {
+  "_pageName": "Bonekrusha",
+  "GearSet": "Bonekrusha",
+  "Icon": "Gift of the Wilds 3 manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's ATK <span style=\"color:\n#8DA2DF\">+15%</span>. \nWhen the wearer casts a combo skill, the wearer gains 1 stack of <span style=\"color:\n#33C2FF\">Bonekrushing Smash</span> that grants the wearer's next battle skill DMG Dealt <span style=\"color:\n#8DA2DF\">+30%</span>. <span style=\"color:\n#33C2FF\">Bonekrushing Smash</span> can stack 2 time(s)."
+ },
+ {
+  "_pageName": "Catastrophe",
+  "GearSet": "Catastrophe",
+  "Icon": "Triglava Armoury manufacturer icon.png",
+  "Level": "50",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Triglava Armoury]]",
+  "Effect": "3-piece set effect: Wearer's Ultimate Gain Efficiency <span style=\"color:\n#8DA2DF\">+20%</span>.\nThe wearer casts a battle skill, the action <span class=\"glossary\" data-desc=\"After spending SP and meeting certain criteria, some of the SP spent will be returned.&lt;br&gt;SP Return is not &quot;SP Recovery&quot; and does not activate SP Recovery-triggered effects. Spending returned SP does not gain Ultimate Energy.\" data-name=\"SP Return\" style=\"text-decoration:underline\">returns</span> <span style=\"color:\n#00C0CB\">50</span> SP. This effect only triggers 1 time per battle."
+ },
+ {
+  "_pageName": "Deep Rampart",
+  "GearSet": "Deep Rampart",
+  "Icon": "Engineering Division manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Engineering Division]]",
+  "Effect": "3-piece set effect: Wearer's Arts DMG Dealt <span style=\"color:\n#8DA2DF\">+16%</span>.\nWhen the wearer applies <span class=\"glossary\" data-desc=\"&lt;span style='color:#B4D945'&gt;Nature Burst&lt;/span&gt; = [[File:Nature Infliction icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Nature Infliction&lt;/span&gt; + [[File:Nature Infliction icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Nature Infliction&lt;/span&gt;&lt;br&gt;Applies 1 stack of [[File:Nature Infliction icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Nature Infliction&lt;/span&gt; and deals &lt;span style='color:#B4D945'&gt;Nature DMG&lt;/span&gt;\" data-title=\"Arts Burst: Nature\" data-color=\"6\" data-name=\"Nature Burst\" style=\"text-decoration:underline;color:#9CD54A\">Nature Burst</span> or <span class=\"glossary\" data-desc=\"&lt;span style='color:#30D6E0'&gt;Cryo Burst&lt;/span&gt; = [[File:Cryo Infliction icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Cryo Infliction&lt;/span&gt; + [[File:Cryo Infliction icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Cryo Infliction&lt;/span&gt;&lt;br&gt;Applies 1 stack of [[File:Cryo Infliction icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Cryo Infliction&lt;/span&gt; and deals &lt;span style='color:#30D6E0'&gt;Cryo DMG&lt;/span&gt;\" data-title=\"Arts Burst: Cryo\" data-color=\"5\" data-name=\"Cryo Burst\" style=\"text-decoration:underline;color:#00C0CB\">Cryo Burst</span>, the wearer gains Arts Intensity <span style=\"color:\n#8DA2DF\">+16</span> for 20s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+ },
+ {
+  "_pageName": "Eternal Xiranite",
+  "GearSet": "Eternal Xiranite",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "3-piece set effect: Wearer's HP <span style=\"color:\n#8DA2DF\">+1000</span>.\nAfter the wearer applies <span class=\"glossary\" data-desc=\"Amped targets deal more DMG of the Element it is Amped for. The number represents the degree of increase. Effects of the same type can stack.\" data-title=\"Amp\" data-color=\"9\" data-name=\"Amp\" style=\"text-decoration:underline;color:#33C2FF\">[[File:Amp icon.png|15px|link=]]Amp</span>, <span class=\"glossary\" data-desc=\"Protected targets temporarily take reduced DMG. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies.\" data-title=\"Protect\" data-color=\"9\" data-name=\"Protect\" style=\"text-decoration:underline;color:#33C2FF\">[[File:Protect icon.png|15px|link=]]Protected</span>, <span class=\"glossary\" data-desc=\"Susceptible targets temporarily take more DMG of the element it is Susceptible to. The number represents the degree of increase. Effects of the same type can stack.\" data-title=\" Susceptible\" data-color=\"9\" data-name=\"Susceptible\" style=\"text-decoration:underline;color:#33C2FF\">[[File:Susceptibility icon.png|15px|link=]]Susceptibility</span>, or <span class=\"glossary\" data-desc=\"Weakend targets temporarily deal reduced DMG. The number represents the degree of reduction. Effects of the same type can stack non-linearly.\" data-title=\"Weaken\" data-color=\"9\" data-name=\"Weaken\" style=\"text-decoration:underline;color:#33C2FF\">[[File:Weaken icon.png|15px|link=]]Weakened</span>, other teammates gain DMG Dealt <span style=\"color:\n#8DA2DF\">+16%</span> for 15s. This effect cannot stack."
+ },
+ {
+  "_pageName": "Frontiers",
+  "GearSet": "Frontiers",
+  "Icon": "Northmarch manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Northmarch Support Hub]]",
+  "Effect": "3-piece set effect: Wearer's Combo Skill Cooldown Reduction <span style=\"color:\n#8DA2DF\">+15%</span>.\nAfter the wearer's skill recovers SP, the team gains DMG <span style=\"color:\n#8DA2DF\">+16%</span> for 15s. This effect cannot stack."
+ },
+ {
+  "_pageName": "Grizzled Edge",
+  "GearSet": "Grizzled Edge",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "3-piece set effect: Wearer's ATK <span style=\"color:\n#8DA2DF\">+8%</span>.\nWhen the wearer applies <span class=\"glossary\" data-desc=\"Applies [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; on an enemy. If the enemy is already [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt;, then consume all [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; stacks and deal massive &lt;span style='color:#D3B591'&gt;Physical DMG&lt;/span&gt;.\" data-title=\"Physical Status: Crush\" data-color=\"1\" data-name=\"Crush\" style=\"text-decoration:underline;color:#DFBB92\">[[File:Crush icon.png|15px|link=]]Crush</span> or <span class=\"glossary\" data-desc=\"Applies [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; on an enemy. If the enemy is already [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt;, then consume all [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; stacks, deal &lt;span style='color:#D3B591'&gt;Physical DMG&lt;/span&gt;, and temporarily increase the &lt;span style='color:#D3B591'&gt;Physical DMG&lt;/span&gt; taken by the enemy.\" data-title=\"Physical Status: Breach\" data-color=\"1\" data-name=\"Breach\" style=\"text-decoration:underline;color:#DFBB92\">[[File:Breach icon.png|15px|link=]]Breach</span>, the wearer gains <span style=\"color:\n#DFBB92\">Physical DMG Dealt</span> <span style=\"color:\n#8DA2DF\">+[6% × Max number of</span> <span class=\"glossary\" data-desc=\"Hitting an enemy for the first time with a skill with &lt;span style='color:#D3B591'&gt;Physical Status&lt;/span&gt; applies [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; instead of the actual Physical Status.&lt;br&gt;A &lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; enemy can be [[File:Lift icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Lifted&lt;/span&gt; and [[File:Knock Down icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Knocked Down&lt;/span&gt; to add more Vulnerable stacks (up to 4). Hitting a Vulnerable enemy with [[File:Crush icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Crush&lt;/span&gt; or [[File:Breach icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Breach&lt;/span&gt; will &lt;u&gt;consume&lt;/u&gt; the Vulnerable stacks.\" data-title=\"Vulnerable\" data-color=\"1\" data-name=\"Vulnerable\" style=\"text-decoration:underline;color:#DFBB92\">[[File:Vulnerable icon.png|15px|link=]]Vulnerability</span> <span style=\"color:\n#8DA2DF\">stacks <span class=\"glossary\" data-desc=\"Various Physical and Arts debuffs can be ended early. For example, [[File:Crush icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Crush&lt;/span&gt; consumes [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; debuffs, while [[File:Combustion icon.png|15px|link=]]&lt;span style='color:#FF8E59'&gt;Combustion&lt;/span&gt; consumes &lt;span style='color:#33C2FF'&gt;Arts Infliction&lt;/span&gt; debuffs.\" data-name=\"Debuff Consumption\" style=\"text-decoration:underline\">consumed</span> from one enemy]</span> for 20s. If the target already has <span class=\"glossary\" data-desc=\"Physical Susceptible targets temporarily take more &lt;span style='color:#D3B591'&gt;Physical DMG&lt;/span&gt;. The number represents the degree of increase. Effects of the same type can stack.\" data-title=\"Physical Susceptibility\" data-color=\"1\" data-name=\"Physical Susceptibility\" style=\"text-decoration:underline;color:#DFBB92\">[[File:Physical Susceptibility icon.png|15px|link=]]Physical Susceptibility</span>, is <span style=\"color:\n#FFAE6B\">Staggered</span>, or has attached <span class=\"glossary\" data-desc=\"The Endministrator's Combo Skill attaches Originium Crystals to enemies and immobilizes them.\" data-title=\"Originium Crystal\" data-color=\"9\" data-name=\"Originium Crystal\" style=\"text-decoration:underline;color:#33C2FF\">Originium Crystals</span>, increase the aforementioned buff to <span style=\"color:\n#8DA2DF\">1.5</span> times. This buff cannot stack."
+ },
+ {
+  "_pageName": "Hot Work",
+  "GearSet": "Hot Work",
+  "Icon": "Engineering Division manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's Arts Intensity <span style=\"color:\n#8DA2DF\">+30</span>. \nAfter the wearer applies <span class=\"glossary\" data-desc=\"An enemy with [[File:Combustion icon.png|15px|link=]]&lt;span style='color:#FF8E59'&gt;Combustion&lt;/span&gt; takes &lt;span style='color:#FF8E59'&gt;Heat DMG&lt;/span&gt; over time.&lt;br&gt;[[File:Combustion icon.png|15px|link=]]&lt;span style='color:#FF8E59'&gt;Combustion&lt;/span&gt; = A &lt;span style='color:#33C2FF'&gt;non-Heat Infliction&lt;/span&gt; ([[File:Electric Infliction icon.png|15px|link=]]/[[File:Cryo Infliction icon.png|15px|link=]]/[[File:Nature Infliction icon.png|15px|link=]]) + [[File:Heat Infliction icon.png|15px|link=]]&lt;span style='color:#FF8E59'&gt;Heat Infliction&lt;/span&gt;\" data-title=\"Arts Reaction: Combustion\" data-color=\"4\" data-name=\"Combustion\" style=\"text-decoration:underline;color:#FF853F\">[[File:Combustion icon.png|15px|link=]]Combustion</span>, the wearer gains <span style=\"color:\n#FF853F\">Heat DMG</span> +<span style=\"color:\n#8DA2DF\">50%</span> for 10s. After the wearer applies <span class=\"glossary\" data-desc=\"An enemy with [[File:Corrosion icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Corrosion&lt;/span&gt; gradually loses resistance against all Elements.&lt;br&gt;[[File:Corrosion icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Corrosion&lt;/span&gt; = A &lt;span style='color:#33C2FF'&gt;non-Nature Infliction&lt;/span&gt; ([[File:Heat Infliction icon.png|15px|link=]]/[[File:Electric Infliction icon.png|15px|link=]]/[[File:Cryo Infliction icon.png|15px|link=]]) + [[File:Nature Infliction icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Nature Infliction&lt;/span&gt;\" data-title=\"Arts Reaction: Corrosion\" data-color=\"6\" data-name=\"Corrosion\" style=\"text-decoration:underline;color:#9CD54A\">[[File:Corrosion icon.png|15px|link=]]Corrosion</span>, the wearer gains <span style=\"color:\n#9CD54A\">Nature DMG</span> +<span style=\"color:\n#8DA2DF\">50%</span> for 10s. The aforementioned effects cannot stack."
+ },
+ {
+  "_pageName": "LYNX",
+  "GearSet": "LYNX",
+  "Icon": "Rhodes Island manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Rhodes Island]]",
+  "Effect": "3-piece set effect: Wearer's HP Treatment Efficiency <span style=\"color:\n#8DA2DF\">+20%</span>. \nAfter the wearer gives HP treatment to an allied target, that target also gains <span style=\"color:\n#8DA2DF\">15%</span> DMG Reduction against all types of DMG for 10s. If the said treatment exceeds the target's Max HP, the target gains <span style=\"color:\n#8DA2DF\">30%</span> DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
+ },
+ {
+  "_pageName": "MI Security",
+  "GearSet": "MI Security",
+  "Icon": "MI Security manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Mieszko Industries]]",
+  "Effect": "3-piece set effect: Wearer's Critical Rate <span style=\"color:\n#8DA2DF\">+5%</span>. \nAfter the wearer scores a critical hit, the wearer gains ATK <span style=\"color:\n#8DA2DF\">+5%</span> for 5s. This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate <span style=\"color:\n#8DA2DF\">+5%</span>. This effect cannot stack."
+ },
+ {
+  "_pageName": "Miner α",
+  "GearSet": "Miner α",
+  "Icon": "Endfield Industries manufacturer icon.png",
+  "Level": "20",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "No Set Effects"
+ },
+ {
+  "_pageName": "Miner β",
+  "GearSet": "Miner β",
+  "Icon": "Endfield Industries manufacturer icon.png",
+  "Level": "36",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "No Set Effects"
+ },
+ {
+  "_pageName": "Miner γ",
+  "GearSet": "Miner γ",
+  "Icon": "Endfield Industries manufacturer icon.png",
+  "Level": "50",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "No Set Effects"
+ },
+ {
+  "_pageName": "Mordvolt Insulation",
+  "GearSet": "Mordvolt Insulation",
+  "Icon": "Mordvolt 1 manufacturer icon.png",
+  "Level": "38",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's Intellect <span style=\"color:\n#8DA2DF\">+50</span>. \nWhen the wearer's HP is above 80%, <span style=\"color:\n#33C2FF\">Arts DMG</span> <span style=\"color:\n#8DA2DF\">+20%</span>."
+ },
+ {
+  "_pageName": "Mordvolt Resistant",
+  "GearSet": "Mordvolt Resistant",
+  "Icon": "Mordvolt 2 manufacturer icon.png",
+  "Level": "38",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's Will <span style=\"color:\n#8DA2DF\">+50</span>. \nWhen the wearer's HP is below 50%, Treatment Effect <span style=\"color:\n#8DA2DF\">+30%</span>."
+ },
+ {
+  "_pageName": "Pulser Labs",
+  "GearSet": "Pulser Labs",
+  "Icon": "Pulser Labs manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's Arts Intensity <span style=\"color:\n#8DA2DF\">+30</span>. \nAfter the wearer applies <span class=\"glossary\" data-desc=\"An enemy with [[File:Electrification icon.png|15px|link=]]&lt;span style='color:#FFCC00'&gt;Electrification&lt;/span&gt; takes more &lt;span style='color:#33C2FF'&gt;Arts DMG&lt;/span&gt;.&lt;br&gt;[[File:Electrification icon.png|15px|link=]]&lt;span style='color:#FFCC00'&gt;Electrification&lt;/span&gt; = A &lt;span style='color:#33C2FF'&gt;non-Electric Infliction&lt;/span&gt; ([[File:Heat Infliction icon.png|15px|link=]]/[[File:Cryo Infliction icon.png|15px|link=]]/[[File:Nature Infliction icon.png|15px|link=]]) + [[File:Electric Infliction icon.png|15px|link=]]&lt;span style='color:#FFCC00'&gt;Electric Infliction&lt;/span&gt;\" data-title=\"Arts Reaction: Electrification\" data-color=\"7\" data-name=\"Electrification\" style=\"text-decoration:underline;color:#FDC038\">[[File:Electrification icon.png|15px|link=]]Electrification</span>, the wearer gains <span style=\"color:\n#FDC038\">Electric DMG</span><span style=\"color:\n#8DA2DF\"> +50%</span> for 10s. After the wearer applies <span class=\"glossary\" data-desc=\"An enemy with [[File:Solidification icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Solidification&lt;/span&gt; cannot move, and applying [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; or a &lt;span style='color:#D3B591'&gt;Physical Status&lt;/span&gt; to the enemy triggers the [[File:Shatter icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Shatter&lt;/span&gt; effect.&lt;br&gt;[[File:Solidification icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Solidification&lt;/span&gt; = A &lt;span style='color:#33C2FF'&gt;non-Cryo Infliction&lt;/span&gt; ([[File:Heat Infliction icon.png|15px|link=]]/[[File:Electric Infliction icon.png|15px|link=]]/[[File:Nature Infliction icon.png|15px|link=]]) + [[File:Cryo Infliction icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Cryo Infliction&lt;/span&gt;\" data-title=\"Arts Reaction: Solidification\" data-color=\"5\" data-name=\"Solidification\" style=\"text-decoration:underline;color:#00C0CB\">[[File:Solidification icon.png|15px|link=]]Solidification</span>, the wearer gains <span style=\"color:\n#00C0CB\">Cryo DMG</span><span style=\"color:\n#8DA2DF\"> +50%</span> for 10s. The aforementioned effects cannot stack."
+ },
+ {
+  "_pageName": "Qingbo",
+  "GearSet": "Qingbo",
+  "Icon": "Gift of the Wilds 3 manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's Combo Skill Cooldown Reduction <span style=\"color:\n#8DA2DF\">+15%</span>.\nWhen the wearer casts a combo skill, the wearer gains Skill DMG Dealt <span style=\"color:\n#8DA2DF\">+20%</span> (for every skill) for 15s. This effect can reach 2 stacks. Duration of each stack is counted separately."
+ },
+ {
+  "_pageName": "Redeemer",
+  "GearSet": "Redeemer",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "No Set Effects"
+ },
+ {
+  "_pageName": "Rift Trekker",
+  "GearSet": "Rift Trekker",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "No Set Effects"
+ },
+ {
+  "_pageName": "Roving MSGR",
+  "GearSet": "Roving MSGR",
+  "Icon": "Gift of the Wilds 1 manufacturer icon.png",
+  "Level": "36",
+  "Region": "[[Valley IV]]",
+  "Manufacturer": "[[Endfield Industries]]",
+  "Effect": "3-piece set effect: Wearer's Agility <span style=\"color:\n#8DA2DF\">+50</span>. \nWhen the wearer's HP is above 80%, <span style=\"color:\n#DFBB92\">Physical DMG</span> <span style=\"color:\n#8DA2DF\">+20%</span>."
+ },
+ {
+  "_pageName": "Swordmancer",
+  "GearSet": "Swordmancer",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "3-piece set effect: Wearer's Stagger Efficiency Bonus <span style=\"color:\n#8DA2DF\">+20%</span>.\nAfter the wearer applies a <span class=\"glossary\" data-color=\"1\" data-desc=\"Physical Statuses refer to physical debuffs applied to the enemy. They include: [[File:Lift icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Lifted&lt;/span&gt;, [[File:Knock Down icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Knocked Down&lt;/span&gt;, [[File:Crush icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Crushed&lt;/span&gt;, and [[File:Breach icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Breached&lt;/span&gt;.\" data-name=\"Physical Status\" style=\"text-decoration:underline;color:#DFBB92\">Physical Status</span>, the wearer also performs 1 hit that deals 250% ATK of Physical DMG and [<span style=\"color:\n#DFC087\">10</span> Stagger]. Effect trigger cooldown: 15s."
+ },
+ {
+  "_pageName": "Tide Surge",
+  "GearSet": "Tide Surge",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "3-piece set effect: Wearer's Skill DMG Dealt <span style=\"color:\n#8DA2DF\">+20%</span>.\nAfter the wearer applies <span style=\"color:\n#33C2FF\">2</span> or more stacks of <span class=\"glossary\" data-color=\"9\" data-desc=\"&lt;span style='color:#33C2FF'&gt;Arts Inflictions&lt;/span&gt; are special Arts debuff inflicted upon the enemy. There are 4 Elements of Arts Inflctions: [[File:Heat Infliction icon.png|15px|link=]]&lt;span style='color:#FF8E59'&gt;Heat Infliction&lt;/span&gt;, [[File:Electric Infliction icon.png|15px|link=]]&lt;span style='color:#FFCC00'&gt;Electric Infliction&lt;/span&gt;, [[File:Cryo Infliction icon.png|15px|link=]]&lt;span style='color:#30D6E0'&gt;Cryo Infliction&lt;/span&gt;, and [[File:Nature Infliction icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Nature Infliction&lt;/span&gt;.&lt;br&gt;Up to 4 stacks of &lt;span style='color:#33C2FF'&gt;Arts Inflictions&lt;/span&gt; of the same Element can be applied.\" data-name=\"Arts Infliction\" style=\"text-decoration:underline;color:#33C2FF\">Arts Infliction</span> on the enemy, the wearer gains <span style=\"color:\n#33C2FF\">Arts DMG Dealt</span> <span style=\"color:\n#8DA2DF\">+35%</span> for 15s. This effect cannot stack."
+ },
+ {
+  "_pageName": "Type 50 Yinglung",
+  "GearSet": "Type 50 Yinglung",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "3-piece set effect: Wearer's ATK <span style=\"color:\n#8DA2DF\">+15%</span>. \nWhen any operator in the team casts a battle skill, the wearer gains 1 stack of <span style=\"color:\n#33C2FF\">Yinglung's Edge</span> that gives DMG <span style=\"color:\n#8DA2DF\">+20%</span> to the wearer's next combo skill. <span style=\"color:\n#33C2FF\">Yinglung's Edge</span> can stack 3 time(s)."
+ },
+ {
+  "_pageName": "Xiranflow",
+  "GearSet": "Xiranflow",
+  "Icon": "Hongshan Swordmancers manufacturer icon.png",
+  "Level": "70",
+  "Region": "[[Wuling]]",
+  "Manufacturer": "[[Hongshan Swordmancers]]",
+  "Effect": "3-piece set effect: Wearer's ATK <span style=\"color:\n#8DA2DF\">+10%</span>.\nWhenever the wearer <span class=\"glossary\" data-desc=\"Various Physical and Arts debuffs can be ended early. For example, [[File:Crush icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Crush&lt;/span&gt; consumes [[File:Vulnerable icon.png|15px|link=]]&lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; debuffs, while [[File:Combustion icon.png|15px|link=]]&lt;span style='color:#FF8E59'&gt;Combustion&lt;/span&gt; consumes &lt;span style='color:#33C2FF'&gt;Arts Infliction&lt;/span&gt; debuffs.\" data-name=\"Debuff Consumption\" style=\"text-decoration:underline\">consumes</span> <span class=\"glossary\" data-desc=\"An enemy with [[File:Electrification icon.png|15px|link=]]&lt;span style='color:#FFCC00'&gt;Electrification&lt;/span&gt; takes more &lt;span style='color:#33C2FF'&gt;Arts DMG&lt;/span&gt;.&lt;br&gt;[[File:Electrification icon.png|15px|link=]]&lt;span style='color:#FFCC00'&gt;Electrification&lt;/span&gt; = A &lt;span style='color:#33C2FF'&gt;non-Electric Infliction&lt;/span&gt; ([[File:Heat Infliction icon.png|15px|link=]]/[[File:Cryo Infliction icon.png|15px|link=]]/[[File:Nature Infliction icon.png|15px|link=]]) + [[File:Electric Infliction icon.png|15px|link=]]&lt;span style='color:#FFCC00'&gt;Electric Infliction&lt;/span&gt;\" data-title=\"Arts Reaction: Electrification\" data-color=\"7\" data-name=\"Electrification\" style=\"text-decoration:underline;color:#FDC038\">[[File:Electrification icon.png|15px|link=]]Electrification</span> or <span class=\"glossary\" data-desc=\"An enemy with [[File:Corrosion icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Corrosion&lt;/span&gt; gradually loses resistance against all Elements.&lt;br&gt;[[File:Corrosion icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Corrosion&lt;/span&gt; = A &lt;span style='color:#33C2FF'&gt;non-Nature Infliction&lt;/span&gt; ([[File:Heat Infliction icon.png|15px|link=]]/[[File:Electric Infliction icon.png|15px|link=]]/[[File:Cryo Infliction icon.png|15px|link=]]) + [[File:Nature Infliction icon.png|15px|link=]]&lt;span style='color:#B4D945'&gt;Nature Infliction&lt;/span&gt;\" data-title=\"Arts Reaction: Corrosion\" data-color=\"6\" data-name=\"Corrosion\" style=\"text-decoration:underline;color:#9CD54A\">[[File:Corrosion icon.png|15px|link=]]Corrosion</span>, the wearer gains a number of buff stacks equal to the <span class=\"glossary\" data-color=\"9\" data-desc=\"Status Level is the number of &lt;span style='color:#D3B591'&gt;Vulnerable&lt;/span&gt; or &lt;span style='color:#33C2FF'&gt;Arts Infliction&lt;/span&gt; stacks (max 4) &lt;u&gt;consumed&lt;/u&gt; when triggering a &lt;span style='color:#D3B591'&gt;Physical Status&lt;/span&gt; or &lt;span style='color:#33C2FF'&gt;Arts Reactions&lt;/span&gt;. The higher the &lt;span style='color:#33C2FF'&gt;Status Level&lt;/span&gt;, the stronger the resulting &lt;span style='color:#D3B591'&gt;Physical Status&lt;/span&gt; or &lt;span style='color:#33C2FF'&gt;Arts Reactions&lt;/span&gt;.\" data-name=\"Status Level\" style=\"text-decoration:underline;color:#33C2FF\">Status Level</span> of the Arts Reaction consumed, with each buff stack giving <span style=\"color:\n#FDC038\">Electric DMG Dealt</span> and <span style=\"color:\n#9CD54A\">Nature DMG Dealt</span> <span style=\"color:\n#8DA2DF\">+15%</span> for 25s. The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately."
+ }
+]

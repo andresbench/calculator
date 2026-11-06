@@ -1,0 +1,385 @@
+{{#invoke:Infobox|main
+|sep = ;
+| title = Typhoeus's Archery Range
+| image = [[File:Typhoeus archery cabin lv4.png]]
+| sections = Intro; Duration
+| Intro = type; region
+| Intro_nolabel = Yes
+| type_label = Type
+| type = Facility
+| region_label = Region
+| region = [[Wuling]]
+}}
+
+'''Typhoeus's Archery Range''', also known as the '''Archery Range''', is a [[Facility (Regional Development)|facility]] in ''[[Arknights: Endfield]]''.
+
+Typhoeus's Archery Range allows players to take control of [[Typhoeus]] and use the [[Archery]] tool to shoot moving targets within a set time limit. The activity features two modes: '''Simulation''', consisting of one-time challenges that provide permanent rewards, and '''Daily Exercise''',  consisting of challenges that reset every server day. 
+
+As a facility, Typhoeus's Archery Range can be can be upgraded using [[Wuling Stock Bill]]s to unlock additional activity stages as well as recipes for Archery-based [[Personal Device]]s.
+
+{{Quote|The hunt may have stopped, but the huntress never ceases improving her archery skills.}}
+
+== Participation Criteria ==
+In the side mission [[Cliffbottom Archery Range]], complete [Unlock the machine] to unlock this mode.
+
+{{Color|※ Complete side mission [[A Dreamscape Shattered by Her Arrow]] to unlock side mission [Cliffbottom Archery Range].|9}}
+
+== Chips ==
+'''Chips''' are the types of projectiles that are shot using the Archery tool. Different chips can be unlocked by upgrading the facility and completing the specified training stage. Unlocking a chip through the facility also unlocks the chip as an equippable [[Personal Device]] which alters the properties of the projectiles fired when using the Archery tool.
+
+In '''Simulation''' mode, '''Basic Training''' stages have pre-selected chips while in '''Advanced Training''' stages, players are able to select any two chips for each stage. In '''Daily Exercise''' mode, players are also able to select any two chips for each stage. Note that for '''Daily Exercise''' mode, some chips may work differently than their base description based on the current stage's mechanics.
+
+{| class="wikitable"
+! Chip
+! Description
+|-
+! {{I|Persistent Echo}}
+| style="text-align:left; vertical-align: top;" | <div style="background-color: #E17157; color: #000000; padding:2px 5px;">'''Persistent Echo'''</div>Lock On: Up to 7 targets. DMG: 1
+|-
+! {{I|Beastly Rage}}
+| style="text-align:left;" | <div style="background-color: #C8AC83; color: #000000; padding:2px 5px;">'''Beastly Rage'''</div>Lock On: Faster. DMG: 2. Repeated shots deal more DMG.<br>{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 1 and completing the stage '''Basic Training: Beastly Rage'''''|9}}
+|-
+! {{I|Rime Tip}}
+| style="text-align:left;" | <div style="background-color: #41D0D2; color: #000000; padding:2px 5px;">'''Rime Tip'''</div>Lock On: Faster. DMG: 0. Freezes target for 5s.<br>{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 1 and completing the stage '''Basic Training: Rime Tip'''''|9}}
+|-
+! {{I|Flaming Resin}}
+| style="text-align:left;" | <div style="background: linear-gradient(90deg,rgba(234, 203, 55, 1) 0%, rgba(170, 222, 170, 1) 100%); color: #000000; padding:2px 5px;">'''Flaming Resin'''</div>Applies Resin (Max 3 stacks/target). Deal DMG to Resin to detonate. DMG: 1 per Resin stack.<br>{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 2 and completing the stage '''Basic Training: Flaming Resin'''''|9}}
+|-
+! {{I|Dawnbreaker}}
+| style="text-align:left;" | <div style="background-color: #4D6EFF; color: #000000; padding:2px 5px;">'''Dawnbreaker'''</div>Pierces target. DMG: 1 (to all targets hit)<br>{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 3 and completing the stage '''Basic Training: Dawnbreaker'''''|9}}
+|}
+
+== Targets ==
+'''Targets''' are moving destructible objects that are tasked to be destroyed by the player. Each stage requires a certain amount of targets to be destroyed in a given amount of time.
+
+{| class="wikitable"
+! Name
+! Description
+|-
+! Basic Target<br>[[File:Basic Target sprite.png|frameless|upright=0.3|class=responsive-image]]
+| {{Color|''A basic target for novice archers.''|9}}<br>A basic target. HP: 1.
+|-
+! Standard Target<br>[[File:Standard Target sprite.png|frameless|upright=0.3|class=responsive-image]]
+| {{Color|''A standard target, essential for improving one's archery.''|9}}<br>A durable target. HP: 2.
+|-
+! Barrier Target<br>[[File:Barrier Target sprite.png|frameless|upright=0.3|class=responsive-image]]
+| {{Color|''A special target that can change its size and block other targets behind it. Try to shatter it first.''|9}}<br>A distruptive, size-changing target. HP: 3.
+|-
+! Heavy Target<br>[[File:Heavy Target sprite.png|frameless|upright=0.3|class=responsive-image]]
+| {{Color|''A special target made of high-strength alloy. It is tough, and well-received by archers with immense strength.''|9}}<br>An armored target. HP: 4.
+|-
+! Energy Shield<br>[[File:Energy Shield sprite.png|frameless|upright=0.3|class=responsive-image]]
+| {{Color|''An energy shield designed for targets. Master archers enjoy shielding their targets to make them last a few seconds longer.''|9}}<br>A shield that can be applied to any target. HP: 2.<br>Shielded targets cannot be frozen, Resin cannot be applied on them, and Resin stacks on shielded targets do not detonate when taking DMG.
+|}
+
+== Simulation ==
+=== Basic Training ===
+'''Basic Training''' stages are stages which teach the player how and for what situation to use a specific chip. Completing a stage unlocks the chip as an equiappable Personal Device which alters the properties of the projectiles fired when using the Archery tool. Basic Training stages have pre-selected chips which cannot be changed.
+
+{| class="wikitable mw-collapsible mw-collapsed" width="80%"
+! | Stages
+|-
+| style="text-align:left" | <div style="background-color: #555; color: #FFFFFF; padding:2px 5px;">'''Persistent Echo'''</div>
+Lock on: Up to 7 targets. Shatters multiple low HP targets quickly.
+
+'''Targets'''<br>
+Basic Target
+
+'''Set Chips'''<br>
+{{I|Persistent Echo}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|20}} {{I|T-Creds|5000}}{{I|Formula: Persistent Echo}}
+|-
+| style="text-align:left" | <div style="background-color: #555; color: #FFFFFF; padding:2px 5px;">'''Beastly Rage'''</div>
+Lock on: Fast. Freezes multiple targets.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 2.''|9}}
+
+'''Targets'''<br>
+Basic Target, Standard Target, Barrier Target, Heavy Target, Energy Shield
+
+'''Set Chips'''<br>
+{{I|Persistent Echo}} {{I|Beastly Rage}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|20}} {{I|Advanced Combat Record|3}}{{I|Formula: Beastly Rage}}
+|-
+| style="text-align:left" | <div style="background-color: #555; color: #FFFFFF; padding:2px 5px;">'''Rime Tip'''</div>
+Lock on: Fast. Freezes multiple targets.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 2.''|9}}
+
+'''Targets'''<br>
+Basic Target
+
+'''Set Chips'''<br>
+{{I|Persistent Echo}}{{I|Rime Tip}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|20}} {{I|T-Creds|5000}}{{I|Formula: Rime Tip}}
+|-
+| style="text-align:left" | <div style="background-color: #555; color: #FFFFFF; padding:2px 5px;">'''Flaming Resin'''</div>
+Applies up to 3 Resin stacks on a target. Dealing DMG to a target with Resin detonates it. Explosion DMG: 1 per Resin stack.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 3.''|9}}
+
+'''Targets'''<br>
+Basic Target, Standard Target, Heavy Target, Energy Shield
+
+'''Set Chips'''<br>
+{{I|Beastly Rage}} {{I|Flaming Resin}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|20}} {{I|Advanced Combat Record|3}}{{I|Formula: Flaming Resin}}
+|-
+| style="text-align:left" | <div style="background-color: #555; color: #FFFFFF; padding:2px 5px;">'''Dawnbreaker'''</div>
+Lock on: 1 target. Can pierce targets and deal 1 DMG to all targets in a straight path.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 3.''|9}}
+
+'''Targets'''<br>
+Basic Target, Standard Target
+
+'''Set Chips'''<br>
+{{I|Persistent Echo}}{{I|Dawnbreaker}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|20}} {{I|T-Creds|5000}}{{I|Formula: Dawnbreaker}}
+|}
+
+=== Advanced Training ===
+'''Advanced Training''' stages are stages that are unlocked upon leveling the '''Typhoeus's Archery Range''' facility to Level 4. Advanced Training stages do not have pre-selected chips, but allows the player to select two chips to complete the stage.
+
+{| class="wikitable mw-collapsible mw-collapsed" width="80%"
+! | Stages
+|-
+| style="text-align:left" | <div style="background: linear-gradient(90deg,rgba(128, 128, 128, 1) 0%, rgba(161, 0, 0, 1) 100%); color: #FFFFFF; padding:2px 5px;">'''Herd of Hornbeasts'''</div>
+All targets are constantly moving and have higher HP.<br>Use the Set Chip feature to complete this stage.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 4.''|9}}
+
+'''Targets'''<br>
+Standard Target, Barrier Target, Heavy Target
+
+'''Set Chips'''<br>
+Only up to 2 chips can be set. Switching to another chip activates it at once.
+{{I|Persistent Echo}} {{I|Beastly Rage}} {{I|Rime Tip}} {{I|Flaming Resin}} {{I|Dawnbreaker}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|50}} {{I|Advanced Cognitive Carrier|3}}
+|-
+| style="text-align:left" | <div style="background: linear-gradient(90deg,rgba(128, 128, 128, 1) 0%, rgba(161, 0, 0, 1) 100%); color: #FFFFFF; padding:2px 5px;">'''Flock of Fowlbeasts'''</div>
+More targets. All targets are constantly moving but have lower HP.<br>Use the Set Chip feature to complete this stage.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 4.''|9}}
+
+'''Targets'''<br>
+Basic Target, Standard Target
+
+'''Set Chips'''<br>
+Only up to 2 chips can be set. Switching to another chip activates it at once.
+{{I|Persistent Echo}} {{I|Beastly Rage}} {{I|Rime Tip}} {{I|Flaming Resin}} {{I|Dawnbreaker}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|50}} {{I|T-Creds|15000}}
+|-
+| style="text-align:left" | <div style="background: linear-gradient(90deg,rgba(128, 128, 128, 1) 0%, rgba(161, 0, 0, 1) 100%); color: #FFFFFF; padding:2px 5px;">'''School of Fins'''</div>
+Mix of high HP and low HP targets that sometimes move closer together.<br>Use the Set Chip feature to complete this stage.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 4.''|9}}
+
+'''Targets'''<br>
+Standard Target, Barrier Target, Heavy Target
+
+'''Set Chips'''<br>
+Only up to 2 chips can be set. Switching to another chip activates it at once.
+{{I|Persistent Echo}} {{I|Beastly Rage}} {{I|Rime Tip}} {{I|Flaming Resin}} {{I|Dawnbreaker}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|50}} {{I|Advanced Cognitive Carrier|3}}
+|-
+| style="text-align:left" | <div style="background: linear-gradient(90deg,rgba(128, 128, 128, 1) 0%, rgba(161, 0, 0, 1) 100%); color: #FFFFFF; padding:2px 5px;">'''Hive of Bees'''</div>
+High HP and low HP targets will appear in overlapping formations.<br>Use the Set Chip feature to complete this stage.<br>
+{{Color|''Unlocked by upgrading the '''Typhoeus's Archery Range''' facility to Level 4.''|9}}
+
+'''Targets'''<br>
+Basic Target, Standard Target, Heavy Target, Energy Shield
+
+'''Set Chips'''<br>
+Only up to 2 chips can be set. Switching to another chip activates it at once.
+{{I|Persistent Echo}} {{I|Beastly Rage}} {{I|Rime Tip}} {{I|Flaming Resin}} {{I|Dawnbreaker}}
+
+'''1st Clear Rewards'''<br>
+{{I|Oroberyl|50}} {{I|T-Creds|15000}}
+|}
+
+== Daily Exercise ==
+Daily exercises offers four levels that can be challenged with no restriction and Arrow Chips of the player's choice. Daily Exercises 01, 02 and 03 each feature the same stage (Target layouts) every day while cycling through a list of possible stage mechanics, for a total of 21 stage and mechanics combinations. Daily Excercise 04 cycles through 5 stages with three possible stage mechanics each, for a total of 15 unique stage and mechanics combinations. Additionally, Daily Excercise 04 has a daily leaderboard where players can compare their time with friends and preset NPC times.
+
+Each Exercise has 3 Exercise Goals in the form of a time clear limit. Fulfilling each goal grants the players 1★. Clearing a higher tiered Exercise automatically obtains 3★ for all lower level exercises, even if the higher level clear is not 3★. Stars obtained are relevant for the [[Trial of the Bow]] event missions and [[Typhoeus's_Archery_Range#Path_of_Glory|Path of Glory]] Medal, but otherwise do not grant any rewards and are not saved.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Daily Exercise
+! Stage Mechanics
+|-
+|rowspan=7| 01
+| Persistent Echo DMG is doubled, but locks onto 3 less targets.
+Beastly Rage can ricochet.
+|-
+| Beastly Rage locks onto 1 more target.
+Persistent Echo can ricochet, but locks onto 4 less targets.
+|-
+| Persistent Echo DMG is doubled, but locks onto 3 less targets.
+|-
+| Beastly Rage locks onto 1 more target.
+Persistent Echo locks onto 2 more targets.
+|-
+| Persistent Echo can ricochet, but locks onto 4 less targets.
+|-
+| Beastly Rage can ricochet.
+|-
+| Beastly Rage DMG is doubled.
+Persistent Echo locks onto 2 more targets.
+|-
+|rowspan=8| 02
+| Flaming Resin applies 3 Resin stacks at once.
+|-
+| Rime Tip deals 2 DMG but locks onto 7 less targets.
+Persistent Echo DMG is doubled, but locks onto 3 less targets.
+|-
+| Flaming Resin locks onto 1 more target.
+Beastly Rage DMG is doubled.
+|-
+| Rime Tip deals 1 DMG but locks onto 5 less targets.
+|-
+| Rime Tip can Freeze and can damage shields.
+Persistent Echo can ricochet, but locks onto 4 less targets.
+|-
+| Flaming Resin locks onto 1 more target.
+Beastly Rage locks onto 1 more target.
+|-
+| Rime Tip deals 1 DMG but locks onto 5 less targets.
+Flaming Resin can damage shields.
+|-
+| Flaming Resin locks onto 2 more targets.
+|-
+|rowspan=6| 03
+| Dawnbreaker locks onto 1 more target.
+Persistent Echo locks onto 2 more targets.
+|-
+| Beastly Rage can ricochet.
+Rime Tip can Freeze and can damage shields.
+|-
+| Dawnbreaker DMG is doubled.
+Flaming Resin can damage shields.
+|-
+| Flaming Resin locks onto 2 more targets.
+Beastly Rage DMG is doubled.
+|-
+| Dawnbreaker locks onto 1 more target.
+Flaming Resin applies 3 Resin stacks at once.
+|-
+| Dawnbreaker DMG is doubled.
+Persistent Echo DMG is doubled, but locks onto 3 less targets.
+|-
+|}
+
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|-
+! Daily Exercise 
+! Stage layout 
+! Stage Mechanics
+|-
+| rowspan=15|04 
+| 1 
+| Flaming Resin locks onto 1 more target.
+|-
+| 2 || Flaming Resin can damage shields.
+Persistent Echo locks onto 2 more targets.
+|-
+| 3 || Rime Tip deals 2 DMG but locks onto 7 less targets.
+Beastly Rage can ricochet.
+|-
+| 4 || Flaming Resin applies 3 Resin stacks at once.
+Persistent Echo DMG is doubled, but locks onto 3 less targets.
+|-
+| 5 || Persistent Echo locks onto 2 more targets.
+Dawnbreaker DMG is doubled.
+|-
+| 1 || Persistent Echo can ricochet, but locks onto 4 less targets.
+|-
+| 2 || Persistent Echo DMG is doubled, but locks onto 3 less targets.
+Beastly Rage locks onto 1 more target.
+|-
+| 3 || Flaming Resin applies 3 Resin stacks at once.
+Dawnbreaker DMG is doubled.
+|-
+| 4 || Rime Tip deals 1 DMG but locks onto 5 less targets.
+Beastly Rage DMG is doubled.
+|-
+| 5 || Flaming Resin locks onto 2 more targets.
+|-
+| 1 || Beastly Rage can ricochet.
+Persistent Echo locks onto 3 more targets, but deals half the DMG.
+|-
+| 2 || Flaming Resin applies 3 Resin stacks at once.
+Rime Tip deals 1 DMG but locks onto 5 less targets.
+|-
+| 3 || Dawnbreaker locks onto 1 more target.
+Persistent Echo locks onto 2 more targets.
+|-
+| 4 || Beastly Rage locks onto 1 more target.
+Flaming Resin locks onto 1 more target.
+|-
+| 5 || Rime Tip can Freeze and can damage shields.
+Beastly Rage can ricochet.
+|}
+
+== Facility ==
+'''Typhoeus's Archery Range''' can be upgraded using [[Wuling Stock Bill]]s to unlock additional activity stages as well as recipes for Archery-based [[Personal Device]]s.
+
+{{Quote|{{Color|''After converting the Snowpriestess's warehouse into a workshop, Andre has become interested in arrow fletching. He is now working on integrating Endfield technologies with traditional Sami fletching... Don't interrupt him. He is actually having fun right now.''|9}}|Facility Description}}
+
+{| class="wikitable"
+! width="10%" | Level Upgrade
+! Range Training
+! Unlockable Chip Formulas 
+! width="15%" | Cost
+! width="15%" | {{Currency|Wuling Regional Development Metric}} Wuling [[Regional Development Metric|RDM]] Given
+|-
+| 0 ▶ 1 || Unlock Simulation: "Basic Training: Persistent Echo"<br/>Unlock Simulation: "Basic Training: Beastly Rage"<br/>Unlock "Daily Exercise 01" || {{I|Formula: Persistent Echo}} {{I|Formula: Beastly Rage}} || {{Currency|Wuling Stock Bill|0}}
+| {{Currency|Wuling Regional Development Metric|300}}
+|-
+| 1 ▶ 2 || Unlock Simulation: "Basic Training: Rime Tip"<br/>Unlock Simulation: "Basic Training: Flaming Resin"<br/>Unlock "Daily Exercise 02" || {{I|Formula: Rime Tip}} {{I|Formula: Flaming Resin}} || {{Currency|Wuling Stock Bill|50 000}}
+| {{Currency|Wuling Regional Development Metric|500}}
+|-
+| 2 ▶ 3 || Unlock Simulation: "Basic Training: Dawnbreaker"<br/>Unlock "Daily Exercise 03" || {{I|Formula: Dawnbreaker}} || {{Currency|Wuling Stock Bill|120 000}}
+| {{Currency|Wuling Regional Development Metric|850}}
+|-
+| 3 ▶ 4 || Unlock Simulation: "Advanced Training"<br/>Unlock "Daily Exercise 04" || N/A || {{Currency|Wuling Stock Bill|300 000}}
+| {{Currency|Wuling Regional Development Metric|1 200}}
+|}
+
+== Path of Glory ==
+The following medals in [[Path of Glory]] are related to participating in '''Typhoeus's Archery Range''':
+{{Medal head}}
+{{Medal cell
+|name = "Archer's Epiphany"
+|desc = You have achieved the archer's epiphany and can now aim with your mind's eye.<br/>The art of the bow has never been this easy.
+|cond = In [[Typhoeus's Archery Range]], complete all basic training stages, and complete "Daily Exercise 04" once
+|trim = In [[Typhoeus's Archery Range]], complete all "Advanced Training" and complete "Daily Exercise 04" with 3★}}
+{{Table end}}
+
+== Events ==
+[[File:Trial of the Bow event.png|center|400px|link=Trial of the Bow]]
+
+{{Main|Trial of the Bow}}
+'''Trial of the Bow''' is an exclusive limited-time event for the [[Dreamscape of Wind and Snow]] version that launches at the same time as '''Typhoeus's Archery Range'''. During the event, complete specific challenges in '''Trial of the Bow''' to claim rewards such as [{{I|Oroberyl|gv=false}}], [{{I|Mark of Perseverance|gv=false}}], [{{I|Advanced Progression Selection Crate I|gv=false}}].
+
+== Gallery ==
+<gallery>
+Typhoeus archery cabin lv1.png|The '''Typhoeus's Archery Range''' facility at Level 1
+Typhoeus archery cabin lv2.png|The '''Typhoeus's Archery Range''' facility at Level 2
+Typhoeus archery cabin lv3.png|The '''Typhoeus's Archery Range''' facility at Level 3
+Typhoeus archery cabin lv4.png|The '''Typhoeus's Archery Range''' facility at Level 4
+</gallery>
+
+== Navigation ==
+{{Features nav}}
+[[Category: Facility (Regional Development)]]

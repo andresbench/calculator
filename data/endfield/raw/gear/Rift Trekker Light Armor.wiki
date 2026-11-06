@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Rift Trekker Light Armor
+|image = Rift_Trekker_Light_Armor.png
+|filename = item_equip_t4_parts_wuling02_body_02
+|cnname = 涉渊轻甲
+|tcname = 涉淵輕甲
+|jpname = 渡淵軽防具
+|krname = 절망 경갑
+|spname = Armadura ligera de Trotagrietas
+|runame = Легкая броня «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Light Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequently carry out missions in high threat areas. 
+"I look into the winter, the omens of death are clear as day."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Will
+|pvalue = +115, +126, +138, +149
+|sstat = Treatment Bonus
+|svalue = +10.8%, +11.9%, +13.0%, +14.0%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

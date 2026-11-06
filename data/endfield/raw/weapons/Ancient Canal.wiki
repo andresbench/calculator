@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Ancient Canal
+|rarity = 5
+|images = 
+Ancient_Canal icon.png:Icon;
+Ancient_Canal.png:Full;
+Ancient_Canal max model.png:Max
+|filename = wpn_claym_0014
+|cnname = 古渠
+|tcname = 古渠
+|jpname = 千古恒常
+|krname = 고대의 강줄기
+|spname = Canal antiguo
+|runame = Древний канал
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Ancient Canal''' is a 5★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A quality greatsword manufactured by Hongshan Swordmancers. When compared to other greatswords, this one is lighter but just as deadly.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Brutality: Lands of Yore|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [M]|Arts Intensity [M]|Brutality: Lands of Yore}}
+
+==Basic Info==
+{{Quote|Not everyone's heart was mine to touch, but I could read my own like a book.<br>In this very instant, my heart is filled with nothing but fear. Our science station, the "observatory" we constructed to defeat the boundless Very Large Rift, has been engulfed by the Blight and despair did likewise to my mind. Will the Xiranite succeed? Is the entirety of our efforts completely meaningless? The Æther made us realize how insignificant we are. It will devour Wuling and everything in existence. How are we supposed to oppose this astronomical phenomenon?<br>......<br>A canal must be constructed. Although rescue work of victims from the disaster site is top priority right now, this canal is of utmost necessity. It will prevent the aquifers from contamination by the Blight Tide seeping into the soil. But this is ultimately futile. It only delays the inevitable death of everything upon this land.<br>......<br>My hands are covered in blisters. Though I'm just a worker at the production floor with zero knowledge on construction, I have been assigned to a building crew... We must fight off the disaster until reinforcements arrive from our HQ.<br>......<br>I got a cut in my hand. I unearthed a broken dagger from the canal construction site. How long has it been buried here? A century? By Talos, take a good look at your bleeding hand! To hell with glory and sacrifice! Why am I still alive? Why do I want to be alive? Why should I be alive at all? WHY?<br>......<br>Blighted hell. I'll off myself tomorrow.<br>......<br>I chose the night. At the construction site. Good place. Perfect weather, with pouring rain that soaks everything in the friggin' mud. Losers like us deserve to die and get buried in the mud.<br>The rain-swollen torrents tore through the last unfinished section of the canal. I spotted a metallic sheen in the freshly exposed mud. I don't know why I walked over to the glint and scooped out the mud with my bare hands. I unearthed the thing buried beneath — a rusty valve.<br>That was it.<br>Ours was an ad-hoc rush job with neither infrastructure map data nor verification. And as chance would have it, we completed the canal that our predecessors failed to finish.<br>My view of the thoroughly rusted valve transformed at once. It was my father's will, my mother's portrait, the paper flowers offered to my grandparents' grave...<br>...and me... I saw my reflection in the muddy water.<br>That was it.<br>Someone always wanted to survive. And someone always survived.<br>The heavens and earth are not without boundaries. Fear itself could disintegrate completely.<br>With that, I stopped thinking about death.<br>I but extend the facet of survival and persistence, the never-ending cycle that has endured for since time immemorial.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Qingbo Heavy Armor
+|image = Qingbo_Heavy_Armor.png
+|filename = item_equip_t4_suit_combo_cd01_body_01
+|cnname = 清波重甲
+|tcname = 清波重甲
+|jpname = 清波重防具
+|krname = 청파 중갑
+|spname = Armadura pesada de Qingbo
+|runame = Тяжелая броня «Циньбо»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Qingbo Heavy Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC Factory. This equipment improves the wearer's combat capabilities.|Very economic equipment, created according to ancient scrolls and books found in Qingbo Stockade.
+A suit of heavy armor assembled using heavy metal slabs and bamboo strips soaked in special herbal juice. The people of Qingbo Stockade were extremely low on supplies and thus came up with this armor design.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +87, +95, +104, +113
+|sstat = Strength
+|svalue = +58, +63, +69, +75
+|tstat = Ultimate Gain Efficiency
+|tvalue = +12.3%, +13.6%, +14.8%, +16.0%
+|setname = Qingbo
+|seteffect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+When the wearer casts a combo skill, the wearer gains Skill DMG Dealt {{Color|+20%|1d}} (for every skill) for 15s. This effect can reach 2 stacks. Duration of each stack is counted separately.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Qingbo}}
+{{Gears|state=collapsed}}

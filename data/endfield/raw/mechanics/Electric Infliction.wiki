@@ -1,0 +1,220 @@
+[[File:Electric Infliction icon.png|right]]
+[[Electric Infliction]] is an [[Arts Infliction]] in [[Arknights: Endfield]].
+
+== Overview ==
+[[Electric Infliction]] is a debuff applied by Operators lasting for {{Color|20|1d}} seconds. If Electric Infliction is applied to a unit who already has Electric Infliction, then the debuff's duration is reset and the Electric Infliction gains a stack (up to a maximum of 4 stacks).
+
+===Friendly===
+
+Some [[Operators]] are capable of applying [[Electric Infliction]].
+* If an Operator applies Electric Infliction to an enemy with Electric Infliction, then an [[Arts Burst|Electric Burst]] is triggered dealing {{Color|160% ATK|1d}} as {{Color|Electric DMG|6}}.
+* If an Operator applies Electric Infliction to an enemy with a [[Arts Infliction|Non-Electric Arts Infliction]], then [[Electrification]] is triggered.
+
+===Hostile===
+
+There are no [[Enemies]] currently capable of applying [[Electric Infliction]].
+
+== Sources ==
+Some Operators are capable of applying [[Electric Infliction]] through Combat Skills, as follows:
+{{Operator table
+|header = Source
+|content =
+
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+When an operator applies a {{G|Physical Status}} or {{G|Arts Infliction}} to a target with {{Color|Focus|7}}, applies another stack of the same {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Arclight
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Arclight
+|name = Exploding Blitz
+|type = Ultimate
+|content = 
+Against enemies without {{G|Electric Infliction}}, applies {{G|Electric Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Avywenna
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Avywenna
+|name = Thunderlance: Interdiction
+|type = Skill
+|content = 
+When recalling a {{Color|Thunderlance EX|7}}, applies {{G|Electric Infliction}} to all targets hit.
+}}
+}}
+
+{{Operator table row
+|name = Perlica
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Perlica
+|name = Protocol ω: Strike
+|type = Skill
+|content = 
+Applies {{G|Electric Infliction}} to the target and nearby enemies.
+}}
+}}
+
+{{Operator table row
+|name = Zhuang Fangyi
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Zhuangfangyi
+|name = Smiting Tempest
+|type = Ultimate
+|content = 
+While {{Color|Smiting Tempest|7}} is active, casting Zhuang Fangyi's Battle Skill {{Color|Mantra of Sundering|7}} applies {{G|Electric Infliction}} to the target on the last {{Color|Thunder Strike|7}}.
+}}
+}}
+}}
+== Interactions ==
+<tabber>
+|-|Operators=
+{{Operator table
+|header = Interaction
+|content =
+
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy with active {{Color|Focus|7}} suffers a {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Arclight
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Arclight
+|name = Exploding Blitz
+|type = Ultimate
+|content = 
+Against enemies with {{G|Electric Infliction}}, {{G|Debuff Consumption|consume}} the debuff and {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Electrification}}.
+}}
+}}
+
+{{Operator table row
+|name = Ardelia
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Ardelia
+|name = Eruption Column
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike}} on an enemy with {{Color|no|7}} stacks of {{G|Vulnerable|Vulnerability}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Avywenna
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Avywenna
+|name = Thunderlance: Strike
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When controlled operator performs a {{G|Final Strike}} on a target with active {{G|Electric Infliction}} or {{G|Electrification}}.
+}}
+}}
+
+{{Operator table row
+|name = Last Rite
+|content = 
+{{Operator table row/Combat skill
+|icon = Last Rite Talent 1 icon
+|name = Hypothermia
+|type = Talent
+|content = 
+{{G|Debuff Consumption|Consuming}} any {{G|Arts Infliction}} inflicts {{G|Cryo Susceptibility}} with the strength based on the number of stacks consumed. {{Color|This effect cannot stack.|9}}
+}}
+}}
+
+{{Operator table row
+|name = Rossi
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Rossi
+|name = Moment of Blazing Shadow
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy has both {{G|Vulnerable|Vulnerability}} and {{G|Arts Infliction}} stacks.<br><br>
+
+This combo skill is split into two sequences. For a short time after performing the first sequence, Rossi may recast this skill to perform the second sequence. The second sequence of this combo {{G|Debuff Consumption|consumes}} all {{G|Arts Infliction}} stacks and deals additional {{Color|Physical DMG|2}} based on the number of stacks consumed.
+}}
+}}
+
+{{Operator table row
+|name = Wulfgard
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Wulfgard
+|name = Frag Grenade·β
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an {{G|Arts Infliction}} is applied to an enemy.
+}}
+}}
+
+{{Operator table row
+|name = Zhuang Fangyi
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Zhuangfangyi
+|name = Breath of Transformation
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the controlled operator's {{G|Final Strike}} or Finisher hits an enemy with {{G|Electric Infliction}}.<br><br>
+
+Against enemies with {{G|Electric Infliction}}, {{G|Debuff Consumption|consume}} the debuff, {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Electrification}} and gain Ultimate Energy based on the number of stacks consumed.
+}}
+}}
+
+}}
+|-|Weapons=
+{{Template:Weapon_list
+|header = Interaction
+|content = 
+
+{{Template:Weapon_list_row
+|name = OBJ Velocitous
+|content = '''Detonate: Rapid Strike'''<br>When the wielder {{G|Debuff Consumption|consumes}} {{G|Electric Infliction}}, gain {{Color|Nature DMG Dealt|5}} {{Color|+[{{Tooltip/Weapon skill rank|5%|14%}} × Stacks Consumed]|1d}} for 20s. {{Color|Effects of the same name do not stack.|9}}
+}}
+}}
+</tabber>
+
+==Changelog==
+{{Changelog|
+* <b>Beta Test II</b> {{Needs Verification}}
+** {{G|Electric Infliction}} can now stack up to four times.
+*** [[Arts Burst|Electric Burst]] changed.
+**** <b>New:</b> When an Operator applies Electric Infliction to an enemy with Arts Infliction, add one more stack of Electric Infliction (up to 4 times) and trigger an Electric Burst.
+**** <b>Old:</b> When an Operator applies Electric Infliction to an enemy with Electric Infliction, {{G|Debuff Consumption|consume}} the Electric Inflictions and trigger an Electric Burst.
+*** [[Electrification]] changed.
+**** <b>New:</b> When an Operator applies Electric Infliction to an enemy with a non-Electric Arts Infliction, {{G|Debuff Consumption|consume}} existing stacks of Electric Infliction to trigger [[Electrification]] with the latter determining the strength or {{G|Status Level}} of the reaction.
+**** <b>Old:</b> When an Operator applies a Electric Infliction to an enemy with a non-Electric Arts Infliction, {{G|Debuff Consumption|consume}} both Arts Inflictions and trigger Electrification.
+* <b>Beta Test I</b> {{Needs Verification}}
+** {{G|Electric Infliction}} added.
+*** When an Operator applies Electric Infliction to an enemy with Electric Infliction, {{G|Debuff Consumption|consume}} the Electric Inflictions and trigger an [[Arts Burst|Electric Burst]].
+*** When an Operator applies Electric Infliction to an enemy with a non-Electric Arts Infliction, {{G|Debuff Consumption|consume}} both Arts Inflictions and trigger [[Electrification]].
+}}
+
+{{Combat mechanics}}
+[[Category: Arts Inflictions]]

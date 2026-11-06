@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Former Finery
+|rarity = 6
+|images = 
+Former_Finery icon.png:Icon;
+Former_Finery.png:Full;
+Former_Finery max model.png:Max
+|filename = wpn_claym_0006
+|cnname = 昔日精品
+|tcname = 昔日精品
+|jpname = 昔日の逸品
+|krname = 과거의 일품
+|spname = Antigua fineza
+|runame = Былой шик
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Former Finery''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A high-end product of Northmarch Support Hub. This chain cutter was designed with older technology. Though no longer mass produced, the weapon continues to prove its reliability in the field.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 145, 245, 345, 445, 495
+|pot = Skill {{Color|Efficacy: Mincing Therapy|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Will [L]|HP [L]|Efficacy: Mincing Therapy}}
+
+==Basic Info==
+{{Quote|Dear Klamath Bob:<br>I received your message. Though I desire to have this discussion in person, my convoy must depart for the Northern Front in 10 hours. It was with some hesitation that I decided to pen this reply. Do be aware that I will have difficulty contacting you via conventional comm devices once the convoy sets off.<br>I understand your concerns and I'm very well aware of the sadness and disappointment experienced by your team. As your mentor, you must understand that my decision was nothing personal and must cater to the bigger picture. My opinions alone would not sway the strategies of our marketing department. The fact that your technical blueprints earned no small amount of approval is a testament to the outstanding performance of your designs. You should be confident about that.<br>Just two months ago, I was shocked when engineers from the fringe tech department released a working example of a miniaturized centrifugal Originium generator. It shattered the theoretical limits of energy conversion ratios for such devices and would certainly usher in the next revolutionary change for the very foundations of power generation. Even I would have brushed it off as mere hypothetical fantasy just 12 months ago but the truth proved otherwise. I was trapped in a comfort zone that blinded me from the scientific advancements that was within our reach.<br>So, don't let this setback dishearten you or keep you from learning. You are young and your choices are many. Though conventional Originium power generation remains a field with great potential, science and technology are always changing. It is difficult to accept failure, especially after so many years of hard work. But remember that you are an engineer. Do not let emotions affect your objectivity.<br>Based on my own experiences, there will be a protracted period of time before the new tech becomes fully adopted. Stories from the Age of Terra often describe noisy old engines with abysmal Originium energy conversion ratios. Despite their poor performance, these engines offered advantages that the latest generators could not hope to provide — reliability and ease of maintenance. The world still has a place for the legacy workhorses and it will be long until they are completely phased out.<br>Regardless of what I've said, your product design remains an outstanding work of engineering. I have faith that you and your team will quickly find a new direction.<br>I look forward to hearing more about your progress in the future.<br><br>Your friend and mentor,<br>Willem Sinclair}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

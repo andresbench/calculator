@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Jade Vessel
+|rarity = 6
+|images = 
+Jade_Vessel icon.png:Icon;
+Jade_Vessel.png:Full;
+Jade_Vessel max model.png:Max
+|filename = wpn_claym_0018
+|cnname = 玉中身
+|tcname = 玉中身
+|jpname = 玉中身
+|krname = 옥에 깃든 형체
+|spname = Vasija de jade
+|runame = Нефритовый сосуд
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Jade Vessel''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A special greatsword produced by Hongshan Swordmancers. It is constructed using special materials and resembles a special jade instrument used in ancient Yanese rituals. The weapon is massive, yet is surprisingly light and allows its wielder to unleash a devastating flurry of attacks.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Efficacy: Dabbles of Ink|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Warp Plasma-Coated Slide|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Intellect [L]|Cryo DMG [L]|Efficacy: Dabbles of Ink}}
+
+==Basic Info==
+{{Quote|There was once a jade artisan of Wuling with remarkable skill, sculpting jade into vivid landscapes with flowing spring waters or lifelike plants that give off fine fragrances. However, the artisan was extremely proud, carried quite a temper, and had a strange compulsion — when the sculpting failed to meet his liking, he would discard it like trash, no matter the quality of the stone. <br>One day, the artisan found a pillar-sized stone of the finest quality along a deep mountain creek. When put against the light, the jade revealed a pristine white interior with patterns that resembled life-like smoke trails that billowed and waned. <br>The artisan was overjoyed. He quickly locked every door and window of his workshop, then denied all visits and appointments. His aim was to create his magnum opus and leave his mark upon history. <br>But every time he raised his sculpting chisel, he left it hanging above the jade. His hands trembled and he could not bring himself to start. "Should I strike? But what if I ruined its natural beauty? Should I wait? But I'd let such a beautiful jade go to waste." And thus the artisan could not eat or sleep for seven days. The jade remained unmarked while the artisan himself slowly wasted away. He implored the heavens several times, hoping to receive divine epiphany to direct his first cut. <br>As the sun set on the eighth day, he could no longer keep up and dozed off on his table. <br>The artisan dreamed of himself holding the raw jade, and it whimpered in his embrace. Curious, he glanced at the stone and saw an ink-colored long-ear prancing about the hues of white and green. It seemed to be looking for an exit, only to repeatedly knock itself senseless against the wall. In the end, the poor creature laid helplessly in the smoke, its long ears drooped and sad-looking. <br>The artisan was alarmed. Without thinking he took his chisel to liberate the trapped long-ear. But when his tool touched the stone, the beautiful jade instantly lost its luster, and became a common block of stone one could easily find along the river bank. <br>Surprised, the artisan rubbed his eyes and found the long-ear right next to him, waddling towards him, rubbing against his legs, and leaving quite a few ink stains. The artisan saw around him a world of emerald hues. He was teleported into the jade itself. <br>While he stared in amazement, he suddenly saw a huge face looming right outside the jade. The face wore sunken eyes and a greedy gaze. He saw a hand carrying a sculpting chisel, but it remained still and unmoving. From the hungry gaze he could see a burning intent to create a beautiful landscape out of the stone — <br>The artisan realized that the face was his. <br>The man woke up with a jolt, covered in cold sweat. The fowls were chirping outside the window and the morning sun was poking out of the horizon. He squinted his eyes, crawled out of bed, and studied that block of jade. The first cut had been made. He looked at his hand and saw it tightly gripping a stone chisel. <br>He was stunned for a while before bursting out in sudden laughter. In his dream he struck the jade to rescue a little critter, turning it into worthless stone while trapping himself within the jade. Indeed, the jade had kept him trapped for days. The obsession of working on the priceless stone and the desire of creating a work for the ages imprisoned his mind and thought. <br>The artisan treated the dream as a heavenly sign. After thanking the divine, he took the block of jade and returned to the mountains. By the flowing brook, in the gentle breeze, and under the warm sunshine, he sat on the earth with the block of jade next to him. Quickly and decisively he hammered away at his chisel, converting the massive block into a palm-sized long-ear. He then gave the finished work to the flowing water, left the still usable fragments of jade to the wilds, and left without hesitation. <br>Since then, the artisan neither craved fame nor sought to create a work that might outlast him. Instead, he worked on every material, be it stone or wood. He made lasting walking canes for the elderly and toys of every kind for the children, while managing to get some enjoyment out of the process. <br>As for the jade long-ear beast cast to the river, it sometimes gained life, and sometimes went still. In a pool of ink it disappeared into the scroll-like waterfall cascading from the heavens, leaving a gentle voice that echoed within the valleys: "A piece of jade of such beauty deserves to be fashioned into a lovely little critter of the wilds. All other attempts are just vanity."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

@@ -1,0 +1,19 @@
+local util_cargo = require('Module:CargoUtil')
+local result = util_cargo.query({
+	tables = 'Enemies=E, Locales=L',
+	join = 'E.Enemy = L.Entity',
+	fields = {
+		'E.Enemy = enemy',
+		'L.Value = name',
+		'E.Image = image',
+		'E.Type = type',
+		'E.Class = class',
+	},
+	where = 'L.Lang = "en" AND L.Param = "name"',
+})
+local data = {}
+for i, row in ipairs(result) do
+	data[row.name] = row
+	data[row.enemy] = row
+end
+return data

@@ -1,0 +1,628 @@
+[[File:SR_Terminal_Lucky_Carrot.png|thumb|Lucky Carrot is in charge of managing Redistribution of Supplies and Goods.]]
+==Overview==
+'''{{FULLPAGENAME}}''' is available at [[Authority Level]] 15, after the player completes the '''Restart Area Stock Redistribution I''' mission.
+
+Found by talking with [[Lucky Carrot|"Lucky Carrot"]] around the map, Stock Redistribution Terminals are the main location to use Regional Stock Bills to obtain materials or gifts. It can also be used to buy important items, such as Engraving Permits or Artificing Catalysts. 
+
+All items have a stock limit, with some being one-time purchase or discounted. Some items may also refresh weekly.
+
+When the first Stock Redistribution Terminal reached Level 2, [[Item/Package Items|'''Elastic Goods''']] will be available, which prices change daily. The player can purchase those to sell at a later date, or sell them to friends who has higher prices to gain profit. Purchase of Elastic Goods has a limit which recovers daily and can be accumulated to a limit.
+
+The Terminals can be upgraded using Stock Bills, which can increase the number of types of Elastic Goods, daily limit and maximum limit of purchasing Elastic Goods, as well as the types of items available.
+
+===List of Upgrades and Locations===
+
+<tabber>
+Valley IV=
+{| class="wikitable"
+|-
+! Level
+! Cost
+! Staple Goods
+! Elastic Goods
+! Other 
+|-
+! colspan= "5" | The Hub
+|-
+| 1
+| {{Cur|Valley Stock Bill|500}}
+|
+{{I|Basic HH Permit}}
+{{I|Fortmaker}}
+{{I|T-Creds}}
+{{I|Intermediate Combat Record}}
+{{I|Protodisk}}
+{{I|Arms INSP Kit}}
+{{I|Cast Die}}
+| -
+| -
+|-
+| 2
+| {{Cur|Valley Stock Bill|4500}}
+| 
+{{I|Basic HH Permit}}
+{{I|Seeker of Dark Lung}}
+{{I|Keen Valley Detector}}
+{{I|Keen Valley Compass}}
+| 
+{{I|Ankhorilling Kitchenware (pkg)}}
+{{I|Musbeast Scrimshaw Dangles (pkg)}}
+{{I|Witchcraft Mining Drill (pkg)}}
+{{I|Aggeloi War Tins (pkg)}}
+| 
+Unlocks Elastic Goods Trading for [[Valley IV]].
+|-
+| 3
+| {{Cur|Valley Stock Bill|33000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Freedom to Proselytize}}
+{{I|Intermediate Combat Record}}
+| 
+{{I|Valley Hydroculture Fillets (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+40|0}}
+*Daily Supplies Replenishment Limit {{Color|+20|0}}
+|-
+| 4
+| {{Cur|Valley Stock Bill|38000}}
+| 
+{{I|Arc 2000 Model}}
+{{I|Advanced Combat Record}}
+{{I|Advanced Cognitive Carrier}}
+{{I|T-Creds}}
+{{I|Sanity Usage Permit}}
+{{I|Valley Engraving Permit}}
+{{I|Hazefyre Blossom}}
+{{I|Cartilage Tack}}
+{{I|Aurylene Camera}}
+{{I|Cosmic Gate Puzzle}}
+{{I|Surfing Festival Ticket}}
+{{I|Breeze of Kjersch}}
+{{I|Tidestone Specimen}}
+{{I|Simonch Shawl}}
+{{I|Frontiers Watch}}
+| 
+{{I|Unity Syrup (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+50|0}}
+*Daily Supplies Replenishment Limit {{Color|+25|0}}
+|-
+! colspan= "5" | Originium Science Park
+|-
+| 1
+| {{Cur|Valley Stock Bill|6000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Opus: The Living}}
+| 
+{{I|Seš'qamam Knucklebones (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+50|0}}
+*Daily Supplies Replenishment Limit {{Color|+20|0}}
+|-
+| 2
+| {{Cur|Valley Stock Bill|50000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Finishing Call}}
+{{I|Intermediate Combat Record}}
+{{I|Protodisk}}
+{{I|Arms INSP Kit}}
+|
+{{I|Astarron Crystals (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+60|0}}
+*Daily Supplies Replenishment Limit {{Color|+30|0}}
+|-
+| 3
+| {{Cur|Valley Stock Bill|260000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Twelve Questions}}
+{{I|Kunst Tube}}
+{{I|Cosmo-Melto Jelly}}
+{{I|Intermediate Combat Record}}
+{{I|Arms INSP Kit}}
+{{I|Protodisk}}
+{{I|Protoprism}}
+{{I|T-Creds}}
+| 
+{{I|Scrap Toy Blocks (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+90|0}}
+*Daily Supplies Replenishment Limit {{Color|+30|0}}
+|-
+| 4
+| {{Cur|Valley Stock Bill|430000}}
+| 
+{{I|Champion Drill Crawler}}
+{{I|Arms INSP Set}}
+{{I|T-Creds}}
+{{I|Sanity Usage Permit}}
+{{I|Kunst Tube}}
+{{I|Cosmo-Melto Jelly}}
+{{I|Valley Engraving Permit}}
+{{I|Keen Valley Detector}}
+{{I|Keen Valley Compass}}
+| -
+| 
+*Supplies Purchase Limit {{Color|+120|0}}
+*Daily Supplies Replenishment Limit {{Color|+30|0}}
+|-
+! colspan= "5" | Origin Lodespring
+|-
+| 1
+| {{Cur|Valley Stock Bill|36000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Cohesive Traction}}
+{{I|Intermediate Combat Record}}
+{{I|Arms INSP Kit}}
+{{I|Protodisk}}
+{{I|Protoprism}}
+{{I|T-Creds}}
+| 
+{{I|Originium Saplings (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+90|0}}
+*Daily Supplies Replenishment Limit {{Color|+30|0}}
+|-
+| 2
+| {{Cur|Valley Stock Bill|200000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Monaihe}}
+{{I|Intermediate Combat Record}}
+{{I|Arms INSP Kit}}
+{{I|Protodisk}}
+{{I|Protoprism}}
+{{I|T-Creds}}
+{{I|Keen Valley Detector}}
+{{I|Keen Valley Compass}}
+| 
+{{I|Vigilant Pickaxes (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+120|0}}
+*Daily Supplies Replenishment Limit {{Color|+40|0}}
+|-
+| 3
+| {{Cur|Valley Stock Bill|325000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Aspirant}}
+{{I|Jakub's Legacy}}
+{{I|Pulled Slug Meat}}
+{{I|Elementary Cognitive Carrier}}
+{{I|Arms INSP Kit}}
+{{I|Protoset}}
+{{I|Heavy Cast Die}}
+{{I|Protohedron}}
+{{I|T-Creds}}
+{{I|Valley Engraving Permit}}
+{{I|Onboarding Essentials for Endfield Operators — Aggeloi (Item)}}
+| -
+| 
+*Supplies Purchase Limit {{Color|+160|0}}
+*Daily Supplies Replenishment Limit {{Color|+40|0}}
+|-
+| 4
+| {{Cur|Valley Stock Bill|480000}}
+| 
+{{I|Bonsai of Life}}
+{{I|Protoprism}}
+{{I|Protohedron}}
+{{I|Advanced Progression Selection Crate I}}
+{{I|T-Creds}}
+{{I|Sanity Usage Permit}}
+{{I|Jakub's Legacy}}
+{{I|Pulled Slug Meat}}
+{{I|Valley Engraving Permit}}
+{{I|Keen Valley Detector}}
+{{I|Keen Valley Compass}}
+| -
+| 
+*Supplies Purchase Limit {{Color|+160|0}}
+*Daily Supplies Replenishment Limit {{Color|+40|0}}
+|}
+<gallery>
+file:SR_Terminal_The_Hub.png|The Hub
+file:SR_Terminal_Originium_Science_Park.png|Originium Science Park
+file:SR_Terminal_Origin_Lodespring.png|Origin Lodespring
+</gallery>
+|-|
+Wuling=
+{| class="wikitable"
+|-
+! Level
+! Cost
+! Staple Goods
+! Gear Templates
+! Elastic Goods
+! Other 
+|-
+! colspan= "6" | Jingyu Valley
+|-
+| 1
+| {{Cur|Wuling Stock Bill|5000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Wuling Artificing Catalyst}}
+{{I|Wuling Engraving Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Yinglung Dumbbells}}
+{{I|Eureka Teabox}}
+{{I|Keen Wuling Compass}}
+{{I|Keen Wuling Detector}}
+| 
+{{I|Redeemer Tag (Recipe)}}
+{{I|Redeemer Tag T1 (Recipe)}}
+{{I|Redeemer Seal (Recipe)}}
+{{I|Redeemer Seal T1 (Recipe)}}
+{{I|Bonekrusha Figurine T1 (Recipe)}}
+{{I|Hot Work Power Cartridge (Recipe)}}
+{{I|LYNX Connector T1 (Recipe)}}
+| 
+{{I|Wuling Frozen Pears (pkg)}}
+{{I|Eureka Anti-smog Tincture (pkg)}}
+{{I|Nymphsprout (pkg)}}
+| 
+Unlocks Elastic Goods Trading for [[Wuling]].
+|-
+| 2
+| {{Cur|Wuling Stock Bill|64000}}
+| 
+{{I|Basic HH Permit}}
+{{I|Tianshi Pillar Model}}
+{{I|Wuling Artificing Catalyst}}
+{{I|Wuling Engraving Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Yinglung Dumbbells}}
+{{I|Eureka Teabox}}
+{{I|Keen Wuling Compass}}
+{{I|Keen Wuling Detector}}
+|
+{{I|Type 50 Yinglung Knife (Recipe)}}
+{{I|Type 50 Yinglung Knife T1 (Recipe)}}
+{{I|MI Security Push Knife T1 (Recipe)}}
+{{I|MI Security Overalls T2 (Recipe)}}
+{{I|MI Security Armband (Recipe)}}
+{{I|MI Security Scope (Recipe)}}
+{{I|MI Security Toolkit (Recipe)}}
+| 
+{{I|Wuxia Movies (pkg)}}
+| 
+*Supplies Purchase Limit {{Color|+20|0}}
+*Daily Supplies Replenishment Limit {{Color|+40|0}}
+|-
+| 3
+| {{Cur|Wuling Stock Bill|450000}}
+|
+{{I|Basic HH Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Master Pan's Egg Pudding}}
+{{I|Woven Aggelos}}
+{{I|Scrimshaw of the Pack}}
+{{I|Wuling Artificing Catalyst}}
+{{I|T-Creds}}
+|
+{{I|LYNX Connector T2 (Recipe)}}
+{{I|Æthertech Light Gloves (Recipe)}}
+{{I|Æthertech Stabilizer T1 (Recipe)}}
+{{I|Æthertech Watch (Recipe)}}
+{{I|Pulser Labs Probe (Recipe)}}
+{{I|Pulser Labs Invasion Core (Recipe)}}
+{{I|Hot Work Exo-Rig (Recipe)}}
+{{I|Hot Work Gloves (Recipe)}}
+{{I|Redeemer Plates (Recipe)}}
+{{I|Redeemer Armor (Recipe)}}
+{{I|Redeemer Gloves (Recipe)}}
+{{I|Redeemer Hands (Recipe)}}
+{{I|Swordmancer Light Armor (Recipe)}}
+{{I|Swordmancer NAV Beacon (Recipe)}}
+{{I|Swordmancer Micro Filter (Recipe)}}
+|
+{{I|Chubby Lung Tianshi (pkg)}}
+|
+*Supplies Purchase Limit {{Color|+30|0}}
+*Daily Supplies Replenishment Limit {{Color|+15|0}}
+|-
+| 4
+| {{Cur|Wuling Stock Bill|1400000}}
+|
+{{I|Basic HH Permit}}
+{{I|Sanity Usage Permit}}
+{{I|T-Creds}}
+| -
+|
+{{I|Xiran-Hue Fireworks (pkg)}}
+|
+*Supplies Purchase Limit {{Color|+30|0}}
+*Daily Supplies Replenishment Limit {{Color|+15|0}}
+|-
+! colspan= "6"; | Marker Stone
+|-
+| 1
+| {{Cur|Wuling Stock Bill|30000}}
+|
+{{I|Basic HH Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Echoing Remedy}}
+{{I|Chubby Lung: Fangxing Memorabilia}}
+{{I|Advanced Cognitive Carrier}}
+| -
+|
+{{I|Xiranite Filter Cores (pkg)}}
+|
+*Supplies Purchase Limit {{Color|+60|0}}
+*Daily Supplies Replenishment Limit {{Color|+30|0}}
+|-
+| 2
+| {{Cur|Wuling Stock Bill|400000}}
+|
+{{I|Basic HH Permit}}
+{{I|Chubby Lung Balloon}}
+{{I|Tiger Cage}}
+{{I|Sanguine Memories}}
+{{I|Deluxe Chubby Lung}}
+{{I|Wuling Artificing Catalyst}}
+{{I|T-Creds}}
+| -
+|
+{{I|Qingbo Rafts (pkg)}}
+|
+*Supplies Purchase Limit {{Color|+60|0}}
+*Daily Supplies Replenishment Limit {{Color|+30|0}}
+|-
+| 3
+| {{Cur|Wuling Stock Bill|650000}}
+|
+{{I|Basic HH Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Rind-Flavored Sprouts}}
+{{I|Fin-n-Chips}}
+{{I|Bizarro Cupcake}}
+{{I|Wuling Artificing Catalyst}}
+{{I|T-Creds}}
+{{I|Protohedron}}
+| -
+| {{I|Aerial Receptionists (pkg)}}
+|
+*Supplies Purchase Limit {{Color|+60|0}}
+*Daily Supplies Replenishment Limit {{Color|+30|0}}
+|-
+| 4
+| {{Cur|Wuling Stock Bill|1000000}}
+|
+{{I|Basic HH Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Sear-Toasted Liver}}
+{{I|Myrkwood Berry Preserve}}
+{{I|Miracle Cake}}
+{{I|T-Creds}}
+{{I|Protohedron}}
+| -
+| {{I|Marker Stone Lock (pkg)}}
+|
+*Supplies Purchase Limit {{Color|+30|0}}
+*Daily Supplies Replenishment Limit {{Color|+15|0}}
+|-
+! colspan= "6" | Yinglung Pass
+|-
+| 1
+| 50000
+|
+{{I|Basic HH Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Fowlbeast Paper Kite}}
+{{I|Der Schwingende Gentleman Classical Album}}
+{{I|T-Creds}}
+{{I|Protohedron}}
+{{I|Wuling Talosite Probe}}
+| -
+| {{I|Swordmancer Forge (pkg)}}
+|
+* Daily supplies purchase limit increase {{color|+30|0}}
+* Daily supplies refreshment limit increase {{color|+185|0}}
+|-
+| 2
+| 600000
+| 
+{{I|Basic HH Permit}}
+{{I|Stonehold Remedy}}
+{{I|Ruin-Purger Remedy}}
+{{I|Dichromo-Light}}
+{{I|Wuling Artificing Catalyst}}
+{{I|T-Creds}}
+{{I|Protohedron}}
+{{I|Wuling Talosite Probe}}
+| -
+| {{I|Xiranite Bridge (pkg)}}
+|
+* Daily supplies purchase limit increase {{color|+30|0}}
+* Daily supplies replenishment limit increase {{color|+15|0}}
+|-
+| 3
+| 800000
+| 
+{{I|Basic HH Permit}}
+{{I|Sanity Usage Permit}}
+{{I|Mark and Fulfill}}
+{{I|Herbal Tisane}}
+{{I|Numbing Crispy Pupae}}
+{{I|Yuanyuan Manor Jigsaw}}
+{{I|Wooden Sword}}
+{{I|T-Creds}}
+{{I|Protohedron}}
+| -
+| {{I|Chubby Lung Blimp (pkg)}}
+|
+* Daily supplies purchase limit increase {{color|+30|0}}
+* Daily supplies replenishment limit increase {{color|+15|0}}
+|}
+<gallery>
+file:SR_Terminal_Jingyu_Valley.png| Jingyu Valley
+file:SR_Terminal_Marker Stone.png| Marker Stone
+file:SR Terminal Yinglung Pass.png| Yinglung Pass
+</gallery>
+</tabber>
+
+===List of Available Items===
+
+<tabber>
+Valley IV=
+{| class="wikitable" style="width: auto;"
+|-
+! colspan= "16"; | Consumable Goods
+|-
+! Item !! Price !! Stock !! Refresh? !! Item !! Price !! Stock !! Refresh? !! Item !! Price !! Stock !! Refresh? !! Item !! Price !! Stock !! Refresh?
+|-
+| {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|1000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|2000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|4000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|6000}} || 1 || No
+|-
+| {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|8000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|12000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|20000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|30000}} || 1 || No
+|-
+| {{I|Basic HH Permit}} || {{Cur|Valley Stock Bill|50000}} || 1 || No || {{I|Valley Multi-Line Engraving Kit}} || {{Cur|Valley Stock Bill|3500000}} || 1 || No || {{I|Sanity Usage Permit}} || {{Cur|Valley Stock Bill|600000}} || 100 || No || {{I|Advanced Cognitive Carrier|5}} || {{Cur|Valley Stock Bill|500000}} || 15 || No 
+|-
+| {{I|Advanced Progression Selection Crate I|2}} || {{Cur|Valley Stock Bill|400000}} || 20 || No || {{I|T-Creds|2000}} || {{Cur|Valley Stock Bill|400}} || 5 || No || {{I|T-Creds|2000}} || {{Cur|Valley Stock Bill|4000}} || 10 || No || {{I|T-Creds|2000}} || {{Cur|Valley Stock Bill|8000}} || 5 || No 
+|-
+| {{I|T-Creds|2000}} || {{Cur|Valley Stock Bill|12000}} || 10 || No || {{I|Elementary Cognitive Carrier|5}} || {{Cur|Valley Stock Bill|15000}} || 10 || No || {{I|Protoset|2}} || {{Cur|Valley Stock Bill|30000}} || 2 || No || {{I|Heavy Cast Die|2}} || {{Cur|Valley Stock Bill|30000}} || 2 || No 
+|-
+| {{I|Protohedron|2}} || {{Cur|Valley Stock Bill|24000}} || 10 || No || {{I|T-Creds|20000}} || {{Cur|Valley Stock Bill|400000}} || 50 || No || {{I|Arms INSP Set|5}} || {{Cur|Valley Stock Bill|200000}} || 25 || No || {{I|Protohedron|5}} || {{Cur|Valley Stock Bill|200000}} || 15 || No 
+|-
+| {{I|Arms INSP Kit}} || {{Cur|Valley Stock Bill|400}} || 6 || No || {{I|Protodisk|4}} || {{Cur|Valley Stock Bill|1000}} || 4 || No || {{I|Cast Die|5}} || {{Cur|Valley Stock Bill|1000}} || 4 || No || {{I|Protoprism|5}} || {{Cur|Valley Stock Bill|400}} || 3 || No 
+|-
+| {{I|Arms INSP Kit|10}} || {{Cur|Valley Stock Bill|4000}} || 7 || No || {{I|Protodisk|5}} || {{Cur|Valley Stock Bill|10000}} || 4 || No || {{I|Cast Die|5}} || {{Cur|Valley Stock Bill|10000}} || 4 || No || {{I|Protoprism|5}} || {{Cur|Valley Stock Bill|4000}} || 8 || No 
+|-
+| {{I|Arms INSP Kit|10}} || {{Cur|Valley Stock Bill|8000}} || 4 || No || {{I|Protodisk|5}} || {{Cur|Valley Stock Bill|20000}} || 2 || No || {{I|Cast Die|5}} || {{Cur|Valley Stock Bill|20000}} || 2 || No || {{I|Protoprism|5}} || {{Cur|Valley Stock Bill|8000}} || 5 || No
+|-
+| {{I|Arms INSP Kit|10}} || {{Cur|Valley Stock Bill|12000}} || 25 || No || {{I|Protodisk|5}} || {{Cur|Valley Stock Bill|30000}} || 6 || No || {{I|Cast Die|5}} || {{Cur|Valley Stock Bill|30000}} || 6 || No || {{I|Protoprism|5}} || {{Cur|Valley Stock Bill|12000}} || 28 || No
+|-
+| {{I|Advanced Combat Record|5}} || {{Cur|Valley Stock Bill|200000}} || 15 || No || {{I|Protoprism|5}} || {{Cur|Valley Stock Bill|40000}} || 15 || No || {{I|Intermediate Combat Record|10}} || {{Cur|Valley Stock Bill|400}} || 6 || No || {{I|Intermediate Combat Record|10}} || {{Cur|Valley Stock Bill|4000}} || 7 || No
+|-
+| {{I|Intermediate Combat Record|10}} || {{Cur|Valley Stock Bill|8000}} || 4 || No || {{I|Intermediate Combat Record|10}} || {{Cur|Valley Stock Bill|12000}} || 10 || No || {{I|Valley Engraving Permit}} || {{Cur|Valley Stock Bill|400000}} || 12 || Yes || {{I|Valley Engraving Permit}} || {{Cur|Valley Stock Bill|800000}} || 24 || Yes
+|-
+| {{I|Kunst Tube}} || {{Cur|Valley Stock Bill|100000}} || 10 || No || {{I|Jakub's Legacy}} || {{Cur|Valley Stock Bill|140000}} || 10 || No || {{I|Pulled Slug Meat}} || {{Cur|Valley Stock Bill|140000}} || 10 || No || {{I|Kunst Tube}} || {{Cur|Valley Stock Bill|200000}} || 40 || Yes  
+|-
+| {{I|Jakub's Legacy}} || {{Cur|Valley Stock Bill|200000}} || 40 || Yes || {{I|Pulled Slug Meat}} || {{Cur|Valley Stock Bill|200000}} || 40 || Yes || {{I|Hazefyre Blossom}} || {{Cur|Valley Stock Bill|24000}} || 5 || No || {{I|Cartilage Tack}} || {{Cur|Valley Stock Bill|24000}} || 5 || No
+|-
+| {{I|Cosmo-Melto Jelly}} || {{Cur|Valley Stock Bill|60000}} || 10 || No || {{I|Hazefyre Blossom}} || {{Cur|Valley Stock Bill|120000}} || 40 || Yes || {{I|Cartilage Tack}} || {{Cur|Valley Stock Bill|120000}} || 40 || Yes || {{I|Cosmo-Melto Jelly}} || {{Cur|Valley Stock Bill|120000}} || 40 || Yes
+|-
+! colspan= "16"; | Factory Goods
+|-
+| {{I|Fortmaker}} || {{Cur|Valley Stock Bill|1000}} || 1 || No || {{I|Seeker of Dark Lung}} || {{Cur|Valley Stock Bill|2000}} || 1 || No || {{I|Opus: The Living}} || {{Cur|Valley Stock Bill|4000}} || 1 || No || {{I|Freedom to Proselytize}} || {{Cur|Valley Stock Bill|6000}} || 1 || No
+|-
+| {{I|Finishing Call}} || {{Cur|Valley Stock Bill|8000}} || 1 || No || {{I|Cohesive Traction}} || {{Cur|Valley Stock Bill|12000}} || 1 || No || {{I|Monaihe}} || {{Cur|Valley Stock Bill|20000}} || 1 || No || {{I|Twelve Questions}} || {{Cur|Valley Stock Bill|30000}} || 1 || No
+|-
+| {{I|Aspirant}} || {{Cur|Valley Stock Bill|50000}} || 1 || No || {{I|Keen Valley Detector}} || {{Cur|Valley Stock Bill|1000}} || 5 || No || {{I|Keen Valley Compass}} || {{Cur|Valley Stock Bill|1000}} || 5 || No || {{I|Keen Valley Detector}} || {{Cur|Valley Stock Bill|5000}} || 5 || No
+|-
+| {{I|Keen Valley Compass}} || {{Cur|Valley Stock Bill|5000}} || 5 || No || {{I|Keen Valley Detector}} || {{Cur|Valley Stock Bill|20000}} || 10 || No || {{I|Keen Valley Compass}} || {{Cur|Valley Stock Bill|20000}} || 10 || No || {{I|Keen Valley Detector}} || {{Cur|Valley Stock Bill|50000}} || 5 || Yes
+|-
+| {{I|Keen Valley Compass}} || {{Cur|Valley Stock Bill|50000}} || 5 || Yes || {{I|Keen Valley Detector}} || {{Cur|Valley Stock Bill|100000}} || 15 || Yes || {{I|Keen Valley Compass}} || {{Cur|Valley Stock Bill|100000}} || 15 || Yes || - || - || - || -
+|-
+! colspan= "16" | Cultural Goods
+|-
+| {{I|Tube Professor}} || {{Cur|Valley Stock Bill|3000000}} || 4 || No || {{I|Mr. Rammu}} || {{Cur|Valley Stock Bill|100}} || 1 || No || {{I|Arc 2000 Model}} || {{Cur|Valley Stock Bill|16000000}} || 1 || No || {{I|Champion Drill Crawler}} || {{Cur|Valley Stock Bill|16000000}} || 1 || No
+|-
+| {{I|Bonsai of Life}} || {{Cur|Valley Stock Bill|16000000}} || 1 || No || {{I|Tastes of V4: Workers' Borscht (Item)}} || {{Cur|Valley Stock Bill|2500}} || 1 || No || {{I|Bounties from the Aggeloi (Issue 15) (Item)}} || {{Cur|Valley Stock Bill|10000}} || 1 || No || {{I|Training Material: Dangerous Wildlife and Aggeloi (Item)}} || {{Cur|Valley Stock Bill|15000}} || 1 || No
+|-
+| {{I|Emergency Broadcast Log (Item)}} || {{Cur|Valley Stock Bill|50000}} || 1 || No || {{I|Notes: Amateur Scientist (Item)}} || {{Cur|Valley Stock Bill|50000}} || 1 || No || {{I|Onboarding Essentials for Endfield Operators — Aggeloi (Item)}} || {{Cur|Valley Stock Bill|50000}} || 1 || No || {{I|Aurylene Camera}} || {{Cur|Valley Stock Bill|300}} || 2 || No
+|-
+| {{I|Cosmic Gate Puzzle}} || {{Cur|Valley Stock Bill|300}} || 2 || No || {{I|Surfing Festival Ticket}} || {{Cur|Valley Stock Bill|300}} || 2 || No || {{I|Breeze of Kjersch}} || {{Cur|Valley Stock Bill|300}} || 2 || No || {{I|Tidestone Specimen}} || {{Cur|Valley Stock Bill|300}} || 2 || No
+|-
+| {{I|Simonch Shawl}} || {{Cur|Valley Stock Bill|300}} || 2 || No || {{I|Frontiers Watch}} || {{Cur|Valley Stock Bill|300}} || 2 || No || {{I|Aurylene Camera}} || {{Cur|Valley Stock Bill|6000}} || 10 || Yes || {{I|Cosmic Gate Puzzle}} || {{Cur|Valley Stock Bill|6000}} || 10 || Yes
+|-
+| {{I|Surfing Festival Ticket}} || {{Cur|Valley Stock Bill|6000}} || 10 || Yes || {{I|Breeze of Kjersch}} || {{Cur|Valley Stock Bill|6000}} || 10 || Yes || {{I|Tidestone Specimen}} || {{Cur|Valley Stock Bill|6000}} || 10 || Yes || {{I|Simonch Shawl}} || {{Cur|Valley Stock Bill|6000}} || 10 || Yes 
+|-
+| {{I|Frontiers Watch}} || {{Cur|Valley Stock Bill|6000}} || 10 || Yes || {{I|Aurylene Camera}} || {{Cur|Valley Stock Bill|30000}} || 60 || Yes || {{I|Cosmic Gate Puzzle}} || {{Cur|Valley Stock Bill|30000}} || 60 || Yes || {{I|Surfing Festival Ticket}} || {{Cur|Valley Stock Bill|30000}} || 60 || Yes 
+|-
+| {{I|Breeze of Kjersch}} || {{Cur|Valley Stock Bill|30000}} || 60 || Yes || {{I|Tidestone Specimen}} || {{Cur|Valley Stock Bill|30000}} || 60 || Yes || {{I|Simonch Shawl}} || {{Cur|Valley Stock Bill|30000}} || 60 || Yes || {{I|Frontiers Watch}} || {{Cur|Valley Stock Bill|30000}} || 60 || Yes
+|}
+|-|
+Wuling=
+{| class="wikitable" style="width: auto;"
+|-
+! colspan= "16"; | Consumable Goods
+|-
+! Item !! Price !! Stock !! Refresh? !! Item !! Price !! Stock !! Refresh? !! Item !! Price !! Stock !! Refresh? !! Item !! Price !! Stock !! Refresh?
+|-
+| {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|4000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|7500}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|50000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|50000}} || 1 || No
+|-
+| {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|50000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|50000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|50000}} || 1 || No || {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|50000}} || 1 || No
+|-
+| {{I|Basic HH Permit}} || {{Cur|Wuling Stock Bill|50000}} || 1 || No || {{I|Sanity Usage Permit}} || {{Cur|Wuling Stock Bill|60000}} || 60 || No || {{I|Sanity Usage Permit}} || {{Cur|Wuling Stock Bill|120000}} || 60 || No || {{I|Sanity Usage Permit}} || {{Cur|Wuling Stock Bill|180000}} || 80 || No
+|-
+| {{I|Sanity Usage Permit}} || {{Cur|Wuling Stock Bill|240000}} || 80 || No || {{I|Sanity Usage Permit}} || {{Cur|Wuling Stock Bill|240000}} || 120 || No || {{I|Sanity Usage Permit}} || {{Cur|Wuling Stock Bill|300000}} || 160 || No || {{I|Advanced Cognitive Carrier|3}} || {{Cur|Wuling Stock Bill|30000}} || 10 || No
+|-
+| {{I|T-Creds|5000}} || {{Cur|Wuling Stock Bill|7500}} || 10 || No || {{I|T-Creds|5000}} || {{Cur|Wuling Stock Bill|15000}} || 10 || No || {{I|T-Creds|5000}} || {{Cur|Wuling Stock Bill|30000}} || 10 || No || {{I|T-Creds|20000}} || {{Cur|Wuling Stock Bill|45000}} || 10 || No
+|-
+| {{I|T-Creds|20000}} || {{Cur|Wuling Stock Bill|60000}} || 10 || No || {{I|T-Creds|20000}} || {{Cur|Wuling Stock Bill|75000}} || 10 || No || {{I|T-Creds|20000}} || {{Cur|Wuling Stock Bill|90000}} || 10 || No || {{I|T-Creds|20000}} || {{Cur|Wuling Stock Bill|90000}} || 10 || No
+|-
+| {{I|Protohedron|6}} || {{Cur|Wuling Stock Bill|45000}} || 10 || No || {{I|Protohedron|6}} || {{Cur|Wuling Stock Bill|54000}} || 10 || No || {{I|Protohedron|6}} || {{Cur|Wuling Stock Bill|54000}} || 10 || No || {{I|Wuling Engraving Permit}} || {{Cur|Wuling Stock Bill|120000}} || 15 || Yes
+|-
+| {{I|Wuling Engraving Permit}} || {{Cur|Wuling Stock Bill|240000}} || 10 || Yes || {{I|Fortifying Infusion}} || {{Cur|Wuling Stock Bill|15000}} || 5 || No || {{I|Garden Fried Rice}} || {{Cur|Wuling Stock Bill|15000}} || 5 || No || {{I|Fortifying Infusion}} || {{Cur|Wuling Stock Bill|30000}} || 40 || Yes
+|-
+| {{I|Garden Fried Rice}} || {{Cur|Wuling Stock Bill|30000}} || 40 || Yes || {{I|Master Pan's Egg Pudding}} || {{Cur|Wuling Stock Bill|45000}} || 40 || Yes || {{I|Rind-Flavored Sprouts}} || {{Cur|Wuling Stock Bill|90000}} || 40 || Yes || {{I|Stonehold Remedy}} || {{Cur|Wuling Stock Bill|120000}} || 40 || Yes
+|-
+| {{I|Ruin-Purger Remedy}} || {{Cur|Wuling Stock Bill|120000}} || 40 || Yes || {{I|Echoing Remedy}} || {{Cur|Wuling Stock Bill|60000}} || 40 || Yes || - || - || - || - || - || - || - || -
+|-
+! colspan= "16" | Factory Goods
+|-
+| {{I|Bonekrusha Figurine T1 (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|Hot Work Power Cartridge (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|Redeemer Tag (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|Redeemer Tag T1 (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No
+|-
+| {{I|Redeemer Seal (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|Redeemer Seal T1 (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|LYNX Connector T1 (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|MI Security Push Knife T1 (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No
+|-
+| {{I|Type 50 Yinglung Knife (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|Type 50 Yinglung Knife T1 (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|MI Security Overalls T2 (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|MI Security Armband (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No
+|-
+| {{I|MI Security Scope (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|MI Security Toolkit (Recipe)}} || {{Cur|Wuling Stock Bill|5000}} || 1 || No || {{I|Redeemer Plates (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Redeemer Armor (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No 
+|-
+| {{I|Redeemer Gloves (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Redeemer Hands (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Swordmancer Light Armor (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Swordmancer NAV Beacon (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No 
+|-
+| {{I|Swordmancer Micro Filter (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|LYNX Connector T2 (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Æthertech Light Gloves (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Æthertech Stabilizer T1 (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No 
+|-
+| {{I|Æthertech Watch (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Pulser Labs Probe (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Pulser Labs Invasion Core (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Hot Work Exo-Rig (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No 
+|-
+| {{I|Hot Work Gloves (Recipe)}} || {{Cur|Wuling Stock Bill|80000}} || 1 || No || {{I|Wuling Artificing Catalyst}} || {{Cur|Wuling Stock Bill|12000}} || 200 || No || {{I|Wuling Artificing Catalyst}} || {{Cur|Wuling Stock Bill|60000}} || 40 || Yes ||{{I|Wuling Artificing Catalyst}} || {{Cur|Wuling Stock Bill|120000}} || 20 || Yes
+|-
+| {{I|Wuling Artificing Catalyst}} || {{Cur|Wuling Stock Bill|180000}} || 20 || Yes || {{I|Wuling Artificing Catalyst}} || {{Cur|Wuling Stock Bill|300000}} || 20 || Yes || {{I|Wuling Artificing Catalyst}} || {{Cur|Wuling Stock Bill|420000}} || 20 || Yes || {{I|Wuling Artificing Catalyst}} || {{Cur|Wuling Stock Bill|600000}} || 20 || Yes
+|-
+| {{I|Keen Wuling Detector}} || {{Cur|Wuling Stock Bill|15000}} || 10 || Yes || {{I|Keen Wuling Compass}} || {{Cur|Wuling Stock Bill|15000}} || 10 || Yes || {{I|Keen Wuling Detector}} || {{Cur|Wuling Stock Bill|30000}} || 5 || Yes || {{I|Keen Wuling Compass}} || {{Cur|Wuling Stock Bill|30000}} || 5 || Yes
+|-
+| {{I|Wuling Talosite Probe}} || {{Cur|Wuling Stock Bill|75000}} || 10 || Yes || {{I|Wuling Talosite Probe}} || {{Cur|Wuling Stock Bill|150000}} || 5 || Yes || - || - || - || - || - || - || - || -
+|-
+! colspan= "16" | Cultural Goods
+|-
+| {{I|Chubby Lung Bollard}} || {{Cur|Wuling Stock Bill|1000000}} || 4 || No || {{I|Chubby Lung Balloon}} || {{Cur|Wuling Stock Bill|2000000}} || 4 || No || {{I|Tiger Cage}} || {{Cur|Wuling Stock Bill|3000000}} || 1 || No || {{I|Sanguine Memories}} || {{Cur|Wuling Stock Bill|3000000}} || 1 || No
+|-
+| {{I|Tianshi Pillar Model}} || {{Cur|Wuling Stock Bill|4000000}} || 1 || No || {{I|Deluxe Chubby Lung}} || {{Cur|Wuling Stock Bill|10000000}} || 1 || No || {{I|Dichromo-Light}} || {{Cur|Wuling Stock Bill|12000000}} || 1 || No || {{I|Eureka Teabox}} || {{Cur|Wuling Stock Bill|4500}} || 30 || Yes
+|-
+| {{I|Yinglung Dumbbells}} || {{Cur|Wuling Stock Bill|4500}} || 30 || Yes || {{I|Eureka Teabox}} || {{Cur|Wuling Stock Bill|9000}} || 30 || Yes || {{I|Yinglung Dumbbells}} || {{Cur|Wuling Stock Bill|9000}} || 30 || Yes || {{I|Woven Aggelos}} || {{Cur|Wuling Stock Bill|13500}} || 30 || Yes
+|-
+| {{I|Scrimshaw of the Pack}} || {{Cur|Wuling Stock Bill|13500}} || 30 || Yes || {{I|Chubby Lung: Fangxing Memorabilia}} || {{Cur|Wuling Stock Bill|18000}} || 30 || Yes || {{I|Fin-n-Chips}} || {{Cur|Wuling Stock Bill|27000}} || 30 || Yes || {{I|Bizarro Cupcake}} || {{Cur|Wuling Stock Bill|27000}} || 30 || Yes
+|-
+| {{I|Fowlbeast Paper Kite}} || {{Cur|Wuling Stock Bill|36000}} || 30 || Yes || {{I|Der Schwingende Gentleman Classical Album}} || {{Cur|Wuling Stock Bill|36000}} || 30 || Yes || - || - || - || - || - || - || - || -
+|}
+|-|
+Elastic Goods=
+{| class="wikitable" style="width: auto;"
+|-
+! Item !! Bill !! Item !! Bill !! Item !! Bill !! Item !! Bill
+|-
+| {{I|Ankhorilling Kitchenware (pkg)}} || {{I|Valley Stock Bill}} || {{I|Musbeast Scrimshaw Dangles (pkg)}} || {{I|Valley Stock Bill}} || {{I|Witchcraft Mining Drill (pkg)}} || {{I|Valley Stock Bill}} || {{I|Aggeloi War Tins (pkg)}} || {{I|Valley Stock Bill}}
+|-
+| {{I|Valley Hydroculture Fillets (pkg)}} || {{I|Valley Stock Bill}} || {{I|Unity Syrup (pkg)}} || {{I|Valley Stock Bill}} || {{I|Seš'qamam Knucklebones (pkg)}} || {{I|Valley Stock Bill}} || {{I|Originium Saplings (pkg)}} || {{I|Valley Stock Bill}}
+|-
+| {{I|Astarron Crystals (pkg)}} || {{I|Valley Stock Bill}} || {{I|Vigilant Pickaxes (pkg)}} || {{I|Valley Stock Bill}} || {{I|Hard Noggin Helmets (pkg)}} || {{I|Valley Stock Bill}} || {{I|Scrap Toy Blocks (pkg)}} || {{I|Valley Stock Bill}}
+|-
+| {{I|Wuxia Movies (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Eureka Anti-smog Tincture (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Nymphsprout (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Wuling Frozen Pears (pkg)}} || {{I|Wuling Stock Bill}}
+|-
+| {{I|Chubby Lung Tianshi (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Xiranite Filter Cores (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Qingbo Rafts (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Xiran-Hue Fireworks (pkg)}} || {{I|Wuling Stock Bill}}
+|-
+| {{I|Aerial Receptionists (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Swordmancer Forge (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Xiranite Bridge (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Marker Stone Lock (pkg)}} || {{I|Wuling Stock Bill}}
+|-
+| {{I|Chubby Lung Blimp (pkg)}} || {{I|Wuling Stock Bill}} || {{I|Tianshi Pillar Cores (pkg)}} || {{I|Wuling Stock Bill}} || - || - || - || -
+|}
+</tabber>
+
+== Navigation ==
+{{Features nav}}
+[[Category: Facility (Regional Development)]]

@@ -1,0 +1,44 @@
+# Breach core: Lifeng / Chen / Pogranichnik / Mi Fu.
+# The user's rotation as of 2026-09-11, plus where the ultimates go.
+#
+# Stack economy: Breach eats EVERY Vulnerable stack, and Mi Fu's Crush needs
+# 3+. That is why Pogranichnik's battle skill is pressed in the first cycle only.
+title: Breach core: Lifeng / Chen / Pogranichnik / Mi Fu
+team: Lifeng, Chen Qianyu, Pogranichnik, Mi Fu
+
+variant: basic — as played now
+cycle 1:
+Lifeng: BS         [clean target, so Knock Down gives 1 stack AND applies Phys Susceptibility]
+Chen Qianyu: CS    [Lift. 2 stacks]
+Lifeng: FS > CS    [FS on a target with Susceptibility opens the combo. gives Link]
+Chen Qianyu: BS    [Lift. 3 stacks. EATS Link at multiplier 3.8]
+Chen Qianyu: CS    [Lift. 4 stacks]
+Pogranichnik: BS   [Breach on 4 stacks. SL IV = 250% ATK and +24% Phys DMG Taken for 30 s]
+Pogranichnik: CS   [triggered by Breach consuming the stacks]
+cycle 2:
+Lifeng: FS > CS    [Breach is still up from the last cycle. gives Link]
+Chen Qianyu: BS    [the target is at zero after Breach. 1 stack. EATS Link]
+Chen Qianyu: CS    [2 stacks]
+Lifeng: BS         [Knock Down. 3 stacks. Susceptibility is NOT applied — there are stacks]
+Mi Fu: CS          [trigger at 3 stacks. turns the next battle skill into Trail and Mangle]
+Mi Fu: BS2         [Trail and Mangle. Crush eats 3 stacks and opens BS3]
+Mi Fu: BS3         [World Splitter]
+
+variant: with ultimates — Link goes to Lifeng's ultimate
+cycle 1:
+Lifeng: BS         [Phys Susceptibility and 1 stack]
+Chen Qianyu: CS    [2 stacks]
+Lifeng: FS > CS    [Link]
+Lifeng: ULT        [EATS Link. extra hit 6.0. two Knock Downs = 4 stacks]
+Pogranichnik: BS   [Breach right on 4 stacks. Chen's battle skill is not needed]
+Pogranichnik: CS
+cycle 2:
+Pogranichnik: ULT  [Steel Oath, 5 points for 30 s. press it BEFORE building stacks]
+Chen Qianyu: BS    [1 stack]
+Chen Qianyu: CS    [2 stacks]
+Lifeng: BS         [3 stacks]
+Chen Qianyu: ULT   [70 energy. 6x0.81 + final 10.23. inside the Breach window]
+Mi Fu: ULT         [forced Lift = 4 stacks. and turns the next battle skill into Trail and Mangle]
+Mi Fu: CS
+Mi Fu: BS2         [Crush eats 4 stacks, not 3]
+Mi Fu: BS3         [World Splitter]

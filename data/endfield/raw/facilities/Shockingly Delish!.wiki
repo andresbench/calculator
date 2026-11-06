@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Shockingly Delish!
+|filename = item_port_signboard_1
+|images = Shockingly Delish! icon.png:Icon;
+Shockingly Delish!.png:Full
+|cnname = 震撼美味！
+|tcname = 震撼美味！
+|jpname = 震撼美味！
+|krname = 충격적인 맛!
+|spname = ¡Electrizantemente delicioso!
+|runame = Потрясающе вкусно!
+|type = Ornamental
+|rarity = 5
+}}
+'''Shockingly Delish!''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Unquestionably the highest form of approval in Talos-II for both spiritual and material needs.}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category: Ornamental Facilities]]

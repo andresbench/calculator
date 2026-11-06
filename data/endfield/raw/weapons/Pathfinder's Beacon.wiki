@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Pathfinder's Beacon
+|rarity = 4
+|images = 
+Pathfinder's_Beacon icon.png:Icon;
+Pathfinder's_Beacon.png:Full;
+Pathfinder's_Beacon max model.png:Max
+|filename = wpn_lance_0003
+|cnname = 寻路者道标
+|tcname = 尋路者道標
+|jpname = 開拓者の道標
+|krname = 개척자의 이정표
+|spname = Baliza del explorador
+|runame = Маяк следопыта
+|type = Polearm
+|source = Acquisition Center: Arsenal Exchange}}
+'''Pathfinder's Beacon''' is a 4★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the advanced weaponry manufactured by Endfield for their operators. This streamlined and lightweight weapon is well-balanced and would remind many people of the standard-issue lances once wielded by Vanguard class operators of Rhodes Island.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Inspiring: Start of a Saga|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Agility [S]|ATK [S]|Inspiring: Start of a Saga}}
+
+==Basic Info==
+{{Quote|"Hey, baws. Where we going?"<br>"An Endfield facility 13 klicks away. We have another Aggeloid breach on another secondary settlement. We must rendezvous with the Endmin."<br>"I know that already, baws. I'm just curious why we're going around in circles..."<br>"Because the Aggeloi flipped our rover and busted our nav device. If we had one of those, we would have left these hills behind us an hour ago."<br>"Oh, baws! Just remembered sumthin'! Instructor Dobermann taught us this trick, you know! We can stick our lance in the ground and guess-timate our position by looking at its shadow and the position of the sun!"<br>"Thank you very much, but that method doesn't work here."<br>"Why...? Are you saying there's sumthin' wrong with Dobermann's training?"<br>"Geesh. Think! Use that thing in your head! This isn't Terra, genius! We're on a moon! A blighted moon orbiting a gas giant named Talos!"<br>"Oh yeah, you're right ... gas giants... So what is that huge thing in the sky? What's it called again?"<br>"Talos! That's a planet and it's a gas giant. We've been through the gate for years already. You should know all this!"<br>"Oh. Alright. Yeah, I guess it confused the hell out of me... So, baws... Can we still ... erm ... find our way out of here?"<br>"I would talk less and conserve my strength if I were you. Those wounds don't look good."<br>"Alright, baws... Just so you know, I ain't feelin' too good... I probably won't make it..."<br>"Shut it. We will make it. We will find a way. If we can't get the gates to open again, Talos-II will be our new home."<br>"Hah. You're the baws... You're the ... baws..."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

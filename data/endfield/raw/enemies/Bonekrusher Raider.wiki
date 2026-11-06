@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Bonekrusher Raider
+|image = Bonekrusher_Raider_sprite.png
+|filename = eny_0029_lbmob
+|cnname = 碾骨劫掠者
+|tcname = 碾骨劫掠者
+|jpname = ボーンクラッシャーの略奪者
+|krname = 본 크러셔 약탈자
+|spname = Asaltante Rompehuesos
+|runame = Захватчик Костоломов
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Bonekrusher Raider''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker armed with basic melee weapons. These "common rabble" of LB clans tend to be poorly equipped and usually appear in groups.}}
+
+==Stats==
+{{Enemy data
+|HP = 194, 1391, 8802, 34651, 83350, 128403
+|ATK = 36, 171, 531, 1317, 1982, 2271
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.3
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[The Hub]]
+*[[Valley Pass]]
+*[[Originium Science Park]]
+*[[Origin Lodespring]]
+*[[Energy Alluvium: Originium Science Park]]
+|drops = {{I|Powdered Grass Seed}}
+|addendum = }}
+
+==Overview==
+One of the basic melee Bonekrushers, Bonekrusher Raiders are more of a fodder enemy; Their only attack is an upward swing or a downward swing with their sword, which deals Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 194, 1391, 8802, 34651, 83350, 128403 from 194, 1636, 10355, 34651, 83350, 128403
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

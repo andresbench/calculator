@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = Elite Ambusher
+|image = Elite_Ambusher_sprite.png
+|filename = eny_0066_lbhunt2
+|cnname = 精锐伏击射手
+|tcname = 精銳伏擊射手
+|jpname = 潜伏狙撃手・精鋭
+|krname = 저격수 · 정예
+|spname = Emboscador de élite
+|runame = Элитный налетчик
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 12
+}}
+'''Elite Ambusher''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An elite Landbreaker ranged combatant enhanced by fumes known as hazefyre. This particular LB is better trained and more accurate, and is armed with better crossbow and bolts.}}
+
+==Stats==
+{{Enemy data
+|HP = 263, 1888, 11945, 47026, 113118, 174261
+|ATK = 38, 178, 555, 1377, 2073, 2375
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 110
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 7
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[The Hub]]
+*[[Originium Science Park]]
+*[[Power Plateau]]
+*[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Powdered Grass Seed}}
+|addendum = }}
+
+==Overview==
+[[Bonekrusher Ambusher]]s enhanced by hazefyre, Elite Ambushers have similar appearance to their counterpart, but it doesn't make them more of a threat; Aside from a shot from their crossbow, which deals Physical damage, they can throw a grenade, dealing Physical damage in an area.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 263, 1888, 11945, 47026, 113118, 174261 from 263, 2221, 14053, 47026, 113118, 174261
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

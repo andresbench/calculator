@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Bracing Slab T1
+|image = Eternal_Xiranite_Bracing_Slab_T1.png
+|filename = item_equip_t4_suit_usp02_edc_05
+|cnname = 长息加固板·壹型
+|tcname = 長息加固板·I
+|jpname = 流転補強板Ⅰ
+|krname = 식양의 숨결 강화판 · I
+|spname = Losa de refuerzo de Xiranita eterna T1
+|runame = Крепежная пластина «Вечный ксиранит» К1
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Bracing Slab T1''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+The Tianshi responsible for pushing the legacy design to the production floor also realized it was too barebones. Hence, they designed additional protective slabs to supplement the defenses.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +32, +35, +38, +41
+|sstat = Agility
+|svalue = +21, +23, +25, +27
+|tstat = Ultimate Gain Efficiency
+|tvalue = +24.6%, +27.1%, +29.6%, +32.0%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

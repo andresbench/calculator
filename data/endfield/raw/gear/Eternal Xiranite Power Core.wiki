@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Power Core
+|image = Eternal_Xiranite_Power_Core.png
+|filename = item_equip_t4_suit_usp02_edc_01
+|cnname = 长息蓄电核
+|tcname = 長息蓄電核
+|jpname = 流転蓄電装置
+|krname = 식양의 숨결 충전 코어
+|spname = Núcleo de energía de Xiranita eterna
+|runame = Энергетическое ядро «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Power Core''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+...He once walked the streets with a large bowl of Tofu Stewed in Bamboo Dew, and claimed that he just concocted the next generation of Xiranite-based refrigeration technology.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Intellect
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Ultimate Gain Efficiency
+|tvalue = +24.6%, +27.1%, +29.6%, +32.0%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

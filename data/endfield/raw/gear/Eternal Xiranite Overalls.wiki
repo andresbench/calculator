@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Overalls
+|image = Eternal_Xiranite_Overalls.png
+|filename = item_equip_t4_suit_usp02_body_05
+|cnname = 长息防护服
+|tcname = 長息防護服
+|jpname = 流転防護服
+|krname = 식양의 숨결 방호복
+|spname = Overol de Xiranita eterna
+|runame = Комбинезон «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Overalls''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+Its excessive simplicity has a perk. A wearer who survives a battle can often find usable plugins and modules from their fallen comrades, further ensuring their own life expectancy.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Intellect
+|pvalue = +87, +95, +104, +113
+|sstat = Strength
+|svalue = +58, +63, +69, +75
+|tstat = Ultimate Gain Efficiency
+|tvalue = +12.3%, +13.6%, +14.8%, +16.0%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

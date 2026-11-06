@@ -1,0 +1,31 @@
+{{Facility infobox
+|name = Gas Extractor
+|filename = item_port_gas_pump_1
+|images = Gas_Extractor_icon.png:Icon;
+Gas_Extractor.png:Full
+|cnname = 气体收集泵
+|tcname = 氣體收集泵
+|jpname = ガス収集ポンプ
+|krname = 기체 수집기
+|spname = Extractor de gas
+|runame = Газовый экстрактор
+|type = Resourcing
+|rarity = 2
+|power = }}
+'''Gas Extractor''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that can extract Inergen and other gases. It does not require power to work.|Those companies would never realize why Endfield Industries bought up all those vacuum cleaner patents.}}
+==Usage==
+A facility that can extract [[Inergen]] and other gases, such as [[Xiragen]].
+*It does not require power to work, as it uses natural flow of gas to extract gases.
+
+==Acquisition==
+*Requirement : [[AIC_Factory_Plan#Wuling_AIC_Plan|Wuling AIC Plan - Wuling AIC II - Gas Extraction]]
+{{RecipeTable|product=Gas Extractor}}
+
+==Trivia==
+*In the version preview for [[Sketches of Lost Heirlooms]], the Gas Extractor was first shown with the name "Assimilator" printed on the case.
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

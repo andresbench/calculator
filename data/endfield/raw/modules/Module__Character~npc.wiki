@@ -1,0 +1,10 @@
+local data={
+	["Andre Zlotareed"]={name="Andre Zlotareed", faction="Endfield Industries"},
+	["Fiona"]={name="Fiona", faction="Endfield Industries"},
+	["Martin Marvin Malen"]={name="Martin Marvin Malen", faction="Endfield Industries"},
+	["Qin Jiangchi"]={name="Qin Jiangchi", faction="Endfield Industries"},
+	["Raquel"]={name="Raquel", faction="Talos-II General Chamber of Commerce"},
+	["Rossi"]={name="Rossi", faction="The Pack"},
+	["Warfarin"]={name="Warfarin", faction="Endfield Industries"},
+}
+return data

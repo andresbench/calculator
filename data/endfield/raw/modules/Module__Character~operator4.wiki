@@ -1,0 +1,11 @@
+local data={
+	["Akekuri"]={name="Akekuri", class="Vanguard", element="Heat", weapon="Sword", faction="Endfield Industries"},
+	["Antal"]={name="Antal", class="Supporter", element="Electric", weapon="Orbiter", faction="Endfield Industries"},
+	["Catcher"]={name="Catcher", class="Defender", element="Physical", weapon="Great Sword", faction="Endfield Industries"},
+	["Estella"]={name="Estella", class="Guard", element="Cryo", weapon="Polearm", faction="Endfield Industries"},
+	["Fluorite"]={name="Fluorite", class="Caster", element="Nature", weapon="Guns", faction="Endfield Industries"},
+}
+for k, v in pairs(data) do
+	v.star=(4)
+end
+return data

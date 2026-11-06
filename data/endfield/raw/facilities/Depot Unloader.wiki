@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Depot Unloader
+|filename = item_port_unloader_1
+|images = Depot Unloader icon.png:Icon;
+Depot Unloader.png:Full
+|cnname = 仓库取货口
+|tcname = 倉庫取貨口
+|jpname = 倉庫搬出口
+|krname = 창고 출력 포트
+|spname = Descargador del depósito
+|runame = Узел разгрузки склада
+|type = Depot Access
+|rarity = 3}}
+'''Depot Unloader''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A placeable unloading point that transfers goods from a local depot into the AIC Factory. The Depot Unloader must be placed right next to the Depot Bus.|In extreme environments, the Depot Loaders and Depot Unloaders can be directly connected to the facilities to ensure germ-free and low Blight transportation.}}
+==Usage==
+A placeable unloading point that transfers goods from a local depot into the AIC Factory. The Depot Unloader must be placed right next to the Depot Bus.
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Depot Bus]]
+{{RecipeTable|product=Depot Unloader}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

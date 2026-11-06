@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Fluid Tank
+|filename = item_port_liquid_storager_1
+|images = Fluid Tank icon.png:Icon;
+Fluid Tank.png:Full
+|cnname = 储液罐
+|tcname = 儲液罐
+|jpname = 液体貯蔵タンク
+|krname = 액체 저장 탱크
+|spname = Tanque de fluido
+|runame = Бак для жидкости
+|type = Depot Access
+|rarity = 2}}
+'''Fluid Tank''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for storing fluids.|It took the engineers nearly 5 years to come up with a tank that can store corrosive fluids while being resistant against the effects of ambient Blight.}}
+==Usage==
+A facility for storing up to 500 unit of a type of fluid.
+
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Fluid Storage]]
+{{RecipeTable|product=Fluid Tank}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

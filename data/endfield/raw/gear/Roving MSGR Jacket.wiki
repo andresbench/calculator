@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Roving MSGR Jacket
+|image = Roving_MSGR_Jacket.png
+|filename = item_equip_t2_suit_agi01_body_01
+|cnname = 巡行信使夹克
+|tcname = 巡行信使夾克
+|jpname = 遍歴トランスポータージャケット
+|krname = 순행 전달자 재킷
+|spname = Chaqueta de MSJR móvil
+|runame = Куртка гонца-странника
+|rarity = 3
+|artifice = no
+|type = Armor
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Roving MSGR Jacket''' is a {{gear|3|Armor}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A jacket that any messenger would love to wear. 
+Messengers working in and near the Valley IV region will often give their vehicles paintjobs with tree-like patterns. They hope the sight of these majestic plants that once protected this land can bring people strength.}}
+
+==Stats==
+{{Gear data
+|defense = +28.8
+|pstat = Agility
+|pvalue = +44
+|sstat = Intellect
+|svalue = +29
+|tstat = Attack
+|tvalue = +16.2
+|setname = Roving MSGR
+|seteffect = 3-piece set effect: Wearer's Agility {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Physical DMG|1}} {{Color|+20%|1d}}.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Roving MSGR}}
+{{Gears|state=collapsed}}

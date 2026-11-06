@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Pulser Labs Armor Slab
+|image = Pulser_Labs_Armor_Slab.png
+|filename = item_equip_t4_suit_pulse_cryst01_edc_04
+|cnname = 脉冲式护甲板
+|tcname = 脈衝式護甲板
+|jpname = パルス式装甲板
+|krname = 펄스식 방탄 방어구
+|spname = Losa de armadura de Laboratorios Pulso
+|runame = Бронепластина «Импульс»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Pulser Labs Armor Slab''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with novel designs. 
+A key component of the Pulser Labs power-circulation system. When inserted in body armor, the slab gives impact absorption and even supplies power to the entire defensive suite.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Ultimate Gain Efficiency
+|tvalue = +24.6%, +27.1%, +29.6%, +32.0%
+|setname = Pulser Labs
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Electrification|Electrification}}, the wearer gains {{Color|Electric DMG|6}}{{Color| +50%|1d}} for 10s. After the wearer applies {{G|Solidification|Solidification}}, the wearer gains {{Color|Cryo DMG|4}}{{Color| +50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Pulser Labs}}
+{{Gears|state=collapsed}}

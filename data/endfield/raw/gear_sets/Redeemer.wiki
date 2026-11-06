@@ -1,0 +1,24 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Hongshan Swordmancers manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Hongshan Swordmancers]]
+|level= 70
+|region = [[Wuling]]
+|effect = No Set Effects
+}}
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|This piece of gear is the byword for the difficult road ahead. "The quest is not yet finished, and so the journey is not yet complete."}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Hongshan Swordmancers.
+
+
+==Set Items==
+{{Gear Set|Redeemer}}
+==References==
+{{Reflist}}
+{{Gears|state=collapsed}}

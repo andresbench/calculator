@@ -1,0 +1,41 @@
+{{Gear infobox
+|name = Deep Rampart Gauntlets
+|image = Deep_Rampart_Gauntlets.png
+|filename = item_equip_t4_suit_spellburst_hand_01
+|cnname = 险关手甲
+|tcname = 險關手甲
+|jpname = 天険ガントレット
+|krname = 관문 금속 장갑
+|spname = Guanteletes de Baluarte profundo
+|runame = Рукавицы «Далекий бастион»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Deep Rampart Gauntlets''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Designed by Endfield after referencing standard-issue equipment of the YSTF. 
+"Should the contingency measure include..."
+"Got it. Thicken the finger armor scales, and make it good for both defense and offense!"}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Agility
+|pvalue = +65, +71, +78, +84
+|sstat = Will
+|svalue = +43, +47, +51, +55
+|tstat = Arts Intensity
+|tvalue = +34.5, +38, +41.4, +44.9
+|setname = Deep Rampart
+|seteffect = 3-piece set effect: Wearer's Arts DMG Dealt {{Color|+16%|1d}}.
+When the wearer applies {{G|Nature Burst|Nature Burst}} or {{G|Cryo Burst|Cryo Burst}}, the wearer gains Arts Intensity {{Color|+16|1d}} for 20s. Max stacks for this effect: 3. Duration of each stack is counted separately. Effect only triggers once every 0.1s.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Deep Rampart}}
+{{Gears|state=collapsed}}

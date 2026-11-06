@@ -1,0 +1,91 @@
+# SP recovery that the wiki does not give numerically — hand-written layer.
+#
+# The `Skill Points` page states the mechanics but not the numbers:
+#
+#   "Hitting an enemy with a Final Strike restores SP based on the controlled
+#    Operator, ranging from 15 SP as Fluorite and up to 30 SP as Last Rite."
+#   "Performing a Finisher recovers SP based on the enemy."
+#   "A Perfect Dodge recovers approximately 7.5 SP, but pauses the natural
+#    regeneration for half a second."
+#
+# So we have two anchors for Final Strike and nothing at all for Finisher.
+# Everything else here is a placeholder, and the engine reports it as such.
+#
+# WHY THIS MATTERS
+#
+# Rotations lean on Final Strike as an SP source: `Lifeng: FS > CS` exists to
+# pay for the next Battle Skill. Without these numbers the simulation
+# underestimates SP, invents waits that do not happen in play, and therefore
+# overstates how long a rotation takes.
+#
+# Measurement protocol: docs/measurements.md, #20.
+
+meta:
+  measured: true
+  updated: '2026-10-29'
+  source: >-
+    Per-operator Final Strike SP and basic-chain length come from the client
+    datamine: data/endfield/basic_attacks.json, written by
+    tools/ef/frames.py --export (atb of the chain's last hit, frame timeline).
+    Until 2026-10-29 they came from an anonymous community table
+    (https://docs.google.com/spreadsheets/d/1gzrq0Uj86TP0oXb5Qb5wt6WNwNMXekmuA_mjYMeFUC0),
+    which is now only a cross-check for frames.py --verify. Finisher SP is
+    in the wiki, as the per-enemy SPG field.
+
+# Passive SP regeneration, SP per second.
+#
+# The wiki says "8 SP per second". A community table once said a bar takes
+# 13 s (100/13 = 7.69), and the engine used that until 2026-10-29. The
+# client's Final Strike values (`atb`) settled it the other way: the same
+# table's measured "seconds of bar returned" times 8 gives `atb` exactly for
+# 26 operators of 28, so the table's own data says 8 and only its note says
+# 13. Taken as 8 on the datamine, then closed by 60 fps video on
+# 2026-11-04: 751 ± 4 recorded frames per bar (8 SP/s predicts 750, 7.69
+# predicts 780) — measurements, #20. Regen stops during an ultimate's
+# cutscene (#35, confirmed 2026-11-05); the engine does not model it yet.
+passive_regen: 8
+passive_regen_note: 'measured 7.99 SP/s on video (measurements #20)'
+
+final_strike:
+  # `known` is filled from basic_attacks.json at export time, one entry per
+  # operator. This default only covers someone the client does not list.
+  #
+  # The client agrees with the wiki exactly: Fluorite 15 is the minimum and
+  # Last Rite 30 the maximum, both integers (measurements, #20).
+  default: 20
+  confidence: unknown
+  known: {}
+
+finisher:
+  # RESOLVED 2026-09-12: the figures were in the wiki all along, as the
+  # per-enemy `SPG` field. Template:Enemy data labels that column
+  # "Finisher SP Gain". The engine reads it from the enemy record, so nothing
+  # is needed here; the default only covers an unknown target.
+  #
+  # Scale: Common 25, Advanced 35, Alpha 50, Boss 100. A finisher on a boss
+  # refunds a whole skill bar.
+  default: 25
+  confidence: confirmed
+  by_class: {}
+
+perfect_dodge:
+  # The wiki says "approximately 7.5 SP" and a 0.5 s regen pause. The client
+  # says 7: buff_common_dash_behit_listener grants SP through ObtainCostAction
+  # (costType 1, the same cost a Final Strike's `atb` feeds) from its
+  # blackboard `atb` = 7.0, and nothing passes it another value. The pause is
+  # not a pause in the client: a perfect dodge slows the world (time
+  # dilation, layer 0, 0.6 s, scale down to 0.05), which loses ~0.47 s of
+  # world time, while cooldowns tick unscaled (useTimeScaleForSkillCdTick:
+  # false). Regen following the world clock would read as "half a second".
+  # Measurements, #40.
+  #
+  # The rotation's DODGE is a perfect one; a dodge that lands nothing is a
+  # pause (WAIT).
+  #
+  # MEASURED 2026-11-05 on video (#40): five perfect dodges by Chen bracket
+  # the jump to 7.56–7.97 SP — the client's 7 does not fit — and four give a
+  # net gain (jump minus regen lost) of +3.37 ± 0.05. With the wiki's 7.5 the
+  # regen stands still for 0.52 s. What the track needs is the net gain.
+  amount: 7.5
+  regen_pause: 0.52
+  confidence: measured

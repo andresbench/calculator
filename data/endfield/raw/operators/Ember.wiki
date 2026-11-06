@@ -1,0 +1,250 @@
+{{Operator infobox
+|name = Ember
+|rarity = 6
+|class = Defender
+|weapon = Great Sword
+|element = Heat
+|faction = Order of Steel Oath
+|tags = Knock Down, HP Treatment, Shield
+|main = Strength
+|sub = Will
+|starting = 
+|headhunting = standard
+|quote = Ember, Knight of the Order of Steel Oath, reporting for duty. As bound by the pact, I shall obey your command until the Crusade concludes.
+|image = 
+Ember Splash Art.png
+|filename = chr_0009_azrila
+|cnname = 余烬
+|tcname = 餘燼
+|jpname = エンバー
+|krname = 엠버
+|spname = Ember
+|runame = Эмбер
+|fullname = Azrila
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Mikako_Komatsu Komatsu Mikako]
+|cncv = [https://baike.baidu.com/en/item/Xu%20Hui/38399 Xu Hui]
+|encv = [https://rhiannonmoushall.com Rhiannon Moushall]
+|krcv = [https://en.namu.wiki/w/이새아 Yi Sae-ah]
+|gender = Female
+|authentication = Order of Steel Oath
+|birthdate = April 10
+|race = Sankta
+|infection = Oripathy positive (infected), based on medical examination reports.
+|strength = Excellent
+|tactical = Excellent
+|skill = Excellent
+|originium = Standard
+|exp1 = Combat Technique
+|exp1d = Combat Technique: Armored Defender
+The Order of Steel Oath treats an assault as a means to guard an objective. In the frontlines where the fighting is hardest, the Oathkeepers' defenses serve as a means of attack.
+|exp2 = Constitution
+|exp2d = Constitution: Fortitude
+"You never run out of things to do in the battlefield. The immensity of your tasks boils down to how unwilling you are to fall."
+|hb1 = Sports
+|hb1d = Sports: Military Training
+She is accustomed to life accompanied by sword and warfare. Her crusade is not yet over. She is constantly preparing for it.
+|hb2 = Technology
+|hb2d = Technology: DIY Repairs
+Even the most advanced equipment must be properly maintained. A soldier is duty-bound to have complete knowledge of their closest companions.
+|prefer = Valley Protocol's Choice
+|matskill = Thunderberge, Sundered Prince, Finishing Call
+|matstats = Exemplar, Ancient Canal
+}}
+'''Ember''' is a 6★ [[Heat]] [[Defender]] [[Operator]] from the [[Order of Steel Oath]] in ''[[Arknights: Endfield]]''. She is a [[Great Sword]] user who attacks a target hitting the controlled operator while giving HP treatment to the latter. Her ultimate also grants a {{G|Shield|Shield}} to every teammate.
+
+==Profile==
+"Let's move. War never ends. We can only march on."<br/>Ember serves in the [[Order of Steel Oath]], a military force stationed year-round in the rugged northern regions. To recruit successors for fallen comrades, she returned to the [[Civilization Band]] and accepted an invitation to work with [[Endfield Industries]].<br/>An elite of the Assault Banner in the Order of Steel Oath, Ember fights with flawless skills. She leads every charge, tearing through enemy lines alongside her comrades like an unbreakable spear. To her enemies, she is the bulwark that holds firm. To her allies, she is the wall that never falls. The Order may rest on fortresses and battlecarriers — but warriors like Ember are its true backbone.<br/>"Beneath the aurora lie the defense lines of the Oathkeepers."
+
+==Stats==
+{{Operator data
+|main = Strength
+|sub = Will
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 93, 159, 225, 291, 323
+|STR = 21.649, 54.688, 89.466, 124.244, 159.022, 176.411
+|AGL = 9.793, 28.402, 47.989, 67.577, 87.164, 96.958
+|INT = 8.762, 25.412, 42.938, 60.463, 77.989, 86.752
+|WIL = 13.608, 36.377, 60.344, 84.311, 108.278, 120.262
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, D96 Steel Sample 4 x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Talent {{Color|Inflamed for the Assault|7}} improved: {{G|Protect|Protection}} effect {{Color|+20%|1d}}; hitting an enemy extends the duration by {{Color|1.5|1d}}s.
+|pot1t = Nomadic Fort
+|pot2 = Strength {{Color|+20|1d}}, Will {{Color|+20|1d}}.
+|pot2t = Steel-Hardened Veteran
+|pot3 = Combo skill {{Color|Frontline Support|7}} improved: Restores the HP of another teammate with the lowest percentage HP at {{Color|50%|1d}} of the base effect.
+|pot3t = Indomitable Front
+|pot4 = Ultimate {{Color|Re-Ignited Oath|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Undying Embers
+|pot5 = Ultimate {{Color|Re-Ignited Oath|7}} improved: {{G|Shield|Shield}} effect is multiplied by {{Color|1.2|1d}}; while this {{G|Shield|shield}} is active, the wielder gains ATK +{{Color|10%|1d}}.
+|pot5t = The Steel Oath
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Sword Art of Assault
+|icon= Attack-Greatsword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|25|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 38%, 42%, 46%, 50%, 54%, 57%, 61%, 65%, 69%, 74%, 79%, 86%
+|stat2= BATK SEQ 2 Multiplier, 54%, 59%, 64%, 70%, 75%, 80%, 86%, 91%, 96%, 103%, 111%, 120%
+|stat3= BATK SEQ 3 Multiplier, 66%, 73%, 80%, 86%, 93%, 99%, 106%, 113%, 119%, 128%, 138%, 149%
+|stat4= BATK SEQ 4 Multiplier, 82%, 90%, 98%, 106%, 114%, 122%, 131%, 139%, 147%, 157%, 169%, 184%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Forward March
+|icon= Skill-Ember
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> A leap followed by a heavy slam that deals {{Color|Heat DMG|3}}, {{G|Knock Down|Knock Down}}, and Stagger to all enemies in a fan-shaped area. <br />If Ember takes DMG from enemies during casting, the slam deals more Stagger when it hits.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 173%, 191%, 208%, 225%, 243%, 260%, 277%, 295%, 312%, 334%, 360%, 390%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Additional Stagger Dealt When Hit, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Frontline Support
+|icon= Combo-Ember
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When the controlled operator is attacked. <br /><b>SKILL DESCRIPTION:</b> Leaps at the target enemy and unleashes a heavy slam that deals {{Color|Physical DMG|1}} and {{G|Knock Down|Knock Down}} while giving HP treatment to the controlled operator. The attribute of Will increases the amount of HP treatment.
+|stat1= Cooldown, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 18
+|stat2= DMG Multiplier, 102%, 112%, 122%, 133%, 143%, 153%, 163%, 173%, 184%, 196%, 212%, 230%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Base Treatment, 300, 360, 420, 480, 510, 540, 570, 600, 630, 645, 660, 675
+|stat5= Treatment Increase per Will, 0.7, 0.84, 0.98, 1.12, 1.19, 1.26, 1.33, 1.4, 1.47, 1.51, 1.54, 1.58
+|stat6= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Re-Ignited Oath
+|icon= Ult-Ember
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Slams the ground to deal {{Color|Heat DMG|3}} to nearby enemies, while granting every teammate a {{G|Shield|Shield}} based on Ember's Max HP.
+|stat1= Ultimate Energy Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 289%, 318%, 347%, 376%, 404%, 433%, 462%, 491%, 520%, 556%, 599%, 650%
+|stat3= Stagger, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25
+|stat4= Shield Conversion Ratio (HP), 18%, 18%, 18%, 20%, 20%, 20%, 22%, 22%, 22%, 25%, 25%, 25%
+|stat5= Shield Duration (s), 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Sword Art of Assault|skill2=Forward March|skill3=Frontline Support|skill4=Re-Ignited Oath|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Tachyon Screening Lattice,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Quadrant Fitting Fluid,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Tachyon Screening Lattice,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Quadrant Fitting Fluid,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Sword Art of Assault|skill2=Forward March|skill3=Frontline Support|skill4=Re-Ignited Oath|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Tachyon Screening Lattice,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Quadrant Fitting Fluid,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Tachyon Screening Lattice,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Quadrant Fitting Fluid,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Sword Art of Assault|skill2=Forward March|skill3=Frontline Support|skill4=Re-Ignited Oath|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Tachyon Screening Lattice,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Quadrant Fitting Fluid,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Tachyon Screening Lattice,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Quadrant Fitting Fluid,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Forged
+|icon = Strength
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Strength +10.
+|cond2 = Elite 2
+|desc2 = Operator Strength +15.
+|cond3 = Elite 3
+|desc3 = Operator Strength +15.
+|cond4 = Elite 4
+|desc4 = Operator Strength +20.
+}}
+{{Operator talent
+|name = Inflamed for the Assault
+|icon = Ember Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = When casting the battle skill {{Color|Forward March|7}} and the combo skill {{Color|Frontline Support|7}}, Ember gains {{Color|30%|1d}} {{G|Protect|Protection}} and is less likely to be interrupted.
+|cond2 = Elite 2
+|desc2 = When casting the battle skill {{Color|Forward March|7}} and the combo skill {{Color|Frontline Support|7}}, Ember gains {{Color|50%|1d}} {{G|Protect|Protection}} and is less likely to be interrupted.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Pay the Ferric Price
+|icon = Ember Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = When Ember receives DMG from the enemy, she gains ATK {{Color|+6%|1d}} for 7s. This effect can reach 3 stacks.
+|cond2 = Elite 3
+|desc2 = When Ember receives DMG from the enemy, she gains ATK {{Color|+9%|1d}} for 7s. This effect can reach 3 stacks.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Strength
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Special Northern Training
+|icon = MFG-manufacture_efficiency
+|facility = Manufacturing Cabin
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +30%
+}}
+{{Operator base skill
+|name = Keepers of the Banner
+|icon = RR-guestroom_clue
+|facility = Reception Room
+|postfix1 = α
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to grant operators a small Clue 4 Rate-UP: Order of Steel Oath (activates upon assignment; effects of the same type cannot stack)
+|postfix2 = β
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to grant operators Clue 4 Rate-UP: Order of Steel Oath (activates upon assignment; effects of the same type cannot stack)
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_clue
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Base Skill Mycologist changed to Keepers of the Banner
+*** Old: Assign to Growth Chamber to grant fungal matter growth rate +10% / +20%.
+*** New: Assign to Reception Room to grant operators [a small] Clue 4 Rate-UP: Order of Steel Oath (activates upon assignment; effects of the same type cannot stack)
+*'''Technical Test''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

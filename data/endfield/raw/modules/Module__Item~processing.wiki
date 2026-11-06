@@ -1,0 +1,10 @@
+local data={
+	["Refining Unit"]={name="Refining Unit", tier=1, use="A facility that performs high temperature refining of various materials.", desc="Crystal delamination and thermal moulding... Heat changes and transforms materials, and even enables reactions to create something new.", obtain=""},
+	["Shredding Unit"]={name="Shredding Unit", tier=1, use="A heavy facility that shreds and pulverizes various materials.", desc="Can you hear the crunch of the heavy industrial shredders?", obtain=""},
+	["Fitting Unit"]={name="Fitting Unit", tier=2, use="A facility capable of processing various parts.", desc="Comes with grinding wheels, planing wheels, polishing bits, and milling cutters.", obtain=""},
+	["Moulding Unit"]={name="Moulding Unit", tier=2, use="A facility that produces various containers via stamp moulding.", desc="After jointly organizing a product discussion conference with UWST, Endfield Industries finally overcame the challenges involved in the replacement of moulding dies.", obtain=""},
+	["Planting Unit"]={name="Planting Unit", tier=3, use="A cultivating silo for growing various common plants and crops.", desc="This facility is designed entirely by Endfield Industries. Its cutting edge technologies include real-time monitoring and modulation of silo lighting, temperature, and plant hormone levels.", obtain=""},
+	["Seed-Picking Unit"]={name="Seed-Picking Unit", tier=3, use="A facility that extracts seeds from common crops.", desc="Many Talosians enjoy harvesting and gathering.", obtain=""},
+	["Water Treatment Unit"]={name="Water Treatment Unit", tier=3, use="A facility for processing Sewage.", desc="Endfield greatly improved the efficiency of its water treatment process by employing Techno-Protocol in the steps of disinfection and remediation.", obtain=""},
+}
+return data

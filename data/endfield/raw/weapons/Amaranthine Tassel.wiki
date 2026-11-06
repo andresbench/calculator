@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Amaranthine Tassel
+|rarity = 6
+|images = 
+Amaranthine_Tassel icon.png:Icon;
+Amaranthine_Tassel.png:Full;
+Amaranthine_Tassel max model.png:Max
+|filename = wpn_claym_0017
+|cnname = 赤缨
+|tcname = 赤纓
+|jpname = 赤纓
+|krname = 적영
+|spname = Borla amarantina
+|runame = Пурпурная кисточка
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Amaranthine Tassel''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A greatsword that took Hongshan Swordmancers over ten years to design and produce. Its dimensions are well-proportioned and it strikes with incredible power and ferocity. It is an exemplary piece of heavy weaponry.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 52, 149, 252, 355, 458, 510
+|pot = Skill {{Color|Combative: Amaranthine Cleave|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [L]|ATK [L]|Combative: Amaranthine Cleave}}
+
+==Basic Info==
+{{Quote|"A soldier who enjoys weapon forging is considered an elegant lover of his trade. Forcing a smith, who had no mind for conflicts, to swing a sword is considered a mistake. An error of the time, or fate." <br>Whenever my old mentor said these words, he would stare at the incomplete design blueprint of the greatsword. I knew he missed my brother senior again. <br>My mentor and senior peers spent seven years on the blueprint. In those seven years, the bits of frost that graced my mentor's sideburns grew till his hair turned gray. My brother senior, once proud and ambitious, became taciturn. Only my sister senior kept smiling, like spring with its warm breeze. The original schedule only required our brother senior to design the crossguard and we could submit the prototype blueprint for review. We were certain it would be exemplary. <br>But the day never came. Not even after their names were removed from the rosters of the Hongshan Swordmancers. <br>It was autumn. My brother and sister seniors were deployed to the frontlines as technicians overseeing the delivery of a cache of weapons and equipment. It was a treacherous path and my brother senior never wanted to go. His true passion lay in the smithy, forging, and machining, and he loved the sight of red hot metal ingots, the sound of hammering, and the high-pitched hums of spinning lathes. He never had talent for swinging the finished weapon against the enemy. Indeed, nobody ever saw him wield an actual weapon. <br>But since my sister senior agreed, he set aside the incomplete blueprint and traveled north with her. The trip was long. My brother senior only returned, alone, when Hongshan received its snow. As for my sister senior ... they laid her to eternal rest in the deep gorge of the Aggeloi. <br>Since his return, my brother senior would not stop describing a dream he kept having. He was caught in a narrow mountain trail where the winds cut like razors, and an Aggelos sank its horn through my sister senior's chest. The blades were scattered all around him, yet he could not even pick up any of them to protect his companion. <br>He never brought himself to finish the prototype's design. Within months, he left the Bureau of Swordmancers without a word. <br>We tried looking for him. My mentor especially. He chased after rumors and suspected sightings, but they turned out false. Sickness seized the old man and he never found the strength to travel again. As he breathed his last, his withered hand clung to the unfinished blueprint that clearly bore the drawings and writings of three swordsmiths. The crossguard remained blank. <br>After my mentor passed away, we continued to receive reports about my brother senior. Someone claimed to have seen a bartender with a strong likeness at La Fantoma, one who would get himself sickeningly drunk when the hour grew late, one who got himself fired from every bar of the city. Another sighting described an inept fighter at the Asphalt Roundabout who was thrown out of the ring by an impatient opponent. There were also descriptions of a shaggy homeless man lying on the tracks of Triglava with dirt in his nails. The Durin laborers tried to move him and saw a Yanese red knot in his clothing... <br>Fortunately, none of these were really him. <br>Because my brother senior returned during an evening when red maple leaves were being shed by their trees. <br>We identified him by his threadbare clothing, for he had grown horrendously gaunt, his face sunk deep, and his eyes looked stagnant until he focused, where his gaze turned sharp like chiseling blades. He came back from the northern front. He fought for years but did not become a powerful warrior as he had hoped. Instead, he became a common rank-and-file wrecked by chronic pain. After returning to the Bureau, he demanded a workshop and the old blueprint. We found it, covered in dust, and handed it to him. <br>His first strokes were clumsy and painful to watch. It was obvious that old wounds suffered through the years had healed poorly and made his writing hand tremble awkwardly. I had to hold down his elbow and arm so he could start writing and drawing normally again, though it was extremely exhausting and he was soon drenched in sweat. Yet he did not stop and kept working as though the day was his last. He drew and he wrote through the entire night, and never took a break. <br>Ten days passed and the blank of the blueprint was finally filled and completed. One year later, that greatsword entered mass production. A weapon measuring 5 feet and 1 inch long, with a width slightly over 8 inches, a weight of 79 catties, and an output powerful enough to smash an Aggelos into gravel. It was lauded as one of the most successful products released by the Bureau of Swordmancers in the last ten years. <br>My brother senior did not accept any accolade for it, for immediately he headed back north after completing the design and never came back. We eventually received a purchase order from the Order of Steel Oath bearing the familiar hand of my brother senior, an order for that greatsword whose design he completed. Later, he fell in that battle, the one that everyone read about in history.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

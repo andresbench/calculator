@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Gearing Unit
+|filename = item_port_winder_1
+|images = Gearing Unit icon.png:Icon;
+Gearing Unit.png:Full
+|cnname = 装备原件机
+|tcname = 裝備原件機
+|jpname = 装備部品加工機
+|krname = 장비 부품 합성기
+|spname = Unidad de engranajes
+|runame = Модуль снаряжения
+|type = Production II
+|rarity = 1
+|power = 10}}
+'''Gearing Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that laminates different materials together to create gear components.|A top-tier piece of equipment must undergo multiple processing steps that include textile weaving and compression lamination of various fabric and lining.}}
+==Usage==
+A facility that laminates different materials together to create gear components.
+*Power Use : 10
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Gearing Tech]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Gearing Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

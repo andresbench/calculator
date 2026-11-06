@@ -1,0 +1,265 @@
+{{Operator infobox
+|name = Argent Flow
+|rarity = 6
+|class = Guard
+|weapon = Sword
+|element = Electric
+|faction = Hongshan Academy of Sciences (HAS)
+|tags = Electrify, Crush
+|main = Will
+|sub = Strength
+|starting = 
+|headhunting = chartered
+|quote = Minghe of HAS, at your service. Captain of Pacified Skies? That title serves little purpose here, so let's just drop it and avoid confusion.
+|image = 
+Argent_Flow Splash Art.png
+|filename = chr_0037_minghe
+|cnname = 明河
+|tcname = 明河
+|jpname = ミンホ
+|krname = 명하
+|spname = Argent Flow
+|runame = Серебристый Поток
+|fullname = Ye Minghe
+|fileno = 
+|theme = The Starry Flow Winds On
+|illustrator = 
+|jpcv = Yuichi Nakamura
+|cncv = Sanshi
+|encv = Howard Wang
+|krcv = Min Seung-woo
+|gender = Male
+|authentication = Hongshan Academy of Sciences
+|birthdate = October 23
+|race = Lung
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Excellent
+|tactical = Excellent
+|skill = Outstanding
+|originium = Standard
+|exp1 = Combat Technique
+|exp1d = Combat Technique: Razor of Autumn
+The spear is the wandering lung, the sword is the mirror razor of autumn. A cascade of streams and rivers, flows from a heart once cold and solemn.
+|exp2 = Erudite
+|exp2d = Erudite: Entering the World
+A campaign's worth of marching reveals much of the world. Having gazed upon its natural beauty, I invite thee, o starry flow.
+|hb1 = Lifestyle
+|hb1d = Lifestyle: In Touch with Life
+All manners of skills, all flavors of life. A street lined with stoves, a return lit up bright.
+|hb2 = Nature
+|hb2d = Nature: Down to Earth
+A walk amongst the fields, a nap upon the hills. A galloper heeds my call, a ride of speed and thrill.
+|prefer = Wuling Crafter's Choice
+|matskill = Lunar Calling, Complexed Industry, White Night Nova
+|matstats = 
+}}
+'''Argent Flow''' is a 6★ [[Electric]] [[Guard]] [[Operator]] from [[Hongshan Academy of Sciences]] in ''[[Arknights: Endfield]]''. He is a [[Sword]] user whose battle skill can apply high-level Electrification to enemies in a large area. This instance of Electrification also makes enemies take increased DMG of all types. When Argent Flow casts his ultimate, he drags weak enemies in the path to the end point of his charge and then applies Electric Infliction and Crush.
+
+==Profile==
+"Suited up and ready. There will be no holding back."
+
+Argent Flow, Imperial Guard of Yan and Captain of Pacified Skies of Hongshan Academy of Sciences. With sword in hand, he spurs his galloper, Nuli, forward like a bolt of lightning across the northern front lines, leaving countless legends in his wake. Yet beyond the legends, he is not
+nearly as aloof as people make him out to be. As he journeys across mountains and rivers, he never hesitates to lend a hand whenever he encounters someone in need, no matter how small the matter.
+
+He rarely speaks of the past, yet old tales still linger on people's lips: it was you who changed how he wields his sword.
+
+Body of steel, heart of soul. The answer you gave him has illuminated his path through the long night. From here on, he will continue to serve
+under Tianshi Tan and journey across Talos-II to solve whatever disasters may arise. Sword in hand, he will walk alongside Endfield and carve a path for civilization, until the lights of every home can shine undisturbed by calamity.
+
+"When you need to make a hard decision, I will be at your side. You can have full faith in our bond."
+
+==Stats==
+{{Operator data
+|main = Will
+|sub = Strength
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 91, 156, 221, 285, 318
+|STR = 15.082, 37.802, 61.719, 85.635, 109.551, 121.509
+|AGL = 9.484, 27.505, 46.474, 65.443, 84.412, 93.896
+|INT = 9.484, 27.505, 46.474, 65.443, 84.412, 93.896
+|WIL = 22.577, 55.76, 90.689, 125.619, 160.548, 178.013
+|CR = 0.05
+|AS = 100
+|AR = 8 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Triphasic Nanoflake x20, Talos Cap x8, T-Creds x100000
+|pot1 = Talent {{Color|Zenith of Voltmancy|7}} improved: When applying {{G|Crush|Crush}} to a target with {{Color|Sunderization|7}}, the DMG dealt by this {{G|Crush|Crush}} is increased to {{Color|1.4|1d}} times the original. Proportion of {{Color|Sunderization|7}} explosion DMG dealt to other enemies near the target is increased to {{Color|50%|1d}}.
+|pot1t = Wildswept Storm
+|pot2 = Will {{Color|+20|1d}}, Arts Intensity {{Color|+16|1d}}.
+|pot2t = Electrified Spring
+|pot3 = Battle skill {{Color|Bolt Rush|7}} improved: For every 1 stack of {{G|Electric Infliction|Electric Infliction}} {{G|Debuff Consumption|consumed}}, Argent Flow gains {{Color|Electric DMG Dealt|6}} {{Color|+6%|1d}} for {{Color|25|1d}}s. This effect can reach {{Color|6|1d}} stacks. Duration of each stack is counted separately.
+|pot3t = Storm Blitz
+|pot4 = Ultimate {{Color|Heavens Sundered|7}} improved: Ultimate Energy Cost {{Color|-15%|1d}}.
+|pot4t = Starflow Illuminated
+|pot5 = Talent {{Color|Springvolt Galore|7}} improved: When casting the battle skill {{Color|Bolt Rush|7}}, the entire team gains an additional Arts Intensity {{Color|+15|1d}}.
+{{Color|Sunderization|7}} explosion DMG bonus per point of Argent Flow's Arts Intensity is increased to {{Color|1.2|1d}} times the original.
+|pot5t = Invitation to Celestial Lights
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Dust Resplendent
+|icon= Attack-Sword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|23|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 22%, 24%, 27%, 29%, 31%, 33%, 36%, 38%, 40%, 43%, 46%, 50%
+|stat2= BATK SEQ 2 Multiplier, 24%, 27%, 29%, 32%, 34%, 37%, 39%, 42%, 44%, 47%, 51%, 55%
+|stat3= BATK SEQ 3 Multiplier, 45%, 49%, 53%, 58%, 62%, 67%, 71%, 76%, 80%, 86%, 92%, 100%
+|stat4= BATK SEQ 4 Multiplier, 62%, 68%, 75%, 81%, 87%, 93%, 100%, 106%, 112%, 120%, 129%, 140%
+|stat5= BATK SEQ 5 Multiplier, 60%, 66%, 72%, 78%, 84%, 90%, 96%, 102%, 108%, 116%, 125%, 135%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Darkness Cowed
+|icon= Skill-Argentflow
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Argent Flow sweeps his lance and deals {{Color|Physical DMG|1}} to nearby enemies and applies {{G|Lift|Lift}} to target(s) in front of him.<br />After Argent Flow casts his combo skill, his battle skill is temporarily changed to {{Color|Bolt Rush|7}}.<br />{{Color|Bolt Rush|7}}: Argent Flow mounts his galloper Nuli to leap into mid-air, powers up quickly, and then charges at the target to forcibly apply {{G|Electrification|Electrification}} and deal {{Color|Electric DMG|6}} to enemies within a large area in front of him. When this {{G|Electrification|Electrification}} is applied on a target with {{G|Electric Infliction|Electric Infliction}}, it {{G|Debuff Consumption|consumes}} all {{G|Electric Infliction|Electric Infliction}} stacks from the target and grants {{G|Electrification|Electrification}} {{G|Status Level|Status Level +1}} per 1 stack consumed. After {{G|Debuff Consumption|consuming}} the target's {{G|Electric Infliction|Electric Infliction}}, Argent Flow also applies 1 stack of {{G|Vulnerable|Vulnerability}}.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Base DMG Multiplier, 156%, 171%, 187%, 202%, 218%, 233%, 249%, 264%, 280%, 299%, 323%, 350%
+|stat3= Base Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Bolt Rush DMG Multiplier, 311%, 342%, 373%, 404%, 436%, 467%, 498%, 529%, 560%, 599%, 646%, 700%
+|stat5= Bolt Rush Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Stars Shifted
+|icon= Combo-Argentflow
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When an enemy becomes {{G|Vulnerable|Vulnerable}}.<br /><b>SKILL DESCRIPTION:</b> Argent Flow wields his blade with lightning speed to unleash a multi-sequence attack that deals {{Color|Electric DMG|6}} to enemies along his path. When the final sequence scores a hit, it also applies {{G|Electric Infliction|Electric Infliction}}. Argent Flow's battle skill is then temporarily changed to {{Color|Bolt Rush|7}}.
+|stat1= Cooldown, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 18
+|stat2= DMG Multiplier, 160%, 176%, 192%, 208%, 224%, 240%, 256%, 272%, 288%, 308%, 332%, 360%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Battle Skill Change Duration (s), 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat5= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Heavens Sundered
+|icon= Ult-Argentflow
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Argent Flow mounts Nuli and charges with his lance, dealing continuous {{Color|Electric DMG|6}} to targets in front of him while impaling and carrying weak enemies before him throughout the charge. After the charge ends, Argent Flow leaps into the air and unleashes a Cleansing Cleave at the ground. The slash deals {{Color|Electric DMG|6}} and applies 1 stack of {{G|Electric Infliction|Electric Infliction}}. Argent Flow then pierces the ground with his lance, applying {{G|Crush|Crush}} and dealing {{Color|Electric DMG|6}} to enemies within a large area.<br />{{Color|If Argent Flow's ultimate charges into a non-weak enemy (that cannot be impaled and pushed), his charge will end early.|9}}
+|stat1= Ultimate Energy Cost, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80
+|stat2= Charge DMG Multiplier, 78%, 86%, 93%, 101%, 109%, 117%, 124%, 132%, 140%, 150%, 161%, 175%
+|stat3= Cleansing Cleave DMG Multiplier, 222%, 244%, 267%, 289%, 311%, 333%, 356%, 378%, 400%, 428%, 461%, 500%
+|stat4= Ground Pierce DMG Multiplier, 333%, 367%, 400%, 433%, 467%, 500%, 533%, 567%, 600%, 642%, 692%, 750%
+|stat5= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Dust Resplendent|skill2=Darkness Cowed|skill3=Stars Shifted|skill4=Heavens Sundered|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Quadrant Fitting Fluid,6|m14=Crimson Spearleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Warp Plasma-Coated Slide,6|m24=Crimson Spearleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Quadrant Fitting Fluid,6|m34=Crimson Spearleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Warp Plasma-Coated Slide,6|m44=Crimson Spearleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Dust Resplendent|skill2=Darkness Cowed|skill3=Stars Shifted|skill4=Heavens Sundered|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Quadrant Fitting Fluid,16|m14=Crimson Spearleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Warp Plasma-Coated Slide,16|m24=Crimson Spearleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Quadrant Fitting Fluid,16|m34=Crimson Spearleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Warp Plasma-Coated Slide,16|m44=Crimson Spearleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Dust Resplendent|skill2=Darkness Cowed|skill3=Stars Shifted|skill4=Heavens Sundered|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Quadrant Fitting Fluid,36|m14=Crimson Spearleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Warp Plasma-Coated Slide,36|m24=Crimson Spearleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Quadrant Fitting Fluid,36|m34=Crimson Spearleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Warp Plasma-Coated Slide,36|m44=Crimson Spearleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Stalwart
+|icon = Will
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Will +10.
+|cond2 = Elite 2
+|desc2 = Operator Will +15.
+|cond3 = Elite 3
+|desc3 = Operator Will +15.
+|cond4 = Elite 4
+|desc4 = Operator Will +20.
+}}
+{{Operator talent
+|name = Zenith of Voltmancy
+|icon = Argent Flow Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = When Argent Flow applies {{G|Electrification|Electrification}}, this {{G|Electrification|Electrification}} also increases all types of DMG Taken of the target for the same duration, and he also applies {{Color|Sunderization|7}} stack(s) on the target, the number of stacks is equal to the {{G|Electrification|Electrification}} {{G|Status Level|Status Level}} and maxes out at 12. {{Color|Sunderization|7}} lasts for 60s.
+When dealing {{G|Crush|Crush DMG}} to a target with {{Color|Sunderization|7}}, this {{G|Crush|Crush DMG}} is increased to {{Color|1.2|1d}} times the original and detonates all {{Color|Sunderization|7}} stacks. The explosion deals {{Color|[Number of Sunderization stacks × 220% ATK]|1d}} of {{Color|Electric DMG|6}} to the target and 40% of that DMG to other enemies near the said target.
+{{Color|When the explosion DMG of Sunderization is dealt to another enemy with Sunderization, it also detonates all Sunderization stacks of that enemy.|9}}
+|cond2 = Elite 2
+|desc2 = When Argent Flow applies {{G|Electrification|Electrification}}, this {{G|Electrification|Electrification}} also increases all types of DMG Taken of the target for the same duration, and he also applies {{Color|Sunderization|7}} stack(s) on the target, the number of stacks is equal to the {{G|Electrification|Electrification}} {{G|Status Level|Status Level}} and maxes out at 12. {{Color|Sunderization|7}} lasts for 60s.
+When dealing {{G|Crush|Crush DMG}} to a target with {{Color|Sunderization|7}}, this {{G|Crush|Crush DMG}} is increased to {{Color|1.2|1d}} times the original and detonates all {{Color|Sunderization|7}} stacks. The explosion deals {{Color|[Number of Sunderization stacks × 330% ATK]|1d}} of {{Color|Electric DMG|6}} to the target and 40% of that DMG to other enemies near the said target.
+{{Color|When the explosion DMG of Sunderization is dealt to another enemy with Sunderization, it also detonates all Sunderization stacks of that enemy.|9}}
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Springvolt Galore
+|icon = Argent Flow Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Battle skill {{Color|Bolt Rush|7}} improved: The entire team gains Arts Intensity {{Color|+30|1d}} for 20s.
+For every point of Arts Intensity that Argent Flow has, increase {{Color|Sunderization|7}} explosion DMG by another {{Color|0.4%|1d}}.
+|cond2 = Elite 3
+|desc2 = Battle skill {{Color|Bolt Rush|7}} improved: The entire team gains Arts Intensity {{Color|+45|1d}} for 20s.
+For every point of Arts Intensity that Argent Flow has, increase {{Color|Sunderization|7}} explosion DMG by another {{Color|0.6%|1d}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Will
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Axiom of Combat
+|icon = MFG-manufacture_efficiency
+|facility = Manufacturing Cabin
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +30%
+}}
+{{Operator base skill
+|name = Tools of Momentum
+|icon = MFG-manufacture_power_consume
+|facility = Manufacturing Cabin
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = MFG-manufacture_power_consume
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''[[Sanctuary of Ink]]''' introduced.
+}}
+
+==Navigation==
+{{Operators_nav}}

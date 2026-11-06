@@ -1,0 +1,85 @@
+local p = {}
+local data = mw.loadData('Module:Enemy/data')
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+function p.main(frame)
+	local args = getArgs(frame)
+	return p._main(args)
+end
+function p._main(args)
+	local key = args[1]
+	if not key then return '' end
+	local enemy = data[key]
+	if not enemy then return '<i>Enemy "<code>'..key..'</code>" not found in database</i>' end
+	local gridview = yesno(args.g or args.gv or args.gridview)
+	local node = p._enemy_data{
+		name=enemy.name,
+		code=enemy.code,
+		type=enemy.type,
+		link=enemy.enemy,
+		class=enemy.class,
+		image=enemy.image,
+		qty=args[2],
+		qty2=args[3],
+		gridview=gridview,
+		nolink=args.nolink,
+		mode=args.mode or 'normal',
+	}
+	if gridview then
+		local div = mw.html.create('div')
+		:attr('style', 'display:inline-block; position:relative; margin:5px;')
+		:node(node)
+		return div
+	else
+		return node
+	end
+end
+function p._enemy_data(args)
+	local pagename = args.name or args[1]
+	local link = args.link or pagename
+	local text = args.title or pagename
+	local mode = args.mode or 'normal'
+	local image = args.image or (args.name .. ' sprite.png')
+	local attrs = {
+		['data-name'] = args.name,
+		['data-title'] = args.title,
+		['data-code'] = args.code,
+		['data-race'] = args.type,
+		['data-type'] = args.class,
+		['data-link'] = args.link,
+	}
+	local qty
+	if args.qty then
+		if not args.qty2 then
+			qty = args.qty
+		elseif mode == 'mc' then
+			qty = (args.qty + args.qty2)..' ('..args.qty..'/'..args.qty2..')'
+		elseif mode == 'normal' then
+			qty = args.qty..' ~ '..args.qty2
+		end
+	end
+	local root = mw.html.create('')
+	if args.gridview then
+		local a = root:tag('div')
+			:addClass('a')
+		local tooltip = a:tag('div')
+			:addClass('enemy-tooltip')
+			:attr(attrs)
+			:wikitext('[[File:'..image..'|60x60px|link='..link..( text and '|'..text or '' )..']]')
+		if qty then
+			a:tag('div')
+				:attr('style', "text-align:center; margin-top:2px;")
+				:wikitext('×'..qty)
+		end
+	else
+		local tooltip = root:tag('span')
+			:addClass('enemy-tooltip')
+			:attr(attrs)
+			:wikitext(yesno(args.nolink) and text or '[['..link..'|'..text..']]')
+		if qty then
+			root:wikitext(' ×'..qty)
+		end
+	end
+	return root
+end
+return p

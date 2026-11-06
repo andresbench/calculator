@@ -1,0 +1,31 @@
+{{Stat infobox
+|image=Arts Intensity Icon.png
+|type=Other Stat
+|use=Increases damage and effectiveness of {{G|Arts Reaction|Arts Reactions}}, {{G|Arts Burst|Arts Bursts}} and {{G|Physical Status|Physical Statuses}}.
+
+|base_value=0
+|min_value=
+|max_value=
+|always_visible=Yes
+
+|cnname = 源石技艺强度
+|tcname = 源石技藝強度
+|jpname = アーツ強度
+|krname = 오리지늄 아츠 강도
+|spname = Intensidad de artes
+|runame = Сила искусств
+}}
+'''Arts Intensity''' is a stat in ''[[Arknights: Endfield]]'' that can increase the damage and effectives of Arts Reactions, Arts Bursts and Physical Statuses applied by an Operator.
+
+==Mechanics==
+Arts Intensity has multiple effects:
+*It increases the damage dealt by all {{G|Arts Reaction|Arts Reactions}}, {{G|Arts Burst|Arts Bursts}} and {{G|Physical Status|Physical Statuses}} by 1% per point, including {{G|Shatter}}.
+:<math>{Arts\,Intensity\,Multiplier} = 1 + \dfrac{Arts\,Intensity}{100}</math><br>
+*It increases the increased damage taken effect of {{G|Breach}} and {{G|Electrification}} and the Resistance reduction effect of {{G|Corrosion}}.
+:<math>{Enhanced\,Value} = {Base\,Value} \times \left ( 1 + \dfrac{2 \times {Arts\,Intensity}}{{Arts\,Intensity}+300} \right )</math><br>
+*It increases the amount of {{Color|Stagger|8}} dealt by {{G|Lift}} and {{G|Knock Down}}, which deal 10 {{Color|Stagger|8}} by default.
+:<math>{Enhanced\,Stagger} = 10 \times \left ( 1 + \dfrac{{Arts\,Intensity}}{200} \right )</math><br>
+
+[[File:Screenshot Arts Intensity.png|thumb|The in-game explanation for Arts Intensity seen in the Attributes & Stats menu with 138 Arts Intensity.]]
+
+{{Combat mechanics}}

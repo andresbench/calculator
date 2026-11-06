@@ -1,0 +1,56 @@
+{{Enemy infobox
+|name = Sweeping Wind
+|image = Sweeping_Wind_sprite.png
+|filename = eny_0103_hshunt2
+|cnname = 过堂风
+|tcname = 過堂風
+|jpname = 過堂風
+|krname = 과당풍
+|spname = Viento arrasador
+|runame = Сметающий ветер
+|type = Cangzei Pirates
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 7
+}}
+'''Sweeping Wind''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A criminal armed with basic ranged weaponry. Keen sight and dexterous hands allow for deadly shots. This Wind would blow through buildings to sweep all the valuables away.}}
+
+==Stats==
+{{Enemy data
+|HP = 166, 1192, 7544, 29700, 71443, 110060
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 110
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 7
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Fires all sorts of arrows and throws bombs to harass their opponents from range.
+|location = *[[Sword Vault Dale]]
+*[[Energy Alluvium: Qingbo Stockade]]
+|drops = {{I|Young Bamboo Sprout}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

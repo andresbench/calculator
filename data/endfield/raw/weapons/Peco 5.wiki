@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Peco 5
+|rarity = 3
+|images = 
+Peco_5 icon.png:Icon;
+Peco_5.png:Full;
+Peco_5 max model.png:Max
+|filename = wpn_pistol_0001
+|cnname = 佩科5
+|tcname = 佩科5
+|jpname = ペッコ5
+|krname = 페코 5
+|spname = Peco 5
+|runame = Пеко 5
+|type = Handcannon
+|source = First Time Operator Acquisition}}
+'''Peco 5''' is a 3★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the standard-issue operator weapons manufactured by Endfield Industries. This weapon is designed by Endfield Arsenal Engineer Peco. Mastery of etched ammo and firearms is no longer a skill exclusive to the Sankta.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 29, 83, 140, 197, 254, 283
+|pot = Skill {{Color|Assault: Armament Prep|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Main Attribute [S]|Assault: Armament Prep}}
+
+==Basic Info==
+{{Quote|I've asked Operator Ember and she agreed to take part in the Peco 5 performance trials. Ember might be a Sankta, but I'd never seen her fight with guns before. In fact, I thought she would turn me down outright. Guess I got lucky.<br><br>Ember also told me how the Order of Steel Oath operate their own firearms manufactories in the north. She also said that Peco 5 was "comparable" to the standard issues produced by Fort Forgefane. I might be overthinking things, but I truly wished she would set aside her diplomatic niceties of being an Endfield partner. I would feel safer if she gave us an honest review or even outright criticisms.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

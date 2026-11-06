@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Electrocharger Model A-2
+|filename = item_port_battle_lightning_2
+|images = Electrocharger_Model_A-2_icon.png:Icon;
+Electrocharger_Model_A-2.png:Full
+|cnname = 甲二型“电荷”
+|tcname = 甲二型「電荷」
+|jpname = 甲二型「電荷」
+|krname = 갑2형 '전하'
+|spname = Electrocargador Modelo A-2
+|runame = Электрозарядник модели А-2
+|type = Combat & Support
+|rarity = 5
+|power = 20}}
+'''Electrocharger Model A-2''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|20625|7}}
+<b>Attack Interval</b>: {{Color|5|7}}s
+<b>Mode of Attack</b>: Releases electrical arcs that attack enemies. The arc chains to nearby enemies (up to 2) and deals {{Color|Electric DMG|6}}. The arc also leaves an electric orb close to the enemy. The orb continuously deals {{Color|Electric DMG|6}} to nearby enemies.|An improvement of the original Surge Tower based on an experimental prototype from RAYTHEAN Industries. When the land courses with electricity, nothing will ever block your path.}}
+==Usage==
+
+==Acquisition==
+Construction: Requires Specified Wuling AIC Plan Tech
+{{RecipeTable|product=Electrocharger Model A-2}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

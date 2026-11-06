@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Grinding Unit
+|filename = item_port_thickener_1
+|images = Grinding Unit icon.png:Icon;
+Grinding Unit.png:Full
+|cnname = 研磨机
+|tcname = 研磨機
+|jpname = 研磨機
+|krname = 연마기
+|spname = Unidad pulverizadora
+|runame = Модуль измельчения
+|type = Production II
+|rarity = 4
+|power = 50}}
+'''Grinding Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that performs fine grinding of powdered materials.|This facility was based on a traditional crop processing machinery from Yan.}}
+==Usage==
+A facility that performs fine grinding of powdered materials.
+*Power Use : 50
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Grinding]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Grinding Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

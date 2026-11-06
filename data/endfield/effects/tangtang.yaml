@@ -1,0 +1,66 @@
+# Tangtang. Whirlpools are the track's `Synergy.stocks`: her combo leaves them, her battle skill spends them.
+operator: Tangtang
+
+talents:
+  - name: Skirmisher
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Agility +10.", apply: [{stat: attr, attribute: AGL, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Agility +20.", apply: [{stat: attr, attribute: AGL, value: 20}]}
+
+  - name: Fam of Honor
+    levels:
+      - condition: Elite 1
+        unmodeled: "Haste and Slow around a whirlpool; the engine does not track speeds"
+      - condition: Elite 2
+        unmodeled: "Haste 20 % and Slow 40 % around a whirlpool; the engine does not track speeds"
+
+  - name: Riot Bringer
+    levels:
+      - condition: Elite 2
+        unmodeled: "whirlpools into fountains from the dive attack; the engine has no whirlpools"
+      - condition: Elite 3
+        unmodeled: "whirlpools into fountains from the dive attack, +60 % damage; the engine has no whirlpools"
+
+potentials:
+  - rank: 1
+    confidence: inferred
+    seen: "Combo skill RIVER, TO ME! improved: DMG Multiplier is increased to 1.2 times of the original. Length of cooldown -2s. Battle skill IMA WAVERIDAAH! improved: For every Whirlpool consumed and converted into a Waterspout, return 5 additional SP."
+    apply:
+      - {stat: skill_multiplier, skill: "RIVER, TO ME!", value: 1.2}
+      - {stat: cooldown_flat, skillType: Combo Skill, value: -2}
+      # Per whirlpool: the track multiplies a «consumes:Whirlpool» return by how many the cast took.
+      - {stat: sp_return, value: 5, skillType: Battle Skill, trigger: "consumes:Whirlpool", target: self}
+  - rank: 2
+    confidence: confirmed
+    seen: "Agility +20, Cryo DMG Dealt +10%"
+    apply:
+      - {stat: attr, attribute: AGL, value: 20}
+      - {stat: dmg_bonus, element: Cryo, value: 10}
+  - rank: 3
+    confidence: inferred
+    seen: "Battle skill IMA WAVERIDAAH! improved: DMG Multiplier is increased to 1.1 times the original. When forming multiple Waterspouts, the resulting Arts Susceptibility effect is increased by +5%."
+    apply:
+      - {stat: skill_multiplier, skill: "IMA WAVERIDAAH!", value: 1.1}
+    grants:
+      # The skill applies Arts Susceptibility only with several Waterspouts.
+      - {term: Arts Susceptibility, skillType: Battle Skill, add: 5}
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate DA CHIEF SEES YOU! improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    confidence: inferred
+    seen: |-
+      Ultimate DA CHIEF SEES YOU! improved: DMG Multiplier is increased to 1.15 times the original.  Talent Riot Bringer improved: DMG effects of any Waterspout created by the ultimate DA CHIEF SEES YOU! are increased by +80%.
+    apply:
+      - {stat: skill_multiplier, skill: "DA CHIEF SEES YOU!", value: 1.15}
+    unmodeled: "+80 % damage to fountains from the ultimate"

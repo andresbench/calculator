@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = LYNX Aegis Injector
+|image = LYNX_Aegis_Injector.png
+|filename = item_equip_t4_suit_heal01_edc_04
+|cnname = 生物辅助护盾针
+|tcname = 生物輔助護盾針
+|jpname = 生物補助修理針
+|krname = 생체 보조 보호 주사기
+|spname = Inyector de égida LYNX
+|runame = Щитовой инъектор «Рысь»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''LYNX Aegis Injector''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Rhodes Island and assembled by the AIC. This equipment improves the wearer's combat capabilities.|The medics' preferred equipment. 
+The LYNX Aegis Injector delivers sealants into cracks to help repair broken shields. It can also be used during emergencies for sealing wounds.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +41, +45, +49, +53
+|sstat = Treatment Bonus
+|svalue = +20.7%, +22.8%, +24.8%, +26.9%
+|tstat = 
+|tvalue = 
+|setname = LYNX
+|seteffect = 3-piece set effect: Wearer's HP Treatment Efficiency {{Color|+20%|1d}}. 
+After the wearer gives HP treatment to an allied target, that target also gains {{Color|15%|1d}} DMG Reduction against all types of DMG for 10s. If the said treatment exceeds the target's Max HP, the target gains {{Color|30%|1d}} DMG Reduction against all types of DMG. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|LYNX}}
+{{Gears|state=collapsed}}

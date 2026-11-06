@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Seed-Picking Unit
+|filename = item_port_seedcol_1
+|images = Seed-Picking Unit icon.png:Icon;
+Seed-Picking Unit.png:Full
+|cnname = 采种机
+|tcname = 採種機
+|jpname = 採種機
+|krname = 씨앗 추출기
+|spname = Unidad recogesemillas
+|runame = Модуль сбора семян
+|type = Production I
+|rarity = 3
+|power = 10}}
+'''Seed-Picking Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that extracts seeds from common crops.|Many Talosians enjoy harvesting and gathering.}}
+==Usage==
+A facility that extracts seeds from common crops.
+*Power Use : 10
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Planting]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Seed-Picking Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production I Facilities]]

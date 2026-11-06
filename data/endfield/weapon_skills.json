@@ -1,0 +1,3438 @@
+{
+ "ATK [L]": {
+  "key": "ATK [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "ATK +{0}%",
+  "values_by_rank": [
+   [
+    5.0,
+    9.0,
+    13.0,
+    17.0,
+    21.0,
+    25.0,
+    29.0,
+    33.0,
+    39.0
+   ]
+  ]
+ },
+ "ATK [M]": {
+  "key": "ATK [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "ATK +{0}%",
+  "values_by_rank": [
+   [
+    4.0,
+    7.2,
+    10.4,
+    13.6,
+    16.8,
+    20.0,
+    23.2,
+    26.4,
+    31.2
+   ]
+  ]
+ },
+ "ATK [S]": {
+  "key": "ATK [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "ATK +{0}%",
+  "values_by_rank": [
+   [
+    3.0,
+    5.4,
+    7.8,
+    10.2,
+    12.6,
+    15.0,
+    17.4,
+    19.8,
+    23.4
+   ]
+  ]
+ },
+ "Agility [L]": {
+  "key": "Agility [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Agility +{0}",
+  "values_by_rank": [
+   [
+    20.0,
+    36.0,
+    52.0,
+    68.0,
+    84.0,
+    100.0,
+    116.0,
+    132.0,
+    156.0
+   ]
+  ]
+ },
+ "Agility [M]": {
+  "key": "Agility [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Agility +{0}",
+  "values_by_rank": [
+   [
+    16.0,
+    28.0,
+    41.0,
+    54.0,
+    67.0,
+    80.0,
+    92.0,
+    105.0,
+    124.0
+   ]
+  ]
+ },
+ "Agility [S]": {
+  "key": "Agility [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Agility +{0}",
+  "values_by_rank": [
+   [
+    12.0,
+    21.0,
+    31.0,
+    40.0,
+    50.0,
+    60.0,
+    69.0,
+    79.0,
+    93.0
+   ]
+  ]
+ },
+ "Arts DMG [L]": {
+  "key": "Arts DMG [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Arts DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    5.56,
+    10.0,
+    14.44,
+    18.89,
+    23.33,
+    27.78,
+    32.22,
+    36.67,
+    43.33
+   ]
+  ]
+ },
+ "Arts DMG [M]": {
+  "key": "Arts DMG [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Arts DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    4.44,
+    8.0,
+    11.56,
+    15.11,
+    18.67,
+    22.22,
+    25.78,
+    29.33,
+    34.67
+   ]
+  ]
+ },
+ "Arts DMG [S]": {
+  "key": "Arts DMG [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Arts DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    3.33,
+    6.0,
+    8.67,
+    11.33,
+    14.0,
+    16.67,
+    19.33,
+    22.0,
+    26.0
+   ]
+  ]
+ },
+ "Arts Intensity [L]": {
+  "key": "Arts Intensity [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Arts Intensity +{0}",
+  "values_by_rank": [
+   [
+    10.0,
+    18.0,
+    26.0,
+    34.0,
+    42.0,
+    50.0,
+    58.0,
+    66.0,
+    78.0
+   ]
+  ]
+ },
+ "Arts Intensity [M]": {
+  "key": "Arts Intensity [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Arts Intensity +{0}",
+  "values_by_rank": [
+   [
+    8.0,
+    14.0,
+    20.0,
+    27.0,
+    33.0,
+    40.0,
+    46.0,
+    52.0,
+    62.0
+   ]
+  ]
+ },
+ "Assault: Armament Prep": {
+  "key": "Assault: Armament Prep",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "ATK +{0}.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Assault: Vision for Tomorrow": {
+  "key": "Assault: Vision for Tomorrow",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "When entering battle, the entire team gains the Dream Striving buff that grants DMG Dealt +{0}%, Arts Intensity +{1}, and DEF +{2}% for 20.00s. When Dream Striving ends, the wielder restores the entire team for 122.00 HP. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    3.0,
+    3.6,
+    4.2,
+    4.8,
+    5.4,
+    6.0,
+    6.6,
+    7.2,
+    8.4
+   ]
+  ]
+ },
+ "Brutality: Cemented Fury": {
+  "key": "Brutality: Cemented Fury",
+  "ranks": 9,
+  "terms": [
+   "Vulnerable"
+  ],
+  "text_template": "Critical Rate +{0}%. When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    3.0,
+    3.6,
+    4.2,
+    4.8,
+    5.4,
+    6.0,
+    6.6,
+    7.2,
+    8.4
+   ],
+   [
+    15.0,
+    18.0,
+    21.0,
+    24.0,
+    27.0,
+    30.0,
+    33.0,
+    36.0,
+    42.0
+   ]
+  ]
+ },
+ "Brutality: Disciplinarian": {
+  "key": "Brutality: Disciplinarian",
+  "ranks": 9,
+  "terms": [
+   "Debuff Consumption",
+   "Vulnerable"
+  ],
+  "text_template": "ATK +{0}%. After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[{1}% + {2}%×Stacks Consumed] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    7.0
+   ]
+  ]
+ },
+ "Brutality: Lands of Yore": {
+  "key": "Brutality: Lands of Yore",
+  "ranks": 9,
+  "terms": [
+   "Debuff Consumption",
+   "Vulnerable"
+  ],
+  "text_template": "Arts Intensity +{0}. After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[{1}%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ]
+  ]
+ },
+ "Combative: Amaranthine Cleave": {
+  "key": "Combative: Amaranthine Cleave",
+  "ranks": 9,
+  "terms": [
+   "Physical Susceptibility",
+   "Crush",
+   "Vulnerable",
+   "Debuff Consumption"
+  ],
+  "text_template": "Physical DMG Dealt +{0}%. When the wielder applies Physical Susceptibility, the wielder gains Arts Intensity +{1} for 20.00s. When the wielder applies Crush, the wielder gains Physical DMG Dealt +[{2}% + ({3}% × Max number of Vulnerability stacks consumed from one enemy)] for 30.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    30.0,
+    36.0,
+    42.0,
+    48.0,
+    54.0,
+    60.0,
+    66.0,
+    72.0,
+    84.0
+   ],
+   [
+    9.0,
+    10.8,
+    12.6,
+    14.4,
+    16.2,
+    18.0,
+    19.8,
+    21.6,
+    25.2
+   ],
+   [
+    3.0,
+    3.6,
+    4.2,
+    4.8,
+    5.4,
+    6.0,
+    6.6,
+    7.2,
+    8.4
+   ]
+  ]
+ },
+ "Combative: Anthem of Cinder": {
+  "key": "Combative: Anthem of Cinder",
+  "ranks": 9,
+  "terms": [
+   "Physical Status"
+  ],
+  "text_template": "ATK +{0}%. When the wielder deals a Physical Status, the wielder gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    7.5,
+    9.0,
+    10.5,
+    12.0,
+    13.5,
+    15.0,
+    16.5,
+    18.0,
+    21.0
+   ]
+  ]
+ },
+ "Combative: Virtuous Gain": {
+  "key": "Combative: Virtuous Gain",
+  "ranks": 9,
+  "terms": [
+   "Physical Status"
+  ],
+  "text_template": "ATK +{0}%. After the wielder applies Physical Statuses, the wielder also deals another hit of Physical DMG equal to {1}% of the wielder's ATK.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    120.0,
+    144.0,
+    168.0,
+    192.0,
+    216.0,
+    240.0,
+    264.0,
+    288.0,
+    336.0
+   ]
+  ]
+ },
+ "Critical Rate [L]": {
+  "key": "Critical Rate [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Critical Rate +{0}%",
+  "values_by_rank": [
+   [
+    2.5,
+    4.5,
+    6.5,
+    8.5,
+    10.5,
+    12.5,
+    14.5,
+    16.5,
+    19.5
+   ]
+  ]
+ },
+ "Crusher: Honed into Legion": {
+  "key": "Crusher: Honed into Legion",
+  "ranks": 9,
+  "terms": [
+   "Final Strike"
+  ],
+  "text_template": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +{0}% for 10.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Crusher: Princely Deterrence": {
+  "key": "Crusher: Princely Deterrence",
+  "ranks": 9,
+  "terms": [
+   "Final Strike"
+  ],
+  "text_template": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +{0}% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +{1}% to the enemy. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Cryo DMG [L]": {
+  "key": "Cryo DMG [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Cryo DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    5.56,
+    10.0,
+    14.44,
+    18.89,
+    23.33,
+    27.78,
+    32.22,
+    36.67,
+    43.33
+   ]
+  ]
+ },
+ "Cryo DMG [M]": {
+  "key": "Cryo DMG [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Cryo DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    4.44,
+    8.0,
+    11.56,
+    15.11,
+    18.67,
+    22.22,
+    25.78,
+    29.33,
+    34.67
+   ]
+  ]
+ },
+ "Detonate: Bonechilling": {
+  "key": "Detonate: Bonechilling",
+  "ranks": 9,
+  "terms": [
+   "Cryo Infliction"
+  ],
+  "text_template": "Skill DMG Dealt +{0}% (for every skill). When the wielder's battle skill applies Cryo Infliction, the wielder gains Cryo DMG Dealt +{1}% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction, the wielder gains Cryo DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ],
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ]
+  ]
+ },
+ "Detonate: Brigand's Bane": {
+  "key": "Detonate: Brigand's Bane",
+  "ranks": 9,
+  "terms": [
+   "Cryo Infliction",
+   "Arts Susceptibility"
+  ],
+  "text_template": "Cryo DMG Dealt +{0}%. When the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +{1}% for 20.00s. When the wielder's battle skill or ultimate applies Arts Susceptibility, the target enemy suffers Arts DMG Taken +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ]
+  ]
+ },
+ "Detonate: Complexed Advantage": {
+  "key": "Detonate: Complexed Advantage",
+  "ranks": 9,
+  "terms": [
+   "Electric Infliction"
+  ],
+  "text_template": "ATK +{0}%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +{1} and Electric DMG Dealt +{2}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    15.0,
+    18.0,
+    21.0,
+    24.0,
+    27.0,
+    30.0,
+    33.0,
+    36.0,
+    42.0
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ]
+  ]
+ },
+ "Detonate: Dawn of the Long Night": {
+  "key": "Detonate: Dawn of the Long Night",
+  "ranks": 9,
+  "terms": [
+   "Arts Burst"
+  ],
+  "text_template": "Arts Intensity +{0}. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +{1}% for 25.00s. Max stacks for this effect: 4.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4.00 stacks, the aforementioned effect grants an additional Nature DMG Dealt +{2}%. This effect cannot stack.",
+  "values_by_rank": [
+   [
+    15.0,
+    18.0,
+    21.0,
+    24.0,
+    27.0,
+    30.0,
+    33.0,
+    36.0,
+    42.0
+   ],
+   [
+    2.0,
+    2.4,
+    2.8,
+    3.2,
+    3.6,
+    4.0,
+    4.4,
+    4.8,
+    5.6
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ]
+  ]
+ },
+ "Detonate: Debilitating Assault": {
+  "key": "Detonate: Debilitating Assault",
+  "ranks": 9,
+  "terms": [
+   "Arts Infliction",
+   "Arts Susceptibility",
+   "Arts Burst"
+  ],
+  "text_template": "ATK +{0}%. Wielder's Intellect ≥ Will: When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +{1}% for 20.00s; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +{2}% for 20.00s; Wielder's Will ＞ Intellect: When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +{3}% for 25.00s; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +{4}% for 25.00s. Effects of the same name cannot stack. The aforementioned attributes only include effects from the wielder's level, talents, potentials, and attribute bonuses provided by equipped gear and weapons.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ],
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ]
+  ]
+ },
+ "Detonate: Hunter Instinct": {
+  "key": "Detonate: Hunter Instinct",
+  "ranks": 9,
+  "terms": [
+   "Arts Burst",
+   "Debuff Consumption"
+  ],
+  "text_template": "Arts DMG Dealt +{0}%. After the wielder casts a battle skill, the wielder gains Arts Intensity +{1} and 4.00 stacks of Windform for 15.00s. This entire effect cannot stack. Max Windform stacks: 4.00. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +{2}% for 30.00s. This effect can reach 4.00 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    35.0,
+    42.0,
+    49.0,
+    56.0,
+    63.0,
+    70.0,
+    77.0,
+    84.0,
+    98.0
+   ],
+   [
+    4.0,
+    4.8,
+    5.6,
+    6.4,
+    7.2,
+    8.0,
+    8.8,
+    9.6,
+    11.2
+   ]
+  ]
+ },
+ "Detonate: Imposing Champion": {
+  "key": "Detonate: Imposing Champion",
+  "ranks": 9,
+  "terms": [
+   "Arts Burst"
+  ],
+  "text_template": "Secondary Attribute +{0}%. When the wielder applies an Arts Burst, target enemy suffers Arts DMG Taken +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    9.0,
+    10.8,
+    12.6,
+    14.4,
+    16.2,
+    18.0,
+    19.8,
+    21.6,
+    25.2
+   ]
+  ]
+ },
+ "Detonate: Rapid Strike": {
+  "key": "Detonate: Rapid Strike",
+  "ranks": 9,
+  "terms": [
+   "Debuff Consumption",
+   "Arts Infliction"
+  ],
+  "text_template": "ATK +{0}%. After the wielder consumes an Arts Infliction, the wielder gains Nature DMG Dealt +[{1}%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ]
+  ]
+ },
+ "Detonate: Seeker of the Esoteric": {
+  "key": "Detonate: Seeker of the Esoteric",
+  "ranks": 9,
+  "terms": [
+   "Arts Burst"
+  ],
+  "text_template": "Main Attribute +{0}%. When the wielder applies an Arts Burst, the wielder gains ATK +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ]
+  ]
+ },
+ "Efficacy: Dabbles of Ink": {
+  "key": "Efficacy: Dabbles of Ink",
+  "ranks": 9,
+  "terms": [
+   "Immobilization"
+  ],
+  "text_template": "ATK +{0}%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +{1}% for 30.00s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20.00s gains DMG Dealt +{2}%. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    7.5,
+    9.0,
+    10.5,
+    12.0,
+    13.5,
+    15.0,
+    16.5,
+    18.0,
+    21.0
+   ],
+   [
+    25.0,
+    30.0,
+    35.0,
+    40.0,
+    45.0,
+    50.0,
+    55.0,
+    60.0,
+    70.0
+   ]
+  ]
+ },
+ "Efficacy: Feedback Loop": {
+  "key": "Efficacy: Feedback Loop",
+  "ranks": 9,
+  "terms": [
+   "Arts Susceptibility",
+   "Arts Infliction"
+  ],
+  "text_template": "Nature DMG Dealt +{0}%. When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +{1}% while other operators in the team gain ATK +{2}%. Duration: 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ],
+   [
+    1.5,
+    1.8,
+    2.1,
+    2.4,
+    2.7,
+    3.0,
+    3.3,
+    3.6,
+    4.2
+   ]
+  ]
+ },
+ "Efficacy: Fuel for the Torch": {
+  "key": "Efficacy: Fuel for the Torch",
+  "ranks": 9,
+  "terms": [
+   "Heat Infliction",
+   "Heat Susceptibility"
+  ],
+  "text_template": "Heat DMG Dealt +{0}%. When the wielder's skill applies Heat Infliction, the wielder gains Physical and Heat DMG Dealt +{1}% for 20.00s. When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +{2}% for 30.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ],
+   [
+    4.0,
+    4.8,
+    5.6,
+    6.4,
+    7.2,
+    8.0,
+    8.8,
+    9.6,
+    11.2
+   ]
+  ]
+ },
+ "Efficacy: Mincing Therapy": {
+  "key": "Efficacy: Mincing Therapy",
+  "ranks": 9,
+  "terms": [
+   "Protect"
+  ],
+  "text_template": "Treatment Efficiency +{0}%. After a Protected operator takes DMG, the wielder restores the said operator's HP by [{1} + Will×{2}]. Effect only triggers once every 15.00s.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    84.0,
+    100.8,
+    117.6,
+    134.4,
+    151.2,
+    168.0,
+    184.8,
+    201.6,
+    235.2
+   ],
+   [
+    0.7,
+    0.84,
+    0.98,
+    1.12,
+    1.26,
+    1.4,
+    1.54,
+    1.68,
+    1.96
+   ]
+  ]
+ },
+ "Efficacy: Overlapping Flickers": {
+  "key": "Efficacy: Overlapping Flickers",
+  "ranks": 9,
+  "terms": [
+   "Electric Amp"
+  ],
+  "text_template": "ATK +{0}%. When the wielder gains Electric Amp, the wielder also gains Electric DMG Dealt +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    5.5,
+    6.6,
+    7.7,
+    8.8,
+    9.9,
+    11.0,
+    12.1,
+    13.2,
+    15.4
+   ]
+  ]
+ },
+ "Efficacy: Secret History": {
+  "key": "Efficacy: Secret History",
+  "ranks": 9,
+  "terms": [
+   "Cryo Infliction",
+   "Heat Infliction",
+   "Arts Amp"
+  ],
+  "text_template": "Main attribute +{0}%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +{1}% for 20.00s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ],
+   [
+    4.0,
+    4.8,
+    5.6,
+    6.4,
+    7.2,
+    8.0,
+    8.8,
+    9.6,
+    11.2
+   ]
+  ]
+ },
+ "Efficacy: Tenacious Will": {
+  "key": "Efficacy: Tenacious Will",
+  "ranks": 9,
+  "terms": [
+   "Knock Down",
+   "Weaken"
+  ],
+  "text_template": "Secondary Attribute +{0}%. When the wielder applies Knocked Down or Weakness, the wielder gains DEF +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    18.0,
+    21.6,
+    25.2,
+    28.8,
+    32.4,
+    36.0,
+    39.6,
+    43.2,
+    50.4
+   ]
+  ]
+ },
+ "Efficacy: Weight of Mountain": {
+  "key": "Efficacy: Weight of Mountain",
+  "ranks": 9,
+  "terms": [
+   "Vulnerable",
+   "Physical Susceptibility"
+  ],
+  "text_template": "Against Vulnerable enemies, the wielder gains DMG Dealt +{0}%. When the wielder's battle skill applies Vulnerability, the wielder gains All Attributes +{1}% for 15.00s. When the wielder's battle skill applies Physical Susceptibility, the wielder gains All Attributes +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ]
+  ]
+ },
+ "Electric DMG [L]": {
+  "key": "Electric DMG [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Electric DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    5.56,
+    10.0,
+    14.44,
+    18.89,
+    23.33,
+    27.78,
+    32.22,
+    36.67,
+    43.33
+   ]
+  ]
+ },
+ "Electric DMG [M]": {
+  "key": "Electric DMG [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Electric DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    4.44,
+    8.0,
+    11.56,
+    15.11,
+    18.67,
+    22.22,
+    25.78,
+    29.33,
+    34.67
+   ]
+  ]
+ },
+ "Flow: Absolver of Guilt": {
+  "key": "Flow: Absolver of Guilt",
+  "ranks": 9,
+  "terms": [
+   "Heat Infliction"
+  ],
+  "text_template": "Ultimate Gain Efficiency +{0}%. When the wielder's skill recovers SP, the entire team gains ATK +{1}% for 20.00s. When the wielder's skill applies Heat Infliction, the entire team gains Heat DMG Dealt +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    18.0,
+    21.6,
+    25.2,
+    28.8,
+    32.4,
+    36.0,
+    39.6,
+    43.2,
+    50.4
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ]
+  ]
+ },
+ "Flow: Reincarnation": {
+  "key": "Flow: Reincarnation",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Physical DMG Dealt +{0}%. After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +{1}% while other operators in the team gain Physical DMG Dealt +{2}% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    7.0
+   ]
+  ]
+ },
+ "Flow: Thermal Release": {
+  "key": "Flow: Thermal Release",
+  "ranks": 9,
+  "terms": [
+   "Link"
+  ],
+  "text_template": "ATK +{0}%. After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ]
+  ]
+ },
+ "Flow: Unbridled Edge": {
+  "key": "Flow: Unbridled Edge",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Secondary Attribute +{0}%. After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +{1}% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    3.0,
+    3.6,
+    4.2,
+    4.8,
+    5.4,
+    6.0,
+    6.6,
+    7.2,
+    8.4
+   ]
+  ]
+ },
+ "Fracture: Artzy Exaggeration": {
+  "key": "Fracture: Artzy Exaggeration",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Cryo DMG Dealt +{0}%. After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    14.0,
+    16.8,
+    19.6,
+    22.4,
+    25.2,
+    28.0,
+    30.8,
+    33.6,
+    39.2
+   ]
+  ]
+ },
+ "Fracture: Gnashing Wolves": {
+  "key": "Fracture: Gnashing Wolves",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "ATK +{0}%. After the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +{1}%. Wolven Blood can reach 16.00 stacks. After reaching 16.00 stacks, the wielder gains another Physical and Heat DMG Dealt +{2}% for 20.00s. After the duration ends, all Wolven Blood stacks are removed.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0,
+    2.2,
+    2.4,
+    2.8
+   ],
+   [
+    24.0,
+    28.8,
+    33.6,
+    38.4,
+    43.2,
+    48.0,
+    52.8,
+    57.6,
+    67.2
+   ]
+  ]
+ },
+ "HP [L]": {
+  "key": "HP [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Max HP +{0}%",
+  "values_by_rank": [
+   [
+    10.0,
+    18.0,
+    26.0,
+    34.0,
+    42.0,
+    50.0,
+    58.0,
+    66.0,
+    78.0
+   ]
+  ]
+ },
+ "HP [M]": {
+  "key": "HP [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Max HP +{0}%",
+  "values_by_rank": [
+   [
+    8.0,
+    14.4,
+    20.8,
+    27.2,
+    33.6,
+    40.0,
+    46.4,
+    52.8,
+    62.4
+   ]
+  ]
+ },
+ "HP [S]": {
+  "key": "HP [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Max HP +{0}%",
+  "values_by_rank": [
+   [
+    6.0,
+    10.8,
+    15.6,
+    20.4,
+    25.2,
+    30.0,
+    34.8,
+    39.6,
+    46.8
+   ]
+  ]
+ },
+ "Heat DMG [L]": {
+  "key": "Heat DMG [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Heat DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    5.56,
+    10.0,
+    14.44,
+    18.89,
+    23.33,
+    27.78,
+    32.22,
+    36.67,
+    43.33
+   ]
+  ]
+ },
+ "Heat DMG [M]": {
+  "key": "Heat DMG [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Heat DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    4.44,
+    8.0,
+    11.56,
+    15.11,
+    18.67,
+    22.22,
+    25.78,
+    29.33,
+    34.67
+   ]
+  ]
+ },
+ "Infliction: Conquest of Icy Peaks": {
+  "key": "Infliction: Conquest of Icy Peaks",
+  "ranks": 9,
+  "terms": [
+   "Cryo Infliction",
+   "Solidification",
+   "Debuff Consumption"
+  ],
+  "text_template": "To enemies with Cryo Infliction or Solidification, the wielder gains DMG Dealt +{0}%. After consuming Solidification, ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Infliction: Coursing Stars": {
+  "key": "Infliction: Coursing Stars",
+  "ranks": 9,
+  "terms": [
+   "Electrification",
+   "Debuff Consumption",
+   "Arts Infliction"
+  ],
+  "text_template": "Arts Intensity +{0}. When wielder's skill applies Electrification, the entire team gains ATK +{1}% for 20.00s. When the wielder consumes Arts Infliction, the wielder gains Electric DMG Dealt +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    30.0,
+    36.0,
+    42.0,
+    48.0,
+    54.0,
+    60.0,
+    66.0,
+    72.0,
+    84.0
+   ],
+   [
+    7.5,
+    9.0,
+    10.5,
+    12.0,
+    13.5,
+    15.0,
+    16.5,
+    18.0,
+    21.0
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Infliction: Covetous Buildup": {
+  "key": "Infliction: Covetous Buildup",
+  "ranks": 9,
+  "terms": [
+   "Combustion",
+   "Corrosion"
+  ],
+  "text_template": "ATK +{0}%. Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ]
+  ]
+ },
+ "Infliction: Lone and Distant Sail": {
+  "key": "Infliction: Lone and Distant Sail",
+  "ranks": 9,
+  "terms": [
+   "Solidification",
+   "Corrosion"
+  ],
+  "text_template": "Critical Rate +{0}%. When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +{1}%, and Critical Rate +{2}% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    3.5,
+    4.2,
+    4.9,
+    5.6,
+    6.3,
+    7.0,
+    7.7,
+    8.4,
+    9.8
+   ],
+   [
+    3.5,
+    4.2,
+    4.9,
+    5.6,
+    6.3,
+    7.0,
+    7.7,
+    8.4,
+    9.8
+   ],
+   [
+    2.0,
+    2.4,
+    2.8,
+    3.2,
+    3.6,
+    4.0,
+    4.4,
+    4.8,
+    5.6
+   ]
+  ]
+ },
+ "Infliction: Long Time Wish": {
+  "key": "Infliction: Long Time Wish",
+  "ranks": 9,
+  "terms": [
+   "Originium Crystal",
+   "Solidification"
+  ],
+  "text_template": "Arts Intensity +{0}. When the wielder applies Originium Crystals or Solidification, during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +{1}%. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    30.0,
+    36.0,
+    42.0,
+    48.0,
+    54.0,
+    60.0,
+    66.0,
+    72.0,
+    84.0
+   ],
+   [
+    36.0,
+    43.2,
+    50.4,
+    57.6,
+    64.8,
+    72.0,
+    79.2,
+    86.4,
+    100.8
+   ]
+  ]
+ },
+ "Infliction: Road Home for All Life": {
+  "key": "Infliction: Road Home for All Life",
+  "ranks": 9,
+  "terms": [
+   "Arts Reaction"
+  ],
+  "text_template": "Critical Rate +{0}%. When the wielder applies an Arts Reaction, the wielder gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    3.0,
+    3.6,
+    4.2,
+    4.8,
+    5.4,
+    6.0,
+    6.6,
+    7.2,
+    8.4
+   ],
+   [
+    7.5,
+    9.0,
+    10.5,
+    12.0,
+    13.5,
+    15.0,
+    16.5,
+    18.0,
+    21.0
+   ]
+  ]
+ },
+ "Infliction: Sincere Interrogation": {
+  "key": "Infliction: Sincere Interrogation",
+  "ranks": 9,
+  "terms": [
+   "Debuff Consumption",
+   "Arts Reaction"
+  ],
+  "text_template": "Secondary Attribute +{0}%. After the wielder consumes an Arts Reaction, ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    7.5,
+    9.0,
+    10.5,
+    12.0,
+    13.5,
+    15.0,
+    16.5,
+    18.0,
+    21.0
+   ]
+  ]
+ },
+ "Infliction: Tidal Murmurs": {
+  "key": "Infliction: Tidal Murmurs",
+  "ranks": 9,
+  "terms": [
+   "Debuff Consumption",
+   "Corrosion"
+  ],
+  "text_template": "Secondary attribute +{0}%. After the wielder consumes Corrosion, target enemy suffers Arts DMG Taken +{1}% for 25.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ]
+  ]
+ },
+ "Infliction: Vicious Purge": {
+  "key": "Infliction: Vicious Purge",
+  "ranks": 9,
+  "terms": [
+   "Debuff Consumption",
+   "Arts Reaction"
+  ],
+  "text_template": "Arts DMG +{0}%. After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG Taken +{1}% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ],
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ]
+  ]
+ },
+ "Infliction: Wedge of Civilization": {
+  "key": "Infliction: Wedge of Civilization",
+  "ranks": 9,
+  "terms": [
+   "Arts Reaction"
+  ],
+  "text_template": "Arts DMG Dealt +{0}%. When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +{1}% for 15.00s. When the wielder's battle skill applies an Arts Reaction, the wielder gains Arts DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ],
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ]
+  ]
+ },
+ "Infliction: White Night Nova": {
+  "key": "Infliction: White Night Nova",
+  "ranks": 9,
+  "terms": [
+   "Combustion",
+   "Electrification"
+  ],
+  "text_template": "Arts DMG Dealt +{0}%. After the wielder applies Combustion or Electrification, the wielder gains Arts DMG Dealt +{1}% and Arts Intensity +{2} for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ],
+   [
+    25.0,
+    30.0,
+    35.0,
+    40.0,
+    45.0,
+    50.0,
+    55.0,
+    60.0,
+    70.0
+   ]
+  ]
+ },
+ "Infliction: Wilderness Cluster": {
+  "key": "Infliction: Wilderness Cluster",
+  "ranks": 9,
+  "terms": [
+   "Electrification"
+  ],
+  "text_template": "Arts Intensity +{0}. When the wielder applies Electrification, the team gains Physical DMG Dealt and Electric DMG Dealt +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ]
+  ]
+ },
+ "Inspiring: Back to the Broken City": {
+  "key": "Inspiring: Back to the Broken City",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "ATK +{0}%. Arts Intensity +{1}.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    25.0,
+    30.0,
+    35.0,
+    40.0,
+    45.0,
+    50.0,
+    55.0,
+    60.0,
+    70.0
+   ]
+  ]
+ },
+ "Inspiring: Mortise-and-Tenon Analysis": {
+  "key": "Inspiring: Mortise-and-Tenon Analysis",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Main Attribute +{0}%. Arts Intensity +{1}.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    25.0,
+    30.0,
+    35.0,
+    40.0,
+    45.0,
+    50.0,
+    55.0,
+    60.0,
+    70.0
+   ]
+  ]
+ },
+ "Inspiring: Start of a Saga": {
+  "key": "Inspiring: Start of a Saga",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "When the wielder's HP is above 80.00%, ATK +{0}%.",
+  "values_by_rank": [
+   [
+    15.0,
+    18.0,
+    21.0,
+    24.0,
+    27.0,
+    30.0,
+    33.0,
+    36.0,
+    42.0
+   ]
+  ]
+ },
+ "Intellect [L]": {
+  "key": "Intellect [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Intellect +{0}",
+  "values_by_rank": [
+   [
+    20.0,
+    36.0,
+    52.0,
+    68.0,
+    84.0,
+    100.0,
+    116.0,
+    132.0,
+    156.0
+   ]
+  ]
+ },
+ "Intellect [M]": {
+  "key": "Intellect [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Intellect +{0}",
+  "values_by_rank": [
+   [
+    16.0,
+    28.0,
+    41.0,
+    54.0,
+    67.0,
+    80.0,
+    92.0,
+    105.0,
+    124.0
+   ]
+  ]
+ },
+ "Intellect [S]": {
+  "key": "Intellect [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Intellect +{0}",
+  "values_by_rank": [
+   [
+    12.0,
+    21.0,
+    31.0,
+    40.0,
+    50.0,
+    60.0,
+    69.0,
+    79.0,
+    93.0
+   ]
+  ]
+ },
+ "Main Attribute [L]": {
+  "key": "Main Attribute [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Main attribute +{0}",
+  "values_by_rank": [
+   [
+    17.0,
+    30.0,
+    44.0,
+    57.0,
+    71.0,
+    85.0,
+    98.0,
+    112.0,
+    132.0
+   ]
+  ]
+ },
+ "Main Attribute [S]": {
+  "key": "Main Attribute [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Main attribute +{0}",
+  "values_by_rank": [
+   [
+    10.0,
+    18.0,
+    26.0,
+    34.0,
+    42.0,
+    51.0,
+    59.0,
+    67.0,
+    79.0
+   ]
+  ]
+ },
+ "Medicant: Blight Fervor": {
+  "key": "Medicant: Blight Fervor",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Treatment Efficiency +{0}%. After the wielder's skill provides HP treatment, the entire team gains ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    9.0,
+    10.8,
+    12.6,
+    14.4,
+    16.2,
+    18.0,
+    19.8,
+    21.6,
+    25.2
+   ]
+  ]
+ },
+ "Medicant: Eye of Talos": {
+  "key": "Medicant: Eye of Talos",
+  "ranks": 9,
+  "terms": [
+   "Shield"
+  ],
+  "text_template": "Shield applied +{0}%. After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [{1}% × Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+  "values_by_rank": [
+   [
+    24.0,
+    28.8,
+    33.6,
+    38.4,
+    43.2,
+    48.0,
+    52.8,
+    57.6,
+    67.2
+   ],
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ]
+  ]
+ },
+ "Medicant: Glory of Knighthood": {
+  "key": "Medicant: Glory of Knighthood",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Secondary Attribute +{0}%. Combo skill HP treatment effect +{1}%.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ]
+  ]
+ },
+ "Medicant: Redemption of Faith": {
+  "key": "Medicant: Redemption of Faith",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Main Attribute +{0}%. When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [{1} + Will×{2}] HP. Effect only triggers once every 15.00s.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    60.0,
+    72.0,
+    84.0,
+    96.0,
+    108.0,
+    120.0,
+    132.0,
+    144.0,
+    168.0
+   ],
+   [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.4
+   ]
+  ]
+ },
+ "Medicant: Shimmering Curtain": {
+  "key": "Medicant: Shimmering Curtain",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Main attribute +{0}%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 4.00. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    3.5,
+    4.2,
+    4.9,
+    5.6,
+    6.3,
+    7.0,
+    7.7,
+    8.4,
+    9.8
+   ]
+  ]
+ },
+ "Medicant: Sweetness and Dreams": {
+  "key": "Medicant: Sweetness and Dreams",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Max HP +{0}%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +{1} and Arts DMG Dealt +{2}% for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    3.5,
+    4.2,
+    4.9,
+    5.6,
+    6.3,
+    7.0,
+    7.7,
+    8.4,
+    9.8
+   ]
+  ]
+ },
+ "Nature DMG [L]": {
+  "key": "Nature DMG [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Nature DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    5.56,
+    10.0,
+    14.44,
+    18.89,
+    23.33,
+    27.78,
+    32.22,
+    36.67,
+    43.33
+   ]
+  ]
+ },
+ "Physical DMG [L]": {
+  "key": "Physical DMG [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Physical DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    5.56,
+    10.0,
+    14.44,
+    18.89,
+    23.33,
+    27.78,
+    32.22,
+    36.67,
+    43.33
+   ]
+  ]
+ },
+ "Physical DMG [M]": {
+  "key": "Physical DMG [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Physical DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    4.44,
+    8.0,
+    11.56,
+    15.11,
+    18.67,
+    22.22,
+    25.78,
+    29.33,
+    34.67
+   ]
+  ]
+ },
+ "Physical DMG [S]": {
+  "key": "Physical DMG [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Physical DMG Dealt +{0}%",
+  "values_by_rank": [
+   [
+    3.33,
+    6.0,
+    8.67,
+    11.33,
+    14.0,
+    16.67,
+    19.33,
+    22.0,
+    26.0
+   ]
+  ]
+ },
+ "Pursuit: Aid from the Past": {
+  "key": "Pursuit: Aid from the Past",
+  "ranks": 9,
+  "terms": [
+   "Arts Burst",
+   "Combustion"
+  ],
+  "text_template": "Battle Skill DMG +{0}%. When the wielder's combo skill applies Arts Burst or Combusted, the wielder gains ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ]
+  ]
+ },
+ "Pursuit: Duty Fulfilled": {
+  "key": "Pursuit: Duty Fulfilled",
+  "ranks": 9,
+  "terms": [
+   "Lift"
+  ],
+  "text_template": "Nature DMG Dealt +{0}%. After the wielder's combo skill applies Lifted, the team gains Arts DMG Dealt +{1}% for 15.00s. For every enemy Lifted, the team gains bonus Arts DMG Dealt +{2}%, up to a max of +{3}%. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ],
+   [
+    3.5,
+    4.2,
+    4.9,
+    5.6,
+    6.3,
+    7.0,
+    7.7,
+    8.4,
+    9.8
+   ],
+   [
+    10.5,
+    12.6,
+    14.7,
+    16.8,
+    18.9,
+    21.0,
+    23.1,
+    25.2,
+    29.4
+   ]
+  ]
+ },
+ "Pursuit: Great Hero": {
+  "key": "Pursuit: Great Hero",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Electric DMG Dealt +{0}%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +{1}% for 15.00s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +{2}% for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ],
+   [
+    4.0,
+    4.8,
+    5.6,
+    6.4,
+    7.2,
+    8.0,
+    8.8,
+    9.6,
+    11.2
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ]
+  ]
+ },
+ "Pursuit: Transcendent Arts": {
+  "key": "Pursuit: Transcendent Arts",
+  "ranks": 9,
+  "terms": [
+   "Arts Burst",
+   "Physical Status"
+  ],
+  "text_template": "Max HP +{0}%. When the wielder's combo skill applies Arts Burst or Physical Status, the entire team gains Heat DMG Dealt and Electric DMG Dealt +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ]
+  ]
+ },
+ "Pursuit: Unending Cycle": {
+  "key": "Pursuit: Unending Cycle",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "When the wielder casts a combo skill, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Strength [L]": {
+  "key": "Strength [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Strength +{0}",
+  "values_by_rank": [
+   [
+    20.0,
+    36.0,
+    52.0,
+    68.0,
+    84.0,
+    100.0,
+    116.0,
+    132.0,
+    156.0
+   ]
+  ]
+ },
+ "Strength [M]": {
+  "key": "Strength [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Strength +{0}",
+  "values_by_rank": [
+   [
+    16.0,
+    28.0,
+    41.0,
+    54.0,
+    67.0,
+    80.0,
+    92.0,
+    105.0,
+    124.0
+   ]
+  ]
+ },
+ "Strength [S]": {
+  "key": "Strength [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Strength +{0}",
+  "values_by_rank": [
+   [
+    12.0,
+    21.0,
+    31.0,
+    40.0,
+    50.0,
+    60.0,
+    69.0,
+    79.0,
+    93.0
+   ]
+  ]
+ },
+ "Suppression: Astrophysics": {
+  "key": "Suppression: Astrophysics",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Arts DMG Dealt +{0}%. When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +{1}% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Suppression: Concentric Circles": {
+  "key": "Suppression: Concentric Circles",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Combo Skill DMG Dealt +{0}%. When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ]
+  ]
+ },
+ "Suppression: Emergency Boost": {
+  "key": "Suppression: Emergency Boost",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "When the wielder's battle skill hits the enemy, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Suppression: Fin Chaser's Intent": {
+  "key": "Suppression: Fin Chaser's Intent",
+  "ranks": 9,
+  "terms": [
+   "Solidification"
+  ],
+  "text_template": "ATK +{0}%. When the wielder's battle skill applies Solidification, target enemy suffers Cryo DMG Taken +{1}% for 15.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ]
+  ]
+ },
+ "Suppression: Layered Suffering": {
+  "key": "Suppression: Layered Suffering",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Physical DMG Dealt +{0}%. When the wielder casts battle skills or combo skills, the wielder gains Physical DMG Dealt +{1}% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    5.5,
+    6.6,
+    7.7,
+    8.8,
+    9.9,
+    11.0,
+    12.1,
+    13.2,
+    15.4
+   ]
+  ]
+ },
+ "Suppression: Olden Moon": {
+  "key": "Suppression: Olden Moon",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "ATK +{0}%. For 20.00s after the wielder casts a combo skill, the wielder's next battle skill gains Cryo and Nature DMG Dealt +{1}%. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ]
+  ]
+ },
+ "Suppression: Stacked Hew": {
+  "key": "Suppression: Stacked Hew",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Physical DMG Dealt +{0}%. When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ]
+  ]
+ },
+ "Suppression: Streaming Blitz": {
+  "key": "Suppression: Streaming Blitz",
+  "ranks": 9,
+  "terms": [
+   "Debuff Consumption",
+   "Arts Reaction"
+  ],
+  "text_template": "Electric DMG Dealt +{0}%. When the wielder's battle skill consumesArts Reactions, the wielder gains Battle Skill Electric DMG Dealt +{1}% for 20.00s. This effect can reach a max of 2.00 stacks and can only trigger once every 0.1s. Duration of each stack is counted separately. After the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +{2}% for 25.00s. This effect cannot stack.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    20.0,
+    24.0,
+    28.0,
+    32.0,
+    36.0,
+    40.0,
+    44.0,
+    48.0,
+    56.0
+   ],
+   [
+    40.0,
+    48.0,
+    56.0,
+    64.0,
+    72.0,
+    80.0,
+    88.0,
+    96.0,
+    112.0
+   ]
+  ]
+ },
+ "Suppression: Tillite Etchings": {
+  "key": "Suppression: Tillite Etchings",
+  "ranks": 9,
+  "terms": [
+   "Nature Infliction"
+  ],
+  "text_template": "ATK +{0}%. When the wielder's battle skill applies Nature Infliction, other operators in the team gain Arts DMG Dealt +{1}% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +{2}%, up to a max of +{3}%. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    2.0,
+    2.4,
+    2.8,
+    3.2,
+    3.6,
+    4.0,
+    4.4,
+    4.8,
+    5.6
+   ],
+   [
+    6.0,
+    7.2,
+    8.4,
+    9.6,
+    10.8,
+    12.0,
+    13.2,
+    14.4,
+    16.8
+   ]
+  ]
+ },
+ "Treatment Efficiency [L]": {
+  "key": "Treatment Efficiency [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Treatment Efficiency +{0}%.",
+  "values_by_rank": [
+   [
+    5.95,
+    10.71,
+    15.48,
+    20.24,
+    25.0,
+    29.76,
+    34.52,
+    39.29,
+    46.43
+   ]
+  ]
+ },
+ "Treatment Efficiency [M]": {
+  "key": "Treatment Efficiency [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Treatment Efficiency +{0}%.",
+  "values_by_rank": [
+   [
+    4.76,
+    8.57,
+    12.38,
+    16.19,
+    20.0,
+    23.81,
+    27.62,
+    31.43,
+    37.14
+   ]
+  ]
+ },
+ "Twilight: Azure Clouds": {
+  "key": "Twilight: Azure Clouds",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Battle skills and ultimates gain Physical DMG Dealt +{0}%. Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +{1}%.",
+  "values_by_rank": [
+   [
+    15.0,
+    18.0,
+    21.0,
+    24.0,
+    27.0,
+    30.0,
+    33.0,
+    36.0,
+    42.0
+   ],
+   [
+    35.0,
+    42.0,
+    49.0,
+    56.0,
+    63.0,
+    70.0,
+    77.0,
+    84.0,
+    98.0
+   ]
+  ]
+ },
+ "Twilight: Blazing Wail": {
+  "key": "Twilight: Blazing Wail",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Heat DMG Dealt +{0}%. When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +{1}% for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    75.0,
+    90.0,
+    105.0,
+    120.0,
+    135.0,
+    150.0,
+    165.0,
+    180.0,
+    210.0
+   ]
+  ]
+ },
+ "Twilight: Humiliation": {
+  "key": "Twilight: Humiliation",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Critical Rate +{0}%. When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +{1}% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+  "values_by_rank": [
+   [
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    14.0
+   ],
+   [
+    24.0,
+    28.8,
+    33.6,
+    38.4,
+    43.2,
+    48.0,
+    52.8,
+    57.6,
+    67.2
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Twilight: Imposing Peak": {
+  "key": "Twilight: Imposing Peak",
+  "ranks": 9,
+  "terms": [
+   "Lift"
+  ],
+  "text_template": "Ultimate DMG Dealt +{0}%. After the wielder applies Lift, during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+  "values_by_rank": [
+   [
+    16.0,
+    19.2,
+    22.4,
+    25.6,
+    28.8,
+    32.0,
+    35.2,
+    38.4,
+    44.8
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Twilight: Lingering Glow": {
+  "key": "Twilight: Lingering Glow",
+  "ranks": 9,
+  "terms": [
+   "Vulnerable"
+  ],
+  "text_template": "ATK +{0}%. When the wielder's skill applies Vulnerability, during the next ultimate cast within 30.00s, the wielder gains DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+  "values_by_rank": [
+   [
+    7.0,
+    8.4,
+    9.8,
+    11.2,
+    12.6,
+    14.0,
+    15.4,
+    16.8,
+    19.6
+   ],
+   [
+    12.0,
+    14.4,
+    16.8,
+    19.2,
+    21.6,
+    24.0,
+    26.4,
+    28.8,
+    33.6
+   ]
+  ]
+ },
+ "Twilight: Lustrous Pyre": {
+  "key": "Twilight: Lustrous Pyre",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Max HP +{0}%. When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +{1}% for 20.00s. Effects of the same name cannot stack.",
+  "values_by_rank": [
+   [
+    10.0,
+    12.0,
+    14.0,
+    16.0,
+    18.0,
+    20.0,
+    22.0,
+    24.0,
+    28.0
+   ],
+   [
+    8.0,
+    9.6,
+    11.2,
+    12.8,
+    14.4,
+    16.0,
+    17.6,
+    19.2,
+    22.4
+   ]
+  ]
+ },
+ "ULT Efficiency [L]": {
+  "key": "ULT Efficiency [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Ultimate Gain Efficiency +{0}%",
+  "values_by_rank": [
+   [
+    5.95,
+    10.71,
+    15.48,
+    20.24,
+    25.0,
+    29.76,
+    34.52,
+    39.29,
+    46.43
+   ]
+  ]
+ },
+ "ULT Efficiency [M]": {
+  "key": "ULT Efficiency [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Ultimate Gain Efficiency +{0}%",
+  "values_by_rank": [
+   [
+    4.76,
+    8.57,
+    12.38,
+    16.19,
+    20.0,
+    23.81,
+    27.62,
+    31.43,
+    37.14
+   ]
+  ]
+ },
+ "Will [L]": {
+  "key": "Will [L]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Will +{0}",
+  "values_by_rank": [
+   [
+    20.0,
+    36.0,
+    52.0,
+    68.0,
+    84.0,
+    100.0,
+    116.0,
+    132.0,
+    156.0
+   ]
+  ]
+ },
+ "Will [M]": {
+  "key": "Will [M]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Will +{0}",
+  "values_by_rank": [
+   [
+    16.0,
+    28.0,
+    41.0,
+    54.0,
+    67.0,
+    80.0,
+    92.0,
+    105.0,
+    124.0
+   ]
+  ]
+ },
+ "Will [S]": {
+  "key": "Will [S]",
+  "ranks": 9,
+  "terms": [],
+  "text_template": "Will +{0}",
+  "values_by_rank": [
+   [
+    12.0,
+    21.0,
+    31.0,
+    40.0,
+    50.0,
+    60.0,
+    69.0,
+    79.0,
+    93.0
+   ]
+  ]
+ }
+}

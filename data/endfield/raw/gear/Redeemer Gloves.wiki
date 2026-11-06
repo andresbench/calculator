@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Redeemer Gloves
+|image = Redeemer_Gloves.png
+|filename = item_equip_t4_parts_wuling01_hand_01
+|cnname = 纾难护手
+|tcname = 紓難護手
+|jpname = 救国プロテクター
+|krname = 위기 탈출 보호 장갑
+|spname = Guantes de Redentor
+|runame = Перчатки «Освободитель»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Redeemer Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|This piece of gear is the byword for the difficult road ahead. "The quest is not yet finished, and so the journey is not yet complete."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Agility
+|pvalue = +86, +94, +103, +111
+|sstat = Ultimate DMG Bonus
+|svalue = +45.0%, +49.5%, +54.0%, +58.5%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

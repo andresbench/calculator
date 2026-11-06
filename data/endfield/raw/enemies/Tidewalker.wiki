@@ -1,0 +1,67 @@
+{{Enemy infobox
+|name = Tidewalker
+|image = Tidewalker_sprite.png
+|filename = eny_0091_wgshoal
+|cnname = 潮行天使
+|tcname = 潮行天使
+|jpname = 潮進アンゲロス
+|krname = 조류아겔로스
+|spname = Caminante de mareas
+|runame = Волноход
+|type = Aggeloi
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 17
+}}
+'''Tidewalker''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Genesklydan" (archive ID: AGM321) exhibits humanoid head and legs. Ever since the discovery of this particular pattern, human resemblance became an unspoken rule for assessing Aggeloid threat levels.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.2
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *Attacks with abilities that apply Cryo Infliction, and applies Solidification to operators it hits.
+|location = *[[Marker Stone]]
+*[[Energy Alluvium: Wuling City]]
+|drops = {{I|Black Treacle}}
+|addendum = }}
+
+==Overview==
+As a large hovering [[Aggelos]], the Tidewalker is a formidable foe, due to its abilities that can cover melee or ranged, and can apply {{G|Cryo Infliction}} to further complicate the battle:
+
+*Swings with one of its tentacles, followed by a thrust into the ground and lastly a swing, dealing Physical damage.
+*Swings with both of its tentacles, dealing Physical damage and knock Operators back.
+*Thrusts both of its tentacles into the ground, dealing Physical damage. This is followed by pulling them up, dealing Physical damage to a short distance at front.
+*Swings both of its tentacles three times, with each swing creates grounded shockwaves, dealing Cryo damage and {{G|Cryo Infliction}}.
+*Fires lasers three times, each dealing Cryo damage, {{G|Cryo Infliction}}, knock Operators back, and leaving marks on the ground. The marks detonate after a short period, dealing Cryo damage and {{G|Cryo Infliction}}.
+*Thrusts both of its tentacles into the ground, dealing Physical damage, then extends them into nine areas, dealing Cryo damage and {{G|Cryo Infliction}}. This ability can be interrupted by skills.
+
+==See Also==
+*[[Tidewalker δ]] - a stronger variant of Tidewalker.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1246, 8942, 56582, 222753, 535821, 825447 from 1246, 10520, 66567, 222753, 535821, 825447
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

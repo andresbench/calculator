@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Xiranflow Gloves
+|image = Xiranflow_Gloves.png
+|filename = item_equip_t4_suit_expend_spell01_hand_02
+|cnname = 壤流护手
+|tcname = 壤流護手
+|jpname = 壌流プロテクター
+|krname = 식양의 흐름 보호 장갑
+|spname = Guantes de Flujo Xiran
+|runame = Перчатки «Ксиранад»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Xiranflow Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC Factory. This equipment can improve the wearer's combat capabilities.|Experimental equipment proposed as standard gear for the Wuling Watchguards.
+"Are you saying that these gloves will be... Wha...? I can touch Xiranite machines to charge these bruisers? That wasn't blight nonsense, right...?"}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +65, +71, +78, +84
+|sstat = Intellect
+|svalue = +43, +47, +51, +55
+|tstat = Cryo & Electric DMG
+|tvalue = +19.2%, +21.1%, +23.0%, +24.9%
+|setname = Xiranflow
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+10%|1d}}.
+Whenever the wearer {{G|Debuff Consumption|consumes}} {{G|Electrification|Electrification}} or {{G|Corrosion|Corrosion}}, the wearer gains a number of buff stacks equal to the {{G|Status Level|Status Level}} of the Arts Reaction consumed, with each buff stack giving {{Color|Electric DMG Dealt|6}} and {{Color|Nature DMG Dealt|5}} {{Color|+15%|1d}} for 25s. Max number of buff stacks: 3. Duration of each stack is counted separately.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Xiranflow}}
+{{Gears|state=collapsed}}

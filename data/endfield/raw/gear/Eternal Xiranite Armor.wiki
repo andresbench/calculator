@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Armor
+|image = Eternal_Xiranite_Armor.png
+|filename = item_equip_t4_suit_usp02_body_01
+|cnname = 长息装甲
+|tcname = 長息裝甲
+|jpname = 流転マント
+|krname = 식양의 숨결 경장갑
+|spname = Armadura de Xiranita eterna
+|runame = Броня «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+Most would struggle to establish a connection between kitchen work and Xiranite. However, a particular Wuling resident actually derives design inspirations when dining at a restaurant.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Will
+|pvalue = +87, +95, +104, +113
+|sstat = Intellect
+|svalue = +58, +63, +69, +75
+|tstat = Arts Intensity
+|tvalue = +20.7, +22.8, +24.8, +26.9
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

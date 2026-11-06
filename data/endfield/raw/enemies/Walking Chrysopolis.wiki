@@ -1,0 +1,78 @@
+{{Enemy infobox
+|name = Walking Chrysopolis
+|image = Walking_Chrysopolis_sprite.png
+|filename = eny_0077_agshield
+|cnname = 跂步晶城
+|tcname = 跂步晶城
+|jpname = 歩行晶城
+|krname = 결정아겔로스
+|spname = Crisópolis andante
+|runame = Ходячий хризополис
+|type = Aggeloi
+|class = Alpha
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 13
+}}
+'''Walking Chrysopolis''' is an [[Alpha enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Thureoron" (archive ID: ACL156) is a pattern furnished with a shield-like structure that protects its halo. Be warned. This Aggelos can manipulate energy to drag distant targets towards itself.}}
+
+==Stats==
+{{Enemy data
+|HP = 1385, 9936, 62869, 247504, 595357, 917164
+|ATK = 59, 279, 868, 2156, 3244, 3717
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *The Walking Chrysopolis has two states: Normal and Bastion.
+*Normal State: This has the ability to pull in operators from afar.
+*Bastion State: All incoming attacks on its front or sides will be reflected, but this also exposes a weak point on its back.
+|location = *TBA
+|drops = {{I|Natural Chrysopolis Ingot}}
+|addendum = }}
+
+==Overview==
+Being one of the larger [[Aggeloi]], the Walking Chrysopolis is a massive foe to be tackled, as it has several abilities revolving around its large size.
+
+The Walking Chrysopolis starts with '''Normal State''' with the following abilities:
+*Bash the front with its front shield, dealing Physical damage and knock Operators back. This ability will only be used when the controlled Operator is at its front.
+*Leaps high in the air and slams, dealing Physical damage. This ability can be interrupted by skills.
+*Roars and deals continuous Physical damage to Operators around.
+*Pulls in Operators at the front to itself, dealing Physical damage. This ability can be interrupted by skills.
+*Start stepping at a larger force, dealing Physical damage to Operators on the spots.
+
+The Walking Chrysopolis can enter '''Bastion State''', where it will conduct a leaping slam (see above) that cannot be interrupted, and lands with its shields covering its front, and has the following abilities:
+*Periodically emit grounded shockwaves that deals Æther damage.
+*When Operators attempt to attack through its shield, they will get knocked back.
+*Expose its weakpoint at the back; The Walking Chrysopolis conducts the following based on the weakpoint status, then return to Normal State:
+**If the weakpoint is destroyed, deal 160 Stagger and the Walking Chrysopolis become immobile and takes more DMG for a short period
+**If the weakpoint is not destroyed for too long, the Walking Chrysopolis conducts a 360-degree swipe that deals Physical damage
+
+The Walking Chrysopolis also has the following abilities that is unrestrained by its states:
+*Swipes the back with its legs, dealing Physical damage to the back in a big distance. This ability will only be used when the controlled Operator is at its back.
+*Perform a hard step with both of its legs, dealing Physical damage. This ability will only be used when the controlled Operator is at its back.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1385, 9936, 62869, 247504, 595357, 917164 from 1385, 11689, 73963, 247504, 595357, 917164
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Alpha enemies]]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Mordvolt Resistant Vest
+|image = Mordvolt_Resistant_Vest.png
+|filename = item_equip_t2_suit_will01_body_01
+|cnname = 蚀电防护背心
+|tcname = 蝕電防護背心
+|jpname = 蝕電防護ベスト
+|krname = 침식 방호 조끼
+|spname = Chaleco resistente de Mordvolt
+|runame = Резистентный жилет «Мортвольт»
+|rarity = 3
+|artifice = no
+|type = Armor
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Mordvolt Resistant Vest''' is a {{gear|3|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A sturdy, protective vest. 
+"PPE must be properly worn in emergency repair sites. Failure to do so might make you see damaged facilities and machinery calling out to you for help... Just stop giving our surgeons extra work, okay?"}}
+
+==Stats==
+{{Gear data
+|defense = +28.8
+|pstat = Will
+|pvalue = +44
+|sstat = Agility
+|svalue = +29
+|tstat = HP
+|tvalue = +10.5%
+|setname = Mordvolt Resistant
+|seteffect = 3-piece set effect: Wearer's Will {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, Treatment Effect {{Color|+30%|1d}}.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Mordvolt Resistant}}
+{{Gears|state=collapsed}}

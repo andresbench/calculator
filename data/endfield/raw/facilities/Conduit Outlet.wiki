@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Conduit Outlet
+|filename = item_port_udpipe_unloader_1
+|images = Conduit_Outlet icon.png:Icon;
+Conduit Outlet.png:Full
+|cnname = 暗管出口
+|tcname = 暗管出口
+|jpname = 地下配管（出）
+|krname = 암관 출구
+|spname = Salida de conducto
+|runame = Отвод трубопровода
+|type = Depot Access
+|rarity = 3
+|power = }}
+'''Conduit Outlet''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An outlet for an underground pipeline. Connect this to a matching Conduit Inlet to transport fluids through it.|Conduits are underground pipelines with a rather convoluted history of development. Although the Wuling Tianshi did not successfully realize their "amorphous pipeline" design, their partnership with Endfield inspired engineers from the latter. The end product is capable of greatly improving fluid transport efficiency of underground pipeline facilities.}}
+==Usage==
+An outlet for an underground pipeline. Connect this to a matching Conduit Inlet to transport fluids through it.
+
+==Acquisition==
+Requirement : [[AIC Factory Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC II - Conduits]]
+{{RecipeTable|product=Conduit Outlet}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Polearm
+|name = Beacon of Duty
+|rarity = 6
+|images = 
+Beacon_of_Duty icon.png:Icon;
+Beacon_of_Duty.png:Full;
+Beacon_of_Duty max model.png:Max
+|filename = wpn_lance_0007
+|cnname = 灯火使命
+|tcname = 燈火使命
+|jpname = 灯火の使命
+|krname = 등불의 사명
+|spname = Baliza del deber
+|runame = Маяк долга
+|type = Polearm
+|source = Reward: Protocol Pass}}
+'''Beacon of Duty''' is a 6★ [[Polearm]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An old weapon from the Northmarch Support Hub with extremely poor handling. But it also features an incredible capacity for damage. Its massive weight might make it unpopular with most, but strong wielders who enjoy powerful, over-the-top moves rate it rather positively.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 49, 142, 240, 338, 436, 485
+|pot = Skill {{Color|Efficacy: Fuel for the Torch|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Polearm|Agility [L]|ULT Efficiency [L]|Efficacy: Fuel for the Torch}}
+
+==Basic Info==
+{{Quote|"Number 81! Oh dear, you're being naughty again." <br>He placed a fist-sized heat lamp on the table, poked at the top that was still warm, then watched it roll across the table. It was the naughtiest of the kids. Unlike Number 35, who could not stop squabbling, or Number 29, who was quiet but always scheming for a major prank, Number 81's delinquency came from the bottom of its heart, a living heart — Number 81 never wanted to be a heat lamp with a screw fitting. It did not intend to give off constant and small amounts of heat for a service life that seemed like an eternity. It did not like warming the plants growing on the horticultural shelves of the auto-farm, be they Buckflowers, Tartpeppers, or the like. That was why Number 81 kept breaking down. Its glow was either too dim or too bright. Of course, it was just acting up and could still be salvaged. Number 81 lacked the courage to simply rebel against its function. <br>"You won't explode, but you won't splutter out and go dark either, you little coward," the man poked Number 81 some more and it rolled back to its original place. "What in the blight can you do?" <br>Maybe it could get a round of cutting and transform itself into an important component of an Arts Unit. Or so Number 81 thought. But that was not its fate. It belonged to Great-Grandfather, who was once a thermal conductance module of a proper Arts Unit. The ancient component witnessed the failing of the Cosmic Gate, the hosts of the Aggeloi that moved like a great tide, and the filthy blood spilled on the Land when the humans killed each other... It was a legend, a witness of an era of suffering, one that once trod upon the scars of humanity. <br>Being an Arts Unit would not work. Was there another path? Perhaps an aiming scope? It started thinking again. But that was not Number 81's destiny. Grandfather walked that path. It was the sights of a large-caliber firearm. The master who accompanied it left the sealed subterranean strongholds and roamed the wilderness. Like a powerful scavenger that gnawed at the bones, they crushed and pulverized the remnants of the Aggeloid host. Then they went north, reached the Aurora, lamented in disappointment, and abandoned themselves upon the solid ice that never melts. <br>So once again Number 81 racked its mind. What about an image projector? But it quickly extinguished the idea. That was Father. Its main corpus once emitted patterns of light cast onto a wall to give form to maps and images of people. It once gave detailed depictions of the crazed warlord who had made a huge mess of things. Eventually, it also showcased the shattered aftermath of his mad ambitions. The people were exuberant and they celebrated the conclusion. <br>With ancestors that served various illustrious functions, Number 81 felt only pain knowing that its generation was reduced to plant nurturers in the auto-farm. It had been excited when it first arrived. But one year later, the strings of regret began to tie it down. Pallets of fresh auto-farm produce would be its only contributions to this world. Standardized production processes, standardized supplies, and standardized praises... The place seemed to have cut a hole in its heart, and blood poured out of it every day that seemed the same as the day before and would be the same as the day after. Its empty heart seized its throat, suffocating it during silent nights, choking it awake, and giving it a sense of hopeless resignation that thickened and deepened over time. <br>It knew it was sick. There was something pale and empty that kept trying to erase its memories. The UWST slogans of productivity, industry, and revival became nothing more than empty noises that sank into this pale nothing... And the pale nothing poured out of its orifices, covered its face and body, and made it frightened of looking in the mirror. It could feel shame. In a time of relative peace, it would have restrained its inner uncertainty and set it aside as an ennui of a coddled and spoiled entity. But this sensation lingered and could not be ignored. <br>Something was missing. Something that kept Grandfather going until it bled itself dry, that supported Father through its exhaustion... It was something called duty, and none of it remained in Number 81. It once fantasized about a day where some hero would deliver a radio broadcast, invite every light bulb to an epic enterprise, ask them to ignite themselves, and with this great action, banish the deepest darkness from Talos-II. But this was just a fantasy. No new tales of the Endministrator had surfaced in this Land for years. <br>So the man gently placed Number 81 down. He then took a few deep breaths to suppress the emptiness that sank into his chest, pushed open the door, headed out into the open, and gazed upon the night sky. <br>The place was a wide expanse and there were no clouds in the skies, but no stars either. Just a beautiful view that could fit snugly in a tomb.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Polearms]]

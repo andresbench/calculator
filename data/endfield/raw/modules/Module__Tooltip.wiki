@@ -1,0 +1,20 @@
+-- This module safely expands passed templates inside the Tooltip template.
+local p = {}
+
+-- Main Function
+function p.main(frame)
+    local args = frame:getParent().args
+
+    local root = mw.html.create('span')
+        :addClass('glossary')
+        :attr('data-name', args.title or '')
+        :attr('data-desc', args.content or '')
+
+    if args[1] then
+        root:wikitext(mw.text.unstripNoWiki(args[1]))
+    end
+
+    return tostring(root)
+end
+
+return p

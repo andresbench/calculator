@@ -1,0 +1,51 @@
+[[File:Purification Node Tutorial 1.png|thumb|Transport Sewage to the Purification Node sewage treatment inlet via pipelines to render the byproduct harmless.]]
+[[File:Purification Node Tutorial 3.png|thumb|Connect the byproduct outlet with pipelines to transport Xircon Effluent to other facilities.]]
+After the player clears the Side Mission: [[Spring's Return II]], the '''Purification Node''' will be unlocked in the [[Test Area]] in [[Wuling]]. The Purification Node can treat [[Sewage]], and with max upgrade, produce [[Xircon Effluent]]. Even if the Xircon Effluent product outlet is completely full, Sewage treatment by the Purification Node will not be affected.
+
+While considered to be a type of facility, Purification Nodes do not count toward total facilities limit in the area nor do they use any electricity.
+
+==Upgrade==
+{| class="wikitable"
+! Level !! Cost !! Upgrades
+|-
+| 1 || Default || Sewage Inlet x1
+|-
+| 2 || {{Cur|Wuling Stock Bill|250000}} || Sewage Inlet x2
+|-
+| 3 || {{Cur|Wuling Stock Bill|450000}} || Sewage Inlet x3
+|-
+| 4  || {{Cur|Wuling Stock Bill|1200000}} || Gain Xircon Effluent Outlet
+|}
+
+==Usage==
+<!--should add this to Module:Recipe soon-->
+{| class="wikitable", style="padding-top: 10px;"
+! Facility !! Cost !! Product !! Time
+|-
+| Sewage Inlet || {{Item|Sewage|2}}<br>120/min || Treatment complete || 1s
+|-
+| Xircon Effluent Outlet<br><small>(use Sewage from Inlets)</small>|| {{Item|Sewage|30}}<br>360/min || {{Item|Xircon Effluent|1}}<br>12/min || -
+|}
+
+==Regional Development==
+Upgrading the Purification Node will provide {{I|Wuling Regional Development Metric|g=0}} which can be used to increase the [[Regional Development]] Level:
+{|class="wikitable wikitable-mobile" width="35%"
+! width=13% |Level
+! Regional Development Metric (RDM)
+|-
+!1
+|300
+|-
+!2
+|500
+|-
+!3
+|800
+|-
+!4
+|1200
+|}
+
+== Navigation ==
+{{Features nav}}
+[[Category: Facility (Regional Development)]]

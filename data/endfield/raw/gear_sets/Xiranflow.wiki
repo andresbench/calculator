@@ -1,0 +1,26 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Hongshan Swordmancers manufacturer icon.png 
+|cnname = 
+|jpname = 
+|krname = 
+|spname =
+|runame =
+|manufacturer= [[Hongshan Swordmancers]]
+|level= 70
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer's ATK {{Color|+10%|1d}}.
+Whenever the wearer {{G|Debuff Consumption|consumes}} {{G|Electrification}} or {{G|Corrosion}}, the wearer gains a number of buff stacks equal to the {{G|Status Level}} of the Arts Reaction consumed, with each buff stack giving {{Color|Electric DMG Dealt|6}} and {{Color|Nature DMG Dealt|5}} {{Color|+15%|1d}} for 25s. The number of buff stacks maxes out at 3 stacks. Duration of each stack is counted separately.
+}}
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Experimental equipment proposed for the Wuling Watchguards.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Hongshan Swordmancers for Wuling Watchguards.
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

@@ -1,0 +1,259 @@
+{{Operator infobox
+|name = Xaihi
+|rarity = 5
+|class = Supporter
+|weapon = Arts Unit
+|element = Cryo
+|faction = Cabal of Tranquility
+|tags = HP Treatment, Cryo Infliction, Amp
+|main = Will
+|sub = Intellect
+|starting = 
+|headhunting = standard
+|quote = O Knowledge most ancient, lead us not into temptation but deliver us from the codes of malice... I am Xaihi, Endministrator. May you be enlightened.
+|image = 
+Xaihi Splash Art.png
+|filename = chr_0011_seraph
+|cnname = 赛希
+|tcname = 賽希
+|jpname = ザイヒ
+|krname = 자이히
+|spname = Xaihi
+|runame = Сайхи
+|fullname = Séraphine Xaihi
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Yume_Miyamoto Miyamoto Yume]
+|cncv = [https://baike.baidu.com/en/item/Pan%20Danni/71288 Pan Danni]
+|encv = [https://www.imdb.com/name/nm4716053/ Elsie Lovelock]
+|krcv = [https://en.namu.wiki/w/장예나 Jang Ye-na]
+|gender = Female
+|authentication = Cabal of Tranquility
+|birthdate = May 16
+|race = Sarkaz
+|infection = Oripathy positive (infected), based on medical examination reports.
+|strength = Normal
+|tactical = Standard
+|skill = Standard
+|originium = Excellent
+|exp1 = Erudite
+|exp1d = Erudite: Linguist
+The focus of her research includes records of the mysterious Precursors to abstract and esoteric algorithmic scripts.
+|exp2 = Information Technology
+|exp2d = Information Technology: Data Exchange
+Skilled in discourse with all manners of smart/non-smart devices and machines — ranging from access security interfaces to toasters.
+|hb1 = Technology
+|hb1d = Technology: Signal Analysis and Processing
+The world's composition and how it works, signal inputs and outputs, and anything else named as a form of "technology" are the very fields of her pursuit.
+|hb2 = Mind Honing
+|hb2d = Mind Honing: Online Gamer
+The renowned master of "Algorithmic Checkers" aboard Dijiang. A mind kept cool in a low-temperature environment is essential to master this mathematical board game.
+|prefer = Valley Industry's Choice
+|matskill = Chivalric Virtues, Freedom to Proselytize
+|matstats = Delivery Guaranteed, Monaihe
+}}
+'''Xaihi''' is a 5★ [[Cryo]] [[Supporter]] [[Operator]] from the [[Cabal of Tranquility]] in ''[[Arknights: Endfield]]''. She is an [[Arts Unit]] user who can use her battle skill to restore the HP of the controlled operator. Her ultimate can also grant {{G|Arts Amp|Amp}} buffs to support the entire team.
+
+==Profile==
+"Once we are connected, wisdom shall springeth forth."<br/>Xaihi is from the [[Cabal of Tranquility]], a research order dispatched from Laterano to [[Talos-II]] for technical study. As a Sessionite, she believes computation and linguistic analysis pave the way to Veritas.<br/>She is better with machines than with people. Her talent in information technology is undeniable — even to the Abbess of the Great Monastery in the Cabal of Tranquility. So despite her "unauthorized" upgrade to the dome of the Cathedralis triggering a cascade of accidents, the Abbess still sincerely recommended her to [[Endfield Industries]], hoping she could find a stage worthy of her genius.<br/>Now, Xaihi works aboard Dijiang on information engineering tasks such as Protorig Network construction and system integration. Her unique insights into the Originium Network, combined with the deep knowledge she carries from the Cabal, ensure her place as an indispensable member of Endfield.<br/>"O Knowledge most ancient, lead us not into temptation but deliver us from the codes of malice... I am Xaihi, Endministrator. May you be enlightened."
+
+==Stats==
+{{Operator data
+|main = Will
+|sub = Intellect
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 86, 144, 203, 262, 291
+|STR = 9.329, 26.517, 44.608, 62.7, 80.792, 89.838
+|AGL = 9.381, 26.99, 45.525, 64.061, 82.597, 91.865
+|INT = 15.876, 39.63, 64.634, 89.638, 114.642, 127.144
+|WIL = 15.154, 43.948, 74.257, 104.567, 134.876, 150.03
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, D96 Steel Sample 4 x20, Bloodcap x8, T-Creds x100000
+|pot1 = {{G|Arts Amp|Arts Amp}} granted by the {{Color|Auxiliary Crystal|7}} is increased by another {{Color|5%|1d}}.
+|pot1t = Agile Execution
+|pot2 = Ultimate {{Color|Stack Overflow|7}} improved: Ultimate Energy cost {{Color|-10%|1d}}.
+|pot2t = Link Aggregation
+|pot3 = Combo skill {{Color|Stress Testing|7}} improved: When hitting the target, the hit chains {{Color|1|1d}} time to 1 additional target nearby.
+|pot3t = Mapping Node
+|pot4 = Intellect {{Color|+15|1d}}, Treatment Efficiency {{Color|+10%|1d}}.
+|pot4t = Grayscale Release
+|pot5 = Ultimate {{Color|Stack Overflow|7}} improved: {{G|Amp|Amp}} effect is increased to {{Color|1.1|1d}} times the original.
+|pot5t = Controlled Recursion
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Cooldown
+|icon= Attack-Artsunit
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Cryo DMG|4}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|15|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Cryo DMG|4}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Cryo DMG|4}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 15%, 17%, 18%, 20%, 21%, 23%, 24%, 26%, 27%, 29%, 31%, 34%
+|stat2= BATK SEQ 2 Multiplier, 16%, 18%, 19%, 21%, 22%, 24%, 26%, 27%, 29%, 31%, 33%, 36%
+|stat3= BATK SEQ 3 Multiplier, 21%, 23%, 25%, 27%, 29%, 32%, 34%, 36%, 38%, 40%, 44%, 47%
+|stat4= BATK SEQ 4 Multiplier, 33%, 36%, 40%, 43%, 46%, 50%, 53%, 56%, 59%, 64%, 68%, 74%
+|stat5= BATK SEQ 5 Multiplier, 55%, 61%, 66%, 72%, 77%, 83%, 88%, 94%, 99%, 106%, 114%, 124%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Distributed DoS
+|icon= Skill-Xaihi
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Summons an {{Color|Auxiliary Crystal|7}} that orbits the controlled operator for a while. <br />After the controlled operator performs a {{G|Final Strike|Final Strike}} on the enemy, the {{Color|Auxiliary Crystal|7}} will restore the said operator's HP. This effect can trigger 2 times. The attribute of Will increases the amount of HP treatment. <br />When the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary {{G|Arts Amp|Arts Amp}} as well. This effect cannot stack.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Base Treatment, 144, 173, 202, 230, 245, 259, 274, 288, 302, 310, 317, 324
+|stat3= Treatment Increase per Will, 0.34, 0.4, 0.47, 0.54, 0.57, 0.6, 0.64, 0.67, 0.71, 0.72, 0.74, 0.76
+|stat4= Auxiliary Crystal Duration (s), 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat5= Arts Amp, 9%, 9%, 9%, 9%, 9%, 11%, 11%, 11%, 13%, 13%, 13%, 15%
+|stat6= Arts Amp Duration (s), 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25
+}}
+{{Combat skill
+|name= Stress Testing
+|icon= Combo-Xaihi
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When the {{Color|Auxiliary Crystal|7}} uses up its HP treatments. <br /><b>SKILL DESCRIPTION:</b> Quickly charges up the {{Color|Auxiliary Crystal|7}} and launches it at the enemy to deal {{Color|Cryo DMG|4}} and {{G|Cryo Infliction|Cryo Infliction}}.
+|stat1= Cooldown, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7
+|stat2= DMG Multiplier, 200%, 220%, 240%, 260%, 280%, 300%, 320%, 340%, 360%, 385%, 415%, 450%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Stack Overflow
+|icon= Ult-Xaihi
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Applies temporary {{G|Cryo Amp|Cryo Amp}} and {{G|Nature Amp|Nature Amp}} to the entire team. The attribute of Intellect (INT) increases the Amp effect.
+|stat1= Ultimate Energy Cost, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80
+|stat2= Base Cryo Amp, 11%, 12%, 13%, 14%, 15%, 16%, 17%, 18%, 19%, 21%, 22%, 24%
+|stat3= Base Nature Amp, 11%, 12%, 13%, 14%, 15%, 16%, 17%, 18%, 19%, 21%, 22%, 24%
+|stat4= Amp Increase per Intellect, 0.014%, 0.015%, 0.016%, 0.018%, 0.019%, 0.02%, 0.022%, 0.023%, 0.024%, 0.026%, 0.028%, 0.03%
+|stat5= MAX Amp from INT, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 36%
+|stat6= Duration (s), 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Cooldown|skill2=Distributed DoS|skill3=Stress Testing|skill4=Stack Overflow|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Tachyon Screening Lattice,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Quadrant Fitting Fluid,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Tachyon Screening Lattice,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Quadrant Fitting Fluid,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Cooldown|skill2=Distributed DoS|skill3=Stress Testing|skill4=Stack Overflow|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Tachyon Screening Lattice,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Quadrant Fitting Fluid,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Tachyon Screening Lattice,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Quadrant Fitting Fluid,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Cooldown|skill2=Distributed DoS|skill3=Stress Testing|skill4=Stack Overflow|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Tachyon Screening Lattice,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Quadrant Fitting Fluid,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Tachyon Screening Lattice,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Quadrant Fitting Fluid,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Stalwart
+|icon = Will
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Will +10.
+|cond2 = Elite 2
+|desc2 = Operator Will +15.
+|cond3 = Elite 3
+|desc3 = Operator Will +15.
+|cond4 = Elite 4
+|desc4 = Operator Will +20.
+}}
+{{Operator talent
+|name = Execute Process
+|icon = Xaihi Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Combo skill {{Color|Stress Testing|7}} improved: Hitting an enemy with {{G|Cryo Infliction|Cryo Infliction}} or {{G|Solidification|Solidification}} also causes the enemy to suffer {{Color|Cryo DMG Taken|4}} {{Color|+7%|1d}} for {{Color|5|1d}}s. This effect cannot stack.
+|cond2 = Elite 2
+|desc2 = Combo skill {{Color|Stress Testing|7}} improved: Hitting an enemy with {{G|Cryo Infliction|Cryo Infliction}} or {{G|Solidification|Solidification}} also causes the enemy to suffer {{Color|Cryo DMG Taken|4}} {{Color|+10%|1d}} for {{Color|5|1d}}s. This effect cannot stack.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Freeze Protocol
+|icon = Xaihi Talent 2 icon
+|info = 
+|cond1 = Elite 3
+|desc1 = Ultimate {{Color|Stack Overflow|7}} improved: The ultimate also {{G|Dispel|dispels}} {{G|Cryo Infliction|Cryo Infliction}} and {{G|Solidification|Solidification}} from the entire team.
+|cond2 = 
+|desc2 = 
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Will
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x48, T-Creds x10800; -; -;
+|tcost2 = -; -; Protohedron x36, T-Creds x32000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Standardized Scripting
+|icon = MFG-manufacture_efficiency
+|facility = Manufacturing Cabin
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +10%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20%
+}}
+{{Operator base skill
+|name = Murmuring Session
+|icon = RR-guestroom_clue
+|facility = Reception Room
+|postfix1 = α
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to grant operators a small Clue 5 Rate-UP: Cabal of Tranquility (activates upon assignment; effects of the same type cannot stack)
+|postfix2 = β
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to grant operators Clue 5 Rate-UP: Cabal of Tranquility (activates upon assignment; effects of the same type cannot stack)
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_clue
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Talent Execute Process
+*** {{Color|Cryo DMG taken|4}} debuff reduced from +10% / +15% to +7% / +10%.
+*** Effect duration reduced from {{Color|15|1d}}s to {{Color|5|1d}}s
+** Base Skill Vitreologist changed to Murmuring Session
+*** Old: Assign to Growth Chamber to grant vitrified plant growth rate +10% / +20%.
+*** New: Assign to Reception Room to grant operators [a small] Clue 5 Rate-UP: Cabal of Tranquility (activates upon assignment; effects of the same type cannot stack)
+*'''Beta Test II'''
+**Rarity increased to 5.
+*'''Beta Test I'''
+**Class changed to [[Class|Supporter]].
+*'''Technical Test''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

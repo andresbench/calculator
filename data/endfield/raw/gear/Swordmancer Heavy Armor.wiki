@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Swordmancer Heavy Armor
+|image = Swordmancer_Heavy_Armor.png
+|filename = item_equip_t4_suit_phy01_body_02
+|cnname = 点剑重装甲
+|tcname = 點劍重裝甲
+|jpname = 宏山点剣ヘビーアーマー
+|krname = 검술사 중장갑
+|spname = Armadura pesada de espadachín
+|runame = Тяжелая броня «Мастер меча»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Swordmancer Heavy Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|One of the products marketed by the Bureau of Swordmancers in its early days. 
+The Tianshi took "gorge-sized capacity" as their design concept and literally achieved "absorption and neutralization" of energy-based attacks.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Agility
+|pvalue = +87, +95, +104, +113
+|sstat = Strength
+|svalue = +58, +63, +69, +75
+|tstat = Arts Intensity
+|tvalue = +20.7, +22.8, +24.8, +26.9
+|setname = Swordmancer
+|seteffect = 3-piece set effect: Wearer's Stagger Efficiency Bonus {{Color|+20%|1d}}.
+After the wearer applies a {{G|Physical Status|Physical Status}}, the wearer also performs 1 hit that deals 250% ATK of Physical DMG and [{{Color|10|2}} Stagger]. Effect trigger cooldown: 15s.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Swordmancer}}
+{{Gears|state=collapsed}}

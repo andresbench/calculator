@@ -1,0 +1,1030 @@
+{
+ "Abilities": [
+  {
+   "name": "AbilityName",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "Filename",
+   "type": "String"
+  },
+  {
+   "name": "AbilityType",
+   "type": "String"
+  },
+  {
+   "name": "Origin",
+   "type": "List of"
+  },
+  {
+   "name": "DMGTypes",
+   "type": "List of"
+  },
+  {
+   "name": "AssociatedElement",
+   "type": "String"
+  },
+  {
+   "name": "SPCost",
+   "type": "Integer"
+  },
+  {
+   "name": "UltimateEnergyCost",
+   "type": "Integer"
+  },
+  {
+   "name": "PotentialLevel",
+   "type": "Integer"
+  },
+  {
+   "name": "Applies",
+   "type": "List of"
+  },
+  {
+   "name": "Interacts",
+   "type": "List of"
+  },
+  {
+   "name": "Consumes",
+   "type": "List of"
+  },
+  {
+   "name": "Absorbs",
+   "type": "List of"
+  },
+  {
+   "name": "Dispels",
+   "type": "List of"
+  },
+  {
+   "name": "Removes",
+   "type": "List of"
+  },
+  {
+   "name": "Triggers",
+   "type": "List of"
+  },
+  {
+   "name": "Description",
+   "type": "Text"
+  }
+ ],
+ "AbilityMatrixUpgrades": [
+  {
+   "name": "Operator",
+   "type": "String"
+  },
+  {
+   "name": "NodeName",
+   "type": "String"
+  },
+  {
+   "name": "Requirements",
+   "type": "String"
+  },
+  {
+   "name": "Item1",
+   "type": "String"
+  },
+  {
+   "name": "Count1",
+   "type": "Integer"
+  },
+  {
+   "name": "Item2",
+   "type": "String"
+  },
+  {
+   "name": "Count2",
+   "type": "Integer"
+  },
+  {
+   "name": "Item3",
+   "type": "String"
+  },
+  {
+   "name": "Count3",
+   "type": "Integer"
+  },
+  {
+   "name": "Item4",
+   "type": "String"
+  },
+  {
+   "name": "Count4",
+   "type": "Integer"
+  },
+  {
+   "name": "Item5",
+   "type": "String"
+  },
+  {
+   "name": "Count5",
+   "type": "Integer"
+  }
+ ],
+ "Banners": [
+  {
+   "name": "Banner",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "RateUpOperator",
+   "type": "String <!-- name of the operator who is Rate-UP -->"
+  },
+  {
+   "name": "LimitedOperators",
+   "type": "List (;) of String <!-- list of non-standard operators -->"
+  },
+  {
+   "name": "QuotaOperator",
+   "type": "String <!-- name of operator who is available as quota exchange -->"
+  },
+  {
+   "name": "AsiaStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AsiaEndTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuEndTime",
+   "type": "Datetime"
+  }
+ ],
+ "BaseFacilities": [
+  {
+   "name": "Id",
+   "type": "Integer"
+  },
+  {
+   "name": "Icon",
+   "type": "String"
+  },
+  {
+   "name": "Facility",
+   "type": "String"
+  }
+ ],
+ "BaseSkills": [
+  {
+   "name": "BaseSkill",
+   "type": "String"
+  },
+  {
+   "name": "Postfix",
+   "type": "String (size=1)"
+  },
+  {
+   "name": "Icon",
+   "type": "String"
+  },
+  {
+   "name": "Operator",
+   "type": "String"
+  },
+  {
+   "name": "Facility",
+   "type": "Integer"
+  },
+  {
+   "name": "Slot",
+   "type": "Integer"
+  },
+  {
+   "name": "Phase",
+   "type": "Integer"
+  },
+  {
+   "name": "Description",
+   "type": "String"
+  }
+ ],
+ "CameraPose": [
+  {
+   "name": "Item",
+   "type": "String"
+  },
+  {
+   "name": "PoseChar",
+   "type": "String (size=50)"
+  }
+ ],
+ "Characters": [
+  {
+   "name": "Chara",
+   "type": "String"
+  },
+  {
+   "name": "Id",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "Gender",
+   "type": "String (size=6)"
+  },
+  {
+   "name": "Race",
+   "type": "String"
+  },
+  {
+   "name": "Faction",
+   "type": "String"
+  }
+ ],
+ "Enemies": [
+  {
+   "name": "Enemy",
+   "type": "String"
+  },
+  {
+   "name": "Id",
+   "type": "String"
+  },
+  {
+   "name": "Name",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "Type",
+   "type": "String"
+  },
+  {
+   "name": "Class",
+   "type": "String"
+  },
+  {
+   "name": "SortId",
+   "type": "Integer"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Event",
+   "type": "String"
+  },
+  {
+   "name": "Type",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "AsiaStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AsiaEndTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuEndTime",
+   "type": "Datetime"
+  }
+ ],
+ "Facilities": [
+  {
+   "name": "Facility",
+   "type": "String"
+  },
+  {
+   "name": "Id",
+   "type": "String"
+  },
+  {
+   "name": "Icon",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "Type",
+   "type": "String"
+  },
+  {
+   "name": "Rarity",
+   "type": "Integer"
+  },
+  {
+   "name": "Power",
+   "type": "Integer"
+  }
+ ],
+ "Formulas": [
+  {
+   "name": "id",
+   "type": "String"
+  },
+  {
+   "name": "name",
+   "type": "String"
+  },
+  {
+   "name": "facility",
+   "type": "String"
+  },
+  {
+   "name": "mode",
+   "type": "String"
+  },
+  {
+   "name": "time",
+   "type": "Integer"
+  }
+ ],
+ "GearSets": [
+  {
+   "name": "GearSet",
+   "type": "String"
+  },
+  {
+   "name": "Icon",
+   "type": "String"
+  },
+  {
+   "name": "Level",
+   "type": "Integer"
+  },
+  {
+   "name": "Region",
+   "type": "String"
+  },
+  {
+   "name": "Manufacturer",
+   "type": "String"
+  },
+  {
+   "name": "Effect",
+   "type": "Wikitext"
+  }
+ ],
+ "GearStats": [
+  {
+   "name": "Gear",
+   "type": "String"
+  },
+  {
+   "name": "Defense",
+   "type": "Integer"
+  },
+  {
+   "name": "PStat",
+   "type": "String"
+  },
+  {
+   "name": "PValue0",
+   "type": "Float"
+  },
+  {
+   "name": "PValue1",
+   "type": "Float"
+  },
+  {
+   "name": "PValue2",
+   "type": "Float"
+  },
+  {
+   "name": "PValue3",
+   "type": "Float"
+  },
+  {
+   "name": "SStat",
+   "type": "String"
+  },
+  {
+   "name": "SValue0",
+   "type": "Float"
+  },
+  {
+   "name": "SValue1",
+   "type": "Float"
+  },
+  {
+   "name": "SValue2",
+   "type": "Float"
+  },
+  {
+   "name": "SValue3",
+   "type": "Float"
+  },
+  {
+   "name": "TStat",
+   "type": "String"
+  },
+  {
+   "name": "TValue0",
+   "type": "Float"
+  },
+  {
+   "name": "TValue1",
+   "type": "Float"
+  },
+  {
+   "name": "TValue2",
+   "type": "Float"
+  },
+  {
+   "name": "TValue3",
+   "type": "Float"
+  },
+  {
+   "name": "SetName",
+   "type": "String"
+  }
+ ],
+ "Gears": [
+  {
+   "name": "Gear",
+   "type": "String"
+  },
+  {
+   "name": "Id",
+   "type": "String"
+  },
+  {
+   "name": "Icon",
+   "type": "String"
+  },
+  {
+   "name": "Type",
+   "type": "String"
+  },
+  {
+   "name": "Rarity",
+   "type": "Integer"
+  },
+  {
+   "name": "Level",
+   "type": "Integer"
+  },
+  {
+   "name": "Artifice",
+   "type": "Boolean"
+  },
+  {
+   "name": "Region",
+   "type": "String"
+  },
+  {
+   "name": "Manufacturer",
+   "type": "String"
+  },
+  {
+   "name": "Source",
+   "type": "String"
+  }
+ ],
+ "Gifts": [
+  {
+   "name": "Gift",
+   "type": "String"
+  },
+  {
+   "name": "Hobby1",
+   "type": "String"
+  },
+  {
+   "name": "Hobby2",
+   "type": "String"
+  },
+  {
+   "name": "Prefer",
+   "type": "String"
+  }
+ ],
+ "Ingredients": [
+  {
+   "name": "formula",
+   "type": "String"
+  },
+  {
+   "name": "ingredient",
+   "type": "String"
+  },
+  {
+   "name": "count",
+   "type": "Integer"
+  },
+  {
+   "name": "position",
+   "type": "Integer"
+  }
+ ],
+ "Issues": [
+  {
+   "name": "Issue",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "RateUpWeapon",
+   "type": "String"
+  },
+  {
+   "name": "Weapons",
+   "type": "List (;) of String"
+  },
+  {
+   "name": "IsPermanent",
+   "type": "Boolean"
+  },
+  {
+   "name": "AsiaStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AsiaEndTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuEndTime",
+   "type": "Datetime"
+  }
+ ],
+ "ItemDescriptions": [
+  {
+   "name": "item",
+   "type": "String"
+  },
+  {
+   "name": "lang",
+   "type": "String"
+  },
+  {
+   "name": "itemUse",
+   "type": "Text"
+  },
+  {
+   "name": "description",
+   "type": "Text"
+  }
+ ],
+ "Items": [
+  {
+   "name": "Item",
+   "type": "String"
+  },
+  {
+   "name": "Id",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "Rarity",
+   "type": "Integer"
+  },
+  {
+   "name": "Type",
+   "type": "String"
+  }
+ ],
+ "Locales": [
+  {
+   "name": "Entity",
+   "type": "String"
+  },
+  {
+   "name": "Lang",
+   "type": "String (size=2)"
+  },
+  {
+   "name": "Param",
+   "type": "String"
+  },
+  {
+   "name": "Value",
+   "type": "String"
+  }
+ ],
+ "Music": [
+  {
+   "name": "Title",
+   "type": "String"
+  },
+  {
+   "name": "Category",
+   "type": "String"
+  },
+  {
+   "name": "Album",
+   "type": "Wikitext string"
+  },
+  {
+   "name": "Genre",
+   "type": "Wikitext string"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "Length",
+   "type": "String"
+  },
+  {
+   "name": "Characters",
+   "type": "String"
+  },
+  {
+   "name": "ReleaseDate",
+   "type": "Date"
+  },
+  {
+   "name": "ReleaseVersion",
+   "type": "String"
+  },
+  {
+   "name": "Artist",
+   "type": "String"
+  },
+  {
+   "name": "Performer",
+   "type": "String"
+  },
+  {
+   "name": "Composer",
+   "type": "String"
+  },
+  {
+   "name": "Producer",
+   "type": "String"
+  },
+  {
+   "name": "Spotify",
+   "type": "URL"
+  },
+  {
+   "name": "YoutubeMusic",
+   "type": "URL"
+  },
+  {
+   "name": "AppleMusic",
+   "type": "URL"
+  },
+  {
+   "name": "Remarks",
+   "type": "Wikitext"
+  },
+  {
+   "name": "InitSource",
+   "type": "String"
+  }
+ ],
+ "Operators": [
+  {
+   "name": "Operator",
+   "type": "String"
+  },
+  {
+   "name": "Id",
+   "type": "String"
+  },
+  {
+   "name": "Icon",
+   "type": "String"
+  },
+  {
+   "name": "Banner",
+   "type": "String"
+  },
+  {
+   "name": "Splash",
+   "type": "String"
+  },
+  {
+   "name": "Portrait",
+   "type": "String"
+  },
+  {
+   "name": "Gender",
+   "type": "String (size=6)"
+  },
+  {
+   "name": "Rarity",
+   "type": "Integer"
+  },
+  {
+   "name": "Class",
+   "type": "String (size=9)"
+  },
+  {
+   "name": "Weapon",
+   "type": "String (size=11)"
+  },
+  {
+   "name": "Element",
+   "type": "String (size=8)"
+  },
+  {
+   "name": "Faction",
+   "type": "String"
+  },
+  {
+   "name": "BirthMonth",
+   "type": "Integer"
+  },
+  {
+   "name": "BirthDay",
+   "type": "Integer"
+  },
+  {
+   "name": "BirthDate",
+   "type": "String"
+  },
+  {
+   "name": "Tags",
+   "type": "List (,) of String"
+  },
+  {
+   "name": "MainAttr",
+   "type": "String (size=9)"
+  },
+  {
+   "name": "SubAttr",
+   "type": "String (Size=9)"
+  },
+  {
+   "name": "Headhunting",
+   "type": "String"
+  },
+  {
+   "name": "Description",
+   "type": "String"
+  },
+  {
+   "name": "Quote",
+   "type": "Text"
+  },
+  {
+   "name": "Trait",
+   "type": "String"
+  },
+  {
+   "name": "Expertise1",
+   "type": "String"
+  },
+  {
+   "name": "Expertise2",
+   "type": "String"
+  },
+  {
+   "name": "Hobby1",
+   "type": "String"
+  },
+  {
+   "name": "Hobby2",
+   "type": "String"
+  },
+  {
+   "name": "Prefer",
+   "type": "String"
+  }
+ ],
+ "Products": [
+  {
+   "name": "formula",
+   "type": "String"
+  },
+  {
+   "name": "product",
+   "type": "String"
+  },
+  {
+   "name": "count",
+   "type": "Integer"
+  },
+  {
+   "name": "position",
+   "type": "Integer"
+  }
+ ],
+ "ProtocolPasses": [
+  {
+   "name": "Name",
+   "type": "String"
+  },
+  {
+   "name": "Version",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "AsiaStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AsiaEndTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuStartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "AmeuEndTime",
+   "type": "Datetime"
+  }
+ ],
+ "Servers": [
+  {
+   "name": "Server",
+   "type": "String"
+  },
+  {
+   "name": "Name",
+   "type": "String"
+  },
+  {
+   "name": "Timezone",
+   "type": "String"
+  },
+  {
+   "name": "TzOffset",
+   "type": "Integer"
+  }
+ ],
+ "Soundtracks": [
+  {
+   "name": "Title",
+   "type": "String"
+  },
+  {
+   "name": "Category",
+   "type": "String"
+  },
+  {
+   "name": "Image",
+   "type": "String"
+  },
+  {
+   "name": "Length",
+   "type": "String"
+  },
+  {
+   "name": "Characters",
+   "type": "String"
+  },
+  {
+   "name": "ReleaseDate",
+   "type": "Date"
+  },
+  {
+   "name": "ReleaseVersion",
+   "type": "String"
+  },
+  {
+   "name": "Spotify",
+   "type": "URL"
+  },
+  {
+   "name": "YoutubeMusic",
+   "type": "URL"
+  },
+  {
+   "name": "AppleMusic",
+   "type": "URL"
+  },
+  {
+   "name": "Remarks",
+   "type": "Wikitext"
+  }
+ ],
+ "Versions": [
+  {
+   "name": "Version",
+   "type": "String"
+  },
+  {
+   "name": "VersionNumber",
+   "type": "String"
+  },
+  {
+   "name": "NewsNumber",
+   "type": "String"
+  },
+  {
+   "name": "StartTime",
+   "type": "Datetime"
+  },
+  {
+   "name": "EndTime",
+   "type": "Datetime"
+  }
+ ],
+ "Vinyl": [
+  {
+   "name": "Item",
+   "type": "String"
+  },
+  {
+   "name": "Album",
+   "type": "String (size=100)"
+  }
+ ],
+ "WeaponSkills": [
+  {
+   "name": "Weapon",
+   "type": "String"
+  },
+  {
+   "name": "Skill1",
+   "type": "String"
+  },
+  {
+   "name": "SkillTag1",
+   "type": "String"
+  },
+  {
+   "name": "Skill2",
+   "type": "String"
+  },
+  {
+   "name": "SkillTag2",
+   "type": "String"
+  },
+  {
+   "name": "Skill3",
+   "type": "String"
+  },
+  {
+   "name": "SkillTag3",
+   "type": "String"
+  }
+ ],
+ "Weapons": [
+  {
+   "name": "Weapon",
+   "type": "String"
+  },
+  {
+   "name": "Id",
+   "type": "String"
+  },
+  {
+   "name": "Icon",
+   "type": "String"
+  },
+  {
+   "name": "Type",
+   "type": "String"
+  },
+  {
+   "name": "Rarity",
+   "type": "Integer"
+  },
+  {
+   "name": "Manufacturer",
+   "type": "String"
+  },
+  {
+   "name": "Skill",
+   "type": "String"
+  },
+  {
+   "name": "Source",
+   "type": "String"
+  }
+ ]
+}

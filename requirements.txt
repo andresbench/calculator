@@ -1,0 +1,3 @@
+PyYAML>=6.0
+# Only for tools/ef/gauge.py (reading the stagger gauge off a recording):
+# numpy

@@ -1,0 +1,35 @@
+{{Facility infobox
+|name = Medical Tower
+|filename = item_port_battle_medic_1
+|images = Medical Tower icon.png:Icon;
+Medical Tower.png:Full
+|cnname = 医疗塔
+|tcname = 醫療塔
+|jpname = 医療塔
+|krname = 의료 타워
+|spname = Torre médica
+|runame = Медицинская вышка
+|type = Combat & Support
+|rarity = 1
+|power = 5}}
+'''Medical Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>Minimum HP Treatment Interval</b>: {{Color|5|7}}s
+<b>Treatment Range</b>: {{Color|6|7}} meters
+
+Converts electrical power into healing arts that can treat injured operators nearby.
+
+|A healing facility furnished with medical Arts casting units. The designers made the tower spherical because gentle curves are visually more comforting to the injured.}}
+==Usage==
+*<b>Minimum HP Treatment Interval</b>: {{Color|5|7}}s
+*<b>Treatment Range</b>: {{Color|6|7}} meters
+*Converts electrical power into healing arts that can treat injured operators nearby.
+*Power Use : 5
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Wilderness Aid]]
+{{RecipeTable|product=Medical Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

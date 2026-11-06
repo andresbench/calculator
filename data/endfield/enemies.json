@@ -1,0 +1,4602 @@
+{
+ "Acid Originium Slug": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   152.0,
+   1093.0,
+   6916.0,
+   27225.0,
+   65489.0,
+   100888.0
+  ],
+  "id": "eny_0073_slimerg",
+  "key": "Acid Originium Slug",
+  "name": "Acid Originium Slug",
+  "page": "Acid Originium Slug",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Acid Originium Slug",
+   "revid": 66243
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Acid Originium Slug α": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   249.0,
+   1788.0,
+   11316.0,
+   44551.0,
+   107164.0,
+   165089.0
+  ],
+  "id": "eny_0100_slimerg2",
+  "key": "Acid Originium Slug α",
+  "name": "Acid Originium Slug α",
+  "page": "Acid Originium Slug α",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Acid Originium Slug α",
+   "revid": 66221
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Alleikhreos, Chiliarch": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   3738.0,
+   26826.0,
+   169745.0,
+   668260.0,
+   1607463.0,
+   2476341.0
+  ],
+  "id": "eny_0125_fdcentur",
+  "key": "Alleikhreos, Chiliarch",
+  "name": "Alleikhreos, Chiliarch",
+  "page": "Alleikhreos, Chiliarch",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Alleikhreos, Chiliarch",
+   "revid": 67183
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 11.0,
+  "type": "Foundite",
+  "weight": 2.0
+ },
+ "Armored Manglerbeast": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1177.0,
+   8445.0,
+   53438.0,
+   210378.0,
+   506053.0,
+   779589.0
+  ],
+  "id": "eny_0113_jzogre",
+  "key": "Armored Manglerbeast",
+  "name": "Armored Manglerbeast",
+  "page": "Armored Manglerbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Armored Manglerbeast",
+   "revid": 66266
+  },
+  "stagger_hp": 280.0,
+  "stagger_recovery": 8.0,
+  "type": "Wildlife",
+  "weight": 1.5
+ },
+ "Axe Armorbeast": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1385.0,
+   9936.0,
+   62869.0,
+   247504.0,
+   595357.0,
+   917164.0
+  ],
+  "id": "eny_0071_sandb",
+  "key": "Axe Armorbeast",
+  "name": "Axe Armorbeast",
+  "page": "Axe Armorbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Axe Armorbeast",
+   "revid": 66237
+  },
+  "stagger_hp": 280.0,
+  "stagger_recovery": 9.0,
+  "type": "Wildlife",
+  "weight": 2.0
+ },
+ "Blazemist Originium Slug": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   270.0,
+   1937.0,
+   12259.0,
+   48263.0,
+   116095.0,
+   178847.0
+  ],
+  "id": "eny_0108_slbomb2",
+  "key": "Blazemist Originium Slug",
+  "name": "Blazemist Originium Slug",
+  "page": "Blazemist Originium Slug",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Blazemist Originium Slug",
+   "revid": 66252
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Blitzcrash Blightshade": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 7.0,
+  "class": "Alpha",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1523.0,
+   10929.0,
+   69155.0,
+   272254.0,
+   654892.0,
+   1008880.0
+  ],
+  "id": "eny_0120_klbear",
+  "key": "Blitzcrash Blightshade",
+  "name": "Blitzcrash Blightshade",
+  "page": "Blitzcrash Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.65,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Blitzcrash Blightshade",
+   "revid": 66271
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Blightshades",
+  "weight": 2.0
+ },
+ "Bonekrusher Ambusher": {
+  "atk": [
+   28.0,
+   132.0,
+   410.0,
+   1018.0,
+   1532.0,
+   1755.0
+  ],
+  "attack_range": 7.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   180.0,
+   1292.0,
+   8173.0,
+   32175.0,
+   77396.0,
+   119231.0
+  ],
+  "id": "eny_0033_lbhunt",
+  "key": "Bonekrusher Ambusher",
+  "name": "Bonekrusher Ambusher",
+  "page": "Bonekrusher Ambusher",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Ambusher",
+   "revid": 66205
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Bonekrusher Arsonist": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 7.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   831.0,
+   5961.0,
+   37721.0,
+   148502.0,
+   357214.0,
+   550298.0
+  ],
+  "id": "eny_0047_firebat",
+  "key": "Bonekrusher Arsonist",
+  "name": "Bonekrusher Arsonist",
+  "page": "Bonekrusher Arsonist",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.5,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Arsonist",
+   "revid": 66214
+  },
+  "stagger_hp": 170.0,
+  "stagger_recovery": 7.0,
+  "type": "Landbreakers",
+  "weight": 1.5
+ },
+ "Bonekrusher Ballista": {
+  "atk": [
+   72.0,
+   341.0,
+   1061.0,
+   2635.0,
+   3965.0,
+   4543.0
+  ],
+  "attack_range": 12.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0048_hvybow",
+  "key": "Bonekrusher Ballista",
+  "name": "Bonekrusher Ballista",
+  "page": "Bonekrusher Ballista",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Ballista",
+   "revid": 66215
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Landbreakers",
+  "weight": 1.5
+ },
+ "Bonekrusher Executioner": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 2.8,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1108.0,
+   7948.0,
+   50295.0,
+   198003.0,
+   476285.0,
+   733731.0
+  ],
+  "id": "eny_0018_lbtough",
+  "key": "Bonekrusher Executioner",
+  "name": "Bonekrusher Executioner",
+  "page": "Bonekrusher Executioner",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Executioner",
+   "revid": 66216
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Landbreakers",
+  "weight": 1.5
+ },
+ "Bonekrusher Infiltrator": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 2.3,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   166.0,
+   1192.0,
+   7544.0,
+   29700.0,
+   71443.0,
+   110060.0
+  ],
+  "id": "eny_0049_rogue",
+  "key": "Bonekrusher Infiltrator",
+  "name": "Bonekrusher Infiltrator",
+  "page": "Bonekrusher Infiltrator",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Infiltrator",
+   "revid": 66208
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Bonekrusher Pyromancer": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 7.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   761.0,
+   5465.0,
+   34578.0,
+   136127.0,
+   327446.0,
+   504440.0
+  ],
+  "id": "eny_0046_lbshamman",
+  "key": "Bonekrusher Pyromancer",
+  "name": "Bonekrusher Pyromancer",
+  "page": "Bonekrusher Pyromancer",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.5,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Pyromancer",
+   "revid": 66213
+  },
+  "stagger_hp": 160.0,
+  "stagger_recovery": 7.0,
+  "type": "Landbreakers",
+  "weight": 1.5
+ },
+ "Bonekrusher Raider": {
+  "atk": [
+   36.0,
+   171.0,
+   531.0,
+   1317.0,
+   1982.0,
+   2271.0
+  ],
+  "attack_range": 2.3,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   194.0,
+   1391.0,
+   8802.0,
+   34651.0,
+   83350.0,
+   128403.0
+  ],
+  "id": "eny_0029_lbmob",
+  "key": "Bonekrusher Raider",
+  "name": "Bonekrusher Raider",
+  "page": "Bonekrusher Raider",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Raider",
+   "revid": 66202
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Bonekrusher Ripptusk": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   152.0,
+   1093.0,
+   6916.0,
+   27225.0,
+   65489.0,
+   100888.0
+  ],
+  "id": "eny_0050_hound",
+  "key": "Bonekrusher Ripptusk",
+  "name": "Bonekrusher Ripptusk",
+  "page": "Bonekrusher Ripptusk",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Bonekrusher Ripptusk",
+   "revid": 66207
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Bonekrusher Siegeknuckles": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0075_lbroshan",
+  "key": "Bonekrusher Siegeknuckles",
+  "name": "Bonekrusher Siegeknuckles",
+  "page": "Bonekrusher Siegeknuckles",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Bonekrusher Siegeknuckles",
+   "revid": 66248
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Bonekrusher Vanguard": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   166.0,
+   1192.0,
+   7544.0,
+   29700.0,
+   71443.0,
+   110060.0
+  ],
+  "id": "eny_0074_lbshield",
+  "key": "Bonekrusher Vanguard",
+  "name": "Bonekrusher Vanguard",
+  "page": "Bonekrusher Vanguard",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Bonekrusher Vanguard",
+   "revid": 66241
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Breaking Gust": {
+  "atk": [
+   56.0,
+   264.0,
+   820.0,
+   2036.0,
+   3064.0,
+   3510.0
+  ],
+  "attack_range": 2.3,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   1108.0,
+   7948.0,
+   50295.0,
+   198003.0,
+   476285.0,
+   733731.0
+  ],
+  "id": "eny_0104_hsrogue2",
+  "key": "Breaking Gust",
+  "name": "Breaking Gust",
+  "page": "Breaking Gust",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 0.4
+  },
+  "source": {
+   "page": "Breaking Gust",
+   "revid": 66255
+  },
+  "stagger_hp": 110.0,
+  "stagger_recovery": 7.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.0
+ },
+ "Brutal Pincerbeast": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   277.0,
+   1987.0,
+   12574.0,
+   49501.0,
+   119071.0,
+   183433.0
+  ],
+  "id": "eny_0099_slimeml2",
+  "key": "Brutal Pincerbeast",
+  "name": "Brutal Pincerbeast",
+  "page": "Brutal Pincerbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Brutal Pincerbeast",
+   "revid": 66244
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Cloud Obliterator": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 2.8,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1661.0,
+   11923.0,
+   75442.0,
+   297005.0,
+   714428.0,
+   1100596.0
+  ],
+  "id": "eny_0097_hsmino2",
+  "key": "Cloud Obliterator",
+  "name": "Cloud Obliterator",
+  "page": "Cloud Obliterator",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Cloud Obliterator",
+   "revid": 67182
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.5
+ },
+ "Cloud Stalker": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 2.3,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   761.0,
+   5465.0,
+   34578.0,
+   136127.0,
+   327446.0,
+   504440.0
+  ],
+  "id": "eny_0055_hscrane",
+  "key": "Cloud Stalker",
+  "name": "Cloud Stalker",
+  "page": "Cloud Stalker",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Cloud Stalker",
+   "revid": 66257
+  },
+  "stagger_hp": 110.0,
+  "stagger_recovery": 7.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.0
+ },
+ "Craghowler": {
+  "atk": [
+   53.0,
+   248.0,
+   772.0,
+   1916.0,
+   2884.0,
+   3304.0
+  ],
+  "attack_range": 2.8,
+  "class": "Alpha",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   2008.0,
+   14407.0,
+   91159.0,
+   358880.0,
+   863267.0,
+   1329887.0
+  ],
+  "id": "eny_0114_jzmking",
+  "key": "Craghowler",
+  "name": "Craghowler",
+  "page": "Craghowler",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Craghowler",
+   "revid": 66267
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Wildlife",
+  "weight": 1.5
+ },
+ "Effigy": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 12.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0058_agdisk",
+  "key": "Effigy",
+  "name": "Effigy",
+  "page": "Effigy",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Effigy",
+   "revid": 66210
+  },
+  "stagger_hp": 340.0,
+  "stagger_recovery": 9.0,
+  "type": "Aggeloi",
+  "weight": 2.0
+ },
+ "Elite Ambusher": {
+  "atk": [
+   38.0,
+   178.0,
+   555.0,
+   1377.0,
+   2073.0,
+   2375.0
+  ],
+  "attack_range": 7.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   263.0,
+   1888.0,
+   11945.0,
+   47026.0,
+   113118.0,
+   174261.0
+  ],
+  "id": "eny_0066_lbhunt2",
+  "key": "Elite Ambusher",
+  "name": "Elite Ambusher",
+  "page": "Elite Ambusher",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Elite Ambusher",
+   "revid": 66206
+  },
+  "stagger_hp": 110.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Elite Executioner": {
+  "atk": [
+   105.0,
+   496.0,
+   1543.0,
+   3832.0,
+   5767.0,
+   6607.0
+  ],
+  "attack_range": 2.8,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1661.0,
+   11923.0,
+   75442.0,
+   297005.0,
+   714428.0,
+   1100596.0
+  ],
+  "id": "eny_0068_lbtough2",
+  "key": "Elite Executioner",
+  "name": "Elite Executioner",
+  "page": "Elite Executioner",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Elite Executioner",
+   "revid": 66217
+  },
+  "stagger_hp": 340.0,
+  "stagger_recovery": 9.0,
+  "type": "Landbreakers",
+  "weight": 1.5
+ },
+ "Elite Raider": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 2.3,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   291.0,
+   2086.0,
+   13202.0,
+   51976.0,
+   125025.0,
+   192604.0
+  ],
+  "id": "eny_0065_lbmob2",
+  "key": "Elite Raider",
+  "name": "Elite Raider",
+  "page": "Elite Raider",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Elite Raider",
+   "revid": 66209
+  },
+  "stagger_hp": 110.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Elite Ripptusk": {
+  "atk": [
+   39.0,
+   186.0,
+   579.0,
+   1437.0,
+   2163.0,
+   2478.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   228.0,
+   1639.0,
+   10373.0,
+   40838.0,
+   98234.0,
+   151332.0
+  ],
+  "id": "eny_0067_hound2",
+  "key": "Elite Ripptusk",
+  "name": "Elite Ripptusk",
+  "page": "Elite Ripptusk",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Elite Ripptusk",
+   "revid": 66195
+  },
+  "stagger_hp": 90.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Ereignis": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   886.0,
+   6359.0,
+   40236.0,
+   158402.0,
+   381028.0,
+   586985.0
+  ],
+  "id": "eny_0080_reaper",
+  "key": "Ereignis",
+  "name": "Ereignis",
+  "page": "Ereignis",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Ereignis",
+   "revid": 61656
+  },
+  "stagger_hp": 280.0,
+  "stagger_recovery": 20.0,
+  "type": null,
+  "weight": 2.0
+ },
+ "Falsewings": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   111.0,
+   795.0,
+   5029.0,
+   19800.0,
+   47629.0,
+   73373.0
+  ],
+  "id": "eny_0076_agfly",
+  "key": "Falsewings",
+  "name": "Falsewings",
+  "page": "Falsewings",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Falsewings",
+   "revid": 66224
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Falsewings α": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   166.0,
+   1192.0,
+   7544.0,
+   29700.0,
+   71443.0,
+   110060.0
+  ],
+  "id": "eny_0101_agfly2",
+  "key": "Falsewings α",
+  "name": "Falsewings α",
+  "page": "Falsewings α",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Falsewings α",
+   "revid": 66235
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Firemist Originium Slug": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   180.0,
+   1292.0,
+   8173.0,
+   32175.0,
+   77396.0,
+   119231.0
+  ],
+  "id": "eny_0092_slbomb",
+  "key": "Firemist Originium Slug",
+  "name": "Firemist Originium Slug",
+  "page": "Firemist Originium Slug",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Firemist Originium Slug",
+   "revid": 66251
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Fortune's Stash": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   152.0,
+   1093.0,
+   6916.0,
+   27225.0,
+   65489.0,
+   100888.0
+  ],
+  "id": "eny_0130_inkbiter",
+  "key": "Fortune's Stash",
+  "name": "Fortune's Stash",
+  "page": "Fortune's Stash",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Fortune's Stash",
+   "revid": 66280
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Apparition",
+  "weight": 1.0
+ },
+ "Glaring Rakerbeast": {
+  "atk": [
+   72.0,
+   341.0,
+   1061.0,
+   2635.0,
+   3965.0,
+   4543.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1869.0,
+   13413.0,
+   84872.0,
+   334130.0,
+   803731.0,
+   1238171.0
+  ],
+  "id": "eny_0102_hstiger2",
+  "key": "Glaring Rakerbeast",
+  "name": "Glaring Rakerbeast",
+  "page": "Glaring Rakerbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Glaring Rakerbeast",
+   "revid": 66234
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Wildlife",
+  "weight": 2.0
+ },
+ "Gloomwald's Rage": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 2.8,
+  "class": "Alpha",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   3210.0,
+   15897.0,
+   100590.0,
+   396006.0,
+   952571.0,
+   1467462.0
+  ],
+  "id": "eny_0127_bigents",
+  "key": "Gloomwald's Rage",
+  "name": "Gloomwald's Rage",
+  "page": "Gloomwald's Rage",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Gloomwald's Rage",
+   "revid": 66277
+  },
+  "stagger_hp": 400.0,
+  "stagger_recovery": 8.0,
+  "type": "Witchcraft Creation",
+  "weight": 1.5
+ },
+ "Grove Archer": {
+  "atk": [
+   28.0,
+   132.0,
+   410.0,
+   1018.0,
+   1532.0,
+   1755.0
+  ],
+  "attack_range": 7.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   180.0,
+   1292.0,
+   8173.0,
+   32175.0,
+   77396.0,
+   119231.0
+  ],
+  "id": "eny_0084_hshunt",
+  "key": "Grove Archer",
+  "name": "Grove Archer",
+  "page": "Grove Archer",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Grove Archer",
+   "revid": 66227
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.0
+ },
+ "Hazefyre Axe Armorbeast": {
+  "atk": [
+   72.0,
+   341.0,
+   1061.0,
+   2635.0,
+   3965.0,
+   4543.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1800.0,
+   12916.0,
+   81729.0,
+   321755.0,
+   773964.0,
+   1192313.0
+  ],
+  "id": "eny_0098_sandb2",
+  "key": "Hazefyre Axe Armorbeast",
+  "name": "Hazefyre Axe Armorbeast",
+  "page": "Hazefyre Axe Armorbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Hazefyre Axe Armorbeast",
+   "revid": 66233
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Wildlife",
+  "weight": 2.0
+ },
+ "Hazefyre Claw": {
+  "atk": [
+   36.0,
+   171.0,
+   531.0,
+   1317.0,
+   1982.0,
+   2271.0
+  ],
+  "attack_range": 2.3,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   249.0,
+   1788.0,
+   11316.0,
+   44551.0,
+   107164.0,
+   165089.0
+  ],
+  "id": "eny_0060_lbmad",
+  "key": "Hazefyre Claw",
+  "name": "Hazefyre Claw",
+  "page": "Hazefyre Claw",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Hazefyre Claw",
+   "revid": 66240
+  },
+  "stagger_hp": 100.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Hazefyre Tuskbeast": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   194.0,
+   1391.0,
+   8802.0,
+   34651.0,
+   83350.0,
+   128403.0
+  ],
+  "id": "eny_0059_erhound",
+  "key": "Hazefyre Tuskbeast",
+  "name": "Hazefyre Tuskbeast",
+  "page": "Hazefyre Tuskbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Hazefyre Tuskbeast",
+   "revid": 66247
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Landbreakers",
+  "weight": 1.0
+ },
+ "Heavy Ram": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 3.2,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   831.0,
+   5961.0,
+   37721.0,
+   148502.0,
+   357214.0,
+   550298.0
+  ],
+  "id": "eny_0023_aghornb",
+  "key": "Heavy Ram",
+  "name": "Heavy Ram",
+  "page": "Heavy Ram",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Heavy Ram",
+   "revid": 66200
+  },
+  "stagger_hp": 160.0,
+  "stagger_recovery": 7.0,
+  "type": "Aggeloi",
+  "weight": 1.5
+ },
+ "Heavy Ram α": {
+  "atk": [
+   72.0,
+   341.0,
+   1061.0,
+   2635.0,
+   3965.0,
+   4543.0
+  ],
+  "attack_range": 3.2,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0069_aghornb2",
+  "key": "Heavy Ram α",
+  "name": "Heavy Ram α",
+  "page": "Heavy Ram α",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Heavy Ram α",
+   "revid": 66204
+  },
+  "stagger_hp": 200.0,
+  "stagger_recovery": 7.5,
+  "type": "Aggeloi",
+  "weight": 1.5
+ },
+ "Heavy Sting": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 7.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   734.0,
+   5266.0,
+   33320.0,
+   131177.0,
+   315539.0,
+   486097.0
+  ],
+  "id": "eny_0027_agscorp",
+  "key": "Heavy Sting",
+  "name": "Heavy Sting",
+  "page": "Heavy Sting",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Heavy Sting",
+   "revid": 66201
+  },
+  "stagger_hp": 140.0,
+  "stagger_recovery": 7.0,
+  "type": "Aggeloi",
+  "weight": 1.5
+ },
+ "Heavy Sting α": {
+  "atk": [
+   59.0,
+   279.0,
+   868.0,
+   2156.0,
+   3244.0,
+   3717.0
+  ],
+  "attack_range": 7.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   1094.0,
+   7849.0,
+   49666.0,
+   195528.0,
+   470332.0,
+   724559.0
+  ],
+  "id": "eny_0070_agscorp2",
+  "key": "Heavy Sting α",
+  "name": "Heavy Sting α",
+  "page": "Heavy Sting α",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Heavy Sting α",
+   "revid": 66203
+  },
+  "stagger_hp": 180.0,
+  "stagger_recovery": 7.5,
+  "type": "Aggeloi",
+  "weight": 1.5
+ },
+ "Hedron": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   152.0,
+   1093.0,
+   6916.0,
+   27225.0,
+   65489.0,
+   100888.0
+  ],
+  "id": "eny_0088_wgthorns",
+  "key": "Hedron",
+  "name": "Hedron",
+  "page": "Hedron",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Hedron",
+   "revid": 66230
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Hedron δ": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   208.0,
+   1490.0,
+   9430.0,
+   37126.0,
+   89303.0,
+   137575.0
+  ],
+  "id": "eny_0106_wgthorns2",
+  "key": "Hedron δ",
+  "name": "Hedron δ",
+  "page": "Hedron δ",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Hedron δ",
+   "revid": 66239
+  },
+  "stagger_hp": 90.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Highway Reaver": {
+  "atk": [
+   43.0,
+   202.0,
+   627.0,
+   1557.0,
+   2343.0,
+   2684.0
+  ],
+  "attack_range": 2.3,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   291.0,
+   2086.0,
+   13202.0,
+   51976.0,
+   125025.0,
+   192604.0
+  ],
+  "id": "eny_0096_hsmob2",
+  "key": "Highway Reaver",
+  "name": "Highway Reaver",
+  "page": "Highway Reaver",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Highway Reaver",
+   "revid": 66253
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.0
+ },
+ "Hill Smasher": {
+  "atk": [
+   59.0,
+   279.0,
+   868.0,
+   2156.0,
+   3244.0,
+   3717.0
+  ],
+  "attack_range": 2.8,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1108.0,
+   7948.0,
+   50295.0,
+   198003.0,
+   476285.0,
+   733731.0
+  ],
+  "id": "eny_0054_hsmino",
+  "key": "Hill Smasher",
+  "name": "Hill Smasher",
+  "page": "Hill Smasher",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Hill Smasher",
+   "revid": 66256
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.5
+ },
+ "Imbued Quillbeast": {
+  "atk": [
+   44.0,
+   209.0,
+   651.0,
+   1617.0,
+   2433.0,
+   2788.0
+  ],
+  "attack_range": 6.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0109_hshog2",
+  "key": "Imbued Quillbeast",
+  "name": "Imbued Quillbeast",
+  "page": "Imbued Quillbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Imbued Quillbeast",
+   "revid": 66223
+  },
+  "stagger_hp": 200.0,
+  "stagger_recovery": 7.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Indigenous Pincerbeast": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   166.0,
+   1192.0,
+   7544.0,
+   29700.0,
+   71443.0,
+   110060.0
+  ],
+  "id": "eny_0072_slimeml",
+  "key": "Indigenous Pincerbeast",
+  "name": "Indigenous Pincerbeast",
+  "page": "Indigenous Pincerbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Indigenous Pincerbeast",
+   "revid": 66222
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Maned Measure": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 2.8,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0133_inklion",
+  "key": "Maned Measure",
+  "name": "Maned Measure",
+  "page": "Maned Measure",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Maned Measure",
+   "revid": 66283
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Apparition",
+  "weight": 1.5
+ },
+ "Marble Aggelomoirai (palecore)": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   2077.0,
+   14903.0,
+   94303.0,
+   371256.0,
+   893035.0,
+   1375745.0
+  ],
+  "id": "eny_0061_palecore",
+  "key": "Marble Aggelomoirai (palecore)",
+  "name": "Marble Aggelomoirai (palecore)",
+  "page": "Marble Aggelomoirai (palecore)",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Marble Aggelomoirai (palecore)",
+   "revid": 66250
+  },
+  "stagger_hp": 200.0,
+  "stagger_recovery": 24.0,
+  "type": "Aggeloi",
+  "weight": 2.0
+ },
+ "Marble Aggelomoirai (palesent)": {
+  "atk": [
+   78.0,
+   369.0,
+   1148.0,
+   2850.0,
+   4289.0,
+   4914.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   4430.0,
+   31794.0,
+   201179.0,
+   792012.0,
+   1905141.0,
+   2934923.0
+  ],
+  "id": "eny_0052_palesent",
+  "key": "Marble Aggelomoirai (palesent)",
+  "name": "Marble Aggelomoirai (palesent)",
+  "page": "Marble Aggelomoirai (palesent)",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Marble Aggelomoirai (palesent)",
+   "revid": 66218
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 11.0,
+  "type": "Aggeloi",
+  "weight": 2.0
+ },
+ "Marble Appendage": {
+  "atk": [
+   59.0,
+   279.0,
+   868.0,
+   2156.0,
+   3244.0,
+   3717.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 100.0,
+  "hp": [
+   235.0,
+   1689.0,
+   10688.0,
+   42076.0,
+   101211.0,
+   155918.0
+  ],
+  "id": "eny_0062_paletent",
+  "key": "Marble Appendage",
+  "name": "Marble Appendage",
+  "page": "Marble Appendage",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Marble Appendage",
+   "revid": 66219
+  },
+  "stagger_hp": 0.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 2.0
+ },
+ "Mudflow": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   180.0,
+   1292.0,
+   8173.0,
+   32175.0,
+   77396.0,
+   119231.0
+  ],
+  "id": "eny_0087_wgslime",
+  "key": "Mudflow",
+  "name": "Mudflow",
+  "page": "Mudflow",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Mudflow",
+   "revid": 66228
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Mudflow δ": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   291.0,
+   2086.0,
+   13202.0,
+   51976.0,
+   125025.0,
+   192604.0
+  ],
+  "id": "eny_0105_wgslime2",
+  "key": "Mudflow δ",
+  "name": "Mudflow δ",
+  "page": "Mudflow δ",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Mudflow δ",
+   "revid": 66246
+  },
+  "stagger_hp": 90.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Nefarith, \"Bonekrusher\"": {
+  "atk": [
+   46.0,
+   217.0,
+   675.0,
+   1677.0,
+   2523.0,
+   2891.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   2354.0,
+   16890.0,
+   106876.0,
+   420756.0,
+   1012106.0,
+   1559178.0
+  ],
+  "id": "eny_0078_nefarp1",
+  "key": "Nefarith, \"Bonekrusher\"",
+  "name": "Nefarith, \"Bonekrusher\"",
+  "page": "Nefarith, \"Bonekrusher\"",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Nefarith, \"Bonekrusher\"",
+   "revid": 66263
+  },
+  "stagger_hp": 480.0,
+  "stagger_recovery": 11.0,
+  "type": "Landbreakers",
+  "weight": 2.0
+ },
+ "Nefarith, \"Conqueror\"": {
+  "atk": [
+   39.0,
+   186.0,
+   579.0,
+   1437.0,
+   2163.0,
+   2478.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   2631.0,
+   18878.0,
+   119450.0,
+   470257.0,
+   1131178.0,
+   1742611.0
+  ],
+  "id": "eny_0079_nefarp2",
+  "key": "Nefarith, \"Conqueror\"",
+  "name": "Nefarith, \"Conqueror\"",
+  "page": "Nefarith, \"Conqueror\"",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Nefarith, \"Conqueror\"",
+   "revid": 66264
+  },
+  "stagger_hp": 480.0,
+  "stagger_recovery": 16.0,
+  "type": "Landbreakers",
+  "weight": 2.0
+ },
+ "Nimbus Razor": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 2.3,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   761.0,
+   5465.0,
+   34578.0,
+   136127.0,
+   327446.0,
+   504440.0
+  ],
+  "id": "eny_0085_hsrogue",
+  "key": "Nimbus Razor",
+  "name": "Nimbus Razor",
+  "page": "Nimbus Razor",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 0.6
+  },
+  "source": {
+   "page": "Nimbus Razor",
+   "revid": 66254
+  },
+  "stagger_hp": 110.0,
+  "stagger_recovery": 7.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.0
+ },
+ "Prism": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   111.0,
+   795.0,
+   5029.0,
+   19800.0,
+   47629.0,
+   73373.0
+  ],
+  "id": "eny_0089_wgreflec",
+  "key": "Prism",
+  "name": "Prism",
+  "page": "Prism",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Prism",
+   "revid": 66242
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Quillbeast": {
+  "atk": [
+   39.0,
+   186.0,
+   579.0,
+   1437.0,
+   2163.0,
+   2478.0
+  ],
+  "attack_range": 6.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   831.0,
+   5961.0,
+   37721.0,
+   148502.0,
+   357214.0,
+   550298.0
+  ],
+  "id": "eny_0093_hshog",
+  "key": "Quillbeast",
+  "name": "Quillbeast",
+  "page": "Quillbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Quillbeast",
+   "revid": 66231
+  },
+  "stagger_hp": 200.0,
+  "stagger_recovery": 7.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Quillbeast Blightshade": {
+  "atk": [
+   43.0,
+   202.0,
+   627.0,
+   1557.0,
+   2343.0,
+   2684.0
+  ],
+  "attack_range": 6.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   969.0,
+   6955.0,
+   44008.0,
+   173253.0,
+   416750.0,
+   642014.0
+  ],
+  "id": "eny_0118_klhog",
+  "key": "Quillbeast Blightshade",
+  "name": "Quillbeast Blightshade",
+  "page": "Quillbeast Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.65,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Quillbeast Blightshade",
+   "revid": 66269
+  },
+  "stagger_hp": 200.0,
+  "stagger_recovery": 7.0,
+  "type": "Blightshades",
+  "weight": 1.0
+ },
+ "Rakerbeast Blightshade": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0119_kltiger",
+  "key": "Rakerbeast Blightshade",
+  "name": "Rakerbeast Blightshade",
+  "page": "Rakerbeast Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.65,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Rakerbeast Blightshade",
+   "revid": 66270
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Blightshades",
+  "weight": 2.0
+ },
+ "Ram": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   138.0,
+   994.0,
+   6287.0,
+   24750.0,
+   59536.0,
+   91716.0
+  ],
+  "id": "eny_0021_agmelee",
+  "key": "Ram",
+  "name": "Ram",
+  "page": "Ram",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Ram",
+   "revid": 66198
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Ram α": {
+  "atk": [
+   46.0,
+   217.0,
+   675.0,
+   1677.0,
+   2523.0,
+   2891.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   208.0,
+   1490.0,
+   9430.0,
+   37126.0,
+   89303.0,
+   137575.0
+  ],
+  "id": "eny_0063_agmelee2",
+  "key": "Ram α",
+  "name": "Ram α",
+  "page": "Ram α",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Ram α",
+   "revid": 66199
+  },
+  "stagger_hp": 90.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Rhodagn the Bonekrushing Fist": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   3461.0,
+   24839.0,
+   157171.0,
+   618759.0,
+   1488392.0,
+   2292909.0
+  ],
+  "id": "eny_0051_rodin",
+  "key": "Rhodagn the Bonekrushing Fist",
+  "name": "Rhodagn the Bonekrushing Fist",
+  "page": "Rhodagn the Bonekrushing Fist",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Rhodagn the Bonekrushing Fist",
+   "revid": 66236
+  },
+  "stagger_hp": 280.0,
+  "stagger_recovery": 10.0,
+  "type": "Landbreakers",
+  "weight": 2.0
+ },
+ "Road Plunderer": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 2.3,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   194.0,
+   1391.0,
+   8802.0,
+   34651.0,
+   83350.0,
+   128403.0
+  ],
+  "id": "eny_0053_hsmob",
+  "key": "Road Plunderer",
+  "name": "Road Plunderer",
+  "page": "Road Plunderer",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Road Plunderer",
+   "revid": 66212
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.0
+ },
+ "Rockhowler": {
+  "atk": [
+   13.0,
+   62.0,
+   193.0,
+   479.0,
+   721.0,
+   826.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   138.0,
+   994.0,
+   6287.0,
+   24750.0,
+   59536.0,
+   91716.0
+  ],
+  "id": "eny_0112_jzmonk",
+  "key": "Rockhowler",
+  "name": "Rockhowler",
+  "page": "Rockhowler",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Rockhowler",
+   "revid": 66265
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Ruan Yi": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   3323.0,
+   23845.0,
+   150884.0,
+   594009.0,
+   1428856.0,
+   2201192.0
+  ],
+  "id": "eny_0081_ruanyi",
+  "key": "Ruan Yi",
+  "name": "Ruan Yi",
+  "page": "Ruan Yi",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Ruan Yi",
+   "revid": 66260
+  },
+  "stagger_hp": 300.0,
+  "stagger_recovery": 15.0,
+  "type": "Cangzei Pirates",
+  "weight": 2.0
+ },
+ "Scroll of Tactics": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   166.0,
+   1192.0,
+   7544.0,
+   29700.0,
+   71443.0,
+   110060.0
+  ],
+  "id": "eny_0131_inkscroll",
+  "key": "Scroll of Tactics",
+  "name": "Scroll of Tactics",
+  "page": "Scroll of Tactics",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Scroll of Tactics",
+   "revid": 66281
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Apparition",
+  "weight": 1.0
+ },
+ "Sentinel": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   415.0,
+   2981.0,
+   18861.0,
+   74251.0,
+   178607.0,
+   275149.0
+  ],
+  "id": "eny_0039_agcanno",
+  "key": "Sentinel",
+  "name": "Sentinel",
+  "page": "Sentinel",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Sentinel",
+   "revid": 66238
+  },
+  "stagger_hp": 200.0,
+  "stagger_recovery": 9.0,
+  "type": "Aggeloi",
+  "weight": 2.0
+ },
+ "Si/Enemy": {
+  "atk": [
+   92.0,
+   434.0,
+   1350.0,
+   3353.0,
+   5046.0,
+   5782.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   4430.0,
+   31794.0,
+   201179.0,
+   792012.0,
+   1905141.0,
+   2934923.0
+  ],
+  "id": "eny_0134_jsspsi",
+  "key": "Si/Enemy",
+  "name": "Si/Enemy",
+  "page": "Si/Enemy",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Si/Enemy",
+   "revid": 67085
+  },
+  "stagger_hp": 400.0,
+  "stagger_recovery": 10.0,
+  "type": "Others",
+  "weight": 2.0
+ },
+ "Simmer's Purge": {
+  "atk": [
+   43.0,
+   202.0,
+   627.0,
+   1557.0,
+   2343.0,
+   2684.0
+  ],
+  "attack_range": 6.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   969.0,
+   6955.0,
+   44008.0,
+   173253.0,
+   416750.0,
+   642014.0
+  ],
+  "id": "eny_0132_inkkirin",
+  "key": "Simmer's Purge",
+  "name": "Simmer's Purge",
+  "page": "Simmer's Purge",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Simmer's Purge",
+   "revid": 66282
+  },
+  "stagger_hp": 200.0,
+  "stagger_recovery": 7.0,
+  "type": "Apparition",
+  "weight": 1.0
+ },
+ "Skydrummer": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 7.0,
+  "class": "Alpha",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1661.0,
+   11923.0,
+   75442.0,
+   297005.0,
+   714428.0,
+   1100596.0
+  ],
+  "id": "eny_0082_hsbear",
+  "key": "Skydrummer",
+  "name": "Skydrummer",
+  "page": "Skydrummer",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Skydrummer",
+   "revid": 66262
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Wildlife",
+  "weight": 2.0
+ },
+ "Spotted Rakerbeast": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1108.0,
+   7948.0,
+   50295.0,
+   198003.0,
+   476285.0,
+   733731.0
+  ],
+  "id": "eny_0083_hstiger",
+  "key": "Spotted Rakerbeast",
+  "name": "Spotted Rakerbeast",
+  "page": "Spotted Rakerbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Spotted Rakerbeast",
+   "revid": 66226
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Wildlife",
+  "weight": 2.0
+ },
+ "Sting": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   138.0,
+   994.0,
+   6287.0,
+   24750.0,
+   59536.0,
+   91716.0
+  ],
+  "id": "eny_0025_agrange",
+  "key": "Sting",
+  "name": "Sting",
+  "page": "Sting",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Sting",
+   "revid": 66196
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Sting α": {
+  "atk": [
+   36.0,
+   171.0,
+   531.0,
+   1317.0,
+   1982.0,
+   2271.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   208.0,
+   1490.0,
+   9430.0,
+   37126.0,
+   89303.0,
+   137575.0
+  ],
+  "id": "eny_0064_agrange2",
+  "key": "Sting α",
+  "name": "Sting α",
+  "page": "Sting α",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Sting α",
+   "revid": 66197
+  },
+  "stagger_hp": 90.0,
+  "stagger_recovery": 6.0,
+  "type": "Aggeloi",
+  "weight": 1.0
+ },
+ "Sweeping Wind": {
+  "atk": [
+   33.0,
+   155.0,
+   482.0,
+   1198.0,
+   1802.0,
+   2065.0
+  ],
+  "attack_range": 7.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   166.0,
+   1192.0,
+   7544.0,
+   29700.0,
+   71443.0,
+   110060.0
+  ],
+  "id": "eny_0103_hshunt2",
+  "key": "Sweeping Wind",
+  "name": "Sweeping Wind",
+  "page": "Sweeping Wind",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Sweeping Wind",
+   "revid": 66259
+  },
+  "stagger_hp": 110.0,
+  "stagger_recovery": 6.0,
+  "type": "Cangzei Pirates",
+  "weight": 1.0
+ },
+ "Tidalklast": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 2.8,
+  "class": "Alpha",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1385.0,
+   9936.0,
+   62869.0,
+   247504.0,
+   595357.0,
+   917164.0
+  ],
+  "id": "eny_0090_wgabyss",
+  "key": "Tidalklast",
+  "name": "Tidalklast",
+  "page": "Tidalklast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Tidalklast",
+   "revid": 66229
+  },
+  "stagger_hp": 640.0,
+  "stagger_recovery": 13.0,
+  "type": "Aggeloi",
+  "weight": 1.5
+ },
+ "Tidewalker": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 2.8,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0091_wgshoal",
+  "key": "Tidewalker",
+  "name": "Tidewalker",
+  "page": "Tidewalker",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Tidewalker",
+   "revid": 66225
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Aggeloi",
+  "weight": 1.2
+ },
+ "Tidewalker δ": {
+  "atk": [
+   72.0,
+   341.0,
+   1061.0,
+   2635.0,
+   3965.0,
+   4543.0
+  ],
+  "attack_range": 2.8,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1869.0,
+   13413.0,
+   84872.0,
+   334130.0,
+   803731.0,
+   1238171.0
+  ],
+  "id": "eny_0107_wgshoal2",
+  "key": "Tidewalker δ",
+  "name": "Tidewalker δ",
+  "page": "Tidewalker δ",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Tidewalker δ",
+   "revid": 66249
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Aggeloi",
+  "weight": 1.2
+ },
+ "Triaggelos": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 12.0,
+  "class": "Boss",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.75,
+  "finisher_sp": 100.0,
+  "hp": [
+   1385.0,
+   9936.0,
+   62869.0,
+   247504.0,
+   595357.0,
+   917164.0
+  ],
+  "id": "eny_0045_agtrinit",
+  "key": "Triaggelos",
+  "name": "Triaggelos",
+  "page": "Triaggelos",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Triaggelos",
+   "revid": 66211
+  },
+  "stagger_hp": 280.0,
+  "stagger_recovery": 11.0,
+  "type": "Aggeloi",
+  "weight": 2.0
+ },
+ "Tunneling Nidwyrm": {
+  "atk": [
+   56.0,
+   264.0,
+   820.0,
+   2036.0,
+   3064.0,
+   3510.0
+  ],
+  "attack_range": 12.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   692.0,
+   4968.0,
+   31434.0,
+   123752.0,
+   297678.0,
+   458582.0
+  ],
+  "id": "eny_0007_mimicw",
+  "key": "Tunneling Nidwyrm",
+  "name": "Tunneling Nidwyrm",
+  "page": "Tunneling Nidwyrm",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 0.7,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Tunneling Nidwyrm",
+   "revid": 66220
+  },
+  "stagger_hp": 160.0,
+  "stagger_recovery": 7.0,
+  "type": "Wildlife",
+  "weight": 2.0
+ },
+ "Tuskbeast Blightshade": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   125.0,
+   894.0,
+   5658.0,
+   22275.0,
+   53582.0,
+   82545.0
+  ],
+  "id": "eny_0117_klhound",
+  "key": "Tuskbeast Blightshade",
+  "name": "Tuskbeast Blightshade",
+  "page": "Tuskbeast Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.65,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Tuskbeast Blightshade",
+   "revid": 66268
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Blightshades",
+  "weight": 1.0
+ },
+ "Walking Chrysopolis": {
+  "atk": [
+   59.0,
+   279.0,
+   868.0,
+   2156.0,
+   3244.0,
+   3717.0
+  ],
+  "attack_range": 2.8,
+  "class": "Alpha",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1385.0,
+   9936.0,
+   62869.0,
+   247504.0,
+   595357.0,
+   917164.0
+  ],
+  "id": "eny_0077_agshield",
+  "key": "Walking Chrysopolis",
+  "name": "Walking Chrysopolis",
+  "page": "Walking Chrysopolis",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 1.0,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Walking Chrysopolis",
+   "revid": 66245
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Aggeloi",
+  "weight": 1.5
+ },
+ "Waterlamp": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   111.0,
+   795.0,
+   5029.0,
+   19800.0,
+   47629.0,
+   73373.0
+  ],
+  "id": "eny_0094_hsfly",
+  "key": "Waterlamp",
+  "name": "Waterlamp",
+  "page": "Waterlamp",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Waterlamp",
+   "revid": 66232
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ },
+ "Wild Tuskbeast": {
+  "atk": [
+   16.0,
+   78.0,
+   241.0,
+   599.0,
+   901.0,
+   1032.0
+  ],
+  "attack_range": 2.1,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "id": "eny_0057_dog",
+  "key": "Wild Tuskbeast",
+  "name": "Wild Tuskbeast",
+  "page": "Wild Tuskbeast",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Wild Tuskbeast",
+   "revid": 61631
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": null,
+  "weight": 1.0
+ },
+ "Woodcraft Slug": {
+  "atk": [
+   26.0,
+   124.0,
+   386.0,
+   958.0,
+   1442.0,
+   1652.0
+  ],
+  "attack_range": 6.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   166.0,
+   1192.0,
+   7544.0,
+   29700.0,
+   71443.0,
+   110060.0
+  ],
+  "id": "eny_0129_slwood",
+  "key": "Woodcraft Slug",
+  "name": "Woodcraft Slug",
+  "page": "Woodcraft Slug",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Woodcraft Slug",
+   "revid": 66279
+  },
+  "stagger_hp": 60.0,
+  "stagger_recovery": 6.0,
+  "type": "Witchcraft Creation",
+  "weight": 1.0
+ },
+ "Woodcraft Wanderer": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 7.0,
+  "class": "Advanced",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.25,
+  "finisher_sp": 35.0,
+  "hp": [
+   831.0,
+   5961.0,
+   37721.0,
+   148502.0,
+   357214.0,
+   550298.0
+  ],
+  "id": "eny_0128_babyents",
+  "key": "Woodcraft Wanderer",
+  "name": "Woodcraft Wanderer",
+  "page": "Woodcraft Wanderer",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 1.0,
+   "Nature": 0.8,
+   "Physical": 1.0
+  },
+  "source": {
+   "page": "Woodcraft Wanderer",
+   "revid": 66278
+  },
+  "stagger_hp": 170.0,
+  "stagger_recovery": 7.0,
+  "type": "Witchcraft Creation",
+  "weight": 1.5
+ },
+ "YSTF Captain Blightshade": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0124_kltdcap",
+  "key": "YSTF Captain Blightshade",
+  "name": "YSTF Captain Blightshade",
+  "page": "YSTF Captain Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.65,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "YSTF Captain Blightshade",
+   "revid": 66275
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Blightshades",
+  "weight": 2.0
+ },
+ "YSTF Elite Blightshade": {
+  "atk": [
+   36.0,
+   171.0,
+   531.0,
+   1317.0,
+   1982.0,
+   2271.0
+  ],
+  "attack_range": 7.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   138.0,
+   994.0,
+   6287.0,
+   24750.0,
+   59536.0,
+   91716.0
+  ],
+  "id": "eny_0122_kltdbud",
+  "key": "YSTF Elite Blightshade",
+  "name": "YSTF Elite Blightshade",
+  "page": "YSTF Elite Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 0.65,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "YSTF Elite Blightshade",
+   "revid": 66273
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Blightshades",
+  "weight": 1.0
+ },
+ "YSTF Glaiver Blightshade": {
+  "atk": [
+   66.0,
+   310.0,
+   965.0,
+   2395.0,
+   3604.0,
+   4130.0
+  ],
+  "attack_range": 7.0,
+  "class": "Elite",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.5,
+  "finisher_sp": 50.0,
+  "hp": [
+   1246.0,
+   8942.0,
+   56582.0,
+   222753.0,
+   535821.0,
+   825447.0
+  ],
+  "id": "eny_0123_klcap",
+  "key": "YSTF Glaiver Blightshade",
+  "name": "YSTF Glaiver Blightshade",
+  "page": "YSTF Glaiver Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "YSTF Glaiver Blightshade",
+   "revid": 66274
+  },
+  "stagger_hp": 320.0,
+  "stagger_recovery": 9.0,
+  "type": "Blightshades",
+  "weight": 2.0
+ },
+ "YSTF Vanguard Blightshade": {
+  "atk": [
+   30.0,
+   140.0,
+   434.0,
+   1078.0,
+   1622.0,
+   1858.0
+  ],
+  "attack_range": 7.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   152.0,
+   1093.0,
+   6916.0,
+   27225.0,
+   65489.0,
+   100888.0
+  ],
+  "id": "eny_0121_klbud",
+  "key": "YSTF Vanguard Blightshade",
+  "name": "YSTF Vanguard Blightshade",
+  "page": "YSTF Vanguard Blightshade",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 1.0,
+   "Electric": 1.0,
+   "Heat": 1.0,
+   "Nature": 1.0,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "YSTF Vanguard Blightshade",
+   "revid": 66272
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Blightshades",
+  "weight": 1.0
+ },
+ "Æthillu": {
+  "atk": [
+   49.0,
+   233.0,
+   723.0,
+   1796.0,
+   2703.0,
+   3097.0
+  ],
+  "attack_range": 7.0,
+  "class": "Common",
+  "def": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "finisher_multiplier": 1.0,
+  "finisher_sp": 25.0,
+  "hp": [
+   111.0,
+   795.0,
+   5029.0,
+   19800.0,
+   47629.0,
+   73373.0
+  ],
+  "id": "eny_0095_ethillu",
+  "key": "Æthillu",
+  "name": "Æthillu",
+  "page": "Æthillu",
+  "resistances": {
+   "Aether": 1.0,
+   "Cryo": 0.8,
+   "Electric": 0.8,
+   "Heat": 0.8,
+   "Nature": 0.8,
+   "Physical": 0.8
+  },
+  "source": {
+   "page": "Æthillu",
+   "revid": 66261
+  },
+  "stagger_hp": 80.0,
+  "stagger_recovery": 6.0,
+  "type": "Wildlife",
+  "weight": 1.0
+ }
+}

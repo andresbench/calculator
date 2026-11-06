@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Redeemer Armor
+|image = Redeemer_Armor.png
+|filename = item_equip_t4_parts_wuling01_body_02
+|cnname = 纾难护甲
+|tcname = 紓難護甲
+|jpname = 救国防具
+|krname = 위기 탈출 방어구
+|spname = Armadura de Redentor
+|runame = Броня «Освободитель»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Redeemer Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|This piece of gear is the byword for the difficult road ahead. "The quest is not yet finished, and so the journey is not yet complete."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Intellect
+|pvalue = +115, +126, +138, +149
+|sstat = Ultimate Gain Efficiency
+|svalue = +12.9%, +14.1%, +15.4%, +16.7%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

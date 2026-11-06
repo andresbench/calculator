@@ -1,0 +1,63 @@
+{{Amp nav}}
+{{Status infobox
+|Cryo Amp
+|Cryo Amped targets temporarily deal more {{Color|Cryo DMG|4}}. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Cryo Amp icon.png]]
+|type = Buff
+|source = Operator
+}}
+{{Icon|Cryo Amp icon|'''Cryo Amp'''}} is a type of buff applied to operators in ''[[Arknights: Endfield]]''.
+
+When operators are affected by '''Cryo Amp''', they temporarily deal more {{Color|Cryo DMG|4}}. The number represents the degree of increase.
+
+Multiple sources of Cryo Amp, as well as {{G|Arts Amp}} stack <u>additively</u> to form the '''Amp Multiplier''' for that damage instance. The resulting Amp Mulitplier stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Si
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Si
+| name = No One Spoils the Fun
+| type = Ultimate
+| content = 
+<b>SKILL DESCRIPTION:</b> Si summons a {{Color|Giant Ink Lung|7}} from her painting that deals {{Color|Cryo DMG|4}} and grants temporary {{G|Cryo Amp|Cryo Amp}} and {{G|Heat Amp|Heat Amp}} to the entire team.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Study of Muscles and Bones
+| type = Ultimate
+| content = 
+Ultimate {{Color|No One Spoils the Fun|7}} improved: DMG Dealt is increased to {{Color|1.2|1d}} times the original; {{G|Amp|Amp}} effect is increased to {{Color|1.2|1d}} times the original.
+}}
+}}
+{{Operator table row
+| name = Xaihi
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Xaihi
+| name = Stack Overflow
+| type = Ultimate
+| content = 
+<b>SKILL DESCRIPTION:</b> Applies temporary {{G|Cryo Amp|Cryo Amp}} and {{G|Nature Amp|Nature Amp}} to the entire team. The attribute of Intellect (INT) increases the Amp effect.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Controlled Recursion
+| content = 
+Ultimate {{Color|Stack Overflow|7}} improved: {{G|Amp|Amp}} effect is increased to {{Color|1.1|1d}} times the original.
+}}
+}}
+}}
+
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Cryo Amp}} keyword added with [[Xaihi]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

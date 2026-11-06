@@ -1,0 +1,71 @@
+# Ember. A defender: almost everything is shields and Protection, with little effect on damage.
+operator: Ember
+
+talents:
+  - name: Forged
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Strength +10.", apply: [{stat: attr, attribute: STR, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Strength +15.", apply: [{stat: attr, attribute: STR, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Strength +15.", apply: [{stat: attr, attribute: STR, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Strength +20.", apply: [{stat: attr, attribute: STR, value: 20}]}
+
+  - name: Inflamed for the Assault
+    stacking: replaces
+    confidence: inferred
+    evidence: "Protection is its own group in the damage-taken formula and does not affect outgoing damage"
+    levels:
+      - condition: Elite 1
+        seen: "When casting the battle skill Forward March and the combo skill Frontline Support, Ember gains 30% Protection and is less likely to be interrupted."
+        apply:
+          - {stat: protect, value: 30, trigger: "cast:Battle Skill", target: self}
+      - condition: Elite 2
+        seen: "When casting the battle skill Forward March and the combo skill Frontline Support, Ember gains 50% Protection and is less likely to be interrupted."
+        apply:
+          - {stat: protect, value: 50, trigger: "cast:Battle Skill", target: self}
+
+  - name: Pay the Ferric Price
+    stacking: replaces
+    confidence: inferred
+    evidence: "Percent ATK, the same group. The trigger is taking damage, which never happens on the dummy."
+    levels:
+      - condition: Elite 2
+        seen: "When Ember receives DMG from the enemy, she gains ATK +6% for 7s. This effect can reach 3 stacks."
+        apply:
+          - {stat: atk_pct, value: 6, stacks: {max: 3}, duration: 7, trigger: damage_taken, target: self}
+      - condition: Elite 3
+        seen: "When Ember receives DMG from the enemy, she gains ATK +9% for 7s. This effect can reach 3 stacks."
+        apply:
+          - {stat: atk_pct, value: 9, stacks: {max: 3}, duration: 7, trigger: damage_taken, target: self}
+
+potentials:
+  - rank: 1
+    unmodeled: "Protection +20 % and extension from hits — again about damage taken"
+  - rank: 2
+    confidence: confirmed
+    seen: "Strength +20, Will +20."
+    apply:
+      - {stat: attr, attribute: STR, value: 20}
+      - {stat: attr, attribute: WIL, value: 20}
+  - rank: 3
+    unmodeled: "healing an ally"
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Re-Ignited Oath improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    confidence: inferred
+    seen: "Ultimate Re-Ignited Oath improved: Shield effect is multiplied by 1.2; while this shield is active, the wielder gains ATK +10%."
+    apply:
+      - {stat: atk_pct, value: 10, trigger: "cast:Ultimate", target: team}
+    note: >-
+      The buff lasts as long as the ultimate's shield holds, not a fixed
+      time: it has no duration of its own, and without a shield model its end
+      cannot be determined. The rotation records it as "Steel Oath 5 points
+      for 30 s".

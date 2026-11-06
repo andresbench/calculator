@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Jiminy 12
+|rarity = 3
+|images = 
+Jiminy_12 icon.png:Icon;
+Jiminy_12.png:Full;
+Jiminy_12 max model.png:Max
+|filename = wpn_funnel_0002
+|cnname = 吉米尼12
+|tcname = 吉米尼12
+|jpname = ジミニ12
+|krname = 지미니 12
+|spname = Jiminy 12
+|runame = Джимини 12
+|type = Arts Unit
+|source = First Time Operator Acquisition}}
+'''Jiminy 12''' is a 3★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the standard-issue operator weapons manufactured by Endfield Industries. This weapon is designed by Endfield Arsenal Engineer Jiminy. The Arts Unit is extremely popular with newly minted Endfield operators.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 29, 83, 140, 197, 254, 283
+|pot = Skill {{Color|Assault: Armament Prep|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Main Attribute [S]|Assault: Armament Prep}}
+
+==Basic Info==
+{{Quote|Ease of use and expandability are overrated... I tried talking to the operators who gave positive reviews for Jiminy 12. Turned out what they really liked was its ability to focus and amplify the brightness of its Illumination Arts. They said this made field operations a lot easier as the unit could also function as a powerful flashlight. At first, I found these Jiminy 12 reviews laughable and even tried to find a way to convince them that illumination was never part of my design goals and Jiminy 12's resemblance to a flashlight was a mere coincidence. However, when I joined a ... survey mission in a Blighted zone, I realized the usefulness of having a powerful source of light, especially when treading alone in the smothering darkness.<br>— Excerpt from Jiminy's quarterly performance review interview}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Portable Originium Rig
+|filename = item_port_miner_1
+|images = Portable Originium Rig icon.png:Icon;
+Portable Originium Rig.png:Full;
+|cnname = 便携源石矿机
+|tcname = 便攜式源石礦機
+|jpname = 携帯式採鉱機
+|krname = 휴대용 오리지늄 채굴기
+|spname = Plataforma portátil de Originio
+|runame = Портативная ориджиниевая установка
+|type = Resourcing
+|rarity = 1}}
+'''Portable Originium Rig''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A mining rig for digging up Originium Ore. This rig does not need to be connected to the power grid to work as it powers itself using the Originium it mines.|The best selling product of Endfield Industries.}}
+==Usage==
+A mining rig for digging up [[Originium Ore]]. This rig does not need to be connected to the power grid to work as it powers itself using the Originium it mines.
+*Despite being powered by itself, this rig does not has Belt-free Transportation and thus can't automatically transfer mined ore to the Depot.
+
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Mining I]]
+{{RecipeTable|product=Portable Originium Rig}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Resourcing Facilities]]

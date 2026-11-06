@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Khravengger
+|rarity = 6
+|images = 
+Khravengger icon.png:Icon;
+Khravengger.png:Full;
+Khravengger max model.png:Max
+|filename = wpn_claym_0013
+|cnname = 赫拉芬格
+|tcname = 赫拉芬格
+|jpname = クラヴェンガー
+|krname = 헤라펜거
+|spname = Khravengger
+|runame = Хравенгер
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Khravengger''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A strange weapon released by Witching Hour. The blade body is chiseled out of an ordinary-looking block of ice, but its surface is infused with a special form of Originium Arts that made it literally indestructible.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 148, 250, 352, 454, 505
+|pot = Skill {{Color|Detonate: Bonechilling|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [L]|ATK [L]|Detonate: Bonechilling}}
+
+==Basic Info==
+{{Quote|The Nachzehrer crumpled to the ground. His greatsword laid before him.<br>He roamed the wildlands for days. He thought about those who fell by his sword and the pair of despair-filled eyes that stared at his horns. The Sarkaz was already used to the gaze of hate, the bitter spite against the entity that inevitably ended their lives. The Nachzehrer needed only to devour the haters to soothe his pain.<br>His legs were swollen and felt so hot that he thought they were melting off. Without knowing it, his spine curled together due to pain of hunger and unending rot. When he took the sword of frost from his fathers, he swore to treat it as dearly as his own life. But now, his only wish was to find an inhabited place and trade his old friend for some clean water and food.<br>However, the abandoned village had none of those. The Nachzehrer was about to leave when he heard crude, mocking ridicule.<br><br>"Oi, Sarkaz. That sword for sale?"<br>"...Who are you? Mercs or bandits?"<br>"Hur. Does it matter? If you're good enough, we'll buy you too, devil horns."<br><br>The exhausted Nachzehrer did not refuse. He gently clenched his hands into fists and checked his arms for their remaining strengths. "What do you mean by 'good enough'?"<br>"See that boulder over there? Cut it in half!"<br>"Sure. Watch."<br>The boulder was large enough that it might take two of him, with arms open wide, to fully embrace it. It seemed to have spent a few years in this village as it was covered with children's drawings and a few words that were no longer legible. The Nachzehrer studied it for a bit and measured his approach.<br>The Nachzehrer stood straight, and raised the sword up high with the entirety of his strength. When the dust settled, he was surprised to find a cave right under the boulder.<br>Pairs of eyes looked back at him from the cave. They flickered with unease and fear. They were far weaker and filled with even more despair than he was. The mob behind the Nachzehrer laughed loudly and approached.<br>"Hah! That's more than good enough. You're ours, devil horns. Got a price? Spit it out."<br>"I'm a merc, not a butcher."<br><br>After the momentary silence, the mocking ridicule erupted once more.<br>"Not a butcher? HAH! This one calls himself a non-butcher! You Sarkaz might have made your fortune, but you're still in the business of killing. Spare us the sermon, devil freak!"<br>The mob was right. Mercenary work was never clean. He had killed before, and he had no excuses for what he did.<br>But the eyes that gazed out from the cave stared hard at his horns. They were so quiet that it began to hurt.<br>When he walked through the Cosmic Gate over a decade ago, he thought he no longer had to see these eyes again.<br>"This sword isn't for sale."<br>The Nachzehrer took one deep breath and raised his great weapon into the air.<br>"This Sarkaz isn't for sale either."<br><br>......<br><br>The exhausted and famished frame of the Nachzehrer continued to trudge into the distance.<br>Talos-II was not yet at a state where a Sarkaz must sell his weapon.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

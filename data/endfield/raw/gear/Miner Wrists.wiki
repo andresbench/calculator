@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Miner Wrists
+|image = Miner_Wrists.png
+|filename = item_equip_t1_parts_tundra01_hand_02
+|cnname = 矿场护腕
+|tcname = 礦場護腕
+|jpname = 鉱山籠手
+|krname = 광산 장갑(손목)
+|spname = Muñequeras de minero
+|runame = Краги шахтера
+|rarity = 2
+|artifice = no
+|type = Gloves
+|level = 28
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Miner Wrists''' is a {{gear|2|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +16.8
+|pstat = Agility
+|pvalue = +28
+|sstat = Strength
+|svalue = +18
+|tstat = HP
+|tvalue = +15.0%
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|160}} {{I|Amethyst Component|20}}
+}}
+
+
+
+{{Gears|state=collapsed}}

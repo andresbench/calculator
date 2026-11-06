@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Grove Archer
+|image = Grove_Archer_sprite.png
+|filename = eny_0084_hshunt
+|cnname = 穿林箭
+|tcname = 穿林箭
+|jpname = 穿林矢
+|krname = 천림전
+|spname = Arquero de arboleda
+|runame = Лесной стрелок
+|type = Cangzei Pirates
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 2
+}}
+'''Grove Archer''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An armed outlaw equipped with basic ranged weaponry. Trained in the bamboo groves, the outlaw can fire an arrow through the forest without hitting a single leaf blade.}}
+
+==Stats==
+{{Enemy data
+|HP = 180, 1292, 8173, 32175, 77396, 119231
+|ATK = 28, 132, 410, 1018, 1532, 1755
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 7
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Fires all sorts of arrows and throws bombs to harass their opponents from range.
+|location = *[[Wuling City]]
+*[[Qingbo Stockade]]
+*[[Sword Vault Dale]]
+*[[Energy Alluvium: Qingbo Stockade]]
+*[[Energy Alluvium: Sword Vault Dale]]
+|drops = {{I|Young Bamboo Sprout}}
+|addendum = }}
+
+==Overview==
+One of the basic ranged [[Cangzei Pirate]]s, Grove Archers are similar to [[Bonekrusher Ambusher]]s in terms of being a fodder enemy; They attack by either using three consecutive shots, dealing Physical damage, or throwing three bombs, dealing Physical damage in an area.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 180, 1292, 8173, 32175, 77396, 119231 from 180, 1520, 9615, 32175, 77396, 119231
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

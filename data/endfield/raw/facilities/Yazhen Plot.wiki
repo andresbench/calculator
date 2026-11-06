@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Yazhen Plot
+|filename = item_port_soil_grass_2
+|cnname = 芽针田块
+|tcname = 芽針田塊
+|jpname = 芽針畑
+|krname = 야침 논배미
+|spname = Terreno de Yazhen
+|runame = Участок ячжэня
+|type = Planting
+|rarity = 2
+|power = }}
+'''Yazhen Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen and a higher chance of Thorny Yazhen.|A cultivation plot with various parameters adjusted for growing Yazhen. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Yazhen Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

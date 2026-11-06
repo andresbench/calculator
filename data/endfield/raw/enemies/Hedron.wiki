@@ -1,0 +1,64 @@
+{{Enemy infobox
+|name = Hedron
+|image = Hedron_sprite.png
+|filename = eny_0088_wgthorns
+|cnname = 晶锥天使
+|tcname = 晶錐天使
+|jpname = 錐晶アンゲロス
+|krname = 수정아겔로스
+|spname = Hedron
+|runame = Полиэдр
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 15
+}}
+'''Hedron''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Diaphaistagran" (archive ID: ARM315) is a fluid-based pattern with energy projecting capabilities. Its shape is that of a complex yet symmetrical geometry. Its attacks can also sap heat from any surface they come in contact with.}}
+
+==Stats==
+{{Enemy data
+|HP = 152, 1093, 6916, 27225, 65489, 100888
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *The projectiles it launches apply Cryo Infliction to operators upon hit.
+|location = *[[Jingyu Valley]]
+*[[Wuling City]]
+*[[Marker Stone]]
+*[[Yinglung Pass]]
+*[[Energy Alluvium: Wuling City]]
+*[[Energy Alluvium: Marker Stone]]
+|drops = {{I|Natural Sparkling Water}}
+|addendum = }}
+
+==Overview==
+As one of the basic ranged [[Aggeloi]], Hedrons are slightly more threatening than [[Sting]]s, but it doesn't make them more of the threat; Their only attack is a shot which deals Cryo damage and {{G|Cryo Infliction}} in an area.
+
+==See Also==
+*[[Hedron δ]] - an alternate version of Hedron.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 152, 1093, 6916, 27225, 65489, 100888 from 152, 1286, 8136, 27225, 65489, 100888
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

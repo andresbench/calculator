@@ -1,0 +1,37 @@
+{{Facility infobox
+|name = Sentry Tower
+|filename = item_port_battle_sniper_1
+|images = Sentry Tower icon.png:Icon;
+Sentry Tower.png:Full
+|cnname = 哨戒塔
+|tcname = 哨戒塔
+|jpname = 哨戒塔
+|krname = 감시 타워
+|spname = Torre de vigilancia
+|runame = Сторожевая вышка
+|type = Combat & Support
+|rarity = 4
+|power = 20}}
+'''Sentry Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|<b>ATK</b>: {{Color|11634|7}}
+<b>Attack Interval</b>: {{Color|5|7}}s
+
+<b>Attack Range</b>: {{Color|20|7}} meters
+
+<b>Mode of Attack</b>: Unleashes long-range attacks that target high-threat enemies first and deal massive {{Color|Physical DMG|1}}.
+|This weapon is inspired by the ranged weaponry of the Aggeloi. The designer has furnished it with high-precision optical recognition modules to accurately target high-threat targets and deal effective damage.}}
+==Usage==
+*<b>ATK</b>: {{Color|11634|7}}
+*<b>Attack Interval</b>: {{Color|5|7}}s
+*<b>Attack Range</b>: {{Color|20|7}} meters
+*<b>Mode of Attack</b>: Unleashes long-range attacks that target high-threat enemies first and deal massive {{Color|Physical DMG|1}}.
+*Power Use : 20
+==Acquisition==
+*Production: [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Custom Defense II]]
+{{RecipeTable|product=Sentry Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Combat & Support Facilities]]

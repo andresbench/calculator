@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Finchaser 3.0
+|rarity = 5
+|images = 
+Finchaser_3.0 icon.png:Icon;
+Finchaser_3.0.png:Full;
+Finchaser_3.0 max model.png:Max
+|filename = wpn_sword_0020
+|cnname = 逐鳞3.0
+|tcname = 逐鱗3.0
+|jpname = フィンチェイサー3.0
+|krname = 린수를 찾아서 3.0
+|spname = Cazaletas 3.0
+|runame = Водоплаволов 3.0
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Finchaser 3.0''' is a 5★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|The flagship product of the Outdoor Explorer series of Northmarch Support Hub. Rigged outdoor design approaches and portability made it one of the top recommendations by many explorers and hobby anglers.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Suppression: Fin Chaser's Intent|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Strength [M]|Cryo DMG [M]|Suppression: Fin Chaser's Intent}}
+
+==Basic Info==
+{{Quote|I'm da boss, Kuehl. Your brother finally caught the Kingfin of the Seas.<br>Look. Does it shine like you remembered?<br>Back when our Lothar was still around, we caught every fin of the oceans. Our luck ended on that stormy night.<br>Little Bertha was the first to spot it from his position atop the mast. It was just as the legend says! A great fin wholly clad in shining golden scales!<br>I thought this was the only catch we need to plant our names in the Talosian History of Great Anglers! I ignored the advice of your good brother Links and steered Lothar right into the storm...<br>Ugh. I'll tell you the truth. I still regret everything I did that day. I was a stubborn old fool.<br>The golden fin wrecked our Lothar and got Little Bertha on a wheelchair. Links never talked to me again.<br>But I refused to admit defeat. I am Spencer the Prime Angler. I refuse to let anyone else catch the Golden Kingfin and make my crew a joke.<br>Its golden sheen was the only thing I saw whenever I closed my eyes. "Catch the shiny megafin and I'll win back everything I lost!"<br>But you were the only one who believed me, you empty-headed, blight-brained idiot! Why would you trust an old bastard like me? Why did you take out that TGCC bank loan and get me a new ship? You should have followed the others and quit!<br>You wasted the two best years of your life and joined my mad chase for that ephemeral golden shimmers. We almost caught it during that stormy night, but you paid for my insanity with your life...<br>You probably wouldn't know what happened afterwards. Big Gassy Talos damned me with survival... And I never went out to sea again.<br>Until last week, that is. The thunders woke me from my dreams and I saw that familiar golden glow shimmering through the gaps in my door. I opened it and saw the Kingfin in my finbowl! But HOW?! That little flipper was just a common tropical rainbow your sister-in-law bought from an aquarium.<br>I asked an ex-wooster to give it a test. Turned out it's just a common tropical rainbow. The legendary golden shimmers are just mutated fatty tissue ... given off when the fat gets illuminated by lightning...<br>So what can I say, Kuehl? Your brother finally caught the fin.<br>But it was the bait and I was the fin.<br>A fin swimming in a sea of nothingness, baited by the lure called obsession.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

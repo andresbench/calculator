@@ -1,0 +1,63 @@
+{{Enemy infobox
+|name = Indigenous Pincerbeast
+|image = Indigenous_Pincerbeast_sprite.png
+|filename = eny_0072_slimeml
+|cnname = 原生钳兽
+|tcname = 原生鉗獸
+|jpname = 原生鉗獣
+|krname = 원시 핀서비스트
+|spname = Bestia pinza indígena
+|runame = Автохтонный зверохват
+|type = Wildlife
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 3
+}}
+'''Indigenous Pincerbeast''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A wild creature infected by Originium. The large beast carries multiple Originium clusters and is capable of ripping apart its prey with its sickle-like frontal limbs.}}
+
+==Stats==
+{{Enemy data
+|HP = 166, 1192, 7544, 29700, 71443, 110060
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *An enemy that shows up in groups. Watch out for their razor sharp forward appendages.
+|location = *[[The Hub]]
+*[[Originium Science Park]]
+*[[Origin Lodespring]]
+*[[Power Plateau]]
+*[[Snowy Forest]]
+*[[Energy Alluvium: The Hub]]
+|drops = {{I|Slug Meat}}
+|addendum = }}
+
+==Overview==
+Wildlife creatures that are infected by Originium, Indigenous Pincerbeasts often appear in groups though are also overwhelmed by basic attacks; They have two attack moves, either a frontal cross cut or a leap followed by a claw attack, dealing Physical damage. While preparing an attack, the Originium clusters on their back begin to glow. Sometimes during battle and especially after succesfully landing a hit they will taunt the player by screaming and spitting.
+
+==See Also==
+* [[Brutal Pincerbeast]] &ndash; a stronger variant of the Brutal Pincerbeast.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 166, 1192, 7544, 29700, 71443, 110060 from 166, 1403, 8876, 29700, 71443, 110060
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = MI Security Gloves
+|image = MI_Security_Gloves.png
+|filename = item_equip_t4_suit_criti01_hand_01
+|cnname = M.I.警用手套
+|tcname = M. I.警用手套
+|jpname = M.I.警備グローブ
+|krname = M. I. 경찰용 장갑
+|spname = Guantes de seguridad MI
+|runame = Перчатки охраны «Мьешко»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''MI Security Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Mieszko Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment from the MI Security series. 
+These gloves can also be used as a weapon. Product validation includes an assessment for "effectiveness in smashing Aggeloid appendages".}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Agility
+|pvalue = +65, +71, +78, +84
+|sstat = Strength
+|svalue = +43, +47, +51, +55
+|tstat = Battle Skill DMG Bonus
+|tvalue = +34.5%, +38.0%, +41.4%, +44.9%
+|setname = MI Security
+|seteffect = 3-piece set effect: Wearer's Critical Rate {{Color|+5%|1d}}. 
+After the wearer scores a critical hit, the wearer gains ATK {{Color|+5%|1d}} for 5s. This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate {{Color|+5%|1d}}. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|MI Security}}
+{{Gears|state=collapsed}}

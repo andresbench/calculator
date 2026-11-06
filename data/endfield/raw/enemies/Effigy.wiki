@@ -1,0 +1,68 @@
+{{Enemy infobox
+|name = Effigy
+|image = Effigy_sprite.png
+|filename = eny_0058_agdisk
+|cnname = 肖像天使
+|tcname = 肖像天使
+|jpname = 擬態アンゲロス
+|krname = 형상아겔로스
+|spname = Efigie
+|runame = Пугало
+|type = Aggeloi
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 10
+}}
+'''Effigy''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Homoiossaron" (archive ID: AGL371) is capable of mimicking human forms or parts thereof. Some of these rare and dangerous entities are capable of channeling the Æther itself.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 340
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 12
+|Weight = 2
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy has powerful slam attacks but rotates slowly during casting. This is the best time to go behind it and attack.
+*The enemy can reassemble its body in various forms and move quickly across the battlefield.
+*The enemy will attempt to trap the operators! Quick interruption will counter it.
+|location = *TBA
+|drops = {{I|Conductive Effigy Stone}}
+|addendum = }}
+
+==Overview==
+An [[Aggelos]] with humanoid shape, the Effigy is flexible in movement while packing a punch in offensive, making it a threat if uncautious, especially with its abilities:
+
+*Two swings that deals Physical damage to Operators at front.
+*A ground slam with its arm that deals heavy Physical damage and knocks Operators back after a long wind-up.
+*A ground slam after a leap that deals heavy Physical damage and knocks Operators back.
+*Several swings and thrusts that deals Physical damage, followed by an upward swing that deals Physical damage to Operators at front.
+*Morphs into a cannon shape, and fires laser after a short charge up, dealing continuous Æther damage. This ability can be interrupted.
+*Attempt to capture an Operator, and if success, continuously deal Physical damage. After a charge up, deals heavy Physical damage and knock the Operator back. This ability can be interrupted.
+*Fires three energy spheres, dealing Æther damage. Two [[Ram]]s and one [[Sting]] will be summoned after hitting the ground, which also make it affected by Blight for a short period, dealing continuous Æther damage to Operators on it.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1246, 8942, 56582, 222753, 535821, 825447 from 1246, 10520, 66567, 222753, 535821, 825447
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

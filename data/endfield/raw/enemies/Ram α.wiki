@@ -1,0 +1,59 @@
+{{Enemy infobox
+|name = Ram α
+|image = Ram_α_sprite.png
+|filename = eny_0063_agmelee2
+|cnname = 大角天使α
+|tcname = 大角天使α
+|jpname = 巨角アンゲロスα
+|krname = 큰뿔아겔로스 · α
+|spname = Carnero α
+|runame = Рогач α
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = Ram
+|upgrade = |sortId = 5
+}}
+'''Ram α''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Kriosson Anavon" (archive ID: ACL071α) is an energized variant of ACL071. The entity's excessive energy content gives it a characteristic bright red appearance and makes it stronger and faster than the standard variant.}}
+
+==Stats==
+{{Enemy data
+|HP = 208, 1490, 9430, 37126, 89303, 137575
+|ATK = 46, 217, 675, 1677, 2523, 2891
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 90
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[Aburrey Quarry]]
+*[[Energy Alluvium: Origin Lodespring]]
+|drops = {{I|Hard Aggagrit}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Ram]], Rams α have similar appearance with their counterpart, but it doesn't make them more of the threat; Aside from a ram at front, which deals Physical damage, they can now perform a ground pound that deals Physical damage in an area.
+
+==See Also==
+*[[Ram]] - an alternate version of Ram α.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 208, 1490, 9430, 37126, 89303, 137575 from 208, 1753, 11094, 37126, 89303, 137575
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

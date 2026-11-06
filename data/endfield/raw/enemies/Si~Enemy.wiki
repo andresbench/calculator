@@ -1,0 +1,84 @@
+{{Operator tab}}
+{{Enemy infobox
+|name = Si
+|image = Si_sprite.png
+|filename = eny_0134_jsspsi
+|cnname = 祀
+|tcname = 祀
+|jpname = スー
+|krname = 사
+|spname = Si
+|runame = Си
+|type = Others
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Si''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|Creek of spring thaw, slopes of red fall, old dreams ebb as new life soars.}}
+
+==Stats==
+{{Enemy data
+|HP = 4430, 31794, 201179, 792012, 1905141, 2934923
+|ATK = 92, 434, 1350, 3353, 5046, 5782
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 400
+|SR = 10
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *When Si unfurls her painting, try to remember where the attack zones are, then evade them in the correct sequence.
+*Si can create very dangerous Ink Pools. Do not step into these ink-tainted zones.
+|location = *[[Si's Painting]]
+|drops = 
+|addendum = }}
+
+==Overview==
+===Phase 1===
+Si has several mechanics that are present throughout her fight:
+*Immediately at the start of the fight and at any point throughout when taking enough basic attacks while idling (indicated by golden spark effects when hitting her), Si can use one of two taunts. These can be interrupted with skills, but the controlled Operator hitting her with a basic attack at close range during the interruptible stage will cause her to parry the attack and retaliate. If she is hit by a basic attack from range, she will instead end the taunt early and close the distance.
+**Teleports to the center of the arena in a burst of energy and leaps into the air with another burst, then lounges on her sword for a period of time. While lounging, she can be interrupted with skills, but taking a basic attack causes her to release a counter, dashing forward while leaving behind a trail of delayed exploding slashes. She can be interrupted immediately after the dash.
+**Backflips away and observes the player before becoming interruptable. If hit with basic attacks, she retaliates with the same counter from before.
+*Some of Si's attacks leave behind temporary lingering ink pools, which when stepped on will flash and explode after a delay.
+
+In Phase 1, Si chooses random attacks out of an existing pool of moves. Most of her Sword attacks deal {{Color|Physical DMG|1}}, while ink based attacks deal {{Color|Cryo DMG|4}}.
+*Two fast slashes.
+*Two delayed slashes, followed by either a horizontal slash or a vertical slash creating an ink pool.
+*Three slashes, followed by a fast double slash and a wide horizontal slash. After the first 3 slashes, the attack becomes interruptable.
+*Flies up and winds up, then unleashes a flurry of slashes at the target location, finishing with an explosion and ink pool. This is followed by two sweeping horizontal slashes, the first of which creates another ink pool.
+*Throws her sword to create an explosion and ink pool on impact, then slams down on its position to make another explosion and ink pool, followed by two slashes.
+*Draws a grid on the field, then calls down two sets of exploding weiqi pieces. When a piece lands, it will create a cross-shaped blast of ink after a delay.
+*Draws a grid on the field, then summons three sets of painted [[Simmer's Purge]]s that charge in evenly spaced rows. Can be interrupted, which stops the summoning process (but does not erase existing summons).
+*Summons two invincible painted [[Maned Measure]]s, which leap at the target; the paler one explodes on impact, while the darker one spins towards the target. The summonings and explosions both create ink pools. Can be interrupted, which stops the summoning process.
+*Leaves the field and summons her avian familiar, which creates numerous explosions around the field and fires a barrage of homing feathers.
+*Below ~25% HP, Si teleports the controlled Operator to a scroll, where she will create linear blasts of ink after telegraphing their paths. The first two are performed individually, while the third is a memory game that first displays two telegraphs, then creates two consecutive blasts.
+
+Si enters Phase 2 when her first HP bar is depleted.
+
+===Phase 2===
+Immediately after entering Phase 2, Si leaves the field, then summons both her dragon and avian familiars. The dragon repeatedly slams down to create massive AoEs, while the avian bombards the battlefield with exploding ink blasts. Afterwards, the dragon uses damaging ink to gradually shrink the battlefield and strike the hazardous portions with lightning dealing {{Color|Electric DMG|6}}, before detonating all ink on the field.
+
+Afterwards, Si uses all of her attacks from Phase 1, but with the following HP-based moves:
+*The scroll attack is immediately used below ~60% HP, and now consists of three telegraphs followed by three consecutive ink blasts.
+*Once below ~50% HP, Si can leave the field and summons her dragon for a variant of her phase intro attack, which permanently shrinks the arena, then turns the battlefield black and white. During the black-and-white state, Si can only use sword moves and no longer creates ink pools. Stepping outside the arena causes exploding ink pools to constantly appear below the controlled Operator and leaves the player vulnerable to random lightning strikes dealing {{Color|Electric DMG|6}}.
+*Below ~25% HP, if the arena is in a black-and-white state, Si uses a variant of the previous scroll attack with two sets of blasts, the first with 2 and the second with 3. This time, the telegraphs now denote the safe spots instead of where the blasts will hit.
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

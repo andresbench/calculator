@@ -1,0 +1,64 @@
+{{Enemy infobox
+|name = Prism
+|image = Prism_sprite.png
+|filename = eny_0089_wgreflec
+|cnname = 棱镜天使
+|tcname = 稜鏡天使
+|jpname = 稜鏡アンゲロス
+|krname = 굴절아겔로스
+|spname = Prisma
+|runame = Призма
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 16
+}}
+'''Prism''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Prismastagran" (archive ID: ASM316) is a non-model variant of ARM315. It is capable of protecting nearby Aggeloi, and is very difficult to hit as it often surrounds itself with ARM315 entities.}}
+
+==Stats==
+{{Enemy data
+|HP = 111, 795, 5029, 19800, 47629, 73373
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *This enemy can greatly strengthen nearby allies to improve their capabilities.
+|location = *[[Jingyu Valley]]
+*[[Wuling City]]
+*[[Marker Stone]]
+*[[Yinglung Pass]]
+*[[Energy Alluvium: Wuling City]]
+*[[Energy Alluvium: Marker Stone]]
+|drops = {{I|Natural Sparkling Water}}
+|addendum = }}
+
+==Overview==
+An abnormal variant of [[Hedron]], Prisms lost their ranged attacking abilities, but gain the ability to reduce the damage taken by up to two enemies by 90%. If no other enemy to protect is nearby, they will attack by pounding, dealing Physical damage in a small area. A Prism cannot buff another Prism.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 111, 795, 5029, 19800, 47629, 73373 from 111, 935, 5917, 19800, 47629, 73373
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

@@ -1,0 +1,41 @@
+{{Facility infobox
+|name = Gas Dispersing Unit
+|filename = item_port_vaporizer_1
+|images = Gas_Dispersing_Unit_icon.png:Icon;
+Gas_Dispersing_Unit.png:Full
+|cnname = 气体散布机
+|tcname = 氣體散布機
+|jpname = ガス散布機
+|krname = 기체 분산기
+|spname = Unidad de dispersión de gas
+|runame = Модуль рассеивания газа
+|type = Production II
+|rarity = 4
+|power = }}
+'''Gas Dispersing Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that can disperse a steady input of gas into the surroundings and change the gaseous environment around itself. It only alters the surroundings while active and doesn't really harm the environment.|"This is not an air humidifier or purifier. STOP pouring perfume into it."}}
+==Usage==
+Supplying a '''Gas Dispersing Unit''' with a gas at the required flow rate will cause it to create a matching gaseous environment in a 13x13 area centered around itself. For example, inputting Inergen lets the facility create a Stable environment. Each environment has different effects, most notably granting access to certain formulas. AIC Facilities must be placed fully inside the created environment to take advantage of them. Only the listed minimum amount of 6 per minute is required to change the environment, excess gas provided to the facility is wasted. '''Gas Dispersing Units''' also have to be placed far enough from each other so that their area of effect does not overlap.
+
+=== Stable environment ===
+Recipes using Stable environments:
+{{RecipeTable|environment=Stable ENV}}
+
+=== Acrid environment ===
+Recipes using Acrid environments:
+{{RecipeTable|environment=Acrid ENV}}
+
+=== Humid environment ===
+A humid environment can be used to water [[Planting|planting plots]].
+
+=== Xiranite environment ===
+A Xiranite environment acts similar to a Yinglung Pillar, creating a safe zone within Miasma and also restoring Blight Miasma Tolerance to its maximum.
+
+==Acquisition==
+Construction: Requires Specified Wuling AIC Plan Tech
+{{RecipeTable|product=Gas Dispersing Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

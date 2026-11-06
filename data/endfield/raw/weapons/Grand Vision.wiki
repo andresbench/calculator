@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Grand Vision
+|rarity = 6
+|images = 
+Grand_Vision icon.png:Icon;
+Grand_Vision.png:Full;
+Grand_Vision max model.png:Max
+|filename = wpn_sword_0021
+|cnname = 宏愿
+|tcname = 宏願
+|jpname = 大願
+|krname = 장대한 염원
+|spname = Visión magna
+|runame = Великое видение
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Grand Vision''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A quality weapon manufactured by Endfield Industries. Innovations include using an experimental Originium-based material as the blade body to give it excellent energy conductivity.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 146, 247, 348, 449, 500
+|pot = Skill {{Color|Infliction: Long Time Wish|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [L]|ATK [L]|Infliction: Long Time Wish}}
+
+==Basic Info==
+{{Quote|"It looks like a well..."<br>He rested his elbow upon the railings of the observation deck and allowed his gaze to trail after the twelfth empty bottle sailing through the air before plummeting into the faraway sea. He then saw the majestic "ring", the facility where he works. This was his first time gazing upon it from such a great height.<br>"What is its purpose? Some kind of an underwater shelter? I think I heard mentioned it's for the firing or launching of something..."<br>He started making wild guesses but quickly restrained his surging thoughts. The existence of this facility had nothing to do with him... If he had taken the selection trials just a few months ago, before he lost an eye and his entire team in the battlefield, he might have seen the top secret work being carried out inside the place. But now, he no longer felt the pride nor drive of contributing to the future of humanity. Those virtues had been buried beneath his comrades' bones.<br>He's now just a common deck scrubber... "Who's my employer again?" he thought as he looked down at his work ID. Endfield Industries. Whatever. They're all the same... Endfield, UWST, TGCC, HAS... This place was filled with all sorts of people.<br>The top brass of every faction gathered at this locale, far removed from the major theaters of war, to work on some mega-projects again...<br>"It probably end up failing. The frontlines are collapsing one after another. Habitable areas are being squeezed out of existence. Can they really find something to turn the tide of defeat?<br>"Ugh. Stop thinking about it... I'm just gonna get a headache..."<br>If he were to live out his days without a care, he should take it to the extremes. But he still heard them talk behind his back — The only child of a proud family of soldiers. The rising young star who gave in to self-loathing, who willingly took up a deck scrubber's job so he could be as far away as he could from the battlefields — Oh yes, his ears still caught wind of that every now and then.<br>He was surprised how these words could still hurt him. That was why he came to this place to release himself. Of course, that release inevitably evolved into self-pity and many bottles of kohl.<br>The thirteenth empty bottle flew and fell into the sea.<br>So why did he feel so terrible? Was there something that he could not put to rest? Medals? He threw them away. His preferred weapon? He couldn't even remember where he buried it. "Oh... Yes, there is indeed something else."<br>He took off his eye patch, then scooped out the thing that never warmed from his socket. The prosthetic eye of gold and Origocrust stared at him from his palm. In the story passed down through the generations, the eye was fashioned out of gold rewarded by the emperors... His ancestors strode the fields in the Battle of the Four Emperors and witnessed the fall of Gaul... It did not matter if they became powerful magnates or explorers of Terra. The eye was always handed down to the next in line. He, the disgraced failure, was the last inheritor.<br>The glory of his house shone through the pupil hemmed by golden filigree, and it cast a spine-chilling glare into his soul.<br>He clenched his fist and closed his fingers around the heirloom of an unbroken line, then cast it into the sea without hesitation.<br>"There. It is done. All clean and quiet."<br>The kohl within him swirled and made him burp. That ring in the far distance looked more and more like a well. He remembered the wishing well he saw in a small village he chanced upon during his Grand Tour of Terra. People threw coins of gold and silver into the well and prayed for their wishes to come true. The price of the item cast into the well would determine the scope of the wish manifested.<br>"Hurhur. Bunch of fools."<br>If that were true, what about the thing he just threw into that well? What wish could it hope to accomplish?<br>The eye was a prized treasure that witnessed the fall of great nations, transforming civilizations, carnage, rebirth, destruction, and perseverance. Would the well mold it into something else?<br>"Forget it. I'd rather sleep this off."<br>He raised his hand and launched the fourteenth bottle into the air, and followed its trail until it was held in stasis in mid-air.<br>The wishing well had granted its response.<br><br>A complete silence was followed by the emergence of an enormous crystal formation.<br>The heavens were rent asunder and revealed a path of Originium.<br>Countless figures of grand majesty stood amongst the clouds by the end of this long road. A massive Cosmic Gate appeared behind them.<br>"Why, Your Majesties? Why?<br>"Is it because I have cast away your gift? Because I abandoned my history, my lineage, and all my glories?"<br>His fallen comrades sprouted from the Originium road. They stretched out their withered limbs and shattered weapons, and did all they could to make him stay.<br>So he took out a spear.<br>Every carcass he pierced revealed a great many words. He bowed his head to read these weighty words and revealed them to be names.<br>He saw the names of his father, his grandfather, the pasha, the pope, the inquisitor, the frontiersmate, the miner...<br>He followed the River of the Dead and walked past the historical figures.<br>Finally, the emperors left their names upon the tip of spear.<br>With that, he raised the broken spear up high, and made a great thrust against the massive gate before the deafening roars woke him.<br>The great ring in the distance opened up the sea. That piercing spear, the monumental construct forged by every faction with every moment of despair, every sliver of hope, and every weeping wound, was thrust into the heavens above.<br><br>And on ██/██, ██, was Dijiang successfully launched.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

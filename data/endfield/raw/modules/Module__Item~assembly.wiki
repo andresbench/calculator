@@ -1,0 +1,8 @@
+local data={
+	["Gearing Unit"]={name="Gearing Unit", tier=1, use="A facility that laminates different materials together to create gear components.", desc="A top-tier piece of equipment must undergo multiple processing steps that include textile weaving and compression lamination of various fabric and lining.", obtain=""},
+	["Filling Unit"]={name="Filling Unit", tier=3, use="A facility capable of filling containers with various materials.", desc="The patented sterile packaging technology has greatly reduced the probability of product contamination.", obtain=""},
+	["Packaging Unit"]={name="Packaging Unit", tier=3, use="A facility for packaging certain power components.", desc="All sorts of batteries had been made in various regions of Talos-II. When the war finally ended, humanity gradually established unified standards and specifications for battery production.", obtain=""},
+	["Reactor Crucible"]={name="Reactor Crucible", tier=3, use="A facility for running solid or liquid-state chemical reactions.", desc="After multiple incidents of reactor failures caused by material fatigue and corrosion, Endfield finally decided to approach UWST and purchase a batch of special steel from southern Talos-II.", obtain=""},
+	["Grinding Unit"]={name="Grinding Unit", tier=4, use="A facility that performs fine grinding of powdered materials.", desc="This facility was based on a traditional crop processing machinery from Yan.", obtain=""},
+}
+return data

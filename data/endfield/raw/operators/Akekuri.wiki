@@ -1,0 +1,248 @@
+{{Operator infobox
+|name = Akekuri
+|rarity = 4
+|class = Vanguard
+|weapon = Sword
+|element = Heat
+|faction = Endfield Industries
+|tags = SP Recovery, Heat Infliction, Link
+|main = Agility
+|sub = Intellect
+|starting = 
+|headhunting = standard
+|quote = Captain Akekuri of Operation Team Z7 reporting in! The operations dossier, budget summary, and action plan are ready for review. Which would you like to read first?
+|image = 
+Akekuri Splash Art.png
+|filename = chr_0019_karin
+|cnname = 秋栗
+|tcname = 秋栗
+|jpname = アケクリ
+|krname = 아케쿠리
+|spname = Akekuri
+|runame = Акэкури
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.namu.wiki/w/나가츠키%20아오이 Nagatsuki Aoi]
+|cncv = [https://baike.baidu.com/en/item/Xiao%20Qingyuan/888766 Kiyo]
+|encv = [https://en.wikipedia.org/wiki/Shu_Uchida Shu Uchida]
+|krcv = [https://en.namu.wiki/w/김이안(성우) Kim I-an]
+|gender = Female
+|authentication = Endfield Industries
+|birthdate = March 31
+|race = Perro
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Standard
+|tactical = Excellent
+|skill = Standard
+|originium = Normal
+|exp1 = Team Management
+|exp1d = Team Management: Team Building
+She knows that patience and dedication are the secret ingredients needed to build and nurture a new team out of nothing.
+|exp2 = Cooking
+|exp2d = Cooking: Tea Breaks
+Hot drinks and desserts can quickly alleviate exhaustion, eliminate conflict, promote understanding, and expedite meetings.
+|hb1 = Charity
+|hb1d = Charity: A Good Deed A Day
+Akekuri feels truly happy whenever she remembers that everything she does brings Endfield closer to its vision.
+|hb2 = Sports
+|hb2d = Sports: Integrated Physical Training
+Akekuri has set aside fashion, fine arts, literature, and other things that once interested her. Instead, she now spends her time exercising.
+|prefer = Valley Protocol's Choice
+|matskill = Thermite Cutter, OBJ Edge of Lightness
+|matstats = Eminent Repute, Grand Vision
+}}
+'''Akekuri''' is a 4★ [[Heat]] [[Vanguard]] [[Operator]] from [[Endfield Industries]] in ''[[Arknights: Endfield]]''. She is a [[Sword]] user who can recover plenty of SP with her combo skill and ultimate.
+
+==Profile==
+"Akekuri, Op Z7, reporting in! Excited to join the mission, let's make it a success!"<br/>Akekuri, Captain of [[Operations Team Z7]] under the Specialist Tech Division, is known for her smile and that trademark line: "Leave it to me." From mission planning to day-to-day management, she handles it all. Beyond tactical command and strategy, she's a master of coordination who always uncovers the optimal solution, even with limited resources. She also knows how to care for her team, making sure everyone works in harmony and shines in the role that suits them best.<br/>She practically built Operations Team Z7 from the ground up. In just a few short months, she handled everything from recruitment and training to full deployment, leading the team to remarkable results. And to think, not long ago, she was just an honors student from the Business School who volunteered to join Endfield. No one expected a newcomer to rise so quickly and become a captain truly worthy of trust.<br/>If you've ever wondered about her passion, her drive, and her idealism, or about the simple wish that keeps her going, then...<br/>"Coffee break, Endmin? I can whip up a fresh pot for you!"
+
+==Stats==
+{{Operator data
+|main = Agility
+|sub = Intellect
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 92, 157, 222, 287, 319
+|STR = 13.402, 34.116, 55.922, 77.727, 99.532, 110.435
+|AGL = 15.154, 42.005, 70.269, 98.534, 126.798, 140.93
+|INT = 12.474, 32.613, 53.812, 75.011, 96.211, 106.81
+|WIL = 9.278, 30.361, 52.553, 74.745, 96.937, 108.034
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, D96 Steel Sample 4 x20, Cosmagaric x8, T-Creds x100000
+|pot1 = After recovering SP with skills, Akekuri gains ATK {{Color|+10%|1d}} for 10s. This effect can reach 5 stacks.
+|pot1t = Positive Feedback
+|pot2 = Agility +{{Color|10|1d}}, Intellect +{{Color|10|1d}}.
+|pot2t = Passionate Idealist
+|pot3 = Ultimate {{Color|SQUAD! ON ME!|7}} improved: While ultimate is active, entire team gains ATK {{Color|+10%|1d}}.
+|pot3t = Committed Team Player
+|pot4 = Ultimate {{Color|SQUAD! ON ME!|7}} improved: Ultimate Energy cost {{Color|-10%|1d}}.
+|pot4t = Super Perfect Status
+|pot5 = Talent {{Color|Staying in the Zone|7}} improved: Even when the ultimate {{Color|SQUAD! ON ME!|7}} ends, the {{G|Link|Link}} buff persists for {{Color|5|1d}}s.
+|pot5t = Tempo of Awareness
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Sword of Aspiration
+|icon= Attack-Sword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|17|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 20%, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 36%, 39%, 42%, 45%
+|stat2= BATK SEQ 2 Multiplier, 28%, 30%, 33%, 36%, 39%, 41%, 44%, 47%, 50%, 53%, 57%, 62%
+|stat3= BATK SEQ 3 Multiplier, 33%, 36%, 39%, 42%, 46%, 49%, 52%, 55%, 59%, 63%, 67%, 73%
+|stat4= BATK SEQ 4 Multiplier, 50%, 54%, 59%, 64%, 69%, 74%, 79%, 84%, 89%, 95%, 103%, 111%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Burst of Passion
+|icon= Skill-Akekuri
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> A frontal slash that deals {{Color|Heat DMG|3}} and applies {{G|Heat Infliction|Heat Infliction}}.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 142%, 156%, 171%, 185%, 199%, 213%, 228%, 242%, 256%, 274%, 295%, 320%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Flash and Dash
+|icon= Combo-Akekuri
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When an enemy becomes Staggered or hits a {{G|Stagger Node|Stagger Node}}. <br /><b>SKILL DESCRIPTION:</b> Performs a returning dash with 2 thrust sequences, with each sequence dealing {{Color|Physical DMG|1}} and recovering some SP.
+|stat1= Cooldown, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9
+|stat2= DMG Multiplier per SEQ, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+|stat3= Stagger per SEQ, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= SP Recovery per SEQ, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5
+|stat5= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= SQUAD! ON ME!
+|icon= Ult-Akekuri
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Enters a channeling state and fires 3 Rallying Flares. Each firing recovers some SP.
+|stat1= Ultimate Energy Cost, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120
+|stat2= SP Recovery, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Sword of Aspiration|skill2=Burst of Passion|skill3=Flash and Dash|skill4=SQUAD! ON ME!|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Triphasic Nanoflake,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Metadiastima Photoemission Tube,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Triphasic Nanoflake,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Metadiastima Photoemission Tube,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Sword of Aspiration|skill2=Burst of Passion|skill3=Flash and Dash|skill4=SQUAD! ON ME!|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Triphasic Nanoflake,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Metadiastima Photoemission Tube,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Triphasic Nanoflake,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Metadiastima Photoemission Tube,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Sword of Aspiration|skill2=Burst of Passion|skill3=Flash and Dash|skill4=SQUAD! ON ME!|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Triphasic Nanoflake,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Metadiastima Photoemission Tube,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Triphasic Nanoflake,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Metadiastima Photoemission Tube,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Skirmisher
+|icon = Agility
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Agility +10.
+|cond2 = Elite 2
+|desc2 = Operator Agility +15.
+|cond3 = Elite 3
+|desc3 = Operator Agility +15.
+|cond4 = Elite 4
+|desc4 = Operator Agility +20.
+}}
+{{Operator talent
+|name = Cheer of Victory
+|icon = Akekuri Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Combo skill {{Color|Flash and Dash|7}} improved: For every 10 points of Intellect, SP Recovery {{Color|+1%|1d}} (max: {{Color|50%|1d}}).
+|cond2 = Elite 2
+|desc2 = Combo skill {{Color|Flash and Dash|7}} improved: For every 10 points of Intellect, SP Recovery {{Color|+1.5%|1d}} (max: {{Color|75%|1d}}).
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Staying in the Zone
+|icon = Akekuri Talent 2 icon
+|info = 
+|cond1 = Elite 3
+|desc1 = Ultimate {{Color|SQUAD! ON ME!|7}} improved: When ultimate is active, grants a {{G|Link|Link}} buff.
+|cond2 = 
+|desc2 = 
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Agility
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x48, T-Creds x10800; -; -;
+|tcost2 = -; -; Protohedron x36, T-Creds x32000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Coffee or Tea
+|icon = MFG-manufacture_power_consume
+|facility = Manufacturing Cabin
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14%
+}}
+{{Operator base skill
+|name = Icebreaker
+|icon = RR-guestroom_power_consume
+|facility = Reception Room
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_power_consume
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_power_consume
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''[[Zeroth Directive]]'''
+** Ultimate SQUAD! ON ME!
+*** Ultimate Energy Cost increased from 100 to 120.
+*** SP Recovery reduced from 61 - 100 to 58 - 80.
+** Base Skill Expert Grower changed to Icebreaker
+*** Old: Assign to Growth Chamber to slow Mood Drop of all operators in it by 10% / 14%.
+*** New: Assign to Reception Room to slow Mood Drop of all operators in it by 10% / 14%.
+*'''Beta Test II''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

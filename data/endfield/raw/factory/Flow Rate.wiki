@@ -1,0 +1,22 @@
+[[File: Flow Rate screenshot.png|right|thumb|Flow Rate as shown in-game. Some AIC facilities require a minimum flow rate in order to be active.]]
+
+'''Flow Rate''' is an [[AIC Mechanic]] in ''[[Arknights: Endfield]]''.
+
+Flow Rate is a technical term that describes the amount of [[solid]] travelling from one [[Transport Belt|belt]] to another and the amount of [[liquid]] or [[gas]] travelling from one [[pipe]] to another. The flow rate is commonly expressed in-game as the number of item units per minute, although it is also sometimes expressed coloquially by the playerbase as the number of items per second.
+
+A belt has a maximum flow rate of '''30 units per minute''', while a pipe has a maximum flow rate of '''120 units per minute'''. If the flow rate exceeds the maximum capacity of either the belt or pipe, it becomes clogged. The clogged belt or pipe must wait until the next belt or pipe in the line becomes unclogged before it can continue transferring items. An AIC Facility with an output port connected to a belt or pipe cannot deliver items while the connected belt or pipe is clogged. Instead, the facility stores the items in its storage until the belt or pipe becomes unclogged and is able to receive them. The flow rate of a belt or pipe can also be controlled using [[Item Control Port]] and [[Pipe Control Port]], respectively.
+
+Some [[AIC Facilities]] have a dedicated input port, sometimes differentiated from other input ports with a <span style="background-color:#00ff0044;">green</span> color if there are multiple input ports, that require supplying atleast '''6 units/minute''' of flow rate of liquid or gas to be active. Any excess liquid or gas supplied beyond the required 6 units/minute is wasted. If the flow rate of the AIC Facility is reduced below the minimum while in the process of crafting, the progress for that craft is reset.
+* {{I|Gas Dispersing Unit|g=0}} (requires specific gases, see [[Environment]])
+* {{I|Fluid-Gas Transmuting Unit|g=0}} (requires {{I|Liquid Xiranite|g=0}})
+* {{I|Solid-Gas Transmuting Unit|g=0}} (requires {{I|Xiragen|g=0}})
+
+==Foreword==
+From this point on, flow rate units will be denominated with the unit '''u'''. 1 unit of u will be based on the basic speed of a Transport Belt which is '''1 unit/2 seconds''' or '''30 units/minute'''. 
+* 1 {{I|Transport Belt|g=0}} flow rate is 1u or 30 units/min
+* 1 {{I|Fluid Pump|g=0}} flow rate is 2u or 60 units/min
+* 1 {{I|Pipe|g=0}} flow rate is 4u or 120 units/min
+
+== Navigation ==
+{{AIC Mechanics nav}}
+[[Category: AIC Mechanics]]

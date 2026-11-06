@@ -1,0 +1,257 @@
+[[File:Heat Infliction icon.png|right]]
+[[Heat Infliction]] is an [[Arts Infliction]] in [[Arknights: Endfield]].
+
+== Overview ==
+[[Heat Infliction]] is a debuff applied by both Operators and Enemies lasting for {{Color|20|1d}} seconds. If Heat Infliction is applied to a unit who already has Heat Infliction, then the debuff's duration is reset and the Heat Infliction gains a stack (up to a maximum of 4 stacks).
+
+===Friendly===
+
+Some [[Operators]] are capable of applying [[Heat Infliction]].
+* If an Operator applies a Heat Infliction to an enemy with Heat Infliction, then a [[Arts Burst|Heat Burst]] is triggered dealing {{Color|160% ATK|1d}} as {{Color|Heat DMG|3}}.
+* If an Operator applies a Heat Infliction to an enemy with a [[Arts Infliction|Non-Heat Infliction]], then [[Combustion]] is triggered.
+
+===Hostile===
+
+Some [[Enemies]] are capable of applying [[Heat Infliction]].
+* If the Operator recieves 4 stacks of [[Heat Infliction]], then [[Combustion]] is triggered.
+
+== Sources ==
+Some Operators are capable of applying [[Heat Infliction]] through Combat Skills, as follows:
+{{Operator table
+|header = Source
+|content =
+
+{{Operator table row
+|name = Akekuri
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Akekuri
+|name = Burst of Passion
+|type = Skill
+|content = 
+Applies {{G|Heat Infliction}} to the target.
+}}
+}}
+
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+When an operator applies a {{G|Physical Status}} or {{G|Arts Infliction}} to a target with {{Color|Focus|7}}, applies another stack of the same {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Camille
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Camille
+|name = Blazing Exorcism
+|type = Skill
+|content = 
+Applies {{Color|Firefang Vesperwings|7}} to the target. If a target with active {{Color|Firefang Vesperwings|7}} is defeated, the debuff moves to a nearby target with the remaining debuff duration.<br><br>
+When an enemy is inflicted with {{Color|Firefang Vesperwings|7}}, applies {{G|Heat Infliction}} to the target and all other enemies in a small area of effect around the target.
+}}
+{{Operator table row/Combat skill
+|icon = Ult-Camille
+|name = Sanguine Downpour
+|type = Ultimate
+|content = 
+Applies {{G|Heat Infliction}} on targets hit.
+}}
+}}
+
+{{Operator table row
+|name = Laevatain
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Laevatain
+|name = Twilight
+|type = Ultimate
+|content = 
+While {{Color|Twilight|7}} is active, Laevatain's third basic attack sequence applies {{G|Heat Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Rossi
+|content = 
+{{Operator table row/Combat skill
+|icon = Ult-Rossi
+|name = "Razorclaw" Ambuscade
+|type = Ultimate
+|content = 
+This ultimate is divided into two parts. During the second part of this ultimate, applies {{G|Heat Infliction}} to the target.
+}}
+}}
+
+{{Operator table row
+|name = Wulfgard
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Wulfgard
+|name = Thermite Tracers
+|type = Skill
+|content = 
+Against enemies without an active {{G|Combustion}} or {{G|Electrification}}, the final shot of this skill applies {{G|Heat Infliction}}.
+}}
+{{Operator table row/Combat skill
+|icon = Combo-Wulfgard
+|name = Frag Grenade·β
+|type = Combo
+|content = 
+Applies {{G|Heat Infliction}} to the target and nearby enemies.
+}}
+}}
+}}
+== Interactions ==
+<tabber>
+|-|Operators=
+{{Operator table
+|header = Interaction
+|content =
+
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy with active {{Color|Focus|7}} suffers a {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Arclight
+|content = 
+{{Operator table row/Combat skill
+|icon = Arclight Talent 2 icon
+|name = Hannabit Wisdom
+|type = Talent
+|content = 
+Chance to ignore {{G|Arts Infliction}} applied on her.
+}}
+}}
+
+{{Operator table row
+|name = Ardelia
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Ardelia
+|name = Eruption Column
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike}} on an enemy with {{Color|no|7}} stacks of {{G|Vulnerable|Vulnerability}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Camille
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Camille
+|name = Heartstake Thorn
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy's {{G|Heat Infliction}} is {{G|Debuff Consumption|consumed}} or {{G|Absorb|absorbed}}.
+}}
+}}
+
+{{Operator table row
+|name = Laevatain
+|content = 
+{{Operator table row/Combat skill
+|icon = Laevatain Talent 1 icon
+|name = Scorching Heart
+|type = Talent
+|content = 
+When the controlled operator performs a {{G|Final Strike}} or Finisher hits the enemy, Laevatain {{G|Absorb|absorbs}} {{G|Heat Infliction}} from nearby enemies. Each stack of {{G|Heat Infliction}} {{G|Absorb|absorbed}} gives 1 stack of {{Color|Melting Flame|7}}. Enemies defeated near Laevatain also grant 1 stack of {{Color|Melting Flame|7}} (up to 4 stacks).<br><br>
+At 4 stacks, gain {{Color|Ignore Heat Resistance|3}} for {{Color|20|1d}}s and your next {{Color|Smouldering Fire|7}} {{G|Debuff Consumption|consumes}} all stacks to launch an additional empowered attack.
+}}
+}}
+
+{{Operator table row
+|name = Last Rite
+|content = 
+{{Operator table row/Combat skill
+|icon = Last Rite Talent 1 icon
+|name = Hypothermia
+|type = Talent
+|content = 
+{{G|Debuff Consumption|Consuming}} any {{G|Arts Infliction}} inflicts {{G|Cryo Susceptibility}} with the strength based on the number of stacks consumed. {{Color|This effect cannot stack.|9}}
+}}
+}}
+
+{{Operator table row
+|name = Rossi
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Rossi
+|name = Moment of Blazing Shadow
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy has both {{G|Vulnerable|Vulnerability}} and {{G|Arts Infliction}} stacks.<br><br>
+This combo skill is split into two sequences. For a short time after performing the first sequence, Rossi may recast this skill to perform the second sequence. The second sequence of this combo {{G|Debuff Consumption|consumes}} all {{G|Arts Infliction}} stacks and deals additional {{Color|Physical DMG|2}} based on the number of stacks consumed.
+}}
+}}
+
+{{Operator table row
+|name = Wulfgard
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Wulfgard
+|name = Frag Grenade·β
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an {{G|Arts Infliction}} is applied to an enemy.
+}}
+}}
+
+}}
+
+|-|Weapons=
+{{Template:Weapon_list
+| header = Interaction
+| content = 
+
+{{Template:Weapon_list_row
+| name = Beacon of Duty
+| content = '''Flow: Absolver of Guilt'''<br>When the wielder applies {{G|Heat Infliction}}, the wielder gains {{Color|Physical DMG Dealt|2}} and {{Color|Heat DMG Dealt|3}} {{Tooltip/Weapon skill rank|+8%|22.4%}} for 20s. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Blessing of Lustrous Carmine
+| content = '''Efficacy: Fuel for the Torch'''<br>When the wielder's skill applies {{G|Heat Infliction}}, the entire team gains {{Color|Heat DMG Dealt|3}} {{Tooltip/Weapon skill rank|+6%|16.8%}} for 20s. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = OBJ Velocitous
+| content = '''Detonate: Rapid Strike'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Infliction}}, gain {{Color|Nature DMG Dealt|5}} {{Color|+[{{Tooltip/Weapon skill rank|5%|14%}} × Stacks Consumed]|1d}} for 20s. {{Color|Effects of the same name do not stack.|9}}
+}}
+}}
+</tabber>
+
+==Changelog==
+{{Changelog|
+* <b>Beta Test II</b> {{Needs Verification}}
+** {{G|Heat Infliction}} can now stack up to four times.
+*** [[Arts Burst|Heat Burst]] changed.
+**** <b>New:</b> When an Operator applies Heat Infliction to an enemy with Heat Infliction, add one more stack of Heat Infliction (up to 4 times) and trigger a Heat Burst.
+**** <b>Old:</b> When an Operator applies Heat Infliction to an enemy with Heat Infliction, {{G|Debuff Consumption|consume}} the Heat Inflictions and trigger an Heat Burst.
+*** [[Combustion]] changed.
+**** <b>New:</b> When an Operator applies Heat Infliction to an enemy with a non-Heat Arts Infliction, {{G|Debuff Consumption|consume}} existing stacks of Heat Infliction to trigger [[Combustion]] with the latter determining the strength or {{G|Status Level}} of the reaction.
+**** <b>Old:</b> When an Operator applies a Heat Infliction to an enemy with a non-Heat Arts Infliction, {{G|Debuff Consumption|consume}} both Arts Inflictions and trigger Combustion.
+* <b>Beta Test I</b> {{Needs Verification}}
+** {{G|Heat Infliction}} added.
+*** When an Operator applies Heat Infliction to an enemy with Heat Infliction, {{G|Debuff Consumption|consume}} the Heat Inflictions and trigger an [[Arts Burst|Heat Burst]].
+*** When an Operator applies Heat Infliction to an enemy with a non-Heat Arts Infliction, {{G|Debuff Consumption|consume}} both Arts Inflictions and trigger [[Combustion]].
+}}
+
+{{Combat mechanics}}
+[[Category: Arts Inflictions]]

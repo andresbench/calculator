@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Tarr 11
+|rarity = 3
+|images = 
+Tarr_11 icon.png:Icon;
+Tarr_11.png:Full;
+Tarr_11 max model.png:Max
+|filename = wpn_sword_0003
+|cnname = 塔尔11
+|tcname = 塔爾11
+|jpname = タール11
+|krname = 타르 11
+|spname = Tarr 11
+|runame = Тарр 11
+|type = Sword
+|source = First Time Operator Acquisition}}
+'''Tarr 11''' is a 3★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the standard-issue operator weapons manufactured by Endfield Industries. This weapon is designed by Endfield Arsenal Engineer Tarr. It is often the very first weapon of many field operators.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 29, 83, 140, 197, 254, 283
+|pot = Skill {{Color|Assault: Armament Prep|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Main Attribute [S]|Assault: Armament Prep}}
+
+==Basic Info==
+{{Quote|LOG A: Mayday. Mayday. Anyone, respond? This is an Endfield survey team in the Blight Zone... [STATIC] ...vivors. We were attacked by Blightmorphs... [STATIC] ...long-range comm device disabled. We shall continue to broadcast our positional data on this channel. This is a mayday call! Please respond! Mayday!<br><br>LOG B: Six hours have passed with no response. Looks like we're on our own. Standard issue equipment of the team has been ... rendered unusable by the Blight. We need new weapons to make our way out of here. The survivalist guidebook gave us plenty of survival tips but I don't think sharp stones and signal flares could fight off the Landbreakers.<br><br>LOG C: Just came up with something. Being creative has always been my strength! Our UAV drone got its flight system busted and I realized that I could take off the rotor blades and attach them to the tripod of our geodetic instruments... The rotor blades were made out of a pretty tough alloy and the edges were kinda sharp. These contraptions should make do for now.<br><br>LOG D: We ... actually managed to fight off something that blocked our way. Losses were ... minimal. Bloody Talos, I never expected these makeshift weapons could work! We should be out of this Blight Zone after half a day of walking. That should bring the team close enough to a Cartel settlement and get some help! I just hope they won't rob us blind with their bloody bills...<br><br>LOG E: I finalized the drawings and designs while recovering in my bed. Hope this sword could please that old cranky arsenal keeper. Lost two of my own fingers to that thing. Hope the results are well worth my sacrifice.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

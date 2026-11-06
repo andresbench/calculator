@@ -1,0 +1,96 @@
+local p = {}
+local data = {
+	misc = mw.loadData('Module:Glossary/misc'),
+	narrative = mw.loadData('Module:Glossary/narrative'),
+}
+local colorMap = {
+	[0] = "#fff200", --endfield yellow
+	[1] = "#DFBB92", --bronze/physical
+	[2] = "cyan",
+	[3] = "white",
+	[4] = "#FF853F", --legally distinct red/fire
+	[5] = "#00C0CB", --ice blue
+	[6] = "#9CD54A", --nature green
+	[7] = "#FDC038", --electric yellow/soft orange
+	[8] = "#ABD040", --healing green
+	[9] = "#33C2FF", --keyword / arts blue
+	[10] = "#FFAE6B", --stagger orange
+}
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+
+function p.main(frame)
+	local args = getArgs(frame, {
+		wrappers = 'Template:Glossary'
+	})
+	return p._main(args)
+end
+
+function p._main(args)
+	local key = args[1]
+	
+	local tokens = {}
+	for token in string.gmatch(key, "([^,]+)") do
+		token = mw.text.trim(token)
+		if token ~= "" then
+			table.insert(tokens, token)
+		end
+	end
+	
+	local container = mw.html.create('')
+	
+	for i, token in ipairs(tokens) do
+		if i > 1 then
+			container:wikitext(', ')
+		end
+		local obj
+
+		for _, m in pairs(data) do
+			obj = m[token]
+			if obj then break end
+		end
+	
+		if not obj then
+			container:wikitext('<i>Term "<code>'..token..'</code>" not found in glossary</i>')
+		else
+			local name = obj.name
+			local title = obj.title
+			local desc = obj.desc
+			local link = obj.link
+			local icon = obj.icon or ''
+			local colorNum = tonumber(obj.color)
+			local textColor = colorNum and colorMap[colorNum]
+			local pagename = link or name
+			local text = args[2] or name or token or title
+			--if icon then text = icon .. text end
+			local nolink = yesno(args.nolink)
+			
+			local attrs = {
+				['data-name'] = name,
+				['data-title'] = title,
+				['data-color'] = obj.color,
+				['data-desc'] = desc,
+			}
+			
+			local stooltip = container:tag('span')
+				:addClass('glossary')
+				:attr(attrs)
+				:css('text-decoration', 'underline')
+		
+			if textColor then
+				stooltip:css('color', textColor)
+			end
+		
+			if nolink or link == 'none' then
+				stooltip:wikitext(icon .. text)
+			else
+				stooltip:wikitext(icon .. '[[' .. pagename .. '|' .. '<span style="color:' .. textColor .. '">' .. text .. '</span>]]')
+			end
+		end
+		
+	end	
+
+	return container
+end
+
+return p

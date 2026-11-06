@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Rakerbeast Blightshade
+|image = Rakerbeast_Blightshade_sprite.png
+|filename = eny_0119_kltiger
+|cnname = 蚀影彪兽
+|tcname = 蝕影彪獸
+|jpname = 彪獣の蝕影
+|krname = 그림자에 물든 레이커비스트
+|spname = Sombra contaminada de Bestia rastrera
+|runame = Моротень хитрого зверя
+|type = Blightshades
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 3
+}}
+'''Rakerbeast Blightshade''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A manifestation of residual Æther energy that projects the outward form of a rakerbeast. The eye-spotted coat seems more fluid and highlights attack moves that are truly terrifying to behold.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 0.8
+|wfire = 1
+|welectric = 0.65
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *The beast can use its horns to conduct lightning, attack from range, and even throw lightning orbs that explode after a short delay. Stay out of the explosion radius.
+*At low HP, the beast will unleash a furious roar, call down multiple thunderbolts to attack, and enter an Enraged state. Applying Staggered to the beast ends the Enraged state. Fight it with caution.
+|location = *[[North Wuling Exclusion Zone]]
+*[[Energy Alluvium: Yinglung Pass]]
+|drops = {{I|Blightshade Bezoar}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

@@ -1,0 +1,64 @@
+{
+	"Akekuri": {
+		"x": 2.5,
+		"y": -7.5
+	},
+	"Alesh": {
+		"x": -5,
+		"y": -5
+	},
+	"Antal": {
+		"y": -12.5
+	},
+	"Catcher": {
+		"x": -7.5,
+		"y": -10
+	},
+	"Da Pan": {
+		"x": -5,
+		"y": -5
+	},
+	"Ember": {
+		"y": -5
+	},
+	"Estella": {
+		"y": -10
+	},
+	"Fluorite": {
+		"y": -17.5
+	},
+	"Gilberta": {
+		"x": -5,
+		"y": -5
+	},
+	"Laevatain": {
+		"x": -2.5,
+		"y": -5
+	},
+	"Last Rite": {
+		"x": -2.5,
+		"y": -5
+	},
+	"Lifeng": {
+		"x": -2.5
+	},
+	"Liino": {
+		"x": 15
+	},
+	"Perlica": {
+		"x": 5
+	},
+	"Snowshine": {
+		"x": -2.5,
+		"y": -12.5
+	},
+	"Wulfgard": {
+		"y": -10
+	},
+	"Xaihi": {
+		"x": -5
+	},
+	"Zhuang Fangyi": {
+		"x": -5
+	}
+}

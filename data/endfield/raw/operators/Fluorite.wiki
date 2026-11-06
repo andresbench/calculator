@@ -1,0 +1,258 @@
+{{Operator infobox
+|name = Fluorite
+|rarity = 4
+|class = Caster
+|weapon = Handcannon
+|element = Nature
+|faction = Endfield Industries
+|tags = Nature Infliction, Cryo Infliction
+|main = Agility
+|sub = Intellect
+|starting = 
+|headhunting = standard
+|quote = Op Z7 skirmisher, Fluorite. Got anything to say? No? How about we just call it a day?
+|image = 
+Fluorite Splash Art.png
+|filename = chr_0022_bounda
+|cnname = 萤石
+|tcname = 螢石
+|jpname = フローライト
+|krname = 플루라이트
+|spname = Fluorite
+|runame = Флюорит
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Yō_Taichi Taichi You]
+|cncv = [https://zh.moegirl.org.cn/曹雅雯 Cao Yawen]
+|encv = [https://www.imdb.com/name/nm12283630/ Katiana Sarkissian]
+|krcv = [https://en.namu.wiki/w/장미(성우) (Rose) Jang Mi]
+|gender = Female
+|authentication = Endfield Industries
+|birthdate = June 21
+|race = Phidia
+|infection = Oripathy positive (infected), based on medical examination reports.
+|strength = Standard
+|tactical = Standard
+|skill = Excellent
+|originium = Normal
+|exp1 = Outdoors Survival
+|exp1d = Outdoors Survival: Self-Sufficiency
+A natural in both stringency and generosity. She felt both in the frontiers.
+|exp2 = Street Wisdom
+|exp2d = Street Wisdom: Alleyway Talk
+Fluorite knows who's trustworthy, who's up to no good, and whose stupidity has rendered them incapable of reasoning.
+|hb1 = Nature
+|hb1d = Nature: Wildlands Rover
+Everyone else in Op Team Z7 agrees that Fluorite is more amiable when talking about life in the wildlands.
+|hb2 = Creative
+|hb2d = Creative: "Gift" Crafting
+Fluorite's silence usually heralds an impending prank. Unfortunately, Fluorite is often silent.
+|prefer = Valley Protocol's Choice
+|matskill = Navigator, Opus: The Living
+|matstats = OBJ Velocitous
+}}
+'''Fluorite''' is a 4★ [[Nature]] [[Caster]] [[Operator]] from [[Endfield Industries]] in ''[[Arknights: Endfield]]''. She is a [[Handcannon]] user who who can {{G|Slow|Slow}} her targets and deal massive {{Color|Nature DMG|5}} to enemies with {{G|Nature Infliction|Nature Infliction}} or {{G|Cryo Infliction|Cryo Infliction}}.
+
+==Profile==
+"Distract them? Disable them? Or... just destroy them?"<br/>A member of [[Operations Team Z7]] in Endfield, Fluorite is responsible for scouting and disrupting enemy lines. Her command of street rules and dirty tricks rivals her sharpshooting, sparing the team from countless troubles. Hailing from the frontier at the edge of the [[Civilization Band]], she sharpened her eye through constant migrations and wandering. More often than not, she simply sits in the corner with a faint smile, leaving others with the unsettling sense that every flaw has already been laid bare under her gaze.<br/>But don't mistake her for empathetic. Fluorite's knack for reading people gives her exceptional instincts on the battlefield, but also leaves her dangerously good at stirring people up with just a few words — making her the team's most unpredictable source of trouble.<br/>"Got anything to say? No? How about we just call it a day?"
+
+==Stats==
+{{Operator data
+|main = Agility
+|sub = Intellect
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 88, 150, 211, 272, 303
+|STR = 14.02, 30.298, 47.432, 64.567, 81.701, 90.268
+|AGL = 14.69, 47.46, 81.954, 116.448, 150.942, 168.189
+|INT = 12.474, 34.275, 57.224, 80.173, 103.122, 114.596
+|WIL = 10.103, 27.572, 45.96, 64.348, 82.737, 91.931
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Triphasic Nanoflake x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Agility {{Color|+10|1d}}, Intellect {{Color|+10|1d}}.
+|pot1t = Ten-Finger Smith
+|pot2 = Talent {{Color|Unpredictable|7}} improved: Chance to ignore Arts DMG {{Color|+10%|1d}}.
+|pot2t = Mind Reading Technique
+|pot3 = Battle skill {{Color|Tiny Surprise|7}} improved: After {{Color|Improvised Explosive|7}} explodes, the {{G|Slow|slow}} effect is applied to all enemies hit and lasts {{Color|6|1d}}s.
+|pot3t = Triple Surprise
+|pot4 = Ultimate {{Color|Apex Prankster|7}} improved: Ultimate Energy cost {{Color|-10%|1d}}.
+|pot4t = Prank Master
+|pot5 = Combo skill {{Color|Free Giveaway|7}} improved: Whenever {{G|Cryo Infliction|Cryo Infliction}} or {{G|Nature Infliction|Nature Infliction}} is applied to the enemy, cooldown is shortened by {{Color|1|1d}}s. Effect can only trigger once every 1s.
+|pot5t = Craver of Chaos
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Signature Gun Kata
+|icon= Attack-Handcannon
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Nature DMG|5}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|15|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Nature DMG|5}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Nature DMG|5}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 25%, 28%, 30%, 33%, 35%, 38%, 40%, 43%, 45%, 48%, 52%, 56%
+|stat2= BATK SEQ 2 Multiplier, 33%, 36%, 39%, 42%, 46%, 49%, 52%, 55%, 59%, 63%, 67%, 73%
+|stat3= BATK SEQ 3 Multiplier, 26%, 28%, 31%, 33%, 36%, 38%, 41%, 43%, 46%, 49%, 53%, 57%
+|stat4= BATK SEQ 4 Multiplier, 60%, 66%, 72%, 78%, 84%, 90%, 96%, 102%, 108%, 116%, 125%, 135%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Tiny Surprise
+|icon= Skill-Fluorite
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Kicks an {{Color|Improvised Explosive|7}} that sticks to the target, applying {{G|Slow|Slow}} and exploding after a short duration. The explosion deals {{Color|Nature DMG|5}} and {{G|Nature Infliction|Nature Infliction}} to enemies in the area of effect. Defeating the target also sets off the {{Color|Improvised Explosive|7}} immediately.<br />{{Color|Only 1 Improvised Explosive can be present in the battlefield.|9}}
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 187%, 206%, 224%, 243%, 262%, 280%, 299%, 318%, 336%, 360%, 388%, 420%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Slow, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%
+}}
+{{Combat skill
+|name= Free Giveaway
+|icon= Combo-Fluorite
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When an enemy has 2 or more stacks of {{G|Cryo Infliction|Cryo Infliction}} or {{G|Nature Infliction|Nature Infliction}}. <br /><b>SKILL DESCRIPTION:</b> Shoots the target enemy to trigger a special explosion that deals {{Color|Nature DMG|5}} and applies another {{G|Arts Infliction|Arts Infliction}} of the element already on the enemy.
+|stat1= Cooldown, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 38
+|stat2= DMG Multiplier, 169%, 186%, 203%, 220%, 237%, 254%, 270%, 287%, 304%, 325%, 351%, 380%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Apex Prankster
+|icon= Ult-Fluorite
+|type= {{SB|4}}
+|info= The Battle Skill DMG Boost is a Multiplicative Bonus.
+|desc= <b>SKILL DESCRIPTION:</b> Fluorite quickly moves in an arc and rapidly fires at the target within the arc to deal 4 sequences of {{Color|Nature DMG|5}}. If an {{Color|Improvised Explosive|7}} has been stuck to the target, the skill detonates it immediately and increases the DMG and size of the explosion.<br />If the final DMG sequence hits a target with at least 2 stacks of {{G|Cryo Infliction|Cryo Infliction}} or {{G|Nature Infliction|Nature Infliction}}, then apply the same {{G|Arts Infliction|Arts Infliction}} again.
+|stat1= Ultimate Energy Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= SEQ 1 DMG Multiplier, 111%, 122%, 133%, 144%, 156%, 167%, 178%, 189%, 200%, 214%, 231%, 250%
+|stat3= SEQ 2 DMG Multiplier, 111%, 122%, 133%, 144%, 156%, 167%, 178%, 189%, 200%, 214%, 231%, 250%
+|stat4= SEQ 3 DMG Multiplier, 111%, 122%, 133%, 144%, 156%, 167%, 178%, 189%, 200%, 214%, 231%, 250%
+|stat5= SEQ 4 DMG Multiplier, 111%, 122%, 133%, 144%, 156%, 167%, 178%, 189%, 200%, 214%, 231%, 250%
+|stat6= Battle Skill AOE Boost, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%
+|stat7= Battle Skill DMG Boost, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%, 30%
+|stat8= Stagger, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Signature Gun Kata|skill2=Tiny Surprise|skill3=Free Giveaway|skill4=Apex Prankster|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Tachyon Screening Lattice,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Quadrant Fitting Fluid,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Tachyon Screening Lattice,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Quadrant Fitting Fluid,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Signature Gun Kata|skill2=Tiny Surprise|skill3=Free Giveaway|skill4=Apex Prankster|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Tachyon Screening Lattice,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Quadrant Fitting Fluid,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Tachyon Screening Lattice,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Quadrant Fitting Fluid,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Signature Gun Kata|skill2=Tiny Surprise|skill3=Free Giveaway|skill4=Apex Prankster|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Tachyon Screening Lattice,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Quadrant Fitting Fluid,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Tachyon Screening Lattice,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Quadrant Fitting Fluid,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Skirmisher
+|icon = Agility
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Agility +10.
+|cond2 = Elite 2
+|desc2 = Operator Agility +15.
+|cond3 = Elite 3
+|desc3 = Operator Agility +15.
+|cond4 = Elite 4
+|desc4 = Operator Agility +20.
+}}
+{{Operator talent
+|name = Love the Stab and Twist
+|icon = Fluorite Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Fluorite gains DMG Dealt {{Color|+10%|1d}} against {{G|Slow|Slowed}} targets.
+|cond2 = Elite 2
+|desc2 = Fluorite gains DMG Dealt {{Color|+20%|1d}} against {{G|Slow|Slowed}} targets.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Unpredictable
+|icon = Fluorite Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Grants {{Color|20%|1d}} chance of {{G|DMG Type|Arts DMG}} immunity and grants Fluorite ATK {{Color|+10%|1d}} for {{Color|10|1d}}s. This effect cannot stack.
+|cond2 = Elite 3
+|desc2 = Grants {{Color|20%|1d}} chance of {{G|DMG Type|Arts DMG}} immunity and grants Fluorite ATK {{Color|+20%|1d}} for {{Color|10|1d}}s. This effect cannot stack.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Agility
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Wildlands Trekker
+|icon = GC-plant_mineral
+|facility = Growth Chamber
+|postfix1 = α
+|cond1 = Elite 1
+|desc1 = Assign to Growth Chamber to grant rare mineral growth rate +10%
+|postfix2 = β
+|cond2 = Elite 3
+|desc2 = Assign to Growth Chamber to grant rare mineral growth rate +20%
+}}
+{{Operator base skill
+|name = Reader of Emotions
+|icon = CN-physical_power
+|facility = Control Nexus
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Control Nexus to grant all operators' Mood Regen +12%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Control Nexus to grant all operators' Mood Regen +16%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = GC-plant_mineral
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = CN-physical_power
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Ultimate Apex Prankster
+*** New effect: If the final DMG sequence hits a target with at least 2 stacks of {{G|Cryo Infliction|Cryo Infliction}} or {{G|Nature Infliction|Nature Infliction}}, then apply the same {{G|Arts Infliction|Arts Infliction}} again.
+*** Ultimate Energy Cost increased from 80 to 100
+*** SEQ 1 DMG Multiplier reduced from 133% - 300% to 111% - 250%.
+*** SEQ 2 DMG Multiplier reduced from 133% - 300% to 111% - 250%.
+*** SEQ 3 DMG Multiplier reduced from 133% - 300% to 111% - 250%.
+*** SEQ 4 DMG Multiplier reduced from 133% - 300% to 111% - 250%.
+*** Stagger reduced from 25 to 20.
+** Base Skill Reader of Emotions
+*** Increased operators' Mood Regen effect from 8% / 12% to 12% / 16%.
+*'''Beta Test II''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

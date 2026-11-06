@@ -1,0 +1,8905 @@
+{
+ "Aggeloslayer": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_lance_0008",
+  "key": "Aggeloslayer",
+  "manufacturer": null,
+  "name": "Aggeloslayer",
+  "page": "Aggeloslayer",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Emergency Boost improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Suppression: Emergency Boost",
+   "stat1": "Will [S]",
+   "stat2": "Arts DMG [S]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Will [S]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts DMG [S]",
+    "tag": "Arts DMG",
+    "terms": [],
+    "text_template": "Arts DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      3.33,
+      6.0,
+      8.67,
+      11.33,
+      14.0,
+      16.67,
+      19.33,
+      22.0,
+      26.0
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Emergency Boost",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "When the wielder's battle skill hits the enemy, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Aggeloslayer",
+   "revid": 61856
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Amaranthine Tassel": {
+  "base_attack": {
+   "base": 52.0,
+   "elite1_lv20": 149.0,
+   "elite2_lv40": 252.0,
+   "elite3_lv60": 355.0,
+   "elite4_lv80": 458.0,
+   "elite4_lv90": 510.0
+  },
+  "id": "wpn_claym_0017",
+  "key": "Amaranthine Tassel",
+  "manufacturer": null,
+  "name": "Amaranthine Tassel",
+  "page": "Amaranthine Tassel",
+  "potential": {
+   "terms": [],
+   "text": "Skill Combative: Amaranthine Cleave improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Combative: Amaranthine Cleave",
+   "stat1": "Strength [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [L]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Combative: Amaranthine Cleave",
+    "tag": "Combative",
+    "terms": [
+     "Physical Susceptibility",
+     "Crush",
+     "Vulnerable",
+     "Debuff Consumption"
+    ],
+    "text_template": "Physical DMG Dealt +{0}%. When the wielder applies Physical Susceptibility, the wielder gains Arts Intensity +{1} for 20.00s. When the wielder applies Crush, the wielder gains Physical DMG Dealt +[{2}% + ({3}% × Max number of Vulnerability stacks consumed from one enemy)] for 30.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      30.0,
+      36.0,
+      42.0,
+      48.0,
+      54.0,
+      60.0,
+      66.0,
+      72.0,
+      84.0
+     ],
+     [
+      9.0,
+      10.8,
+      12.6,
+      14.4,
+      16.2,
+      18.0,
+      19.8,
+      21.6,
+      25.2
+     ],
+     [
+      3.0,
+      3.6,
+      4.2,
+      4.8,
+      5.4,
+      6.0,
+      6.6,
+      7.2,
+      8.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Amaranthine Tassel",
+   "revid": 61826
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Ancient Canal": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_claym_0014",
+  "key": "Ancient Canal",
+  "manufacturer": null,
+  "name": "Ancient Canal",
+  "page": "Ancient Canal",
+  "potential": {
+   "terms": [],
+   "text": "Skill Brutality: Lands of Yore improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Brutality: Lands of Yore",
+   "stat1": "Strength [M]",
+   "stat2": "Arts Intensity [M]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts Intensity [M]",
+    "tag": "Arts Intensity",
+    "terms": [],
+    "text_template": "Arts Intensity +{0}",
+    "values_by_rank": [
+     [
+      8.0,
+      14.0,
+      20.0,
+      27.0,
+      33.0,
+      40.0,
+      46.0,
+      52.0,
+      62.0
+     ]
+    ]
+   },
+   {
+    "key": "Brutality: Lands of Yore",
+    "tag": "Brutality",
+    "terms": [
+     "Debuff Consumption",
+     "Vulnerable"
+    ],
+    "text_template": "Arts Intensity +{0}. After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[{1}%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Ancient Canal",
+   "revid": 61822
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Artzy Tyrannical": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_pistol_0010",
+  "key": "Artzy Tyrannical",
+  "manufacturer": null,
+  "name": "Artzy Tyrannical",
+  "page": "Artzy Tyrannical",
+  "potential": {
+   "terms": [],
+   "text": "Skill Fracture: Artzy Exaggeration improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Fracture: Artzy Exaggeration",
+   "stat1": "Intellect [L]",
+   "stat2": "Critical Rate [L]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Critical Rate [L]",
+    "tag": "Critical Rate",
+    "terms": [],
+    "text_template": "Critical Rate +{0}%",
+    "values_by_rank": [
+     [
+      2.5,
+      4.5,
+      6.5,
+      8.5,
+      10.5,
+      12.5,
+      14.5,
+      16.5,
+      19.5
+     ]
+    ]
+   },
+   {
+    "key": "Fracture: Artzy Exaggeration",
+    "tag": "Fracture",
+    "terms": [],
+    "text_template": "Cryo DMG Dealt +{0}%. After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      14.0,
+      16.8,
+      19.6,
+      22.4,
+      25.2,
+      28.0,
+      30.8,
+      33.6,
+      39.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Artzy Tyrannical",
+   "revid": 61874
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Aspirant": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_sword_0015",
+  "key": "Aspirant",
+  "manufacturer": null,
+  "name": "Aspirant",
+  "page": "Aspirant",
+  "potential": {
+   "terms": [],
+   "text": "Skill Twilight: Imposing Peak improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Twilight: Imposing Peak",
+   "stat1": "Agility [M]",
+   "stat2": "Physical DMG [M]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [M]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Physical DMG [M]",
+    "tag": "Physical DMG",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Twilight: Imposing Peak",
+    "tag": "Twilight",
+    "terms": [
+     "Lift"
+    ],
+    "text_template": "Ultimate DMG Dealt +{0}%. After the wielder applies Lift, during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Aspirant",
+   "revid": 61888
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Beacon of Duty": {
+  "base_attack": {
+   "base": 49.0,
+   "elite1_lv20": 142.0,
+   "elite2_lv40": 240.0,
+   "elite3_lv60": 338.0,
+   "elite4_lv80": 436.0,
+   "elite4_lv90": 485.0
+  },
+  "id": "wpn_lance_0007",
+  "key": "Beacon of Duty",
+  "manufacturer": null,
+  "name": "Beacon of Duty",
+  "page": "Beacon of Duty",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Fuel for the Torch improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Efficacy: Fuel for the Torch",
+   "stat1": "Agility [L]",
+   "stat2": "ULT Efficiency [L]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [L]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      5.95,
+      10.71,
+      15.48,
+      20.24,
+      25.0,
+      29.76,
+      34.52,
+      39.29,
+      46.43
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Fuel for the Torch",
+    "tag": "Efficacy",
+    "terms": [
+     "Heat Infliction",
+     "Heat Susceptibility"
+    ],
+    "text_template": "Heat DMG Dealt +{0}%. When the wielder's skill applies Heat Infliction, the wielder gains Physical and Heat DMG Dealt +{1}% for 20.00s. When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +{2}% for 30.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ],
+     [
+      4.0,
+      4.8,
+      5.6,
+      6.4,
+      7.2,
+      8.0,
+      8.8,
+      9.6,
+      11.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Beacon of Duty",
+   "revid": 61855
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Polearm"
+ },
+ "Bedazzling Night Debut": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_lance_0014",
+  "key": "Bedazzling Night Debut",
+  "manufacturer": null,
+  "name": "Bedazzling Night Debut",
+  "page": "Bedazzling Night Debut",
+  "potential": {
+   "terms": [],
+   "text": "Skill Medicant: Shimmering Curtain improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Medicant: Shimmering Curtain",
+   "stat1": "Will [L]",
+   "stat2": "Treatment Efficiency [L]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Treatment Efficiency [L]",
+    "tag": "Treatment Efficiency",
+    "terms": [],
+    "text_template": "Treatment Efficiency +{0}%.",
+    "values_by_rank": [
+     [
+      5.95,
+      10.71,
+      15.48,
+      20.24,
+      25.0,
+      29.76,
+      34.52,
+      39.29,
+      46.43
+     ]
+    ]
+   },
+   {
+    "key": "Medicant: Shimmering Curtain",
+    "tag": "Medicant",
+    "terms": [],
+    "text_template": "Main attribute +{0}%. When the wielder's skill grants HP Treatment to other operators in the team, the operator receiving the wielder's treatment also gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 4.00. Duration of each stack is counted separately. Each operator can gain this effect at most once every 0.1s.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      3.5,
+      4.2,
+      4.9,
+      5.6,
+      6.3,
+      7.0,
+      7.7,
+      8.4,
+      9.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Bedazzling Night Debut",
+   "revid": 61862
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Blessing of Lustrous Carmine": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_lance_0015",
+  "key": "Blessing of Lustrous Carmine",
+  "manufacturer": null,
+  "name": "Blessing of Lustrous Carmine",
+  "page": "Blessing of Lustrous Carmine",
+  "potential": {
+   "terms": [],
+   "text": "Skill Flow: Absolver of Guilt improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Flow: Absolver of Guilt",
+   "stat1": "Agility [L]",
+   "stat2": "Heat DMG [L]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Heat DMG [L]",
+    "tag": "Heat DMG",
+    "terms": [],
+    "text_template": "Heat DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Flow: Absolver of Guilt",
+    "tag": "Flow",
+    "terms": [
+     "Heat Infliction"
+    ],
+    "text_template": "Ultimate Gain Efficiency +{0}%. When the wielder's skill recovers SP, the entire team gains ATK +{1}% for 20.00s. When the wielder's skill applies Heat Infliction, the entire team gains Heat DMG Dealt +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      18.0,
+      21.6,
+      25.2,
+      28.8,
+      32.4,
+      36.0,
+      39.6,
+      43.2,
+      50.4
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Blessing of Lustrous Carmine",
+   "revid": 61863
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Brigand's Calling": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_pistol_0011",
+  "key": "Brigand's Calling",
+  "manufacturer": null,
+  "name": "Brigand's Calling",
+  "page": "Brigand's Calling",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Brigand's Bane improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Detonate: Brigand's Bane",
+   "stat1": "Agility [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Brigand's Bane",
+    "tag": "Detonate",
+    "terms": [
+     "Cryo Infliction",
+     "Arts Susceptibility"
+    ],
+    "text_template": "Cryo DMG Dealt +{0}%. When the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +{1}% for 20.00s. When the wielder's battle skill or ultimate applies Arts Susceptibility, the target enemy suffers Arts DMG Taken +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Brigand's Calling",
+   "revid": 61875
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Chimeric Justice": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_lance_0004",
+  "key": "Chimeric Justice",
+  "manufacturer": null,
+  "name": "Chimeric Justice",
+  "page": "Chimeric Justice",
+  "potential": {
+   "terms": [],
+   "text": "Skill Brutality: Cemented Fury improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Brutality: Cemented Fury",
+   "stat1": "Strength [M]",
+   "stat2": "ULT Efficiency [M]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [M]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      4.76,
+      8.57,
+      12.38,
+      16.19,
+      20.0,
+      23.81,
+      27.62,
+      31.43,
+      37.14
+     ]
+    ]
+   },
+   {
+    "key": "Brutality: Cemented Fury",
+    "tag": "Brutality",
+    "terms": [
+     "Vulnerable"
+    ],
+    "text_template": "Critical Rate +{0}%. When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      3.0,
+      3.6,
+      4.2,
+      4.8,
+      5.4,
+      6.0,
+      6.6,
+      7.2,
+      8.4
+     ],
+     [
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0,
+      33.0,
+      36.0,
+      42.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Chimeric Justice",
+   "revid": 61853
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Chivalric Virtues": {
+  "base_attack": {
+   "base": 49.0,
+   "elite1_lv20": 142.0,
+   "elite2_lv40": 240.0,
+   "elite3_lv60": 338.0,
+   "elite4_lv80": 436.0,
+   "elite4_lv90": 485.0
+  },
+  "id": "wpn_funnel_0010",
+  "key": "Chivalric Virtues",
+  "manufacturer": null,
+  "name": "Chivalric Virtues",
+  "page": "Chivalric Virtues",
+  "potential": {
+   "terms": [],
+   "text": "Skill Medicant: Blight Fervor improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Medicant: Blight Fervor",
+   "stat1": "Will [L]",
+   "stat2": "HP [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "HP [L]",
+    "tag": "HP",
+    "terms": [],
+    "text_template": "Max HP +{0}%",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      50.0,
+      58.0,
+      66.0,
+      78.0
+     ]
+    ]
+   },
+   {
+    "key": "Medicant: Blight Fervor",
+    "tag": "Medicant",
+    "terms": [],
+    "text_template": "Treatment Efficiency +{0}%. After the wielder's skill provides HP treatment, the entire team gains ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      9.0,
+      10.8,
+      12.6,
+      14.4,
+      16.2,
+      18.0,
+      19.8,
+      21.6,
+      25.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Chivalric Virtues",
+   "revid": 61839
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Clannibal": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_pistol_0009",
+  "key": "Clannibal",
+  "manufacturer": null,
+  "name": "Clannibal",
+  "page": "Clannibal",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Vicious Purge improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: Vicious Purge",
+   "stat1": "Main Attribute [L]",
+   "stat2": "Arts DMG [L]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts DMG [L]",
+    "tag": "Arts DMG",
+    "terms": [],
+    "text_template": "Arts DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Vicious Purge",
+    "tag": "Infliction",
+    "terms": [
+     "Debuff Consumption",
+     "Arts Reaction"
+    ],
+    "text_template": "Arts DMG +{0}%. After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG Taken +{1}% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ],
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Clannibal",
+   "revid": 61873
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Cohesive Traction": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_lance_0006",
+  "key": "Cohesive Traction",
+  "manufacturer": null,
+  "name": "Cohesive Traction",
+  "page": "Cohesive Traction",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Concentric Circles improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Suppression: Concentric Circles",
+   "stat1": "Will [M]",
+   "stat2": "Electric DMG [M]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Will [M]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Electric DMG [M]",
+    "tag": "Electric DMG",
+    "terms": [],
+    "text_template": "Electric DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Concentric Circles",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "Combo Skill DMG Dealt +{0}%. When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Cohesive Traction",
+   "revid": 61854
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Complexed Industry": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_sword_0024",
+  "key": "Complexed Industry",
+  "manufacturer": null,
+  "name": "Complexed Industry",
+  "page": "Complexed Industry",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Complexed Advantage improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Detonate: Complexed Advantage",
+   "stat1": "Will [L]",
+   "stat2": "Electric DMG [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Electric DMG [L]",
+    "tag": "Electric DMG",
+    "terms": [],
+    "text_template": "Electric DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Complexed Advantage",
+    "tag": "Detonate",
+    "terms": [
+     "Electric Infliction"
+    ],
+    "text_template": "ATK +{0}%. When the wielder's combo skill applies Electric Infliction, the wielder gains Arts Intensity +{1} and Electric DMG Dealt +{2}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0,
+      33.0,
+      36.0,
+      42.0
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Complexed Industry",
+   "revid": 64965
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Sword"
+ },
+ "Darhoff 7": {
+  "base_attack": {
+   "base": 29.0,
+   "elite1_lv20": 83.0,
+   "elite2_lv40": 140.0,
+   "elite3_lv60": 197.0,
+   "elite4_lv80": 254.0,
+   "elite4_lv90": 283.0
+  },
+  "id": "wpn_claym_0010",
+  "key": "Darhoff 7",
+  "manufacturer": null,
+  "name": "Darhoff 7",
+  "page": "Darhoff 7",
+  "potential": {
+   "terms": [],
+   "text": "Skill Assault: Armament Prep improved."
+  },
+  "rarity": 3,
+  "skill": {
+   "name": null,
+   "stat1": "Main Attribute [S]",
+   "stat2": "Assault: Armament Prep",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [S]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      51.0,
+      59.0,
+      67.0,
+      79.0
+     ]
+    ]
+   },
+   {
+    "key": "Assault: Armament Prep",
+    "tag": "Assault",
+    "terms": [],
+    "text_template": "ATK +{0}.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Darhoff 7",
+   "revid": 65351
+  },
+  "source_of_acquisition": "First Time Operator Acquisition",
+  "type": "Great Sword"
+ },
+ "Delivery Guaranteed": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_funnel_0011",
+  "key": "Delivery Guaranteed",
+  "manufacturer": null,
+  "name": "Delivery Guaranteed",
+  "page": "Delivery Guaranteed",
+  "potential": {
+   "terms": [],
+   "text": "Skill Pursuit: Duty Fulfilled improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Pursuit: Duty Fulfilled",
+   "stat1": "Will [L]",
+   "stat2": "ULT Efficiency [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [L]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      5.95,
+      10.71,
+      15.48,
+      20.24,
+      25.0,
+      29.76,
+      34.52,
+      39.29,
+      46.43
+     ]
+    ]
+   },
+   {
+    "key": "Pursuit: Duty Fulfilled",
+    "tag": "Pursuit",
+    "terms": [
+     "Lift"
+    ],
+    "text_template": "Nature DMG Dealt +{0}%. After the wielder's combo skill applies Lifted, the team gains Arts DMG Dealt +{1}% for 15.00s. For every enemy Lifted, the team gains bonus Arts DMG Dealt +{2}%, up to a max of +{3}%. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ],
+     [
+      3.5,
+      4.2,
+      4.9,
+      5.6,
+      6.3,
+      7.0,
+      7.7,
+      8.4,
+      9.8
+     ],
+     [
+      10.5,
+      12.6,
+      14.7,
+      16.8,
+      18.9,
+      21.0,
+      23.1,
+      25.2,
+      29.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Delivery Guaranteed",
+   "revid": 61840
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Dessert Moment": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_sword_0023",
+  "key": "Dessert Moment",
+  "manufacturer": null,
+  "name": "Dessert Moment",
+  "page": "Dessert Moment",
+  "potential": {
+   "terms": [],
+   "text": "Skill Medicant: Sweetness and Dreams improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Medicant: Sweetness and Dreams",
+   "stat1": "Strength [M]",
+   "stat2": "Treatment Efficiency [M]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Treatment Efficiency [M]",
+    "tag": "Treatment Efficiency",
+    "terms": [],
+    "text_template": "Treatment Efficiency +{0}%.",
+    "values_by_rank": [
+     [
+      4.76,
+      8.57,
+      12.38,
+      16.19,
+      20.0,
+      23.81,
+      27.62,
+      31.43,
+      37.14
+     ]
+    ]
+   },
+   {
+    "key": "Medicant: Sweetness and Dreams",
+    "tag": "Medicant",
+    "terms": [],
+    "text_template": "Max HP +{0}%. When the wielder's combo skill grants HP treatment, the operator receiving this HP treatment gains Arts Intensity +{1} and Arts DMG Dealt +{2}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      3.5,
+      4.2,
+      4.9,
+      5.6,
+      6.3,
+      7.0,
+      7.7,
+      8.4,
+      9.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Dessert Moment",
+   "revid": 65354
+  },
+  "source_of_acquisition": "[[Purry Big Feline! RAWR!]]",
+  "type": "Sword"
+ },
+ "Detonation Unit": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_funnel_0008",
+  "key": "Detonation Unit",
+  "manufacturer": null,
+  "name": "Detonation Unit",
+  "page": "Detonation Unit",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Imposing Champion improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Detonate: Imposing Champion",
+   "stat1": "Main Attribute [L]",
+   "stat2": "Arts Intensity [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts Intensity [L]",
+    "tag": "Arts Intensity",
+    "terms": [],
+    "text_template": "Arts Intensity +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      50.0,
+      58.0,
+      66.0,
+      78.0
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Imposing Champion",
+    "tag": "Detonate",
+    "terms": [
+     "Arts Burst"
+    ],
+    "text_template": "Secondary Attribute +{0}%. When the wielder applies an Arts Burst, target enemy suffers Arts DMG Taken +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      9.0,
+      10.8,
+      12.6,
+      14.4,
+      16.2,
+      18.0,
+      19.8,
+      21.6,
+      25.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Detonation Unit",
+   "revid": 61837
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Dreams of the Starry Beach": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 145.0,
+   "elite2_lv40": 245.0,
+   "elite3_lv60": 345.0,
+   "elite4_lv80": 445.0,
+   "elite4_lv90": 495.0
+  },
+  "id": "wpn_funnel_0013",
+  "key": "Dreams of the Starry Beach",
+  "manufacturer": null,
+  "name": "Dreams of the Starry Beach",
+  "page": "Dreams of the Starry Beach",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Tidal Murmurs improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: Tidal Murmurs",
+   "stat1": "Intellect [L]",
+   "stat2": "Treatment Efficiency [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Treatment Efficiency [L]",
+    "tag": "Treatment Efficiency",
+    "terms": [],
+    "text_template": "Treatment Efficiency +{0}%.",
+    "values_by_rank": [
+     [
+      5.95,
+      10.71,
+      15.48,
+      20.24,
+      25.0,
+      29.76,
+      34.52,
+      39.29,
+      46.43
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Tidal Murmurs",
+    "tag": "Infliction",
+    "terms": [
+     "Debuff Consumption",
+     "Corrosion"
+    ],
+    "text_template": "Secondary attribute +{0}%. After the wielder consumes Corrosion, target enemy suffers Arts DMG Taken +{1}% for 25.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Dreams of the Starry Beach",
+   "revid": 61842
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Eminent Repute": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_sword_0013",
+  "key": "Eminent Repute",
+  "manufacturer": null,
+  "name": "Eminent Repute",
+  "page": "Eminent Repute",
+  "potential": {
+   "terms": [],
+   "text": "Skill Brutality: Disciplinarian improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Brutality: Disciplinarian",
+   "stat1": "Main Attribute [L]",
+   "stat2": "Physical DMG [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "Physical DMG [L]",
+    "tag": "Physical DMG",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Brutality: Disciplinarian",
+    "tag": "Brutality",
+    "terms": [
+     "Debuff Consumption",
+     "Vulnerable"
+    ],
+    "text_template": "ATK +{0}%. After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[{1}% + {2}%×Stacks Consumed] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      7.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Eminent Repute",
+   "revid": 61886
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Exemplar": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_claym_0004",
+  "key": "Exemplar",
+  "manufacturer": null,
+  "name": "Exemplar",
+  "page": "Exemplar",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Stacked Hew improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Suppression: Stacked Hew",
+   "stat1": "Main Attribute [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Stacked Hew",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%. When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Exemplar",
+   "revid": 61806
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Farsight": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_sword_0026",
+  "key": "Farsight",
+  "manufacturer": null,
+  "name": "Farsight",
+  "page": "Farsight",
+  "potential": {
+   "terms": [],
+   "text": "Skill Assault: Vision for Tomorrow improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Assault: Vision for Tomorrow",
+   "stat1": "Main Attribute [L]",
+   "stat2": "Arts Intensity [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts Intensity [L]",
+    "tag": "Arts Intensity",
+    "terms": [],
+    "text_template": "Arts Intensity +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      50.0,
+      58.0,
+      66.0,
+      78.0
+     ]
+    ]
+   },
+   {
+    "key": "Assault: Vision for Tomorrow",
+    "tag": "Assault",
+    "terms": [],
+    "text_template": "When entering battle, the entire team gains the Dream Striving buff that grants DMG Dealt +{0}%, Arts Intensity +{1}, and DEF +{2}% for 20.00s. When Dream Striving ends, the wielder restores the entire team for 122.00 HP. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      3.0,
+      3.6,
+      4.2,
+      4.8,
+      5.4,
+      6.0,
+      6.6,
+      7.2,
+      8.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Farsight",
+   "revid": 65353
+  },
+  "source_of_acquisition": "[[Tribute of Companionship]]",
+  "type": "Sword"
+ },
+ "Finchaser 3.0": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_sword_0020",
+  "key": "Finchaser 3.0",
+  "manufacturer": null,
+  "name": "Finchaser 3.0",
+  "page": "Finchaser 3.0",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Fin Chaser's Intent improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Suppression: Fin Chaser's Intent",
+   "stat1": "Strength [M]",
+   "stat2": "Cryo DMG [M]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Cryo DMG [M]",
+    "tag": "Cryo DMG",
+    "terms": [],
+    "text_template": "Cryo DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Fin Chaser's Intent",
+    "tag": "Suppression",
+    "terms": [
+     "Solidification"
+    ],
+    "text_template": "ATK +{0}%. When the wielder's battle skill applies Solidification, target enemy suffers Cryo DMG Taken +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Finchaser 3.0",
+   "revid": 61893
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Finishing Call": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_claym_0012",
+  "key": "Finishing Call",
+  "manufacturer": null,
+  "name": "Finishing Call",
+  "page": "Finishing Call",
+  "potential": {
+   "terms": [],
+   "text": "Skill Medicant: Glory of Knighthood improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Medicant: Glory of Knighthood",
+   "stat1": "Strength [M]",
+   "stat2": "HP [M]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "HP [M]",
+    "tag": "HP",
+    "terms": [],
+    "text_template": "Max HP +{0}%",
+    "values_by_rank": [
+     [
+      8.0,
+      14.4,
+      20.8,
+      27.2,
+      33.6,
+      40.0,
+      46.4,
+      52.8,
+      62.4
+     ]
+    ]
+   },
+   {
+    "key": "Medicant: Glory of Knighthood",
+    "tag": "Medicant",
+    "terms": [],
+    "text_template": "Secondary Attribute +{0}%. Combo skill HP treatment effect +{1}%.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Finishing Call",
+   "revid": 61818
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Flickers in the Mist": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_funnel_0017",
+  "key": "Flickers in the Mist",
+  "manufacturer": null,
+  "name": "Flickers in the Mist",
+  "page": "Flickers in the Mist",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Overlapping Flickers improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Efficacy: Overlapping Flickers",
+   "stat1": "Will [L]",
+   "stat2": "Electric DMG [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Electric DMG [L]",
+    "tag": "Electric DMG",
+    "terms": [],
+    "text_template": "Electric DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Overlapping Flickers",
+    "tag": "Efficacy",
+    "terms": [
+     "Electric Amp"
+    ],
+    "text_template": "ATK +{0}%. When the wielder gains Electric Amp, the wielder also gains Electric DMG Dealt +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      5.5,
+      6.6,
+      7.7,
+      8.8,
+      9.9,
+      11.0,
+      12.1,
+      13.2,
+      15.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Flickers in the Mist",
+   "revid": 61848
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Arts Unit"
+ },
+ "Fluorescent Roc": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_funnel_0003",
+  "key": "Fluorescent Roc",
+  "manufacturer": null,
+  "name": "Fluorescent Roc",
+  "page": "Fluorescent Roc",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Emergency Boost improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Suppression: Emergency Boost",
+   "stat1": "Will [S]",
+   "stat2": "ATK [S]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [S]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [S]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      3.0,
+      5.4,
+      7.8,
+      10.2,
+      12.6,
+      15.0,
+      17.4,
+      19.8,
+      23.4
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Emergency Boost",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "When the wielder's battle skill hits the enemy, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Fluorescent Roc",
+   "revid": 61829
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Forgeborn Scathe": {
+  "base_attack": {
+   "base": 52.0,
+   "elite1_lv20": 149.0,
+   "elite2_lv40": 252.0,
+   "elite3_lv60": 355.0,
+   "elite4_lv80": 458.0,
+   "elite4_lv90": 510.0
+  },
+  "id": "wpn_sword_0006",
+  "key": "Forgeborn Scathe",
+  "manufacturer": null,
+  "name": "Forgeborn Scathe",
+  "page": "Forgeborn Scathe",
+  "potential": {
+   "terms": [],
+   "text": "Skill Twilight: Blazing Wail improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Twilight: Blazing Wail",
+   "stat1": "Intellect [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Twilight: Blazing Wail",
+    "tag": "Twilight",
+    "terms": [],
+    "text_template": "Heat DMG Dealt +{0}%. When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +{1}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      75.0,
+      90.0,
+      105.0,
+      120.0,
+      135.0,
+      150.0,
+      165.0,
+      180.0,
+      210.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Forgeborn Scathe",
+   "revid": 67091
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Former Finery": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 145.0,
+   "elite2_lv40": 245.0,
+   "elite3_lv60": 345.0,
+   "elite4_lv80": 445.0,
+   "elite4_lv90": 495.0
+  },
+  "id": "wpn_claym_0006",
+  "key": "Former Finery",
+  "manufacturer": null,
+  "name": "Former Finery",
+  "page": "Former Finery",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Mincing Therapy improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Efficacy: Mincing Therapy",
+   "stat1": "Will [L]",
+   "stat2": "HP [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "HP [L]",
+    "tag": "HP",
+    "terms": [],
+    "text_template": "Max HP +{0}%",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      50.0,
+      58.0,
+      66.0,
+      78.0
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Mincing Therapy",
+    "tag": "Efficacy",
+    "terms": [
+     "Protect"
+    ],
+    "text_template": "Treatment Efficiency +{0}%. After a Protected operator takes DMG, the wielder restores the said operator's HP by [{1} + Will×{2}]. Effect only triggers once every 15.00s.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      84.0,
+      100.8,
+      117.6,
+      134.4,
+      151.2,
+      168.0,
+      184.8,
+      201.6,
+      235.2
+     ],
+     [
+      0.7,
+      0.84,
+      0.98,
+      1.12,
+      1.26,
+      1.4,
+      1.54,
+      1.68,
+      1.96
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Former Finery",
+   "revid": 61809
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Fortmaker": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_sword_0007",
+  "key": "Fortmaker",
+  "manufacturer": null,
+  "name": "Fortmaker",
+  "page": "Fortmaker",
+  "potential": {
+   "terms": [],
+   "text": "Skill Inspiring: Back to the Broken City improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Inspiring: Back to the Broken City",
+   "stat1": "Intellect [M]",
+   "stat2": "ULT Efficiency [M]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [M]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [M]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      4.76,
+      8.57,
+      12.38,
+      16.19,
+      20.0,
+      23.81,
+      27.62,
+      31.43,
+      37.14
+     ]
+    ]
+   },
+   {
+    "key": "Inspiring: Back to the Broken City",
+    "tag": "Inspiring",
+    "terms": [],
+    "text_template": "ATK +{0}%. Arts Intensity +{1}.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0,
+      70.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Fortmaker",
+   "revid": 61880
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Freedom to Proselytize": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_funnel_0012",
+  "key": "Freedom to Proselytize",
+  "manufacturer": null,
+  "name": "Freedom to Proselytize",
+  "page": "Freedom to Proselytize",
+  "potential": {
+   "terms": [],
+   "text": "Skill Medicant: Redemption of Faith improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Medicant: Redemption of Faith",
+   "stat1": "Will [M]",
+   "stat2": "Treatment Efficiency [M]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [M]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Treatment Efficiency [M]",
+    "tag": "Treatment Efficiency",
+    "terms": [],
+    "text_template": "Treatment Efficiency +{0}%.",
+    "values_by_rank": [
+     [
+      4.76,
+      8.57,
+      12.38,
+      16.19,
+      20.0,
+      23.81,
+      27.62,
+      31.43,
+      37.14
+     ]
+    ]
+   },
+   {
+    "key": "Medicant: Redemption of Faith",
+    "tag": "Medicant",
+    "terms": [],
+    "text_template": "Main Attribute +{0}%. When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [{1} + Will×{2}] HP. Effect only triggers once every 15.00s.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      60.0,
+      72.0,
+      84.0,
+      96.0,
+      108.0,
+      120.0,
+      132.0,
+      144.0,
+      168.0
+     ],
+     [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Freedom to Proselytize",
+   "revid": 61841
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Glorious Memory": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_sword_0017",
+  "key": "Glorious Memory",
+  "manufacturer": null,
+  "name": "Glorious Memory",
+  "page": "Glorious Memory",
+  "potential": {
+   "terms": [],
+   "text": "Skill Twilight: Lingering Glow improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Twilight: Lingering Glow",
+   "stat1": "Agility [L]",
+   "stat2": "Critical Rate [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Critical Rate [L]",
+    "tag": "Critical Rate",
+    "terms": [],
+    "text_template": "Critical Rate +{0}%",
+    "values_by_rank": [
+     [
+      2.5,
+      4.5,
+      6.5,
+      8.5,
+      10.5,
+      12.5,
+      14.5,
+      16.5,
+      19.5
+     ]
+    ]
+   },
+   {
+    "key": "Twilight: Lingering Glow",
+    "tag": "Twilight",
+    "terms": [
+     "Vulnerable"
+    ],
+    "text_template": "ATK +{0}%. When the wielder's skill applies Vulnerability, during the next ultimate cast within 30.00s, the wielder gains DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Glorious Memory",
+   "revid": 61890
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Sword"
+ },
+ "Golden Age": {
+  "base_attack": {
+   "base": 49.0,
+   "elite1_lv20": 142.0,
+   "elite2_lv40": 240.0,
+   "elite3_lv60": 338.0,
+   "elite4_lv80": 436.0,
+   "elite4_lv90": 485.0
+  },
+  "id": "wpn_lance_0016",
+  "key": "Golden Age",
+  "manufacturer": null,
+  "name": "Golden Age",
+  "page": "Golden Age",
+  "potential": {
+   "terms": [],
+   "text": "Skill Pursuit: Great Hero improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Pursuit: Great Hero",
+   "stat1": "Will [L]",
+   "stat2": "Treatment Efficiency [L]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Treatment Efficiency [L]",
+    "tag": "Treatment Efficiency",
+    "terms": [],
+    "text_template": "Treatment Efficiency +{0}%.",
+    "values_by_rank": [
+     [
+      5.95,
+      10.71,
+      15.48,
+      20.24,
+      25.0,
+      29.76,
+      34.52,
+      39.29,
+      46.43
+     ]
+    ]
+   },
+   {
+    "key": "Pursuit: Great Hero",
+    "tag": "Pursuit",
+    "terms": [],
+    "text_template": "Electric DMG Dealt +{0}%. When the wielder's combo skill deals DMG, the wielder gains Treatment Efficiency +{1}% for 15.00s. When the wielder's combo skill grants HP Treatment to other operators in the team, the entire team gains Arts DMG Dealt +{2}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ],
+     [
+      4.0,
+      4.8,
+      5.6,
+      6.4,
+      7.2,
+      8.0,
+      8.8,
+      9.6,
+      11.2
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Golden Age",
+   "revid": 61864
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Polearm"
+ },
+ "Grand Vision": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_sword_0021",
+  "key": "Grand Vision",
+  "manufacturer": null,
+  "name": "Grand Vision",
+  "page": "Grand Vision",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Long Time Wish improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: Long Time Wish",
+   "stat1": "Agility [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Long Time Wish",
+    "tag": "Infliction",
+    "terms": [
+     "Originium Crystal",
+     "Solidification"
+    ],
+    "text_template": "Arts Intensity +{0}. When the wielder applies Originium Crystals or Solidification, during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +{1}%. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      30.0,
+      36.0,
+      42.0,
+      48.0,
+      54.0,
+      60.0,
+      66.0,
+      72.0,
+      84.0
+     ],
+     [
+      36.0,
+      43.2,
+      50.4,
+      57.6,
+      64.8,
+      72.0,
+      79.2,
+      86.4,
+      100.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Grand Vision",
+   "revid": 61894
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Home Longing": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_pistol_0007",
+  "key": "Home Longing",
+  "manufacturer": null,
+  "name": "Home Longing",
+  "page": "Home Longing",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Olden Moon improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Suppression: Olden Moon",
+   "stat1": "Agility [L]",
+   "stat2": "Cryo DMG [L]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Cryo DMG [L]",
+    "tag": "Cryo DMG",
+    "terms": [],
+    "text_template": "Cryo DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Olden Moon",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "ATK +{0}%. For 20.00s after the wielder casts a combo skill, the wielder's next battle skill gains Cryo and Nature DMG Dealt +{1}%. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Home Longing",
+   "revid": 61871
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Handcannon"
+ },
+ "Howling Guard": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_pistol_0002",
+  "key": "Howling Guard",
+  "manufacturer": null,
+  "name": "Howling Guard",
+  "page": "Howling Guard",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Emergency Boost improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Suppression: Emergency Boost",
+   "stat1": "Intellect [S]",
+   "stat2": "ATK [S]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [S]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [S]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      3.0,
+      5.4,
+      7.8,
+      10.2,
+      12.6,
+      15.0,
+      17.4,
+      19.8,
+      23.4
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Emergency Boost",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "When the wielder's battle skill hits the enemy, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Howling Guard",
+   "revid": 61866
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Hypernova Auto": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_funnel_0001",
+  "key": "Hypernova Auto",
+  "manufacturer": null,
+  "name": "Hypernova Auto",
+  "page": "Hypernova Auto",
+  "potential": {
+   "terms": [],
+   "text": "Skill Inspiring: Start of a Saga improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Inspiring: Start of a Saga",
+   "stat1": "Intellect [S]",
+   "stat2": "Arts DMG [S]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [S]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts DMG [S]",
+    "tag": "Arts DMG",
+    "terms": [],
+    "text_template": "Arts DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      3.33,
+      6.0,
+      8.67,
+      11.33,
+      14.0,
+      16.67,
+      19.33,
+      22.0,
+      26.0
+     ]
+    ]
+   },
+   {
+    "key": "Inspiring: Start of a Saga",
+    "tag": "Inspiring",
+    "terms": [],
+    "text_template": "When the wielder's HP is above 80.00%, ATK +{0}%.",
+    "values_by_rank": [
+     [
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0,
+      33.0,
+      36.0,
+      42.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Hypernova Auto",
+   "revid": 61827
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Industry 0.1": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_claym_0003",
+  "key": "Industry 0.1",
+  "manufacturer": null,
+  "name": "Industry 0.1",
+  "page": "Industry 0.1",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Emergency Boost improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Suppression: Emergency Boost",
+   "stat1": "Strength [S]",
+   "stat2": "ATK [S]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [S]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [S]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      3.0,
+      5.4,
+      7.8,
+      10.2,
+      12.6,
+      15.0,
+      17.4,
+      19.8,
+      23.4
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Emergency Boost",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "When the wielder's battle skill hits the enemy, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Industry 0.1",
+   "revid": 61804
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "JET": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_lance_0011",
+  "key": "JET",
+  "manufacturer": null,
+  "name": "JET",
+  "page": "JET",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Astrophysics improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Suppression: Astrophysics",
+   "stat1": "Main Attribute [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Astrophysics",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "Arts DMG Dealt +{0}%. When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +{1}% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "JET",
+   "revid": 61859
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Jade Vessel": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_claym_0018",
+  "key": "Jade Vessel",
+  "manufacturer": null,
+  "name": "Jade Vessel",
+  "page": "Jade Vessel",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Dabbles of Ink improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Efficacy: Dabbles of Ink",
+   "stat1": "Intellect [L]",
+   "stat2": "Cryo DMG [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Cryo DMG [L]",
+    "tag": "Cryo DMG",
+    "terms": [],
+    "text_template": "Cryo DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Dabbles of Ink",
+    "tag": "Efficacy",
+    "terms": [
+     "Immobilization"
+    ],
+    "text_template": "ATK +{0}%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +{1}% for 30.00s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20.00s gains DMG Dealt +{2}%. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      7.5,
+      9.0,
+      10.5,
+      12.0,
+      13.5,
+      15.0,
+      16.5,
+      18.0,
+      21.0
+     ],
+     [
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0,
+      70.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Jade Vessel",
+   "revid": 67090
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Jiminy 12": {
+  "base_attack": {
+   "base": 29.0,
+   "elite1_lv20": 83.0,
+   "elite2_lv40": 140.0,
+   "elite3_lv60": 197.0,
+   "elite4_lv80": 254.0,
+   "elite4_lv90": 283.0
+  },
+  "id": "wpn_funnel_0002",
+  "key": "Jiminy 12",
+  "manufacturer": null,
+  "name": "Jiminy 12",
+  "page": "Jiminy 12",
+  "potential": {
+   "terms": [],
+   "text": "Skill Assault: Armament Prep improved."
+  },
+  "rarity": 3,
+  "skill": {
+   "name": null,
+   "stat1": "Main Attribute [S]",
+   "stat2": "Assault: Armament Prep",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [S]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      51.0,
+      59.0,
+      67.0,
+      79.0
+     ]
+    ]
+   },
+   {
+    "key": "Assault: Armament Prep",
+    "tag": "Assault",
+    "terms": [],
+    "text_template": "ATK +{0}.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Jiminy 12",
+   "revid": 65348
+  },
+  "source_of_acquisition": "First Time Operator Acquisition",
+  "type": "Arts Unit"
+ },
+ "Junction Point": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_funnel_0018",
+  "key": "Junction Point",
+  "manufacturer": null,
+  "name": "Junction Point",
+  "page": "Junction Point",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Feedback Loop improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Efficacy: Feedback Loop",
+   "stat1": "Intellect [L]",
+   "stat2": "ULT Efficiency [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [L]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      5.95,
+      10.71,
+      15.48,
+      20.24,
+      25.0,
+      29.76,
+      34.52,
+      39.29,
+      46.43
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Feedback Loop",
+    "tag": "Efficacy",
+    "terms": [
+     "Arts Susceptibility",
+     "Arts Infliction"
+    ],
+    "text_template": "Nature DMG Dealt +{0}%. When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +{1}% while other operators in the team gain ATK +{2}%. Duration: 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ],
+     [
+      1.5,
+      1.8,
+      2.1,
+      2.4,
+      2.7,
+      3.0,
+      3.3,
+      3.6,
+      4.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Junction Point",
+   "revid": 61849
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Arts Unit"
+ },
+ "Khravengger": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_claym_0013",
+  "key": "Khravengger",
+  "manufacturer": null,
+  "name": "Khravengger",
+  "page": "Khravengger",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Bonechilling improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Detonate: Bonechilling",
+   "stat1": "Strength [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [L]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Bonechilling",
+    "tag": "Detonate",
+    "terms": [
+     "Cryo Infliction"
+    ],
+    "text_template": "Skill DMG Dealt +{0}% (for every skill). When the wielder's battle skill applies Cryo Infliction, the wielder gains Cryo DMG Dealt +{1}% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction, the wielder gains Cryo DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ],
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Khravengger",
+   "revid": 61820
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Lone Barge": {
+  "base_attack": {
+   "base": 52.0,
+   "elite1_lv20": 149.0,
+   "elite2_lv40": 252.0,
+   "elite3_lv60": 355.0,
+   "elite4_lv80": 458.0,
+   "elite4_lv90": 510.0
+  },
+  "id": "wpn_funnel_0015",
+  "key": "Lone Barge",
+  "manufacturer": null,
+  "name": "Lone Barge",
+  "page": "Lone Barge",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Streaming Blitz improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Suppression: Streaming Blitz",
+   "stat1": "Will [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Streaming Blitz",
+    "tag": "Suppression",
+    "terms": [
+     "Debuff Consumption",
+     "Arts Reaction"
+    ],
+    "text_template": "Electric DMG Dealt +{0}%. When the wielder's battle skill consumesArts Reactions, the wielder gains Battle Skill Electric DMG Dealt +{1}% for 20.00s. This effect can reach a max of 2.00 stacks and can only trigger once every 0.1s. Duration of each stack is counted separately. After the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +{2}% for 25.00s. This effect cannot stack.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ],
+     [
+      40.0,
+      48.0,
+      56.0,
+      64.0,
+      72.0,
+      80.0,
+      88.0,
+      96.0,
+      112.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Lone Barge",
+   "revid": 61844
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Long Heritage": {
+  "base_attack": {
+   "base": 49.0,
+   "elite1_lv20": 142.0,
+   "elite2_lv40": 240.0,
+   "elite3_lv60": 338.0,
+   "elite4_lv80": 436.0,
+   "elite4_lv90": 485.0
+  },
+  "id": "wpn_claym_0019",
+  "key": "Long Heritage",
+  "manufacturer": null,
+  "name": "Long Heritage",
+  "page": "Long Heritage",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Secret History improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Efficacy: Secret History",
+   "stat1": "Intellect [L]",
+   "stat2": "Cryo DMG [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Cryo DMG [L]",
+    "tag": "Cryo DMG",
+    "terms": [],
+    "text_template": "Cryo DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Secret History",
+    "tag": "Efficacy",
+    "terms": [
+     "Cryo Infliction",
+     "Heat Infliction",
+     "Arts Amp"
+    ],
+    "text_template": "Main attribute +{0}%. When the wielder's battle skill applies Cryo Infliction or Heat Infliction, the wielder gains Cryo DMG Dealt +{1}% for 20.00s. When the wielder grants Arts Amp to another operator in the team, the entire team gains Arts DMG Dealt +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ],
+     [
+      4.0,
+      4.8,
+      5.6,
+      6.4,
+      7.2,
+      8.0,
+      8.8,
+      9.6,
+      11.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Long Heritage",
+   "revid": 64960
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Great Sword"
+ },
+ "Long Road": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_pistol_0003",
+  "key": "Long Road",
+  "manufacturer": null,
+  "name": "Long Road",
+  "page": "Long Road",
+  "potential": {
+   "terms": [],
+   "text": "Skill Pursuit: Unending Cycle improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Pursuit: Unending Cycle",
+   "stat1": "Strength [S]",
+   "stat2": "Arts DMG [S]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [S]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts DMG [S]",
+    "tag": "Arts DMG",
+    "terms": [],
+    "text_template": "Arts DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      3.33,
+      6.0,
+      8.67,
+      11.33,
+      14.0,
+      16.67,
+      19.33,
+      22.0,
+      26.0
+     ]
+    ]
+   },
+   {
+    "key": "Pursuit: Unending Cycle",
+    "tag": "Pursuit",
+    "terms": [],
+    "text_template": "When the wielder casts a combo skill, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Long Road",
+   "revid": 61867
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Lunar Calling": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_sword_0025",
+  "key": "Lunar Calling",
+  "manufacturer": null,
+  "name": "Lunar Calling",
+  "page": "Lunar Calling",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Coursing Stars improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: Coursing Stars",
+   "stat1": "Will [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Coursing Stars",
+    "tag": "Infliction",
+    "terms": [
+     "Electrification",
+     "Debuff Consumption",
+     "Arts Infliction"
+    ],
+    "text_template": "Arts Intensity +{0}. When wielder's skill applies Electrification, the entire team gains ATK +{1}% for 20.00s. When the wielder consumes Arts Infliction, the wielder gains Electric DMG Dealt +{2}% for 20.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      30.0,
+      36.0,
+      42.0,
+      48.0,
+      54.0,
+      60.0,
+      66.0,
+      72.0,
+      84.0
+     ],
+     [
+      7.5,
+      9.0,
+      10.5,
+      12.0,
+      13.5,
+      15.0,
+      16.5,
+      18.0,
+      21.0
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Lunar Calling",
+   "revid": 67092
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Lupine Scarlet": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_sword_0022",
+  "key": "Lupine Scarlet",
+  "manufacturer": null,
+  "name": "Lupine Scarlet",
+  "page": "Lupine Scarlet",
+  "potential": {
+   "terms": [],
+   "text": "Skill Fracture: Gnashing Wolves improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Fracture: Gnashing Wolves",
+   "stat1": "Agility [L]",
+   "stat2": "Critical Rate [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Critical Rate [L]",
+    "tag": "Critical Rate",
+    "terms": [],
+    "text_template": "Critical Rate +{0}%",
+    "values_by_rank": [
+     [
+      2.5,
+      4.5,
+      6.5,
+      8.5,
+      10.5,
+      12.5,
+      14.5,
+      16.5,
+      19.5
+     ]
+    ]
+   },
+   {
+    "key": "Fracture: Gnashing Wolves",
+    "tag": "Fracture",
+    "terms": [],
+    "text_template": "ATK +{0}%. After the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +{1}%. Wolven Blood can reach 16.00 stacks. After reaching 16.00 stacks, the wielder gains another Physical and Heat DMG Dealt +{2}% for 20.00s. After the duration ends, all Wolven Blood stacks are removed.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0,
+      2.2,
+      2.4,
+      2.8
+     ],
+     [
+      24.0,
+      28.8,
+      33.6,
+      38.4,
+      43.2,
+      48.0,
+      52.8,
+      57.6,
+      67.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Lupine Scarlet",
+   "revid": 61895
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Monaihe": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_funnel_0007",
+  "key": "Monaihe",
+  "manufacturer": null,
+  "name": "Monaihe",
+  "page": "Monaihe",
+  "potential": {
+   "terms": [],
+   "text": "Skill Inspiring: Mortise-and-Tenon Analysis improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Inspiring: Mortise-and-Tenon Analysis",
+   "stat1": "Will [M]",
+   "stat2": "ULT Efficiency [M]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [M]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [M]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      4.76,
+      8.57,
+      12.38,
+      16.19,
+      20.0,
+      23.81,
+      27.62,
+      31.43,
+      37.14
+     ]
+    ]
+   },
+   {
+    "key": "Inspiring: Mortise-and-Tenon Analysis",
+    "tag": "Inspiring",
+    "terms": [],
+    "text_template": "Main Attribute +{0}%. Arts Intensity +{1}.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0,
+      70.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Monaihe",
+   "revid": 61836
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Mountain Bearer": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_lance_0012",
+  "key": "Mountain Bearer",
+  "manufacturer": null,
+  "name": "Mountain Bearer",
+  "page": "Mountain Bearer",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Weight of Mountain improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Efficacy: Weight of Mountain",
+   "stat1": "Agility [L]",
+   "stat2": "Physical DMG [L]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Physical DMG [L]",
+    "tag": "Physical DMG",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Weight of Mountain",
+    "tag": "Efficacy",
+    "terms": [
+     "Vulnerable",
+     "Physical Susceptibility"
+    ],
+    "text_template": "Against Vulnerable enemies, the wielder gains DMG Dealt +{0}%. When the wielder's battle skill applies Vulnerability, the wielder gains All Attributes +{1}% for 15.00s. When the wielder's battle skill applies Physical Susceptibility, the wielder gains All Attributes +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Mountain Bearer",
+   "revid": 61860
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Navigator": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_pistol_0005",
+  "key": "Navigator",
+  "manufacturer": null,
+  "name": "Navigator",
+  "page": "Navigator",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Lone and Distant Sail improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: Lone and Distant Sail",
+   "stat1": "Intellect [L]",
+   "stat2": "Cryo DMG [L]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Cryo DMG [L]",
+    "tag": "Cryo DMG",
+    "terms": [],
+    "text_template": "Cryo DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Lone and Distant Sail",
+    "tag": "Infliction",
+    "terms": [
+     "Solidification",
+     "Corrosion"
+    ],
+    "text_template": "Critical Rate +{0}%. When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +{1}%, and Critical Rate +{2}% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      3.5,
+      4.2,
+      4.9,
+      5.6,
+      6.3,
+      7.0,
+      7.7,
+      8.4,
+      9.8
+     ],
+     [
+      3.5,
+      4.2,
+      4.9,
+      5.6,
+      6.3,
+      7.0,
+      7.7,
+      8.4,
+      9.8
+     ],
+     [
+      2.0,
+      2.4,
+      2.8,
+      3.2,
+      3.6,
+      4.0,
+      4.4,
+      4.8,
+      5.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Navigator",
+   "revid": 61869
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Handcannon"
+ },
+ "Never Rest": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_sword_0016",
+  "key": "Never Rest",
+  "manufacturer": null,
+  "name": "Never Rest",
+  "page": "Never Rest",
+  "potential": {
+   "terms": [],
+   "text": "Skill Flow: Reincarnation improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Flow: Reincarnation",
+   "stat1": "Will [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Flow: Reincarnation",
+    "tag": "Flow",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%. After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +{1}% while other operators in the team gain Physical DMG Dealt +{2}% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      7.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Never Rest",
+   "revid": 61889
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "OBJ Arts Identifier": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_funnel_0014",
+  "key": "OBJ Arts Identifier",
+  "manufacturer": null,
+  "name": "OBJ Arts Identifier",
+  "page": "OBJ Arts Identifier",
+  "potential": {
+   "terms": [],
+   "text": "Skill Pursuit: Transcendent Arts improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Pursuit: Transcendent Arts",
+   "stat1": "Intellect [M]",
+   "stat2": "Arts Intensity [M]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [M]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts Intensity [M]",
+    "tag": "Arts Intensity",
+    "terms": [],
+    "text_template": "Arts Intensity +{0}",
+    "values_by_rank": [
+     [
+      8.0,
+      14.0,
+      20.0,
+      27.0,
+      33.0,
+      40.0,
+      46.0,
+      52.0,
+      62.0
+     ]
+    ]
+   },
+   {
+    "key": "Pursuit: Transcendent Arts",
+    "tag": "Pursuit",
+    "terms": [
+     "Arts Burst",
+     "Physical Status"
+    ],
+    "text_template": "Max HP +{0}%. When the wielder's combo skill applies Arts Burst or Physical Status, the entire team gains Heat DMG Dealt and Electric DMG Dealt +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "OBJ Arts Identifier",
+   "revid": 61843
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "OBJ Edge of Lightness": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_sword_0019",
+  "key": "OBJ Edge of Lightness",
+  "manufacturer": null,
+  "name": "OBJ Edge of Lightness",
+  "page": "OBJ Edge of Lightness",
+  "potential": {
+   "terms": [],
+   "text": "Skill Flow: Unbridled Edge improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Flow: Unbridled Edge",
+   "stat1": "Agility [M]",
+   "stat2": "ATK [M]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [M]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [M]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      4.0,
+      7.2,
+      10.4,
+      13.6,
+      16.8,
+      20.0,
+      23.2,
+      26.4,
+      31.2
+     ]
+    ]
+   },
+   {
+    "key": "Flow: Unbridled Edge",
+    "tag": "Flow",
+    "terms": [],
+    "text_template": "Secondary Attribute +{0}%. After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +{1}% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      3.0,
+      3.6,
+      4.2,
+      4.8,
+      5.4,
+      6.0,
+      6.6,
+      7.2,
+      8.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "OBJ Edge of Lightness",
+   "revid": 61892
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "OBJ Heavy Burden": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_claym_0015",
+  "key": "OBJ Heavy Burden",
+  "manufacturer": null,
+  "name": "OBJ Heavy Burden",
+  "page": "OBJ Heavy Burden",
+  "potential": {
+   "terms": [],
+   "text": "Skill Efficacy: Tenacious Will improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Efficacy: Tenacious Will",
+   "stat1": "Strength [M]",
+   "stat2": "HP [M]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "HP [M]",
+    "tag": "HP",
+    "terms": [],
+    "text_template": "Max HP +{0}%",
+    "values_by_rank": [
+     [
+      8.0,
+      14.4,
+      20.8,
+      27.2,
+      33.6,
+      40.0,
+      46.4,
+      52.8,
+      62.4
+     ]
+    ]
+   },
+   {
+    "key": "Efficacy: Tenacious Will",
+    "tag": "Efficacy",
+    "terms": [
+     "Knock Down",
+     "Weaken"
+    ],
+    "text_template": "Secondary Attribute +{0}%. When the wielder applies Knocked Down or Weakness, the wielder gains DEF +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      18.0,
+      21.6,
+      25.2,
+      28.8,
+      32.4,
+      36.0,
+      39.6,
+      43.2,
+      50.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "OBJ Heavy Burden",
+   "revid": 61823
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "OBJ Razorhorn": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_lance_0013",
+  "key": "OBJ Razorhorn",
+  "manufacturer": null,
+  "name": "OBJ Razorhorn",
+  "page": "OBJ Razorhorn",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Conquest of Icy Peaks improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Infliction: Conquest of Icy Peaks",
+   "stat1": "Will [M]",
+   "stat2": "Physical DMG [M]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Will [M]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Physical DMG [M]",
+    "tag": "Physical DMG",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Conquest of Icy Peaks",
+    "tag": "Infliction",
+    "terms": [
+     "Cryo Infliction",
+     "Solidification",
+     "Debuff Consumption"
+    ],
+    "text_template": "To enemies with Cryo Infliction or Solidification, the wielder gains DMG Dealt +{0}%. After consuming Solidification, ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "OBJ Razorhorn",
+   "revid": 61861
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "OBJ Velocitous": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_pistol_0012",
+  "key": "OBJ Velocitous",
+  "manufacturer": null,
+  "name": "OBJ Velocitous",
+  "page": "OBJ Velocitous",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Rapid Strike improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Detonate: Rapid Strike",
+   "stat1": "Agility [M]",
+   "stat2": "ULT Efficiency [M]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [M]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [M]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      4.76,
+      8.57,
+      12.38,
+      16.19,
+      20.0,
+      23.81,
+      27.62,
+      31.43,
+      37.14
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Rapid Strike",
+    "tag": "Detonate",
+    "terms": [
+     "Debuff Consumption",
+     "Arts Infliction"
+    ],
+    "text_template": "ATK +{0}%. After the wielder consumes an Arts Infliction, the wielder gains Nature DMG Dealt +[{1}%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "OBJ Velocitous",
+   "revid": 61876
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Oblivion": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 145.0,
+   "elite2_lv40": 245.0,
+   "elite3_lv60": 345.0,
+   "elite4_lv80": 445.0,
+   "elite4_lv90": 495.0
+  },
+  "id": "wpn_funnel_0009",
+  "key": "Oblivion",
+  "manufacturer": null,
+  "name": "Oblivion",
+  "page": "Oblivion",
+  "potential": {
+   "terms": [],
+   "text": "Skill Twilight: Humiliation improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Twilight: Humiliation",
+   "stat1": "Intellect [L]",
+   "stat2": "Arts DMG [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts DMG [L]",
+    "tag": "Arts DMG",
+    "terms": [],
+    "text_template": "Arts DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Twilight: Humiliation",
+    "tag": "Twilight",
+    "terms": [],
+    "text_template": "Critical Rate +{0}%. When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +{1}% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      24.0,
+      28.8,
+      33.6,
+      38.4,
+      43.2,
+      48.0,
+      52.8,
+      57.6,
+      67.2
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Oblivion",
+   "revid": 61838
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Opero 77": {
+  "base_attack": {
+   "base": 29.0,
+   "elite1_lv20": 83.0,
+   "elite2_lv40": 140.0,
+   "elite3_lv60": 197.0,
+   "elite4_lv80": 254.0,
+   "elite4_lv90": 283.0
+  },
+  "id": "wpn_lance_0009",
+  "key": "Opero 77",
+  "manufacturer": null,
+  "name": "Opero 77",
+  "page": "Opero 77",
+  "potential": {
+   "terms": [],
+   "text": "Skill Assault: Armament Prep improved."
+  },
+  "rarity": 3,
+  "skill": {
+   "name": null,
+   "stat1": "Main Attribute [S]",
+   "stat2": "Assault: Armament Prep",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [S]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      51.0,
+      59.0,
+      67.0,
+      79.0
+     ]
+    ]
+   },
+   {
+    "key": "Assault: Armament Prep",
+    "tag": "Assault",
+    "terms": [],
+    "text_template": "ATK +{0}.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Opero 77",
+   "revid": 65350
+  },
+  "source_of_acquisition": "First Time Operator Acquisition",
+  "type": "Polearm"
+ },
+ "Opus: Etch Figure": {
+  "base_attack": {
+   "base": 49.0,
+   "elite1_lv20": 142.0,
+   "elite2_lv40": 240.0,
+   "elite3_lv60": 338.0,
+   "elite4_lv80": 436.0,
+   "elite4_lv90": 485.0
+  },
+  "id": "wpn_funnel_0006",
+  "key": "Opus: Etch Figure",
+  "manufacturer": null,
+  "name": "Opus: Etch Figure",
+  "page": "Opus: Etch Figure",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Tillite Etchings improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Suppression: Tillite Etchings",
+   "stat1": "Will [L]",
+   "stat2": "Nature DMG [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Nature DMG [L]",
+    "tag": "Nature DMG",
+    "terms": [],
+    "text_template": "Nature DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Tillite Etchings",
+    "tag": "Suppression",
+    "terms": [
+     "Nature Infliction"
+    ],
+    "text_template": "ATK +{0}%. When the wielder's battle skill applies Nature Infliction, other operators in the team gain Arts DMG Dealt +{1}% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +{2}%, up to a max of +{3}%. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      2.0,
+      2.4,
+      2.8,
+      3.2,
+      3.6,
+      4.0,
+      4.4,
+      4.8,
+      5.6
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Opus: Etch Figure",
+   "revid": 61833
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Arts Unit"
+ },
+ "Opus: The Living": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_pistol_0006",
+  "key": "Opus: The Living",
+  "manufacturer": null,
+  "name": "Opus: The Living",
+  "page": "Opus: The Living",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Road Home for All Life improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Infliction: Road Home for All Life",
+   "stat1": "Agility [M]",
+   "stat2": "Arts DMG [M]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [M]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts DMG [M]",
+    "tag": "Arts DMG",
+    "terms": [],
+    "text_template": "Arts DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Road Home for All Life",
+    "tag": "Infliction",
+    "terms": [
+     "Arts Reaction"
+    ],
+    "text_template": "Critical Rate +{0}%. When the wielder applies an Arts Reaction, the wielder gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      3.0,
+      3.6,
+      4.2,
+      4.8,
+      5.4,
+      6.0,
+      6.6,
+      7.2,
+      8.4
+     ],
+     [
+      7.5,
+      9.0,
+      10.5,
+      12.0,
+      13.5,
+      15.0,
+      16.5,
+      18.0,
+      21.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Opus: The Living",
+   "revid": 61870
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Pathfinder's Beacon": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_lance_0003",
+  "key": "Pathfinder's Beacon",
+  "manufacturer": null,
+  "name": "Pathfinder's Beacon",
+  "page": "Pathfinder's Beacon",
+  "potential": {
+   "terms": [],
+   "text": "Skill Inspiring: Start of a Saga improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Inspiring: Start of a Saga",
+   "stat1": "Agility [S]",
+   "stat2": "ATK [S]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [S]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [S]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      3.0,
+      5.4,
+      7.8,
+      10.2,
+      12.6,
+      15.0,
+      17.4,
+      19.8,
+      23.4
+     ]
+    ]
+   },
+   {
+    "key": "Inspiring: Start of a Saga",
+    "tag": "Inspiring",
+    "terms": [],
+    "text_template": "When the wielder's HP is above 80.00%, ATK +{0}%.",
+    "values_by_rank": [
+     [
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0,
+      33.0,
+      36.0,
+      42.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Pathfinder's Beacon",
+   "revid": 61852
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Peco 5": {
+  "base_attack": {
+   "base": 29.0,
+   "elite1_lv20": 83.0,
+   "elite2_lv40": 140.0,
+   "elite3_lv60": 197.0,
+   "elite4_lv80": 254.0,
+   "elite4_lv90": 283.0
+  },
+  "id": "wpn_pistol_0001",
+  "key": "Peco 5",
+  "manufacturer": null,
+  "name": "Peco 5",
+  "page": "Peco 5",
+  "potential": {
+   "terms": [],
+   "text": "Skill Assault: Armament Prep improved."
+  },
+  "rarity": 3,
+  "skill": {
+   "name": null,
+   "stat1": "Main Attribute [S]",
+   "stat2": "Assault: Armament Prep",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [S]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      51.0,
+      59.0,
+      67.0,
+      79.0
+     ]
+    ]
+   },
+   {
+    "key": "Assault: Armament Prep",
+    "tag": "Assault",
+    "terms": [],
+    "text_template": "ATK +{0}.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Peco 5",
+   "revid": 65349
+  },
+  "source_of_acquisition": "First Time Operator Acquisition",
+  "type": "Handcannon"
+ },
+ "Phantom Pain": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_claym_0016",
+  "key": "Phantom Pain",
+  "manufacturer": null,
+  "name": "Phantom Pain",
+  "page": "Phantom Pain",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Layered Suffering improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Suppression: Layered Suffering",
+   "stat1": "Strength [L]",
+   "stat2": "Arts Intensity [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [L]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts Intensity [L]",
+    "tag": "Arts Intensity",
+    "terms": [],
+    "text_template": "Arts Intensity +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      50.0,
+      58.0,
+      66.0,
+      78.0
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Layered Suffering",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%. When the wielder casts battle skills or combo skills, the wielder gains Physical DMG Dealt +{1}% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      5.5,
+      6.6,
+      7.7,
+      8.8,
+      9.9,
+      11.0,
+      12.1,
+      13.2,
+      15.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Phantom Pain",
+   "revid": 61824
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Great Sword"
+ },
+ "Prominent Edge": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_sword_0008",
+  "key": "Prominent Edge",
+  "manufacturer": null,
+  "name": "Prominent Edge",
+  "page": "Prominent Edge",
+  "potential": {
+   "terms": [],
+   "text": "Skill Suppression: Emergency Boost improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Suppression: Emergency Boost",
+   "stat1": "Agility [S]",
+   "stat2": "Physical DMG [S]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [S]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "Physical DMG [S]",
+    "tag": "Physical DMG",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      3.33,
+      6.0,
+      8.67,
+      11.33,
+      14.0,
+      16.67,
+      19.33,
+      22.0,
+      26.0
+     ]
+    ]
+   },
+   {
+    "key": "Suppression: Emergency Boost",
+    "tag": "Suppression",
+    "terms": [],
+    "text_template": "When the wielder's battle skill hits the enemy, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Prominent Edge",
+   "revid": 61881
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Quencher": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_claym_0009",
+  "key": "Quencher",
+  "manufacturer": null,
+  "name": "Quencher",
+  "page": "Quencher",
+  "potential": {
+   "terms": [],
+   "text": "Skill Crusher: Honed into Legion improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Crusher: Honed into Legion",
+   "stat1": "Will [S]",
+   "stat2": "HP [S]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Will [S]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "HP [S]",
+    "tag": "HP",
+    "terms": [],
+    "text_template": "Max HP +{0}%",
+    "values_by_rank": [
+     [
+      6.0,
+      10.8,
+      15.6,
+      20.4,
+      25.2,
+      30.0,
+      34.8,
+      39.6,
+      46.8
+     ]
+    ]
+   },
+   {
+    "key": "Crusher: Honed into Legion",
+    "tag": "Crusher",
+    "terms": [
+     "Final Strike"
+    ],
+    "text_template": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +{0}% for 10.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Quencher",
+   "revid": 61813
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Rapid Ascent": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 145.0,
+   "elite2_lv40": 245.0,
+   "elite3_lv60": 345.0,
+   "elite4_lv80": 445.0,
+   "elite4_lv90": 495.0
+  },
+  "id": "wpn_sword_0011",
+  "key": "Rapid Ascent",
+  "manufacturer": null,
+  "name": "Rapid Ascent",
+  "page": "Rapid Ascent",
+  "potential": {
+   "terms": [],
+   "text": "Skill Twilight: Azure Clouds improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Twilight: Azure Clouds",
+   "stat1": "Main Attribute [L]",
+   "stat2": "Critical Rate [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "Critical Rate [L]",
+    "tag": "Critical Rate",
+    "terms": [],
+    "text_template": "Critical Rate +{0}%",
+    "values_by_rank": [
+     [
+      2.5,
+      4.5,
+      6.5,
+      8.5,
+      10.5,
+      12.5,
+      14.5,
+      16.5,
+      19.5
+     ]
+    ]
+   },
+   {
+    "key": "Twilight: Azure Clouds",
+    "tag": "Twilight",
+    "terms": [],
+    "text_template": "Battle skills and ultimates gain Physical DMG Dealt +{0}%. Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +{1}%.",
+    "values_by_rank": [
+     [
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0,
+      33.0,
+      36.0,
+      42.0
+     ],
+     [
+      35.0,
+      42.0,
+      49.0,
+      56.0,
+      63.0,
+      70.0,
+      77.0,
+      84.0,
+      98.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Rapid Ascent",
+   "revid": 61884
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Rational Farewell": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_pistol_0004",
+  "key": "Rational Farewell",
+  "manufacturer": null,
+  "name": "Rational Farewell",
+  "page": "Rational Farewell",
+  "potential": {
+   "terms": [],
+   "text": "Skill Pursuit: Aid from the Past improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Pursuit: Aid from the Past",
+   "stat1": "Strength [M]",
+   "stat2": "Heat DMG [M]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Heat DMG [M]",
+    "tag": "Heat DMG",
+    "terms": [],
+    "text_template": "Heat DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Pursuit: Aid from the Past",
+    "tag": "Pursuit",
+    "terms": [
+     "Arts Burst",
+     "Combustion"
+    ],
+    "text_template": "Battle Skill DMG +{0}%. When the wielder's combo skill applies Arts Burst or Combusted, the wielder gains ATK +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Rational Farewell",
+   "revid": 61868
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "Seeker of Dark Lung": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_claym_0011",
+  "key": "Seeker of Dark Lung",
+  "manufacturer": null,
+  "name": "Seeker of Dark Lung",
+  "page": "Seeker of Dark Lung",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Seeker of the Esoteric improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Detonate: Seeker of the Esoteric",
+   "stat1": "Strength [M]",
+   "stat2": "ULT Efficiency [M]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [M]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [M]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      4.76,
+      8.57,
+      12.38,
+      16.19,
+      20.0,
+      23.81,
+      27.62,
+      31.43,
+      37.14
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Seeker of the Esoteric",
+    "tag": "Detonate",
+    "terms": [
+     "Arts Burst"
+    ],
+    "text_template": "Main Attribute +{0}%. When the wielder applies an Arts Burst, the wielder gains ATK +{1}% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Seeker of Dark Lung",
+   "revid": 61817
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Stanza of Memorials": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_funnel_0005",
+  "key": "Stanza of Memorials",
+  "manufacturer": null,
+  "name": "Stanza of Memorials",
+  "page": "Stanza of Memorials",
+  "potential": {
+   "terms": [],
+   "text": "Skill Twilight: Lustrous Pyre improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Twilight: Lustrous Pyre",
+   "stat1": "Intellect [M]",
+   "stat2": "ATK [M]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [M]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [M]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      4.0,
+      7.2,
+      10.4,
+      13.6,
+      16.8,
+      20.0,
+      23.2,
+      26.4,
+      31.2
+     ]
+    ]
+   },
+   {
+    "key": "Twilight: Lustrous Pyre",
+    "tag": "Twilight",
+    "terms": [],
+    "text_template": "Max HP +{0}%. When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +{1}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Stanza of Memorials",
+   "revid": 61832
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Suffering's End": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_funnel_0020",
+  "key": "Suffering's End",
+  "manufacturer": null,
+  "name": "Suffering's End",
+  "page": "Suffering's End",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Dawn of the Long Night improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Detonate: Dawn of the Long Night",
+   "stat1": "Agility [L]",
+   "stat2": "Nature DMG [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Nature DMG [L]",
+    "tag": "Nature DMG",
+    "terms": [],
+    "text_template": "Nature DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Dawn of the Long Night",
+    "tag": "Detonate",
+    "terms": [
+     "Arts Burst"
+    ],
+    "text_template": "Arts Intensity +{0}. When the wielder applies an Arts Burst, the wielder gains Nature DMG Dealt +{1}% for 25.00s. Max stacks for this effect: 4.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s. At 4.00 stacks, the aforementioned effect grants an additional Nature DMG Dealt +{2}%. This effect cannot stack.",
+    "values_by_rank": [
+     [
+      15.0,
+      18.0,
+      21.0,
+      24.0,
+      27.0,
+      30.0,
+      33.0,
+      36.0,
+      42.0
+     ],
+     [
+      2.0,
+      2.4,
+      2.8,
+      3.2,
+      3.6,
+      4.0,
+      4.4,
+      4.8,
+      5.6
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Suffering's End",
+   "revid": 61851
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Arts Unit"
+ },
+ "Sundered Prince": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_claym_0008",
+  "key": "Sundered Prince",
+  "manufacturer": null,
+  "name": "Sundered Prince",
+  "page": "Sundered Prince",
+  "potential": {
+   "terms": [],
+   "text": "Skill Crusher: Princely Deterrence improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Crusher: Princely Deterrence",
+   "stat1": "Strength [L]",
+   "stat2": "Critical Rate [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [L]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Critical Rate [L]",
+    "tag": "Critical Rate",
+    "terms": [],
+    "text_template": "Critical Rate +{0}%",
+    "values_by_rank": [
+     [
+      2.5,
+      4.5,
+      6.5,
+      8.5,
+      10.5,
+      12.5,
+      14.5,
+      16.5,
+      19.5
+     ]
+    ]
+   },
+   {
+    "key": "Crusher: Princely Deterrence",
+    "tag": "Crusher",
+    "terms": [
+     "Final Strike"
+    ],
+    "text_template": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +{0}% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +{1}% to the enemy. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Sundered Prince",
+   "revid": 61812
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Sundering Steel": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_sword_0005",
+  "key": "Sundering Steel",
+  "manufacturer": null,
+  "name": "Sundering Steel",
+  "page": "Sundering Steel",
+  "potential": {
+   "terms": [],
+   "text": "Skill Combative: Anthem of Cinder improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Combative: Anthem of Cinder",
+   "stat1": "Agility [M]",
+   "stat2": "Physical DMG [M]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [M]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Physical DMG [M]",
+    "tag": "Physical DMG",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Combative: Anthem of Cinder",
+    "tag": "Combative",
+    "terms": [
+     "Physical Status"
+    ],
+    "text_template": "ATK +{0}%. When the wielder deals a Physical Status, the wielder gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      7.5,
+      9.0,
+      10.5,
+      12.0,
+      13.5,
+      15.0,
+      16.5,
+      18.0,
+      21.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Sundering Steel",
+   "revid": 61878
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Tarr 11": {
+  "base_attack": {
+   "base": 29.0,
+   "elite1_lv20": 83.0,
+   "elite2_lv40": 140.0,
+   "elite3_lv60": 197.0,
+   "elite4_lv80": 254.0,
+   "elite4_lv90": 283.0
+  },
+  "id": "wpn_sword_0003",
+  "key": "Tarr 11",
+  "manufacturer": null,
+  "name": "Tarr 11",
+  "page": "Tarr 11",
+  "potential": {
+   "terms": [],
+   "text": "Skill Assault: Armament Prep improved."
+  },
+  "rarity": 3,
+  "skill": {
+   "name": null,
+   "stat1": "Main Attribute [S]",
+   "stat2": "Assault: Armament Prep",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [S]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      51.0,
+      59.0,
+      67.0,
+      79.0
+     ]
+    ]
+   },
+   {
+    "key": "Assault: Armament Prep",
+    "tag": "Assault",
+    "terms": [],
+    "text_template": "ATK +{0}.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Tarr 11",
+   "revid": 65352
+  },
+  "source_of_acquisition": "First Time Operator Acquisition",
+  "type": "Sword"
+ },
+ "Thermite Cutter": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_sword_0012",
+  "key": "Thermite Cutter",
+  "manufacturer": null,
+  "name": "Thermite Cutter",
+  "page": "Thermite Cutter",
+  "potential": {
+   "terms": [],
+   "text": "Skill Flow: Thermal Release improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Flow: Thermal Release",
+   "stat1": "Will [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Will [L]",
+    "tag": "Will",
+    "terms": [],
+    "text_template": "Will +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Flow: Thermal Release",
+    "tag": "Flow",
+    "terms": [
+     "Link"
+    ],
+    "text_template": "ATK +{0}%. After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Thermite Cutter",
+   "revid": 61885
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Thunderberge": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 145.0,
+   "elite2_lv40": 245.0,
+   "elite3_lv60": 345.0,
+   "elite4_lv80": 445.0,
+   "elite4_lv90": 495.0
+  },
+  "id": "wpn_claym_0007",
+  "key": "Thunderberge",
+  "manufacturer": null,
+  "name": "Thunderberge",
+  "page": "Thunderberge",
+  "potential": {
+   "terms": [],
+   "text": "Skill Medicant: Eye of Talos improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Medicant: Eye of Talos",
+   "stat1": "Strength [L]",
+   "stat2": "HP [L]",
+   "weapon_type": "Great Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Strength [L]",
+    "tag": "Strength",
+    "terms": [],
+    "text_template": "Strength +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "HP [L]",
+    "tag": "HP",
+    "terms": [],
+    "text_template": "Max HP +{0}%",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      50.0,
+      58.0,
+      66.0,
+      78.0
+     ]
+    ]
+   },
+   {
+    "key": "Medicant: Eye of Talos",
+    "tag": "Medicant",
+    "terms": [
+     "Shield"
+    ],
+    "text_template": "Shield applied +{0}%. After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [{1}% × Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+    "values_by_rank": [
+     [
+      24.0,
+      28.8,
+      33.6,
+      38.4,
+      43.2,
+      48.0,
+      52.8,
+      57.6,
+      67.2
+     ],
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Thunderberge",
+   "revid": 61811
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Great Sword"
+ },
+ "Twelve Questions": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_sword_0018",
+  "key": "Twelve Questions",
+  "manufacturer": null,
+  "name": "Twelve Questions",
+  "page": "Twelve Questions",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Sincere Interrogation improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Infliction: Sincere Interrogation",
+   "stat1": "Agility [M]",
+   "stat2": "ATK [M]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [M]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [M]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      4.0,
+      7.2,
+      10.4,
+      13.6,
+      16.8,
+      20.0,
+      23.2,
+      26.4,
+      31.2
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Sincere Interrogation",
+    "tag": "Infliction",
+    "terms": [
+     "Debuff Consumption",
+     "Arts Reaction"
+    ],
+    "text_template": "Secondary Attribute +{0}%. After the wielder consumes an Arts Reaction, ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+    "values_by_rank": [
+     [
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      14.0
+     ],
+     [
+      7.5,
+      9.0,
+      10.5,
+      12.0,
+      13.5,
+      15.0,
+      16.5,
+      18.0,
+      21.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Twelve Questions",
+   "revid": 61891
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Type 42: Solemn Phalanx": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_funnel_0016",
+  "key": "Type 42: Solemn Phalanx",
+  "manufacturer": null,
+  "name": "Type 42: Solemn Phalanx",
+  "page": "Type 42: Solemn Phalanx",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Debilitating Assault improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Detonate: Debilitating Assault",
+   "stat1": "Intellect [L]",
+   "stat2": "ULT Efficiency [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ULT Efficiency [L]",
+    "tag": "ULT Efficiency",
+    "terms": [],
+    "text_template": "Ultimate Gain Efficiency +{0}%",
+    "values_by_rank": [
+     [
+      5.95,
+      10.71,
+      15.48,
+      20.24,
+      25.0,
+      29.76,
+      34.52,
+      39.29,
+      46.43
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Debilitating Assault",
+    "tag": "Detonate",
+    "terms": [
+     "Arts Infliction",
+     "Arts Susceptibility",
+     "Arts Burst"
+    ],
+    "text_template": "ATK +{0}%. Wielder's Intellect ≥ Will: When the wielder applies Arts Infliction with their own skill, the wielder gains Arts DMG Dealt +{1}% for 20.00s; when the wielder applies Arts Susceptibility with their own skill, the wielder gains ATK +{2}% for 20.00s; Wielder's Will ＞ Intellect: When the wielder applies Arts Burst with their own skill, the target enemy suffers Arts DMG Taken +{3}% for 25.00s; when the wielder applies Arts Susceptibility with their own skill, the target enemy suffers Arts DMG Taken +{4}% for 25.00s. Effects of the same name cannot stack. The aforementioned attributes only include effects from the wielder's level, talents, potentials, and attribute bonuses provided by equipped gear and weapons.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ],
+     [
+      20.0,
+      24.0,
+      28.0,
+      32.0,
+      36.0,
+      40.0,
+      44.0,
+      48.0,
+      56.0
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ],
+     [
+      6.0,
+      7.2,
+      8.4,
+      9.6,
+      10.8,
+      12.0,
+      13.2,
+      14.4,
+      16.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Type 42: Solemn Phalanx",
+   "revid": 61846
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Umbra of Frigid Eventide": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_funnel_0019",
+  "key": "Umbra of Frigid Eventide",
+  "manufacturer": null,
+  "name": "Umbra of Frigid Eventide",
+  "page": "Umbra of Frigid Eventide",
+  "potential": {
+   "terms": [],
+   "text": "Skill Detonate: Hunter Instinct improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Detonate: Hunter Instinct",
+   "stat1": "Agility [L]",
+   "stat2": "ATK [L]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [L]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      5.0,
+      9.0,
+      13.0,
+      17.0,
+      21.0,
+      25.0,
+      29.0,
+      33.0,
+      39.0
+     ]
+    ]
+   },
+   {
+    "key": "Detonate: Hunter Instinct",
+    "tag": "Detonate",
+    "terms": [
+     "Arts Burst",
+     "Debuff Consumption"
+    ],
+    "text_template": "Arts DMG Dealt +{0}%. After the wielder casts a battle skill, the wielder gains Arts Intensity +{1} and 4.00 stacks of Windform for 15.00s. This entire effect cannot stack. Max Windform stacks: 4.00. When the wielder applies an Arts Burst, consume 1 stack of Windform to grant the wielder Arts DMG Dealt +{2}% for 30.00s. This effect can reach 4.00 stacks. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ],
+     [
+      35.0,
+      42.0,
+      49.0,
+      56.0,
+      63.0,
+      70.0,
+      77.0,
+      84.0,
+      98.0
+     ],
+     [
+      4.0,
+      4.8,
+      5.6,
+      6.4,
+      7.2,
+      8.0,
+      8.8,
+      9.6,
+      11.2
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Umbra of Frigid Eventide",
+   "revid": 61850
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ },
+ "Umbral Torch": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 144.0,
+   "elite2_lv40": 243.0,
+   "elite3_lv60": 342.0,
+   "elite4_lv80": 441.0,
+   "elite4_lv90": 490.0
+  },
+  "id": "wpn_sword_0010",
+  "key": "Umbral Torch",
+  "manufacturer": null,
+  "name": "Umbral Torch",
+  "page": "Umbral Torch",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Covetous Buildup improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: Covetous Buildup",
+   "stat1": "Intellect [L]",
+   "stat2": "Heat DMG [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [L]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Heat DMG [L]",
+    "tag": "Heat DMG",
+    "terms": [],
+    "text_template": "Heat DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Covetous Buildup",
+    "tag": "Infliction",
+    "terms": [
+     "Combustion",
+     "Corrosion"
+    ],
+    "text_template": "ATK +{0}%. Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+    "values_by_rank": [
+     [
+      7.0,
+      8.4,
+      9.8,
+      11.2,
+      12.6,
+      14.0,
+      15.4,
+      16.8,
+      19.6
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Umbral Torch",
+   "revid": 61883
+  },
+  "source_of_acquisition": "Reward: Protocol Pass",
+  "type": "Sword"
+ },
+ "Valiant": {
+  "base_attack": {
+   "base": 50.0,
+   "elite1_lv20": 145.0,
+   "elite2_lv40": 245.0,
+   "elite3_lv60": 345.0,
+   "elite4_lv80": 445.0,
+   "elite4_lv90": 495.0
+  },
+  "id": "wpn_lance_0010",
+  "key": "Valiant",
+  "manufacturer": null,
+  "name": "Valiant",
+  "page": "Valiant",
+  "potential": {
+   "terms": [],
+   "text": "Skill Combative: Virtuous Gain improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Combative: Virtuous Gain",
+   "stat1": "Agility [L]",
+   "stat2": "Physical DMG [L]",
+   "weapon_type": "Polearm"
+  },
+  "skill_components": [
+   {
+    "key": "Agility [L]",
+    "tag": "Agility",
+    "terms": [],
+    "text_template": "Agility +{0}",
+    "values_by_rank": [
+     [
+      20.0,
+      36.0,
+      52.0,
+      68.0,
+      84.0,
+      100.0,
+      116.0,
+      132.0,
+      156.0
+     ]
+    ]
+   },
+   {
+    "key": "Physical DMG [L]",
+    "tag": "Physical DMG",
+    "terms": [],
+    "text_template": "Physical DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      5.56,
+      10.0,
+      14.44,
+      18.89,
+      23.33,
+      27.78,
+      32.22,
+      36.67,
+      43.33
+     ]
+    ]
+   },
+   {
+    "key": "Combative: Virtuous Gain",
+    "tag": "Combative",
+    "terms": [
+     "Physical Status"
+    ],
+    "text_template": "ATK +{0}%. After the wielder applies Physical Statuses, the wielder also deals another hit of Physical DMG equal to {1}% of the wielder's ATK.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      120.0,
+      144.0,
+      168.0,
+      192.0,
+      216.0,
+      240.0,
+      264.0,
+      288.0,
+      336.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Valiant",
+   "revid": 61858
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Polearm"
+ },
+ "Wave Tide": {
+  "base_attack": {
+   "base": 34.0,
+   "elite1_lv20": 100.0,
+   "elite2_lv40": 169.0,
+   "elite3_lv60": 238.0,
+   "elite4_lv80": 307.0,
+   "elite4_lv90": 341.0
+  },
+  "id": "wpn_sword_0009",
+  "key": "Wave Tide",
+  "manufacturer": null,
+  "name": "Wave Tide",
+  "page": "Wave Tide",
+  "potential": {
+   "terms": [],
+   "text": "Skill Pursuit: Unending Cycle improved."
+  },
+  "rarity": 4,
+  "skill": {
+   "name": "Pursuit: Unending Cycle",
+   "stat1": "Intellect [S]",
+   "stat2": "ATK [S]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [S]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      12.0,
+      21.0,
+      31.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      79.0,
+      93.0
+     ]
+    ]
+   },
+   {
+    "key": "ATK [S]",
+    "tag": "ATK",
+    "terms": [],
+    "text_template": "ATK +{0}%",
+    "values_by_rank": [
+     [
+      3.0,
+      5.4,
+      7.8,
+      10.2,
+      12.6,
+      15.0,
+      17.4,
+      19.8,
+      23.4
+     ]
+    ]
+   },
+   {
+    "key": "Pursuit: Unending Cycle",
+    "tag": "Pursuit",
+    "terms": [],
+    "text_template": "When the wielder casts a combo skill, the wielder gains ATK +{0}% for 20.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Wave Tide",
+   "revid": 61882
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Wedge": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 146.0,
+   "elite2_lv40": 247.0,
+   "elite3_lv60": 348.0,
+   "elite4_lv80": 449.0,
+   "elite4_lv90": 500.0
+  },
+  "id": "wpn_pistol_0008",
+  "key": "Wedge",
+  "manufacturer": null,
+  "name": "Wedge",
+  "page": "Wedge",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Wedge of Civilization improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: Wedge of Civilization",
+   "stat1": "Main Attribute [L]",
+   "stat2": "Critical Rate [L]",
+   "weapon_type": "Handcannon"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "Critical Rate [L]",
+    "tag": "Critical Rate",
+    "terms": [],
+    "text_template": "Critical Rate +{0}%",
+    "values_by_rank": [
+     [
+      2.5,
+      4.5,
+      6.5,
+      8.5,
+      10.5,
+      12.5,
+      14.5,
+      16.5,
+      19.5
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Wedge of Civilization",
+    "tag": "Infliction",
+    "terms": [
+     "Arts Reaction"
+    ],
+    "text_template": "Arts DMG Dealt +{0}%. When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +{1}% for 15.00s. When the wielder's battle skill applies an Arts Reaction, the wielder gains Arts DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ],
+     [
+      16.0,
+      19.2,
+      22.4,
+      25.6,
+      28.8,
+      32.0,
+      35.2,
+      38.4,
+      44.8
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Wedge",
+   "revid": 61872
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Handcannon"
+ },
+ "White Night Nova": {
+  "base_attack": {
+   "base": 51.0,
+   "elite1_lv20": 148.0,
+   "elite2_lv40": 250.0,
+   "elite3_lv60": 352.0,
+   "elite4_lv80": 454.0,
+   "elite4_lv90": 505.0
+  },
+  "id": "wpn_sword_0014",
+  "key": "White Night Nova",
+  "manufacturer": null,
+  "name": "White Night Nova",
+  "page": "White Night Nova",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: White Night Nova improved."
+  },
+  "rarity": 6,
+  "skill": {
+   "name": "Infliction: White Night Nova",
+   "stat1": "Main Attribute [L]",
+   "stat2": "Arts Intensity [L]",
+   "weapon_type": "Sword"
+  },
+  "skill_components": [
+   {
+    "key": "Main Attribute [L]",
+    "tag": "Main Attribute",
+    "terms": [],
+    "text_template": "Main attribute +{0}",
+    "values_by_rank": [
+     [
+      17.0,
+      30.0,
+      44.0,
+      57.0,
+      71.0,
+      85.0,
+      98.0,
+      112.0,
+      132.0
+     ]
+    ]
+   },
+   {
+    "key": "Arts Intensity [L]",
+    "tag": "Arts Intensity",
+    "terms": [],
+    "text_template": "Arts Intensity +{0}",
+    "values_by_rank": [
+     [
+      10.0,
+      18.0,
+      26.0,
+      34.0,
+      42.0,
+      50.0,
+      58.0,
+      66.0,
+      78.0
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: White Night Nova",
+    "tag": "Infliction",
+    "terms": [
+     "Combustion",
+     "Electrification"
+    ],
+    "text_template": "Arts DMG Dealt +{0}%. After the wielder applies Combustion or Electrification, the wielder gains Arts DMG Dealt +{1}% and Arts Intensity +{2} for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ],
+     [
+      12.0,
+      14.4,
+      16.8,
+      19.2,
+      21.6,
+      24.0,
+      26.4,
+      28.8,
+      33.6
+     ],
+     [
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0,
+      70.0
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "White Night Nova",
+   "revid": 61887
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Sword"
+ },
+ "Wild Wanderer": {
+  "base_attack": {
+   "base": 42.0,
+   "elite1_lv20": 120.0,
+   "elite2_lv40": 203.0,
+   "elite3_lv60": 286.0,
+   "elite4_lv80": 369.0,
+   "elite4_lv90": 411.0
+  },
+  "id": "wpn_funnel_0004",
+  "key": "Wild Wanderer",
+  "manufacturer": null,
+  "name": "Wild Wanderer",
+  "page": "Wild Wanderer",
+  "potential": {
+   "terms": [],
+   "text": "Skill Infliction: Wilderness Cluster improved."
+  },
+  "rarity": 5,
+  "skill": {
+   "name": "Infliction: Wilderness Cluster",
+   "stat1": "Intellect [M]",
+   "stat2": "Electric DMG [M]",
+   "weapon_type": "Arts Unit"
+  },
+  "skill_components": [
+   {
+    "key": "Intellect [M]",
+    "tag": "Intellect",
+    "terms": [],
+    "text_template": "Intellect +{0}",
+    "values_by_rank": [
+     [
+      16.0,
+      28.0,
+      41.0,
+      54.0,
+      67.0,
+      80.0,
+      92.0,
+      105.0,
+      124.0
+     ]
+    ]
+   },
+   {
+    "key": "Electric DMG [M]",
+    "tag": "Electric DMG",
+    "terms": [],
+    "text_template": "Electric DMG Dealt +{0}%",
+    "values_by_rank": [
+     [
+      4.44,
+      8.0,
+      11.56,
+      15.11,
+      18.67,
+      22.22,
+      25.78,
+      29.33,
+      34.67
+     ]
+    ]
+   },
+   {
+    "key": "Infliction: Wilderness Cluster",
+    "tag": "Infliction",
+    "terms": [
+     "Electrification"
+    ],
+    "text_template": "Arts Intensity +{0}. When the wielder applies Electrification, the team gains Physical DMG Dealt and Electric DMG Dealt +{1}% for 15.00s. Effects of the same name cannot stack.",
+    "values_by_rank": [
+     [
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      28.0
+     ],
+     [
+      8.0,
+      9.6,
+      11.2,
+      12.8,
+      14.4,
+      16.0,
+      17.6,
+      19.2,
+      22.4
+     ]
+    ]
+   }
+  ],
+  "skill_name": null,
+  "source": {
+   "page": "Wild Wanderer",
+   "revid": 61831
+  },
+  "source_of_acquisition": "Acquisition Center: Arsenal Exchange",
+  "type": "Arts Unit"
+ }
+}

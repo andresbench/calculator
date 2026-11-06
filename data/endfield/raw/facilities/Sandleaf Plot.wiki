@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Sandleaf Plot
+|filename = item_port_soil_moss_3
+|cnname = 砂叶田块
+|tcname = 砂葉田塊
+|jpname = サンドリーフ畑
+|krname = 샌드리프 논배미
+|spname = Terreno de hojarena
+|runame = Участок песчанолиста
+|type = Planting
+|rarity = 2
+|power = }}
+'''Sandleaf Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Sandleaves.|A cultivation plot with various parameters adjusted for growing Sandleaves. Overall soil quality of the plot is far better than that of the average arable land in Valley IV.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Sandleaf Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

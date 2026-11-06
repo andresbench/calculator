@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Type 50 Yinglung Gloves T1
+|image = Type_50_Yinglung_Gloves_T1.png
+|filename = item_equip_t4_suit_atk02_hand_02
+|cnname = 50式应龙护手·壹型
+|tcname = 50式應龍護手·I
+|jpname = 50式応龍プロテクターⅠ
+|krname = 응룡 50식 보호 장갑 · I
+|spname = Guantes Yinglung tipo 50 T1
+|runame = Перчатки «Инлун-50» К1
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Type 50 Yinglung Gloves T1''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|A civilian version of Yinglung Special Task Force equipment. The lack of a crucial power component actually improved its compatibility with general users. 
+"I don't envy the power bestowed as I'm far from deserving of it. In fact, I should be the bones that offer them support."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +65, +71, +78, +84
+|sstat = Agility
+|svalue = +43, +47, +51, +55
+|tstat = Combo Skill DMG Bonus
+|tvalue = +34.5%, +38.0%, +41.4%, +44.9%
+|setname = Type 50 Yinglung
+|seteffect = 3-piece set effect: Wearer's ATK {{Color|+15%|1d}}. 
+When any operator in the team casts a battle skill, the wearer gains 1 stack of {{Color|Yinglung's Edge|7}} that gives DMG {{Color|+20%|1d}} to the wearer's next combo skill. {{Color|Yinglung's Edge|7}} can stack 3 time(s).
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Type 50 Yinglung}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Auxiliary Arm
+|image = Eternal_Xiranite_Auxiliary_Arm.png
+|filename = item_equip_t4_suit_usp02_edc_03
+|cnname = 长息辅助臂
+|tcname = 長息輔助臂
+|jpname = 流転ロボットアーム
+|krname = 식양의 숨결 보조 어깨
+|spname = Brazo auxiliar de Xiranita eterna
+|runame = Манипулятор «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Auxiliary Arm''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+...It was said that the mad Tianshi saw a "self-feeding cycle" in a hotpot served by an Ursus chef. This inspiration allowed him to more than double the power duration of Eternal Xiranite protective equipment.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +32, +35, +38, +41
+|sstat = Intellect
+|svalue = +21, +23, +25, +27
+|tstat = Ultimate Gain Efficiency
+|tvalue = +24.6%, +27.1%, +29.6%, +32.0%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

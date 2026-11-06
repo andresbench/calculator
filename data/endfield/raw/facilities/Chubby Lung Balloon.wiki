@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Chubby Lung Balloon
+|filename = item_port_chubby_lung_balloon_1
+|images = Chubby_Lung_Balloon_icon.png:Icon;
+Chubby_Lung_Balloon.png:Full
+|cnname = 龙泡泡气球
+|tcname = 龍泡泡氣球
+|jpname = 龍泡泡の風船
+|krname = 드래곤 버블 풍선
+|spname = Globo de Lung regordete
+|runame = Надувной пухлик-лун
+|type = Ornamental
+|rarity = 5
+|power = }}
+'''Chubby Lung Balloon''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed.|A favorite purchase of almost every traveling merchant. This is the very place where you can get Chubby Lung Balloons for decorating all sorts of places, from shopping malls to private residences.}}
+==Usage==
+An ornamental that can be placed.
+
+==Acquisition==
+Purchase: Wuling Stock Redistribution
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:ornamental Facilities]]

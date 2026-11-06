@@ -1,0 +1,95 @@
+# Mi Fu. Crush on three stacks, World Splitter as the main hit.
+operator: Mi Fu
+
+talents:
+  - name: Forged
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - condition: Elite 1
+        seen: "Operator Strength +10."
+        apply: [{stat: attr, attribute: STR, value: 10}]
+      - condition: Elite 2
+        seen: "Operator Strength +15."
+        apply: [{stat: attr, attribute: STR, value: 15}]
+      - condition: Elite 3
+        seen: "Operator Strength +15."
+        apply: [{stat: attr, attribute: STR, value: 15}]
+      - condition: Elite 4
+        seen: "Operator Strength +20."
+        apply: [{stat: attr, attribute: STR, value: 20}]
+
+  - name: Stern Crackdown
+    stacking: replaces
+    confidence: confirmed
+    evidence: >-
+      The condition is right in the text. Measurement #15 (does World Splitter
+      take the Link buff) is open next to it — that is about another
+      multiplier of the same hit.
+    levels:
+      - condition: Elite 1
+        seen: "Battle skill move World Splitter improved: When hitting a target with Physical Susceptibility or Staggered, DMG Multiplier is increased to 1.1 times the original."
+        apply:
+          - stat: skill_multiplier
+            skill: World Splitter
+            value: 1.1
+            targetHas: [Physical Susceptibility, Staggered]
+      - condition: Elite 2
+        seen: "Battle skill move World Splitter improved: When hitting a target with Physical Susceptibility or Staggered, DMG Multiplier is increased to 1.2 times the original."
+        apply:
+          - stat: skill_multiplier
+            skill: World Splitter
+            value: 1.2
+            targetHas: [Physical Susceptibility, Staggered]
+
+  - name: Vigilant Fury
+    levels:
+      - condition: Elite 2
+        unmodeled: "a shield for 15 % max HP; the engine does not model shields"
+      - condition: Elite 3
+        unmodeled: "a shield for 30 % max HP; the engine does not model shields"
+
+potentials:
+  - rank: 1
+    confidence: inferred
+    seen: "Combo skill Fists of No Regrets improved: Length of cooldown -2s. Physical Susceptibility effect applied by the skill is further increased by +5% and has +4s duration."
+    apply:
+      - {stat: cooldown_flat, skillType: Combo Skill, value: -2}
+    grants:
+      - {term: Physical Susceptibility, skillType: Combo Skill, add: 5, durationDelta: 4}
+  - rank: 2
+    confidence: confirmed
+    seen: "Strength +20, Arts Intensity +16."
+    apply:
+      - {stat: attr, attribute: STR, value: 20}
+      - {stat: arts_intensity, value: 16}
+  - rank: 3
+    confidence: inferred
+    seen: "Talent Vigilant Fury improved: Shield duration +5s. Shield trigger cooldown -15s. Each time the shield is triggered, Mi Fu gains ATK +6% for 20s."
+    apply:
+      - {stat: atk_pct, value: 6, duration: 20, trigger: "cast:Combo Skill", target: self}
+    note: >-
+      The trigger is recorded as the combo cast, because the combo is what
+      applies the shield. The engine does not count the shield's own cooldown
+      (45 s with this potential), so with frequent combos the buff is
+      overstated.
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Pile of No Mercy improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    confidence: confirmed
+    seen: |-
+      Battle skill improved: DMG Multipliers of the moves Cloudtrapper, Trail and Mangle, and World Splitter are increased to 1.1 times the original. Ultimate Pile of No Mercy improved: Stagger Dealt +5.
+      The Battle Skill DMG Multiplier buff can stack with the talent Stern Crackdown.
+    apply:
+      - {stat: skill_multiplier, skill: Cloudtrapper, value: 1.1}
+      - {stat: skill_multiplier, skill: Trail and Mangle, value: 1.1}
+      - {stat: skill_multiplier, skill: World Splitter, value: 1.1}
+      - {stat: stagger_flat, skillType: Ultimate, value: 5}
+    note: "«can stack with Stern Crackdown» — the multipliers multiply, 1.2 × 1.1"

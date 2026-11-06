@@ -1,0 +1,259 @@
+{{Operator infobox
+|name = Lifeng
+|rarity = 6
+|class = Guard
+|weapon = Polearm
+|element = Physical
+|faction = Hongshan Academy of Sciences (HAS)
+|tags = Knock Down, PHY Susc., Link
+|main = Agility
+|sub = Strength
+|starting = 
+|headhunting = standard
+|quote = Hey Endministrator, it's me, Lifeng! I'm still a bit green, but I'll work super hard! They say hardships shape and perfect us, but what does perfection really look like? Maybe someone like you has the answer. I'd really appreciate your insights.
+|image = 
+Lifeng Splash Art.png
+|filename = chr_0015_lifeng
+|cnname = 黎风
+|tcname = 黎風
+|jpname = リーフォン
+|krname = 여풍
+|spname = Lifeng
+|runame = Лифэн
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Hiiro_Ishibashi/ Ishibashi Hiiro]
+|cncv = [https://baike.baidu.com/en/item/Guo%20Hongbo/937773/ Guo Hongbo]
+|encv = [https://www.imdb.com/name/nm3055854/ Yung-I Chang]
+|krcv = [https://en.namu.wiki/w/김윤기(성우) Kim Yoon-gi]
+|gender = Male
+|authentication = Hongshan Academy of Sciences
+|birthdate = July 16
+|race = Anasa
+|infection = Oripathy positive (infected), based on medical examination reports.
+|strength = Standard
+|tactical = Normal
+|skill = Excellent
+|originium = Standard
+|exp1 = Agility
+|exp1d = Agility: Xiranite Powered
+A lad equipped with the latest experimental Xiranite prosthetic. His chrome features great power, speed, and sensitivity.
+|exp2 = Natural Lore
+|exp2d = Natural Lore: Planter
+To people who share his childhood, nurturing of life seems like second nature.
+|hb1 = Sports
+|hb1d = Sports: Martial Meditation
+An aspiring traveler needs mental and physical fortitude. One needs a strong body to travel far.
+|hb2 = Nature
+|hb2d = Nature: Keen Traveler
+Much of this world remains unknown to him. Nevertheless, he regards these mysteries as future duties that he must try to live up to.
+|prefer = Wuling Runners' Choice
+|matskill = Mountain Bearer, Chimeric Justice, Valiant
+|matstats = Pathfinder's Beacon
+}}
+'''Lifeng''' is a 6★ [[Physical]] [[Guard]] [[Operator]] from [[Hongshan Academy of Sciences|Hongshan]] in ''[[Arknights: Endfield]]''. He is a [[Polearm]] DMG dealer with a special focus on {{G|Knock Down|knocking down}} enemies. His combo skill gives a {{G|Link|Link}} buff that increases the effectiveness of other operators.
+
+==Profile==
+"I came to Endfield to learn. But ... there's way too much to take in. Gotta work even harder!" <br/>Lifeng, born in [[Wuling City]], now interns at the Specialist Tech Division of [[Endfield Industries]]. <br/>Back in Wuling, Lifeng's mind and personality made him popular with his peers and elders. Years of guidance from [[Da Pan]] have honed his spear-fighting skills, arming him for his pursuit of justice. Few would guess from his cheerful demeanor the shadow he carries — an accident that shattered his once-happy family and cost him an arm. Yet hardship has never dimmed his fire. He continues to grow with sincerity and passion, yearning for the day he can take on greater responsibilities. Someday, he will stand tall on his own and return to protect the home that waits for him.<br/>"One day, I'll be capable enough to take on the toughest missions. Please look forward to that day, Endmin."
+
+==Stats==
+{{Operator data
+|main = Agility
+|sub = Strength
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 90, 153, 217, 280, 312
+|STR = 14.742, 38.003, 62.489, 86.974, 111.46, 123.703
+|AGL = 20.103, 44.051, 69.261, 94.47, 119.679, 132.284
+|INT = 13.402, 35.196, 58.137, 81.078, 104.02, 115.49
+|WIL = 12.886, 35.212, 58.713, 82.214, 105.715, 117.465
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Metadiastima Photoemission Tube x20, Bloodcap x8, T-Creds x100000
+|pot1 = Battle skill {{Color|Turbid Avatar|7}} improved: {{G|Physical Susceptibility|Physical Susceptibility}} {{Color|+5%|1d}}; also triggers this additional effect to enemies with no more than {{Color|2|1d}} {{G|Vulnerable|Vulnerability}} stacks.
+|pot1t = Breaking the Obsession
+|pot2 = All attributes {{Color|+15|1d}}.
+|pot2t = Self Refinement
+|pot3 = Talent {{Color|Illumination|7}} improved: Every point in the attributes of Intellect and Will grants Lifeng an additional ATK {{Color|+0.05%|1d}}.
+|pot3t = Spiritual Cultivation
+|pot4 = Ultimate {{Color|Heart of the Unmoving|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Brief Instant
+|pot5 = Talent {{Color|Subduer of Evil|7}} improved: Every {{Color|15|1d}}s, the next effect triggered deals another {{Color|250%|1d}} ATK of {{Color|Physical DMG|1}} and {{Color|5|1d}} Stagger.
+|pot5t = Unremitting
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Ruination
+|icon= Attack-Polearm
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 4 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|19|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 24%, 27%, 29%, 32%, 34%, 36%, 39%, 41%, 44%, 47%, 50%, 55%
+|stat2= BATK SEQ 2 Multiplier, 29%, 32%, 35%, 38%, 41%, 44%, 47%, 49%, 52%, 56%, 60%, 65%
+|stat3= BATK SEQ 3 Multiplier, 35%, 39%, 42%, 46%, 49%, 53%, 56%, 60%, 63%, 67%, 73%, 79%
+|stat4= BATK SEQ 4 Multiplier, 68%, 74%, 81%, 88%, 95%, 101%, 108%, 115%, 122%, 130%, 140%, 152%
+|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Turbid Avatar
+|icon= Skill-Lifeng
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Swings the polearm multiple times to deal 2 hits of {{Color|Physical DMG|1}}, then slams the ground to deal {{Color|Physical DMG|1}} and {{G|Knock Down|Knock Down}} to all enemies in the area of effect. <br />If the enemy struck by the last hit of this skill has no {{G|Vulnerable|Vulnerability}} stacks, apply {{G|Physical Susceptibility|Physical Susceptibility}} to the said enemy as well.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= SEQ 1 DMG Multiplier, 38%, 42%, 46%, 50%, 53%, 57%, 61%, 65%, 69%, 73%, 79%, 86%
+|stat3= SEQ 2 DMG Multiplier, 38%, 42%, 46%, 50%, 53%, 57%, 61%, 65%, 69%, 73%, 79%, 86%
+|stat4= SEQ 3 DMG Multiplier, 119%, 131%, 143%, 155%, 167%, 178%, 190%, 202%, 214%, 229%, 247%, 268%
+|stat5= SEQ 3 Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat6= Physical Susceptibility, 5%, 5%, 5%, 5%, 5%, 7%, 7%, 7%, 9%, 10%, 10%, 12%
+|stat7= Physical Susceptibility Duration (s), 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12
+}}
+{{Combat skill
+|name= Aspect of Wrath
+|icon= Combo-Lifeng
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike|Final Strike}} on an enemy with {{G|Physical Susceptibility|Physical Susceptibility}} or {{G|Breach|Breach}}. <br /><b>SKILL DESCRIPTION:</b> Unleashes an aspect that performs a spear thrust to deal {{Color|Physical DMG|1}} and grants {{G|Link|Link}}.
+|stat1= Cooldown, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15
+|stat2= SEQ 1 DMG Multiplier, 47%, 51%, 56%, 61%, 65%, 70%, 75%, 79%, 84%, 90%, 97%, 105%
+|stat3= SEQ 2 DMG Multiplier, 167%, 183%, 200%, 217%, 233%, 250%, 267%, 283%, 300%, 321%, 346%, 375%
+|stat4= SEQ 2 Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat5= Combo Duration (s), 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat6= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Heart of the Unmoving
+|icon= Ult-Lifeng
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Unleashes an aspect that performs an Immovable Vajra Slam. The Slam deals {{Color|Physical DMG|1}} and applies {{G|Knock Down|Knock Down}} to all enemies in a large area of effect (AOE), and pulls enemies towards the center of the AOE. After a while, the Slam unleashes one more hit that deals massive {{Color|Physical DMG|1}} and applies another {{G|Knock Down|Knock Down}} to enemies still within its AOE.<br />If the skill {{G|Debuff Consumption|consumes}} a {{G|Link|Link}}, then it deals an additional hit of massive {{Color|Physical DMG|1}}.
+|stat1= Ultimate Energy Cost, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90
+|stat2= SEQ 1 DMG Multiplier, 178%, 196%, 213%, 231%, 249%, 267%, 284%, 302%, 320%, 342%, 369%, 400%
+|stat3= SEQ 1 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= SEQ 2 DMG Multiplier, 178%, 196%, 213%, 231%, 249%, 267%, 284%, 302%, 320%, 342%, 369%, 400%
+|stat5= SEQ 2 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat6= Additional ATK DMG Multiplier, 267%, 294%, 320%, 347%, 374%, 400%, 427%, 454%, 480%, 514%, 554%, 600%
+|stat7= Additional ATK Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Ruination|skill2=Turbid Avatar|skill3=Aspect of Wrath|skill4=Heart of the Unmoving|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Quadrant Fitting Fluid,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Triphasic Nanoflake,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Quadrant Fitting Fluid,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Triphasic Nanoflake,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Ruination|skill2=Turbid Avatar|skill3=Aspect of Wrath|skill4=Heart of the Unmoving|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Quadrant Fitting Fluid,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Triphasic Nanoflake,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Quadrant Fitting Fluid,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Triphasic Nanoflake,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Ruination|skill2=Turbid Avatar|skill3=Aspect of Wrath|skill4=Heart of the Unmoving|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Quadrant Fitting Fluid,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Triphasic Nanoflake,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Quadrant Fitting Fluid,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Triphasic Nanoflake,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Skirmisher
+|icon = Agility
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Agility +10.
+|cond2 = Elite 2
+|desc2 = Operator Agility +15.
+|cond3 = Elite 3
+|desc3 = Operator Agility +15.
+|cond4 = Elite 4
+|desc4 = Operator Agility +20.
+}}
+{{Operator talent
+|name = Illumination
+|icon = Lifeng Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Every point of Intellect and Will further grants ATK {{Color|+0.10%|1d}}.
+|cond2 = Elite 2
+|desc2 = Every point of Intellect and Will further grants ATK {{Color|+0.15%|1d}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Subduer of Evil
+|icon = Lifeng Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Applying {{G|Knock Down|Knock Down}} also deals {{Color|50%|1d}} ATK of {{Color|Physical DMG|1}}.
+|cond2 = Elite 3
+|desc2 = Applying {{G|Knock Down|Knock Down}} also deals {{Color|100%|1d}} ATK of {{Color|Physical DMG|1}}.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Agility
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Youthful Ambition
+|icon = CN-physical_power
+|facility = Control Nexus
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Control Nexus to grant all operators' Mood Regen +12%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Control Nexus to grant all operators' Mood Regen +16%
+}}
+{{Operator base skill
+|name = Laddie Reliable
+|icon = RR-guestroom_clue
+|facility = Reception Room
+|postfix1 = α
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to grant operators a small Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)
+|postfix2 = β
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to grant operators Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = CN-physical_power
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_clue
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Battle Skill Turbid Avatar
+*** Physical Susceptibility Duration increased from 10s to 12s.
+** Base Skill Youthful Ambition
+*** Operators' Mood Regen effect increased from +8% / +12% to +12% / +16%.
+** Base Skill Expert MFG changed to Laddie Reliable
+*** Old: Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10% / 14%.
+*** New: Assign to Reception Room to grant operators [a small] Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)
+*'''Beta Test I''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

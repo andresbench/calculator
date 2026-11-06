@@ -1,0 +1,104 @@
+local p = {}
+
+local function trim(s)
+	if not s then return nil end
+	return mw.text.trim(s)
+end
+
+local function splitCSV(str)
+	if not str or str == "" then
+		return {}
+	end
+	local out = {}
+	for item in mw.text.gsplit(str, ";") do
+		table.insert(out, trim(item))
+	end
+	return out
+end
+
+function p.main(frame)
+	local args = frame:getParent().args
+	local skills = {}
+
+	for i = 1, 4 do
+		skills[i] = splitCSV(args["skill" .. i])
+	end
+
+	local html = mw.html.create
+	local root = html("div")
+
+	local collapsible = root:tag("div")
+		:addClass("mw-collapsible mw-collapsed")
+		:css({
+			width = "80%",
+		})
+		:attr({
+			["data-expandtext"] = "Show table",
+			["data-collapsetext"] = "Hide table"
+		})
+
+	collapsible:tag("h3")
+		:css({
+			["font-size"] = "14px",
+			["font-weight"] = "bold"
+		})
+		:wikitext("Skill upgrades")
+
+	local content = collapsible:tag("div")
+		:addClass("mw-collapsible-content")
+
+	local tableEl = content:tag("table")
+		:addClass("mrfz-wtable")
+		:css({
+			width = "100%",
+			["table-layout"] = "fixed",
+			["text-align"] = "center",
+			["font-size"] = "12px",
+			border = "3px solid #3c3c3c",
+			["margin-bottom"] = "0"
+		})
+		:attr({
+			border = "1",
+			cellpadding = "5"
+		})
+
+	local header = tableEl:tag("tr")
+	header:css("border", "3px solid #3c3c3c")
+	header:tag("th"):css("width", "50px")
+	for i = 1, 4 do
+		local name = skills[i][1]
+		local th = header:tag("th")
+		if name then
+			th:tag("span")
+				:attr("title", name)
+				:css("cursor", "help")
+				:wikitext(name)
+		else
+			th:wikitext("&ndash;")
+		end
+	end
+
+	for row = 1, 11 do
+		local tr = tableEl:tag("tr")
+		tr:tag("th")
+			:wikitext(string.format(
+				"[[File:Rank %d.png|35x35px|center|link=]]",
+				row + 1
+			))
+			:css("width", "50px")
+
+		for col = 1, 4 do
+			local val = skills[col][row + 1]
+			local td = tr:tag("td")
+			if val then
+				td:wikitext(val)
+			else
+				td:wikitext("&ndash;")
+			end
+		end
+	end
+
+	return tostring(root)
+end
+
+return p

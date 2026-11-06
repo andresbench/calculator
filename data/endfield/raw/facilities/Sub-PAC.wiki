@@ -1,0 +1,23 @@
+{{Item infobox
+|name = Sub-PAC
+|filename = item_port_sp_sub_hub_1
+|cnname = 次级核心
+|tcname = 次級核心
+|jpname = サブ協約核心
+|krname = 서브 코어
+|spname = Sub-NAP
+|runame = Суб-ПБА
+|type = Facilities
+|rarity = 5}}
+'''Sub-PAC''' is a [[Facilities|facility]] [[item]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|The AIC Factory shall connect one node to the next in order to expand into the uninhabited frontiers.}}
+==Usage==
+A secondary core facility that can supply power to various facilities and industrial processes. It must have an electrical connection to the main PAC to function.
+==Acquisition==
+Special Asset: Endfield Industries
+
+
+==Navigation==
+{{Items}}
+[[Category:Facilities]]

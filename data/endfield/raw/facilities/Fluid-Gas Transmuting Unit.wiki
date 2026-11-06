@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Fluid-Gas Transmuting Unit
+|filename = item_port_phase_trans_1
+|images = Fluid-Gas_Transmuting_Unit_icon.png:Icon;
+Fluid-Gas_Transmuting_Unit.png:Full
+|cnname = 液气转化机
+|tcname = 液氣轉化機
+|jpname = ガス液体転換機
+|krname = 액체 · 기체 전환기
+|spname = Unidad de transmutación fluido-gas
+|runame = Модуль жидкостно-газового видоизменения
+|type = Production II
+|rarity = 4
+|power = 50}}
+'''Fluid-Gas Transmuting Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|When activated by a steady input of Liquid Xiranite, this facility can transmute fluid materials into gas, and vice versa.|A special facility that can transmute materials into another state. The process may sound simple, but every single component of the facility, down to the most basic thermometer, is the pinnacle of modern Originium Arts and technology.}}
+==Usage==
+The Fluid-Gas Transmuting Unit requires a minimum input of 6/min {{I|Liquid Xiranite|g=0}} to activate.
+{{RecipeTable|facility=Fluid-Gas Transmuting Unit|showFacility=false}}
+
+==Acquisition==
+Construction: Requires Specified Wuling AIC Plan Tech
+{{RecipeTable|product=Fluid-Gas Transmuting Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]

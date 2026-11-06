@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Sourberry Plot
+|filename = item_port_soil_corp_strawberry_1
+|images = Sourberry_Plot.png
+|cnname = 青叶莓田块
+|tcname = 青葉莓田塊
+|jpname = サワーベリー畑
+|krname = 푸른잎베리 논배미
+|spname = Terreno de Bayamarga
+|runame = Участок кисляники
+|type = Planting
+|rarity = 3
+|power = }}
+'''Sourberry Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Sourberries.|A cultivation plot with various parameters adjusted for growing Sourberries. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Sourberry Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

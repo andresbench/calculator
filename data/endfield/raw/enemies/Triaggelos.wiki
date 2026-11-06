@@ -1,0 +1,84 @@
+{{Enemy infobox
+|name = Triaggelos
+|image = Triaggelos_sprite.png
+|filename = eny_0045_agtrinit
+|cnname = 三位一体
+|tcname = 三位一體
+|jpname = トリアンゲロス
+|krname = 트리아겔로스
+|spname = Triaggelos
+|runame = Триаггел
+|type = Aggeloi
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 22
+}}
+'''Triaggelos''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|NO PREVIOUS RECORDS. This has been classified as an Aggelos due to the nature of its formation. Changes to its halo may reflect its ability to make tactical decisions. Be warned. Ankhor-like properties have been detected in this entity as well.}}
+
+==Stats==
+{{Enemy data
+|HP = 1385, 9936, 62869, 247504, 595357, 917164
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 280
+|SR = 11
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *An enemy with 3 different forms.
+*ASSAULT FORM: Continuously unleashes melee attacks. Interrupt the charging of its ability to apply high Stagger to it.
+*SEARCH FORM: Summons lots of Aggeloi to the fight and unleashes Ankhor shockwaves.
+*TRICKERY FORM: Enters stealth to unleash barrages of projectiles from afar or ambush your operators. Break its stealth mode to apply high Stagger to it.
+|location = *[[Origin Lodespring]]
+|drops = 
+|addendum = }}
+
+==Overview==
+A remnant of the horrifying Astarron, utilizing powers like that of an Ankhor, the Triaggelos is a significant threat, having three phases in total.
+
+The Triaggelos begins the fight in '''Assault Form''', having the following abilities:
+*Flies upward, bceomes invulnerable, and fires a meteor towards the ground, dealing Physical damage in a wide range at the impact site. This attack will always be the first one used during the fight. After the first use, subsequent uses of this ability will instead fire three meteors.
+*A downward thrust attack using one of the Triaggelos' parts, dealing Physical damage to Operators at its front. This is followed by a swiping attack with another part, dealing Physical damage in a wide arc.
+*Two consecutive diagonal thrusts using two of the Triaggelos' parts, dealing Physical damage to Operators at its front. This ability can be interrupted by using skills.
+*A dash attack where it shapes itself as a rocket and thrust forward, dealing Physical damage to Operators and knocking them back. This ability can be interrupted by using skills, but if it completes without interruption, the Triaggelos will attack twice during subsequent uses of this ability.
+*A 360° swipe attack with two of its parts, dealing heavy Physical damage to Operators around and knocking them back. This ability can be interrupted by using skills, but if it completes without interruption, the Triaggelos will attack twice during subsequent uses of this ability.
+
+When the Triaggelos' health is depleted for the first time, it will regenerate and enter '''Search Form''', having the following abilities:
+*The Triaggelos starts charging, becoming invulnerable for the duration of the charge, and two single-use Originium Branches spawn nearby. Once fully charged, a shockwave identical to those from Ankhors will be unleashed, dealing extreme Æther damage, enough to immediately defeat Operators. Like with Ankhor shockwaves, this damage cannot be dodged, but it can be prevented by standing near an Originium Branch.
+*Summons 4 [[Ram]]s and 1 [[Sting]], and becomes invulnerable. When a summoned Aggeloi is defeated, an amount of Stagger is applied to the Triaggelos. When all summoned Aggeloi are defeated, the Triaggelos becomes vulnerable and loses a portion of its HP. After the first use, subsequent uses of this ability will instead summon 9 Rams and 1 Sting.
+*Drops several pillars at a fixed pattern, dealing Physical damage to Operators that was in the landing spots. Operators near the pillars also take continuous Æther damage.
+**While invulnerable, the Triaggelos will never drop a pillar at its current position, no matter where the controlled Operator is at.
+*Flies upward, becomes invulnerable, and fires three meteors towards the ground, dealing Physical damage in a wide range at the impact site, and creating grounded shockwaves that deal Æther damage.
+*Flies far away, then creates a grounded shockwave that deals Æther damage. After the first use, subsequent uses of this ability will create two shockwaves.
+
+When the Triaggelos' health is depleted for the second time, it will regenerate and enter '''Trickery Form''', having the following abilities:
+*Becomes invisible, during which it cannot be locked onto. An attack that hits it will reveal it and deal extra Stagger, and reveals the Triaggelos for 3 seconds, after which it returns to invisibility.
+**The Triaggelos will not become invisible if it is Staggered.
+*Flies away three times, and fires twice every time it stops moving, dealing Æther damage.
+*Fires 10 times in a row, dealing Æther damage. After the first use, this ability will be used while other abilities are firing.
+*Rotates and fires a barrage of red Æther projectiles in front of itself, dealing Æther damage.
+*Morphs into a cannon shape, and fires a laser directly in front of itself, dealing continuous Æther damage. After the first use, subsequent uses of this ability will feature more lasers, fired at 45° and 90° angles.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1385, 9936, 62869, 247504, 595357, 917164 from 1385, 11689, 73963, 247504, 595357, 917164
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

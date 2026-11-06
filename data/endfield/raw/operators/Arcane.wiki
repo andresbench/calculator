@@ -1,0 +1,338 @@
+{{Operator infobox
+|name = Arcane
+|rarity = 6
+|class = Caster
+|weapon = Arts Unit
+|element = Nature
+|faction = Hongshan Academy of Sciences (HAS)
+|tags = Nature Infliction, Corrode, Crowd Control
+|main = Intellect
+|sub = Will
+|starting = 
+|headhunting = chartered
+|quote = YSTF Task Leader, Arcane, reporting to Endfield... Awaiting your orders, Commander.
+|image = 
+Arcane Splash Art.png
+|filename = chr_0032_lizhiyan
+|cnname = 诀
+|tcname = 訣
+|jpname = オクギ
+|krname = 결
+|spname = Arcane
+|runame = Премудрость
+|realname = Li Zhiyan
+|fileno = 
+|theme = Guided by Echoes
+|illustrator = 
+|jpcv = Lynn
+|cncv = Tang Yajing
+|encv = Julia Gu
+|krcv = Kim Soon-mi
+|gender = Female
+|authentication = Yinglung Special Task Force
+|birthdate = July 7
+|race = Liberi
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Standard
+|tactical = Outstanding
+|skill = Excellent
+|originium = Excellent
+|exp1 = Combat Technique
+|exp1d = Combat Technique: YSTF Battle Formation
+A task team of three shall work as one, fight as one, and fall as one.
+|exp2 = Constitution
+|exp2d = Constitution: Honed to a Razor
+If a hundred attempts fail, then make a thousand tries. A true blade must be hammered and forged ten thousand times.
+|hb1 = Nature
+|hb1d = Nature: Sculpture of the Land
+The natural arrangements of rolling mountains and meandering rivers mean something ... and the same goes for the people that live within.
+|hb2 = Charity
+|hb2d = Charity: Every Taste of Life
+Once seen, it cannot be ignored. Once experienced, it will exert its touch. The most important part in the journey of life is knowing how to give and share its every taste.
+|prefer = Wuling Explorer's Choice
+|matskill = Type 42: Solemn Phalanx, Junction Point, Detonation Unit, Oblivion
+|matstats = Stanza of Memorials
+}}
+'''Arcane''' is a 6★ [[Nature]] [[Caster]] [[Operator]] from [[Hongshan Academy of Sciences]] in ''[[Arknights: Endfield]]''. She is an [[Arts Unit]] user with switchable skill types and the ability to apply long-lasting {{G|Corrosion|Corrosion}}. When she has more INT, she can deal massive DMG. When she has more WILL, her combo skill can apply {{G|Arts Infliction|Arts Infliction}} of any element.
+
+==Profile==
+"I will uphold the honor of the Yinglungs."
+
+Yinglung Special Task Force (YSTF) captain, Arcane, long stationed at Yinglung Pass, frequently undertakes survey missions within the exclusion zone. She is serious, meticulous, and never one to smile readily.
+
+The disaster in the North Wuling Exclusion Zone took everything from Arcane. Since then, her only purpose in life has been to contain the Wuling Very Large Rift. She has ventured deep into it time and again.
+
+Hatred leads her step by step into the Deep, yet it also keeps her alive when all hope seems lost. You can find all the qualities of a YSTF member in Arcane: absolute obedience to orders, outstanding tactical command, relentless training day and night, and an unyielding spirit. Those who have likewise lost loved ones to disasters can see a part of themselves in Arcane...
+
+Some find her frigid, but for YSTF members, maintaining distance is also a form of mutual protection.
+
+"Be of ferrium will, move as a razor's edge. Yinglung wins by momentum."
+
+==Stats==
+{{Operator data
+|main = Intellect
+|sub = Will
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 90, 153, 217, 280, 312
+|STR = 9.278, 26.907, 45.463, 64.02, 82.577, 91.855
+|AGL = 9.072, 27.172, 46.225, 65.279, 84.332, 93.859
+|INT = 21.958, 54.937, 89.652, 124.367, 159.082, 176.44
+|WIL = 14.969, 37.711, 61.65, 85.59, 109.529, 121.499
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Triphasic Nanoflake x20, Talos Cap x8, T-Creds x100000
+|pot1 = Combo skill {{Color|Yinglung Stance IV|7}} improved:
+DMG Multiplier is increased to {{Color|1.3|1d}} times the original.
+{{Color|Array Arcana: INT|7}}: Hitting an enemy under {{Color|Imprisonment|7}} with Arcane's battle skill {{G|SP Return|returns}} {{Color|10|1d}} additional SP.
+{{Color|Array Arcana: WILL|7}}: Effects of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} applied {{Color|+6%|1d}}.
+|pot1t = Watcher of the Sea
+|pot2 = Intellect and Will {{Color|+15|1d}}, Arts Intensity {{Color|+16|1d}}.
+|pot2t = Heart of Ice Cold Ferrium
+|pot3 = Talent {{Color|Weapon Honing|7}} improved:
+{{G|Corrosion|Corrosion}} applied by Arcane lasts {{Color|5|1d}}s longer, and Max Resistance Reduction is increased by {{Color|20%|1d}} of the original.
+|pot3t = Wielder of Stone
+|pot4 = Ultimate {{Color|Gloompurge|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Mind of Refined Steel
+|pot5 = Ultimate {{Color|Gloompurge|7}} improved:
+{{Color|Array Arcana: INT|7}}: During the ultimate, Arcane gains {{Color|16%|1d}} {{G|Arts Amp|Arts Amp}}. DMG Multiplier of {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) is increased to {{Color|1.3|1d}} times the original.
+{{Color|Array Arcana: WILL|7}}: Further increases the effects of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} applied by {{Color|Gloompurger Array|7}} (ultimate sequence 1) and {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) by {{Color|+7%|1d}}. After casting {{Color|Gloompurge Arcana|7}} (ultimate sequence 2), if combo skill {{Color|Yinglung Stance IV|7}} is still in its cooldown, immediately shorten the length of the cooldown by {{Color|30%|1d}}.
+|pot5t = Homeward Glance
+}}
+
+==Combat Skills==
+<tabber>
+Array Arcana: INT=
+{{Combat skill
+|name= Artillery Interdiction
+|icon= Attack-Artsunit
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Nature DMG|5}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|17|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Nature DMG|5}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Nature DMG|5}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 19%, 21%, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 36%, 39%, 42%
+|stat2= BATK SEQ 2 Multiplier, 21%, 23%, 26%, 28%, 30%, 32%, 34%, 36%, 38%, 41%, 44%, 48%
+|stat3= BATK SEQ 3 Multiplier, 33%, 37%, 40%, 43%, 47%, 50%, 53%, 57%, 60%, 64%, 69%, 75%
+|stat4= BATK SEQ 4 Multiplier, 36%, 39%, 43%, 46%, 50%, 53%, 57%, 61%, 64%, 69%, 74%, 80%
+|stat5= BATK SEQ 5 Multiplier, 47%, 52%, 56%, 61%, 66%, 71%, 75%, 80%, 85%, 90%, 98%, 106%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Jadecrushing Grid
+|icon= Skill-Arcane1
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Creates a {{Color|Jadecrushing Grid|7}} that deals {{Color|Nature DMG|5}} and applies {{G|Nature Infliction|Nature Infliction}} to enemies within the area of effect.<br />Intellect ({{Color|N|1d}}) ≥ Will ({{Color|N|1d}}), {{Color|Array Arcana: INT|7}} is ACTIVE.<br />{{Color|Array Arcana: INT|7}}:<br />- Deals more DMG.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 222%, 245%, 267%, 289%, 311%, 333%, 356%, 378%, 400%, 428%, 461%, 500%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Yinglung Stance IV
+|icon= Combo-Arcane1
+|type= {{SB|3}}
+|info= 
+|desc= Intellect ({{Color|N|1d}}) ≥ Will ({{Color|N|1d}}), {{Color|Array Arcana: INT|7}} is ACTIVE.<br /><b>COMBO TRIGGER:</b> When {{G|Nature Infliction|Nature Infliction}} or at least 2 stacks of {{G|Arts Infliction|non-Nature Arts Infliction}} are applied on an enemy.<br /><b>SKILL DESCRIPTION:</b> Arcane charges at the target and sets up 4 {{Color|Tactical Doubles|7}} that apply {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} and deal {{Color|Nature DMG|5}} to the target and nearby enemies, and also apply {{Color|Imprisonment|7}} on the said target. When {{Color|Imprisonment|7}} ends, the {{Color|Tactical Doubles|7}} will attack the said target to deal Explosion DMG.<br />{{Color|Imprisonment|7}}: A debuff that slows all actions.<br />{{Color|Array Arcana: INT|7}}:<br />- Hitting an enemy under {{Color|Imprisonment|7}} with Arcane's battle skill {{G|SP Return|returns}} some SP, ends the {{Color|Imprisonment|7}} early, deals Explosion DMG, applies another instance of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}}, and deals multiple hits of bonus DMG after a short delay.<br />- Combo skill cooldown is shorter.
+|stat1= Cooldown, 14, 14, 14, 14, 14, 14, 14, 14, 13, 13, 13, 12
+|stat2= Base DMG Multiplier, 35%, 39%, 42%, 46%, 50%, 53%, 57%, 60%, 64%, 68%, 73%, 80%
+|stat3= Base Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= Imprisonment and Susceptibility Duration (s), 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+|stat5= Susceptibility, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%
+|stat6= Explosion DMG Multiplier, 53%, 59%, 64%, 69%, 75%, 80%, 85%, 91%, 96%, 103%, 111%, 120%
+|stat7= Explosion Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat8= Bonus DMG Multiplier, 222%, 244%, 266%, 289%, 311%, 333%, 355%, 377%, 400%, 427%, 461%, 500%
+|stat9= Bonus Susceptibility Duration (s), 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2
+|stat10= SP Return, 28, 28, 28, 28, 28, 28, 28, 28, 28, 30, 30, 30
+|stat11= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Gloompurge
+|icon= Ult-Arcane1
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Arcane creates a {{Color|Gloompurger Array|7}} that immediately deals {{Color|Nature DMG|5}} to enemies within the area of effect (AOE).<br />When hitting an enemy within the {{Color|Gloompurger Array|7}} with a Finisher or a {{G|Final Strike|Final Strike}} performed by the controlled operator, the {{Color|Gloompurger Array|7}} unleashes a {{Color|Cluster Strike|7}} that deals Area DMG to the said enemy. This effect triggers up to 2 times.<br />After triggering {{Color|Cluster Strike|7}} 2 times, the ultimate is switched to {{Color|Gloompurge Arcana|7}}.<br />{{Color|Gloompurge Arcana|7}}: Deals {{Color|Nature DMG|5}} to enemies within a large AOE.<br />Intellect ({{Color|N|1d}}) ≥ Will ({{Color|N|1d}}), {{Color|Array Arcana: INT|7}} is ACTIVE.<br />{{Color|Array Arcana: INT|7}}:<br />- When created, the {{Color|Gloompurger Array|7}} also forcibly applies {{G|Corrosion|Corrosion}} to enemies in the AOE.
+|stat1= Ultimate Energy Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Gloompurger Array Creation DMG Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+|stat3= Gloompurger Array Creation Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Gloompurger Array Duration (s), 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat5= Forced Corrosion Duration (s), 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat6= Cluster Strike Total DMG Multiplier, 160%, 176%, 192%, 208%, 224%, 240%, 256%, 272%, 288%, 308%, 332%, 360%
+|stat7= Gloompurge Arcana DMG Multiplier, 640%, 704%, 768%, 832%, 896%, 960%, 1024%, 1088%, 1152%, 1232%, 1328%, 1440%
+|stat8= Gloompurge Arcana Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+|-|
+Array Arcana: WILL=
+{{Combat skill
+|name= Artillery Interdiction
+|icon= Attack-Artsunit
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Nature DMG|5}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|17|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Nature DMG|5}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Nature DMG|5}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 19%, 21%, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 36%, 39%, 42%
+|stat2= BATK SEQ 2 Multiplier, 21%, 23%, 26%, 28%, 30%, 32%, 34%, 36%, 38%, 41%, 44%, 48%
+|stat3= BATK SEQ 3 Multiplier, 33%, 37%, 40%, 43%, 47%, 50%, 53%, 57%, 60%, 64%, 69%, 75%
+|stat4= BATK SEQ 4 Multiplier, 36%, 39%, 43%, 46%, 50%, 53%, 57%, 61%, 64%, 69%, 74%, 80%
+|stat5= BATK SEQ 5 Multiplier, 47%, 52%, 56%, 61%, 66%, 71%, 75%, 80%, 85%, 90%, 98%, 106%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= Jadecrushing Grid
+|icon= Skill-Arcane2
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Creates a {{Color|Jadecrushing Grid|7}} that deals {{Color|Nature DMG|5}} and applies {{G|Nature Infliction|Nature Infliction}} to enemies within the area of effect.<br />Will ({{Color|N|1d}}) ＞ Intellect ({{Color|N|1d}}), {{Color|Array Arcana: WILL|7}} is ACTIVE.<br />{{Color|Array Arcana: WILL|7}}:<br />- When dealing DMG, the array also {{Color|pulls in|7}} enemies within the area of effect.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= DMG Multiplier, 133%, 147%, 160%, 173%, 187%, 200%, 213%, 227%, 240%, 257%, 277%, 300%
+|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Yinglung Stance IV
+|icon= Combo-Arcane2
+|type= {{SB|3}}
+|info= 
+|desc= Will ({{Color|N|1d}}) ＞ Intellect ({{Color|N|1d}}), {{Color|Array Arcana: WILL|7}} is ACTIVE.<br /><b>COMBO TRIGGER:</b> When an {{G|Arts Infliction|Arts Infliction}} is applied on an enemy.<br /><b>SKILL DESCRIPTION:</b> Arcane charges at the target and sets up 4 {{Color|Tactical Doubles|7}} that deal {{Color|Nature DMG|5}} and apply another stack of {{G|Arts Infliction|Arts Infliction}} of the same element, {{G|Nature Susceptibility|Nature Susceptibility}}, and {{G|Cryo Susceptibility|Cryo Susceptibility}} to the target and nearby enemies, and also apply {{Color|Imprisonment|7}} on the said target. When {{Color|Imprisonment|7}} ends, the {{Color|Tactical Doubles|7}} will attack the said target to deal Explosion DMG.<br />{{Color|Imprisonment|7}}: A debuff that slows all actions.<br />{{Color|Array Arcana: WILL|7}}:<br />- Applying {{Color|Imprisonment|7}} by casting a combo skill will also slightly {{Color|pull in|7}} enemies near the target.<br />- The attribute of Will can further increase the effects of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} applied by the combo skill.
+|stat1= Cooldown, 20, 20, 20, 20, 20, 20, 20, 20, 19, 19, 19, 18
+|stat2= Base DMG Multiplier, 35%, 39%, 42%, 46%, 50%, 53%, 57%, 60%, 64%, 68%, 73%, 80%
+|stat3= Base Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= Imprisonment and Susceptibility Duration (s), 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
+|stat5= Base Susceptibility, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%, 4%
+|stat6= Max Bonus Susceptibility from Will, 7%, 7%, 7%, 7%, 7%, 7%, 7%, 7%, 7.5%, 7.5%, 7.5%, 8%
+|stat7= Will for MAX Bonus Susceptibility, 560, 560, 560, 560, 560, 560, 560, 560, 600, 600, 600, 640
+|stat8= Explosion DMG Multiplier, 53%, 59%, 64%, 69%, 75%, 80%, 85%, 91%, 96%, 103%, 111%, 120%
+|stat9= Explosion Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat10= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Gloompurge
+|icon= Ult-Arcane2
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Arcane creates a {{Color|Gloompurger Array|7}} that immediately deals {{Color|Nature DMG|5}} to enemies within the area of effect (AOE).<br />When hitting an enemy within the {{Color|Gloompurger Array|7}} with a Finisher or a {{G|Final Strike|Final Strike}} performed by the controlled operator, the {{Color|Gloompurger Array|7}} unleashes a {{Color|Cluster Strike|7}} that deals Area DMG to the said enemy. This effect triggers up to 2 times.<br />After triggering {{Color|Cluster Strike|7}} 2 times, the ultimate is switched to {{Color|Gloompurge Arcana|7}}.<br />{{Color|Gloompurge Arcana|7}}: Deals {{Color|Nature DMG|5}} to enemies within a large AOE.<br />Will ({{Color|N|1d}}) ＞ Intellect ({{Color|N|1d}}), {{Color|Array Arcana: WILL|7}} is ACTIVE.<br />{{Color|Array Arcana: WILL|7}}:<br />- When created, the {{Color|Gloompurger Array|7}} also targets enemies with {{G|Arts Infliction|Arts Infliction}} within its AOE, and applies another {{G|Arts Infliction|Arts Infliction}} stack of the same element to them.
+|stat1= Ultimate Energy Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= Gloompurger Array Creation DMG Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+|stat3= Gloompurger Array Creation Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat4= Gloompurger Array Duration (s), 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat5= Cluster Strike Total DMG Multiplier, 160%, 176%, 192%, 208%, 224%, 240%, 256%, 272%, 288%, 308%, 332%, 360%
+|stat6= Gloompurge Arcana DMG Multiplier, 160%, 176%, 192%, 208%, 224%, 240%, 256%, 272%, 288%, 308%, 332%, 360%
+|stat7= Gloompurge Arcana Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+</tabber>
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Artillery Interdiction|skill2=Jadecrushing Grid|skill3=Yinglung Stance IV|skill4=Gloompurge|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Tachyon Screening Lattice,6|m14=Crimson Spearleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Triphasic Nanoflake,6|m24=Crimson Spearleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Tachyon Screening Lattice,6|m34=Crimson Spearleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Triphasic Nanoflake,6|m44=Crimson Spearleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Artillery Interdiction|skill2=Jadecrushing Grid|skill3=Yinglung Stance IV|skill4=Gloompurge|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Tachyon Screening Lattice,16|m14=Crimson Spearleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Triphasic Nanoflake,16|m24=Crimson Spearleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Tachyon Screening Lattice,16|m34=Crimson Spearleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Triphasic Nanoflake,16|m44=Crimson Spearleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Artillery Interdiction|skill2=Jadecrushing Grid|skill3=Yinglung Stance IV|skill4=Gloompurge|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Tachyon Screening Lattice,36|m14=Crimson Spearleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Triphasic Nanoflake,36|m24=Crimson Spearleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Tachyon Screening Lattice,36|m34=Crimson Spearleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Triphasic Nanoflake,36|m44=Crimson Spearleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Keen Mind/Stalwart
+|icon = Intellect Will
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Intellect and Will +8.
+|cond2 = Elite 2
+|desc2 = Operator Intellect and Will +10.
+|cond3 = Elite 3
+|desc3 = Operator Intellect and Will +10.
+|cond4 = Elite 4
+|desc4 = Operator Intellect and Will +15.
+}}
+{{Operator talent
+|name = Tactical Planning
+|icon = Arcane Talent 1 icon
+|info = If Intellect and Will appear equal on the profile, {{Color|Array Arcana: WILL|7}} can still be selected if Will's hidden decimal value is greater than Intellect's.
+|cond1 = Elite 0
+|desc1 = When Arcane's Intellect ≥ Will, switch skill type to {{Color|Array Arcana: INT|7}}. If not, then switch to {{Color|Array Arcana: WILL|7}}.
+{{Color|Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons.|9}}
+|cond2 = Elite 2
+|desc2 = When Arcane's Intellect ≥ Will, switch skill type to {{Color|Array Arcana: INT|7}}. If not, then switch to {{Color|Array Arcana: WILL|7}}.
+Ultimate {{Color|Gloompurge|7}} improved:
+{{Color|Array Arcana: INT|7}}:
+- During the ultimate, Arcane gains {{Color|24%|1d}} {{G|Arts Amp|Arts Amp}}.
+{{Color|Array Arcana: WILL|7}}:
+- When {{Color|Gloompurger Array|7}} (ultimate sequence 1) and {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) deal DMG to the enemy, they also apply {{Color|[Will × 0.02%]|1d}} {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} (max: {{Color|12.8%|1d}}) for {{Color|10|1d}}s. This effect cannot stack.
+{{Color|Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons.|9}}
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Weapon Honing
+|icon = Arcane Talent 2 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = {{G|Corrosion|Corrosion}} applied by Arcane lasts {{Color|5|1d}}s longer, and Max Resistance Reduction is increased to {{Color|1.05|1d}} times the original.
+|cond2 = Elite 3
+|desc2 = {{G|Corrosion|Corrosion}} applied by Arcane lasts {{Color|10|1d}}s longer, and Max Resistance Reduction is increased to {{Color|1.1|1d}} times the original.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Intellect Will
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = -; Protoprism x48, T-Creds x10800; -; -;
+|tcost2 = Protoprism x12, T-Creds x2400; -; Protohedron x36, T-Creds x32000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Pluck the Mountain, Boil the Sea
+|icon = GC-plant_mineral
+|facility = Growth Chamber
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Growth Chamber to grant rare mineral growth rate +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Growth Chamber to grant rare mineral growth rate +30%
+}}
+{{Operator base skill
+|name = Botanophile
+|icon = GC-plant_flower
+|facility = Growth Chamber
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Growth Chamber to grant vitrified plant growth rate +20%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Growth Chamber to grant vitrified plant growth rate +30%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = GC-plant_mineral
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = GC-plant_flower
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]''' introduced.
+}}
+
+==Navigation==
+{{Operators_nav}}

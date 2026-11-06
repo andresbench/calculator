@@ -1,0 +1,95 @@
+{{Status infobox
+|Slow
+|Slowed targets temporarily suffer movement speed reduction. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies.
+|image = [[File: Slow icon.png]]
+|type = Debuff
+|source = Operator
+}}
+{{Icon|Haste icon|'''Slow'''}} is a type of debuff applied to enemies in ''[[Arknights: Endfield]]''.
+
+When targets are affected by '''Slow''', they temporarily have decreased movement speed. The number represents the degree of reduction known as the '''Slow Multiplier'''.
+
+Multiple sources of '''Slow''' <u>do not stack</u> and only the highest Slow Multiplier is used. It is currently unknown how Slow and {{G|Haste}} stack with each other.
+{{TOC limit|2}}
+{{Clr}}
+== Sources==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Fluorite
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Fluorite
+| name = Tiny Suprise
+| type = Skill
+| content = 
+<b>SKILL DESCRIPTION:</b> Kicks an {{Color|Improvised Explosive|7}} that sticks to the target, applying {{G|Slow|Slow}} and exploding after a short duration. The explosion deals {{Color|Nature DMG|5}} and {{G|Nature Infliction|Nature Infliction}} to enemies in the area of effect. Defeating the target also sets off the {{Color|Improvised Explosive|7}} immediately.<br />
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Triple Surprise
+| content = 
+Battle skill {{Color|Tiny Surprise|7}} improved: After {{Color|Improvised Explosive|7}} explodes, the {{G|Slow|slow}} effect is applied to all enemies hit and lasts {{Color|6|1d}}s.
+}}
+}}
+{{Operator table row
+| name = Gilberta
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Gilberta
+| name = Arcane Staff: Gravity Field
+| type = Ultimate
+| content = 
+<b>SKILL DESCRIPTION:</b> Creates an {{Color|Anomalous Gravity Field|7}} that instantly deals 1 hit of {{Color|Nature DMG|5}} and applies {{G|Nature Infliction|Nature Infliction}} to enemies caught in the field. Targets in the {{Color|Anomalous Gravity Field|7}} also suffer from {{G|Slow|Slow}} and {{G|Arts Susceptibility|Arts Susceptibility}}. The effect of {{G|Arts Susceptibility|Arts Susceptibility}} is further increased based on the number of active {{G|Vulnerable|Vulnerability}} stacks on the target. <br />{{Color|If a target in the field is Lifted, the Lifted status will persist until the field wears off.|9}}
+}}
+}}
+{{Operator table row
+| name = Tangtang
+| content = 
+{{Operator table row/Combat skill
+| icon = Tangtang Talent 1 icon
+| name = Fam of Honor
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}}: When within a {{Color|5|1d}}-meter radius of a {{Color|Whirlpool|7}}, allied operators gain {{Color|10%|1d}} {{G|Haste|Haste}} while enemies suffer {{Color|20%|1d}} {{G|Slow|Slow}}. These effects persist for 3s after leaving the area of effect.<hr>
+{{Icon|Elite 2|text=false}}: When within a {{Color|5|1d}}-meter radius of a {{Color|Whirlpool|7}}, allied operators gain {{Color|20%|1d}} {{G|Haste|Haste}} while enemies suffer {{Color|40%|1d}} {{G|Slow|Slow}}. These effects persist for 3s after leaving the area of effect.
+}}
+}}
+{{Operator table row
+| name = Typhoeus
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Typhoeus
+| name = Rampant Thorns
+| type = Combo
+| content = 
+<b>COMBO TRIGGER:</b> When Typhoeus reaches max {{G|Sign|Signs}}.<br /><b>SKILL DESCRIPTION:</b> Typhoeus converts all her {{G|Sign|Signs}} to {{G|Hunting Arrow|Hunting Arrows}} and resets her Aerial Basic Attack (ABATK) attempts.<br />Typhoeus focuses her "Huntress's Gaze" and launches a barrage at the target that creates a {{Color|Barrage Array|7}} at the target area. Enemies in the {{Color|Barrage Array|7}} take {{Color|Nature DMG|5}} over time, are {{G|Slow|slowed}}, and suffer increased {{G|Nature Burst|Nature Burst}} DMG Taken.<br />{{Color|Every 2 Signs convert to 1 Hunting Arrow.|9}}
+}}
+}}
+}}
+== Interactions ==
+{{Operator table
+| header = Interaction
+| content =
+{{Operator table row
+| name = Fluorite
+| content = 
+{{Operator table row/Combat skill
+| icon = Fluorite Talent 1 icon
+| name = Love the Stab and Twist
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}}: Fluorite gains DMG Dealt {{Color|+10%|1d}} against {{G|Slow|Slowed}} targets.<hr>
+{{Icon|Elite 2|text=false}}: Fluorite gains DMG Dealt {{Color|+20%|1d}} against {{G|Slow|Slowed}} targets.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''[[Old Deep Water Dies, by Rising Tide It is Denied]]'''
+** {{G|Slow}} keyword added with [[Fluorite]] and [[Gilberta]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

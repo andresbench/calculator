@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Pulser Labs Calibrator
+|image = Pulser_Labs_Calibrator.png
+|filename = item_equip_t4_suit_pulse_cryst01_edc_02
+|cnname = 脉冲式校准器
+|tcname = 脈衝式校準器
+|jpname = パルス式校正器
+|krname = 펄스식 교정기
+|spname = Calibrador de Laboratorios Pulso
+|runame = Калибратор «Импульс»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Pulser Labs Calibrator''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with novel designs. 
+It searches the endless ocean of data for the well-hidden "golden outliers", and then erases them from existence.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Intellect
+|pvalue = +41, +45, +49, +53
+|sstat = Arts Intensity
+|svalue = +41.4, +45.5, +49.7, +53.8
+|tstat = 
+|tvalue = 
+|setname = Pulser Labs
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Electrification|Electrification}}, the wearer gains {{Color|Electric DMG|6}}{{Color| +50%|1d}} for 10s. After the wearer applies {{G|Solidification|Solidification}}, the wearer gains {{Color|Cryo DMG|4}}{{Color| +50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Pulser Labs}}
+{{Gears|state=collapsed}}

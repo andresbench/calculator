@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = "Ribbon Voice" Microphone
+|filename = item_port_microphone_1
+|images = "Ribbon Voice" Microphone icon.png:Icon;
+"Ribbon Voice" Microphone.png:Full
+|cnname = “缎带之声”麦克风
+|tcname = 「緞帶之聲」麥克風
+|jpname = 「リボンボイス」マイク
+|krname = '리본의 소리' 마이크
+|spname = Micrófono “Voz de listón”
+|runame = Микрофон «Голос ленты»
+|type = Ornamental
+|rarity = 5}}
+'''{{PAGENAME}}''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|Liino's favorite mike and the one she uses most often. According to Liino, she designed the bow tie and trimmed the ribbon herself to commemorate her first stage performance.}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Ornamental Facilities]]

@@ -1,0 +1,2189 @@
+[
+ {
+  "_pageName": "Aburrey The Hero",
+  "Chara": "Madam Aburrey",
+  "Id": "",
+  "Image": "",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "*[[UWST]]\n*[[Valley IV]]"
+ },
+ {
+  "_pageName": "Ah He",
+  "Chara": "Ah He",
+  "Id": "",
+  "Image": "Ah He.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Ah Tu",
+  "Chara": "Ah Tu",
+  "Id": "",
+  "Image": "Ah Tu.png",
+  "Gender": "Female",
+  "Race": "[[Cautus]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Ah Zai",
+  "Chara": "Ah Zai",
+  "Id": "",
+  "Image": "Ah Zai.png",
+  "Gender": "male",
+  "Race": "[[Zalak]]",
+  "Faction": "[[Hongshan]]"
+ },
+ {
+  "_pageName": "Aleeza Collins",
+  "Chara": "Aleeza Collins",
+  "Id": "",
+  "Image": "Aleeza Collins.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "*[[UWST]]\n**UWST Security Bureau"
+ },
+ {
+  "_pageName": "Aleksandr",
+  "Chara": "Aleksandr",
+  "Id": "",
+  "Image": "Aleksandr.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "[[Clavis TGCC Trading]]"
+ },
+ {
+  "_pageName": "Algy",
+  "Chara": "Algy",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Alia",
+  "Chara": "Alia",
+  "Id": "",
+  "Image": "Alia.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Amino",
+  "Chara": "Amino",
+  "Id": "",
+  "Image": "Amino.png",
+  "Gender": "Male",
+  "Race": "possibly [[Perro]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "An Yu",
+  "Chara": "An Yu",
+  "Id": "",
+  "Image": "An Yu.png",
+  "Gender": "Female",
+  "Race": "[[Liberi]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Andre",
+  "Chara": "Andre",
+  "Id": "npc_1001_andrew",
+  "Image": "Andre Zlotareed.png",
+  "Gender": "Male",
+  "Race": "[[Liberi]]",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Angro",
+  "Chara": "Angro",
+  "Id": "",
+  "Image": "Angro.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Anthony",
+  "Chara": "Anthony",
+  "Id": "",
+  "Image": "Anthony.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Anton",
+  "Chara": "Anton",
+  "Id": "",
+  "Image": "Anton.png",
+  "Gender": "",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Aquito",
+  "Chara": "Aquito",
+  "Id": "",
+  "Image": "Aquito.png",
+  "Gender": "Female",
+  "Race": "[[Sankta]]",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Arcane/Story",
+  "Chara": "Li Zhiyan",
+  "Id": "",
+  "Image": "Arcane Splash Art.png",
+  "Gender": "",
+  "Race": "[[Liberi]]",
+  "Faction": "* [[Hongshan]]\n** [[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "Arclight/Story",
+  "Chara": "Ekut",
+  "Id": "",
+  "Image": "Arclight Splash Art.png",
+  "Gender": "Female",
+  "Race": "[[Kuranta]]",
+  "Faction": "*[[Hannabit Circuit]]\n*[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Ardashir",
+  "Chara": "Ardashir",
+  "Id": "",
+  "Image": "Ardashir.png",
+  "Gender": "",
+  "Race": "[[Phidia]]",
+  "Faction": "[[The Foundation]]"
+ },
+ {
+  "_pageName": "Argent Flow/Story",
+  "Chara": "Ye Minghe",
+  "Id": "",
+  "Image": "Argent Flow Splash Art.png",
+  "Gender": "",
+  "Race": "[[Lung]]",
+  "Faction": "* [[Hongshan]]\n** [[Imperial Guards of Yan]]"
+ },
+ {
+  "_pageName": "Aunt Tian",
+  "Chara": "Aunt Tian",
+  "Id": "",
+  "Image": "Aunt Tian.png",
+  "Gender": "Female",
+  "Race": "[[Zalak]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Avywenna/Story",
+  "Chara": "Lamp Avywenna",
+  "Id": "",
+  "Image": "Avywenna Splash Art.png",
+  "Gender": "Female",
+  "Race": "[[Cautus]]",
+  "Faction": "*Sloan Security (formerly)\n*[[Endfield Industries]]\n**Specialist Tech Division"
+ },
+ {
+  "_pageName": "Babbles",
+  "Chara": "Babbles",
+  "Id": "",
+  "Image": "Babbles.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "[[Wuling]]"
+ },
+ {
+  "_pageName": "Bai Shuang",
+  "Chara": "Bai Shuang",
+  "Id": "",
+  "Image": "Bai Shuang.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Bao Tianshi",
+  "Chara": "Bao Tianshi",
+  "Id": "",
+  "Image": "Bao Tianshi.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Bobo",
+  "Chara": "Bobo",
+  "Id": "",
+  "Image": "Bobo.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Brightfire",
+  "Chara": "Brightfire",
+  "Id": "",
+  "Image": "Brightfire.png",
+  "Gender": "Male",
+  "Race": "[[Liberi]]",
+  "Faction": "*[[HAS]]\n*[[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "Bronzer",
+  "Chara": "Bronzer",
+  "Id": "",
+  "Image": "Bronzer.png",
+  "Gender": "Male",
+  "Race": "[[Ursus]] (?)",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Bu Yuan",
+  "Chara": "Bu Yuan",
+  "Id": "",
+  "Image": "Bu Yuan.png",
+  "Gender": "Female",
+  "Race": "possibly [[Feline]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Camille/Story",
+  "Chara": "Camille Arno",
+  "Id": "",
+  "Image": "Camille Splash Art.png",
+  "Gender": "Male",
+  "Race": "[[Sarkaz]] ([[Vampire]])",
+  "Faction": "*[[Seš'qa]]\n**Agaš'mekanaz (Keepers of Wisdom)\n*[[Endfield Industries]]\n**Specialist Tech Division"
+ },
+ {
+  "_pageName": "Carly",
+  "Chara": "Carly",
+  "Id": "",
+  "Image": "",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Chang Yun",
+  "Chara": "Chang Yun",
+  "Id": "",
+  "Image": "Chang Yun.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Char",
+  "Chara": "Char Arno",
+  "Id": "",
+  "Image": "Char Arno.jpg",
+  "Gender": "",
+  "Race": "[[Sarkaz]] ([[Vampire]])",
+  "Faction": "*[[Seš'qa]] (Former)\n*[[Landbreaker]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Artyom",
+  "Id": "",
+  "Image": "Artyom.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Daniel",
+  "Id": "",
+  "Image": "Daniel.png",
+  "Gender": "Male",
+  "Race": "[[Forte]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Dewey",
+  "Id": "",
+  "Image": "Dewey.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Dmitry",
+  "Id": "",
+  "Image": "Dmitry.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Georgi",
+  "Id": "",
+  "Image": "Georgi.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Ginny",
+  "Id": "",
+  "Image": "Ginny.png",
+  "Gender": "Female",
+  "Race": "[[Perro]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Giovanni",
+  "Id": "",
+  "Image": "Giovanni.png",
+  "Gender": "Male",
+  "Race": "[[Lupo]]",
+  "Faction": "*[[Landbreaker#Bonekrushers|Bonekrushers]]\n*[[The Pack]] (Traitor)\n*[[New Pack]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Ingol",
+  "Id": "",
+  "Image": "Ingol.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Liu Han",
+  "Id": "",
+  "Image": "Liu Han.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Oleg",
+  "Id": "",
+  "Image": "Oleg.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Olga, Pavel and Rameld",
+  "Id": "",
+  "Image": "",
+  "Gender": "Female",
+  "Race": "<ul style=\"list-style-type: none; margin-left: 0\">\n<li>[[Cautus]] (Olga)</li> \n<li>Unknown (Pavel)</li>\n<li>[[Elafia]] (Rameld)</li>\n</ul>",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Raquel Jones",
+  "Id": "",
+  "Image": "Raquel Jones.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "*[[TGCC]]\n**Reeves Weekly"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Roman",
+  "Id": "",
+  "Image": "Roman.png",
+  "Gender": "Male",
+  "Race": "[[Liberi]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Romano",
+  "Id": "",
+  "Image": "Romano.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": ""
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Rosa",
+  "Id": "",
+  "Image": "Rosa.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": ""
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Staub",
+  "Id": "",
+  "Image": "Staub.png",
+  "Gender": "Male",
+  "Race": "[[Ursus]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Vera",
+  "Id": "",
+  "Image": "Vera.png",
+  "Gender": "Female",
+  "Race": "[[Kuranta]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Waitz",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "Possibly Sarkaz",
+  "Faction": ""
+ },
+ {
+  "_pageName": "Character/NPC-Minor",
+  "Chara": "Yulia",
+  "Id": "",
+  "Image": "Yulia.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Clavell",
+  "Chara": "Clavell",
+  "Id": "",
+  "Image": "Clavell.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Copper",
+  "Chara": "Copper",
+  "Id": "",
+  "Image": "Copper.png",
+  "Gender": "Male",
+  "Race": "[[Ursus]] (?)",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Crowe",
+  "Chara": "Crowe",
+  "Id": "",
+  "Image": "Crowe.png",
+  "Gender": "",
+  "Race": "[[Ursus]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Da Jiang",
+  "Chara": "Da Jiang",
+  "Id": "",
+  "Image": "Da Jiang.png",
+  "Gender": "Male",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Dean",
+  "Chara": "Dean",
+  "Id": "",
+  "Image": "Dean.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Dirt Rinser",
+  "Chara": "Dirt Rinser",
+  "Id": "",
+  "Image": "Dirt Rinser.png",
+  "Gender": "Male",
+  "Race": "[[Elafia]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Druan",
+  "Chara": "Druan",
+  "Id": "",
+  "Image": "Druan.png",
+  "Gender": "Male",
+  "Race": "[[Liberi]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Du Ming",
+  "Chara": "Du Ming",
+  "Id": "",
+  "Image": "Du Ming.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Dudu",
+  "Chara": "Dudu",
+  "Id": "",
+  "Image": "Dudu.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Dunning",
+  "Chara": "Dunning",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Ember/Story",
+  "Chara": "Azrila",
+  "Id": "",
+  "Image": "Ember Splash Art.png",
+  "Gender": "",
+  "Race": "[[Sankta]]",
+  "Faction": "*[[Order of Steel Oath]] (Former)\n*[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Fabian Collins",
+  "Chara": "Fabian Collins",
+  "Id": "",
+  "Image": "Fabian Collins.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "*[[UWST]]\n**UWST Security Bureau"
+ },
+ {
+  "_pageName": "Falken Gravning",
+  "Chara": "Falken Gravning",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "possibly [[Forty Heroes of Terra]]"
+ },
+ {
+  "_pageName": "Fang Ming",
+  "Chara": "Fang Ming",
+  "Id": "",
+  "Image": "Fang Ming.png",
+  "Gender": "Male",
+  "Race": "possibly [[Kuranta]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Fang Ze",
+  "Chara": "Fang Ze",
+  "Id": "",
+  "Image": "Fang Ze.png",
+  "Gender": "Female",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Fangfang",
+  "Chara": "Fangfang",
+  "Id": "",
+  "Image": "Fangfang.png",
+  "Gender": "Female",
+  "Race": "possibly [[Feline]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Fiona",
+  "Chara": "Fiona",
+  "Id": "npc_1003_fiona",
+  "Image": "Fiona.png",
+  "Gender": "Female",
+  "Race": "Unknown",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Foerster",
+  "Chara": "Foerster",
+  "Id": "",
+  "Image": "Foerster.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Fraissy",
+  "Chara": "Fraissy",
+  "Id": "",
+  "Image": "Fraissy.png",
+  "Gender": "",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Frigid",
+  "Chara": "Frigid",
+  "Id": "",
+  "Image": "Frigid.png",
+  "Gender": "Female",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "*[[HAS]]\n*[[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "Fu Bo",
+  "Chara": "Fu Bo",
+  "Id": "",
+  "Image": "Fu Bo.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Fu Qiu",
+  "Chara": "Fu Qiu",
+  "Id": "",
+  "Image": "Fu Qiu.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Ge Yipu",
+  "Chara": "Ge Yipu",
+  "Id": "",
+  "Image": "Ge Yipu.png",
+  "Gender": "Male",
+  "Race": "[[Perro]] (?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Gorion",
+  "Chara": "Gorion",
+  "Id": "",
+  "Image": "Gorion.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Han Fang",
+  "Chara": "Han Fang",
+  "Id": "",
+  "Image": "Han Fang.png",
+  "Gender": "Male",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Hans",
+  "Chara": "Hans",
+  "Id": "",
+  "Image": "Hans.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Mendez Manufacturing]]"
+ },
+ {
+  "_pageName": "Hartmann",
+  "Chara": "Hartmann",
+  "Id": "",
+  "Image": "Hartmann.png",
+  "Gender": "Male",
+  "Race": "possibly [[Perro]]",
+  "Faction": "[[Erikssohn Trading House]]"
+ },
+ {
+  "_pageName": "He Lao",
+  "Chara": "He Lao",
+  "Id": "",
+  "Image": "He Lao.png",
+  "Gender": "Male",
+  "Race": "[[Forte]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "He Zhiqi",
+  "Chara": "He Zhiqi",
+  "Id": "",
+  "Image": "He Zhiqi.png",
+  "Gender": "Female",
+  "Race": "[[Elafia]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Herbert",
+  "Chara": "Herbert",
+  "Id": "",
+  "Image": "Herbert.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Hermann",
+  "Chara": "Hermann",
+  "Id": "",
+  "Image": "Hermann.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Higgins",
+  "Chara": "Higgins",
+  "Id": "",
+  "Image": "Higgins.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Hock the Miner Quarry",
+  "Chara": "Hock",
+  "Id": "",
+  "Image": "Hock the Miner Quarry.png",
+  "Gender": "Male",
+  "Race": "possibly [[Liberi]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Hong Bo",
+  "Chara": "Hong Bo",
+  "Id": "",
+  "Image": "Hong Bo.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Hong Ni",
+  "Chara": "Hong Ni",
+  "Id": "",
+  "Image": "Hong Ni.png",
+  "Gender": "Male",
+  "Race": "possibly [[Kuranta]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Huang Di",
+  "Chara": "Huang Di",
+  "Id": "",
+  "Image": "Huang Di.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Hughes",
+  "Chara": "Hughes",
+  "Id": "",
+  "Image": "Hughes.png",
+  "Gender": "Male",
+  "Race": "[[Elafia]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Instructor Zhu",
+  "Chara": "Instructor Zhu",
+  "Id": "",
+  "Image": "Instructor Zhu.png",
+  "Gender": "Male",
+  "Race": "[[Forte]]",
+  "Faction": "* [[Hongshan]]\n** [[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "Iron Boatswain",
+  "Chara": "Iron Boatswain",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "*[[HAS]] (current - returned)\n**[[Wuling Watchguards]]\n*[[Qingbo Stockade]] (previously)"
+ },
+ {
+  "_pageName": "Jakub Meissen",
+  "Chara": "Jakub Meissen",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "[[Sarkaz]]",
+  "Faction": "*[[Seš'qa]] (Former)\n*[[Landbreakers]]"
+ },
+ {
+  "_pageName": "Jana",
+  "Chara": "Jana",
+  "Id": "",
+  "Image": "Jana.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Jeffrey",
+  "Chara": "Jeffrey",
+  "Id": "",
+  "Image": "Jeffrey.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Jenner",
+  "Chara": "Jenner",
+  "Id": "",
+  "Image": "Jenner.png",
+  "Gender": "",
+  "Race": "possibly Caprinae",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Ji Bing",
+  "Chara": "Ji Bing",
+  "Id": "",
+  "Image": "Ji Bing.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Jia Ban",
+  "Chara": "Jia Ban",
+  "Id": "",
+  "Image": "Jia Ban.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Jing Hong",
+  "Chara": "Jing Hong",
+  "Id": "",
+  "Image": "Jing Hong.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Joan",
+  "Chara": "Joan",
+  "Id": "",
+  "Image": "Joan.png",
+  "Gender": "Female",
+  "Race": "[[Cautus]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Ju Mei",
+  "Chara": "Ju Mei",
+  "Id": "",
+  "Image": "Ju Mei.png",
+  "Gender": "",
+  "Race": "?",
+  "Faction": "[[Hongshan]]"
+ },
+ {
+  "_pageName": "Karja",
+  "Chara": "Karja",
+  "Id": "",
+  "Image": "Karja.png",
+  "Gender": "Male",
+  "Race": "[[Perro]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Kay",
+  "Chara": "Kay",
+  "Id": "",
+  "Image": "Kay.png",
+  "Gender": "",
+  "Race": "[[Perro]] ([[Cerberus]])",
+  "Faction": "[[Rhodes Island]]"
+ },
+ {
+  "_pageName": "Kitt",
+  "Chara": "Kitt",
+  "Id": "",
+  "Image": "Kitt.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Klara",
+  "Chara": "Klara",
+  "Id": "",
+  "Image": "Klara.png",
+  "Gender": "Female",
+  "Race": "[[Cautus]]",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Kong Yutong",
+  "Chara": "Kong Yutong",
+  "Id": "",
+  "Image": "Kong Yutong.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Kuhn",
+  "Chara": "Kuhn",
+  "Id": "",
+  "Image": "Kuhn.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Kuzminichna",
+  "Chara": "Kuzminichna",
+  "Id": "",
+  "Image": "Kuzminichna.png",
+  "Gender": "Female",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Lady Boss",
+  "Chara": "Lady Boss",
+  "Id": "",
+  "Image": "Lady Boss.png",
+  "Gender": "Female",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "*[[HAS]]\n*[[Wuling Travel Service]]"
+ },
+ {
+  "_pageName": "Lan Shan",
+  "Chara": "Lan Shan",
+  "Id": "",
+  "Image": "Lan Shan.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Lang Tou",
+  "Chara": "Lang Tou",
+  "Id": "",
+  "Image": "Lang Tou.png",
+  "Gender": "Male",
+  "Race": "[[Forte]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Laskova",
+  "Chara": "Laskova",
+  "Id": "",
+  "Image": "Laskova.png",
+  "Gender": "Female",
+  "Race": "possibly [[Ursus]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Li Heng",
+  "Chara": "Li Heng",
+  "Id": "",
+  "Image": "Li Heng.png",
+  "Gender": "Male",
+  "Race": "[[Liberi]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Li Liangliang",
+  "Chara": "Li Liangliang",
+  "Id": "",
+  "Image": "Li Liangliang.png",
+  "Gender": "Female",
+  "Race": "possibly [[Kuranta]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Li Ming",
+  "Chara": "Li Ming",
+  "Id": "",
+  "Image": "Li Ming.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Li Zhui",
+  "Chara": "Li Zhui",
+  "Id": "",
+  "Image": "Li Zhui.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Lian Xiaowu",
+  "Chara": "Lian Xiaowu",
+  "Id": "",
+  "Image": "Lian Xiaowu.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "*[[HAS]]\n**[[Bureau of Swordmancers]]"
+ },
+ {
+  "_pageName": "Liao the Scarless",
+  "Chara": "Liao the Scarless",
+  "Id": "",
+  "Image": "Liao the Scarless.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Lifeng/Story",
+  "Chara": "Lifeng",
+  "Id": "",
+  "Image": "Lifeng Splash Art.png",
+  "Gender": "Male",
+  "Race": "[[Anasa]]",
+  "Faction": "*[[HAS]]\n*[[Wuling Watchguards]]"
+ },
+ {
+  "_pageName": "Liino/Story",
+  "Chara": "Liino",
+  "Id": "",
+  "Image": "Liino Splash Art.png",
+  "Gender": "Female",
+  "Race": "[[Sarkaz]] ([[Djall]])",
+  "Faction": ""
+ },
+ {
+  "_pageName": "Lil' Dodge",
+  "Chara": "Lil' Dodge",
+  "Id": "",
+  "Image": "Lil' Dodge.png",
+  "Gender": "Male",
+  "Race": "[[Perro]]",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Lilica",
+  "Chara": "Lilica",
+  "Id": "",
+  "Image": "Lilica.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Lin Hu",
+  "Chara": "Lin Hu",
+  "Id": "",
+  "Image": "Lin Hu.png",
+  "Gender": "Male",
+  "Race": "(?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Lin Ke",
+  "Chara": "Lin Ke",
+  "Id": "",
+  "Image": "Lin Ke.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Ling Luo",
+  "Chara": "Ling Luo",
+  "Id": "",
+  "Image": "Ling Luo.png",
+  "Gender": "Female",
+  "Race": "possibly [[Perro]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Ling Yue",
+  "Chara": "Ling Yue",
+  "Id": "",
+  "Image": "Ling Yue.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Linnaeus",
+  "Chara": "Linnaeus",
+  "Id": "",
+  "Image": "Linnaeus.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Little Wu",
+  "Chara": "Little Wu",
+  "Id": "",
+  "Image": "Little Wu.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Liu",
+  "Chara": "Liu",
+  "Id": "",
+  "Image": "Liu.png",
+  "Gender": "Male",
+  "Race": "[[Forte]] (?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Liu Xie",
+  "Chara": "Liu Xie",
+  "Id": "",
+  "Image": "Liu Xie.png",
+  "Gender": "Male",
+  "Race": "possibly [[Feline]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Loang the Miner Quarry",
+  "Chara": "Loang",
+  "Id": "",
+  "Image": "Loang the Miner Quarry.png",
+  "Gender": "Male",
+  "Race": "possibly [[Perro]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Lonnard",
+  "Chara": "Lonnard",
+  "Id": "",
+  "Image": "Lonnard.png",
+  "Gender": "",
+  "Race": "possibly [[Forte]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Lu Lingxiang",
+  "Chara": "Lu Lingxiang",
+  "Id": "",
+  "Image": "Lu Lingxiang.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Lu Xin",
+  "Chara": "Lu Xin",
+  "Id": "",
+  "Image": "Lu Xin.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Lu Yan",
+  "Chara": "Lu Yan",
+  "Id": "",
+  "Image": "Lu Yan.png",
+  "Gender": "Male",
+  "Race": "[[Kuranta]] (?)",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Lu Yaofeng",
+  "Chara": "Lu Yaofeng",
+  "Id": "",
+  "Image": "Lu Yaofeng.png",
+  "Gender": "Male",
+  "Race": "[[Elafia]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Lucky Carrot",
+  "Chara": "Lucky Carrot",
+  "Id": "",
+  "Image": "Lucky Carrot.png",
+  "Gender": "Unknow",
+  "Race": "[[Cautus]] (mascot)",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Luke",
+  "Chara": "Luke",
+  "Id": "",
+  "Image": "Luke.png",
+  "Gender": "Male",
+  "Race": "[[Sankta]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Lycia",
+  "Chara": "Lycia",
+  "Id": "",
+  "Image": "Lycia.png",
+  "Gender": "",
+  "Race": "",
+  "Faction": "[[Endfield Industries]] (formerly)"
+ },
+ {
+  "_pageName": "M3",
+  "Chara": "M3",
+  "Id": "",
+  "Image": "M3.png",
+  "Gender": "Female",
+  "Race": "[[Feline]]",
+  "Faction": "[[Endfield Industries]]\nZeroth Directive (Formally)"
+ },
+ {
+  "_pageName": "Maggie",
+  "Chara": "Maggie",
+  "Id": "",
+  "Image": "Maggie.png",
+  "Gender": "",
+  "Race": "?",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Mark",
+  "Chara": "Mark",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Martina",
+  "Chara": "Martina",
+  "Id": "",
+  "Image": "Martina.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[La Fantoma]]"
+ },
+ {
+  "_pageName": "Matteo",
+  "Chara": "Matteo",
+  "Id": "",
+  "Image": "Matteo.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Matvei",
+  "Chara": "Matvei",
+  "Id": "",
+  "Image": "Matvei.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Maymay",
+  "Chara": "Maymay",
+  "Id": "",
+  "Image": "Maymay.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Medical Officer Yue",
+  "Chara": "Yue",
+  "Id": "",
+  "Image": "Medical Officer Yue.png",
+  "Gender": "Male",
+  "Race": "[[Caprinae]] (?)",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Meng Ai",
+  "Chara": "Meng Ai",
+  "Id": "",
+  "Image": "Meng Ai.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Mi Fu/Story",
+  "Chara": "Mi Fu",
+  "Id": "",
+  "Image": "Mi Fu Splash Art.png",
+  "Gender": "",
+  "Race": "[[Sarkaz]]",
+  "Faction": "[[Hongshan Academy of Sciences]]"
+ },
+ {
+  "_pageName": "Mia",
+  "Chara": "Mia",
+  "Id": "",
+  "Image": "Mia.png",
+  "Gender": "Female",
+  "Race": "[[Cautus]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Miguel",
+  "Chara": "Miguel",
+  "Id": "",
+  "Image": "Miguel.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Mila",
+  "Chara": "Mila",
+  "Id": "",
+  "Image": "Mila.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Mo Hen",
+  "Chara": "Mo Hen",
+  "Id": "",
+  "Image": "Mo Hen.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Mo Yu",
+  "Chara": "Mo Yu",
+  "Id": "",
+  "Image": "Mo Yu.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Molly",
+  "Chara": "Molly",
+  "Id": "",
+  "Image": "Molly.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Mr. Ouyang the Freedom Lover",
+  "Chara": "Mr. Ouyang",
+  "Id": "",
+  "Image": "Mr. Ouyang the Freedom Lover.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Ms. An the Little Stitious",
+  "Chara": "Ms. An",
+  "Id": "",
+  "Image": "Ms. An the Little Stitious.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Mysterious Girl",
+  "Chara": "Mysterious Girl",
+  "Id": "",
+  "Image": "Mysterious Girl.png",
+  "Gender": "",
+  "Race": "Unknown",
+  "Faction": "[[The Foundation]]"
+ },
+ {
+  "_pageName": "Nefarith",
+  "Chara": "Nefarith",
+  "Id": "",
+  "Image": "Nefarith Closeup.png",
+  "Gender": "",
+  "Race": "[[Archosauria]]",
+  "Faction": "*[[Landbreaker]]s\n**Bonekrushers (''de facto'' leader)"
+ },
+ {
+  "_pageName": "Ning Xiyun",
+  "Chara": "Ning Xiyun",
+  "Id": "",
+  "Image": "Ning Xiyun.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Noffman",
+  "Chara": "Noffman",
+  "Id": "",
+  "Image": "Noffman.png",
+  "Gender": "Male",
+  "Race": "[[Vulpo]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Nurse Li",
+  "Chara": "Nurse Li",
+  "Id": "",
+  "Image": "Nurse Li.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Old John",
+  "Chara": "John",
+  "Id": "",
+  "Image": "Old John.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Old Tianshi",
+  "Chara": "Old Tianshi",
+  "Id": "",
+  "Image": "Old Tianshi.png",
+  "Gender": "Female",
+  "Race": "[[Elafia]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Overflow",
+  "Chara": "Overflow",
+  "Id": "",
+  "Image": "Overflow.png",
+  "Gender": "Female",
+  "Race": "[[Elafia]]",
+  "Faction": "*[[HAS]]\n*[[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "Pei Lingrong",
+  "Chara": "Pei Lingrong",
+  "Id": "",
+  "Image": "Pei Lingrong.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Penny",
+  "Chara": "Penny",
+  "Id": "",
+  "Image": "Penny.png",
+  "Gender": "Female",
+  "Race": "[[Caprinae]] (?)",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Perlica/Story",
+  "Chara": "Perlica",
+  "Id": "",
+  "Image": "Perlica Splash Art.png",
+  "Gender": "Female",
+  "Race": "[[Liberi]]",
+  "Faction": "*[[Endfield Industries]]\n**Specialist Tech Division\n***[[Crisis Team]]\n**[[Engineering Division]]\n**Zeroth Directive"
+ },
+ {
+  "_pageName": "Philip",
+  "Chara": "Philip",
+  "Id": "",
+  "Image": "Philip.png",
+  "Gender": "Male",
+  "Race": "(?)",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Phrase",
+  "Chara": "Phrase",
+  "Id": "",
+  "Image": "Phrase.png",
+  "Gender": "Female",
+  "Race": "possibly [[Lung]]",
+  "Faction": "*[[HAS]]\n*[[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "Phyllis",
+  "Chara": "Phyllis",
+  "Id": "",
+  "Image": "Phyllis.png",
+  "Gender": "Female",
+  "Race": "[[Cautus]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Physician Cui",
+  "Chara": "Physician Cui",
+  "Id": "",
+  "Image": "Physician Cui.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Piot",
+  "Chara": "Piot",
+  "Id": "",
+  "Image": "Piot.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[La Fantoma]]"
+ },
+ {
+  "_pageName": "Precipice",
+  "Chara": "Precipice",
+  "Id": "",
+  "Image": "Precipice.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "*[[HAS]]\n*[[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "Primo Linde",
+  "Chara": "Primo Linde",
+  "Id": "",
+  "Image": "Primo Linde.png",
+  "Gender": "Male",
+  "Race": "(?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Pu Yuan",
+  "Chara": "Pu Yuan",
+  "Id": "",
+  "Image": "Pu Yuan.png",
+  "Gender": "",
+  "Race": "?",
+  "Faction": "[[Hongshan]]"
+ },
+ {
+  "_pageName": "Punty Pole",
+  "Chara": "Punty Pole",
+  "Id": "",
+  "Image": "Punty Pole.png",
+  "Gender": "Male",
+  "Race": "[[Elafia]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Qi Lun",
+  "Chara": "Qi Lun",
+  "Id": "",
+  "Image": "Qi Lun.png",
+  "Gender": "Female",
+  "Race": "[[Liberi]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Qin Jiangchi",
+  "Chara": "Qin Jiangchi",
+  "Id": "npc_1002_qinjc",
+  "Image": "Qin Jiangchi.png",
+  "Gender": "",
+  "Race": "[[Phidia]]",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Qingwu",
+  "Chara": "Qingwu",
+  "Id": "",
+  "Image": "Qingwu.png",
+  "Gender": "Female",
+  "Race": "[[Liberi]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Qingzhu",
+  "Chara": "Qingzhu",
+  "Id": "",
+  "Image": "Qingzhu.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "*[[HAS]]\n*[[South Hongshan Troupe]]"
+ },
+ {
+  "_pageName": "Ramon",
+  "Chara": "Ramon",
+  "Id": "",
+  "Image": "Ramon.png",
+  "Gender": "Male",
+  "Race": "[[Perro]] (?)",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Ren Zhenyun",
+  "Chara": "Ren Zhenyun",
+  "Id": "",
+  "Image": "Ren Zhenyun.png",
+  "Gender": "Male",
+  "Race": "(?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Rick",
+  "Chara": "Rick",
+  "Id": "",
+  "Image": "Rick.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Riska",
+  "Chara": "Riska",
+  "Id": "",
+  "Image": "Riska.png",
+  "Gender": "Male",
+  "Race": "possibly [[Feline]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Ropp",
+  "Chara": "Ropp",
+  "Id": "",
+  "Image": "Ropp.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Rorke",
+  "Chara": "Rorke",
+  "Id": "",
+  "Image": "Rorke.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Rossi/Story",
+  "Chara": "Rossina Wulfperl Luppino",
+  "Id": "",
+  "Image": "Rossi Splash Art.png",
+  "Gender": "Female",
+  "Race": "[[Lupo]]",
+  "Faction": "*[[The Pack]]\n*[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Ruan Yi/NPC",
+  "Chara": "Ruan Yi",
+  "Id": "",
+  "Image": "Ruan Yi.png",
+  "Gender": "Male",
+  "Race": "[[Forte]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Rusty Hook",
+  "Chara": "Rusty Hook",
+  "Id": "",
+  "Image": "Rusty Hook.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "*[[Qingbo Stockade]]\n*[[HAS]] (previous)"
+ },
+ {
+  "_pageName": "Salman",
+  "Chara": "Salman",
+  "Id": "",
+  "Image": "Salman.png",
+  "Gender": "Female",
+  "Race": "[[Elafia]]",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Sami (Feranmut)",
+  "Chara": "\"Sami\"",
+  "Id": "",
+  "Image": "",
+  "Gender": "Neutra",
+  "Race": "[[Feranmut]]",
+  "Faction": ""
+ },
+ {
+  "_pageName": "Scott",
+  "Chara": "Scott",
+  "Id": "",
+  "Image": "Scott.png",
+  "Gender": "Male",
+  "Race": "[[Caprinae]] (?)",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Semyon",
+  "Chara": "Semyon",
+  "Id": "",
+  "Image": "Semyon.png",
+  "Gender": "",
+  "Race": "?",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Sergio Leon",
+  "Chara": "Sergio Leon",
+  "Id": "",
+  "Image": "Sergio Leon.png",
+  "Gender": "Female",
+  "Race": "",
+  "Faction": "*[[Endfield Industries]]\n**Logistic Division"
+ },
+ {
+  "_pageName": "Shang Jin",
+  "Chara": "Shang Jin",
+  "Id": "",
+  "Image": "Shang Jin.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Shawna",
+  "Chara": "Shawna",
+  "Id": "",
+  "Image": "Shawna.png",
+  "Gender": "Female",
+  "Race": "[[Liberi]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Shen Chibai",
+  "Chara": "Shen Chibai",
+  "Id": "",
+  "Image": "",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Shen Hai",
+  "Chara": "Shen Hai",
+  "Id": "",
+  "Image": "Shen Hai.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "*[[HAS]]\n*[[South Hongshan Troupe]]"
+ },
+ {
+  "_pageName": "Simma",
+  "Chara": "Simma",
+  "Id": "",
+  "Image": "Simma.png",
+  "Gender": "Female",
+  "Race": "[[Liberi]] (?)",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Sivka",
+  "Chara": "Sivka",
+  "Id": "",
+  "Image": "Sivka.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Soth",
+  "Chara": "Soth",
+  "Id": "",
+  "Image": "Soth.png",
+  "Gender": "Male",
+  "Race": "[[Forte]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Stonefang",
+  "Chara": "Stonefang",
+  "Id": "",
+  "Image": "Stonefang.png",
+  "Gender": "Male",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Su Baiyi",
+  "Chara": "Su Baiyi",
+  "Id": "",
+  "Image": "Su Baiyi.png",
+  "Gender": "Female",
+  "Race": "[[Kuranta]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Sui",
+  "Chara": "Sui",
+  "Id": "",
+  "Image": "Sui.png",
+  "Gender": "Agende",
+  "Race": "[[Feranmut]]",
+  "Faction": ""
+ },
+ {
+  "_pageName": "Summit",
+  "Chara": "Summit",
+  "Id": "",
+  "Image": "Summit.png",
+  "Gender": "Male",
+  "Race": "[[Lung]]",
+  "Faction": "*[[South Hongshan Troupe]] (formerly)\n*[[Yinglung Special Task Force]]"
+ },
+ {
+  "_pageName": "TA-TA",
+  "Chara": "TA-TA",
+  "Id": "",
+  "Image": "Tata.png",
+  "Gender": "",
+  "Race": "",
+  "Faction": ""
+ },
+ {
+  "_pageName": "Tarman",
+  "Chara": "Tarman",
+  "Id": "",
+  "Image": "Tarman.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Thales",
+  "Chara": "Thales",
+  "Id": "",
+  "Image": "Thales.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Thurston",
+  "Chara": "Thurston",
+  "Id": "",
+  "Image": "Thurston.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[Endfield Industries]]"
+ },
+ {
+  "_pageName": "Tian Min",
+  "Chara": "Tian Min",
+  "Id": "",
+  "Image": "Tian Min.png",
+  "Gender": "Male",
+  "Race": "possibly [[Kuranta]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Tianshi Chen",
+  "Chara": "Tianshi Chen",
+  "Id": "",
+  "Image": "Tianshi Chen.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Tianshi Han",
+  "Chara": "Tianshi Han",
+  "Id": "",
+  "Image": "Tianshi Han.png",
+  "Gender": "Female",
+  "Race": "possibly [[Lung]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Tin Ingot",
+  "Chara": "Tin Ingot",
+  "Id": "",
+  "Image": "Tin Ingot.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Typhoeus/Story",
+  "Chara": "Typhoeus",
+  "Id": "",
+  "Image": "Typhoeus Splash Art.png",
+  "Gender": "Female",
+  "Race": "[[Sarkaz]]",
+  "Faction": "[[Rhodes Island]]"
+ },
+ {
+  "_pageName": "Uncle Ronan",
+  "Chara": "Uncle Ronan",
+  "Id": "",
+  "Image": "Uncle Ronan.png",
+  "Gender": "Male",
+  "Race": "possibly [[Ursus]]",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Uncle Shang",
+  "Chara": "Uncle Shang",
+  "Id": "",
+  "Image": "Uncle Shang.png",
+  "Gender": "Male",
+  "Race": "possibly [[Forte]]",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Uncle Zhao",
+  "Chara": "Uncle Zhao",
+  "Id": "",
+  "Image": "Uncle Zhao.png",
+  "Gender": "Male",
+  "Race": "[[Liberi]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Vannikov",
+  "Chara": "Vannikov",
+  "Id": "",
+  "Image": "Vannikov.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Walton",
+  "Chara": "Walton",
+  "Id": "",
+  "Image": "Walton.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[TGCC]]"
+ },
+ {
+  "_pageName": "Wan Leshuang",
+  "Chara": "Wan Leshuang",
+  "Id": "",
+  "Image": "Wan Leshuang.png",
+  "Gender": "Female",
+  "Race": "possibly [[Lung]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Warfarin",
+  "Chara": "Warfarin",
+  "Id": "",
+  "Image": "",
+  "Gender": "Female",
+  "Race": "[[Sarkaz]] ([[Vampire]])",
+  "Faction": "[[Rhodes Island]]"
+ },
+ {
+  "_pageName": "Waterbell",
+  "Chara": "Waterbell",
+  "Id": "",
+  "Image": "Waterbell.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[Qingbo Stockade]]"
+ },
+ {
+  "_pageName": "Wei Xidong",
+  "Chara": "Wei Xidong",
+  "Id": "",
+  "Image": "Wei Xidong.png",
+  "Gender": "Male",
+  "Race": "[[Elafia]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Wellmorin",
+  "Chara": "Wellmorin",
+  "Id": "",
+  "Image": "Wellmorin.png",
+  "Gender": "",
+  "Race": "[[Caprinae]] (?)",
+  "Faction": "Travelling Merchant"
+ },
+ {
+  "_pageName": "Wu Jingwei",
+  "Chara": "Wu Jingwei",
+  "Id": "",
+  "Image": "Wu Jingwei.png",
+  "Gender": "Female",
+  "Race": "possibly [[Lung]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Wulfgard/Story",
+  "Chara": "Catello Wulfgard Luppino",
+  "Id": "",
+  "Image": "Wulfgard Splash Art.png",
+  "Gender": "Male",
+  "Race": "[[Lupo]]",
+  "Faction": "*[[The Pack]]\n*[[Endfield Industries]]\n**Specialist Tech Division\n**[[Crisis Team]]"
+ },
+ {
+  "_pageName": "Xi Mo",
+  "Chara": "Xi Mo",
+  "Id": "",
+  "Image": "Xi Mo.png",
+  "Gender": "Male",
+  "Race": "possibly [[Perro]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Xia Yi",
+  "Chara": "Xia Yi",
+  "Id": "",
+  "Image": "Xia Yi.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Xiao Xiang",
+  "Chara": "Xiao Xiang",
+  "Id": "",
+  "Image": "Xiao Xiang.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yan Lin",
+  "Chara": "Yan Lin",
+  "Id": "",
+  "Image": "Yan Lin.png",
+  "Gender": "Male",
+  "Race": "possibly [[Feline]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yan Ning",
+  "Chara": "Yan Ning",
+  "Id": "",
+  "Image": "Yan Ning.png",
+  "Gender": "Female",
+  "Race": "[[Lung]] (?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yao Le",
+  "Chara": "Yao Le",
+  "Id": "",
+  "Image": "Yao Le.png",
+  "Gender": "Female",
+  "Race": "[[Forte]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yin Dong",
+  "Chara": "Yin Dong",
+  "Id": "",
+  "Image": "Yin Dong.png",
+  "Gender": "Male",
+  "Race": "possibly [[Vulpo]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Ylla",
+  "Chara": "Ylla",
+  "Id": "",
+  "Image": "Ylla.png",
+  "Gender": "Female",
+  "Race": "[[Cautus]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Yongning",
+  "Chara": "Yongning",
+  "Id": "",
+  "Image": "Yongning.png",
+  "Gender": "Male",
+  "Race": "",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yu Shi",
+  "Chara": "Yu Shi",
+  "Id": "",
+  "Image": "Yu Shi.png",
+  "Gender": "Female",
+  "Race": "possibly [[Lung]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yu Xiuli",
+  "Chara": "Yu Xiuli",
+  "Id": "",
+  "Image": "Yu Xiuli.png",
+  "Gender": "Female",
+  "Race": "(?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yue (HAS)",
+  "Chara": "Yue",
+  "Id": "",
+  "Image": "Yue.png",
+  "Gender": "Female",
+  "Race": "(?)",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Yuley",
+  "Chara": "Yuley",
+  "Id": "",
+  "Image": "Yuley.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[UWST]]"
+ },
+ {
+  "_pageName": "Yuxuan",
+  "Chara": "Yuxuan",
+  "Id": "",
+  "Image": "Yuxuan.png",
+  "Gender": "Female",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Zach",
+  "Chara": "Zach",
+  "Id": "",
+  "Image": "Zach.png",
+  "Gender": "Male",
+  "Race": "possibly [[Kuranta]]",
+  "Faction": "Valley IV Refugees"
+ },
+ {
+  "_pageName": "Zhao Zhao",
+  "Chara": "Zhao Zhao",
+  "Id": "",
+  "Image": "Zhao Zhao.png",
+  "Gender": "Male",
+  "Race": "[[Liberi]]",
+  "Faction": "[[HAS]]"
+ },
+ {
+  "_pageName": "Zhuang Fangyi/Story",
+  "Chara": "Zhuang Fangyi",
+  "Id": "",
+  "Image": "Zhuang Fangyi Splash Art.png",
+  "Gender": "",
+  "Race": "[[Kylin]]",
+  "Faction": "[[Hongshan Academy of Sciences]]"
+ },
+ {
+  "_pageName": "Zuo Guyan",
+  "Chara": "Zuo Guyan",
+  "Id": "",
+  "Image": "Zuo Guyan.png",
+  "Gender": "Male",
+  "Race": "?",
+  "Faction": "[[HAS]]"
+ }
+]

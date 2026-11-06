@@ -1,0 +1,16 @@
+local data={
+	["Ardelia"]={name="Ardelia", class="Supporter", element="Nature", weapon="Orbiter", faction="Rhodes Island"},
+	["Ember"]={name="Ember", class="Defender", element="Heat", weapon="Great Sword", faction="Order of Steel Oath"},
+	["Endministrator"]={name="Endministrator", class="Guard", element="Physical", weapon="Sword", faction="Endfield Industries"},
+	["Gilberta"]={name="Gilberta", class="Supporter", element="Nature", weapon="Orbiter", faction="Rhodes Island"},
+	["Laevatain"]={name="Laevatain", class="Caster", element="Heat", weapon="Sword", faction="Rhodes Island"},
+	["Last Rite"]={name="Last Rite", class="Striker", element="Cryo", weapon="Great Sword", faction="Seš'qa"},
+	["Lifeng"]={name="Lifeng", class="Guard", element="Physical", weapon="Polearm", faction="Hongshan"},
+	["Pogranichnik"]={name="Pogranichnik", class="Vanguard", element="Physical", weapon="Sword", faction="Rhodes Island"},
+	["Yvonne"]={name="Yvonne", class="Caster", element="Cryo", weapon="Guns", faction="Endfield Industries"},
+}
+
+for k, v in pairs(data) do
+	v.star=(6)
+end
+return data

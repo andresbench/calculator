@@ -1,0 +1,226 @@
+This article explains the mechanics of damage calculation in ''Arknights: Endfield''.
+
+==Overview==
+All numbers are calculated to the exact value, including decimals. When floating damage numbers or values are displayed in-game or in a menu, the value is usually rounded down to the closest integer (e.g. 99.6 is shown as 99).
+
+The formula for most damage is as follows:
+
+<math> {Damage} = 
+{Attack} 
+\times {Base\,Multiplier} 
+\times {Multiplier\,Group} </math><math>
+\times {Critical\,Multiplier} 
+\times {Amp\,Multiplier} </math><math>
+\times {Stagger\,Multiplier} 
+\times {Finisher\,Multiplier} </math><math>
+\times {Link\,Multiplier} 
+\times {Weaken\,Multiplier} </math><math>
+\times {Susceptibility\,Multiplier} 
+\times {Increased\,DMG\,Taken\,Multiplier} </math><math>
+\times {DMG\,Reduction\,Multiplier} 
+\times {Protection\,Multiplier} </math><math>
+\times {Defense\,Multiplier} 
+\times {Resistance\,Multiplier} </math><math>
+\times {Multiplicative\,Multiplier} </math>
+
+
+===Attack===
+This is the base value for almost all outgoing damage, and can be seen on the Operator sceen. Percentage increases ("Attack + x%") are only applied to the Base ATK consisting out of the Operator and Weapon ATK. A Special Bonus can be received in certain Protocol Spaces.
+
+<math>{Attack} = \left(({Operator\,Attack} + {Weapon\,Attack}) \times {Percentage\,Bonuses} + {Fixed\,Bonus} + {Special\,Bonus}\right) </math><math>
+ \times {Attribute\,Bonus}</math><br>
+
+with:
+<math>{Attribute\,Bonus} = 1 + 0.005 \times {Main\,Attribute} + 0.002 \times {Secondary\,Attribute} </math>
+
+
+===Base Multiplier===
+The base multiplier for Basic Attacks and Skills, the values can be seen in-game. For example, Perlica's Battle Skill has a 1.78 DMG Multiplier on Rank 1. The Base Multiplier for other effects such as {{G|Crush}} or {{G|Combustion}} are listed in the section [[Damage_calculation#Physical_Statuses,_Arts_Bursts_and_Arts_Reactions|below]].
+
+
+===Multiplier Group===
+<math>{Multiplier\,Group} = 1 + \sum {Damage\,Bonuses}</math><br>
+This multiplier group sums up many various damage increases that are described as "... DMG Bonus". This includes:
+*Damage type specific increases, for example "Physical DMG Bonus"
+*Skill type specific increases, for example "Battle DMG Damage Bonus"
+*"DMG Bonus vs. Staggered"
+*"DMG Bonus"
+
+
+===Critical Multiplier===
+<math>
+{Critical\,Multiplier} =
+\begin{cases} 
+1 + {Critical\,DMG},  & \mbox{if the hit is critical}\\
+1, & \mbox{if the hit is not critical} 
+\end{cases}
+</math><br>
+The base [[Critical Rate]] of Operators is 5%, and the Critical DMG is 50%. A critical hit will have "Crit" displayed above its floating damage number. {{G|DMG Over Time|Damage over time effects}} cannot crit. Though it is worth noting that this mechanic is inconsistent throughout the game: Some Skills are described as damage over time effect, despite them being able to crit.
+
+
+===Amp Multiplier===
+<math>{Amp\,Multiplier} = 1 + \sum {Amp\,Bonuses}</math><br>
+{{G|Amp}} can increase the damage dealt. All applicable bonuses are added together. Amp is usually only active for specific damage types. For example, Antal can apply {{G|Electric Amp}} and {{G|Heat Amp}} with his Ultimate.
+
+
+===Stagger Multiplier===
+<math>
+{Stagger\,Multiplier} =
+\begin{cases} 
+1.3,  & \mbox{if the target is staggered}\\
+1, & \mbox{if the target is not staggered} 
+\end{cases}
+</math><br>
+Most enemies have a certain amount of Stagger HP, represented as a bar underneath their healt bar. Dealing Stagger fills the bar. Once the bar is filled, the enemy will be staggered and takes increased damage.
+
+
+===Finisher Multiplier===
+<math>
+{Finisher\,Multiplier} =
+\begin{cases} 
+1,  & \mbox{if the attack is not a finisher}\\
+1,  & \mbox{if the target is an Common Enemy}\\
+1.25,  & \mbox{if the target is an Advanced Enemy}\\
+1.5,  & \mbox{if the target is an Elite or Alpha Enemy}\\
+1.75,  & \mbox{if the target is an Boss Enemy}
+\end{cases}
+</math><br>
+The first basic attack against a staggered enemy becomes a Finisher. This finisher has a special multiplier that is tied to the specific enemy. Currently the values are the same for enemies of the same tier.
+
+
+===Link Multiplier===
+<math>
+{Link\,Multiplier} =
+\begin{cases} 
+1 + {Link\,Bonus},  & \mbox{if the Skill used a Link buff}\\
+1, & \mbox{if no Link buff is used} 
+\end{cases}
+</math><br>
+{{G|Link}} increases the damage dealt by the next Battle Skill or Ultimate cast by the team. Link buffs can stack, but have diminishing returns:
+*Link Bonus for Battle Skills: 30/45/60/75%
+*Link Bonus for Ultimates: 20/30/40/50%
+
+===Weakness Multiplier===
+<math>{Weakness\,Multiplier} = \prod (1 - {Weakness\,Effect})</math><br>
+{{G|Weaken|Weakness}} decreases the damage dealt. Multiple sources of Weakness stack multiplicately. Currently only Catcher and Camille are capable of applying this effect.
+
+
+===Susceptibility Multiplier===
+<math>{Susceptibility\,Multiplier} = 1 + \sum ({Susceptibility\,Effect} \times {Susceptibility\,Effect\;Multiplier})</math><br>
+
+{{G|Susceptible|Susceptibility}} increases the damage taken. Multiple sources of the same susceptibility such as two different sources of {{G|Arts Susceptibility}} or both {{G|Arts Susceptibility}} and {{G|Heat Susceptibility}} on the same unit stack <u>additively</u> and are classified under '''Susceptibility Effect'''.
+
+Effects that use the wording "The effect of that {{G|Susceptible|Susceptibility}} is {{Color|1.X|1d}} times the original" stacks <u>multiplicatively</u> with the summation of Susceptibility Effects and are classified under '''Susceptibility Effect Multiplier'''. Currently, the only example is {{Icon|Last Rite icon|text=false}} {{C|Last Rite|g=0}}'s Talent {{Color|Cryogenic Embrittlement|7}}.
+
+
+===Increased DMG Taken Multiplier===
+<math>{Increased\,DMG\,Taken\,Multiplier} = 1 + \sum {Increased\,DMG\,Taken\,Multiplier}</math><br>
+This multiplier describes effects that state "increase DMG Taken" which are not Susceptibility effects. All applicable increases are added together. For example, the effects of {{G|Electrification}}, {{G|Breach}} and the Endministrator's Talent "Realspace Stasis" ("enemies suffer Physical DMG Taken +10%") are in this multiplier group.
+
+
+===DMG Reduction Multiplier===
+<math>{DMG\,Reduction\,Multiplier} = \prod (1 - {DMG\,Reduction\,Effects})</math><br>
+This multiplier describes the effect gained from some gear pieces called "Final DMG Reduction" which is different from the damage reduction gained from DEF. This Final DMG Reduction applies to all forms of damage, including {{Color|Æther DMG|1e}}. This effect is listed in the Attributes & Stats screen as "[Damage type] DMG Reduction".
+
+
+===Protection Multiplier===
+<math>{Protection\,Multiplier} = 1 - \max ({Protection\,Effect})</math><br>
+{{G|Protect}} can reduce the damage taken. Only the strongest effect applies. For example, Catcher's Battle Skill grants Protection. While this multiplier is meant to decrease incoming damage, it can actually do the opposite if the Protection value is negative. What can be assumed to be an oversight, a negative Protection value is achievable with [[Purrchena]].
+
+
+===Defense===
+<math>
+{Defense\,Multiplier} =
+\begin{cases} 
+\dfrac{100}{DEF + 100},  & \mbox{if DEF is }\ge\mbox{ 0} \\
+2-0.99^{-DEF}, & \mbox{if DEF is }<\mbox{ 0} 
+\end{cases}
+</math><br>
+'''Defense''', or '''DEF''' for short, influences the damage taken. All Operators have 0 and all enemies have 100 initial Defense, independent of their level. Defense is mainly increased by equipping Gear, and is otherwise only rarely increased by other sources. [[Catcher|Catcher's]] Potential ''Bonus Spec Training'' for example grants him another 20 Defense. Certain effects such as a hostile {{G|Combustion}} ignores the Defense of an Operator.
+
+Equipping four pieces of level 70 gold Gear gives 140 DEF, resulting in a 0.416 multiplier for incoming Damage, or 58.33% DMG Reduction. Enemies having 100 DEF results in a 0.5 multiplier.
+
+Negative Defense values are currently not achievable and remain to be tested once it becomes possible again.
+
+
+===Resistance Multiplier===
+For Operators:<br>
+<math>{Physical\,Resistance} = 100 - \dfrac{100}{AGI\times0.001+1}</math><br>
+
+<math>{Arts\,Resistance} = 100 - \dfrac{100}{INT\times0.001+1}</math><br>
+
+For enemies:<br>
+<math>{Resistance\,Multiplier} = \dfrac{100 - Enemy\,Resistance + Ignore\,Resistance + Corrosion\,Shred}{100} </math>
+
+This multiplier describes the effect gained from Agility and Intellect, as well as the elemental resistances of enemies. In-game these resistance values are shown as percentage points for Operators and rated with letters for enemies. Starting with 'D' for no resistance, or a 1.0 multiplier, 'C' for some resistance and so on. The accurate multipliers can be seen on the respective enemy pages. {{G|Corrosion}} takes effect in this multiplier. It is worth noting that this multiplier can go above 1.0 and that "ignore Resistance" effects do work even if an enemy has no resistance to speak of.
+
+
+===Multiplicative Multiplier===
+<math>{Multiplicative\,Multiplier} = \prod (1+ {Multiplicative\,Bonus})</math><br>
+This multiplier describes all other bonuses that have a multiplicative effect to each other and to the damage. These bonuses' descriptions are usually indistinguishable from other damage increases as they are marked as "DMG Boost" or "DMG Bonus", although they are far rarer.
+
+Some examples include:
+{{Operator table
+| header = Sources of Multiplicative Multipliers
+| content =
+ {{Operator table row
+ | name = Fluorite
+ | content =
+ {{Operator table row/Combat skill
+ | icon = Combo-Fluorite
+ | name = Apex Prankster
+ | type = Ultimate
+ | content = Grants Fluorite's active {{Color|Improvised Explosive|7}} a 30% DMG Boost and detonates it immediately.
+ }}
+ }}
+  {{Operator table row
+ | name = Da Pan
+ | content =
+ {{Operator table row/Combat skill
+ | icon = Combo-Dapan
+ | name = MORE SPICE!
+ | type = Combo
+ | content = Da Pan's {{G|Crush|Crush}} receives a (10-20)% DMG Bonus.
+ }}
+ }}
+}}
+
+==Physical Statuses, Arts Bursts and Arts Reactions==
+{{G|Physical Status}}, {{G|Arts Burst}} and {{G|Arts Reaction}} are special sources of damage that will be explained in this section.
+
+===Base Multiplier===
+* {{G|Lift}} and {{G|Knock Down}}: 120%
+* {{G|Crush}}: 150% + 150% per Vulnerable stack
+* {{G|Breach}}: 50% + 50% per Vulnerable stack
+* {{G|Arts Burst}}: 160% (regardless of the number of Inflictions)
+* {{G|Arts Reaction}}: 80% + 80% per infliction stack
+* {{G|Shatter}}: 120% + 120% per {{G|Status Level}}
+* {{G|Combustion}} {{G|DMG Over Time}} : 12% + 12% per {{G|Status Level}}
+
+In addition to the multipliers listed before, the effects are also increased by two more multipliers:
+
+===Hidden Multiplier===
+There is a hidden multiplier that increases the damage from Physical Statuses, Arts Bursts and Arts Reactions. This multiplier is dependent on the level of the Operator. While actually being a value stored for each level, it can be calculated using this formula:<br>
+
+For {{G|Physical Status}}:<br>
+<math>{Hidden\,Multiplier} = 1 + \dfrac{Operator\,Level - 1}{392}</math><br>
+
+
+For {{G|Arts Burst}}, {{G|Arts Reaction}} and {{G|Shatter}}:<br>
+<math>{Hidden\,Multiplier} = 1 + \dfrac{Operator\,Level - 1}{196}</math><br>
+
+
+Enemies do not posses this multiplier, as it can be tested in [[Earthshaking Hazefyre]], and therefore do not benefit from this multiplier.
+
+===Arts Intensity Multiplier===
+<math>{Arts\,Intensity\,Multiplier} = 1 + \dfrac{Arts\,Intensity}{100}</math><br>
+Arts Intensity further increases the damage done by the various Physical Statuses, Arts Bursts and Arts Reactions. Each point of Arts Intensity increases the damage done by 1%.
+
+==Miscellaneous Damage Sources==
+*[[Si]] is able to deal {{G|Fixed DMG}}, which is not affected by any other multipliers.
+**In her specific case, the Fixed DMG depends on the recorded damage dealt to Enemies, which in turn is influenced by the various multipliers. The Fixed DMG dealt here therefore acts more like an independed damage multiplier and avoids being affected by the same multipliers twice.
+*[[Industrial Explosive]]s deal <math>1250 + Attack \times 1.2</math> {{Color|Physical DMG|1}}, which is affected by all other applicable multipliers such as Defense, Resistance, Physical DMG Bonus and so forth.
+*[[Æthillu]] take 4% of their maximum HP as damage per tick after reviving. This damage is not affected by any other multiplier and is internally referenced as "LifeDrain".
+
+{{Combat mechanics}}
+[[Category:Combat Mechanics]]

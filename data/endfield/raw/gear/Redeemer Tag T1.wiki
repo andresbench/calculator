@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Redeemer Tag T1
+|image = Redeemer_Tag_T1.png
+|filename = item_equip_t4_parts_wuling01_edc_02
+|cnname = 纾难识别牌·壹型
+|tcname = 紓難識別證·I
+|jpname = 救国識別札Ⅰ
+|krname = 위기 탈출 식별 패널 · I
+|spname = Etiqueta de Redentor T1
+|runame = Жетон «Освободитель» К1
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = *Purchase: Wuling Stock Redistribution
+*Stock Redistribution Terminal Upgrade
+}}
+'''Redeemer Tag T1''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|This piece of gear is the byword for the difficult road ahead. "The quest is not yet finished, and so the journey is not yet complete."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +43, +47, +51, +55
+|sstat = Combo Skill DMG Bonus
+|svalue = +43.2%, +47.5%, +51.8%, +56.2%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

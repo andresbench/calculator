@@ -1,0 +1,63 @@
+{{Enemy infobox
+|name = Heavy Ram α
+|image = Heavy_Ram_α_sprite.png
+|filename = eny_0069_aghornb2
+|cnname = 刚角天使α
+|tcname = 剛角天使α
+|jpname = 剛角アンゲロスα
+|krname = 쌍뿔아겔로스 · α
+|spname = Carnero grande α
+|runame = Крупный рогач α
+|type = Aggeloi
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 7
+}}
+'''Heavy Ram α''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Thrylissoron Anavon" (archive ID: ACL072α) is an energized variant of ACL072. Its high energy contents did not affect its decision-making abilities. This entity is extremely dangerous.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 72, 341, 1061, 2635, 3965, 4543
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 200
+|SR = 7.5
+|SD = 1.25
+|SPG = 35
+|AR = 3.2
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[Energy Alluvium: Origin Lodespring]]
+|drops = {{I|Hard Aggagrit}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Heavy Ram]], Heavy Rams α have similar appearance with their counterpart, but it doesn't make them less of the threat with most abilities remained:
+
+*Rams at front, dealing Physical damage.
+*Leaps after a short wind up, and followed by a ground pound, dealing Physical damage to Operators around.
+*Charges ahead, dealing Physical damage and knock Operators back.
+*A stronger ram after a charge up, dealing Physical damage. This ability can be interrupted by skills.
+
+==See Also==
+*[[Heavy Ram]] - a basic variant of Heavy Ram.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1246, 8942, 56582, 222753, 535821, 825447 from 1246, 10520, 66567, 222753, 535821, 825447
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

@@ -1,0 +1,229 @@
+{{Hatnote|Not to be confused with [[Arts Burst]] or [[Arts Reaction]] which are applied by applying multiple Arts Inflictions.}}
+[[Arts Infliction]] is a [[Combat Mechanic]] in [[Arknights: Endfield]].
+
+== Overview ==
+[[Arts Infliction]] is a debuff applied by both Operators and Enemies lasting for {{Color|20|1d}} seconds. If an Arts Infliction is applied to a unit who already has an Arts Infliction of the same element, then the debuff's duration is reset and the Arts Infliction gains a stack (up to a maximum of 4 stacks).
+
+<b>Friendly</b>
+
+Some [[Operators]] are capable of applying [[Arts Infliction]].
+* If an Operator applies an Arts Infliction to an enemy with Arts Infliction of the same element, then an [[Arts Burst]] is triggered dealing {{Color|160% ATK|1d}} as {{G|DMG Type|Arts DMG}} based on the element.
+* If an Operator applies an Arts Infliction to an enemy with Arts Infliction of a different element, then an [[Arts Reaction]] is triggered with the former determining the type of reaction and the latter determining the strength of the reaction.
+
+<b>Hostile</b>
+
+Some [[Enemies]] are capable of applying [[Heat Infliction]] and [[Cryo Infliction]].
+
+* If the Operator recieves 4 stacks of an Arts Infliction of the same element, then an [[Arts Reaction]] is triggered based on the element.
+
+== Types ==
+[[Arts Infliction]] has the following types:
+
+[[File:Heat Infliction icon.png|16x16px|link=]] <b>[[Heat Infliction]]</b>
+
+* <b>Friendly</b>
+** Applying Heat Infliction to a Heat Inflicted enemy triggers a {{G|Heat Burst}} dealing {{Color|160% ATK|1d}} as {{Color|Heat DMG|3}}. Applying Heat Infliction to a non-Heat Arts Inflicted enemy triggers [[Combustion]].
+
+* <b>Hostile</b>
+** Applying four stacks of Heat Infliction to an Operator triggers Combustion.
+
+[[File:Electric Infliction icon.png|16x16px|link=]] <b>[[Electric Infliction]]</b>
+
+* Applying Electric Infliction to a Electric Inflicted enemy triggers an {{G|Electric Burst}} dealing {{Color|160% ATK|1d}} as {{Color|Electric DMG|6}}. Applying Electric Infliction to a non-Electric Arts Inflicted enemy triggers [[Electrification]].
+* There are currently no enemies that apply Electric Infliction.
+
+[[File:Cryo Infliction icon.png|16x16px|link=]] <b>[[Cryo Infliction]]</b>
+
+* <b>Friendly</b>
+** Applying Cryo Infliction to a Cryo Inflicted enemy triggers a {{G|Cryo Burst}} dealing {{Color|160% ATK|1d}} as {{Color|Cryo DMG|4}}. Applying Cryo Infliction to a non-Cryo Arts Inflicted enemy triggers [[Solidification]].
+* <b>Hostile</b>
+** Applying four stacks of Cryo Infliction to an Operator triggers Solidification.
+
+[[File:Nature Infliction icon.png|16x16px|link=]] <b>[[Nature Infliction]]</b>
+
+* Applying Nature Infliction to a Nature Inflicted enemy triggers a {{G|Nature Burst}} dealing {{Color|160% ATK|1d}} as {{Color|Nature DMG|5}}. Applying Nature Infliction to a non-Nature Arts Inflicted enemy triggers [[Corrosion]].
+
+* There are currently no enemies that apply Nature Infliction.
+
+== Sources ==
+{{Hatnote|This list only contains sources for multiple [[Arts Infliction|Arts Inflictions]]. For interactions with specific Arts Inflictions, please see the individual Arts Infliction subpages.}}
+Some Operators are capable of applying [[Arts Infliction|Arts Inflictions]] through Combat Skills. Additional ways of applying Arts Infliction are:
+{{Operator table
+| header = Interaction
+| content =
+{{Operator table row
+| name = Antal
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Antal
+| name = EMP Test Site
+| type = Combo
+| content = 
+When an operator applies a {{G|Physical Status}} or {{G|Arts Infliction}} to a target with {{Color|Focus|7}}, applies another stack of the same {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+{{Operator table row
+| name = Fluorite
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Fluorite
+| name = Free Giveaway
+| type = Combo
+| content = 
+When against a target with two or more stacks of {{G|Cryo Infliction}} or {{G|Nature Infliction}}, applies an additional stack of {{G|Cryo Infliction}} or {{G|Nature Infliction}} again.
+}}
+{{Operator table row/Combat skill
+| icon = Ult-Fluorite
+| name = Apex Prankster
+| type = Ultimate
+| content = 
+This ultimate is divided into multiple parts. When against a target with two or more stacks of {{G|Cryo Infliction}} or {{G|Nature Infliction}}, performing the last sequence of this ultimate applies an additional stack of {{G|Cryo Infliction}} or {{G|Nature Infliction}} again.
+}}
+}}
+}}
+== Interactions ==
+{{Hatnote|This list only contains interactions with multiple [[Arts Infliction|Arts Inflictions]]. For interactions with specific Arts Inflictions, please see the individual Arts Infliction subpages.}}
+<tabber>
+|-|Operators=
+{{Operator table
+|header = Interaction
+|content =
+
+{{Operator table row
+|name = Antal
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Antal
+|name = EMP Test Site
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy with active {{Color|Focus|7}} suffers a {{G|Physical Status}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Arclight
+|content = 
+{{Operator table row/Combat skill
+|icon = Arclight Talent 2 icon
+|name = Hannabit Wisdom
+|type = Talent
+|content = 
+Chance to ignore {{G|Arts Infliction}} applied on her.
+}}
+}}
+
+{{Operator table row
+|name = Ardelia
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Ardelia
+|name = Eruption Column
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike}} on an enemy with {{Color|no|7}} stacks of {{G|Vulnerable|Vulnerability}} or {{G|Arts Infliction}}.
+}}
+}}
+
+{{Operator table row
+|name = Fluorite
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Fluorite
+|name = Free Giveaway
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy has 2 or more stacks of {{G|Cryo Infliction}} or {{G|Nature Infliction}}.
+}}
+{{Operator table row/Combat skill
+|icon = Potential 5
+|name = Craver of Chaos
+|type = Potential 5
+|content = 
+Combo skill {{Color|Free Giveaway|7}} improved: Whenever {{G|Cryo Infliction}} or {{G|Nature Infliction}} is applied to the enemy, cooldown is shortened by {{Color|1|1d}}s. Effect can only trigger once every 1s.
+}}
+}}
+
+{{Operator table row
+|name = Last Rite
+|content = 
+{{Operator table row/Combat skill
+|icon = Last Rite Talent 1 icon
+|name = Hypothermia
+|type = Talent
+|content = 
+{{G|Debuff Consumption|Consuming}} any {{G|Arts Infliction}} inflicts {{G|Cryo Susceptibility}} with the strength based on the number of stacks consumed. {{Color|This effect cannot stack.|9}}
+}}
+}}
+
+{{Operator table row
+|name = Rossi
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Rossi
+|name = Moment of Blazing Shadow
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an enemy has both {{G|Vulnerable|Vulnerability}} and {{G|Arts Infliction}} stacks.<br><br>
+This combo skill is split into two sequences. For a short time after performing the first sequence, Rossi may recast this skill to perform the second sequence. The second sequence of this combo {{G|Debuff Consumption|consumes}} all {{G|Arts Infliction}} stacks and deals additional {{Color|Physical DMG|2}} based on the number of stacks consumed.
+}}
+}}
+
+{{Operator table row
+|name = Wulfgard
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Wulfgard
+|name = Frag Grenade·β
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When an {{G|Arts Infliction}} is applied to an enemy.
+}}
+}}
+
+{{Operator table row
+|name = Yvonne
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Yvonne
+|name = Brr-Brr-Bomb β
+|type = Skill
+|content = 
+Against enemies with {{G|Cryo Infliction}} or {{G|Nature Infliction}}, {{G|Debuff Consumption|consume}} all {{G|Cryo Infliction}} or {{G|Nature Infliction}} stacks, {{Tooltip/Forcibly apply|Arts|forcibly apply}} {{G|Solidification}}, and deal additional {{Color|Cryo DMG|4}} based on the number of Arts Infliction stacks consumed. 
+}}
+}}
+}}
+
+|-|Weapons=
+{{Template:Weapon_list
+| header = Interaction
+| content = 
+
+ {{Template:Weapon_list_row
+ | name = OBJ Velocitous
+ | content = '''Detonate: Rapid Strike'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Infliction}}, gain {{Color|Nature DMG Dealt|5}} {{Color|+[{{Tooltip/Weapon skill rank|5%|14%}} × Stacks Consumed]|1d}} for 20s. {{Color|Effects of the same name do not stack.|9}}
+ }}
+}}
+</tabber>
+
+== Changelog ==
+{{Changelog|
+* <b>Beta Test II</b> {{Needs Verification}}
+** {{G|Arts Infliction|Arts Inflictions}} of the same element can now stack up to four times.
+*** [[Arts Burst]] changed.
+**** <b>New:</b> When an Operator applies an Arts Infliction to an enemy who already has an Arts Infliction of the same element, add one more stack of Arts Infliction to the enemy (max 4 times) and trigger an Arts Burst.
+**** <b>Old:</b> When an Operator applies an Arts Infliction to an enemy who already has an Arts Infliction of the same element, {{G|Debuff Consumption|consume}} all Arts Infliction stacks and trigger an Arts Burst.
+*** [[Arts Reaction]] changed.
+**** <b>New:</b> When an Operator applies an Arts Infliction to an enemy who already has an Arts Infliction of a different element, {{G|Debuff Consumption|consume}} existing stacks of Arts Infliction to trigger an Arts Reaction with the first element determining the {{G|Status Level}} of the reaction and the second element determining the type of reaction.
+**** <b>Old:</b> When an Operator applies an Arts Infliction when an enemy who already has an Arts Infliction of a different element, {{G|Debuff Consumption|consume}} all stacks of Arts Infliction and trigger an Arts Reaction based on the triggering element.
+** {{Tooltip/Forcibly apply|Arts|Forcibly applied}} {{G|Arts Reaction|Arts Reactions}} added.
+*** Triggers an {{G|Arts Reaction}} without requiring {{G|Arts Infliction}} stacks of different elements to be applied. If the target already has Arts Infliction stacks of the same element, these are {{G|Debuff Consumption|consumed}} to raise the {{G|Status Level}} of the reaction. Otherwise, the reaction is applied as Status Level I.
+* <b>Beta Test I</b> {{Needs Verification}}
+** {{G|Arts Infliction|Arts Inflictions}} added, replacing the [[Elemental Fusion]] system from the [[Technical Test]].
+*** When an Operator applies an Arts Infliction to an enemy who already has an Arts Infliction of the same element, {{G|Debuff Consumption|consume}} all Arts Infliction stacks and trigger an [[Arts Burst]].
+*** When an Operator applies an Arts Infliction when an enemy who already has an Arts Infliction of a different element, {{G|Debuff Consumption|consume}} all stacks of Arts Infliction and trigger an [[Arts Reaction]] based on the triggering element.
+** {{G|Heat Infliction}}, {{G|Electric Infliction}}, {{G|Cryo Infliction}}, and {{G|Nature Infliction}} added.
+}}
+
+{{Combat mechanics}}
+[[Category: Arts Inflictions]]

@@ -1,0 +1,91 @@
+local p = {}
+
+local getArgs = require('Module:Arguments').getArgs
+local cargo = mw.ext.cargo
+
+local combatSkillRow = {
+	["Basic Attack"]=true,
+	["Battle Skill"]=true,
+	["Combo Skill"]=true,
+	["Ultimate"]=true
+}
+local talentRow = {
+	["Talent"]=true
+}
+local potentialRow = {
+	["Potential"]=true
+}
+
+function p._main(args)
+	local originFilter = args.origin and args.origin
+	if not originFilter then
+		return "Operator not found"
+	end
+    local tables = "Abilities"
+    local fields = "AbilityType,AbilityName,Image,_pageName,PotentialLevel"
+    
+    local cargoArgs = {
+        where = 'Abilities.Origin HOLDS "' .. originFilter .. '"',
+    }
+    local result = cargo.query( tables, fields, cargoArgs )
+    local battleSkillRowContent = ''
+    local talentRowContent = ''
+    local potentials = {}
+    
+    for i, row in ipairs(result) do
+		local icon = row.Image and row.Image or ''
+		if icon ~= '' then
+			icon = "[[File:" .. row.Image .. "|20px|link=" .. row._pageName .. "]] "
+		end
+    	
+    	if combatSkillRow[row.AbilityType] then
+    		if battleSkillRowContent ~= '' then
+    			battleSkillRowContent = battleSkillRowContent .. ", "
+    		end
+    		battleSkillRowContent = battleSkillRowContent .. icon .. "[[" .. row._pageName .. '|' .. row.AbilityName .. "]]"
+    	end
+    	
+    	if talentRow[row.AbilityType] then
+    		if talentRowContent ~= '' then
+    			talentRowContent = talentRowContent .. ", "
+    		end
+    		talentRowContent = talentRowContent .. icon .. "[[" .. row._pageName .. '|' .. row.AbilityName .. "]]"
+    	end
+    	
+    	if potentialRow[row.AbilityType] then
+    		potentials[tonumber(row.PotentialLevel)] = icon .. "[[" .. row._pageName .. '|' .. row.AbilityName .. "]]"
+    	end
+    end
+    -- assemble the collected potentials in ascending order
+    local potentialRowContent = table.concat(potentials, ", ")
+    
+    local out = '<div style="overflow: hidden;">' ..
+    '<table class="navtable" style="table-layout: auto;">' ..
+	'<tr><th colspan="2">[[' .. originFilter .. ']]</th></tr>'
+	
+	if battleSkillRowContent ~= '' then
+		out = out .. '<tr><th width="20%">Combat Skills</th>' ..
+		'<td>' .. battleSkillRowContent .. '</td></tr>'
+	end
+	
+	if talentRowContent ~= '' then
+		out = out .. '<tr><th> Talents</th>' ..
+		'<td>' .. talentRowContent .. '</td></tr>'
+	end
+	
+	if potentialRowContent ~= '' then
+		out = out .. '<tr><th> Potentials</th>' ..
+		'<td>' .. potentialRowContent .. '</td></tr>'
+	end
+	
+    out = out .. '</table></div>'
+    return out
+end
+
+function p.main(frame)
+    local args = getArgs(frame)
+    return p._main(args)
+end
+
+
+return p

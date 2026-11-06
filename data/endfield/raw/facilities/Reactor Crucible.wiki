@@ -1,0 +1,31 @@
+{{Facility infobox
+|name = Reactor Crucible
+|filename = item_port_mix_pool_1
+|images = Reactor Crucible icon.png:Icon;
+Reactor Crucible.png:Full
+|cnname = 反应池
+|tcname = 反應池
+|jpname = 化学反応炉
+|krname = 반응기
+|spname = Crisol del reactor
+|runame = Камера реактора
+|type = Production II
+|rarity = 3
+|power = 50}}
+'''Reactor Crucible''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for running solid or liquid-state chemical reactions.|After multiple incidents of reactor failures caused by material fatigue and corrosion, Endfield finally decided to approach UWST and purchase a batch of special steel from southern Talos-II.}}
+==Usage==
+A facility for running solid or liquid-state chemical reactions.
+*Power Use : 50
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Liquid Reaction]]
+*Larger Cache Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Reactor Expansion]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Reactor Crucible}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

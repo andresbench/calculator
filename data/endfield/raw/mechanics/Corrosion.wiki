@@ -1,0 +1,270 @@
+[[File:Corrosion icon.png|right]]
+'''Corrosion''' is an [[Arts Reaction]] in ''[[Arknights: Endfield]]''.
+
+==Overview==
+===Friendly===
+<span>'''Corrosion''', when applied to enemies, is a debuff that progressively reduces Resistance. Corrosion lasts for a specified duration and instantly reduces the Resistances against <span style="border-bottom: 1px dotted #fff;">{{Template:Tooltip|all elements|title= All elements|content=Elements include: {{Color|Physical|1}}, {{Color|Nature|5}}, {{Color|Cryo|4}}, {{Color|Electric|6}}, {{Color|Heat|3}} }}</span> of the target by a flat amount and further reduces it over time until a certain minimum. In-game, the Resistance of enemies is rated by letters, starting with 'D' for 0 Resistance, resulting in no reduction for incoming damage; 'C' usually means about 20 Resistance (20% damage reduction or a 0.8 multiplier), and so on.</span>
+
+It is important to note that the Resistance value can be reduced below 0, meaning that Corrosion does work even against enemies that have a Resistance of 0. 
+
+Because of the additive behavior, the effects of Corrosion are more effective on enemies with a higher Resistance:
+* Against an enemy with 0 Resistance, reducing it by 24 (to a total of -24 Resistance) results in 24% increased damage taken or a 1.24 multiplier.
+* A [[Heavy Ram]] has 20 Resistance for incoming Physical Damage, subtracting the 24 points decreases the Resistance value from 20 to -4, turning the 20% reduction into a 4% increase of Physical Damage taken, or in other words, increases the incoming damage multiplier from 0.8 to 1.04, effectively increasing the damage taken by 30% in contrast to the 24% from the first example.
+
+When a {{G|Nature Infliction}} is applied to an enemy with a ([[File:Heat Infliction icon.png|16x16px|link=]]/[[File:Electric Infliction icon.png|16x16px|link=]]/[[File:Cryo Infliction icon.png|16x16px|link=]]) Non-Nature Infliction, the Arts Infliction that was applied first is {{G|Debuff Consumption|consumed}} instead to trigger {{G|Corrosion}}.
+* The debuff lasts for {{Color|15|1d}}s (unless otherwise specified).
+* Deals an initial instance of {{Color|160% – 400% of ATK (based on the Status Level)|1d}} as {{Color|Nature DMG|5}}.
+* Applies a Resistance Reduction of {{Color|3.6 – 7.2|1d}} on application that increases by {{Color|0.84 – 1.68|1d}} each second until it reaches {{Color|12 – 24 (based on Status Level)|1d}}.
+
+{| class="wikitable wikitable-mobile"
+|-
+! {{G|Status Level}} !! Initial Nature DMG !! Initial Resistance Reduction !! Resistance Reduction Increase Over Time !! Max Resistance Reduction
+|-
+| I || {{Color|160%|1d}} of ATK || {{Color|3.6|1d}} || {{Color|0.84|1d}} / second || {{Color|12|1d}}
+|-
+| II || {{Color|240%|1d}} of ATK || {{Color|4.8|1d}} || {{Color|1.12|1d}} / second || {{Color|16|1d}}
+|-
+| III || {{Color|320%|1d}} of ATK || {{Color|6|1d}} || {{Color|1.4|1d}} / second || {{Color|20|1d}}
+|-
+| IV || {{Color|400%|1d}} of ATK || {{Color|7.2|1d}} || {{Color|1.68|1d}} / second || {{Color|24|1d}}
+|}
+
+*[[Arts Intensity]] increases the amplitude of the Resistance Reduction.
+* It is possible to reduce the Resistance of an enemy below zero through Corrosion, causing them to take increased damage.
+* Applying Corrosion to a target with an existing Corrosion causes the new Corrosion's Resistance Reduction to be equal to the old Corrosion's Resistance Reduction if it was higher.
+** This may cause the new Corrosion to have a Resistance Reduction value that is over its Max Resistance Reduction, in which case the new Corrosion's Resistance Reduction value will be equal to the higher of the two and won't be further increased.
+* Some operator skills can also {{Tooltip/Forcibly apply|Arts|forcibly apply}} Corrosion without requiring a different Arts Infliction to be {{G|Debuff Consumption|consumed}} (See [[Arts Reaction]] for more information).
+
+===Hostile===
+{{Quote|Certain enemy skills can apply stacks of Nature Infliction to operators. At 4 stacks, the operator becomes Corroded: Cannot dash and suffer movement speed reduction for a certain duration.|Tutorial}}
+As of [[Dreamscape of Wind and Snow]] version, there are no enemies capable of applying Corrosion.
+
+==Calculations==
+===Initial Nature DMG hit===
+{{Main|Damage calculation}}
+
+===Resistance Reduction===
+
+<math>{Resistance\,Multiplier} = \dfrac{100 - Enemy\,Resistance + Ignore\,Resistance + Final\,Corrosion\,Resistance\,Reduction}{100} </math>
+
+<math>{Final\,Corrosion\,Resistance\,Reduction} = {Corrosion\,Resistance\,Reduction} \times {Arts\,Intensity\,Multiplier}</math>
+
+Each point of [[Arts Intensity]] increases the effect by some percent, decreasing with more points of Arts Intensity up to a soft cap of {{Color|300%|1d}}.
+
+<math>{Arts\,Intensity\,Multiplier} = \dfrac{3 \times Arts\,Intensity + 300}{Arts\,Intensity + 300}</math><br>
+{| class="wikitable wikitable-mobile"
+|-
+! Arts Intensity !! Arts Intensity Multiplier
+|-
+| 0 || 100%
+|-
+| 100 || 150%
+|-
+| 200 || 180%
+|-
+| 300 || 200%
+|-
+| 400 || 214%
+|-
+| 500 || 225%
+|}
+
+==Sources==
+Applying Nature Infliction to an enemy with a non-Nature Infliction triggers Corrosion. Additional ways to apply Corrosion are:
+{{Operator table
+| header = Source
+| content =
+
+{{Operator table row
+| name = Ardelia
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Ardelia
+| name = Eruption Column
+| type = Combo
+| content = {{Tooltip/Forcibly apply|Arts|Forcibly applies}} {{G|Corrosion}} on target hit and nearby enemies.
+}}
+}}
+
+{{Operator table row
+| name = Arcane
+| content =
+{{Operator table row/Combat skill
+| icon = Ult-Arcane1
+| name = Gloompurge (Array Arcana: INT)
+| type = Ultimate
+| content = {{Tooltip/Forcibly apply|Arts|Forcibly applies}} {{G|Corrosion}} on targets inside {{Color|Gloompurger Array|1d}}'s AOE.
+}}
+}}
+
+}}
+
+==Interactions==
+<tabber>
+|-|Operators=
+{{Operator table
+| header = Interaction
+| content =
+{{Operator table row
+| name = Alesh
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Alesh
+| name = Auger Angling
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When the {{G|Arts Reaction}} or {{G|Originium Crystal|Originium Crystals}} of a nearby target is {{G|Debuff Consumption|consumed}}.
+}}
+}}
+
+{{Operator table row
+| name = Ardelia
+| content =
+{{Operator table row/Combat skill
+| icon = Skill-Ardelia
+| name = Dolly Rush
+| type = Skill
+| content =
+When {{G|Corrosion|Corrosion}} is {{G|Debuff Consumption|consumed}}, apply {{G|Physical Susceptibility|Physical Susceptibility}} and {{G|Arts Susceptibility|Arts Susceptibility}}.
+}}
+{{Operator table row/Combat skill
+| icon = Ardelia Talent 2 icon
+| name = Mountainpeak Surfer
+| type = Talent
+| content =
+When {{G|Debuff Consumption|consuming}} {{G|Corrosion}} with {{Color|Dolly Rush|7}}, trigger {{Color|Dolly Rush|7}} again if nearby enemies have {{G|Corrosion}}. Triggers only once per active skill cast.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Dolly Paradise
+| type = Potential 1
+| content =
+Battle skill {{Color|Dolly Rush|7}} improved: Increase strength of {{G|Physical Susceptibility}} and {{G|Arts Susceptibility}} applied when {{G|Corrosion}} is {{G|Debuff Consumption|consumed}}.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Volcanic Steam
+| type = Potential 5
+| content =
+Combo skill {{Color|Eruption Column|7}} improved: Duration of {{G|Corrosion}} {{Color|+4|1d}}s.
+}}
+}}
+
+{{Operator table row
+| name = Gilberta
+| content =
+{{Operator table row/Combat skill
+| icon = Combo-Gilberta
+| name = Arcane Staff: Matrix Displacement
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When an {{G|Arts Reaction}} is applied to an enemy.
+}}
+}}
+
+{{Operator table row
+| name = Laevatain
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Laevatain
+| name = Seethe
+| type = Combo
+| content =
+<b>COMBO TRIGGER:</b> When an enemy suffers {{G|Combustion}} or {{G|Corrosion}}.<br><br>
+Against enemies with {{G|Combustion}} or {{G|Corrosion}}, deal additional {{Color|Heat DMG|3}} and gain 1 {{Color|Melting Flame|7}} stack and Ultimate Energy based on the number of enemies hit.
+}}
+}}
+
+{{Operator table row
+| name = Arcane
+| content = 
+{{Operator table row/Combat skill
+| icon = Arcane Talent 2 icon
+| name = Weapon Honing
+| type = Talent
+| content = {{G|Corrosion}} applied by self lasts {{Color|5s/10s|1d}} longer, and Max Resistance Reduction is increased to {{Color|1.05x/1.1x|1d}} (Elite 1/Elite 3).
+}}
+{{Operator table row/Combat skill
+| icon = Potential 3
+| name = Wielder of Stone
+| type = Potential 3
+| content = Increase the Talent [Weapon Honing] Max Resistance Reduction effect by {{Color|20%|1d}}.
+}}
+}}
+
+}}
+|-|Weapons=
+{{Template:Weapon_list
+| header = Interaction
+| content = 
+
+{{Template:Weapon_list_row
+| name = Clannibal
+| content = '''Infliction: Vicious Purge'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, target enemy suffers Arts DMG Taken {{Tooltip/Weapon skill rank|+10|28%}} (for the specified element) for 15s. {{Color|Effects of the same name do not stack. Effect only triggers once every 25s.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Dreams of the Starry Beach
+| content = '''Infliction: Tidal Murmurs'''<br>When the wielder {{G|Debuff Consumption|consumes}} {{G|Corrosion}}, target enemy suffers Arts DMG Taken {{Tooltip/Weapon skill rank|+10|28%}} for 25s. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Navigator
+| content = '''Infliction: Lone and Distant Sail'''<br>When {{G|Solidification}} or {{G|Corrosion}} is applied, the wielder gains {{Color|Cryo DMG Dealt|4}} and {{Color|Nature DMG Dealt|5}} {{Tooltip/Weapon skill rank|+3.5|9.8%}} and Critical Rate {{Tooltip/Weapon skill rank|+2|5.6%}} for 15s. If this effect is triggered by the wielder, double the increase gained. {{Color|Effects of the same name do not stack.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Opus: The Living
+| content = '''Infliction: Road Home for All Life'''<br>When the wielder applies an {{G|Arts Reaction}}, the wielder gains ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Twelve Questions
+| content = '''Infliction: Sincere Interrogation'''<br>When the wielder {{G|Debuff Consumption|consumes}} an {{G|Arts Reaction}}, ATK {{Tooltip/Weapon skill rank|+7.5|21%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. |9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Umbral Torch
+| content = '''Infliction: Covetous Buildup'''<br>When {{G|Combustion}} or {{G|Corrosion}} is applied, the wielder gains {{Color|Heat DMG Dealt|3}} and {{Color|Nature DMG Dealt|5}} {{Tooltip/Weapon skill rank|+8|22.4%}} for 20s. {{Color|Stacks up to 2 times with the same name. Duration of each stack counted separately. Effect only triggers once every 0.1s.|9}}
+}}
+
+{{Template:Weapon_list_row
+| name = Wedge
+| content = '''Infliction: Wedge of Civilization'''<br>When the wielder casts a battle skill that applies an {{G|Arts Reaction}}, the wielder gains Arts DMG Dealt {{Tooltip/Weapon skill rank|+16|44.8%}} for 15s. {{Color|Effects of the same name do not stack.|9}}
+}}
+}}
+
+|-| Gears =
+{{GearSetsTable
+|header = Interaction
+|content =
+<tr><td>
+<span style="font-weight:600;">[[Hot Work]]</span><br>
+{{I|Hot Work Exo-Rig}} {{I|Hot Work Gauntlets}} {{I|Hot Work Power Bank}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+After the wearer applies {{G|Combustion}}, the wearer gains {{Color|Heat DMG|3}} {{Color|+50%|1d}} for 10s. After the wearer applies {{G|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} {{Color|+50%|1d}} for 10s. {{Color|The aforementioned effects do not stack.|9}}
+</td></tr>
+<tr><td>
+<span style="font-weight:600;">[[Xiranflow]]</span><br>
+{{I|Xiranflow Light Armor}} {{I|Xiranflow Gloves}} {{I|Xiranflow Baton}}
+</td><td>
+<u><b>3-Piece Set Effect:</b></u><br>
+When the wearer {{G|Debuff Consumption|consumes}} {{G|Electrification}} or {{G|Corrosion}}, the wearer gains 1 stack of {{Color|Xiranflow|7}} per {{G|Status Level}} consumed (up to 3 stacks). For each stack of {{Color|Xiranflow|7}} the wearer gains {{Color|Electric DMG Dealt|6}} and {{Color|Nature DMG Dealt|5}} {{Color|+15%|1d}} for 25s. {{Color|Duration of each stack counted separately.|9}}
+</td></tr>
+}}
+</tabber>
+
+== Notes ==
+{{Notelist}}
+
+== Changelog ==
+{{Changelog|
+* <b>[[At the Wake of Spring]]</b>
+** Corrosion debuff icon shown below the enemy's healthbar will now display its Status Level.
+* <b>Beta Test I</b> 
+** Corrosion added.
+}}
+
+{{Combat mechanics}}
+[[Category:Arts Reactions]]

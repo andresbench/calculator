@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Glorious Memory
+|rarity = 6
+|images = 
+Glorious_Memory icon.png:Icon;
+Glorious_Memory.png:Full;
+Glorious_Memory max model.png:Max
+|filename = wpn_sword_0017
+|cnname = 光荣记忆
+|tcname = 光榮記憶
+|jpname = 栄光の記憶
+|krname = 찬란했던 기억
+|spname = Memoria gloriosa
+|runame = Славное воспоминание
+|type = Sword
+|source = Reward: Protocol Pass}}
+'''Glorious Memory''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the weapons forged by Fort Forgefane. This fine and elegant piece is often used by Order of Steel Oath during ceremonies instead of frontline combat. Nevertheless, the blade has undergone multiple rounds of polishing and sports a razor sharp edge.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Twilight: Lingering Glow|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [L]|Critical Rate [L]|Twilight: Lingering Glow}}
+
+==Basic Info==
+{{Quote|[AUDIO LOG EXCERPT 1]<br>"AHEM— Talosian Calendar Year 15, ██ of ██. Day three after moving into the temporary shelters... QUIET, TORY! You're supposed to fix the chair, not bring down the house!<br>"Quit nagging already. And enough yapping about your fine studio at downtown Wrankwood. Hell, even I like a hot water bath and trashy movies to go along with it. But clean towels are a luxury now, okay?<br>"Oh, why don't you heard north, find 'Mr. Angels', take him out for a drink, and ask where his blighted kind hid the keys to the Cosmic Gate? —OF COURSE I KNOW IT DOESN'T EXIST. Where did your sense of humor go? Blown to pieces along with the stabilizer and the blighted Aggeloi?<br>"What am I doing? I'm making an audio log. Say, how about lending me that camcorder of yours? Your documentary project is on a temporary hold, right...? No? Fine. Blighted camera crew and their pride.<br>"Where was I again? Oh, yes. Today is Talosian Calendar Year 15—"<br><br>[AUDIO LOG EXCERPT 2]<br>"Dallied around for two weeks and still no news about the others. Murray, Ellie, Henry... I think they're still alive. I gotta keep thinking positive.<br>"We're one of the lucky ones. At least we got a roof here. The other shelters are jam-packed of people. They told me the war is over but there's no heading back to Terra. Meals are getting worse, too. Sheesh...<br>"...You're back? Wait. What the hell is that? A sword? You traded a can-o-food for a friggin' razor?! Are you friggin' nuts...?! Oh yeah, great! It killed a buggerloid! So what? Your backup camera almost got one of those buggers too —— KYAA! STOP! I'm sorry! It was my fault!<br>"You heard Ellie and Murray ended up at the shelters organized by the United Workers' HQ? Awesome. But I heard they have some serious hunger games going on at that place. I heard the UW is meeting up with the Corporate Security Council to talk about some 'shelter program'. Hah. This reminds me of the friggin' boring news on Terra. Never thought I would actually start reading these articles.<br>"Just ... try to stay here, Tory. Enough scavenging and trading already. Save your pitiful rations.<br>"And try to check your camcorder... Why? I don't know. I just ... just kinda feel we might get to use it again."<br><br>[AUDIO LOG EXCERPT III]<br>"Hmm... how long has it been? I hardly kept count. Maybe more than five months, maybe?<br>"Tory and I are now part of the Corporate Security Council entourage — Temporary, of course. We just tag along for a chance to get some worthy footage.<br>"So this entourage just got demolished yesterday. While beating the retreat, they ran into another equally ragtag band. Turned out to be peeps from the UW. Both sides got into some staring match for half a minute or so. Nobody said anything, but nobody reached for their weapons either. They just ... walked past each other. It felt so friggin' funny — but I couldn't even laugh during that encounter.<br>"We don't wanna fight, and they don't wanna fight either. But this war lasted more than five months. Why? Tory, got anything to say?<br>"Oh, right! Tory's out to get some footage. I told him to stick around but he won't listen. I kinda admire how he could still pick up his camcorder. I for one, got no idea why I'm recording anything and I don't feel like it anymore. Nobody's gonna watch our documentaries. But maybe Tory's right. Someone's gotta record the dumb crap and blightery that's going on.<br>"And oh yes, Tory's can-for-a-sword is still around. It's the reason why we're still breathing. I heard its OG owner was fighting too. Poor dude got un-alived because he refused to point his weapon at a pardner during the Aggeloi War. HAH! Now I'm laughing. Maybe I'm really mad.<br>"Crap! Crap! CRAP! It's starting again! Who's fighting who? I don't know. I never figured it out.<br>"...Blight this blightery. Where the hell is Tory?"<br><br>[VIDEO FOOTAGE (Blurry)]<br>"—HAHA! UP YOURS! We won, pardner! Our war friggin' drove the heavens MAD!! This is an Originium Catastrophe with CAPITAL C! The first of its kind on Talos-II! And we got ourselves some exclusive footage! LOOK, TORY!! It's exactly like what we got on Terra! See it, Tory?! You should be here, with me! Our reel will be nabbing tons of serious awards, Tory! NAME! Give our documentary a name, Tory! Lemme think... OH YES! Call it EFFIN' GLORIOUS MEMORY! That's super rad! We are SOOOOO totally gonna win those bling-bling trophies!<br>"OH! CHECK THAT OUT! That blighted tower is coming down — THERE! A perfect concluding shot! CONGRATULATIONS, HUMANITY!!"}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

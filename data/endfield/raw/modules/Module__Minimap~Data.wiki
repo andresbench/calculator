@@ -1,0 +1,62 @@
+return {
+	["the hub"] = {
+		imageClass = "minimap-the-hub",
+		width = 4800,
+		height = 2400
+	},
+	["valley pass"] = {
+		imageClass = "minimap-valley-pass",
+		width = 3000,
+		height = 3000
+	},
+	["originium science park"] = {
+		imageClass = "minimap-originium-science-park",
+		width = 3600,
+		height = 2400
+	},
+	["aburrey quarry"] = {
+		imageClass = "minimap-aburrey-quarry",
+		width = 1800,
+		height = 2000
+	},
+	["origin lodespring"] = {
+		imageClass = "minimap-origin-lodespring",
+		width = 3000,
+		height = 3600
+	},
+	["power plateau"] = {
+		imageClass = "minimap-power-plateau",
+		width = 3600,
+		height = 3600
+	},
+	["jingyu valley"] = {
+		imageClass = "minimap-jingyu-valley",
+		width = 4800,
+		height = 5400
+	},
+	["wuling city"] = {
+		imageClass = "minimap-wuling-city",
+		width = 5400,
+		height = 6600
+	},
+	["qingbo stockade"] = {
+		imageClass = "minimap-qingbo-stockade",
+		width = 4800,
+		height = 5400
+	},
+	["marker stone"] = {
+		imageClass = "minimap-marker-stone",
+		width = 4800,
+		height = 5400
+	},
+	["test area"] = {
+		imageClass = "minimap-test-area",
+		width = 4200,
+		height = 3600
+	},
+	["sword vault dale"] = {
+		imageClass = "minimap-",
+		width = 4800,
+		height = 3600
+	},
+}

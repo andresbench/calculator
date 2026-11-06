@@ -1,0 +1,200 @@
+local data = {
+	["Endfield Industries"] = {
+		name = "Endfield Industries",
+	},
+
+	["Abyssal Hunters"] = {
+		name = "Abyssal Hunters",
+	},
+	["Aegir"] = {
+		name = "Aegir",
+		title = "Ægir",
+		branches = {
+			"Abyssal Hunters",
+		},
+	},
+	["Babel"] = {
+		name = "Babel",
+	},
+	["Blacksteel"] = {
+		name = "Blacksteel",
+	},
+	["Bolívar"] = {
+		name = "Bolívar",
+	},
+	["Chiave's Gang"] = {
+		name = "Chiave's Gang",
+		noimage = true,
+	},
+	["Columbia"] = {
+		name = "Columbia",
+		branches = {
+			"Blacksteel",
+			"Rhine Lab",
+		},
+	},
+	["Dublinn"] = {
+		name = "Dublinn",
+	},
+	["Elite Op"] = {
+		name = "Elite Op",
+	},
+	["Followers"] = {
+		name = "Followers",
+	},
+	["Glasgow"] = {
+		name = "Glasgow",
+	},
+	["Higashi"] = {
+		name = "Higashi",
+	},
+	["Iberia"] = {
+		name = "Iberia",
+	},
+	["Karlan Trade"] = {
+		name = "Karlan Trade",
+	},
+	["Kazimierz"] = {
+		name = "Kazimierz",
+		branches = {
+			"Pinus Sylvestris",
+		},
+	},
+	["Laios' Party"] = {
+		name = "Laios' Party",
+		noimage = true,
+	},
+	["Laterano"] = {
+		name = "Laterano",
+	},
+	["Lee's Detective Agency"] = {
+		name = "Lee's Detective Agency",
+		acronym = "L.D.A.",
+	},
+	["Leithanien"] = {
+		name = "Leithanien",
+	},
+	["Lungmen"] = {
+		name = "Lungmen",
+		branches = {
+			"Lee's Detective Agency",
+			"Lungmen Guard Department",
+		},
+	},
+	["Lungmen Guard Department"] = {
+		name = "Lungmen Guard Department",
+		acronym = "L.G.D.",
+	},
+	["Minos"] = {
+		name = "Minos",
+	},
+	["Op A4"] = {
+		name = "Op A4",
+	},
+	["Op Reserve A1"] = {
+		name = "Op Reserve A1",
+	},
+	["Op Reserve A4"] = {
+		name = "Op Reserve A4",
+	},
+	["Op Reserve A6"] = {
+		name = "Op Reserve A6",
+	},
+	["Penguin Logistics"] = {
+		name = "Penguin Logistics",
+	},
+	["Pinus Sylvestris"] = {
+		name = "Pinus Sylvestris",
+	},
+	["Rhine Lab"] = {
+		name = "Rhine Lab",
+	},
+	["Rhodes Island"] = {
+		name = "Rhodes Island",
+		branches = {
+			"Elite Op",
+			"Followers",
+			"Op A4",
+			"Op Reserve A1",
+			"Op Reserve A4",
+			"Op Reserve A6",
+			"S.W.E.E.P.",
+		},
+	},
+	["Rim Billiton"] = {
+		name = "Rim Billiton",
+	},
+	["S.W.E.E.P."] = {
+		name = "S.W.E.E.P.",
+	},
+	["Sami"] = {
+		name = "Sami",
+	},
+	["Sargon"] = {
+		name = "Sargon",
+	},
+	["Siesta"] = {
+		name = "Siesta",
+	},
+	["Siracusa"] = {
+		name = "Siracusa",
+		branches = {
+			"Chiave's Gang",
+		},
+	},
+	["Sui"] = {
+		name = "Sui",
+	},
+	["Team Rainbow"] = {
+		name = "Team Rainbow",
+	},
+	["Ursus"] = {
+		name = "Ursus",
+		branches = {
+			"Ursus Student Self-Governing Group",
+		},
+	},
+	["Ursus Student Self-Governing Group"] = {
+		name = "Ursus Student Self-Governing Group",
+		acronym = "U.S.S.G.",
+	},
+	["Victoria"] = {
+		name = "Victoria",
+		branches = {
+			"Dublinn",
+			"Glasgow",
+		},
+	},
+	["Yan"] = {
+		name = "Yan",
+		branches = {
+			"Sui",
+		},
+	},
+}
+
+for k, v in pairs(data) do
+	if v.branches then
+		for _, branch in ipairs(v.branches) do
+			data[branch].parent = k
+		end
+	end
+end
+
+for _, m in ipairs({
+	require('Module:Character/operator6'),
+	require('Module:Character/operator5'),
+	require('Module:Character/operator4'),
+	-- require('Module:Character/operator3'),
+	-- require('Module:Character/operator2'),
+	-- require('Module:Character/operator1'),
+}) do
+	for k, v in pairs(m) do
+		local faction = v.faction
+		data[faction] = data[faction] or {}
+		data[faction].operators = data[faction].operators or {}
+		data[faction].operators[k] = v
+	end
+end
+
+return data

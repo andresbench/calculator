@@ -1,0 +1,26 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Gift of the Wilds 3 manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Endfield Industries]]
+|level= 70
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+When the wearer casts a combo skill, the wearer gains Skill DMG Dealt {{Color|+20%|1d}} (for every skill) for 15s. This effect can reach 2 stacks. Duration of each stack is counted separately.
+}}
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Very economic equipment, created according to ancient scrolls and books found in Qingbo Stockade.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Endfield Industries "Gift of the Wilds" division.
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

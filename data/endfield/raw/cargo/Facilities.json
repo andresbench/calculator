@@ -1,0 +1,1152 @@
+[
+ {
+  "_pageName": "\"Idol Pose\" Ad Stand",
+  "Facility": "\"Idol Pose\" Ad Stand",
+  "Id": "item_port_display_stand_1",
+  "Icon": "\"Idol Pose\" Ad Stand icon.png",
+  "Image": "&#34;Idol Pose&#34; Ad Stand.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "\"Morning Star\" Companion-Type Figurine",
+  "Facility": "\"Morning Star\" Companion-Type Figurine",
+  "Id": "item_port_doll_1",
+  "Icon": "\"Morning Star\" Companion-Type Figurine icon.png",
+  "Image": "&#34;Morning Star&#34; Companion-Type Figurine.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "\"Ribbon Voice\" Microphone",
+  "Facility": "\"Ribbon Voice\" Microphone",
+  "Id": "item_port_microphone_1",
+  "Icon": "\"Ribbon Voice\" Microphone icon.png",
+  "Image": "&#34;Ribbon Voice&#34; Microphone.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Acid Resistant Pump Mk II",
+  "Facility": "Acid Resistant Pump Mk II",
+  "Id": "item_port_pump_2",
+  "Icon": "Acid Resistant Pump Mk II icon.png",
+  "Image": "Acid Resistant Pump Mk II.png",
+  "Type": "Resourcing",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Acid Soaker Mk I",
+  "Facility": "Acid Soaker Mk I",
+  "Id": "item_port_battle_debuff_1",
+  "Icon": "Acid Soaker Mk I icon.png",
+  "Image": "Acid Soaker Mk I.png",
+  "Type": "Combat & Support",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "AF1 Armor Fragger",
+  "Facility": "AF1 Armor Fragger",
+  "Id": "item_port_battle_trap_1",
+  "Icon": "AF1 Armor Fragger icon.png",
+  "Image": "AF1 Armor Fragger.png",
+  "Type": "Combat & Support",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Aketine Plot",
+  "Facility": "Aketine Plot",
+  "Id": "item_port_soil_bbflower_1",
+  "Icon": "",
+  "Image": "Aketine Plot.png",
+  "Type": "Planting",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Amber Rice Plot",
+  "Facility": "Amber Rice Plot",
+  "Id": "item_port_soil_sp_4",
+  "Icon": "",
+  "Image": "Amber Rice Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Amma's Tender Love",
+  "Facility": "Amma's Tender Love",
+  "Id": "item_port_crystal_ball_1",
+  "Icon": "Amma's_Tender_Love_icon.png",
+  "Image": "Amma&#39;s Tender Love.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Ballpea Plot",
+  "Facility": "Ballpea Plot",
+  "Id": "item_port_soil_corp_bean_1",
+  "Icon": "Ballpea_Plot.png",
+  "Image": "Ballpea Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Beam Tower",
+  "Facility": "Beam Tower",
+  "Id": "item_port_battle_laser_1",
+  "Icon": "Beam Tower icon.png",
+  "Image": "Beam Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "4",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Belt Bridge",
+  "Facility": "Belt Bridge",
+  "Id": "item_log_connector",
+  "Icon": "Belt Bridge icon.png",
+  "Image": "Belt Bridge.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Buckflower Plot",
+  "Facility": "Buckflower Plot",
+  "Id": "item_port_soil_moss_1",
+  "Icon": "",
+  "Image": "Buckflower Plot.png",
+  "Type": "Planting",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Cabbage Plot",
+  "Facility": "Cabbage Plot",
+  "Id": "item_port_soil_corp_cabbage_1",
+  "Icon": "Cabbage_Plot.png",
+  "Image": "Cabbage Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Cabbage Plot (A)",
+  "Facility": "Cabbage Plot (A)",
+  "Id": "item_port_soil_corp_cabbage_2",
+  "Icon": "Cabbage_Plot_(A).png",
+  "Image": "Cabbage Plot (A).png",
+  "Type": "Facilities",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Chubby Lung Balloon",
+  "Facility": "Chubby Lung Balloon",
+  "Id": "item_port_chubby_lung_balloon_1",
+  "Icon": "Chubby_Lung_Balloon_icon.png",
+  "Image": "Chubby Lung Balloon.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Chubby Lung Bollard",
+  "Facility": "Chubby Lung Bollard",
+  "Id": "item_port_chubby_lung_stone_1",
+  "Icon": "Chubby Lung Bollard icon.png",
+  "Image": "Chubby Lung Bollard.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Citrome Plot",
+  "Facility": "Citrome Plot",
+  "Id": "item_port_soil_moss_2",
+  "Icon": "",
+  "Image": "Citrome Plot.png",
+  "Type": "Planting",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Conduit Inlet",
+  "Facility": "Conduit Inlet",
+  "Id": "item_port_udpipe_loader_1",
+  "Icon": "Conduit_Inlet_icon.png",
+  "Image": "Conduit Inlet.png",
+  "Type": "Depot Access",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Conduit Inlet Manifold",
+  "Facility": "Conduit Inlet Manifold",
+  "Id": "item_port_udpipe_loader_2",
+  "Icon": "Conduit Inlet Manifold icon.png",
+  "Image": "Conduit Inlet Manifold.png",
+  "Type": "Depot Access",
+  "Rarity": "4",
+  "Power": ""
+ },
+ {
+  "_pageName": "Conduit Outlet",
+  "Facility": "Conduit Outlet",
+  "Id": "item_port_udpipe_unloader_1",
+  "Icon": "Conduit_Outlet icon.png",
+  "Image": "Conduit Outlet.png",
+  "Type": "Depot Access",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Conduit Outlet Manifold",
+  "Facility": "Conduit Outlet Manifold",
+  "Id": "item_port_udpipe_unloader_2",
+  "Icon": "Conduit Outlet Manifold icon.png",
+  "Image": "Conduit Outlet Manifold.png",
+  "Type": "Depot Access",
+  "Rarity": "4",
+  "Power": ""
+ },
+ {
+  "_pageName": "Converger",
+  "Facility": "Converger",
+  "Id": "item_log_converger",
+  "Icon": "Converger icon.png",
+  "Image": "Converger.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Crunchcane Plot",
+  "Facility": "Crunchcane Plot",
+  "Id": "item_port_soil_corp_sugarcane_1",
+  "Icon": "Crunchcane_Plot.png",
+  "Image": "Crunchcane Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Deluge Tower",
+  "Facility": "Deluge Tower",
+  "Id": "item_port_battle_jet_1",
+  "Icon": "Deluge_Tower icon.png",
+  "Image": "Deluge Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "4",
+  "Power": ""
+ },
+ {
+  "_pageName": "Depot Bus Port",
+  "Facility": "Depot Bus Port",
+  "Id": "item_port_log_hongs_bus_source",
+  "Icon": "Depot Bus Port icon.png",
+  "Image": "Depot Bus Port.png",
+  "Type": "Depot Access",
+  "Rarity": "4",
+  "Power": ""
+ },
+ {
+  "_pageName": "Depot Bus Section",
+  "Facility": "Depot Bus Section",
+  "Id": "item_port_log_hongs_bus",
+  "Icon": "Depot Bus Section icon.png",
+  "Image": "Depot Bus Section.png",
+  "Type": "Depot Access",
+  "Rarity": "4",
+  "Power": ""
+ },
+ {
+  "_pageName": "Depot Loader",
+  "Facility": "Depot Loader",
+  "Id": "item_port_loader_1",
+  "Icon": "Depot Loader icon.png",
+  "Image": "Depot Loader.png",
+  "Type": "Depot Access",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Depot Unloader",
+  "Facility": "Depot Unloader",
+  "Id": "item_port_unloader_1",
+  "Icon": "Depot Unloader icon.png",
+  "Image": "Depot Unloader.png",
+  "Type": "Depot Access",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Easy Stash",
+  "Facility": "Easy Stash",
+  "Id": "item_port_carrier_1",
+  "Icon": "Easy Stash icon.png",
+  "Image": "Easy Stash.png",
+  "Type": "Miscellaneous",
+  "Rarity": "2",
+  "Power": "5"
+ },
+ {
+  "_pageName": "Electric Mining Rig",
+  "Facility": "Electric Mining Rig",
+  "Id": "item_port_miner_2",
+  "Icon": "Electric Mining Rig icon.png",
+  "Image": "Electric Mining Rig.png",
+  "Type": "Resourcing",
+  "Rarity": "2",
+  "Power": "5"
+ },
+ {
+  "_pageName": "Electric Mining Rig Mk II",
+  "Facility": "Electric Mining Rig Mk II",
+  "Id": "item_port_miner_3",
+  "Icon": "Electric Mining Rig Mk II icon.png",
+  "Image": "Electric Mining Rig Mk II.png",
+  "Type": "Resourcing",
+  "Rarity": "3",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Electric Pylon",
+  "Facility": "Electric Pylon",
+  "Id": "item_port_power_diffuser_1",
+  "Icon": "Electric Pylon icon.png",
+  "Image": "Electric Pylon.png",
+  "Type": "Power",
+  "Rarity": "1",
+  "Power": ""
+ },
+ {
+  "_pageName": "Electrocharger Model A-2",
+  "Facility": "Electrocharger Model A-2",
+  "Id": "item_port_battle_lightning_2",
+  "Icon": "Electrocharger_Model_A-2_icon.png",
+  "Image": "Electrocharger Model A-2.png",
+  "Type": "Combat & Support",
+  "Rarity": "5",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Expanded Crucible",
+  "Facility": "Expanded Crucible",
+  "Id": "item_port_mix_pool_2",
+  "Icon": "Expanded Crucible icon.png",
+  "Image": "Expanded Crucible.png",
+  "Type": "Production II",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Filling Unit",
+  "Facility": "Filling Unit",
+  "Id": "item_port_filling_pd_mc_1",
+  "Icon": "Filling Unit icon.png",
+  "Image": "Filling Unit.png",
+  "Type": "Production II",
+  "Rarity": "3",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Fitting Unit",
+  "Facility": "Fitting Unit",
+  "Id": "item_port_cmpt_mc_1",
+  "Icon": "Fitting Unit icon.png",
+  "Image": "Fitting Unit.png",
+  "Type": "Production I",
+  "Rarity": "2",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Fluid Pump",
+  "Facility": "Fluid Pump",
+  "Id": "item_port_pump_1",
+  "Icon": "Fluid Pump icon.png",
+  "Image": "Fluid Pump.png",
+  "Type": "Resourcing",
+  "Rarity": "2",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Fluid Supply Unit",
+  "Facility": "Fluid Supply Unit",
+  "Id": "item_port_dumper_1",
+  "Icon": "Fluid Supply Unit icon.png",
+  "Image": "Fluid Supply Unit.png",
+  "Type": "Miscellaneous",
+  "Rarity": "3",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Fluid Tank",
+  "Facility": "Fluid Tank",
+  "Id": "item_port_liquid_storager_1",
+  "Icon": "Fluid Tank icon.png",
+  "Image": "Fluid Tank.png",
+  "Type": "Depot Access",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Fluid-Gas Transmuting Unit",
+  "Facility": "Fluid-Gas Transmuting Unit",
+  "Id": "item_port_phase_trans_1",
+  "Icon": "Fluid-Gas_Transmuting_Unit_icon.png",
+  "Image": "Fluid-Gas Transmuting Unit.png",
+  "Type": "Production II",
+  "Rarity": "4",
+  "Power": "50"
+ },
+ {
+  "_pageName": "Forge of the Sky",
+  "Facility": "Forge of the Sky",
+  "Id": "item_port_xiranite_oven_1",
+  "Icon": "Forge of the Sky icon.png",
+  "Image": "Forge of the Sky.png",
+  "Type": "Production II",
+  "Rarity": "4",
+  "Power": "50"
+ },
+ {
+  "_pageName": "Gas Dispersing Unit",
+  "Facility": "Gas Dispersing Unit",
+  "Id": "item_port_vaporizer_1",
+  "Icon": "Gas_Dispersing_Unit_icon.png",
+  "Image": "Gas Dispersing Unit.png",
+  "Type": "Production II",
+  "Rarity": "4",
+  "Power": ""
+ },
+ {
+  "_pageName": "Gas Extractor",
+  "Facility": "Gas Extractor",
+  "Id": "item_port_gas_pump_1",
+  "Icon": "Gas_Extractor_icon.png",
+  "Image": "Gas Extractor.png",
+  "Type": "Resourcing",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Gas Reactor Globe",
+  "Facility": "Gas Reactor Globe",
+  "Id": "item_port_gas_reactor_1",
+  "Icon": "Gas_Reactor_Globe_icon.png",
+  "Image": "Gas Reactor Globe.png",
+  "Type": "Production II",
+  "Rarity": "4",
+  "Power": "50"
+ },
+ {
+  "_pageName": "Gas Tank",
+  "Facility": "Gas Tank",
+  "Id": "item_port_gas_storager_1",
+  "Icon": "Gas_Tank_icon.png",
+  "Image": "Gas Tank.png",
+  "Type": "Depot Access",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Gearing Unit",
+  "Facility": "Gearing Unit",
+  "Id": "item_port_winder_1",
+  "Icon": "Gearing Unit icon.png",
+  "Image": "Gearing Unit.png",
+  "Type": "Production II",
+  "Rarity": "1",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Grenade Tower",
+  "Facility": "Grenade Tower",
+  "Id": "item_port_battle_cannon_1",
+  "Icon": "Grenade Tower icon.png",
+  "Image": "Grenade Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "2",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Grinding Unit",
+  "Facility": "Grinding Unit",
+  "Id": "item_port_thickener_1",
+  "Icon": "Grinding Unit icon.png",
+  "Image": "Grinding Unit.png",
+  "Type": "Production II",
+  "Rarity": "4",
+  "Power": "50"
+ },
+ {
+  "_pageName": "Gun Tower",
+  "Facility": "Gun Tower",
+  "Id": "item_port_battle_turret_1",
+  "Icon": "Gun Tower icon.png",
+  "Image": "Gun Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "1",
+  "Power": "5"
+ },
+ {
+  "_pageName": "HE Grenade Tower",
+  "Facility": "HE Grenade Tower",
+  "Id": "item_port_battle_cannon_2",
+  "Icon": "HE Grenade Tower icon.png",
+  "Image": "HE Grenade Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "4",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Heavy Gun Tower",
+  "Facility": "Heavy Gun Tower",
+  "Id": "item_port_battle_turret_2",
+  "Icon": "Heavy Gun Tower icon.png",
+  "Image": "Heavy Gun Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "3",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Hot Roast Party",
+  "Facility": "Hot Roast Party",
+  "Id": "item_port_barbecue_1",
+  "Icon": "Hot_Roast_Party_icon.png",
+  "Image": "Hot Roast Party.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Howlerbeast Playground",
+  "Facility": "Howlerbeast Playground",
+  "Id": "item_port_cat_tree_1",
+  "Icon": "Howlerbeast Playground icon.png",
+  "Image": "Howlerbeast Playground.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Hydro Mining Rig",
+  "Facility": "Hydro Mining Rig",
+  "Id": "item_port_miner_4",
+  "Icon": "Hydro_Mining_Rig_icon.png",
+  "Image": "Hydro Mining Rig.png",
+  "Type": "Resourcing",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Hyper Beam Tower",
+  "Facility": "Hyper Beam Tower",
+  "Id": "item_port_battle_laser_2",
+  "Icon": "Hyper Beam Tower icon.png",
+  "Image": "Hyper Beam Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Item Control Port",
+  "Facility": "Item Control Port",
+  "Id": "item_log_conditioner",
+  "Icon": "Item Control Port icon.png",
+  "Image": "Item Control Port.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Jincao Plot",
+  "Facility": "Jincao Plot",
+  "Id": "item_port_soil_grass_1",
+  "Icon": "",
+  "Image": "Jincao Plot.png",
+  "Type": "Planting",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "LN Tower",
+  "Facility": "LN Tower",
+  "Id": "item_port_battle_frost_1",
+  "Icon": "LN Tower icon.png",
+  "Image": "LN Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "2",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Lord of the Hamburgers",
+  "Facility": "Lord of the Hamburgers",
+  "Id": "item_port_burger_1",
+  "Icon": "Lord_of_the_Hamburgers icon.png",
+  "Image": "Lord of the Hamburgers.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Lucid Dream",
+  "Facility": "Lucid Dream",
+  "Id": "item_port_dream_bubble_1",
+  "Icon": "Lucid_Dream_icon.png",
+  "Image": "Lucid Dream.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Lung by the Lantern",
+  "Facility": "Lung by the Lantern",
+  "Id": "item_port_ugly_paint_1",
+  "Icon": "Lung_by_the_Lantern icon.png",
+  "Image": "Lung by the Lantern.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Marsh Gas Mk I",
+  "Facility": "Marsh Gas Mk I",
+  "Id": "item_port_battle_fog_1",
+  "Icon": "Marsh Gas Mk I icon.png",
+  "Image": "Marsh Gas Mk I.png",
+  "Type": "Combat & Support",
+  "Rarity": "4",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Matoberry Plot",
+  "Facility": "Matoberry Plot",
+  "Id": "item_port_soil_corp_tomato_1",
+  "Icon": "Matoberry_Plot.png",
+  "Image": "Matoberry Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Medical Tower",
+  "Facility": "Medical Tower",
+  "Id": "item_port_battle_medic_1",
+  "Icon": "Medical Tower icon.png",
+  "Image": "Medical Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "1",
+  "Power": "5"
+ },
+ {
+  "_pageName": "Memo Beacon",
+  "Facility": "Memo Beacon",
+  "Id": "item_port_marker_1",
+  "Icon": "Memo Beacon icon.png",
+  "Image": "Memo Beacon.png",
+  "Type": "Miscellaneous",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Miniature Tree on a Hill",
+  "Facility": "Miniature Tree on a Hill",
+  "Id": "item_port_pear_blossom_bonsai_1",
+  "Icon": "Miniature Tree on a Hill icon.png",
+  "Image": "Miniature Tree on a Hill.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Moulding Unit",
+  "Facility": "Moulding Unit",
+  "Id": "item_port_shaper_1",
+  "Icon": "Moulding Unit icon.png",
+  "Image": "Moulding Unit.png",
+  "Type": "Production I",
+  "Rarity": "2",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Oilseed Bloom Plot",
+  "Facility": "Oilseed Bloom Plot",
+  "Id": "item_port_soil_corp_canolaflower_1",
+  "Icon": "Oilseed_Bloom_Plot.png",
+  "Image": "Oilseed Bloom Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Omnidirectional Sonic Tower",
+  "Facility": "Omnidirectional Sonic Tower",
+  "Id": "item_port_battle_shockwave_1",
+  "Icon": "Omnidirectional Sonic Tower icon.png",
+  "Image": "Omnidirectional Sonic Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "3",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Packaging Unit",
+  "Facility": "Packaging Unit",
+  "Id": "item_port_tools_asm_mc_1",
+  "Icon": "Packaging Unit icon.png",
+  "Image": "Packaging Unit.png",
+  "Type": "Production II",
+  "Rarity": "3",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Pingtuber Plot",
+  "Facility": "Pingtuber Plot",
+  "Id": "item_port_soil_corp_potato_1",
+  "Icon": "Pingtuber_Plot.png",
+  "Image": "Pingtuber Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Pipe Bridge",
+  "Facility": "Pipe Bridge",
+  "Id": "item_log_pipe_connector",
+  "Icon": "Pipe Bridge icon.png",
+  "Image": "Pipe Bridge.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Pipe Control Port",
+  "Facility": "Pipe Control Port",
+  "Id": "item_log_pipe_conditioner",
+  "Icon": "Pipe Control Port icon.png",
+  "Image": "Pipe Control Port.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Pipe Converger",
+  "Facility": "Pipe Converger",
+  "Id": "item_log_pipe_converger",
+  "Icon": "Pipe Converger icon.png",
+  "Image": "Pipe Converger.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Pipe Splitter",
+  "Facility": "Pipe Splitter",
+  "Id": "item_log_pipe_splitter",
+  "Icon": "Pipe Splitter icon.png",
+  "Image": "Pipe Splitter.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Planting Unit",
+  "Facility": "Planting Unit",
+  "Id": "item_port_planter_1",
+  "Icon": "Planting Unit icon.png",
+  "Image": "Planting Unit.png",
+  "Type": "Production I",
+  "Rarity": "3",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Portable Originium Rig",
+  "Facility": "Portable Originium Rig",
+  "Id": "item_port_miner_1",
+  "Icon": "Portable Originium Rig icon.png",
+  "Image": "Portable Originium Rig.png",
+  "Type": "Resourcing",
+  "Rarity": "1",
+  "Power": ""
+ },
+ {
+  "_pageName": "Protocol Stash",
+  "Facility": "Protocol Stash",
+  "Id": "item_port_storager_1",
+  "Icon": "Protocol Stash icon.png",
+  "Image": "Protocol Stash.png",
+  "Type": "Depot Access",
+  "Rarity": "1",
+  "Power": "5"
+ },
+ {
+  "_pageName": "Purification Unit",
+  "Facility": "Purification Unit",
+  "Id": "item_port_liquid_purifier_1",
+  "Icon": "Purification Unit icon.png",
+  "Image": "Purification Unit.png",
+  "Type": "Production II",
+  "Rarity": "4",
+  "Power": ""
+ },
+ {
+  "_pageName": "Rainbow",
+  "Facility": "Rainbow",
+  "Id": "item_port_rainbow_1",
+  "Icon": "Rainbow_icon.png",
+  "Image": "Rainbow.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Reactor Crucible",
+  "Facility": "Reactor Crucible",
+  "Id": "item_port_mix_pool_1",
+  "Icon": "Reactor Crucible icon.png",
+  "Image": "Reactor Crucible.png",
+  "Type": "Production II",
+  "Rarity": "3",
+  "Power": "50"
+ },
+ {
+  "_pageName": "Redistribution Made Manifest",
+  "Facility": "Redistribution Made Manifest",
+  "Id": "item_port_stock_board_1",
+  "Icon": "Redistribution_Made_Manifest icon.png",
+  "Image": "Redistribution Made Manifest.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Redjade Ginseng Plot",
+  "Facility": "Redjade Ginseng Plot",
+  "Id": "item_port_soil_sp_3",
+  "Icon": "",
+  "Image": "Redjade Ginseng Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Reed Rye Plot",
+  "Facility": "Reed Rye Plot",
+  "Id": "item_port_soil_sp_1",
+  "Icon": "",
+  "Image": "Reed Rye Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Refining Unit",
+  "Facility": "Refining Unit",
+  "Id": "item_port_furnance_1",
+  "Icon": "Refining Unit icon.png",
+  "Image": "Refining Unit.png",
+  "Type": "Production I",
+  "Rarity": "1",
+  "Power": "5"
+ },
+ {
+  "_pageName": "Relay Tower",
+  "Facility": "Relay Tower",
+  "Id": "item_port_power_pole_2",
+  "Icon": "Relay Tower icon.png",
+  "Image": "Relay Tower.png",
+  "Type": "Power",
+  "Rarity": "1",
+  "Power": ""
+ },
+ {
+  "_pageName": "Relishroom Plot",
+  "Facility": "Relishroom Plot",
+  "Id": "item_port_soil_corp_mushroom_1",
+  "Icon": "Relishroom_Plot.png",
+  "Image": "Relishroom Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Relishroom Plot (A)",
+  "Facility": "Relishroom Plot (A)",
+  "Id": "item_port_soil_corp_mushroom_2",
+  "Icon": "Relishroom_Plot_(A).png",
+  "Image": "Relishroom Plot (A).png",
+  "Type": "Facilities",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Sandleaf Plot",
+  "Facility": "Sandleaf Plot",
+  "Id": "item_port_soil_moss_3",
+  "Icon": "",
+  "Image": "Sandleaf Plot.png",
+  "Type": "Planting",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Sanguine Memories",
+  "Facility": "Sanguine Memories",
+  "Id": "item_port_photo_frame_1",
+  "Icon": "Sanguine_Memories_icon.png",
+  "Image": "Sanguine Memories.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Seed-Picking Unit",
+  "Facility": "Seed-Picking Unit",
+  "Id": "item_port_seedcol_1",
+  "Icon": "Seed-Picking Unit icon.png",
+  "Image": "Seed-Picking Unit.png",
+  "Type": "Production I",
+  "Rarity": "3",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Sentry Tower",
+  "Facility": "Sentry Tower",
+  "Id": "item_port_battle_sniper_1",
+  "Icon": "Sentry Tower icon.png",
+  "Image": "Sentry Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "4",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Separating Unit",
+  "Facility": "Separating Unit",
+  "Id": "item_port_dismantler_1",
+  "Icon": "Separating Unit icon.png",
+  "Image": "Separating Unit.png",
+  "Type": "Production II",
+  "Rarity": "3",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Shockingly Delish!",
+  "Facility": "Shockingly Delish!",
+  "Id": "item_port_signboard_1",
+  "Icon": "Shockingly Delish! icon.png",
+  "Image": "Shockingly Delish!.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Shredding Unit",
+  "Facility": "Shredding Unit",
+  "Id": "item_port_grinder_1",
+  "Icon": "Shredding Unit icon.png",
+  "Image": "Shredding Unit.png",
+  "Type": "Production I",
+  "Rarity": "1",
+  "Power": "5"
+ },
+ {
+  "_pageName": "Sledgehammer Mortar",
+  "Facility": "Sledgehammer Mortar",
+  "Id": "item_port_battle_rocket_1",
+  "Icon": "Sledgehammer Mortar icon.png",
+  "Image": "Sledgehammer Mortar.png",
+  "Type": "Combat & Support",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Solid-Gas Transmuting Unit",
+  "Facility": "Solid-Gas Transmuting Unit",
+  "Id": "item_port_phase_trans_2",
+  "Icon": "Solid-Gas_Transmuting_Unit_icon.png",
+  "Image": "Solid-Gas Transmuting Unit.png",
+  "Type": "Production II",
+  "Rarity": "4",
+  "Power": "50"
+ },
+ {
+  "_pageName": "Sourberry Plot",
+  "Facility": "Sourberry Plot",
+  "Id": "item_port_soil_corp_strawberry_1",
+  "Icon": "Sourberry_Plot.png",
+  "Image": "Sourberry Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Sourberry Plot (A)",
+  "Facility": "Sourberry Plot (A)",
+  "Id": "item_port_soil_corp_strawberry_2",
+  "Icon": "Sourberry_Plot_(A).png",
+  "Image": "Sourberry Plot (A).png",
+  "Type": "Facilities",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Splitter",
+  "Facility": "Splitter",
+  "Id": "item_log_splitter",
+  "Icon": "Splitter icon.png",
+  "Image": "Splitter.png",
+  "Type": "Logistics Units",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Sprinkler",
+  "Facility": "Sprinkler",
+  "Id": "item_port_squirter_1",
+  "Icon": "Sprinkler icon.png",
+  "Image": "Sprinkler.png",
+  "Type": "Miscellaneous",
+  "Rarity": "3",
+  "Power": "10"
+ },
+ {
+  "_pageName": "Surge Tower",
+  "Facility": "Surge Tower",
+  "Id": "item_port_battle_lightning_1",
+  "Icon": "Surge Tower icon.png",
+  "Image": "Surge Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "4",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Tartpepper Plot",
+  "Facility": "Tartpepper Plot",
+  "Id": "item_port_soil_sp_2",
+  "Icon": "",
+  "Image": "Tartpepper Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Thermal Bank",
+  "Facility": "Thermal Bank",
+  "Id": "item_port_power_sta_1",
+  "Icon": "Thermal Bank icon.png",
+  "Image": "Thermal Bank.png",
+  "Type": "Power",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Tiger Cage",
+  "Facility": "Tiger Cage",
+  "Id": "item_port_jail_1",
+  "Icon": "Tiger_Cage_icon.png",
+  "Image": "Tiger Cage.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Torrent Gun Tower",
+  "Facility": "Torrent Gun Tower",
+  "Id": "item_port_battle_turret_3",
+  "Icon": "Torrent_Gun_Tower_icon.png",
+  "Image": "Torrent Gun Tower.png",
+  "Type": "Combat & Support",
+  "Rarity": "5",
+  "Power": "20"
+ },
+ {
+  "_pageName": "Tube Professor",
+  "Facility": "Tube Professor",
+  "Id": "item_port_air_dancer_1",
+  "Icon": "Tube Professor icon.png",
+  "Image": "Tube Professor.png",
+  "Type": "Ornamental",
+  "Rarity": "5",
+  "Power": ""
+ },
+ {
+  "_pageName": "Water Treatment Unit",
+  "Facility": "Water Treatment Unit",
+  "Id": "item_port_liquid_cleaner_1",
+  "Icon": "Water_Treatment_Unit icon.png",
+  "Image": "Water Treatment Unit.png",
+  "Type": "Production I",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Whitemelon Plot",
+  "Facility": "Whitemelon Plot",
+  "Id": "item_port_soil_corp_whitegourd_1",
+  "Icon": "Whitemelon_Plot.png",
+  "Image": "Whitemelon Plot.png",
+  "Type": "Planting",
+  "Rarity": "3",
+  "Power": ""
+ },
+ {
+  "_pageName": "Xiranite Pylon",
+  "Facility": "Xiranite Pylon",
+  "Id": "item_port_power_diffuser_2",
+  "Icon": "Xiranite Pylon icon.png",
+  "Image": "Xiranite Pylon.png",
+  "Type": "Power",
+  "Rarity": "1",
+  "Power": ""
+ },
+ {
+  "_pageName": "Xiranite Relay",
+  "Facility": "Xiranite Relay",
+  "Id": "item_port_power_pole_3",
+  "Icon": "Xiranite Relay icon.png",
+  "Image": "Xiranite Relay.png",
+  "Type": "Power",
+  "Rarity": "1",
+  "Power": ""
+ },
+ {
+  "_pageName": "Yazhen Plot",
+  "Facility": "Yazhen Plot",
+  "Id": "item_port_soil_grass_2",
+  "Icon": "",
+  "Image": "Yazhen Plot.png",
+  "Type": "Planting",
+  "Rarity": "2",
+  "Power": ""
+ },
+ {
+  "_pageName": "Zipline Pylon",
+  "Facility": "Zipline Pylon",
+  "Id": "item_port_travel_pole_1",
+  "Icon": "Zipline Pylon icon.png",
+  "Image": "Zipline Pylon.png",
+  "Type": "Miscellaneous",
+  "Rarity": "2",
+  "Power": "5"
+ },
+ {
+  "_pageName": "Zipline Tower",
+  "Facility": "Zipline Tower",
+  "Id": "item_port_travel_pole_2",
+  "Icon": "Zipline Tower icon.png",
+  "Image": "Zipline Tower.png",
+  "Type": "Miscellaneous",
+  "Rarity": "4",
+  "Power": "5"
+ }
+]

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Hanging River O2 Tube
+|image = Hanging_River_O2_Tube.png
+|filename = item_equip_t4_suit_burst01_edc_01
+|cnname = 悬河供氧栓
+|tcname = 懸河供氧栓
+|jpname = 懸河ガス供給装置
+|krname = 현하 산소 공급 장치
+|spname = Tubo de O2 Río Suspendido
+|runame = Кислородная трубка «Висячая река»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Hanging River O2 Tube''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Equipment designed by the Bureau of Swordmancers for those working near the Blight Tide. 
+This is a dash of despair regarding the Blight Tide: The turbid currents of the unknown have washed all over the land.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +32, +35, +38, +41
+|sstat = Will
+|svalue = +21, +23, +25, +27
+|tstat = Cryo & Electric DMG
+|tvalue = +23.0%, +25.3%, +27.6%, +29.9%
+|setname = Tide Surge
+|seteffect = 3-piece set effect: Wearer's Skill DMG Dealt {{Color|+20%|1d}}.
+After the wearer applies {{Color|2|7}} or more stacks of {{G|Arts Infliction|Arts Infliction}} on the enemy, the wearer gains {{Color|Arts DMG Dealt|7}} {{Color|+35%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Tide Surge}}
+{{Gears|state=collapsed}}

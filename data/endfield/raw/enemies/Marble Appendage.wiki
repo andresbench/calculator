@@ -1,0 +1,67 @@
+{{Enemy infobox
+|name = Marble Appendage
+|image = Marble_Appendage_sprite.png
+|filename = eny_0062_paletent
+|cnname = 白垩附肢
+|tcname = 白堊附肢
+|jpname = 白亜・従肢
+|krname = 마블 부속체
+|spname = Apéndice de mármol
+|runame = Мраморный отросток
+|type = Aggeloi
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 24
+}}
+'''Marble Appendage''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|NO PREVIOUS RECORDS. This has been classified as an Aggelos due to the nature of its formation. Its physical manifestation would appear like extensions reaching out from its main body. However, these appendages actually reach into the main body and have been postulated to serve as a form of distraction.}}
+
+==Stats==
+{{Enemy data
+|HP = 235, 1689, 10688, 42076, 101211, 155918
+|ATK = 59, 279, 868, 2156, 3244, 3717
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 0
+|SR = 6
+|SD = 1.25
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Some Marble Appendages are skilled at attacking melee opponents with powerful slams.
+*Some Marble Appendages are skilled at attacking ranged opponents by converting their tips into Blight material that can be thrown.
+|location = *[[Power Plateau]]
+|drops = 
+|addendum = }}
+
+==Overview==
+Attachments of [[Marble Aggelomoirai (palecore)|Marble Aggelomoirai]], Marble Appendages are immobile and immune to Stagger, but has the following abilities:
+*A downwards swing attack that deals Physical damage in an arc.
+*A 360-degree swing attack that deals Physical damage around it. This ability can be interrupted by skills.
+*Randomly pounds the ground around it five times, with the last one aiming at the controlled Operator, dealing Physical damage.
+*Fires three consecutive shots, dealing Æther damage.
+*Creates ground affected by Blight, where Operators on it take continuous Æther damage.
+*Thrust into the ground, dealing Physical damage to a small area. This is followed by an upward swing, dealing Physical damage to the same area.
+
+Defeating all Marble Appendages are required to reveal the core of Marble Aggolomoirai for attacking.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 235, 1689, 10688, 42076, 101211, 155918 from 235, 1987, 12574, 42076, 101211, 155918
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

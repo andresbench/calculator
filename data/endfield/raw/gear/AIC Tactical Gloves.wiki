@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = AIC Tactical Gloves
+|image = AIC_Tactical_Gloves.png
+|filename = item_equip_t1_suit_wisdwill01_hand_01
+|cnname = 集成化战术手套
+|tcname = 整合化戰術手套
+|jpname = 集成戦闘用グローブ
+|krname = 통합형 전술 장갑
+|spname = Guantes tácticos del CAI
+|runame = Тактические перчатки АПК
+|rarity = 2
+|artifice = no
+|type = Gloves
+|level = 28
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''AIC Tactical Gloves''' is a {{gear|2|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Structurally simple and modular equipment that offers light protection. 
+Although they do not offer the best defenses, at least they are easy to wear.}}
+
+==Stats==
+{{Gear data
+|defense = +16.8
+|pstat = Intellect
+|pvalue = +23
+|sstat = Agility
+|svalue = +23
+|tstat = Combo Skill DMG Bonus
+|tvalue = +13.5%
+|setname = AIC Light
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+500|1d}}. 
+After the wearer defeats an enemy, the wearer gains ATK {{Color|+20|1d}} for {{Color|5|1d}}s.
+|recipe = {{I|Valley Stock Bill|160}} {{I|Amethyst Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Light}}
+{{Gears|state=collapsed}}

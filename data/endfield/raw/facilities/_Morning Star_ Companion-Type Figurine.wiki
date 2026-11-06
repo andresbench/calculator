@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = "Morning Star" Companion-Type Figurine
+|filename = item_port_doll_1
+|images = 
+"Morning Star" Companion-Type Figurine icon.png:Icon;
+"Morning_Star"_Companion-Type_Figurine.png:Full
+|cnname = 陪伴款“晨星”玩偶
+|tcname = 陪伴款「晨星」玩偶
+|jpname = いつでもいっしょ「綺羅星」ぬい
+|krname = '샛별' 인형 · 동행 버전
+|spname = Figura tipo acompañante “Estrella de la mañana”
+|runame = Фигурка компаньона «Утренняя звезда»
+|type = Ornamental
+|rarity = 5}}
+'''{{PAGENAME}}''' is an [[Facility/Ornamental|Ornamental]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.|The fan's favorite commemorative merchandise ever released after Liino's debut. This lovely and intricate figurine of dreams is everything that a Liino fan desires. However, it is literally out of reach for ordinary fans because of the vile machinations of hunger marketing and access limitation.}}
+
+==Usage==
+An ornamental that can be placed. It is stored in the Ornamental panel of the Facility List.
+
+==Acquisition==
+[[Talosite Exchange]]
+
+==Navigation==
+{{Facilities nav}}
+
+[[Category:Ornamental Facilities]]

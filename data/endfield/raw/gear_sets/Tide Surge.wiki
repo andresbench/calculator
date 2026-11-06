@@ -1,0 +1,23 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image =  Hongshan Swordmancers manufacturer icon.png 
+|cnname = 
+|jpname = 
+|krname = 
+|spname =
+|runame =
+|manufacturer= [[Hongshan Swordmancers]]
+|level= 70
+|region = [[Wuling]]
+|effect =  3-piece set effect: Wearer's Skill DMG Dealt {{Color|+20%|1d}}.
+After the wearer applies {{Color|2|7}} or more stacks of {{G|Arts Infliction|Arts Infliction}} on the enemy, the wearer gains {{Color|Arts DMG Dealt|7}} {{Color|+35%|1d}} for 15s. This effect cannot stack.
+}}
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Equipment designed by the Bureau of Swordmancers for those working near the Blight Tide.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Hongshan Swordmancers for people who works near the [[Blight]] Tide.
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Navigation==
+{{Gears|state=collapsed}}

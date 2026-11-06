@@ -1,0 +1,25 @@
+{{Facility infobox
+|name = Amber Rice Plot
+|filename = item_port_soil_sp_4
+|cnname = 金石稻田块
+|tcname = 金石稻田塊
+|jpname = 金石稲畑
+|krname = 금석벼 논배미
+|spname = Terreno de arroz ámbar
+|runame = Участок янтарного риса
+|type = Planting
+|rarity = 3
+|power = }}
+'''Amber Rice Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice.|A cultivation plot with various parameters adjusted for growing Amber Rice. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Amber Rice Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

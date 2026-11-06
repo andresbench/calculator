@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Rift Trekker Overalls
+|image = Rift_Trekker_Overalls.png
+|filename = item_equip_t4_parts_wuling02_body_04
+|cnname = 涉渊防护服
+|tcname = 涉淵防護服
+|jpname = 渡淵防護服
+|krname = 절망 방호복
+|spname = Overol del Trotagrietas
+|runame = Комбинезон «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Overalls''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequent high-threat areas to carry out various missions. "I authored the books and scrolls, to reveal secrets heaven has made."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Intellect
+|pvalue = +115, +126, +138, +149
+|sstat = Heat & Nature DMG
+|svalue = +12.0%, +13.2%, +14.4%, +15.6%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Type 42: Solemn Phalanx
+|rarity = 6
+|images = 
+Type_42_Solemn_Phalanx icon.png:Icon;
+Type_42_Solemn_Phalanx.png:Full;
+Type_42_Solemn_Phalanx max model.png:Max
+|filename = wpn_funnel_0016
+|cnname = 四二式·肃阵
+|tcname = 四二式·肅陣
+|jpname = 四二式・粛陣
+|krname = 42식 · 척결
+|spname = Tipo 42: Falange solemne
+|runame = Тип 42: Чинная фаланга
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Type 42: Solemn Phalanx''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A set of standard Arts Units designed and developed by the Hongshan Swordmancers. These weapons are currently issued to members of the Yinglung Special Task Force. They are known for their excellent performance and stability, as well as their reliability in unforgiving environments.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 51, 148, 250, 352, 454, 505
+|pot = Skill {{Color|Detonate: Debilitating Assault|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Protocolith|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [L]|ULT Efficiency [L]|Detonate: Debilitating Assault}}
+
+==Basic Info==
+{{Quote|To the Respectable Tianshi of Hongshan Academy of Sciences: <br>Salutations. <br>Though I have pondered long and hard, I do not know to whom this letter should be addressed to. In the end, I asked an acquaintance from your esteemed institution to pen this letter and to attach herein a silk banner (which I have ordered) along with a minor token of my thanks. With great sincerity I hope my gratefulness can be conveyed to the three heroes who saved my life. <br>I am a traveling merchant of the TGCC who has spent many years traveling from city to city. Not too long ago, I stopped by a mining town near Alloycarrot to rest and resupply. I did not expect to be ambushed by the Aggeloi that same night. The sudden worsening of the weather only delayed the arrival of a TGCC corporate security detail. The townsfolk and I were forced to hide and protect ourselves. <br>I hid in an elevated position inside an abandoned factory building on the edge of the town. The hiding place offered me great vantage to witness everything that happened afterwards. <br>From the mass of Blight that suddenly appeared outside the town, three individuals emerged and sauntered into the town. They wore thick, heavy equipment that I had never seen before, yet moved with remarkable speed and agility. I saw faint flickers of light in the darkness accompanied by deep, reverberating roars that reminded me of manglerbeasts. I'm afraid I cannot accurately describe what that was. I only know they wielded extraordinary weapons. The trio then broke formation. One of them charged right into the Aggeloid host, while the other two took the high ground, striking down any Aggelos that accidentally loitered too close to the people. They moved with incredible coordination and tacit understanding, as though they had done the same thing countless times. During my many years as a traveling merchant, I've seen how the Worker's Guard or corporate security fight on multiple occasions. But what I saw that night, especially that individual who went straight to the place where the Aggeloi was the thickest, elevated battle to a whole different level. I can still recall the moves and strikes vividly. It was just like the old Yanese saying. The warrior fought like an "army of one". <br>The trio quickly quelled the Aggeloid unrest but we kept hiding until daybreak. A few courageous townsfolk had to sneak out and look around before the rest of us dared to emerge from our hiding places. The threat was eliminated, reduced to rocks and gravel scattered throughout the place. The trio of warriors, however, were gone as well. Although I do not know their name, I am certain they were not fellow townsfolk nor Sarkazian mercenaries as claimed by the townsfolk. From the way they conducted themselves and the equipment they wore, I am certain they hailed from HAS. <br>They saved me and everyone living in that mining town. This is an act of charity that we cannot afford to forget. I continued my travels and asked around along the caravan road, but nobody has heard about them. After much deliberation, I am reduced to one final resort. This is why I have sent the letter of appreciation and the silk banner to HAS. I pray the Tianshi can convey our gratitude to the trio who tread upon the Blight. This letter is curt, the credits are meager, and the banner might not look much, but this is the best we can do. <br>If fortune smiles on us and this letter is successfully delivered to the intended recipient, please tell them: "We saw what you did that night, and we shall always remember." <br>Respectfully Yours. <br>A Traveling Merchant. <br><br>"...WHA?! Why did you give this to me? I was just walking by and taught them a few tricks. It's the three of them? No wonder they felt so happy writing up the report. Fine, whatever. I'm busy enough as it is. Handle it your way and stop bothering me! If people hear about this, they'll think I got plenty of time on my hands!"}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

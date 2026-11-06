@@ -1,0 +1,21 @@
+Andre's Bench — an unofficial fan project, not affiliated with GRYPHLINE or
+Hypergryph. Arknights: Endfield and its game assets are © their owners.
+
+Code (everything outside data/, rotations/ and docs/) — MIT, see LICENSE.
+
+Data (data/, rotations/, docs/measurements*.md) — CC BY-SA 4.0, see
+data/LICENSE. It is derived from the Endfield Talos Wiki
+(https://endfield.wiki.gg), licensed CC BY-SA 4.0, and has been modified:
+parsed into JSON, with units, roles and effect layouts decided by this
+project. Each page's revision id is recorded in data/endfield/raw/ and in
+data/endfield/_manifest.json. The effect layers (data/endfield/effects/*.yaml)
+quote the wiki's text verbatim in their `seen` fields.
+
+Frame data, skill windows and a few client-side constants are read from a
+client datamine (https://github.com/rmxlinux/EndfieldData); only the derived
+values are committed, not the dump.
+
+Icons are game assets downloaded from the wiki at build time and are not
+committed; they are not covered by the wiki's licence or by this repository's.
+
+The showcase import uses Enka.Network (https://enka.network).

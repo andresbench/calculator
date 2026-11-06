@@ -1,0 +1,29 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Hongshan Swordmancers manufacturer icon.png 
+|cnname = 
+|jpname = 
+|krname = 
+|spname =
+|runame =
+|manufacturer= [[Hongshan Swordmancers]]
+|level= 70
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protected}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakened}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+}}
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by a "mad" [[Tianshi]] of Hongshan Swordmancers. The design and innovation take inspirations from his food and kitchen observations.<ref>[[Eternal Xiranite Armor]]</ref> his innovation in this gear set include:
+* self-feeding cycle which doubled the power duration of '''Eternal Xiranite''' protective equipment.<ref>[[Eternal Xiranite Auxiliary Arm]]</ref>
+* next generation of [[Xiranite]]-based refrigeration technology for power core cooling.<ref>[[Eternal Xiranite Power Core]]</ref>
+the mad Tianshi began to reject any food that "fail to deliver inspirations". he soon disappeared into the wildlands in pursuit of "palatable Xiranite".<ref>[[Eternal Xiranite Gloves]]</ref>
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

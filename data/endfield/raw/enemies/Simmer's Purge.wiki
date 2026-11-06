@@ -1,0 +1,57 @@
+{{Enemy infobox
+|name = Simmer's Purge
+|image = Simmer's_Purge_sprite.png
+|filename = eny_0132_inkkirin
+|cnname = 解燥
+|tcname = 解燥
+|jpname = 解燥
+|krname = 해조
+|spname = Purga a fuego lento
+|runame = Кипящий очиститель
+|type = Apparition
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 3
+}}
+'''Simmer's Purge''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An apparition enlightened by Si. Creator of clouds from which rains burst. Solver of troubles, and purger of thirst.}}
+
+==Stats==
+{{Enemy data
+|HP = 969, 6955, 44008, 173253, 416750, 642014
+|ATK = 43, 202, 627, 1557, 2343, 2684
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 200
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Some attacks can apply an Ink Mark on operators when they hit. Try to dodge them.
+*The Thunder Cloud can unleash Thunderbolts that apply a temporary Stun to operators they hit.
+|location = *[[Si's Painting]]
+*[[Energy Alluvium: Si's Painting]]
+|drops = {{I|Calamity's Raindew}}
+|addendum = }}
+
+==Overview==
+
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

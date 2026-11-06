@@ -1,0 +1,260 @@
+{{Operator infobox
+|name = Si
+|rarity = 6
+|class = Supporter
+|weapon = Great Sword
+|element = Cryo
+|faction = Hongshan Academy of Sciences (HAS)
+|tags = Amp, Damage Dealer, Cryo Infliction
+|main = Intellect
+|sub = Strength
+|starting = 
+|headhunting = chartered
+|quote = Hold it, keep it still! The ink isn't even dry yet... This painting's for you. What I drew isn't important. It's my seal that matters! And don't you ever forget my name again!
+|image = 
+Si Splash Art.png
+|filename = chr_0036_jsspsi
+|cnname = 祀
+|tcname = 祀
+|jpname = スー
+|krname = 사
+|spname = Si
+|runame = Си
+|fullname = 
+|fileno = 
+|theme = The Hour of Floral Rites, Where All Things Bloom Between Mountains and Seas
+|illustrator = 
+|jpcv = Atsumi Tanezaki
+|cncv = 幽舞越山 (Youwu Yueshan)
+|encv = 兽兽王 (Shoushou Wang)
+|krcv = Yoon Eun-seo
+|gender = Female
+|authentication = Hongshan Academy of Sciences
+|birthdate = September 15
+|race = Undisclosed
+|infection = Oripathy negative, based on medical examination reports.
+|strength = ■■
+|tactical = Standard
+|skill = Excellent
+|originium = Flawed
+|exp1 = Team Management
+|exp1d = Team Management: Innkeeper's Wisdom
+"Yuanyuan Manor is a century-old brand, and I totally came up with a methodology of proper service. People from HAS visit every now and then to learn my lessons."
+|exp2 = Tool Assembly
+|exp2d = Tool Assembly: Whatever Si Desires
+The fire smelts for divine craft, the brush strokes to create entire worlds. She takes inspirations from things around her, or even her dreams. If she can think of it, she will have it. The process is not fool-proof, but don't expose it in front of her.
+|hb1 = Technology
+|hb1d = Technology: Early Prototype QA
+"Smart furniture has nothing on my crew of very, very obedient waregeists."
+|hb2 = Fashion
+|hb2d = Fashion: Experimental Cosmetician
+A self-proclaimed title. In truth, no one dared to employ Si in such work. The crew of Yuanyuan Manor has revealed that Si uses Ink Spirit face-painting to practice her skills of applying cosmetics.
+|prefer = Wuling Crafter's Choice
+|matskill = Jade Vessel, Long Heritage, Khravengger
+|matstats = 
+}}
+'''Si''' (Chinese: <span style="font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;">祀</span>; [sz̩⁵¹]; listen: <ab>Zh-sì.ogg</ab>) is a 6★ [[Cryo]] [[Supporter]] [[Operator]] from [[Hongshan Academy of Sciences]] in ''[[Arknights: Endfield]]''. She is a [[Great Sword]] user whose battle skill applies Artful Intent on the target, which records part of the DMG taken by the target and later converts it into Fixed DMG dealt over a large area. She can also pull an Inksoul from a target inflicted with Artful Intent, allowing her teammates to attack distant target through the Inksoul. Si's ultimate grants Cryo Amp and Heat Amp to the entire team, and shortens combo skill cooldown for the operator in the first position of the team.
+
+==Profile==
+"Hmph. Only think of me when trouble shows up?"
+
+Si is one of the few Feranmut Proxies on Talos-II. The Feranmuts are paracausal beings native to Terra, and the consciousness that They manifest in slumber before human presence is known as Feranmut Proxy.
+
+Si's relationship with her Feranmut is somewhat complicated, but people still habitually refer to her as a Feranmut Proxy. In truth, Si is no
+one's Proxy. She is simply herself. Beneath her formidable and mysterious exterior lies a young soul who still holds onto hope and curiosity about the world.
+
+In her daily life, she uses her abilities to provide comprehensive support for HAS and Endfield. In her spare time, she enjoys exploring the cities of Talos-II in search of the latest technologies and fashion trends. She follows her heart's desires and is unfettered by conventions.
+
+"I'll help you out again. Remember to pay up once we get back to the inn."
+
+==Stats==
+{{Operator data
+|main = Intellect
+|sub = Strength
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 90, 152, 215, 277, 309
+|STR = 17.01, 38.407, 60.93, 83.453, 105.976, 117.237
+|AGL = 10.103, 29.298, 49.505, 69.711, 89.917, 100.02
+|INT = 24.742, 57.829, 92.657, 127.486, 162.314, 179.729
+|WIL = 10.103, 29.298, 49.505, 69.711, 89.917, 100.02
+|CR = 0.05
+|AS = 100
+|AR = 10 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Warp Plasma-Coated Slide x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Battle skill {{Color|Brushwork Realm|7}} improved: Duration of {{G|Immobilization|Immobilization}} applied {{Color|+50%|1d}}; {{Color|Artful Intent|7}} DMG Record Ratio {{Color|+7%|1d}} and burst radius {{Color|+40%|1d}}.
+|pot1t = Spring and Autumn as Ink
+|pot2 = Combo skill {{Color|Fully Envisioned|7}} improved: When casting, Si gains ATK {{Color|+[8% + 3%×(Highest stacks of Arts Infliction {{G|Debuff Consumption|consumed|1d}} or {{G|Absorb|absorbed}} from a single target)]}} for {{Color|10|1d}}s. This effect cannot stack.
+|pot2t = Three Marks Deep in Wood
+|pot3 = Ultimate {{Color|No One Spoils the Fun|7}} improved: DMG Dealt is increased to {{Color|1.2|1d}} times the original; {{G|Amp|Amp}} effect is increased to {{Color|1.2|1d}} times the original.
+|pot3t = Study of Muscles and Bones
+|pot4 = Ultimate {{Color|No One Spoils the Fun|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Perfectly Composed in Spirit
+|pot5 = Combo skill {{Color|Fully Envisioned|7}} improved: Length of combo skill cooldown {{Color|-2|1d}}s and DMG Dealt is increased to {{Color|1.15|1d}} times the original. When triggered, treat the combo skill as having {{G|Debuff Consumption|consumed}} or {{G|Absorb|absorbed}} 1 additional stack of infliction.
+|pot5t = Brush Dab in Eye's White
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= Artistic Urge
+|icon= Attack-Greatsword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Cryo DMG|4}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|18|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Cryo DMG|4}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher that deals massive {{Color|Cryo DMG|4}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 20%, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 36%, 39%, 42%, 45%
+|stat2= BATK SEQ 2 Multiplier, 32%, 35%, 38%, 42%, 45%, 48%, 51%, 54%, 58%, 62%, 66%, 72%
+|stat3= BATK SEQ 3 Multiplier, 29%, 32%, 35%, 38%, 41%, 44%, 47%, 50%, 53%, 56%, 61%, 66%
+|stat4= BATK SEQ 4 Multiplier, 24%, 26%, 29%, 31%, 34%, 36%, 38%, 41%, 43%, 46%, 50%, 54%
+|stat5= BATK SEQ 5 Multiplier, 64%, 70%, 77%, 83%, 90%, 96%, 102%, 109%, 115%, 123%, 133%, 144%
+|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+|stat7= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+}}
+{{Combat skill
+|name= Brushwork Realm
+|icon= Skill-Si
+|type= {{SB|2}}
+|info= The recorded damage is shown in increments of 10000 on the HUD. A 5 displayed on the green ring for example means that 50000 to 59999 DMG is recorded.<br>
+Not all forms of damage will be recorded, for example damage dealt by [[Combat & Support|Combat Facilities]], the Flamethrowers found in [[Etchspace Salvage]], Exploding Barrels, or the self-inflicted damage by [[Æthillu]]s is '''not''' recorded. But on the other side, the damage dealt to enemies defeated by stage mechanics, such as the exploding Mudflow in [[Tidal Grief]] or the linked Woodcraft Wanderer in [[Woodcrafts That Link]], '''will''' be recorded. Damage done by [[Industrial Explosive]]s can also be recorded.<br>The Inksoul can be understood as an extension of the hitbox of an enemy, it's not possible for a hit to register on both the Inksoul and the host. [[Combat & Support|Combat Facilities]] do not target the Inksoul and can not damage it.
+|desc= <b>SKILL DESCRIPTION:</b> Si deals {{Color|Cryo DMG|4}} and applies {{Color|Artful Intent|7}}, {{G|Immobilization|Immobilization}}, and {{G|Cryo Infliction|Cryo Infliction}} (or {{G|Heat Infliction|Heat Infliction}} if a {{Color|Heat|3}} element operator is in {{Color|Team Position 01|7}}) on the target. After a target with {{Color|Artful Intent|7}} takes DMG, part of the DMG taken is recorded. When the duration of {{Color|Artful Intent|7}} ends, it bursts and deals Fixed DMG equal to the DMG recorded. After casting the skill, Si's battle skill is temporarily changed to {{Color|Initial Stroke|7}}.<br />{{Color|Initial Stroke|7}}: Costs {{Color|15|1d}} SP. Si pulls an {{Color|Inksoul|7}} from a target with {{Color|Artful Intent|7}}. All DMG dealt and effects applied to the {{Color|Inksoul|7}} will also be dealt to its host (the said target). The {{Color|Inksoul|7}} lasts as long as the remaining duration of {{Color|Artful Intent|7}}. After casting the skill, Si's battle skill is temporarily changed to {{Color|Final Stroke|7}}.<br />{{Color|Final Stroke|7}}: Costs no SP. Makes the {{Color|Inksoul|7}} disappear early. When disappearing, the {{Color|Inksoul|7}} will move to its host and trigger a burst like the ending burst of {{Color|Artful Intent|7}}.<br />{{Color|When dealing DMG or applying effects to both the Inksoul and the host, only 1 instance of the DMG or effect is dealt/applied. If the host is defeated during the Inksoul's duration, it will link to another enemy in combat and apply Artful Intent to it. This does not reset the duration of Artful Intent. If a target with Artful Intent is defeated without having its Inksoul drawn out of it, the defeated target will drop an Inksoul at its location.|9}}
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat2= DMG Multiplier, 44%, 49%, 53%, 58%, 62%, 67%, 71%, 76%, 80%, 86%, 92%, 100%
+|stat3= Immobilization Duration (s), 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+|stat4= Artful Intent Duration (s), 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat5= DMG Record Ratio, 8%, 8%, 8%, 9%, 9%, 9%, 10%, 10%, 10%, 11%, 12%, 13%
+|stat6= Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat7= Artful Intent Burst Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+}}
+{{Combat skill
+|name= Fully Envisioned
+|icon= Combo-Si
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When an enemy's {{G|Cryo Infliction|Cryo Infliction}} or {{G|Heat Infliction|Heat Infliction}} is {{G|Debuff Consumption|consumed}} or {{G|Absorb|absorbed}}.<br /><b>SKILL DESCRIPTION:</b> Si summons an {{Color|Ink Lung|7}} that deals {{Color|Cryo DMG|4}}. This DMG is based on the highest stacks of Arts Infliction {{G|Debuff Consumption|consumed}} or {{G|Absorb|absorbed}} from a single target.
+|stat1= Cooldown, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15
+|stat2= DMG Multiplier, 333%, 367%, 400%, 433%, 467%, 500%, 533%, 567%, 600%, 642%, 692%, 750%
+|stat3= Multiplier Increase per Stack Consumed or Absorbed, 44%, 49%, 53%, 58%, 62%, 67%, 71%, 76%, 80%, 86%, 92%, 100%
+|stat4= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat5= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= No One Spoils the Fun
+|icon= Ult-Si
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Si summons a {{Color|Giant Ink Lung|7}} from her painting that deals {{Color|Cryo DMG|4}} and grants temporary {{G|Cryo Amp|Cryo Amp}} and {{G|Heat Amp|Heat Amp}} to the entire team.
+|stat1= Ultimate Energy Cost, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80
+|stat2= DMG Multiplier, 222%, 244%, 267%, 289%, 311%, 333%, 355%, 378%, 400%, 428%, 461%, 500%
+|stat3= Stagger, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
+|stat4= Amp, 20%, 21%, 22%, 24%, 25%, 26%, 28%, 29%, 30%, 32%, 34%, 36%
+|stat5= Amp Duration (s), 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=Artistic Urge|skill2=Brushwork Realm|skill3=Fully Envisioned|skill4=No One Spoils the Fun|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Tachyon Screening Lattice,6|m14=False Aggela,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Metadiastima Photoemission Tube,6|m24=False Aggela,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Tachyon Screening Lattice,6|m34=False Aggela,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Metadiastima Photoemission Tube,6|m44=False Aggela,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=Artistic Urge|skill2=Brushwork Realm|skill3=Fully Envisioned|skill4=No One Spoils the Fun|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Tachyon Screening Lattice,16|m14=False Aggela,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Metadiastima Photoemission Tube,16|m24=False Aggela,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Tachyon Screening Lattice,16|m34=False Aggela,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Metadiastima Photoemission Tube,16|m44=False Aggela,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=Artistic Urge|skill2=Brushwork Realm|skill3=Fully Envisioned|skill4=No One Spoils the Fun|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Tachyon Screening Lattice,36|m14=False Aggela,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Metadiastima Photoemission Tube,36|m24=False Aggela,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Tachyon Screening Lattice,36|m34=False Aggela,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Metadiastima Photoemission Tube,36|m44=False Aggela,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Keen Mind
+|icon = Intellect
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Intellect +10.
+|cond2 = Elite 2
+|desc2 = Operator Intellect +15.
+|cond3 = Elite 3
+|desc3 = Operator Intellect +15.
+|cond4 = Elite 4
+|desc4 = Operator Intellect +20.
+}}
+{{Operator talent
+|name = Proxy's Patronage
+|icon = Si Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Ultimate skill {{Color|No One Spoils the Fun|7}} improved: After casting, {{Color|Team Position 01|7}} operator's combo skill cooldown length {{Color|-10|1d}}s.
+|cond2 = Elite 2
+|desc2 = Ultimate skill {{Color|No One Spoils the Fun|7}} improved: After casting, {{Color|Team Position 01|7}} operator's combo skill cooldown length {{Color|-20|1d}}s.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Unsoiled Brush
+|icon = Si Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = When the {{Color|Inksoul|7}} disappears, allied operators gain {{Color|15%|1d}} {{G|Haste|Haste}} for 5s.
+|cond2 = Elite 3
+|desc2 = When the {{Color|Inksoul|7}} disappears, allied operators gain {{Color|30%|1d}} {{G|Haste|Haste}} for 5s.
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Intellect
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Ware is the Geist
+|icon = RR-guestroom_efficiency
+|facility = Reception Room
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Reception Room to grant operator clue collecting efficiency +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Reception Room to grant operator clue collecting efficiency +30%
+}}
+{{Operator base skill
+|name = Ink Spirit Aide
+|icon = RR-guestroom_power_consume
+|facility = Reception Room
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Reception Room to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Reception Room to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = RR-guestroom_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = RR-guestroom_power_consume
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''[[Sanctuary of Ink]]''' introduced.
+}}
+
+==Navigation==
+{{Operators_nav}}

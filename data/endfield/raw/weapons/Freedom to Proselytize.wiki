@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Freedom to Proselytize
+|rarity = 5
+|images = 
+Freedom_to_Proselytize icon.png:Icon;
+Freedom_to_Proselytize.png:Full;
+Freedom_to_Proselytize max model.png:Max
+|filename = wpn_funnel_0012
+|cnname = 布道自由
+|tcname = 佈道自由
+|jpname = 布教の自由
+|krname = 선교의 자유
+|spname = Libertad para proselitizar
+|runame = Свободное служение
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Freedom to Proselytize''' is a 5★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An Arts Unit designed by Mieszko Industries for Cabal of Tranquility. Every step from product design, verification, manufacturing, to tuning has been carried out under the guidance of a Cabal cleric.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Medicant: Redemption of Faith|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [M]|Treatment Efficiency [M]|Medicant: Redemption of Faith}}
+
+==Basic Info==
+{{Quote|The cleric named "Sessionite" thus entered the wildlands.<br>And he arrived at an abandoned village. The creek had long dried up and the soil was cracked.<br>And the Fortes, suffering hunger and thirst, asked him for salvation.<br>"You need knowledge that will lead you to where the water flows and the thick grasses grow."<br>"I shall teach you how to read these lands."<br>And so his hand gleamed with the light of the Originium Network,<br>And he imparted upon them knowledge that came from those from afar.<br>After seven days and seven nights,<br>The enlightened Fortes learned how to dig a water well in the barrens,<br>And thus the water flowed and the grasses grew forever more.<br><br>The cleric named "Resurgonite" thus entered the wildlands.<br>And he arrived at an abandoned village. The creek had long dried up and the soil was cracked.<br>And the Fortes, suffering hunger and thirst, asked him for salvation.<br>"You need strength to retake the watering hole that you once called yours."<br>"I shall grant you weapons to protect your kin."<br>And then he removed the guns he carried on his back,<br>And together with the relics of the old, he gave them to the Fortes he met.<br>After seven days and seven nights,<br>The armed Fortes drove the Landbreakers that occupied the upper flows of the river and chased them out of these lands,<br>And thus the water flowed and the grasses grew forever more.<br><br>The cleric named "Veritarite" thus entered the wildlands.<br>And he arrived at an abandoned village. The creek had long dried up and the soil was cracked.<br>And the Fortes, suffering hunger and thirst, asked him for salvation.<br>"You must converge your faith as one, and pray for a rain of abundance."<br>"I shall be with you, and lead you to wait for the destined season of rain."<br>And then he codified the Law and the commandments, and taught them unity and forbearance,<br>And he patiently encouraged every Forte whose despair was great in their hearts, and gave them peace and hope.<br>After seven days and seven nights,<br>A torrent of life-giving rain fell for the persevering Fortes,<br>And thus the water flowed and the grasses grew forever more.<br><br>If you are the thirsty Forte,<br>Which of these clerics' teachings will you accept?<br><br>— The Parable of the Three Clerics, engraved at one corner of the Sanctilamina Cathedralis Tranquillae}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

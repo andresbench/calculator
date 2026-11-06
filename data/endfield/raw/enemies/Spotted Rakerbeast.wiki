@@ -1,0 +1,72 @@
+{{Enemy infobox
+|name = Spotted Rakerbeast
+|image = Spotted_Rakerbeast_sprite.png
+|filename = eny_0083_hstiger
+|cnname = 百眼彪兽
+|tcname = 百眼彪獸
+|jpname = 百眼彪獣
+|krname = 백안의 레이커비스트
+|spname = Bestia rastrera manchada
+|runame = Пятнистый хитрый зверь
+|type = Wildlife
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 6
+}}
+'''Spotted Rakerbeast''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A rakerbeast that grew up in the wilderness. These apex predators are endemic to Talos-II. They can leap great distances and attack their prey with razor sharp claws.}}
+
+==Stats==
+{{Enemy data
+|HP = 1108, 7948, 50295, 198003, 476285, 733731
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *An agile beast that attacks with its claws and tail. Try to dodge.
+*Enraged State: When Enraged, the beast has increased ATK and uses its charge up skills more often. Applying Staggered to it ends the Enraged state.
+|location = *[[Wuling City]]
+*[[Qingbo Stockade]]
+*[[Test Area]]
+*[[Energy Alluvium: Test Area]]
+|drops = {{I|Rakerbeast Longfur}}
+|addendum = }}
+
+==Overview==
+An extremely agile wildlife creature, the Spotted Rakerbeast is a significant foe due to its extremely high mobility in attacks, making it difficult to damage it:
+
+*Claws once at front, followed by a tail swing that launch spines around, dealing Physical damage.
+*Leaps twice, dealing Physical damage on the landing spot, before launching a downwards claw followed by a tail swing around, dealing Physical damage.
+*Leaps forward before launching two claws at once, dealing Physical damage.
+*Claws twice in quick succession, followed by an upwards claw after a short charge up, dealing Physical damage. This ability can be interrupted by skills.
+*Roars and deals continuous Physical damage before entering '''Enraged State''', which gives it ATK and following ability:
+**Leaps forward and deals Physical damage to Operators at front, before lifting its limbs and deals Physical damage ahead after charging up. This ability can be interrupted by skills.
+
+In Area Defense, it gains an extra ability:
+*Gain stealth and becomes unable to be targeted by [[Facility/Combat & Support|combat facilities]] when there are enemies nearby. <!--need confirmation-->
+
+==See Also==
+* [[Glaring Rakerbeast]] &ndash; a stronger variant of the Spotted Rakerbeast that can also become invisible.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1108, 7948, 50295, 198003, 476285, 733731 from 1108, 9351, 59170, 198003, 476285, 733731
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

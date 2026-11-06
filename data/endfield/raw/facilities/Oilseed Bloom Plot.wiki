@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Oilseed Bloom Plot
+|filename = item_port_soil_corp_canolaflower_1
+|images = Oilseed_Bloom_Plot.png
+|cnname = 籽油花田块
+|tcname = 籽油花田塊
+|jpname = アブラ花畑
+|krname = 유채꽃 논배미
+|spname = Terreno de Flor de Semilla Oleaginosa
+|runame = Участок маслоцвета
+|type = Planting
+|rarity = 3
+|power = }}
+'''Oilseed Bloom Plot''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Oilseed Blooms.|A cultivation plot with various parameters adjusted for growing Oilseed Blooms. Overall soil quality of the plot is far better than that of the average arable land in Wuling.}}
+==Usage==
+
+==Acquisition==
+Explore the world to unlock its [[Crafting]] formula.
+{{RecipeTable|product=Oilseed Bloom Plot}}
+
+==Navigation==
+{{Facilities nav}}
+[[Category:Facilities]]
+[[Category:Planting Facilities]]

@@ -1,0 +1,108 @@
+{{Susceptibility nav}}
+{{Status infobox
+|Cryo Susceptibility
+|Cryo Susceptible targets temporarily take more {{Color|Cryo DMG|4}}. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Cryo Susceptibility icon.png]]
+|type = Debuff
+|source = Operator
+}}
+{{Icon|Cryo Susceptibility icon|text=false|nolink=true}} [[Cryo Susceptibility]] is a type of debuff inflicted to enemies in ''[[Arknights: Endfield]]''.
+
+When enemies are inflicted with '''Cryo Susceptibility''', they temporarily take more {{Color|Cryo DMG|4}}. The number represents the degree of increase.
+
+<math>\text{Susceptibility Multiplier} = \sum\text{Susceptibility Effect} \times \text{Susceptibility Multiplier Effect}</math>
+
+Multiple sources of Cryo Susceptibility, as well as {{G|Arts Susceptibility}}, stack <u>additively</u> to form the '''Susceptibility Effect''' for that damage instance. {{Icon|Last Rite icon|[[Last Rite]]'s}} Talent {{Color|Cryogenic Embrittlement|7}} functions as a '''Susceptibility Effect Multiplier'''. It stacks <u>multiplicatively</u> with the total Susceptibility Effect to determine the '''Susceptibility Multiplier'''. The Susceptibility Multiplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Arcane
+| content = 
+{{Operator table row/Combat skill
+| icon = Combo-Arcane1
+| name = Yinglung Stance IV
+| type = Combo
+| content = 
+Intellect ({{Color|N|1d}}) ≥ Will ({{Color|N|1d}}), {{Color|Array Arcana: INT|7}} is ACTIVE.<br /><b>COMBO TRIGGER:</b> When {{G|Nature Infliction|Nature Infliction}} or at least 2 stacks of {{G|Arts Infliction|non-Nature Arts Infliction}} are applied on an enemy.<br /><b>SKILL DESCRIPTION:</b> Arcane charges at the target and sets up 4 {{Color|Tactical Doubles|7}} that apply {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} and deal {{Color|Nature DMG|5}} to the target and nearby enemies, and also apply {{Color|Imprisonment|7}} on the said target. When {{Color|Imprisonment|7}} ends, the {{Color|Tactical Doubles|7}} will attack the said target to deal Explosion DMG.<br />{{Color|Imprisonment|7}}: A debuff that slows all actions.<br />{{Color|Array Arcana: INT|7}}:<br />- Hitting an enemy under {{Color|Imprisonment|7}} with Arcane's battle skill {{G|SP Return|returns}} some SP, ends the {{Color|Imprisonment|7}} early, deals Explosion DMG, applies another instance of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}}, and deals multiple hits of bonus DMG after a short delay.<br />- Combo skill cooldown is shorter.
+}}
+{{Operator table row/Combat skill
+| icon = Combo-Arcane2
+| name = Yinglung Stance IV
+| type = Combo
+| content = 
+ Will ({{Color|N|1d}}) ＞ Intellect ({{Color|N|1d}}), {{Color|Array Arcana: WILL|7}} is ACTIVE.<br /><b>COMBO TRIGGER:</b> When an {{G|Arts Infliction|Arts Infliction}} is applied on an enemy.<br /><b>SKILL DESCRIPTION:</b> Arcane charges at the target and sets up 4 {{Color|Tactical Doubles|7}} that deal {{Color|Nature DMG|5}} and apply another stack of {{G|Arts Infliction|Arts Infliction}} of the same element, {{G|Nature Susceptibility|Nature Susceptibility}}, and {{G|Cryo Susceptibility|Cryo Susceptibility}} to the target and nearby enemies, and also apply {{Color|Imprisonment|7}} on the said target. When {{Color|Imprisonment|7}} ends, the {{Color|Tactical Doubles|7}} will attack the said target to deal Explosion DMG.<br />{{Color|Imprisonment|7}}: A debuff that slows all actions.<br />{{Color|Array Arcana: WILL|7}}:<br />- Applying {{Color|Imprisonment|7}} by casting a combo skill will also slightly {{Color|pull in|7}} enemies near the target.<br />- The attribute of Will can further increase the effects of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} applied by the combo skill.
+}}
+{{Operator table row/Combat skill
+| icon = Arcane Talent 1 icon
+| name = Tactical Planning
+| type = Talent
+| content = 
+{{Icon|Elite 0|text=false}}: When Arcane's Intellect ≥ Will, switch skill type to {{Color|Array Arcana: INT|7}}. If not, then switch to {{Color|Array Arcana: WILL|7}}.
+{{Color|Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons.|9}}<hr>
+{{Icon|Elite 2|text=false}}: When Arcane's Intellect ≥ Will, switch skill type to {{Color|Array Arcana: INT|7}}. If not, then switch to {{Color|Array Arcana: WILL|7}}.
+Ultimate {{Color|Gloompurge|7}} improved:
+{{Color|Array Arcana: INT|7}}:
+- During the ultimate, Arcane gains {{Color|24%|1d}} {{G|Arts Amp|Arts Amp}}.
+{{Color|Array Arcana: WILL|7}}:
+- When {{Color|Gloompurger Array|7}} (ultimate sequence 1) and {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) deal DMG to the enemy, they also apply {{Color|[Will × 0.02%]|1d}} {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} (max: {{Color|12.8%|1d}}) for {{Color|10|1d}}s. This effect cannot stack.
+{{Color|Attribute requirements for the 2 types of Array Arcana only include effects from operator levels, talents, potentials, and attribute bonuses provided by equipped gear and weapons.|9}}
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Watcher of the Sea
+| content = 
+Combo skill {{Color|Yinglung Stance IV|7}} improved:
+DMG Multiplier is increased to {{Color|1.3|1d}} times the original.
+{{Color|Array Arcana: INT|7}}: Hitting an enemy under {{Color|Imprisonment|7}} with Arcane's battle skill {{G|SP Return|returns}} {{Color|10|1d}} additional SP.
+{{Color|Array Arcana: WILL|7}}: Effects of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} applied {{Color|+6%|1d}}.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Homeward Glance
+| content = 
+Ultimate {{Color|Gloompurge|7}} improved:
+{{Color|Array Arcana: INT|7}}: During the ultimate, Arcane gains {{Color|16%|1d}} {{G|Arts Amp|Arts Amp}}. DMG Multiplier of {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) is increased to {{Color|1.3|1d}} times the original.
+{{Color|Array Arcana: WILL|7}}: Further increases the effects of {{G|Nature Susceptibility|Nature Susceptibility}} and {{G|Cryo Susceptibility|Cryo Susceptibility}} applied by {{Color|Gloompurger Array|7}} (ultimate sequence 1) and {{Color|Gloompurge Arcana|7}} (ultimate sequence 2) by {{Color|+7%|1d}}. After casting {{Color|Gloompurge Arcana|7}} (ultimate sequence 2), if combo skill {{Color|Yinglung Stance IV|7}} is still in its cooldown, immediately shorten the length of the cooldown by {{Color|30%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Last Rite
+| content = 
+{{Operator table row/Combat skill
+| icon = Last Rite Talent 1 icon
+| name = Cryogenic Embrittlement
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}}: After Last Rite {{G|Debuff Consumption|consumes}} any {{G|Arts Infliction|Arts Infliction}}, she applies {{G|Cryo Susceptibility|Cryo Susceptibility}} to the target with the effect of [Number of {{G|Arts Infliction|Arts Infliction}} stacks {{G|Debuff Consumption|consumed}} × {{Color|2%|1d}}] for {{Color|15|1d}}s. This effect cannot stack. <hr>
+{{Icon|Elite 2|text=false}}: After Last Rite {{G|Debuff Consumption|consumes}} any {{G|Arts Infliction|Arts Infliction}}, she applies {{G|Cryo Susceptibility|Cryo Susceptibility}} to the target with the effect of [Number of {{G|Arts Infliction|Arts Infliction}} stacks {{G|Debuff Consumption|consumed}} × {{Color|4%|1d}}] for {{Color|15|1d}}s. This effect cannot stack.
+}}
+}}
+}}
+== Interactions ==
+{{Operator table
+| header = Interactions
+| content =
+{{Operator table row
+| name = Last Rite
+| content = 
+{{Operator table row/Combat skill
+| icon = Last Rite Talent 2 icon
+| name = Cryogenic Embrittlement
+| type = Talent
+| content = 
+{{Icon|Elite 2|text=false}}: Ultimate {{Color|Vigil Services|7}} improved: When the ultimate deals DMG to an enemy with {{G|Cryo Susceptibility|Cryo Susceptibility}}, the effect of that {{G|Cryo Susceptibility|Cryo Susceptibility}} is {{Color|1.2|1d}} times the original.<hr>
+{{Icon|Elite 3|text=false}}: Ultimate {{Color|Vigil Services|7}} improved: When the ultimate deals DMG to an enemy with {{G|Cryo Susceptibility|Cryo Susceptibility}}, the effect of that {{G|Cryo Susceptibility|Cryo Susceptibility}} is {{Color|1.5|1d}} times the original.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Cryo Susceptibility}} keyword added with [[Last Rite]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

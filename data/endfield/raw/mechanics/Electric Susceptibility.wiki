@@ -1,0 +1,73 @@
+{{Susceptibility nav}}
+{{Status infobox
+|Electric Susceptibility
+|Electric Susceptible targets temporarily take more {{Color|Electric DMG|6}}. The number represents the degree of increase. Effects of the same type can stack.
+|image = [[File: Electric Susceptibility icon.png]]
+|type = Debuff
+|source = Operator
+}}
+{{Icon|Electric Susceptibility icon|text=false|nolink=true}} [[Electric Susceptibility]] is a type of debuff inflicted to enemies in ''[[Arknights: Endfield]]''.
+
+When enemies are inflicted with '''Electric Susceptibility''', they temporarily take more {{Color|Electric DMG|6}}. The number represents the degree of increase.
+
+An enemy that is considered '''Arts Susceptible''' is also considered '''Electric Susceptible'''. For example, while {{Icon|Avywenna icon|[[Avywenna]]'s}} {{Color|Carrot and Sharp Stick|7}} only explicitly states that it is triggered from enemies that are {{G|Electric Susceptibility|Electric Susceptible}}, applying Arts Susceptibility to the target also triggers this Potential.
+
+Multiple sources of Electric Susceptibility, as well as {{G|Arts Susceptibility}}, stack <u>additively</u> to form the '''Susceptibility Multiplier''' for that damage instance. The resulting Susceptibility Multiplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Antal
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Antal
+| name = Specified Research Subject
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Applies {{Color|Focus|7}} with a long duration on the enemy and deals {{Color|Electric DMG|6}}. An enemy with an active {{Color|Focus|7}} also suffers {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}}. {{Color|Focus|7}} can only be applied to 1 enemy at any given time.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = High-Specs Tech Tester
+| content = 
+Applying {{Color|Focus|7}} on the same target for {{Color|20|1d}}s increases {{G|Electric Susceptibility|Electric Susceptibility}} and {{G|Heat Susceptibility|Heat Susceptibility}} effects by {{Color|4%|1d}}.
+}}
+}}
+{{Operator table row
+| name = Avywenna
+| content = 
+{{Operator table row/Combat skill
+| icon = Avywenna Talent 1 icon
+| name = Tactful Approach
+| type = Talent
+| content = 
+{{Icon|Elite 1|text=false}} Ultimate {{Color|Thunderlance: Final Shock|7}} improved: Also applies {{Color|6%|1d}} {{G|Electric Susceptibility|Electric Susceptibility}} for {{Color|10|1d}}s to enemies it hits.<hr>
+{{Icon|Elite 2|text=false}} Ultimate {{Color|Thunderlance: Final Shock|7}} improved: Also applies {{Color|10%|1d}} {{G|Electric Susceptibility|Electric Susceptibility}} for {{Color|10|1d}}s to enemies it hits.
+}}
+}}
+}}
+== Interactions ==
+{{Operator table
+| header = Interactions
+| content =
+{{Operator table row
+| name = Avywenna
+| content = 
+{{Operator table row/Combat skill
+| icon = Potential 5
+| name = Carrot and Sharp Stick
+| content = 
+When returning {{Color|Thunderlances|7}} or {{Color|Thunderlances EX|7}} hit an {{G|Electric Susceptibility|Electric Susceptible}} enemy, the DMG multipliers are increased to {{Color|1.15|1d}} times the original.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''Beta Test II'''
+** {{G|Electric Susceptibility}} keyword added with [[Antal]] and [[Avywenna]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

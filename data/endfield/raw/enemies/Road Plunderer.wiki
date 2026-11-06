@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Road Plunderer
+|image = Road_Plunderer_sprite.png
+|filename = eny_0053_hsmob
+|cnname = 莫留财
+|tcname = 莫留財
+|jpname = 不残財
+|krname = 막류재
+|spname = Saqueador de caminos
+|runame = Головорез
+|type = Cangzei Pirates
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Road Plunderer''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|An armed criminal active in the jurisdiction of Wuling City. Road Plunderers would usually set up illegal road barricades or engage in the smuggling of illegal goods. Eliminating these brigands is a top priority for the law enforcement forces of Hongshan.}}
+
+==Stats==
+{{Enemy data
+|HP = 194, 1391, 8802, 34651, 83350, 128403
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.3
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[Wuling City]]
+*[[Qingbo Stockade]]
+*[[Sword Vault Dale]]
+*[[Energy Alluvium: Qingbo Stockade]]
+*[[Energy Alluvium: Sword Vault Dale]]
+|drops = {{I|Young Bamboo Sprout}}
+|addendum = }}
+
+==Overview==
+One of the basic melee [[Cangzei Pirate]]s, Road Plunderers are similar to [[Bonekrusher Raider]]s in terms of being a fodder enemy; They attack with either an upward swing or a slam, dealing Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 194, 1391, 8802, 34651, 83350, 128403 from 194, 1636, 10355, 34651, 83350, 128403
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

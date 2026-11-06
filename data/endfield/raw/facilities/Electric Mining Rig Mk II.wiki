@@ -1,0 +1,31 @@
+{{Facility infobox
+|name = Electric Mining Rig Mk II
+|filename = item_port_miner_3
+|images = Electric Mining Rig Mk II icon.png:Icon;
+Electric Mining Rig Mk II.png:Full
+|cnname = 二型电驱矿机
+|tcname = 電驅礦機II
+|jpname = 電動採鉱機Ⅱ
+|krname = 전동 채굴기 II
+|spname = Plataforma de minería eléctrica Mk II
+|runame = Добывающая ЭУ Mk II
+|type = Resourcing
+|rarity = 3
+|power = 10}}
+'''Electric Mining Rig Mk II''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|Must be connected to the power grid with adequate power to work. This mining rig can mine Ferrium Ore and other minerals.|The Mk II upgrade of the electric mining rig features improved drill bit hardness, improved performance in rugged environment, and deeper mining capabilities.}}
+==Usage==
+Must be connected to the power grid with adequate power to work. This mining rig can mine [[Ferrium Ore]] and other minerals.
+
+Despite using more power, this mining rig does not produce resources any faster and thus the [[Electric Mining Rig]] should still be used for [[Originium Ore]] and [[Amethyst Ore]].
+*Power Use : 10
+
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Mining III]]
+{{RecipeTable|product=Electric Mining Rig Mk II}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Resourcing Facilities]]

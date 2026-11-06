@@ -1,0 +1,80 @@
+{{Enemy infobox
+|name = Rhodagn the Bonekrushing Fist
+|image = Rhodagn_the_Bonekrushing_Fist_sprite.png
+|filename = eny_0051_rodin
+|cnname = “碾骨之拳”罗丹
+|tcname = 「碾骨之拳」羅丹
+|jpname = 「ボーンクラッシャーの拳」ロダン
+|krname = '본 크러셔의 주먹' 로댄
+|spname = Rhodagn el puño Rompehuesos
+|runame = Родан Костоломный Кулак
+|type = Landbreakers
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 17
+}}
+'''Rhodagn the Bonekrushing Fist''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The right fist of Nefarith and the most feared Bonekrusher soldier of the clan. Many Landbreakers had challenged Nefarith's leadership, only to be utterly crushed by Rhodagn's fists.}}
+
+==Stats==
+{{Enemy data
+|HP = 3461, 24839, 157171, 618759, 1488392, 2292909
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 280
+|SR = 10
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *A super heavy enemy. He uses ventilation pipes to pull in his opponents so that they are close enough to be attacked.
+*Buffs himself with the power of denstacks. Watch and evade his jets of fire.
+|location = *[[Valley Pass]]
+|drops = 
+|addendum = }}
+
+==Overview==
+As one of the most powerful members of the Bonekrushers, Rhodagn is a formidable foe in battle. Although his movement is on the slow side, he can still prove to be challenging to new players, with several of his abilities revolving around his physique and nearby Denstacks.
+
+Rhodagn initially has the following abilities:
+*A high leap followed by a ground slam with his two fists, dealing Physical damage in a wide range. He will use this ability at the start of the battle, or directly after he uses his ventilation ability (see below).
+*Two swiping attacks with his fists, dealing Physical damage to the Operator at his front. This will be used if the controlled Operator is near Rhodagn.
+*A shoulder charge identical to that of the [[Bonekrusher Ballista]], dealing Physical damage and knocking Operators back. This is followed by a downward punch, dealing Physical damage to a small range at his front. This will be used if the controlled Operator is far from Rhodagn.
+*Rhodagn uses his ventilation pipes to drag Operators towards him, followed by a burst of gas, dealing damage in a wide range.
+
+When Rhodagn has lost one-third of his HP, a cutscene will be triggered. Rhodagn connects his ventilation pipes to his armor, allowing him to use the Denstacks' power, and replacing his existing abilities with new ones:
+*Rhodagn starts charging, and four remnants fall nearby, dealing Heat damage to hit Operators. Once fully charged, Rhodagn will create a shockwave, knocking Operators back and dealing Heat damage, followed by an explosion from his ventilation pipes, destroying the fallen remnants, and dealing heavy Heat damage to all Operators not standing behind a remnant.
+*Fires at four spots four times, each dealing Heat damage and leaves the ground burning that deals continuous Heat damage to Operators on top of it. This ability can be interrupted by skills.
+*Jets out fire at his front, dealing continuous Heat damage, followed by a detonation, dealing Heat damage and knocking Operators back.
+*Jets out fire at his front continuously, dealing continuous Heat damage.
+*A high leap follow by a landing, identical to the ground slam from his previous phase, but now dealing three instances of Physical damage, with each instance having wider range than the last.
+
+In [[Valley's Aberrants]] Aberrant Zone 6, when Rhodagn lost about 40% of his HP, he instead uses new abilities:
+*Heals all Stagger from self and recover from Stagger (if any).
+*After a short delay, jumps to high ground. Occasionally shot multiple fireballs down close to the controlled Operator's position, dealing large Heat DMG and leaves the AoE burning, dealing continious Heat DMG.
+*Large amounts of {{E|Bonekrusher Ripptusk}} will appear and actively chase the Operators.
+*After a while, jumps back down into the field, creating a shockwave, dealing DMG.
+After that Rhodagn will use his enhanced abilities. The ability will be triggered again when he lost 80% of his HP. 
+It is noteworthy that players can activate the switch nearby after defeating him to activate the flamethrower on where Rhodagn jump to, in which he will take damage about 12% of HP every second.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 3461, 24839, 157171, 618759, 1488392, 2292909 from 3461, 29222, 184907, 618759, 1488392, 2292909
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

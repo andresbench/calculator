@@ -1,0 +1,708 @@
+{
+ "Absorb": {
+  "aliases": [
+   "absorbed",
+   "absorbs"
+  ],
+  "description": "A way to end a Physical or Arts debuff early. Absorb is not the same as consume.",
+  "name": "Absorb",
+  "source_module": "Module:Glossary/misc",
+  "term": "Absorb",
+  "title": null
+ },
+ "Amp": {
+  "aliases": [
+   "Amped"
+  ],
+  "description": "Amped targets deal more DMG of the Element it is Amped for. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Amp",
+  "source_module": "Module:Glossary/misc",
+  "term": "Amp",
+  "title": "Amp"
+ },
+ "Arts Amp": {
+  "aliases": [
+   "Amp"
+  ],
+  "description": "Arts Amped targets temporarily deal more Arts DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Arts Amp",
+  "source_module": "Module:Glossary/misc",
+  "term": "Arts Amp",
+  "title": "Arts Amp"
+ },
+ "Arts Burst": {
+  "aliases": [
+   "Arts Burst DMG",
+   "Arts Bursts"
+  ],
+  "description": "Arts Bursts are triggered by stacking Arts Inflictions of the same Elements. They include Heat Burst, Electric Burst, Cryo Burst, and Nature Burst.",
+  "name": "Arts Burst",
+  "source_module": "Module:Glossary/misc",
+  "term": "Arts Burst",
+  "title": null
+ },
+ "Arts Infliction": {
+  "aliases": [
+   "Arts Inflictions",
+   "non-Nature Arts Infliction"
+  ],
+  "description": "Arts Inflictions are special Arts debuff inflicted upon the enemy. There are 4 Elements of Arts Inflctions: Heat Infliction, Electric Infliction, Cryo Infliction, and Nature Infliction.\nUp to 4 stacks of Arts Inflictions of the same Element can be applied.",
+  "name": "Arts Infliction",
+  "source_module": "Module:Glossary/misc",
+  "term": "Arts Infliction",
+  "title": null
+ },
+ "Arts Reaction": {
+  "aliases": [
+   "Arts Reactions"
+  ],
+  "description": "Arts Reactions are Arts debuffs that can be applied to the enemy. They include: Combustion, Electrification, Solidification, and Corrosion.",
+  "name": "Arts Reaction",
+  "source_module": "Module:Glossary/misc",
+  "term": "Arts Reaction",
+  "title": "Arts Reaction"
+ },
+ "Arts Susceptibility": {
+  "aliases": [],
+  "description": "Arts Susceptible targets temporarily take more Arts DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Arts Susceptibility",
+  "source_module": "Module:Glossary/misc",
+  "term": "Arts Susceptibility",
+  "title": "Arts Susceptibility"
+ },
+ "Aurora": {
+  "aliases": [],
+  "description": "A special phenomenon near the North Pole. It is actually a wall-like barrier encircling an entire zone and comprises an unending series of Æther energy ruptures. The Aurora is so-named because its brilliant colors and hues resemble an actual aurora.",
+  "name": "Aurora",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Aurora",
+  "title": null
+ },
+ "Bell of Three Presences": {
+  "aliases": [],
+  "description": "An ancient Yanese bell modified using Xiranite. Such bells are usually placed near key infrastructure as they can detect the presence of Blight and automatically sound alarms to alert people nearby.",
+  "name": "Bell of Three Presences",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Bell of Three Presences",
+  "title": null
+ },
+ "Blight Miasma (or simply: Miasma)": {
+  "aliases": [],
+  "description": "A gaseous form of Blight that behaves like fog and mist with very ill-defined boundaries. Masses of Blight Miasma are usually found in the North Wuling Exclusion Zone.",
+  "name": "Blight Miasma (or simply: Miasma)",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Blight Miasma (or simply: Miasma)",
+  "title": null
+ },
+ "Blightshade": {
+  "aliases": [],
+  "description": "A replicate of a victim killed by the Æther. Such Æther copies can act independently and are extremely aggressive.",
+  "name": "Blightshade",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Blightshade",
+  "title": null
+ },
+ "Breach": {
+  "aliases": [
+   "Breached"
+  ],
+  "description": "Applies Vulnerable on an enemy. If the enemy is already Vulnerable, then consume all Vulnerable stacks, deal Physical DMG, and temporarily increase the Physical DMG taken by the enemy.",
+  "name": "Breach",
+  "source_module": "Module:Glossary/misc",
+  "term": "Breach",
+  "title": "Physical Status: Breach"
+ },
+ "Combustion": {
+  "aliases": [
+   "Combusted"
+  ],
+  "description": "An enemy with Combustion takes Heat DMG over time.\nCombustion = A non-Heat Infliction (//) + Heat Infliction",
+  "name": "Combustion",
+  "source_module": "Module:Glossary/misc",
+  "term": "Combustion",
+  "title": "Arts Reaction: Combustion"
+ },
+ "Corrosion": {
+  "aliases": [],
+  "description": "An enemy with Corrosion gradually loses resistance against all Elements.\nCorrosion = A non-Nature Infliction (//) + Nature Infliction",
+  "name": "Corrosion",
+  "source_module": "Module:Glossary/misc",
+  "term": "Corrosion",
+  "title": "Arts Reaction: Corrosion"
+ },
+ "Crush": {
+  "aliases": [
+   "Crush (formerly Knock Back)",
+   "Crush DMG",
+   "Crushed"
+  ],
+  "description": "Applies Vulnerable on an enemy. If the enemy is already Vulnerable, then consume all Vulnerable stacks and deal massive Physical DMG.",
+  "name": "Crush",
+  "source_module": "Module:Glossary/misc",
+  "term": "Crush",
+  "title": "Physical Status: Crush"
+ },
+ "Cryo Amp": {
+  "aliases": [],
+  "description": "Cryo Amped targets temporarily deal more Cryo DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Cryo Amp",
+  "source_module": "Module:Glossary/misc",
+  "term": "Cryo Amp",
+  "title": null
+ },
+ "Cryo Burst": {
+  "aliases": [],
+  "description": "Cryo Burst = Cryo Infliction + Cryo Infliction\nApplies 1 stack of Cryo Infliction and deals Cryo DMG",
+  "name": "Cryo Burst",
+  "source_module": "Module:Glossary/misc",
+  "term": "Cryo Burst",
+  "title": "Arts Burst: Cryo"
+ },
+ "Cryo Infliction": {
+  "aliases": [
+   "Cryo Inflicted",
+   "Cryo Inflictions"
+  ],
+  "description": "Cryo Infliction is a type of Arts Infliction.\nUp to 4 stacks of Cryo Infliction can be applied and stacking triggers Cryo Burst.\nA non-Cryo Infliction (//) + Cryo Infliction = Solidification",
+  "name": "Cryo Infliction",
+  "source_module": "Module:Glossary/misc",
+  "term": "Cryo Infliction",
+  "title": "Arts Infliction: Cryo"
+ },
+ "Cryo Susceptibility": {
+  "aliases": [],
+  "description": "Cryo Susceptible targets temporarily take more Cryo DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Cryo Susceptibility",
+  "source_module": "Module:Glossary/misc",
+  "term": "Cryo Susceptibility",
+  "title": "Cryo Susceptibility"
+ },
+ "DMG Over Time": {
+  "aliases": [
+   "Damage over time effects",
+   "Heat DMG Over Time"
+  ],
+  "description": "DMG over time cannot trigger critical hits.",
+  "name": "DMG Over Time",
+  "source_module": "Module:Glossary/misc",
+  "term": "DMG Over Time",
+  "title": null
+ },
+ "DMG Type": {
+  "aliases": [
+   "Arts Burst DMG",
+   "Arts DMG",
+   "Arts DMG Dealt",
+   "Arts DMG Taken",
+   "Increased Arts DMG Taken"
+  ],
+  "description": "Damage can be divided into Physical DMG, Arts DMG, and Æther DMG.\nArts DMG can be further divided into Heat DMG, Electric DMG, Cryo DMG, and Nature DMG.",
+  "name": "DMG Type",
+  "source_module": "Module:Glossary/misc",
+  "term": "DMG Type",
+  "title": null
+ },
+ "Debuff Consumption": {
+  "aliases": [
+   "Consume",
+   "Consumes",
+   "Consuming",
+   "consume",
+   "consumed",
+   "consumed|1d",
+   "consumes",
+   "consuming",
+   "consumption"
+  ],
+  "description": "Various Physical and Arts debuffs can be ended early. For example, Crush consumes Vulnerable debuffs, while Combustion consumes Arts Infliction debuffs.",
+  "name": "Debuff Consumption",
+  "source_module": "Module:Glossary/misc",
+  "term": "Debuff Consumption",
+  "title": null
+ },
+ "Dispel": {
+  "aliases": [
+   "Dispels",
+   "dispels"
+  ],
+  "description": "This removes specific debuffs from the Operator.",
+  "name": "Dispel",
+  "source_module": "Module:Glossary/misc",
+  "term": "Dispel",
+  "title": "Dispel"
+ },
+ "Electric Amp": {
+  "aliases": [],
+  "description": "Electric Amped targets temporarily deal more Electric DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Electric Amp",
+  "source_module": "Module:Glossary/misc",
+  "term": "Electric Amp",
+  "title": null
+ },
+ "Electric Burst": {
+  "aliases": [],
+  "description": "Electric Burst = Electric Infliction + Electric Infliction\nApplies 1 stack of Electric Infliction and deals Heat DMG",
+  "name": "Electric Burst",
+  "source_module": "Module:Glossary/misc",
+  "term": "Electric Burst",
+  "title": "Arts Burst: Electric"
+ },
+ "Electric Infliction": {
+  "aliases": [
+   "Electric Inflicted"
+  ],
+  "description": "Electric Infliction is a type of Arts Infliction.\nUp to 4 stacks of Electric Infliction can be applied and stacking triggers Electric Burst.\nA non-Electric Infliction (//) + Electric Infliction = Electrification",
+  "name": "Electric Infliction",
+  "source_module": "Module:Glossary/misc",
+  "term": "Electric Infliction",
+  "title": "Arts Infliction: Electric"
+ },
+ "Electric Susceptibility": {
+  "aliases": [
+   "Electric Susceptible"
+  ],
+  "description": "Electric Susceptible targets temporarily take more Electric DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Electric Susceptibility",
+  "source_module": "Module:Glossary/misc",
+  "term": "Electric Susceptibility",
+  "title": "Electric Susceptibility"
+ },
+ "Electrification": {
+  "aliases": [],
+  "description": "An enemy with Electrification takes more Arts DMG.\nElectrification = A non-Electric Infliction (//) + Electric Infliction",
+  "name": "Electrification",
+  "source_module": "Module:Glossary/misc",
+  "term": "Electrification",
+  "title": "Arts Reaction: Electrification"
+ },
+ "Feranmut": {
+  "aliases": [],
+  "description": "Gargantuan creatures indigenous to Terra. They measure anywhere from several hundred meters to several hundred kilometers in size. Feranmuts wield supernatural powers that are completely unrelated to Originium Arts.",
+  "name": "Feranmut",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Feranmut",
+  "title": null
+ },
+ "Final Strike": {
+  "aliases": [],
+  "description": "Final Strike is the last sequence of basic attack. When the controlled Operator's Final Strike hits the enemy, it also deals Stagger and restores some Skill Points (SP).",
+  "name": "Final Strike",
+  "source_module": "Module:Glossary/misc",
+  "term": "Final Strike",
+  "title": null
+ },
+ "Fixed DMG": {
+  "aliases": [],
+  "description": "Fixed DMG ignores the target's DEF and resistances. The amount of Fixed DMG is not changed by any increase or reduction effects.",
+  "name": "Fixed DMG",
+  "source_module": "Module:Glossary/misc",
+  "term": "Fixed DMG",
+  "title": null
+ },
+ "Fowlbeast": {
+  "aliases": [],
+  "description": "The fowlbeast (fowl) is a general term for describing any oviparous vertebrate beast covered in feathers.",
+  "name": "Fowlbeast",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Fowlbeast",
+  "title": null
+ },
+ "Haste": {
+  "aliases": [],
+  "description": "Temporarily raises the movement speed of a target. The number represents the degree of the speed increase. Effects of the same type can stack until hitting the speed cap.",
+  "name": "Haste",
+  "source_module": "Module:Glossary/misc",
+  "term": "Haste",
+  "title": "Haste"
+ },
+ "Heat Amp": {
+  "aliases": [],
+  "description": "Heat Amped targets temporarily deal more Heat DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Heat Amp",
+  "source_module": "Module:Glossary/misc",
+  "term": "Heat Amp",
+  "title": null
+ },
+ "Heat Burst": {
+  "aliases": [],
+  "description": "Heat Burst = Heat Infliction + Heat Infliction\nApplies 1 stack of Heat Infliction and deals Heat DMG",
+  "name": "Heat Burst",
+  "source_module": "Module:Glossary/misc",
+  "term": "Heat Burst",
+  "title": "Arts Burst: Heat"
+ },
+ "Heat Infliction": {
+  "aliases": [
+   "Heat Inflictions"
+  ],
+  "description": "Heat Infliction is a type of Arts Infliction.\nUp to 4 stacks of Heat Infliction can be applied and stacking triggers Heat Burst.\nA non-Heat Infliction (//) + Heat Infliction = Combustion",
+  "name": "Heat Infliction",
+  "source_module": "Module:Glossary/misc",
+  "term": "Heat Infliction",
+  "title": "Arts Infliction: Heat"
+ },
+ "Heat Susceptibility": {
+  "aliases": [],
+  "description": "Heat Susceptible targets temporarily take more Heat DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Heat Susceptibility",
+  "source_module": "Module:Glossary/misc",
+  "term": "Heat Susceptibility",
+  "title": "Heat Susceptibility"
+ },
+ "Heroes of Terra": {
+  "aliases": [],
+  "description": "These refer to the heroes who, together with the Endministrator, breached the dangerous zones of the polar circle and completed a key military operation during the First Aggeloi War.",
+  "name": "Heroes of Terra",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Heroes of Terra",
+  "title": null
+ },
+ "Howlerbeast": {
+  "aliases": [],
+  "description": "A beast indigenous to Talos-II that can reach great sizes. They have unique vocal cords that allow adult howlerbeasts to injure their enemies by howling. This special way of attacking gave rise to their name: howlerbeasts.",
+  "name": "Howlerbeast",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Howlerbeast",
+  "title": null
+ },
+ "Hunting Arrow": {
+  "aliases": [
+   "Hunting Arrow(s)",
+   "Hunting Arrows"
+  ],
+  "description": "When Typhoeus is in her Hovering state, she can consume Hunting Arrows to empower her shots, dealing higher DMG while also triggering Nature Burst.",
+  "name": "Hunting Arrow",
+  "source_module": "Module:Glossary/misc",
+  "term": "Hunting Arrow",
+  "title": "Hunting Arrow"
+ },
+ "Immobilization": {
+  "aliases": [],
+  "description": "A target affected by Immobilization cannot perform any actions for the duration of this effect.",
+  "name": "Immobilization",
+  "source_module": "Module:Glossary/misc",
+  "term": "Immobilization",
+  "title": "Immobilization"
+ },
+ "Ink Spirit": {
+  "aliases": [],
+  "description": "An entity of ink paintings created by the Feranmut Proxy. These unique creations are made possible with Feranmut power. Some Ink Spirits are capable of autonomous actions.",
+  "name": "Ink Spirit",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Ink Spirit",
+  "title": null
+ },
+ "Knock Down": {
+  "aliases": [
+   "Knocked Down",
+   "knocking down"
+  ],
+  "description": "Applies Vulnerable on an enemy. If the enemy is already Vulnerable, then add 1 stack of Vulnerable, and deal Physical DMG and Stagger.",
+  "name": "Knock Down",
+  "source_module": "Module:Glossary/misc",
+  "term": "Knock Down",
+  "title": "Physical Status: Knock Down"
+ },
+ "La Fantoma": {
+  "aliases": [],
+  "description": "The city where the Talos-II General Chamber of Commerce is headquartered in. This coastal cosmopolis is known for its warmth, passion, points of interest, and pop music.",
+  "name": "La Fantoma",
+  "source_module": "Module:Glossary/narrative",
+  "term": "La Fantoma",
+  "title": null
+ },
+ "Lift": {
+  "aliases": [
+   "Lifted",
+   "Lifts"
+  ],
+  "description": "Applies Vulnerable on an enemy. If the enemy is already Vulnerable, then add 1 stack of Vulnerable, and deal Physical DMG and Stagger.",
+  "name": "Lift",
+  "source_module": "Module:Glossary/misc",
+  "term": "Lift",
+  "title": "Physical Status: Lift"
+ },
+ "Link": {
+  "aliases": [],
+  "description": "Next Battle Skill or Ultimate cast by the team consumes the Link buff and deals more DMG, with Battle Skills getting a higher increase. Effects of the same type can stacks, but with diminishing returns.",
+  "name": "Link",
+  "source_module": "Module:Glossary/misc",
+  "term": "Link",
+  "title": "Link"
+ },
+ "Luoyi": {
+  "aliases": [],
+  "description": "An important transport hub of Hongshan Academy of Sciences (HAS). It is the earliest major city built after the establishment of HAS Headquarters.",
+  "name": "Luoyi",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Luoyi",
+  "title": null
+ },
+ "Miasma Gas": {
+  "aliases": [],
+  "description": "A gaseous form of Blight that behaves like fog and mist with very ill-defined boundaries. Masses of Blight Miasma are usually found in the North Wuling Exclusion Zone.",
+  "name": "Miasma Gas",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Miasma Gas",
+  "title": null
+ },
+ "Nature Amp": {
+  "aliases": [],
+  "description": "Nature Amped targets temporarily deal more Nature DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Nature Amp",
+  "source_module": "Module:Glossary/misc",
+  "term": "Nature Amp",
+  "title": null
+ },
+ "Nature Burst": {
+  "aliases": [],
+  "description": "Nature Burst = Nature Infliction + Nature Infliction\nApplies 1 stack of Nature Infliction and deals Nature DMG",
+  "name": "Nature Burst",
+  "source_module": "Module:Glossary/misc",
+  "term": "Nature Burst",
+  "title": "Arts Burst: Nature"
+ },
+ "Nature Infliction": {
+  "aliases": [],
+  "description": "Nature Infliction is a type of Arts Infliction.\nUp to 4 stacks of Nature Infliction can be applied and stacking triggers Nature Burst.\nA non-Nature Infliction (//) + Nature Infliction = Corrosion",
+  "name": "Nature Infliction",
+  "source_module": "Module:Glossary/misc",
+  "term": "Nature Infliction",
+  "title": "Arts Infliction: Nature"
+ },
+ "Nature Susceptibility": {
+  "aliases": [],
+  "description": "Nature Susceptible targets temporarily take more Nature DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Nature Susceptibility",
+  "source_module": "Module:Glossary/misc",
+  "term": "Nature Susceptibility",
+  "title": "Nature Susceptibility"
+ },
+ "North Wuling Exclusion Zone": {
+  "aliases": [],
+  "description": "The Exclusion Zone used to be the Wuling Science Station. After a disaster ten years ago, the entire area became ruins filled with the Blight.",
+  "name": "North Wuling Exclusion Zone",
+  "source_module": "Module:Glossary/narrative",
+  "term": "North Wuling Exclusion Zone",
+  "title": null
+ },
+ "Originium Crystal": {
+  "aliases": [
+   "Originium Crystals"
+  ],
+  "description": "The Endministrator's Combo Skill attaches Originium Crystals to enemies and immobilizes them.",
+  "name": "Originium Crystal",
+  "source_module": "Module:Glossary/misc",
+  "term": "Originium Crystal",
+  "title": "Originium Crystal"
+ },
+ "Physical Status": {
+  "aliases": [
+   "Physical Statuses"
+  ],
+  "description": "Physical Statuses refer to physical debuffs applied to the enemy. They include: Lifted, Knocked Down, Crushed, and Breached.",
+  "name": "Physical Status",
+  "source_module": "Module:Glossary/misc",
+  "term": "Physical Status",
+  "title": null
+ },
+ "Physical Susceptibility": {
+  "aliases": [],
+  "description": "Physical Susceptible targets temporarily take more Physical DMG. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Physical Susceptibility",
+  "source_module": "Module:Glossary/misc",
+  "term": "Physical Susceptibility",
+  "title": "Physical Susceptibility"
+ },
+ "Precursor": {
+  "aliases": [],
+  "description": "An ancient interstellar civilization destroyed by unknown causes. The legacy they left behind allowed the modern human civilization to thrive.",
+  "name": "Precursor",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Precursor",
+  "title": null
+ },
+ "Protect": {
+  "aliases": [
+   "Protected",
+   "Protection"
+  ],
+  "description": "Protected targets temporarily take reduced DMG. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies.",
+  "name": "Protect",
+  "source_module": "Module:Glossary/misc",
+  "term": "Protect",
+  "title": "Protect"
+ },
+ "Proxy": {
+  "aliases": [],
+  "description": "The avatar that a Feranmut uses to travel in the mortal world.",
+  "name": "Proxy",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Proxy",
+  "title": null
+ },
+ "Razor Clawmark": {
+  "aliases": [
+   "Razor Clawmarked"
+  ],
+  "description": "Rossi's battle skill applies a special status on the enemy. The affected target will take Physical DMG over time, and suffers higher Physical DMG Taken and Heat DMG Taken.",
+  "name": "Razor Clawmark",
+  "source_module": "Module:Glossary/misc",
+  "term": "Razor Clawmark",
+  "title": "Razor Clawmark"
+ },
+ "SP Return": {
+  "aliases": [
+   "Returns",
+   "return",
+   "returned",
+   "returns"
+  ],
+  "description": "After spending SP and meeting certain criteria, some of the SP spent will be returned.\nSP Return is not \"SP Recovery\" and does not activate SP Recovery-triggered effects. Spending returned SP does not gain Ultimate Energy.",
+  "name": "SP Return",
+  "source_module": "Module:Glossary/misc",
+  "term": "SP Return",
+  "title": null
+ },
+ "Shatter": {
+  "aliases": [],
+  "description": "To an enemy with active Solidification, applying Vulnerable or Physical Status effects will consume the Solidification to trigger Shatter that deals massive Physical DMG",
+  "name": "Shatter",
+  "source_module": "Module:Glossary/misc",
+  "term": "Shatter",
+  "title": "Shatter"
+ },
+ "Shield": {
+  "aliases": [
+   "shields"
+  ],
+  "description": "The Shield can absorb damage while it is active. Some Shields may only absorb specific type(s) of DMG.",
+  "name": "Shield",
+  "source_module": "Module:Glossary/misc",
+  "term": "Shield",
+  "title": "Shield"
+ },
+ "Sign": {
+  "aliases": [
+   "Sign(s)",
+   "Signs"
+  ],
+  "description": "Typhoeus gains Signs when she consumes the enemy's Nature Infliction stacks or when triggering Nature Burst on enemies. Her combo skill can then convert the Signs into Hunting Arrows.",
+  "name": "Sign",
+  "source_module": "Module:Glossary/misc",
+  "term": "Sign",
+  "title": "Sign"
+ },
+ "Sky Pole": {
+  "aliases": [],
+  "description": "A small smart drone that has multiple functions, like scouting and surveillance.",
+  "name": "Sky Pole",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Sky Pole",
+  "title": null
+ },
+ "Slow": {
+  "aliases": [
+   "Slowed",
+   "slowed"
+  ],
+  "description": "Slowed targets temporarily suffer movement speed reduction. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies.",
+  "name": "Slow",
+  "source_module": "Module:Glossary/misc",
+  "term": "Slow",
+  "title": "Slow"
+ },
+ "Solidification": {
+  "aliases": [
+   "Solidified"
+  ],
+  "description": "An enemy with Solidification cannot move, and applying Vulnerable or a Physical Status to the enemy triggers the Shatter effect.\nSolidification = A non-Cryo Infliction (//) + Cryo Infliction",
+  "name": "Solidification",
+  "source_module": "Module:Glossary/misc",
+  "term": "Solidification",
+  "title": "Arts Reaction: Solidification"
+ },
+ "Stagger Node": {
+  "aliases": [],
+  "description": "Some powerful enemies have Stagger Nodes. Deal enough Stagger to reach the Stagger Nodes to interrupt such enemies and make them stumble.",
+  "name": "Stagger Node",
+  "source_module": "Module:Glossary/misc",
+  "term": "Stagger Node",
+  "title": null
+ },
+ "Status Level": {
+  "aliases": [
+   "Status Level +1",
+   "Status Level I"
+  ],
+  "description": "Status Level is the number of Vulnerable or Arts Infliction stacks (max 4) consumed when triggering a Physical Status or Arts Reactions. The higher the Status Level, the stronger the resulting Physical Status or Arts Reactions.",
+  "name": "Status Level",
+  "source_module": "Module:Glossary/misc",
+  "term": "Status Level",
+  "title": null
+ },
+ "Susceptible": {
+  "aliases": [
+   "Susceptibility"
+  ],
+  "description": "Susceptible targets temporarily take more DMG of the element it is Susceptible to. The number represents the degree of increase. Effects of the same type can stack.",
+  "name": "Susceptible",
+  "source_module": "Module:Glossary/misc",
+  "term": "Susceptible",
+  "title": " Susceptible"
+ },
+ "Talos": {
+  "aliases": [],
+  "description": "A gas giant with visible rings. Talos-II, the world in which we live, is its second moon. Under most circumstances, the gas giant is conspicuously visible in the sky.",
+  "name": "Talos",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Talos",
+  "title": null
+ },
+ "Very Large Rift": {
+  "aliases": [],
+  "description": "The largest rift known in the Civilization Band.",
+  "name": "Very Large Rift",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Very Large Rift",
+  "title": null
+ },
+ "Vulnerable": {
+  "aliases": [
+   "Vulnerability",
+   "Vulnerable enemy"
+  ],
+  "description": "Hitting an enemy for the first time with a skill with Physical Status applies Vulnerable instead of the actual Physical Status.\nA Vulnerable enemy can be Lifted and Knocked Down to add more Vulnerable stacks (up to 4). Hitting a Vulnerable enemy with Crush or Breach will consume the Vulnerable stacks.",
+  "name": "Vulnerable",
+  "source_module": "Module:Glossary/misc",
+  "term": "Vulnerable",
+  "title": "Vulnerable"
+ },
+ "Weaken": {
+  "aliases": [
+   "Weakened",
+   "Weakness"
+  ],
+  "description": "Weakend targets temporarily deal reduced DMG. The number represents the degree of reduction. Effects of the same type can stack non-linearly.",
+  "name": "Weaken",
+  "source_module": "Module:Glossary/misc",
+  "term": "Weaken",
+  "title": "Weaken"
+ },
+ "Xiranite Nexus": {
+  "aliases": [],
+  "description": "An Originium device capable of instantly unleashing Xiranite energy. Its intended purpose is to seal rifts.",
+  "name": "Xiranite Nexus",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Xiranite Nexus",
+  "title": null
+ },
+ "Yinglung Pass": {
+  "aliases": [],
+  "description": "A complex of containment facilities constructed to hold back the Wuling Very Large Rift. The Pass is now garrisoned by the Yinglung Special Task Force.",
+  "name": "Yinglung Pass",
+  "source_module": "Module:Glossary/narrative",
+  "term": "Yinglung Pass",
+  "title": null
+ }
+}

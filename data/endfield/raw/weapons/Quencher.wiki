@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Quencher
+|rarity = 4
+|images = 
+Quencher icon.png:Icon;
+Quencher.png:Full;
+Quencher max model.png:Max
+|filename = wpn_claym_0009
+|cnname = 淬火者
+|tcname = 淬火者
+|jpname = 鍛冶師
+|krname = 불꽃의 시험
+|spname = Extinguidora
+|runame = Гаситель
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Quencher''' is a 4★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard greatsword made by Fort Forgefane. Although very few have mastered this weapon, the weapon is easy to wield and has been the most popular choice amongst raw recruits for many years.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Crusher: Honed into Legion|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Will [S]|HP [S]|Crusher: Honed into Legion}}
+
+==Basic Info==
+{{Quote|"...I know what you're thinking, flakies. Why, by Talos, is this old feline so cold and unreasonable? Why would he send fresh meat with barely two weeks of training to kill some buggerloids? BECAUSE I ORDERED IT! The only blightery I wanna hear from your pie holes are: "SIR! YES, SIR!" Do you friggin' UNDERSTAND?!"<br>"Or do I have to emphasize this once more? I am your drill instructor! I am the smelter and the quencher! My job description has but one line, and that is to hammer this idea into your empty heads: Fighting buggerloids isn't the same as make-believe Saturday afternoon tea with Miss Applecrumbs!"<br>"I don't care if you hate me, because sooner or later... you will appreciate my edu —"<br><br>"— CUT!"<br><br>I got back to my senses and knew I messed up on the same line again.<br>Director Luther rushed over to my face, lividly. He pointed at my nose and roared:<br>"Mr. Hudson! Did a burdenbeast stomp on your mouth? You have FLOPPED three attempts for this simple line! If you fail to deliver this properly one more time, I want you to instantly REMOVE your majestically clumsy turdmaker OUT OF MY STUDIO!"<br><br>......<br><br>I returned to the lounge. Dennick, my agent, was frowning. "Lukas, what were you thinking? I thought you're a top graduate from the New Wrankwood Academy of Performing Arts!"<br>I remained silent and took out the script that was already filled with my personal notes. I drew a circle around the name "Guy Crerar" — An officer serving the Order of Steel Oath and the character I was supposed to play.<br>"Guy Crerar is an Oathkeeper known for his incorruptibility and sense of justice. In the prequel of this movie, he's a benevolent instructor who would stand up for his recruits when they are mistreated, and question his superiors when they give unreasonable orders."<br>"But what's happening here? Guy has turned into a conceited, self-centered jerk who treat recruits as expendables beneath himself, and under-performing youths as sub-human trash..."<br><br>"...What are you trying to say?" Dennick did not seem impressed. In fact, he seemed disinterested in my opinions.<br><br>I sighed. I tried to convey my ideas as truthfully and formally as I could to the man who once called himself my biggest "fan".<br>"I'm trying to say that this script has serious issues with the portrayal of this character. We already have an Iron Banner trilogy. The key character of its sequel shouldn't be handled in such a crude manner. Guy is also supposed to convey the image of the Oathkeepers in the story. Maybe we shouldn't —"<br><br>"Come on, Lukas. Let's ease off the sentimentalities already. We're not studying in drama school anymore."<br>Dennick interrupted me out of frustration. He then looked at me with this sour look on his face. A look I knew very well, but never expected him to show it.<br>"You need a clearer view of this entire thing! This isn't Acting 101. You're not in school!<br>"All that stuff on character portrayal and script quality is NONE of your concern. We have the director, scriptwriters, and producers in charge of that!<br>"And that stuff about the 'image of the Oathkeepers'... Don't you know how many recruits we're getting them with this series? I don't see anyone objecting to this!<br>"Look around you! New Wrankwood doesn't need an actors who can't even find his proper role!<br>"You must sort out this nonsense quickly! And please! Try to deliver that scene perfectly!"<br><br>I looked at Dennick. The things he said were irrefutable... He was making plenty of sense.<br><br>And I was also fresh out of drama school with hardly any say on the important things.<br>The UWST city of Triglava was the furthest place I had been to. I only saw Oathkeepers on screen and in posters.<br>None of the Aggeloi, Northern fortresses, and Oathkeeper spirit had anything to do with me once I take off my costume.<br>— And wouldn't that be the truth?<br><br>But they told me they found a retired Oathkeeper to check on the accuracy of the costume. It was even made out of the same fabrics of an actual officer's uniform, and they embellished it with the conspicuous Expeditioner's Medal.<br>I could not help but feel something seething deep within me.<br><br>And thus I raised my head and calmly faced my first and final agent.<br>"I'm sorry, Dennick. I suppose you're right.<br>"This place probably doesn't have a proper role for me...<br>"And this is why I'd no longer fit as the local rendition of Guy Crerar.<br>"— Take care." <br><br>And with that, I left my agent, the termination agreement, and the fine at the lounge. <br>Then I left the studio on my own.<br><br>......<br><br>Two weeks later, having settled all of my affairs and packing my personal belongings, I went to the largest long distance coach station of New Wrankwood and bought a ticket to the north.<br><br>— What happened next?<br>I came to this place and completed an application for enlisting in the Order. After several rounds of testing and training —<br>I finally earned my place to stand before you, sir.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

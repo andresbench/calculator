@@ -1,0 +1,32 @@
+[[File: Environment screenshot.png|right|thumb|An active stable environment created by supplying a Gas Dispersing Unit with Inergen. AIC facilities that are influenced by an environment are indicated with the respective environment icon.]]
+
+'''Environment''' ('''ENV''') is an [[AIC Mechanic]] in ''[[Arknights: Endfield]]''.
+
+A [[Gas Dispersing Unit]] supplied with atleast '''6 units/minute''' of [[flow rate]] of [[gas]] creates a 13 by 13 tile environment centered around the unit. Any gas supplied beyond the required 6 units/minute is wasted. The type of environment generated depends on the gas supplied to the unit. Some gases cannot be dispersed as an environment.
+
+Some [[AIC Facilities]] that are completely within the generated environment are influenced by it. Certain AIC products have a different recipe when their facility is influenced by a specific type of environment.
+* {{I|Forge of the Sky|g=0}}
+* {{I|Purification Unit|g=0}}
+* {{I|Gas Reactor Globe|g=0}}
+
+
+{{TOC limit|3}}
+
+== Types ==
+=== [[File: Stable ENV icon.png|25px]] Stable ENV ===
+A stable environment is created by supplying {{I|Inergen|g=0}} to a Gas Dispersing Unit. The following AIC products have alternate recipes when their AIC facility is influenced by stable environments:
+{{RecipeTable|environment=Stable ENV}}
+
+=== [[File: Acrid ENV icon.png|25px]] Acrid ENV ===
+An acrid environment is created by supplying {{I|Acridgen|g=0}} to a Gas Dispersing Unit. The following AIC products have alternate recipes when their AIC facility is influenced by acrid environments:
+{{RecipeTable|environment=Acrid ENV}}
+
+=== [[File: Humid ENV icon.png|25px]] Humid ENV ===
+A humid environment is created by supplying {{I|Aquagen|g=0}} to a Gas Dispersing Unit. If a [[plot]] is fully within the generated environment, it is automatically watered when in the Watering stage. There are no current AIC products that have alternate recipes when their AIC facility is influenced by humid environments.
+
+=== [[File: Xiranite ENV icon.png|25px]] Xiranite ENV ===
+A Xiranite environment is created by supplying {{I|Xiragen|g=0}} to a Gas Dispersing Unit. If the [[operator]] is fully within the generated environment, they fully restore their [[Blight Miasma Tolerance]] to their current maximum. Therefore, the environment functions similarly to a [[Yinglung Pillar]]. There are no current AIC products that have alternate recipes when their AIC facility is influenced by Xiranite environments.
+
+== Navigation ==
+{{AIC Mechanics nav}}
+[[Category: AIC Mechanics]]

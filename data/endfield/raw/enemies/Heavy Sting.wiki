@@ -1,0 +1,66 @@
+{{Enemy infobox
+|name = Heavy Sting
+|image = Heavy_Sting_sprite.png
+|filename = eny_0027_agscorp
+|cnname = 重刺天使
+|tcname = 重刺天使
+|jpname = 槍棘アンゲロス
+|krname = 삼미아겔로스
+|spname = Aguijón fuerte
+|runame = Крупный скорпион
+|type = Aggeloi
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 4
+}}
+'''Heavy Sting''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Varykentron" (archive ID: ARL141) is a non-standard variant of ARL121. It would occasionally perform whip attacks with its tail instead of using its ranged energy attack.}}
+
+==Stats==
+{{Enemy data
+|HP = 734, 5266, 33320, 131177, 315539, 486097
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 140
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 7
+|Weight = 1.5
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 1
+|wice = 1
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy attacks by causing Originium pillars to erupt under the operators.
+*When approached, this enemy will summon stone pillars around itself for protection.
+|location = *[[Aburrey Quarry]]
+*[[Origin Lodespring]]
+|drops = {{I|Energized Aggagrit}}
+|addendum = }}
+
+==Overview==
+Being a larger version of [[Sting]]s, Heavy Stings have similar appearance with its counterpart, notably being larger, and has additional attacks:
+
+*Fires one shot from their tail, dealing Physical damage.
+*Fires three consecutive shots from their tail, dealing Physical damage.
+*Thrusts their tail into the ground, and erupts three areas around, dealing Physical damage and knock Operators back.
+*Thrusts their tail into the ground, and erupts the ground below an Operator for three times, dealing Physical damage and knock them back. This ability can be interrupted by skills.
+
+==See Also==
+*[[Heavy Sting α]] - a stronger variant of Heavy Sting.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 734, 5266, 33320, 131177, 315539, 486097 from 734, 6195, 39200, 131177, 315539, 486097
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

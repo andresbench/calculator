@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Mordvolt Resistant Gloves T1
+|image = Mordvolt_Resistant_Gloves_T1.png
+|filename = item_equip_t3_suit_will01_hand_01
+|cnname = 蚀电防护手套·壹型
+|tcname = 蝕電防護手套·I
+|jpname = 蝕電防護グローブⅠ
+|krname = 침식 방호 장갑 · I
+|spname = Guantes resistentes de Mordvolt T1
+|runame = Резистентные перчатки «Мортвольт» К1
+|rarity = 4
+|artifice = no
+|type = Gloves
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Mordvolt Resistant Gloves T1''' is a {{gear|4|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A pair of very sturdy gloves. 
+We have yet to develop PPE suits with true Blight resistance. Most PPE and protective solutions in service could only cope with secondary disasters of Blight events.}}
+
+==Stats==
+{{Gear data
+|defense = +30
+|pstat = Will
+|pvalue = +46
+|sstat = Agility
+|svalue = +30
+|tstat = Attack
+|tvalue = +12.2%
+|setname = Mordvolt Resistant
+|seteffect = 3-piece set effect: Wearer's Will {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, Treatment Effect {{Color|+30%|1d}}.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Mordvolt Resistant}}
+{{Gears|state=collapsed}}

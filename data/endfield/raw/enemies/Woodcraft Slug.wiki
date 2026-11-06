@@ -1,0 +1,56 @@
+{{Enemy infobox
+|name = Woodcraft Slug
+|image = Woodcraft_Slug_sprite.png
+|filename = eny_0129_slwood
+|cnname = 虫体树傀
+|tcname = 蟲體樹傀
+|jpname = ムシ型ゴーレム
+|krname = 벌레 나무 골렘
+|spname = Babosa de madera
+|runame = Древесный слизень
+|type = Witchcraft Creation
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Woodcraft Slug''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A battle puppet created by a Snowpriestess. Its shape resembles that of the Originium Slug. This woodcraft can move quickly and is an excellent burrower.}}
+
+==Stats==
+{{Enemy data
+|HP = 166, 1192, 7544, 29700, 71443, 110060
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Woodcraft Slugs can burrow underground to sneak up on their opponents.
+|location = *[[Snowy Forest]]
+*[[Energy Alluvium: Snowy Forest]]
+|drops = {{I|Slug Sprig}}
+|addendum = }}
+
+==Overview==
+* '''INNATE:''' '''Woodcraft Slugs''' have 1 [[Shield Stack]].
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

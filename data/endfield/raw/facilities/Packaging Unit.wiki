@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Packaging Unit
+|filename = item_port_tools_asm_mc_1
+|images = Packaging Unit icon.png:Icon;
+Packaging Unit.png:Full
+|cnname = 封装机
+|tcname = 封裝機
+|jpname = 包装機
+|krname = 포장기
+|spname = Unidad de empaquetado
+|runame = Модуль упаковки
+|type = Production II
+|rarity = 3
+|power = 20}}
+'''Packaging Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for packaging certain power components.|All sorts of batteries had been made in various regions of Talos-II. When the war finally ended, humanity gradually established unified standards and specifications for battery production.}}
+==Usage==
+A facility for packaging certain power components.
+*Power Use : 20
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Packaging Tech]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Packaging Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

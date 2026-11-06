@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = MI Security Hands PPE T1
+|image = MI_Security_Hands_PPE_T1.png
+|filename = item_equip_t4_suit_criti01_hand_03
+|cnname = M.I.警用手环·壹型
+|tcname = M. I.警用手環·I
+|jpname = M.I.警備ブレスレットⅠ
+|krname = M. I. 경찰용 장갑(팔찌) · I
+|spname = EPP para manos de seguridad MI T1
+|runame = Прочное СИЗ для рук «Мьешко» К1
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''MI Security Hands PPE T1''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Mieszko Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment from the MI Security series. 
+Features miniaturized Arts Units for riot control and excellent energy conductance.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Intellect
+|pvalue = +65, +71, +78, +84
+|sstat = Will
+|svalue = +43, +47, +51, +55
+|tstat = Critical Rate
+|tvalue = +8.6%, +9.5%, +10.3%, +11.2%
+|setname = MI Security
+|seteffect = 3-piece set effect: Wearer's Critical Rate {{Color|+5%|1d}}. 
+After the wearer scores a critical hit, the wearer gains ATK {{Color|+5%|1d}} for 5s. This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate {{Color|+5%|1d}}. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|MI Security}}
+{{Gears|state=collapsed}}

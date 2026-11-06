@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Emergency Comm
+|image = Emergency_Comm.png
+|filename = item_equip_t1_parts_tundra01_edc_01
+|cnname = 应急联络仪
+|tcname = 緊急聯絡儀
+|jpname = 応急通信機
+|krname = 응급 통신기
+|spname = Comunicador de emergencia
+|runame = Аварийная рация
+|rarity = 2
+|artifice = no
+|type = Kit
+|level = 20
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Emergency Comm''' is a {{gear|2|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Protective equipment for mining operations. 
+Valley IV Safety and Protection Standards dictate that minimum requirements for work protection must comprise a 2-layered protection of (i) a soft, cushioning layer and (ii) hard, rigid protection.}}
+
+==Stats==
+{{Gear data
+|defense = +6
+|pstat = Critical Rate
+|pvalue = +6.6%
+|sstat = 
+|svalue = 
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Valley Stock Bill|20}} {{I|Amethyst Component|5}}
+}}
+
+
+
+{{Gears|state=collapsed}}

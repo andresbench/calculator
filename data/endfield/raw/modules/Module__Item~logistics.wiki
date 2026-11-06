@@ -1,0 +1,10 @@
+local data={
+	["Splitter"]={name="Splitter", tier=2, use="A logistics unit that evenly divides product flow from 1 transport belt into multiple belts (up to 3).", desc="A transport belt adjustment unit with a smart sorting module. Can be used to reduce the complexity of various facility supply lines.", obtain=""},
+	["Belt Bridge"]={name="Belt Bridge", tier=2, use="A logistics unit that lets 2 transport belts intersect without obstructing each other.", desc="A logistics unit that AIC managers can use to create an organized transport system and avoid the \"spaghetti\".", obtain=""},
+	["Converger"]={name="Converger", tier=2, use="A logistics unit that merges up to 3 transport belts into 1 single belt.", desc="A transport system adjustment unit with a smart sorting module. Can be used in all sorts of production lines.", obtain=""},
+	["Pipe Bridge"]={name="Pipe Bridge", tier=2, use="A logistics unit that lets 2 pipelines intersect without obstructing each other.", desc="This logistics unit is furnished with special fluid control valves developed by Endfield Industries. However, its unique industrial designs have greatly limited its success in the market.", obtain=""},
+	["Pipe Splitter"]={name="Pipe Splitter", tier=2, use="A logistics unit that evenly divides product flow from 1 pipeline into multiple pipelines (up to 3).", desc="A pipeline adjustment unit with a smart sorting module. Can be used to reduce the complexity of various facility supply lines.", obtain=""},
+	["Pipe Converger"]={name="Pipe Converger", tier=2, use="A logistics unit that merges up to 3 pipelines into 1 single pipeline.", desc="A pipeline adjustment unit with a smart sorting module. Can be used in all sorts of production lines.", obtain=""},
+	["Pipe Support"]={name="Pipe Support", tier=2, use="A logistics unit for supporting raised pipelines.", desc="An elevated support made using special steel. It is capable of bearing great loads.", obtain=""},
+}
+return data

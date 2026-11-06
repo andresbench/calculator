@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Electric Pylon
+|filename = item_port_power_diffuser_1
+|images = Electric Pylon icon.png:Icon;
+Electric Pylon.png:Full
+|cnname = 供电桩
+|tcname = 供電樁
+|jpname = 送電スタンド
+|krname = 전력 공급기
+|spname = Atalaya eléctrica
+|runame = Электрический пилон
+|type = Power
+|rarity = 1}}
+'''Electric Pylon''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area of effect. 
+Researching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability.|Wireless electrical connection is one of the biggest technological breakthroughs achieved by Endfield Industries. This tech was further improved with Techno-Protocol to provide the very foundation of the AIC Factory.}}
+==Usage==
+Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area of effect.
+Researching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability.
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Electricity I]]
+{{RecipeTable|product=Electric Pylon}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Power Facilities]]

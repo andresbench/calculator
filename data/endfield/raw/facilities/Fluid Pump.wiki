@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Fluid Pump
+|filename = item_port_pump_1
+|images = Fluid Pump icon.png:Icon;
+Fluid Pump.png:Full
+|cnname = 水泵
+|tcname = 水泵
+|jpname = 液体ポンプ
+|krname = 양수기
+|spname = Bomba de fluido
+|runame = Гидронасос
+|type = Resourcing
+|rarity = 2
+|power = 10}}
+'''Fluid Pump''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|Requires power. A facility for pumping fluids.|The Endfield manufacturing center constructs this pressure engine by attaching a power module to a basic water pump purchased by the Procurement Division.}}
+==Usage==
+Requires power. A facility for pumping fluids, such as [[Clean Water]].
+*Power Use : 10
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Fluid Pumping]]
+{{RecipeTable|product=Fluid Pump}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Resourcing Facilities]]

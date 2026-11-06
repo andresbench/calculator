@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Pulser Labs Light Armor
+|image = Pulser_Labs_Light_Armor.png
+|filename = item_equip_t4_suit_pulse_cryst01_body_02
+|cnname = 脉冲式轻甲
+|tcname = 脈衝式輕甲
+|jpname = パルス式軽防具
+|krname = 펄스식 경갑
+|spname = Armadura ligera de Laboratorios Pulso
+|runame = Легкая броня «Импульс»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Pulser Labs Light Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment with novel designs. 
+A product from the second release of the Pulser Labs defensive equipment series. Design features are focused on precise and stable controls over electrical currents.}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Will
+|pvalue = +87, +95, +104, +113
+|sstat = Strength
+|svalue = +58, +63, +69, +75
+|tstat = Cryo & Electric DMG
+|tvalue = +11.5%, +12.7%, +13.8%, +14.9%
+|setname = Pulser Labs
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Electrification|Electrification}}, the wearer gains {{Color|Electric DMG|6}}{{Color| +50%|1d}} for 10s. After the wearer applies {{G|Solidification|Solidification}}, the wearer gains {{Color|Cryo DMG|4}}{{Color| +50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Pulser Labs}}
+{{Gears|state=collapsed}}

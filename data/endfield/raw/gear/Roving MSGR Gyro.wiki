@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Roving MSGR Gyro
+|image = Roving_MSGR_Gyro.png
+|filename = item_equip_t2_suit_agi01_edc_01
+|cnname = 巡行信使陀螺
+|tcname = 巡行信使陀螺
+|jpname = 遍歴トランスポーターのスピナー
+|krname = 순행 전달자 팽이
+|spname = Giroscopio de MSJR móvil
+|runame = Спиннер гонца-странника
+|rarity = 3
+|artifice = no
+|type = Kit
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Roving MSGR Gyro''' is a {{gear|3|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|An intricate fidget toy. 
+Results from a trustworthy poll revealed that about 20% of messengers have modified this stress-relief toy into a self-orienting tracker.}}
+
+==Stats==
+{{Gear data
+|defense = +10.8
+|pstat = Agility
+|pvalue = +21
+|sstat = Attack
+|svalue = +10.5%
+|tstat = 
+|tvalue = 
+|setname = Roving MSGR
+|seteffect = 3-piece set effect: Wearer's Agility {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Physical DMG|1}} {{Color|+20%|1d}}.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Roving MSGR}}
+{{Gears|state=collapsed}}

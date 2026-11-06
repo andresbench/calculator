@@ -1,0 +1,64 @@
+{{Enemy infobox
+|name = Bonekrusher Ripptusk
+|image = Bonekrusher_Ripptusk_sprite.png
+|filename = eny_0050_hound
+|cnname = 碾骨撕裂牙兽
+|tcname = 碾骨撕裂牙獸
+|jpname = 骨砕牙獣
+|krname = 본 크러셔 립터스크
+|spname = Colmillo desgarrador Rompehuesos
+|runame = Рваноклык Костоломов
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 9
+}}
+'''Bonekrusher Ripptusk''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A small warbeast controlled by the Landbreakers. Ripptusks are far more bloodthirsty and ferocious than their untamed wilderness kin. They are absolutely loyal to the Landbreakers who tamed them.}}
+
+==Stats==
+{{Enemy data
+|HP = 152, 1093, 6916, 27225, 65489, 100888
+|ATK = 30, 140, 434, 1078, 1622, 1858
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy is agile but can be overwhelmed when taking multiple hits.
+|location = *[[The Hub]]
+*[[Valley Pass]]
+*[[Originium Science Park]]
+*[[Origin Lodespring]]
+*[[Power Plateau]]
+*[[Energy Alluvium: Originium Science Park]]
+*[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Fillet}}
+|addendum = }}
+
+==Overview==
+[[Wild Tuskbeast]] tamed by Bonekrushers, Bonekrusher Ripptusks have similar appearance to the untamed variant, and notably possess offensive abilities; They attack with a bite or a leaping bite, dealing Physical damage.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 152, 1093, 6916, 27225, 65489, 100888 from 152, 1286, 8136, 27225, 65489, 100888
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

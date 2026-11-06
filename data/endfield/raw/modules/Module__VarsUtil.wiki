@@ -1,0 +1,32 @@
+local VariablesLua = mw.ext.VariablesLua
+
+local p = {}
+
+function p.getVar(key)
+	local val = VariablesLua.var(key)
+	if val == '' then
+		return nil
+	end
+	return val
+end
+
+function p.setVar(key, val)
+	VariablesLua.vardefine(key, val)
+	return val
+end
+
+function p.getObject(key)
+	local val = p.getVar(key)
+	if not val then
+		return nil
+	end
+	return mw.text.jsonDecode(val) -- feels kinda hacky
+end
+
+function p.setObject(key, val)
+	local val_to_store = mw.text.jsonEncode(val)
+	p.setVar(key, val_to_store)
+	return val
+end
+
+return p

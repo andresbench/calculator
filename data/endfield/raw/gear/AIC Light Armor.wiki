@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = AIC Light Armor
+|image = AIC_Light_Armor.png
+|filename = item_equip_t1_suit_wisdwill01_body_01
+|cnname = 集成化轻甲
+|tcname = 整合化輕甲
+|jpname = 集成軽防具
+|krname = 통합형 경갑
+|spname = Armadura ligera del CAI
+|runame = Легкая броня АПК
+|rarity = 2
+|artifice = no
+|type = Armor
+|level = 28
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''AIC Light Armor''' is a {{gear|2|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Structurally simple and modular equipment that offers light protection. 
+It was a byproduct created during a test run of several mixed production lines involving various AIC Factory facilities.}}
+
+==Stats==
+{{Gear data
+|defense = +22.4
+|pstat = Intellect
+|pvalue = +30
+|sstat = Will
+|svalue = +30
+|tstat = Battle Skill DMG Bonus
+|tvalue = +8.1%
+|setname = AIC Light
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+500|1d}}. 
+After the wearer defeats an enemy, the wearer gains ATK {{Color|+20|1d}} for {{Color|5|1d}}s.
+|recipe = {{I|Valley Stock Bill|160}} {{I|Amethyst Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Light}}
+{{Gears|state=collapsed}}

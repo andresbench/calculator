@@ -1,0 +1,24 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Hongshan Swordmancers manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer = [[Hongshan Swordmancers]]
+|level= 70
+|region = [[Wuling]]
+|effect = No Set Effects
+}}
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequently carry out operations in high threat areas.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Hongshan Swordmancers.
+
+==Gear Pack Items==
+{{I|Rift Trekker Light Armor}}{{I|Rift Trekker Heavy Armor}}{{I|Rift Trekker Gloves}}{{I|Rift Trekker Hands}}{{I|Rift Trekker Armor Slab}}
+
+==References==
+{{Reflist}}
+{{Gears|state=collapsed}}

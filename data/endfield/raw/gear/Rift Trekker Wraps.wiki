@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Rift Trekker Wraps
+|image = Rift_Trekker_Wraps.png
+|filename = item_equip_t4_parts_wuling02_hand_03
+|cnname = 涉渊裹手
+|tcname = 涉淵裹手
+|jpname = 渡淵ハンドガード
+|krname = 절망 보호대
+|spname = Vendas del Trotagrietas
+|runame = Обмотки «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Wraps''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequent high-threat areas to carry out various missions. "I covered both eyes, to sever all paths of escape."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +86, +94, +103, +111
+|sstat = Cryo & Electric DMG
+|svalue = +20.0%, +22.0%, +24.0%, +26.0%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

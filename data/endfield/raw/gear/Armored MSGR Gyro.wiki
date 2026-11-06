@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Armored MSGR Gyro
+|image = Armored_MSGR_Gyro.png
+|filename = item_equip_t2_suit_str01_edc_01
+|cnname = 重装信使陀螺
+|tcname = 重裝信使陀螺
+|jpname = 重装トランスポーターのスピナー
+|krname = 중장갑 전달자 팽이
+|spname = Giroscopio de MSJR blindado
+|runame = Спиннер гонца-воина
+|rarity = 3
+|artifice = no
+|type = Kit
+|level = 36
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Armored MSGR Gyro''' is a {{gear|3|Kit}}gear item.
+
+{{Item description|Designed by Endfield after referencing wildland handcrafting techniques, and assembled by the AIC. This equipment improves the wearer's combat capabilities.|An intricate fidget toy. 
+Results from a trustworthy poll revealed that about 80% of messengers would modify this toy into a miniature dart grenade.}}
+
+==Stats==
+{{Gear data
+|defense = +10.8
+|pstat = Strength
+|pvalue = +21
+|sstat = Attack
+|svalue = +10.5%
+|tstat = 
+|tvalue = 
+|setname = Armored MSGR
+|seteffect = 3-piece set effect: Wearer's Strength {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, the wearer gains {{Color|30%|1d}} DMG Reduction against all types of DMG.
+|recipe = {{I|Valley Stock Bill|1200}} {{I|Ferrium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Armored MSGR}}
+{{Gears|state=collapsed}}

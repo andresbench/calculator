@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = Woodcraft Wanderer
+|image = Woodcraft_Wanderer_sprite.png
+|filename = eny_0128_babyents
+|cnname = 徘徊树傀
+|tcname = 徘徊樹傀
+|jpname = 巡回ゴーレム
+|krname = 배회 나무 골렘
+|spname = Errante de madera
+|runame = Древесный странник
+|type = Witchcraft Creation
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 2
+}}
+'''Woodcraft Wanderer''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A small battle puppet created by a Snowpriestess. It is in charge of keeping the Snowy Forest safe. Do not underestimate its fists of wood, for they can smash through stone with hardly any effort.}}
+
+==Stats==
+{{Enemy data
+|HP = 831, 5961, 37721, 148502, 357214, 550298
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 170
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 7
+|Weight = 1.5
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *A Woodcraft Wanderer with zero shield stacks will trap operators to absorb their energy and restore its shield stacks.
+*Woodcraft Wanderers will work with each other when attacking.
+|location = *[[Snowy Forest]]
+*[[Energy Alluvium: Snowy Forest]]
+|drops = {{I|Tender Moss}}
+|addendum = }}
+
+==Overview==
+* '''INNATE:''' '''Woodcraft Wanderers''' have 2 [[Shield Stack]]s.
+* When the '''Woodcraft Wanderer''' has no shield stacks, it will attempt to {{Color|trap|7}} at the currently-controlled operator's position, temporarily preventing movement.
+** If the currently-controlled operator is successfully {{Color|trapped|7}}, it will then charge for a short time to deal damage to the operator and recover 2 Shield Stacks. During the charge, casting any skill interrupts the charge. Interrupting the charge prevents the enemy from recovering Shield Stacks and {{G|Dispel|dispels}} the currently-controlled operator's trapped state.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Sanctuary of Ink]]
+** Changed type from Elite to Advanced}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

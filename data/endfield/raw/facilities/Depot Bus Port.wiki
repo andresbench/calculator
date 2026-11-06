@@ -1,0 +1,26 @@
+{{Facility infobox
+|name = Depot Bus Port
+|filename = item_port_log_hongs_bus_source
+|images = Depot Bus Port icon.png:Icon;
+Depot Bus Port.png:Full
+|cnname = 仓库存取线源桩
+|tcname = 倉庫存取線源樁
+|jpname = 倉庫連結ハブ基礎
+|krname = 창고 입출력 라인 핵심 장치
+|spname = Puerto de Unidades de transporte de Depósito
+|runame = Порт звена склада
+|type = Depot Access
+|rarity = 4}}
+'''Depot Bus Port''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|The origin of the Depot Bus. The Depot Bus Port can be placed anywhere in the Core AIC Area.|For some engineers, Xiranite would often inspire crazy ideas that they themselves couldn't even explain. What is the endpoint of industry? Are there other possibilities for Xiranite, the material of unprecedented "freedom"? Will human industrial technology ever reach the "formless" state? The more the engineers think, the more they believe that every step they take is a revolutionary one.}}
+==Usage==
+The origin of the Depot Bus. The Depot Bus Port can be placed anywhere in the Core AIC Area.
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Wuling Depot Bus]]
+{{RecipeTable|product=Depot Bus Port}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Depot Facilities]]

@@ -1,0 +1,106 @@
+# Laevatain. Heat carry: Melting Flame from her skills, her Final Strike and
+# the Heat Infliction her talent absorbs; the battle skill at 4 stacks spends
+# them for its extra attack and Combustion. The stacks themselves are the
+# engine's (`Synergy.ownStacks`, export.py); the ultimate's enhanced basic
+# attack is the skill's own (`Skill.enhancedBasic`). This file holds
+# talents and potentials.
+operator: Laevatain
+
+talents:
+  - name: Keen Mind
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Intellect +10.", apply: [{stat: attr, attribute: INT, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Intellect +15.", apply: [{stat: attr, attribute: INT, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Intellect +20.", apply: [{stat: attr, attribute: INT, value: 20}]}
+
+  - name: Scorching Heart
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      The absorbing and the stacks are the engine's (`Synergy.ownStacks`).
+      Here only «ignores N Heat Resistance … for 20s» on reaching 4: on her
+      own damage (`target: self`), in the resistance group as points of
+      RES, like Corrosion's shred. The client sets it from the stack buff
+      (buff_chr_0016_laevat_energy, on the 4th stack: energy_icon_5 with
+      ignore_fire_resist from the passive's blackboard). The tiers repeat
+      one effect with a larger number: they replace each other.
+    levels:
+      - condition: Elite 0
+        seen: "After the controlled operator's Final Strike or Finisher hits the enemy, Laevatain absorbs Heat Infliction from nearby enemies. Every stack of Heat Infliction absorbed gives Laevatain 1 stack of Melting Flame (max stacks: 4). After reaching 4 stacks, DMG dealt by Laevatain ignores 10 Heat Resistance of the enemy for 20s. Laevatain also absorbs Heat Infliction from enemies defeated nearby."
+        apply:
+          - {stat: res_ignore, element: Heat, value: 10, duration: 20, trigger: "stacks_reached:Melting Flame@4", target: self}
+        unmodeled: "absorbing from defeated enemies — the dummy does not die"
+      - condition: Elite 1
+        seen: "After the controlled operator's Final Strike or Finisher hits the enemy, Laevatain absorbs Heat Infliction from nearby enemies. Every stack of Heat Infliction absorbed gives Laevatain 1 stack of Melting Flame (max stacks: 4). After reaching 4 stacks, DMG dealt by Laevatain ignores 15 Heat Resistance of the enemy for 20s. Laevatain also absorbs Heat Infliction from enemies defeated nearby."
+        apply:
+          - {stat: res_ignore, element: Heat, value: 15, duration: 20, trigger: "stacks_reached:Melting Flame@4", target: self}
+        unmodeled: "absorbing from defeated enemies — the dummy does not die"
+      - condition: Elite 3
+        seen: "After the controlled operator's Final Strike or Finisher hits the enemy, Laevatain absorbs Heat Infliction from nearby enemies. Every stack of Heat Infliction absorbed gives Laevatain 1 stack of Melting Flame (max stacks: 4). After reaching 4 stacks, DMG dealt by Laevatain ignores 20 Heat Resistance of the enemy for 20s. Laevatain also absorbs Heat Infliction from enemies defeated nearby."
+        apply:
+          - {stat: res_ignore, element: Heat, value: 20, duration: 20, trigger: "stacks_reached:Melting Flame@4", target: self}
+        unmodeled: "absorbing from defeated enemies — the dummy does not die"
+
+  - name: Re-Ignition
+    stacking: replaces
+    confidence: confirmed
+    evidence: "Protection and healing below 40 % HP: neither enters her damage, and the dummy does not attack."
+    levels:
+      - condition: Elite 2
+        seen: "When HP drops below 40%, gain 90% Protection and restore 5% Max HP per second for 4s. This effect can only trigger once every 120s."
+        unmodeled: "Protection and healing when HP drops below 40 % — the dummy does not attack"
+      - condition: Elite 3
+        seen: "When HP drops below 40%, gain 90% Protection and restore 5% Max HP per second for 8s. This effect can only trigger once every 120s."
+        unmodeled: "Protection and healing when HP drops below 40 % — the dummy does not attack"
+
+potentials:
+  - rank: 1
+    confidence: inferred
+    seen: "Battle skill Smouldering Fire improved: Additional attack multiplier is increased to 1.2 times the original, and scoring a hit returns 20 SP."
+    evidence: >-
+      «Additional attack» is the `Additional ATK` rows, the plain one and the
+      one during the ultimate. The 20 SP come with the extra attack, so with
+      the cast that spends Melting Flame (the client's
+      buff_chr_0016_laevat_potential_1_1).
+    apply:
+      - {stat: skill_multiplier, skill: Additional ATK, value: 1.2}
+      - {stat: skill_multiplier, skill: "During Ultimate: Additional ATK", value: 1.2}
+      - {stat: sp_return, value: 20, skillType: Battle Skill, trigger: "consumes:Melting Flame", target: self}
+  - rank: 2
+    confidence: confirmed
+    seen: "Intellect +20, Basic Attack DMG Dealt +15%."
+    evidence: "Basic Attack DMG reaches her ultimate's enhanced chain too: the client counts it as basic attacks (measurements, #54)."
+    apply:
+      - {stat: attr, attribute: INT, value: 20}
+      - {stat: dmg_bonus, skillType: Basic Attack, value: 15}
+  - rank: 3
+    confidence: confirmed
+    seen: "Battle skill Smouldering Fire improved: Duration of the Combustion applied by the skill is increased by 50%. DMG of the Combustion applied by the skills is increased to 1.5 times the original."
+    evidence: >-
+      The client (PotentialTalentEffectTable, chr_0016_laevat_potential_3)
+      multiplies two blackboard keys of her battle skill, the plain one and
+      the one during the ultimate: `duration` ×1.5 and `extra_scaling` ×1.5.
+      Both go into the forced Combustion (buff_common_fire_fire_burning_
+      triggered), where `extra_scaling` multiplies the damage per tick
+      (`burning_atk_scale`). Only the Combustion her battle skill forces.
+    apply:
+      - {stat: reaction_duration_mult, reaction: Combustion, skillType: Battle Skill, value: 1.5}
+      - {stat: reaction_dot_mult, reaction: Combustion, skillType: Battle Skill, value: 1.5}
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Twilight improved: Ultimate Energy cost -15%."
+    apply:
+      - {stat: ult_cost_pct, value: -15}
+  - rank: 5
+    confidence: inferred
+    seen: "Ultimate Twilight improved: Enhanced basic attack DMG multiplier is increased to 1.2 times the original; during the ultimate, every enemy defeated by Laevatain extends ultimate duration by +1s (max: +7s)."
+    evidence: "The enhanced basic attack is the `Enhanced BATK` rows of the ultimate."
+    apply:
+      - {stat: skill_multiplier, skill: Enhanced BATK, value: 1.2}
+    unmodeled: "+1 s of the ultimate per enemy defeated — the dummy does not die"

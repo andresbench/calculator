@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Hot Work Hands PPE
+|image = Hot_Work_Hands_PPE.png
+|filename = item_equip_t4_suit_fire_natr01_hand_04
+|cnname = 动火用护手
+|tcname = 動火用護手
+|jpname = 火山用プロテクター
+|krname = 열 작업용 보호 장갑
+|spname = EPP para manos en trabajos en caliente
+|runame = СИЗ для рук «Термоудар»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Hot Work Hands PPE''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment that features excellent fire resistance rating. 
+A set of handwear that offers excellent protection while leaving enough room for dexterous actions. The user can safely manipulate various objects without suffering from thermal injuries.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Intellect
+|pvalue = +65, +71, +78, +84
+|sstat = Will
+|svalue = +43, +47, +51, +55
+|tstat = Heat & Nature DMG
+|tvalue = +19.2%, +21.1%, +23.0%, +24.9%
+|setname = Hot Work
+|seteffect = 3-piece set effect: Wearer's Arts Intensity {{Color|+30|1d}}. 
+After the wearer applies {{G|Combustion|Combustion}}, the wearer gains {{Color|Heat DMG|3}} +{{Color|50%|1d}} for 10s. After the wearer applies {{G|Corrosion|Corrosion}}, the wearer gains {{Color|Nature DMG|5}} +{{Color|50%|1d}} for 10s. The aforementioned effects cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Hot Work}}
+{{Gears|state=collapsed}}

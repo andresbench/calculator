@@ -1,0 +1,103 @@
+# Pogranichnik. Breach on four stacks and the team-wide Fervent Morale.
+operator: Pogranichnik
+
+talents:
+  - name: Stalwart
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - condition: Elite 1
+        seen: "Operator Will +10."
+        apply: [{stat: attr, attribute: WIL, value: 10}]
+      - condition: Elite 2
+        seen: "Operator Will +15."
+        apply: [{stat: attr, attribute: WIL, value: 15}]
+      - condition: Elite 3
+        seen: "Operator Will +15."
+        apply: [{stat: attr, attribute: WIL, value: 15}]
+      - condition: Elite 4
+        seen: "Operator Will +20."
+        apply: [{stat: attr, attribute: WIL, value: 20}]
+
+  - name: The Living Banner
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      Numbers straight from the text. The trigger is "recovered 80 SP with his
+      own skills", the only trigger in the data based on accumulated SP: the
+      track counts SP recovered by his skills, Steel Oath's on a teammate's
+      step included (measurements #47), and stacks once per 80.
+    levels:
+      - condition: Elite 1
+        seen: |-
+          During battle, recovering 80 SP with his own skills grants Fervent Morale for 20s.
+          Fervent Morale effects: ATK +4% and Arts Intensity +4.
+          This effect can reach 3 stacks. Duration of each stack is counted separately.
+        apply:
+          - {stat: atk_pct, value: 4, stacks: {max: 3}, duration: 20, trigger: "sp_recovered:80", target: self, name: Fervent Morale}
+          - {stat: arts_intensity, value: 4, stacks: {max: 3}, duration: 20, trigger: "sp_recovered:80", target: self, name: Fervent Morale}
+      - condition: Elite 2
+        seen: |-
+          During battle, recovering 80 SP with his own skills grants Fervent Morale for 20s.
+          Fervent Morale effects: ATK +8% and Arts Intensity +8.
+          This effect can reach 3 stacks. Duration of each stack is counted separately.
+        apply:
+          - {stat: atk_pct, value: 8, stacks: {max: 3}, duration: 20, trigger: "sp_recovered:80", target: self, name: Fervent Morale}
+          - {stat: arts_intensity, value: 8, stacks: {max: 3}, duration: 20, trigger: "sp_recovered:80", target: self, name: Fervent Morale}
+
+  - name: Tactical Instruction
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      "Triggering the ultimate's subsequent effects" is spending a Steel Oath
+      point: the operator whose step spent it gets a stack of their own.
+      Measurements #62: the shield icon with stacks on Chen during Steel Oath,
+      and her Lift Stagger above the model by what +8 AI a stack gives.
+      Values — Fervent Morale at The Living Banner's Elite 2 level (ATK +8 %,
+      Arts Intensity +8), up to 3 stacks. Not enforced: when his own combo
+      spends the point, these stacks are counted apart from The Living
+      Banner's, so the shared cap of 3 can be exceeded on him. The
+      simulation's Lift Stagger does not see the Arts Intensity it gives.
+    levels:
+      - condition: Elite 2
+        seen: "Ultimate Shieldguard Banner, Forward improved: Any operator triggering the ultimate's subsequent effects also gains Fervent Morale for 5s. \nRequires activation of talent: The Living Banner."
+        apply:
+          - {stat: atk_pct, value: 8, stacks: {max: 3}, duration: 5, trigger: "charge_spent:Steel Oath", target: spender, name: Fervent Morale}
+          - {stat: arts_intensity, value: 8, stacks: {max: 3}, duration: 5, trigger: "charge_spent:Steel Oath", target: spender, name: Fervent Morale}
+      - condition: Elite 3
+        seen: "Ultimate Shieldguard Banner, Forward improved: Any operator triggering the ultimate's subsequent effects also gains Fervent Morale for 10s. \nRequires activation of talent: The Living Banner."
+        apply:
+          - {stat: atk_pct, value: 8, stacks: {max: 3}, duration: 10, trigger: "charge_spent:Steel Oath", target: spender, name: Fervent Morale}
+          - {stat: arts_intensity, value: 8, stacks: {max: 3}, duration: 10, trigger: "charge_spent:Steel Oath", target: spender, name: Fervent Morale}
+
+potentials:
+  - rank: 1
+    unmodeled: "15 SP for hitting two or more targets; there is one dummy"
+  - rank: 2
+    confidence: confirmed
+    seen: "Will +20, Physical DMG Dealt +10%."
+    apply:
+      - {stat: attr, attribute: WIL, value: 20}
+      - {stat: dmg_bonus, element: Physical, value: 10}
+  - rank: 3
+    confidence: inferred
+    seen: "Talent The Living Banner improved: Amount of SP recovery needed to gain Fervent Morale is reduced to 60. Max Fervent Morale stacks on self +2."
+    modifies:
+      effect: Fervent Morale
+      stacksMax: 2
+      trigger: "sp_recovered:60"
+  - rank: 4
+    confidence: confirmed
+    seen: "Ultimate Shieldguard Banner, Forward improved: Ultimate Energy cost -15%."
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    confidence: confirmed
+    seen: "Combo skill Full Moon Slash improved: Length of cooldown -2s; SP recovery is increased to 1.2 times the original."
+    apply:
+      - {stat: cooldown_flat, skillType: Combo Skill, value: -2}
+      - {stat: sp_return_mult, skillType: Combo Skill, value: 1.2}

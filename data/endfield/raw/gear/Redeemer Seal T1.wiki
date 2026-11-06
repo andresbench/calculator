@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Redeemer Seal T1
+|image = Redeemer_Seal_T1.png
+|filename = item_equip_t4_parts_wuling01_edc_04
+|cnname = 纾难印章·壹型
+|tcname = 紓難印章·I
+|jpname = 救国印章Ⅰ
+|krname = 위기 탈출 도장 · I
+|spname = Sello Redentor T1
+|runame = Печать «Освободитель» К1
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = *Purchase: Wuling Stock Redistribution
+*Stock Redistribution Terminal Upgrade
+}}
+'''Redeemer Seal T1''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|This piece of gear is the byword for the difficult road ahead. "The quest is not yet finished, and so the journey is not yet complete."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Will
+|pvalue = +43, +47, +51, +55
+|sstat = Critical Rate
+|svalue = +10.8%, +11.9%, +13.0%, +14.0%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Converger
+|filename = item_log_converger
+|images = Converger icon.png:Icon;
+Converger.png:Full
+|cnname = 汇流器
+|tcname = 匯流器
+|jpname = 合流器
+|krname = 합류기
+|spname = Convergente
+|runame = Объединитель
+|type = Logistics Units
+|rarity = 2}}
+'''Converger''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A logistics unit that merges up to 3 transport belts into 1 single belt.|A transport system adjustment unit with a smart sorting module. Can be used in all sorts of production lines.}}
+==Usage==
+A logistics unit that merges up to 3 transport belts into 1 single belt.
+
+The Converger can converge product flows of 3 transport belts into a single belt.
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC III - Belt Converging]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:logistics Facilities]]

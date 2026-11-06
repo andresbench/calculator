@@ -1,0 +1,238 @@
+# Named weapon effects — placed into the formula's groups.
+#
+# Format — see README.md next to this file. One difference from operators:
+# instead of a number, `value: "{1}"` gives the placeholder index in the text
+# template. Which of the nine values applies is decided by the specific item's
+# essence (the column, tools/ef/weapon.py), and the engine picks it.
+#
+# Stat components (`Agility [L]`, `ATK [L]`, `Physical DMG [M]`…) are not
+# written here: their placement is mechanical and lives in effects.py,
+# STATIC_COMPONENTS.
+#
+# `seen` is the wiki's text template (with placeholders), not text with numbers.
+
+weapons:
+  - name: Glorious Memory
+    confidence: confirmed
+    evidence: "measurements #60: Chen's stat screen, ATK 4582 = (297 + 490) × (1 + 16.8 % at column 8) × AttributeBonus; after her battle skill on a fresh boss two buffs stood — her talent's ATK +8 % and this weapon's stack from the Lift that became Vulnerable"
+    seen: "ATK +{0}%. When the wielder's skill applies Vulnerability, during the next ultimate cast within 30.00s, the wielder gains DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s."
+    apply:
+      - {stat: atk_pct, value: "{0}"}
+      - {stat: dmg_bonus, skillType: Ultimate, value: "{1}", stacks: {max: 3}, duration: 30, trigger: "applies:Vulnerable", spentBy: "cast:Ultimate", target: self, name: Lingering Glow}
+    note: "«Effect only triggers once every 0.5s» — one stack per step on the track"
+
+  - name: Grand Vision
+    confidence: confirmed
+    evidence: "measurements #24: Endministrator's screen, Arts Intensity 108 → 64 without the gloves"
+    seen: "Arts Intensity +{0}. When the wielder applies Originium Crystals or Solidification, during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +{1}%. Effects of the same name cannot stack."
+    apply:
+      - {stat: arts_intensity, value: "{0}"}
+      - {stat: dmg_bonus, element: Physical, value: "{1}", duration: 20, trigger: "applies:Originium Crystals|applies:Solidification", spentBy: "cast:Battle Skill|cast:Ultimate", target: self}
+    note: "on the track the bonus is spent by the next battle skill or ultimate; the «up» assumption in the editor applies it to every hit"
+
+  - name: Thermite Cutter
+    confidence: confirmed
+    evidence: "measurements #23: weapon ATK % 0.55 = 39 % + 16 % (4/4); Pogranichnik's battle skill refunded SP → ATK +8 %"
+    seen: "ATK +{0}%. After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately."
+    apply:
+      - {stat: atk_pct, value: "{0}"}
+      - {stat: atk_pct, value: "{1}", stacks: {max: 2}, duration: 20, trigger: "sp_recovered|applies:Link", target: team}
+
+  - name: Valiant
+    confidence: confirmed
+    evidence: "measurements #6 (weapon screen 4/4: ATK +16 %), #36 (Lifeng's screen 3656)"
+    seen: "ATK +{0}%. After the wielder applies Physical Statuses, the wielder also deals another hit of Physical DMG equal to {1}% of the wielder's ATK."
+    apply:
+      - {stat: atk_pct, value: "{0}"}
+    unmodeled: "an extra Physical hit for {1} % ATK after a Physical Status — a separate instance, not a stat"
+
+  - name: Aspirant
+    confidence: inferred
+    evidence: "measurements #4: on Rossi with Aspirant lv. 1 the screen does not show Ultimate DMG; the ultimate hit was not measured"
+    seen: "Ultimate DMG Dealt +{0}%. After the wielder applies Lift, during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +{1}%. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s."
+    apply:
+      - {stat: dmg_bonus, skillType: Ultimate, value: "{0}"}
+    unmodeled: "Physical DMG for Lift — only for the next ultimate and only Physical; the vocabulary does not combine two filters"
+
+  - name: Sundering Steel
+    confidence: inferred
+    seen: "ATK +{0}%. When the wielder deals a Physical Status, the wielder gains ATK +{1}% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+    apply:
+      - {stat: atk_pct, value: "{0}"}
+      - {stat: atk_pct, value: "{1}", stacks: {max: 2}, duration: 20, trigger: "applies:Physical Status", target: self}
+
+  - name: Beacon of Duty
+    confidence: confirmed
+    evidence: "measurements #4: team Physical +8 % after Camille's Heat Susceptibility (column 6)"
+    seen: "Heat DMG Dealt +{0}%. When the wielder's skill applies Heat Infliction, the wielder gains Physical and Heat DMG Dealt +{1}% for 20.00s. When the wielder's skill applies Heat Susceptibility, the entire team gains Physical and Heat DMG Dealt +{2}% for 30.00s. The two effects apply separately and do not stack with themselves."
+    apply:
+      - {stat: dmg_bonus, element: Heat, value: "{0}"}
+      - {stat: dmg_bonus, element: Physical, value: "{1}", duration: 20, trigger: "applies:Heat Infliction", target: self}
+      - {stat: dmg_bonus, element: Heat, value: "{1}", duration: 20, trigger: "applies:Heat Infliction", target: self}
+      - {stat: dmg_bonus, element: Physical, value: "{2}", duration: 30, trigger: "applies:Heat Susceptibility", target: team}
+      - {stat: dmg_bonus, element: Heat, value: "{2}", duration: 30, trigger: "applies:Heat Susceptibility", target: team}
+
+  - name: Lunar Calling
+    confidence: inferred
+    evidence: "measurements #59: Argent Flow's AI 78 = 30 (Pulser Labs) + 48 (column 4); the Endministrator's ATK 5765 → 6236 after Bolt Rush; the explosion 87,292 fits column 4 (team ATK +12 %, Electric +19.2 %) with Pulser Labs' +50 %"
+    seen: "Arts Intensity +{0}. When wielder's skill applies Electrification, the entire team gains ATK +{1}% for 20.00s. When the wielder consumes Arts Infliction, the wielder gains Electric DMG Dealt +{2}% for 20.00s. The two effects apply separately and do not stack with themselves."
+    apply:
+      - {stat: arts_intensity, value: "{0}"}
+      - {stat: atk_pct, value: "{1}", duration: 20, trigger: "applies:Electrification", target: team}
+      - {stat: dmg_bonus, element: Electric, value: "{2}", duration: 20, trigger: "consumes:Arts Infliction", target: self}
+
+  - name: Lupine Scarlet
+    confidence: inferred
+    evidence: "measurements #27.3: basic attacks stack Wolven Blood too"
+    seen: "ATK +{0}%. After the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +{1}%. Wolven Blood can reach 16.00 stacks. After reaching 16.00 stacks, the wielder gains another Physical and Heat DMG Dealt +{2}% for 20.00s. After the duration ends, all Wolven Blood stacks are removed."
+    apply:
+      - {stat: atk_pct, value: "{0}"}
+      - {stat: dmg_bonus, element: Physical, value: "{1}", stacks: {max: 16}, trigger: crit, target: self, name: Wolven Blood}
+      - {stat: dmg_bonus, element: Heat, value: "{1}", stacks: {max: 16}, trigger: crit, target: self, name: Wolven Blood}
+    unmodeled: "+{2} % Physical and Heat for 20 s at 16 Wolven Blood stacks"
+
+  - name: Jade Vessel
+    confidence: confirmed
+    evidence: "measurements #29: DMG Taken +12 % on the target after Immobilization"
+    seen: "ATK +{0}%. When the wielder applies Immobilization on the enemy, the target enemy suffers DMG Taken +{1}% for 30.00s. When the wielder applies Immobilization on the enemy or after the wielder casts an ultimate, the next combo skill cast within 20.00s gains DMG Dealt +{2}%. The two effects apply separately and do not stack with themselves."
+    apply:
+      - {stat: atk_pct, value: "{0}"}
+      - {stat: dmg_taken, value: "{1}", duration: 30, trigger: "applies:Immobilization", target: enemy}
+      - {stat: dmg_bonus, skillType: Combo Skill, value: "{2}", duration: 20, trigger: "applies:Immobilization|cast:Ultimate", spentBy: "cast:Combo Skill", target: self}
+
+  - name: Junction Point
+    confidence: inferred
+    seen: "Nature DMG Dealt +{0}%. When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +{1}% while other operators in the team gain ATK +{2}%. Duration: 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately."
+    apply:
+      - {stat: dmg_bonus, element: Nature, value: "{0}"}
+      - {stat: atk_pct, value: "{1}", stacks: {max: 2}, duration: 20, trigger: "applies:Arts Susceptibility|applies:Arts Infliction", target: self, teamShare: 0.25}
+    note: "triggers only from the combo skill; team share {2}/{1} = 0.25 in every column"
+
+  - name: Never Rest
+    confidence: inferred
+    seen: "Physical DMG Dealt +{0}%. After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +{1}% while other operators in the team gain Physical DMG Dealt +{2}% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+    apply:
+      - {stat: dmg_bonus, element: Physical, value: "{0}"}
+      - {stat: dmg_bonus, element: Physical, value: "{1}", stacks: {max: 5}, duration: 30, trigger: sp_recovered, target: self, teamShare: 0.5}
+    note: "team share {2}/{1} = 0.5 in every column"
+
+  - name: Stanza of Memorials
+    confidence: inferred
+    seen: "Max HP +{0}%. When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +{1}% for 20.00s. Effects of the same name cannot stack."
+    apply:
+      - {stat: hp_pct, value: "{0}"}
+      - {stat: atk_pct, value: "{1}", duration: 20, trigger: "cast:Ultimate", target: others}
+    unmodeled: "team ATK — only for operators of an element other than the wearer's"
+
+  - name: Brigand's Calling
+    confidence: inferred
+    seen: "Cryo DMG Dealt +{0}%. When the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +{1}% for 20.00s. When the wielder's battle skill or ultimate applies Arts Susceptibility, the target enemy suffers Arts DMG Taken +{2}% for 20.00s. The two effects apply separately and do not stack with themselves."
+    apply:
+      - {stat: dmg_bonus, element: Cryo, value: "{0}"}
+      - {stat: dmg_bonus, element: Cryo, value: "{1}", duration: 20, trigger: "applies:Cryo Infliction", target: self}
+      - {stat: dmg_taken, element: Arts, value: "{2}", duration: 20, trigger: "applies:Arts Susceptibility", target: enemy}
+    note: "both triggers — only from a battle skill or ultimate"
+
+  - name: OBJ Razorhorn
+    confidence: inferred
+    seen: "To enemies with Cryo Infliction or Solidification, the wielder gains DMG Dealt +{0}%. After consuming Solidification, ATK +{1}% for 15.00s. Effects of the same name cannot stack."
+    apply:
+      - {stat: dmg_bonus, value: "{0}", trigger: "target_has:Cryo Infliction|target_has:Solidification", target: self}
+      - {stat: atk_pct, value: "{1}", duration: 15, trigger: "consumes:Solidification", target: self}
+
+  - name: OBJ Velocitous
+    confidence: inferred
+    seen: "ATK +{0}%. After the wielder consumes an Arts Infliction, the wielder gains Nature DMG Dealt +[{1}%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack."
+    apply:
+      - {stat: atk_pct, value: "{0}"}
+      - {stat: dmg_bonus, element: Nature, value: "{1}", stacks: {max: 4, from: consumed}, duration: 20, trigger: "consumes:Arts Infliction", target: self}
+    note: "stacks are the number of infliction stacks consumed, hence the cap of 4"
+
+  - name: Chivalric Virtues
+    confidence: inferred
+    seen: "Treatment Efficiency +{0}%. After the wielder's skill provides HP treatment, the entire team gains ATK +{1}% for 15.00s. Effects of the same name cannot stack."
+    apply:
+      - {stat: treatment, value: "{0}"}
+      - {stat: atk_pct, value: "{1}", duration: 15, trigger: hp_restored, target: team}
+
+  - name: Clannibal
+    confidence: inferred
+    seen: "Arts DMG +{0}%. After the wielder consumes an Arts Reaction, target enemy suffers Arts DMG Taken +{1}% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s."
+    apply:
+      - {stat: dmg_bonus, element: Arts, value: "{0}"}
+      - {stat: dmg_taken, element: Arts, value: "{1}", duration: 15, trigger: "consumes:Arts Reaction", target: enemy}
+    unmodeled: "DMG Taken — only for the consumed reaction's element; 25 s cooldown"
+
+  - name: Dreams of the Starry Beach
+    confidence: inferred
+    seen: "Secondary attribute +{0}%. After the wielder consumes Corrosion, target enemy suffers Arts DMG Taken +{1}% for 25.00s. Effects of the same name cannot stack."
+    apply:
+      - {stat: attr_pct, attribute: SUB, value: "{0}"}
+      - {stat: dmg_taken, element: Arts, value: "{1}", duration: 25, trigger: "consumes:Corrosion", target: enemy}
+
+  - name: Amaranthine Tassel
+    confidence: inferred
+    seen: "Physical DMG Dealt +{0}%. When the wielder applies Physical Susceptibility, the wielder gains Arts Intensity +{1} for 20.00s. When the wielder applies Crush, the wielder gains Physical DMG Dealt +[{2}% + ({3}% × Max number of Vulnerability stacks consumed from one enemy)] for 30.00s. The two effects apply separately and do not stack with themselves."
+    apply:
+      - {stat: dmg_bonus, element: Physical, value: "{0}"}
+      - {stat: arts_intensity, value: "{1}", duration: 20, trigger: "applies:Physical Susceptibility", target: self}
+    unmodeled: "Physical +[{2} % + {3} % × consumed Vulnerability stacks] after Crush"
+
+  - name: Khravengger
+    confidence: unknown
+    seen: "Skill DMG Dealt +{0}% (for every skill). When the wielder's battle skill applies Cryo Infliction, the wielder gains Cryo DMG Dealt +{1}% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction, the wielder gains Cryo DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves."
+    apply:
+      - {stat: dmg_bonus, element: Cryo, value: "{1}", duration: 15, trigger: "applies:Cryo Infliction", target: self}
+      - {stat: dmg_bonus, element: Cryo, value: "{2}", duration: 15, trigger: "target_has:Cryo Infliction", target: self}
+      - {stat: dmg_bonus, skillType: Battle Skill, value: "{0}"}
+      - {stat: dmg_bonus, skillType: Combo Skill, value: "{0}"}
+      - {stat: dmg_bonus, skillType: Ultimate, value: "{0}"}
+    evidence: "«Skill DMG … for every skill» — battle skill, combo, ultimate; basic attacks do not take it (measurements, #38, on Tide Surge)"
+
+  - name: Sundered Prince
+    confidence: inferred
+    evidence: "«double the ATK increase gained» read as a second equal row that fires only for the controlled operator; ATK % goes to BaseMultiplier like every ATK % buff (README, ATK stages)"
+    seen: "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +{0}% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +{1}% to the enemy. Effects of the same name cannot stack."
+    apply:
+      - {stat: atk_pct, value: "{0}", duration: 8, trigger: final_strike}
+      - {stat: atk_pct, value: "{0}", duration: 8, trigger: final_strike, controlled: true}
+    unmodeled: "Final Strike Stagger +{1} % for the controlled wielder — stagger on the track does not take percentage buffs"
+
+  - name: Thunderberge
+    seen: "Shield applied +{0}%. After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [{1}% × Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s."
+    unmodeled: "a shield — the engine does not model shields"
+
+  - name: Darhoff 7
+    confidence: inferred
+    evidence: "template «ATK +{0}.» without a percent — flat ATK"
+    seen: "ATK +{0}."
+    apply:
+      - {stat: atk_flat, value: "{0}"}
+
+  - name: Tarr 11
+    confidence: inferred
+    evidence: "template «ATK +{0}.» without a percent — flat ATK"
+    seen: "ATK +{0}."
+    apply:
+      - {stat: atk_flat, value: "{0}"}
+
+  - name: Opero 77
+    confidence: inferred
+    evidence: "template «ATK +{0}.» without a percent — flat ATK"
+    seen: "ATK +{0}."
+    apply:
+      - {stat: atk_flat, value: "{0}"}
+
+  - name: Jiminy 12
+    confidence: inferred
+    evidence: "template «ATK +{0}.» without a percent — flat ATK"
+    seen: "ATK +{0}."
+    apply:
+      - {stat: atk_flat, value: "{0}"}
+
+  - name: Peco 5
+    confidence: inferred
+    evidence: "template «ATK +{0}.» without a percent — flat ATK"
+    seen: "ATK +{0}."
+    apply:
+      - {stat: atk_flat, value: "{0}"}

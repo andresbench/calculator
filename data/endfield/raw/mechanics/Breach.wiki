@@ -1,0 +1,131 @@
+{{Physical Status tab}}
+{{Status infobox
+|Breach
+|Applies {{G|Vulnerable}} on an enemy. If the enemy is already {{G|Vulnerable}}, then consume all {{G|Vulnerable}} stacks, deal {{Color|Physical DMG|2}}, and temporarily increase the {{Color|Physical DMG|2}} taken by the enemy.
+|image = [[File: Breach icon.png]]
+|type = Debuff, Damage Instance
+|source = Operator
+}}
+
+{{Icon|Breach icon|'''Breach'''}} is a type of debuff and damage instance applied to enemies in ''[[Arknights: Endfield]]''.
+
+When an operator applies Breach to an enemy that is not currently {{G|Vulnerable}}, a stack of Vulnerability is applied instead. Otherwise, it consumes all Vulnerability stacks on the target and applies '''Breached''': Deals {{Color|100 – 250% ATK|1d}} {{Color|Physical DMG|2}} of the triggering operator and applies {{Color|Additional Physical DMG Taken|2}} {{Color|+12 – 24%|1d}} for {{Color|12 – 30|1d}}s.
+
+The following table shows the amount of damage dealt to the target, the efficacy of the debuff, and the duration of the debuff based on the {{G|Status Level}} or the number of stacks consumed:
+
+{|class="wikitable wikitable-mobile"
+!Status Level
+!Physical DMG
+!Increased DMG Taken
+!Duration
+|-
+|I
+|{{Color|100% ATK|1d}}
+|{{Color|+12%|1d}}
+|{{Color|12|1d}}s
+|-
+|II
+|{{Color|150% ATK|1d}}
+|{{Color|+16%|1d}}
+|{{Color|18|1d}}s
+|-
+|III
+|{{Color|200% ATK|1d}}
+|{{Color|+20%|1d}}
+|{{Color|24|1d}}s
+|-
+|IV
+|{{Color|250% ATK|1d}}
+|{{Color|+24%|1d}}
+|{{Color|30|1d}}s
+|}
+
+{{TOC limit|2}}
+{{Clr}}
+
+== Calculations ==
+===Physical DMG Instance ===
+{{Main|Damage calculation}}
+===Additional Physical DMG Taken ===
+{{Main|Arts Intensity}}
+
+<math>{Arts\,Intensity\,Multiplier} = \dfrac{3 \times Arts\,Intensity + 300}{Arts\,Intensity + 300}</math>
+
+Each point of Arts Intensity increases the efficacy of the debuff by some percent, at a progressively decreasing rate, up to a cap of {{Color|300%|1d}} (The effectiveness approaches 300%, but never reaches it). The following table shows the efficacy of the debuff for every 100 Arts Intensity breakpoint:
+
+{|class="wikitable wikitable-mobile"
+!Arts Intensity
+!Arts Intensity Multiplier
+|-
+|{{Color|0|1d}}
+|{{Color|100%|1d}}
+|-
+|{{Color|100|1d}}
+|{{Color|150%|1d}}
+|-
+|{{Color|200|1d}}
+|{{Color|180%|1d}}
+|-
+|{{Color|300|1d}}
+|{{Color|200%|1d}}
+|-
+|{{Color|400|1d}}
+|{{Color|214%|1d}}
+|-
+|{{Color|500|1d}}
+|{{Color|225%|1d}}
+|}
+
+==Sources==
+{{Operator table
+|header = Interaction
+|content =
+{{Operator table row
+|name = Pogranichnik
+|content = 
+{{Operator table row/Combat skill
+|icon = Skill-Pogranichnik
+|name = The Pulverizing Front
+|type = Skill
+|content = 
+<b>SKILL DESCRIPTION:</b> Pogranichnik performs a 2-sequence slash attack at enemies in front of him, dealing {{Color|Physical DMG|1}}, applying {{G|Breach|Breach}}, and recovering SP based on the number of Vulnerability stacks {{G|Debuff Consumption|consumed}}. The SP recovery effect can only trigger 1 time, even if the skill hits multiple targets.
+}}
+}}
+}}
+==Interactions==
+{{Operator table
+|header = Interaction
+|content =
+{{Operator table row
+|name = Lifeng
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Lifeng
+|name = Aspect of Wrath
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When the controlled operator performs a {{G|Final Strike|Final Strike}} on an enemy with {{G|Physical Susceptibility|Physical Susceptibility}} or {{G|Breach|Breach}}. <br /><b>SKILL DESCRIPTION:</b> Unleashes an aspect that performs a spear thrust to deal {{Color|Physical DMG|1}} and grants {{G|Link|Link}}.
+}}
+}}
+{{Operator table row
+|name = Pogranichnik
+|content = 
+{{Operator table row/Combat skill
+|icon = Combo-Pogranichnik
+|name = Full Moon Slash
+|type = Combo
+|content = 
+<b>COMBO TRIGGER:</b> When {{G|Crush|Crush}} or {{G|Breach|Breach}} {{G|Debuff Consumption|consumes}} the enemy's {{G|Vulnerable|Vulnerability}} stack(s). <br /><b>SKILL DESCRIPTION:</b> Performs a number of slash sequences (up to 3) based on the max number of {{G|Vulnerable|Vulnerability}} stacks {{G|Debuff Consumption|consumed}} from one enemy, dealing {{Color|Physical DMG|1}} and recovering some SP. Each slash deals more DMG and gives better SP recovery. <br />{{Color|Consuming 4 stacks of Vulnerability enhances the 3rd slash sequence.|9}}
+}}
+}}
+}}
+==Changelog==
+{{Changelog|
+* <b>Beta Test II</b>
+** {{G|Breach}} added.
+*** When an operator applies {{G|Breach|Breached}} to a {{G|Vulnerable}} enemy, {{G|Debuff Consumption|consume}} the debuff to deal additional {{Color|Physical DMG|2}} and apply {{Color|Additional Physical DMG Taken|2}} based on the number of stacks consumed.
+*** When an operator applies {{G|Breach|Breached}} to a non-{{G|Vulnerable}} enemy, apply {{G|Vulnerable}} instead.
+}}
+
+{{Combat mechanics}}
+[[Category:Physical Status]]

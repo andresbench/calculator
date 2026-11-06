@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Wave Tide
+|rarity = 4
+|images = 
+Wave_Tide icon.png:Icon;
+Wave_Tide.png:Full;
+Wave_Tide max model.png:Max
+|filename = wpn_sword_0009
+|cnname = 浪潮
+|tcname = 浪潮
+|jpname = 潮流
+|krname = 거대한 격랑
+|spname = Marea ondulante
+|runame = Морской вал
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Wave Tide''' is a 4★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A mid-tier product of Mieszko Industries. The sword features chic, avant garde designs plus amazing cost performance index, making it one of the most fashionable choices of the year in the TGCC.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Pursuit: Unending Cycle|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Intellect [S]|ATK [S]|Pursuit: Unending Cycle}}
+
+==Basic Info==
+{{Quote|Somewhere in the wildlands, a convoy of heavy caravans switched off their engines and parked before the roadblock. The wind-stirred dust raked against the windows as the dull booms of explosions and things hitting the ground reverberated.<br>A young trucker lowered the window and poked his head out. "Blasted weather. Looks like it's gonna rain again! And do we have more buggerloids up ahead? This is our third encounter this month!"<br>An older trucker got out of the cab. The Originium device of his caravan was already attempting to clean the windshield of the dust. "The redistribution post has dispatched an emergency team. See that engineering vehicle? The crew is already clearing the rubble off the road."<br>"Eh, mate. You look like a real veteran. Seen any special buggers?" the young trucker asked curiously.<br>The old man lit a cigarette: "Saw one at a nearby outpost ten years ago. Blasted buggerloid was bigger than a caravan. I also witnessed a fellow trucker scampering into the cab."<br>"Did he make it?"<br>"Well, that oversized bugger followed but couldn't hold its grip. Rolled off with the caravan container and got crushed by fifty tons of raw Originium ore."<br>"Sounds like a really stupid bugger. Man, that trucker got super lucky. People told me there were rocky-crawlies all over this place back then."<br>"It was way worse back then," the old trucker blew a smoke ring into the air. "This highway didn't exist, and there were no RD posts nor support teams from the TGCC. It was a time when local town and villages, no matter the size, would fight each other or breakers over tinned provisions."<br>That got the young trucker interested. Half of his body was almost out of his cab. "Fighting breaker clans over a few tins? Dayyum. All I see are just crafters selling their wares and stuff nowadays. I even see people from Kjersch."<br>"That was how we founded the Chamber of Commerce. The entire venture started with a dozen or so very experienced truckers. My mentor was amongst the Chamber Founders," the old trucker smiled. "See that Endfield installation? It ran out of food ten years ago. We took the risk, forced our way through breaker turf, and delivered the food. That was my first time behind a caravan wheel."<br>"I bet they were super grateful about the food."<br>"Not really. They mopped the floor with a band of breakers who tried to raid them. The Endfielders looted the breakers' rations and that kept them going for a while."<br><br>The sound of explosions got closer and the rubble began cascading off the slopes of the hill in the far distance. The truckers waited patiently for passage.<br>"The RD post kept talking about ... 'business conformance'," the young trucker got back into his cab and took out a huge bar of chocolate. He tore off a piece and threw it at another trucker who waited by his caravan. "Route reviews are okay, just a tiny waste of time. But now they're even slapping a uniform price on Origo-fueling, and the price is friggin' ex. These guys are siphoning our T-Creds."<br>Another trucker taking a walk overheard the conversation and decided to join in. "Say what you want, but things would be so much better if we didn't have to pay TGCC its cut."<br>"Then who's gonna mint the T-Creds? Who's gonna take care of freelancing truckers like us?" the veteran trucker smiled as he puffed another smoke ring.<br>"Oh?"<br>"And forget about that Extra Crispy Drumsticks from Caravan Express, or decently priced fueling stops when the TGCC disappears."<br>"I...," the young trucker was at a loss of words. He finally shook his hands and returned to his cabin. "Meh. He can't even take a joke about the cartel."<br><br>They heard another explosion, this time closer than before.<br>"The TGCC is all about big business nowadays..." the trucker added after his momentary hesitation. "Heard about some company trying to monopolize Origo-fuel supplies..."<br>The veteran trucker looked at the smoke in the distance.<br>"Monopolies... The last one who ignored the Accord and tried to do that got a generous serving of jail time, courtesy of the TGCC joint session. Speaking of which, trading of key resources will always be controlled, but they're doing it for the Northern Front. I made plenty of deliveries to that place. Those trips were really hairy."<br>"Oh, the North, right? I actually squished a buggerloid with my truck."<br><br>A few workers at the front of the caravan suddenly carried the roadblock away. A raspy noise blared out of the Originium radios: "Road section cleared. Roll along and keep your distance."<br>"You're going to Valley IV, right? I guess this is where we part ways," the young trucker roared as loud as he could.<br>"Are you tired of me already? I'm heading to Wuling too!" the old trucker strapped into his seat and checked his rearview mirror. "We're far from parting ways."<br>"Da hell, old boy? Are you following me or something?"<br>"You take me as a stalker? I'm gonna load up on food at Wuling, drop them at Valley IV, get some Originium ore for Kjersch, and then haul a container full of craftwork to La Fantoma."<br>The truckers continued their crude banter, started their engines, and got back into the never-ending caravans.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

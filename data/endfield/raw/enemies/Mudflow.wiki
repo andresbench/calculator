@@ -1,0 +1,63 @@
+{{Enemy infobox
+|name = Mudflow
+|image = Mudflow_sprite.png
+|filename = eny_0087_wgslime
+|cnname = 浊流天使
+|tcname = 濁流天使
+|jpname = 濁流アンゲロス
+|krname = 탁류아겔로스
+|spname = Flujo de lodo
+|runame = Мутноток
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 14
+}}
+'''Mudflow''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Tholeroygran" (archive ID: ACM311) is the first fluid-based pattern to be discovered. The morphology of the halo is unstable and the internal temperature is typically lower than its constituent materials.}}
+
+==Stats==
+{{Enemy data
+|HP = 180, 1292, 8173, 32175, 77396, 119231
+|ATK = 26, 124, 386, 958, 1442, 1652
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 1
+|waether = 1
+|abilities = *This enemy can quickly close the distance from afar. Its attacks can apply Cryo Infliction to operators upon hit.
+|location = *[[Jingyu Valley]]
+*[[Wuling City]]
+*[[Marker Stone]]
+*[[Yinglung Pass]]
+*[[Energy Alluvium: Wuling City]]
+|drops = {{I|Resilient Water}}
+|addendum = }}
+
+==Overview==
+As one of the basic melee [[Aggeloi]], Mudflows are slightly more threatening to [[Ram]]s, but it doesn't make them more of the threat; Besides capable of dashing and ram, which deals Cryo damage and {{G|Cryo Infliction}}, they can also flatten themselves, dealing Cryo damage and {{G|Cryo Infliction}} to Operators around.
+
+==See Also==
+*[[Mudflow δ]] - an alternate version of Mudflow.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 180, 1292, 8173, 32175, 77396, 119231 from 180, 1520, 9615, 32175, 77396, 119231
+**Increased incoming Cryo damage to 0.8 from 0.65
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

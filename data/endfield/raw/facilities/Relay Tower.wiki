@@ -1,0 +1,28 @@
+{{Facility infobox
+|name = Relay Tower
+|filename = item_port_power_pole_2
+|images = Relay Tower icon.png:Icon;
+Relay Tower.png:Full
+|cnname = 中继器
+|tcname = 中繼器
+|jpname = 中継タワー
+|krname = 중계기
+|spname = Torre de transmisión
+|runame = Вышка ЭП
+|type = Power
+|rarity = 1}}
+'''Relay Tower''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|This relay can be used to transmit power to other facilities within an 80-meter radius.
+Researching certain AIC Factory Plan technologies also lets it supply power to other Endfield facilities within a small area.|The Relay Tower is one of the most expensive AIC facilities to construct. Its overall design is based on the PAC.}}
+==Usage==
+This relay can be used to transmit power to other facilities within an 80-meter radius.
+Researching certain AIC Factory Plan technologies also lets it supply power to other Endfield facilities within a small area.
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Power Relay]]
+{{RecipeTable|product=Relay Tower}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Power Facilities]]

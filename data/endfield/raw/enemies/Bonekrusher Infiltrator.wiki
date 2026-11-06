@@ -1,0 +1,62 @@
+{{Enemy infobox
+|name = Bonekrusher Infiltrator
+|image = Bonekrusher_Infiltrator_sprite.png
+|filename = eny_0049_rogue
+|cnname = 碾骨渗透者
+|tcname = 碾骨滲透者
+|jpname = ボーンクラッシャーの潜入者
+|krname = 본 크러셔 침투자
+|spname = Rompehuesos Infiltrado
+|runame = Лазутчик Костоломов
+|type = Landbreakers
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 7
+}}
+'''Bonekrusher Infiltrator''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A Landbreaker armed with melee weapons. Infiltrators are extremely agile and capable combatants who fight with two weapons at once. They are not to be trifled with.}}
+
+==Stats==
+{{Enemy data
+|HP = 166, 1192, 7544, 29700, 71443, 110060
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.3
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *A very agile enemy and capable of dodging the operators' basic attacks. However, when she attacks, she won't be able to dodge.
+*Can throw darts and perform additional attacks on operators hit by the darts. Dodging the darts might offer a good chance to counterattack.
+|location = *[[Power Plateau]]
+*[[Energy Alluvium: Power Plateau]]
+|drops = {{I|Powdered Grass Seed}}
+|addendum = }}
+
+==Overview==
+An extremely agile variant of melee Bonekrushers, Bonekrusher Infiltrators are considered one of the most annoying common enemies, mainly due to their defensive ability; When they're not attacking, they can dodge ''all'' attacks directed to them, making them  basically invulnerable.
+
+They attack with a dagger throw or four consecutive cuts, both dealing Physical damage, but also render them vulnerable as they cannot attack and dodge at the same time.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 166, 1192, 7544, 29700, 71443, 110060 from 166, 1403, 8876, 29700, 71443, 110060
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

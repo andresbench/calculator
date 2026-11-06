@@ -1,0 +1,70 @@
+{{Enemy infobox
+|name = Glaring Rakerbeast
+|image = Glaring_Rakerbeast_sprite.png
+|filename = eny_0102_hstiger2
+|cnname = 怒目彪兽
+|tcname = 怒目彪獸
+|jpname = 鋭目彪獣
+|krname = 분노의 레이커비스트
+|spname = Bestia rastrera deslumbrante
+|runame = Сверкающий хитрый зверь
+|type = Wildlife
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 13
+}}
+'''Glaring Rakerbeast''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A rakerbeast variant featuring a different colored coat, shorter lifespan, but greater strength. Its eyes seem to glow like liquid fire.}}
+
+==Stats==
+{{Enemy data
+|HP = 1869, 13413, 84872, 334130, 803731, 1238171
+|ATK = 72, 341, 1061, 2635, 3965, 4543
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *When compared to common rakerbeasts, this enemy will enter temporary stealth and charge up its skills at low HP. Interrupt it quickly to end its stealth and deal massive Stagger to it.
+*Enraged State: When Enraged, the beast has increased ATK and uses its charge up skills more often. Applying Staggered to it ends the Enraged state.
+|location = *[[Wuling City]]
+|drops = {{I|Rakerbeast Longfur}}
+|addendum = }}
+
+==Overview==
+A unique variant of [[Spotted Rakerbeast]], the Glaring Rakerbeast has similar appearance with its counterpart, but it doesn't make them less of the threat with most abilities remained with additions:
+
+*Claws twice at front, dealing Physical damage.
+*Claws once at front, followed by a tail swing that launch spines around, dealing Physical damage.
+*Leaps twice, dealing Physical damage on the landing spot, before launching a downwards claw followed by a tail swing around, dealing Physical damage.
+*Leaps forward before launching two claws at once, dealing Physical damage.
+*Claws twice in quick succession, followed by an upwards claw after a short charge up, dealing Physical damage. This ability can be interrupted by skills.
+*Roars and deals continuous Physical damage before entering '''Enraged State''', which gives it ATK and following abilities:
+**Leaps forward and deals Physical damage to Operators at front, before lifting its limbs and deals Physical damage ahead after charging up. This ability can be interrupted by skills.
+**Claws twice, dealing Physical damage, then leaps backwards and claws an additional time after a short charging up, dealing Physical damage. This ability can be interrupted by skills.
+
+Unlike Spotted Rakerbeast, the Glaring Rakerbeast will periodically become invisible for a short period if it's at low HP.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1869, 13413, 84872, 334130, 803731, 1238171 from 1869, 15780, 99850, 334130, 803731, 1238171
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

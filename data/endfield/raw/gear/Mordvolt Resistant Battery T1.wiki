@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Mordvolt Resistant Battery T1
+|image = Mordvolt_Resistant_Battery_T1.png
+|filename = item_equip_t3_suit_will01_edc_01
+|cnname = 蚀电防护电池·壹型
+|tcname = 蝕電防護電池·I
+|jpname = 蝕電防護バッテリーⅠ
+|krname = 침식 방호 배터리 · I
+|spname = Batería resistente de Mordvolt T1
+|runame = Резистентная батарея «Мортвольт» К1
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Mordvolt Resistant Battery T1''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|These batteries are pretty heavy. 
+An experienced worker can transform this Originium battery into an improvised grenade within 10 minutes.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Will
+|pvalue = +23
+|sstat = Agility
+|svalue = +15
+|tstat = Treatment Bonus
+|tvalue = +14.7%
+|setname = Mordvolt Resistant
+|seteffect = 3-piece set effect: Wearer's Will {{Color|+50|1d}}. 
+When the wearer's HP is below 50%, Treatment Effect {{Color|+30%|1d}}.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Mordvolt Resistant}}
+{{Gears|state=collapsed}}

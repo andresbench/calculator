@@ -1,0 +1,32 @@
+{{Facility infobox
+|name = Moulding Unit
+|filename = item_port_shaper_1
+|images = Moulding Unit icon.png:Icon;
+Moulding Unit.png:Full
+|cnname = 塑形机
+|tcname = 塑形機
+|jpname = 成形機
+|krname = 성형기
+|spname = Unidad de moldeado
+|runame = Модуль формовки
+|type = Production I
+|rarity = 2
+|power = 10}}
+'''Moulding Unit''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility that produces various containers via stamp moulding.|After jointly organizing a product discussion conference with UWST, Endfield Industries finally overcame the challenges involved in the replacement of moulding dies.}}
+==Usage==
+A facility that produces various containers via stamp moulding.
+*Power Use : 10
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false|mode=Solid}}
+=== Gas Mode ===
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false|mode=Gas}}
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC I - Material Moulding]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Moulding Unit}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production I Facilities]]

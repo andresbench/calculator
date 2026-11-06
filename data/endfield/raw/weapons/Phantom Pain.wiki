@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Phantom Pain
+|rarity = 6
+|images = 
+Phantom_Pain icon.png:Icon;
+Phantom_Pain.png:Full;
+Phantom_Pain max model.png:Max
+|filename = wpn_claym_0016
+|cnname = 幻想苦痛
+|tcname = 幻想苦痛
+|jpname = ファントムペイン
+|krname = 환상통
+|spname = Dolor fantasma
+|runame = Фантомная боль
+|type = Great Sword
+|source = Reward: Protocol Pass}}
+'''Phantom Pain''' is a 6★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A prototype produced by Portable Æthertech Labs. The body of the blade is constructed with novel materials that give this weapon its exceptionally light weight without compromising its potential for destruction.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Suppression: Layered Suffering|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [L]|Arts Intensity [L]|Suppression: Layered Suffering}}
+
+==Basic Info==
+{{Quote|You're still torturing me. <br>I know it very well. This is my 1299th attempt to forget everything about you and your seductions, but I failed... We have been so close, and kept each other company for so long. How could I ever cast these memories aside...? <br>Oh beloved left hand of mine. <br>A year has passed since I had to amputate you for getting Blighted in the material science experiment. But I can still feel your existence. I can still feel your feedback whenever I stretch or curl the absent fingers or wave the bygone palm. The physician called it phantom pain and a common ailment. All I needed was to set my mind to rest, and maybe accept a few treatment courses and therapy sessions. But I know a quack when I see one. I know their kind well. <br>We were only separated and I have not lost you. That is certain. I know where you are, although I am temporarily unable to reach your side. <br>You are in the Ætherside. <br>...... <br>Ætherside, my love. The greatest source of trouble that we have faced together, back when we were still students and after we joined the Portable Æthertech Labs. The Ætherside has always been influencing our lives. Is there anyone else who knows more about the Ætherside than us? Probably not... Wait, no... I think they do exist, the Endfielders ... those working in the best labs of the TGCC and UWST ... and the strange ones who roam the wilderness but have a knack for it. They also have great knowledge for the Ætherside too. <br>This is why I am confused, dear. My inability to find you made me realize that I hardly know anything about the Ætherside. Nothing living should exist there. I shouldn't be feeling you at all, but the gentle sensations emanating from the stump where you were severed felt so clear and real. Part of my mind is fighting another. The conclusion has caused the corpus of my knowledge, one that I have meticulously constructed over the years, to utterly collapse. <br>I think I need to head out a little. <br>...... <br>They have begun to inject me with sedatives. <br>...... <br>I went looking for a former classmate. We grew up and studied together, and spent many years trying to one-up each other in our work and the impact factor of our research projects. He was shocked at the shallow and obvious nature of my question... I only asked him for his views on the Ætherside. Instead, he answered my question with another question: How do I regard the rising of the sun and the falling of the moon? Or the four seasons? I told him I am part of the seasonal cycle, and part of me rests in the rising sun and falling moon. <br>He then called the police. The public safety officers of La Fantoma arrived quickly. <br>...... <br>I believe I have arrived at a UWST auto-farm. Convincing the ex-Oathkeeper security guard that I am not a Landbreaker in disguise proved quite a challenge. He shared some food and we sat before a stove, toasting with our good right hands. I asked him the same question. Fury, hatred, and a sprinkle of cowardice came to his eyes. He emptied his cup and then told me a story he heard when he was a boy. It was a tale about killing the ocean. <br>The fire burned in his chest. I cannot let this fire harm you. Fortunately, I carried some sleeping pills with me. <br>...... <br>I can feel you very clearly now. <br>...... <br>The Archosauria woman sat within a formation of denstacks. Hah. She thinks her performance is impressive, but I saw right through her. I've used you to flip through numerous tomes to read about the conquerors and sovereigns whose names were noted down by history... I know the lies spat out by her kind of people. Listen to her voice, the empty shells of promises she sugarcoats. She treats the Ætherside as a tool... Of course, I might've been seeing things due to my extreme hunger. Anyway, if her theatrics and performance deceive me, then she's really good at what she's doing. <br>...... <br>I can wait no longer. I am going to find you. That Lei Fa thunder-casting Tianshi has not noticed me as I infiltrated the Exclusion Zone... I should be able to find a passage that leads to your location. <br>...... <br>The colors are so beautiful. I must enter it. It's time to go ... and become one with it.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

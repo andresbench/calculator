@@ -1,0 +1,38 @@
+{{Gear infobox
+|name = Rift Trekker Silver Blade
+|image = Rift_Trekker_Silver_Blade.png
+|filename = item_equip_t4_parts_wuling02_edc_02
+|cnname = 涉渊白刃
+|tcname = 涉淵白刃
+|jpname = 渡淵白刃
+|krname = 절망 검날
+|spname = Hoja de plata del Trotagrietas
+|runame = Серебряный клинок «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Silver Blade''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequent high-threat areas to carry out various missions. "I forged a silver blade, to purge the malicious shades."}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +43, +47, +51, +55
+|sstat = Ultimate Gain Efficiency
+|svalue = +25.7%, +28.3%, +30.9%, +33.4%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

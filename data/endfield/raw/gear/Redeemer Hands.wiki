@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Redeemer Hands
+|image = Redeemer_Hands.png
+|filename = item_equip_t4_parts_wuling01_hand_02
+|cnname = 纾难手套
+|tcname = 紓難手套
+|jpname = 救国グローブ
+|krname = 위기 탈출 장갑
+|spname = Manos de Redentor
+|runame = Краги «Освободитель»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = *Purchase: Wuling Stock Redistribution
+*Stock Redistribution Terminal Upgrade
+}}
+'''Redeemer Hands''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|This piece of gear is the byword for the difficult road ahead. "The quest is not yet finished, and so the journey is not yet complete."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Strength
+|pvalue = +86, +94, +103, +111
+|sstat = All Skill DMG
+|svalue = +24.0%, +26.4%, +28.8%, +31.2%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

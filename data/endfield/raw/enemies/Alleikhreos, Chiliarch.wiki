@@ -1,0 +1,102 @@
+{{Enemy infobox
+|name = Alleikhreos, Chiliarch
+|image = Alleikhreos,_Chiliarch_sprite.png
+|filename = eny_0125_fdcentur
+|cnname = 阿莱克琉斯，千夫长
+|tcname = 阿萊克琉斯，千夫長
+|jpname = 千人隊長アレイクレウス
+|krname = 알레이크레오스, 천부장
+|spname = Alleikhreos, Quiliarca
+|runame = Хилиарх Аллейхреос
+|viname = Alleikhreos, Thiên Phu Trưởng
+|type = Foundite
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 1
+}}
+'''Alleikhreos, Chiliarch''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A creation of the Foundation and a veteran of countless battles. This Chiliarch roamed the Ætherside until he recovered his lost sword and tore open a moment for his return.}}
+
+==Stats==
+{{Enemy data
+|HP = 3738, 26826, 169745, 668260, 1607463, 2476341
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 11
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *When the Stagger meter of Alleikhreos, Chiliarch hits the Stagger Node, he would drop a Foundite Weapon. Approach it with the controlled operator to pick it up and use the weapon to attack him.
+*When things turn against Alleikhreos, Chiliarch, he will summon doubles from the rift to attack his opponents.
+|location = *[[North Wuling Exclusion Zone]]
+|drops = 
+|addendum = }}
+
+==Overview==
+===Phase 1===
+Alleikhreos initially uses attacks using his sword.
+* Stabs forward with a sword, then slashes upwards. The first stab can be interrupted.
+* Stabs forward with a sword, then slashes twice consecutively. The first slash can be interrupted, causing Alleikhreos to stumble and then retaliate with three slashes. The retaliation can also be interrupted.
+
+When Alleikhreos reaches a Stagger Node, he will stumble and drop a Foundite Weapon on the ground, which can be picked up by walking over it, adding it to the player's list of extra actions. Using the Foundite Weapon will summon a blade from above, interrupting any of Alleikhreos's attacks and causing him to topple briefly.
+
+When a Foundite Weapon has been dropped, Alleikhreos creates a large shield and slams the ground to create an explosion, then charges up a massive shockwave that deals tremendous damage in a wide area. During the attack, Alleikhreos causes most attacks to bounce off of him, and the final shockwave cannot be dodged. The player must avoid it by either moving out of its range or interrupting it with the Foundite Weapon.
+
+After enough time has passed, Alleikhreos teleports into the air, creates a large lance, and stabs it into the ground, creating a shockwave that can be jumped over. He then switches to a lance-and-shield moveset.
+* Swings his lance in a wide arc four times in a row. The last swing can be interrupted, causing Alleikhreos to stumble and then retaliate with another stab. The retaliation can also be interrupted.
+* Vaults above the target, slams down to create a fissure that erupts after a delay, and lunges at the target with a lance. The slam can be interrupted.
+* Stabs forward, slashes around himself, and charges at the target to deal impact damage, before stabbing at the end of his charge.
+
+After enough time has passed, Alleikhreos teleports into the air and creates a bow before summoning a large number of arrows to bombard the area around the target, followed by a massive arrow that creates a delayed aftershock on impact. Afterwards, he gains the following bow attacks:
+* Fires two volleys of exploding arrows, then charges up and fires a massive arrow alongside a storm of homing bolts that create aftershocks.
+* Fires into the air, causing exploding arrows to rain down all around the target.
+
+After unlocking his bow attacks, Alleikhreos can now use any of his moves at any time, prioritizing the bow if the player keeps distance.
+
+Alleikhreos triggers a cutscene and enters the second phase when his HP is depleted.
+===Phase 2===
+Alleikhreos retains most the attacks from the first phase, and adds the following new or upgraded ones.
+* Disappears and summons a large number of doubles that appear in two groups, each one surrounding the target before slashing in unison. After two groups of doubles have attacked, Alleikhreos reappears and slams down on the target while slashing all around, releasing a second flurry of slashes after a delay. Always starts Phase 2 with this attack.
+* Summons a row of doubles that each charge forward in a straight line, while Alleikhreos fires several volleys of arrows that rain down on the target's location.
+* Summons rows of doubles from multiple directions that each charge forward in a straight line. After, creates a lance and shield, then stabs forward, slashes around himself, and charges at the target. During the final charge, a group of doubles appear and slash at the target in tandem.
+* Slashes upwards, then creates a second sword and unleashes a prolonged combo of 7 slashes, followed by two omnidirectional blade flurries. 
+* Fires two volleys of exploding arrows from a bow as doubles fire additional side arrows, then charges up and fires a massive arrow at the target, followed by his doubles releasing a storm of homing bolts towards the target.
+* Stabs forward with a sword, then slashes twice consecutively, with the third slash summoning doubles to slash in tandem. The first slash can be interrupted, causing Alleikhreos to stumble and then retaliate with three slashes. The retaliation can also be interrupted.
+
+Upon reaching 50% HP and is not Staggered, Alleikhreos retreats into the background, summons a large number of doubles, and traps the player within a circular barrier as the following attacks occur in sequence:
+* 3 increasingly dense rings of doubles spawn on the edges of the barrier and fire telegraphed arrows across the area.
+* 3 sets of doubles spawn and charge forward in sequence (first from one side, then from two, and then from the entire barrier perimeter), while another double constantly fires volleys of arrows that rain down on the target's position
+* At the end of the sequence, Alleikhreos charges up a massive arrow and fires it, shattering the barrier, creating a massive explosion, and leaving behind a delayed aftershock.
+
+In his story battle, Alleikhreos cannot fall below ~45% HP until using his scripted attack. This damage cap is not present during RE:Crisis.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Trivia==
+* A ''[https://en.wikipedia.org/wiki/Chiliarch Chiliarch]'' is a military rank dating back to antiquity, originally used to denote the commander of a unit of about one thousand men (a chiliarchy) in the [https://en.wikipedia.org/wiki/Ancient_Macedonian_army Macedonian army].
+* Voiced by Ko Bonkobara in Japanese.<ref>https://x.com/KoKevin49/status/2084585170657808834</ref>
+
+==References==
+{{Reflist}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Handcannon
+|name = Long Road
+|rarity = 4
+|images = 
+Long_Road icon.png:Icon;
+Long_Road.png:Full;
+Long_Road max model.png:Max
+|filename = wpn_pistol_0003
+|cnname = 长路
+|tcname = 長路
+|jpname = 長路
+|krname = 끝없는 여정
+|spname = Largo camino
+|runame = Долгий путь
+|type = Handcannon
+|source = Acquisition Center: Arsenal Exchange}}
+'''Long Road''' is a 4★ [[Handcannon]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|Standard-issue guns made by Fort Forgefane for the common soldiery under the Order of Steel Oath. These weapons are extremely popular due to their simple firing mechanism and incredible stopping power.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 34, 100, 169, 238, 307, 341
+|pot = Skill {{Color|Pursuit: Unending Cycle|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Handcannon|Strength [S]|Arts DMG [S]|Pursuit: Unending Cycle}}
+
+==Basic Info==
+{{Quote|I think I need to retire.<br>There is nothing to be had on this world.<br>Did we make any great findings after 10 years and nearly 30 major excavation attempts? No. We found only engines of war that the Ursine were forced to abandon in the Great Rift Valley and the ruins of automated pastures given up to the hosts of Aggeloi and the never-ending Blight.<br>These discoveries were little more than rotting crates of our mundane past.<br>The true history of Talos-II would be the ruins left behind by our ancestors — And I unearthed 3 of these sites. All were empty. We found no bodies, no sources of power, and no machineries. There was nothing. Nothing but shards of metal. They did give off a light that I could peer into. I saw fuzzy images of our ancestors who lived eons ago. I saw them smile. The smiles looked genuine. Our ancestors looked happy.<br>None of our discoveries revealed what happened before us. In fact, our very own past remains shrouded. Talos-II continues to hide behind the obscuring veil. A Songseeker of the Hannabit Circuit told me their very first Aldertone caught a glimpse of the world's shadowy past in the frozen icefields. This tiny glimpse scarred her with a monumental terror greater than Talos itself.<br>I told this to an Oathkeeper friend of mine. She replied with her own tale. Whenever she stood atop the Order fortress walls and gazed into the thick dark clouds that smothered the northern skies, she could feel the planet's shadow lurking behind it. This shadow would briefly retreat whenever she stepped onto the battlefield.<br>"Be strong, and do not think too much about it."<br>Those were her words when she gave me her handcannons.   Fine. I'm putting off the retirement. I'm heading out there again.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Handcannons]]

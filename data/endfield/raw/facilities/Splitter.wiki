@@ -1,0 +1,27 @@
+{{Facility infobox
+|name = Splitter
+|filename = item_log_splitter
+|images = Splitter icon.png:Icon;
+Splitter.png:Full
+|cnname = 分流器
+|tcname = 分流器
+|jpname = 分流器
+|krname = 분류기
+|spname = Divisor
+|runame = Разделитель
+|type = Logistics Units
+|rarity = 2}}
+'''Splitter''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A logistics unit that evenly divides product flow from 1 transport belt into multiple belts (up to 3).|A transport belt adjustment unit with a smart sorting module. Can be used to reduce the complexity of various facility supply lines.}}
+==Usage==
+A logistics unit that evenly divides product flow from 1 transport belt into multiple belts (up to 3).
+
+The Splitter can split the product flow of 1 transport belt to up to 3 transport belts.
+==Acquisition==
+*Requirement : [[AIC Plan#Basic AIC Plan|Basic AIC Plan - Basic AIC II - Belt Splitting]]
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:logistics Facilities]]

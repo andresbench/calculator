@@ -1,0 +1,66 @@
+{{Enemy infobox
+|name = Axe Armorbeast
+|image = Axe_Armorbeast_sprite.png
+|filename = eny_0071_sandb
+|cnname = 斧甲兽
+|tcname = 斧甲獸
+|jpname = 斧甲獣
+|krname = 엑스 아머비스트
+|spname = Bestia armadura con hacha
+|runame = Бронезверь-секач
+|type = Wildlife
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 2
+}}
+'''Axe Armorbeast''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A wild axe armorbeast. The creature is clad with bony plates. It can even ram open thick, heavy alloy gates with its axe-shaped horns.}}
+
+==Stats==
+{{Enemy data
+|HP = 1385, 9936, 62869, 247504, 595357, 917164
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 280
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *A raging Axe Armorbeast will use its massive horns to chase out enemies intruding its territories. Watch out for its ramming charge.
+*The enemy will perform various large area attacks. Interrupt it when it becomes Enraged.
+|location = *[[The Hub]]
+*[[Energy Alluvium: The Hub]]
+|drops = {{I|Axehorn}}
+|addendum = }}
+
+==Overview==
+A wildlife creature with a giant horn, the Axe Armorbeast is no easy deal, due to its abilities that can interrupt the offensive flow without much difficulty:
+
+*Thrusts its horn upwards after a short step, dealing Physical damage.
+*Lifts up its limbs before a heavy landing, dealing Physical damage and knock Operators back.
+*After a short delay, charges ahead, dealing Physical damage and knock Operators back. After repeating this two more times, thrusts its horn upwards and deals Physical damage.
+*After a charge up, roars and deals continuous Physical damage. This ability can be interrupted by skills.
+*Lifts up its limbs before a heavy landing, dealing Physical damage. After that, the Hazefyre Axe Armorbeast will charge up, then deals Physical damage to a wide area ahead, and knock Operators back. This ability can be interrupted by skills.
+
+==See Also==
+* [[Hazefyre Axe Armorbeast]] &ndash; a stronger hazefyre corrupted variant of the Axe Armorbeast.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 1385, 9936, 62869, 247504, 595357, 917164 from 1385, 11689, 73963, 247504, 595357, 917164
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

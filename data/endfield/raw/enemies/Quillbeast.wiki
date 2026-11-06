@@ -1,0 +1,65 @@
+{{Enemy infobox
+|name = Quillbeast
+|image = Quillbeast_sprite.png
+|filename = eny_0093_hshog
+|cnname = 球刺兽
+|tcname = 球刺獸
+|jpname = 球刺獣
+|krname = 프릭비스트
+|spname = Bestia pluma
+|runame = Колючий зверь
+|type = Wildlife
+|class = Advanced
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 8
+}}
+'''Quillbeast''' is an [[Advanced enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A wild quillbeast indigenous to Talos-II. When it raises its quills and starts rolling around, it becomes as destructive as a spinning chainsaw.}}
+
+==Stats==
+{{Enemy data
+|HP = 831, 5961, 37721, 148502, 357214, 550298
+|ATK = 39, 186, 579, 1437, 2163, 2478
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 200
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 6
+|Weight = 1
+|wphysical = 1
+|wfire = 0.8
+|welectric = 0.8
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Enraged State: When Enraged, the beast has increased ATK and uses its charge up skills more often. Applying Staggered to it ends the Enraged state.
+|location = *[[Jingyu Valley]]
+*[[Wuling City]]
+*[[Energy Alluvium: Test Area]]
+|drops = {{I|Quillbeast Liver}}
+|addendum = }}
+
+==Overview==
+As wildlife creatures with quills grown on them. Quillbeasts are known for their clumsy yet damaging abilities that makes them a decent threat:
+
+*Claws twice in a row, dealing Physical damage.
+*Swings their tail around, dealing Physical damage and knock Operators back. This is followed with a tail slam, dealing Physical damage and knock Operators back at front.
+*Bounce around three times, dealing Physical damage and knock Operators back. This ability can be interrupted by skills.
+*Enters Enraged state and rush forward before ending with a fall, dealing Physical damage and knock Operators back. This ability can be interrupted by skills.
+
+==See Also==
+* [[Imbued Quillbeast]] &ndash; an [[Originium]] infected variant.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 831, 5961, 37721, 148502, 357214, 550298 from 831, 7013, 44378, 148502, 357214, 550298
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Advanced enemies]]

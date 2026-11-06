@@ -1,0 +1,352 @@
+[[File:Depot Node Lvl 1.png|thumb|Freshly activated Depot Node.]] [[File:Depot Node Lvl 2.png|thumb|Level 2]] [[File:Depot Node Lvl 3.png|thumb|Level 3]] [[File:Depot Node Lvl 4.png|thumb|Depot Node at max level.]]
+Depot Nodes are found in areas which will increase the limit of AIC products stored in depot.
+
+When the first Depot Node reached Level 2, '''Pack and Deliver''' will be available, which the player plays a minigame by delivering goods to specific locations to obtain Stock Bills. 
+
+Steps for the minigame:
+#Select the size of Crates, which affect the AIC products needed to fill it up, but also increase the rewards.
+#Select the quality of goods, which add conditions that lower the Integrity, but also increase the rewards.
+#*Durable: x1
+#*Fragile: x1.1
+#*Super Fragile: x1.2
+#Fill in AIC products into the Crates; Using AIC products that are processed reduce the number needed to fill the Crate up. There is a minimum requirement (50%) to the quantity to fill up the crate, and the reward is based on the quantity.
+#*Valley IV: {{Cur|Valley Stock Bill|20}} per 1 unit
+#*Wuling: {{Cur|Wuling Stock Bill|12}} per 1 unit
+#Select the [[Depot Node/Delivery recipient|client]], location and reward. The location can be checked before selection. Clients will pay a certain percentage of the base price randomly (regardless of the actual distance between the Depot Node and the deliver point), and the list is shown based on descending price. The possible multipliers are:
+#*x1.5 (very rare)
+#*x1.1
+#*x1
+#*x0.8
+#30% of the final bid will then be paid as Deposit, to which the goods are now available to be obtained from the corresponding Depot Node.
+#*The first time you deliver to each client that is a person, they send you some items via in-game mail (3 operator gifts, {{Cur|T-Creds|20000}}, and 3 consumables).
+#Obtain the goods from the Depot Node, then deliver it to the target location.
+#Deliver the goods to the client or [[Recycling Station]], which gives the rest of rewards based on Integrity.
+#*The Integrity are lowered if the player conduct the acts below, based on the quality of goods:
+#**Durable: Using Tele-Protocol (20%)
+#**Fragile: Using Tele-Protocol, or taking damage (1% per hit)
+#**Super Fragile: Using Tele-Protocol, taking damage, or jumping (1% per jump action. The player must press the jump button to be penalized. This means airborne animations (e.g. finish using a zipline), falling, and [[Bounce Device]]s do not count. As a special exception, if the player is required to jump to activate a specific Bounce Device, no penalty will be received.)
+#*The payout is based on the integrity %. For transferred jobs, the reward is based on the result by the user carrying out the delivery for you.
+#**90% and above: 84% of the bid price
+#**80% to 89%: 70% of the bid price
+#**50% to 79%: 56% of the bid price
+#**49% and below, or transferred job was not delivered: 35% of the bid price
+
+The player can also transfer the job to other players, which the player can also gain the same reward as the player that completed it. Up to 3 transferred jobs can be accepted daily, and transferred jobs are expired after 3 days. A transferred job that expires awards 5/12 (41.67%) of the job's value, which is 35% of the bid price.
+
+The level of Depot Nodes can be upgraded with Stock Bills, which affects the depot increase, the size of Crates and the quality of goods available for selection.
+
+===List of Upgrades and Locations===
+<tabber>
+Valley IV=
+{| class="wikitable"
+|-
+! colspan= "4" | Originium Science Park
+|-
+! Level
+! Cost
+! Depot Size
+! Other 
+|-
+| 1
+| {{Cur|Valley Stock Bill|4500}}
+| +3000
+| -
+|-
+| 2
+| {{Cur|Valley Stock Bill|40000}}
+| +3000
+|
+*Unlocked Pack and Deliver for this Depot Node.
+|-
+| 3
+| {{Cur|Valley Stock Bill|240000}}
+| +6000
+|
+*Fragile Goods can now be delivered.
+*Goods can now be delivered in Medium-sized Crates.
+|-
+| 4
+| {{Cur|Valley Stock Bill|400000}}
+| +8000
+|
+*Super Fragile Goods can now be delivered.
+*Goods can now be delivered in Large-sized Crates.
+|-
+! colspan= "4" | Origin Lodespring
+|-
+! Level
+! Cost
+! Depot Size
+! Other 
+|-
+| 1
+| {{Cur|Valley Stock Bill|37500}}
+| +4000
+|
+*Unlocked Pack and Deliver for this Depot Node.
+|-
+| 2
+| {{Cur|Valley Stock Bill|192500}}
+| +4000
+|
+*Fragile Goods can now be delivered.
+|-
+| 3
+| {{Cur|Valley Stock Bill|343000}}
+| +6000
+|
+*Super Fragile Goods can now be delivered.
+*Goods can now be delivered in Medium-sized Crates.
+|-
+| 4
+| {{Cur|Valley Stock Bill|545000}}
+| +8000
+|
+*Goods can now be delivered in Large-sized Crates.
+|-
+! colspan= "4" | Power Plateau
+|-
+! Level
+! Cost
+! Depot Size
+! Other 
+|-
+| 1
+| {{Cur|Valley Stock Bill|80000}}
+| +6000
+|
+*Unlocked Pack and Deliver for this Depot Node.
+|-
+| 2
+| {{Cur|Valley Stock Bill|300000}}
+| +6000
+|
+*Fragile Goods can now be delivered.
+|-
+| 3
+| {{Cur|Valley Stock Bill|465000}}
+| +8000
+|
+*Super Fragile Goods can now be delivered.
+*Goods can now be delivered in Medium-sized Crates.
+|-
+| 4
+| {{Cur|Valley Stock Bill|600000}}
+| +10000
+|
+*Goods can now be delivered in Large-sized Crates.
+|-
+|}
+<gallery>
+file:DN_Originium Science Park.png|Originium Science Park
+file:DN Origin Lodespring.png|Origin Lodespring
+file:DN Power Plateau.png|Power Plateau
+</gallery>
+|-|
+Wuling=
+{| class="wikitable"
+|-
+! colspan= "4" | Wuling City
+|-
+! Level
+! Cost
+! Depot Size
+! Other 
+|-
+| 1
+| {{Cur|Wuling Stock Bill|12500}}
+| 10000
+|
+*Unlocked Pack and Deliver for this Depot Node.
+|-
+| 2
+| {{Cur|Wuling Stock Bill|72000}}
+| 40000
+|
+*Fragile Goods can now be delivered.
+*Goods can now be delivered in Medium-sized Crates.
+|-
+| 3
+| {{Cur|Wuling Stock Bill|150000}}
+| 50000
+|
+*Super Fragile Goods can now be delivered.
+|-
+| 4
+| {{Cur|Wuling Stock Bill|900000}}
+| 60000
+|
+*Goods can now be delivered in Large-sized Crates.
+|-
+! colspan= "4" | Test Area
+|-
+! Level
+! Cost
+! Depot Size
+! Other 
+|-
+| 1
+| {{Cur|Wuling Stock Bill|60000}}
+| 4000
+|
+*Unlocked Pack and Deliver for this Depot Node.
+|-
+| 2
+| {{Cur|Wuling Stock Bill|160000}}
+| 8000
+|
+*Raw Materials can now be delivered.
+*Goods can now be delivered in Medium-sized Crates.
+|-
+| 3
+| {{Cur|Wuling Stock Bill|200000}}
+| 14000
+|
+*Factory Goods can now be delivered.
+|-
+| 4
+| {{Cur|Wuling Stock Bill|1200000}}
+| 22000
+|
+*Goods can now be delivered in Large-sized Crates.
+|}
+<gallery>
+file:DN_Wuling City.png|Wuling City
+file:DN Test Area.png|Test Area
+</gallery>
+</tabber>
+
+===List of Crates, Quality and Rewards===
+<tabber>
+Valley IV=
+{| class="wikitable"
+|-
+!
+!
+! colspan= "3" | Rewards (Max Weight)
+|-
+! colspan= "5" | Originium Science Park
+|-
+! Crate
+! Weight (Max)
+! Durable
+! Fragile
+! Super Fragile
+|-
+| S
+| 3000
+| {{Cur|Valley Stock Bill|60000}}
+| {{Cur|Valley Stock Bill|66000}}
+| {{Cur|Valley Stock Bill|72000}}
+|-
+| M
+| 5000
+| {{Cur|Valley Stock Bill|100000}}
+| {{Cur|Valley Stock Bill|110000}}
+| {{Cur|Valley Stock Bill|120000}}
+|-
+| L
+| 8000
+| {{Cur|Valley Stock Bill|160000}}
+| {{Cur|Valley Stock Bill|176000}}
+| {{Cur|Valley Stock Bill|192000}}
+|-
+! colspan= "5" | Origin Lodespring
+|-
+| S
+| 3000
+| {{Cur|Valley Stock Bill|60000}}
+| {{Cur|Valley Stock Bill|66000}}
+| {{Cur|Valley Stock Bill|72000}}
+|-
+| M
+| 6000
+| {{Cur|Valley Stock Bill|120000}}
+| {{Cur|Valley Stock Bill|132000}}
+| {{Cur|Valley Stock Bill|144000}}
+|-
+| L
+| 13000
+| {{Cur|Valley Stock Bill|260000}}
+| {{Cur|Valley Stock Bill|286000}}
+| {{Cur|Valley Stock Bill|312000}}
+|-
+! colspan= "5" | Power Plateau
+|-
+| S
+| 3000
+| {{Cur|Valley Stock Bill|60000}}
+| {{Cur|Valley Stock Bill|66000}}
+| {{Cur|Valley Stock Bill|72000}}
+|-
+| M
+| 7000
+| {{Cur|Valley Stock Bill|140000}}
+| {{Cur|Valley Stock Bill|154000}}
+| {{Cur|Valley Stock Bill|168000}}
+|-
+| L
+| 14000
+| {{Cur|Valley Stock Bill|280000}}
+| {{Cur|Valley Stock Bill|308000}}
+| {{Cur|Valley Stock Bill|336000}}
+|}
+|-|
+Wuling=
+{| class="wikitable"
+|-
+!
+!
+! colspan= "3" | Rewards (Max Weight)
+|-
+! colspan= "5" | Wuling City
+|-
+! Crate
+! Weight (Max)
+! Durable
+! Fragile
+! Super Fragile
+|-
+| S
+| 1500
+| {{Cur|Wuling Stock Bill|18000}}
+| {{Cur|Wuling Stock Bill|19800}}
+| {{Cur|Wuling Stock Bill|21600}}
+|-
+| M
+| 6000
+| {{Cur|Wuling Stock Bill|72000}}
+| {{Cur|Wuling Stock Bill|79200}}
+| {{Cur|Wuling Stock Bill|86400}}
+|-
+| L
+| 9000
+| {{Cur|Wuling Stock Bill|108000}}
+| {{Cur|Wuling Stock Bill|118800}}
+| {{Cur|Wuling Stock Bill|129600}}
+|-
+! colspan= "5" | Test Area
+|-
+| S
+| 3000
+| {{Cur|Wuling Stock Bill|36000}}
+| {{Cur|Wuling Stock Bill|39600}}
+| {{Cur|Wuling Stock Bill|43200}}
+|-
+| M
+| 8000
+| {{Cur|Wuling Stock Bill|96000}}
+| {{Cur|Wuling Stock Bill|105600}}
+| {{Cur|Wuling Stock Bill|115200}}
+|-
+| L
+| 12000
+| {{Cur|Wuling Stock Bill|144000}}
+| {{Cur|Wuling Stock Bill|158400}}
+| {{Cur|Wuling Stock Bill|172800}}
+|}
+</tabber>
+
+== Navigation ==
+{{Features nav}}
+[[Category: Facility (Regional Development)]]

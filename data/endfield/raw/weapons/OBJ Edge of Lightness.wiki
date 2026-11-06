@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = OBJ Edge of Lightness
+|rarity = 5
+|images = 
+OBJ_Edge_of_Lightness icon.png:Icon;
+OBJ_Edge_of_Lightness.png:Full;
+OBJ_Edge_of_Lightness max model.png:Max
+|filename = wpn_sword_0019
+|cnname = O.B.J.轻芒
+|tcname = O.B.J.輕芒
+|jpname = O.B.J.軽刃
+|krname = O.B.J. 엣지 오브 라이트
+|spname = 'OBJ Filo de la ligereza
+|runame = OBJ Клинок света
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''OBJ Edge of Lightness''' is a 5★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard weapon produced by Endfield Industries. Design is provided by the Creative Prototyping Team founded by Senior Arsenal Engineer Opero. The hilt features auxiliary modules that can be taken off.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Flow: Unbridled Edge|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Agility [M]|ATK [M]|Flow: Unbridled Edge}}
+
+==Basic Info==
+{{Quote|...Let me get this straight. Your team lost to Z7 in the combat drill 'cause you didn't graduate from a military school and Lil' Dodge wasn't your instructor?<br>Enough excuses, kid. I trained tons of raw recruits like you and I totally lost count on the number of losers who hamstring themselves by boo-hooing about their sad backstories.<br>Look at your face! Do you think I'm gonna give you a motivational story how a missing degree or diploma isn't that important? HAH! WRONG! I'm your friggin' instructor, not your pathetic shrink! I'm not going to make you feel good about your academic failures!<br>Since we mentioned degrees, then I gotta say — it's actually pretty important.<br>But if you're missing one, there are solutions to go about it.<br><br>I became an instructor after all. Guess how I did it?<br>WRONG AGAIN! I, Sato Kogo, never read a proper book in my life. In fact, I only learned how to write in Victorian thanks to courses offered aboard Dijiang. When I was your age, I was just a bummed out debt collector in Neo Tsukushi!<br>Wha? Don't you know what a debt collector is...? Ugh. Forget it. I'll put it simply. Hired muscle. That was my job.<br>So did that for about three or four years. I was either bruising people or getting bruised myself. As long as someone paid the creds, it didn't really matter to me.<br><br>I was in my twenties and I thought I'd be doing that for the rest of my life... I never expected something big to happen.<br>Oh yes... Stepped on a few toes. The wrong tail, actually. Not some cartel security firm, but an actual big shot oyabun.<br>Ugh. This is exactly why I kept telling you to pay attention to the surroundings when you fight. I learned it the very hard way, so at least take this from me.<br><br>Weather was great that day. I besieged that gambling den with two dozen bros from the organization. There were just around eight people on the other side and I thought it would be a cakewalk.<br>But those dudes fought like beasts in heat. Half of the lads were down in a heartbeat. I was out of ideas but I couldn't just leave my bros behind. So I came up with the clever idea of using the revolving doors...<br>How did I do it? Well, i simply undid the security latch and got it spinning... Anyways, I got two enemies down in an instant. Some of the bros started helping and we sent the rest of them packing.<br>There was one thing I miscalculated. The revolving door was connected to the one upstairs. Now that wouldn't sound like a thing but my boss suddenly got the bright idea of enjoying the spectacle. Suffice to say, his tail got caught — Boss man was also a Lupo and you know what they do when somebody messes with their tail.<br>What happened next? Geesh. Do I have to spell it out? I escaped to the frontiers before they gave me cement shoes! I slogged two years in trucking, four in janitorial work, and three in bounty hunting. My liver was dying on me and luck finally turned when I arrived at Endfield — Some old client wrote me a recommendation. Thank the Big Gas for that.<br><br>Alright. Your turn. Tell me about your plans on beating Z7 next time?}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

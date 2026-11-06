@@ -1,0 +1,61 @@
+{{Enemy infobox
+|name = YSTF Glaiver Blightshade
+|image = YSTF_Glaiver_Blightshade_sprite.png
+|filename = eny_0123_klcap
+|cnname = 蚀影应龙破阵手
+|tcname = 蝕影應龍破陣手
+|jpname = 応龍突撃兵の蝕影
+|krname = 그림자에 물든 응룡 대원 · 돌파
+|spname = Sombra contaminada con guja del EFEY
+|runame = Моротень спецопергруппы «Инлун» с глевией
+|type = Blightshades
+|class = Elite
+|attack = 
+|damage = 
+|base = 
+|upgrade = YSTF Captain Blightshade|sortId = 7
+}}
+'''YSTF Glaiver Blightshade''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A manifestation of residual Æther energy that projects the outward form of a YSTF Glaiver. Such Yinglungs are extremely skilled in leading assaults and taking defended positions. The glaives they wield are designed to cleave through Aggeloi with ease.}}
+
+==Stats==
+{{Enemy data
+|HP = 1246, 8942, 56582, 222753, 535821, 825447
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 320
+|SR = 9
+|SD = 1.5
+|SPG = 50
+|AR = 7
+|Weight = 2
+|wphysical = 0.8
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *The YSTF Glaiver Blightshade can feign defeat before it launches an unexpected attack. Be careful!
+*After dissipating, this enemy can blink next to an operator and attack. Try to dodge.
+|location = *[[Yinglung Pass]]
+*[[North Wuling Exclusion Zone]]
+*[[Energy Alluvium: North Wuling EZ]]
+|drops = {{I|Glaive Fragment}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[Homecoming]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

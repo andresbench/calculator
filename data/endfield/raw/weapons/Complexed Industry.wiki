@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Complexed Industry
+|rarity = 6
+|images = 
+Complexed_Industry icon.png:Icon;
+Complexed_Industry.png:Full;
+Complexed_Industry max model.png:Max
+|filename = wpn_sword_0024
+|cnname = 聚合工业
+|tcname = 聚合工業
+|jpname = 複合工業
+|krname = 응집 공업
+|spname = Industria compleja
+|runame = Комплексная промышленность
+|type = Sword
+|source = Reward: Protocol Pass}}
+'''Complexed Industry''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|An all-new product from the Northmarch Support Hub "Pioneer" series. Furnished with an excellent power component, it can easily cut down thick vegetation to clear a path. The weapon is highly recommended by many explorers.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Detonate: Complexed Advantage|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Triphasic Nanoflake|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Will [L]|Electric DMG [L]|Detonate: Complexed Advantage}}
+
+==Basic Info==
+{{Quote|"Is this your sword?" <br>The resting adventurer looked towards the voice and saw a kid staring curiously at his sword. "Yes. Why don't you give it a swing?" <br>"It looks real weird," the kid made a few awkward swings and handed it back, "So heavy too ... I could barely lift the thing..." <br>"Sharp eyes you have. This ain't your ordinary cutter," the adventurer added mystery to his tone as he placed his ear on the sword itself, "It's a talking sword." <br>"It talks?" <br>"No. Not it. Them. They talk." <br>"Them?" the child giggled, "I don't believe you! You're lying!" <br>"And why would I lie? Listen now, young blood. They're getting louder and louder. 'There are a lot of us!'" <br>"Okay ... what else are they shouting about?" <br>"Patience now. I gotta listen. Mmm. Hmm..." the adventurer closed his eyes tightly as though he was trying to understand what the sword was saying. "They told me that they just left the blast furnace. Their adventure is about to begin." <br>"You're lying again!" the child laughed, "The blast furnace is super hot. How can anyone survive that?" <br>"Very true, young blood. I'm curious myself. Let me go ahead and ask them..." the adventurer closed his eyes once more, "Hmm ... the blade told me that it was once a piece of ferrium ore. Crew mates of the U-Double-U dug it out ... and tossed the ore into a furnace where they roasted it in fire — a fire that burned stronger and brighter than the sun, and made the ore itself glow red!" <br>"Wait ... I think the radiator got something to say," the adventurer shut his gaze, "Oh. The radiator is protesting. 'Burdomuck! Stronger than the sun?! It's not that hot! They had precise temperature controls!'" <br>"Are they arguing?!" <br>"Oh, and it's not over yet," the adventurer stared at the sword as though there were people arguing right in front of him, "The powertrain has something to say. Hmm... Oh yes, it said it's from the TGCC. An RV truck engine is his blood brother." <br>"What's the powertrain saying?" <br>"It's telling the blade and the radiator to stop arguing. Their stupid spat just created a 0.02 millimeter crack between them." <br>The child was enamored by the story. "Are they still talking? Tell me more! Please!" <br>"Shhh... I can barely hear them over you," once again the adventurer lowered his eyes, "Oh. After leaving the furnace, they rode an RV truck and went to a factory. It was filled with many materials, mostly from the U-Double-U." <br>"And then?" <br>"And then ... they met someone in the factory. He took the radiator apart three times, and three times he swore he would make it better. The hilt was almost polished flat, but he wanted it straighter. Finally, he used the latest Hongshan tech, and spent an entire night tuning everything." <br>"Who is he?" <br>"Someone who knows their language," the adventurer smiled as he studied the blade. <br>"None of them liked each other at the beginning. The radiator was too crude, the powertrain was too heavy, and they were slapped together with Hongshan assembly techniques. And how they growled so loudly with every swing." <br>"Like right now! They're arguing with each other again!" the child seemed to understand what this was all about. <br>"That's right. But they must be together. A lone blade, no matter its hardness, is nothing but a piece of ferrium. A lone powertrain, no matter how well made, serves no practical function. A lone assembly technique, no matter how advanced, is just theory on paper. They must form a proper complex — to unite them all into 'one'." <br>The child gazed at the blade and pondered, "So ... will my bread and my clothing ... make them talk?" <br>"Maybe ... why don't you rest your ear next to it and listen?" <br>The child looked at the bread he was holding. His eyes sparkled with hope as the sword silently rested at the edge of his vision. It was no longer just a weapon in his eyes.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

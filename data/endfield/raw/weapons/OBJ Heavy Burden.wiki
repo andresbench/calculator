@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = OBJ Heavy Burden
+|rarity = 5
+|images = 
+OBJ_Heavy_Burden icon.png:Icon;
+OBJ_Heavy_Burden.png:Full;
+OBJ_Heavy_Burden max model.png:Max
+|filename = wpn_claym_0015
+|cnname = O.B.J.重荷
+|tcname = O.B.J.重荷
+|jpname = O.B.J.重責
+|krname = O.B.J. 헤비 버든
+|spname = OBJ Carga Pesada
+|runame = OBJ Тяжелое бремя
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''OBJ Heavy Burden''' is a 5★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard weapon produced by Endfield Industries. Design is provided by the Creative Prototyping Team founded by Senior Arsenal Engineer Opero. The weapon can be furnished with various modules according to the needs of actual battle.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Efficacy: Tenacious Will|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Tachyon Screening Lattice|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [M]|HP [M]|Efficacy: Tenacious Will}}
+
+==Basic Info==
+{{Quote|"...We're leaving. From what Director Qin said, it's just the usual. R&R aboard Dijiang while we wait for future assignments.<br>"Everyone wanted to take this opportunity and send you back to Kjersch... But Kuhn told us something you said to him, how you preferred a warmer place away from the foot of a snowy mountain.<br>"So, we submitted an application to the UWST — They're more than happy to do something for you. They left you a good spot at this public cemetery... According to the Workers United, you're a true hero of Valley IV.<br>"Don't worry. We've sorted out the movie ticket stubs too. We're going to mail it to that Baker friend as per your instructions.<br>"He really cares about you. Kept asking us if 'Theatre12' started working at a different place. That made me realize that your 'backup' plan is being a script supervisor at New Wrankwood... Yeah... That is indeed the type of work you'd like...<br>"Just look at you. Got it all figured out. Ten movies lined up at the booth, free crispy drumsticks at the canteen for the peeps, flashy new weapon at the Arsenal Engineer...<br>"But why did you just ... you know ... charge straight at them without thinking? Sheesh...<br>"All of the refugees you saved are doing well. We also delivered those supplies for you...<br>"That mighty explosion you pulled off blew that cluster of buggerloids to bits... The UW crew mates took care of the rest.<br>"I just wanna say that ... your sacrifice really paid off. Rest well, friend. The rest of us will visit every time we pass this place...<br>"Oh, and we left the greatsword for you... I ran the paperwork and moved it from 'emergency requisition' to a proper asset under your name...<br>"It's the deal that you always wanted, right? Never knew how you came upon it from that pile of supplies... Maybe that's what people call Fate.<br>"And it really stuck around in that explosion... Might as well let it stick around some more with you.<br>"Gotta say you're made for each other. Tough as nails ... and you took it all.<br>"I'll let you keep each other company. Keeps the loneliness out, you see."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

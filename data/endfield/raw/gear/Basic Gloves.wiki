@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Basic Gloves
+|image = Basic_Gloves.png
+|filename = item_equip_t0_parts_tundra01_hand_02
+|cnname = 简易护手
+|tcname = 簡易護手
+|jpname = 簡易プロテクター
+|krname = 간편 보호 장갑
+|spname = Guantes básicos
+|runame = Базовые перчатки
+|rarity = 1
+|artifice = no
+|type = Gloves
+|level = 10
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Basic Gloves''' is a {{gear|1|Gloves}}gear item.
+
+{{Item description|Provisionally made and failed the final product verification and validation (V&V) process of Endfield Industries. This equipment offers only limited defense.|Basic armor with simple structures. 
+Gives people a peace of mind that far exceeds its actual defensive capabilities.}}
+
+==Stats==
+{{Gear data
+|defense = +6
+|pstat = Intellect
+|pvalue = +11
+|sstat = Will
+|svalue = +7
+|tstat = HP
+|tvalue = +77.2
+|setname = 
+|seteffect = 
+|recipe = {{I|Origocrust|10}} {{I|Wood|2}}
+}}
+
+
+
+{{Gears|state=collapsed}}

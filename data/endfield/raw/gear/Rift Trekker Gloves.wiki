@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Rift Trekker Gloves
+|image = Rift_Trekker_Gloves.png
+|filename = item_equip_t4_parts_wuling02_hand_01
+|cnname = 涉渊护手
+|tcname = 涉淵護手
+|jpname = 渡淵プロテクター
+|krname = 절망 보호 장갑
+|spname = Guantes de Trotagrietas
+|runame = Перчатки «Путник разлома»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Talosite Exchange
+}}
+'''Rift Trekker Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|The Bureau of Swordmancers designed this special set of equipment for combatants who frequently carry out missions in high threat areas. 
+"I hear the thunder, and any fear I have is purged away."}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Intellect
+|pvalue = +86, +94, +103, +111
+|sstat = Ultimate Gain Efficiency
+|svalue = +21.4%, +23.6%, +25.7%, +27.9%
+|tstat = 
+|tvalue = 
+|setname = 
+|seteffect = 
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+
+
+{{Gears|state=collapsed}}

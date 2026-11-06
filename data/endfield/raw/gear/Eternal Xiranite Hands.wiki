@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Eternal Xiranite Hands
+|image = Eternal_Xiranite_Hands.png
+|filename = item_equip_t4_suit_usp02_hand_04
+|cnname = 长息手套
+|tcname = 長息手套
+|jpname = 流転グローブ
+|krname = 식양의 숨결 장갑
+|spname = Manos de Xiranita eterna
+|runame = Краги «Вечный ксиранит»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Eternal Xiranite Hands''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|Legacy of a "mad" Tianshi. 
+Wear them, put them on... Let the power course through your skin, let energy permeate your flesh and blood.}}
+
+==Stats==
+{{Gear data
+|defense = +42
+|pstat = Will
+|pvalue = +65, +71, +78, +84
+|sstat = Agility
+|svalue = +43, +47, +51, +55
+|tstat = Ultimate Gain Efficiency
+|tvalue = +20.5%, +22.6%, +24.6%, +26.7%
+|setname = Eternal Xiranite
+|seteffect = 3-piece set effect: Wearer's HP {{Color|+1000|1d}}.
+After the wearer applies {{G|Amp|Amp}}, {{G|Protect|Protection}}, {{G|Susceptible|Susceptibility}}, or {{G|Weaken|Weakness}}, other teammates gain DMG Dealt {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|360}} {{I|Pyrrolite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Eternal Xiranite}}
+{{Gears|state=collapsed}}

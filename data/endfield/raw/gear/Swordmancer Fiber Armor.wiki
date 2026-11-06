@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Swordmancer Fiber Armor
+|image = Swordmancer_Fiber_Armor.png
+|filename = item_equip_t4_suit_phy01_body_04
+|cnname = 点剑纤维护甲
+|tcname = 點劍纖維護甲
+|jpname = 宏山点剣繊維防具
+|krname = 검술사 섬유 방어구
+|spname = Armadura de fibra de Espadachín
+|runame = Волоконная броня «Мастер меча»
+|rarity = 5
+|artifice = yes
+|type = Armor
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Swordmancer Fiber Armor''' is a {{gear|5|Armor}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC. This equipment can improve the wearer's combat capabilities.|One of the products marketed by the Bureau of Swordmancers in its early days.
+The first page of this weapon's blueprints is embellished with these words: "The brave march north."}}
+
+==Stats==
+{{Gear data
+|defense = +56
+|pstat = Strength
+|pvalue = +87, +95, +104, +113
+|sstat = Will
+|svalue = +58, +63, +69, +75
+|tstat = Physical DMG Bonus
+|tvalue = +11.5%, +12.7%, +13.8%, +14.9%
+|setname = Swordmancer
+|seteffect = 3-piece set effect: Wearer's Stagger Efficiency Bonus {{Color|+20%|1d}}.
+After the wearer applies a {{G|Physical Status|Physical Status}}, the wearer also performs 1 hit that deals 250% ATK of Physical DMG and [{{Color|10|2}} Stagger]. Effect trigger cooldown: 15s.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Swordmancer}}
+{{Gears|state=collapsed}}

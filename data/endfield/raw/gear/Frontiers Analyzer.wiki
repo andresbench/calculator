@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = Frontiers Analyzer
+|image = Frontiers_Analyzer.png
+|filename = item_equip_t4_suit_atb01_edc_03
+|cnname = 拓荒分析仪
+|tcname = 拓荒分析儀
+|jpname = パイオニア分析装置
+|krname = 개척자 분석 장치
+|spname = Analizador Fronteras
+|runame = Анализатор «Колонист»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Frontiers Analyzer''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Northmarch Support Hub and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A threat level analyzer from the Frontiersmate Support series. The analyzer uses visual recognition technology to give users a basic threat analysis of unknown creatures.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Strength
+|pvalue = +41, +45, +49, +53
+|sstat = Ultimate DMG Bonus
+|svalue = +51.7%, +56.9%, +62.1%, +67.3%
+|tstat = 
+|tvalue = 
+|setname = Frontiers
+|seteffect = 3-piece set effect: Wearer's Combo Skill Cooldown Reduction {{Color|+15%|1d}}.
+After the wearer's skill recovers SP, the team gains DMG {{Color|+16%|1d}} for 15s. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|16000}} {{I|Cuprium Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Frontiers}}
+{{Gears|state=collapsed}}

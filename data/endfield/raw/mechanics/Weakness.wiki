@@ -1,0 +1,57 @@
+{{Status infobox
+|Weakness
+|Weakened targets temporarily deal reduced DMG. The number represents the degree of reduction. Effects of the same type can stack non-linearly.
+|image = [[File: Weaken icon.png]]
+|type = Debuff
+|source = Operator
+}}
+
+{{Icon|Weaken icon|text=false|nolink=true}} [[Weakness]], formerly known as '''Weaken''', is a type of debuff inflicted to enemies in ''[[Arknights: Endfield]]''.
+
+When enemies are inflicted with '''Weakness''', they temporarily deal reduced damage for a set duration. The number represents the degree of reduction.
+
+Multiple sources of '''Weakness''' stack <u>multiplicatively</u> to form the '''Weakness Multiplier''' for that damage instance. The resulting Weakness Multiplier then stacks <u>multiplicatively</u> with other damage multipliers to get the final value. For more information on calculating damage, see [[Damage calculation]].
+{{Clr}}
+== Sources ==
+{{Patch-dependent}}
+{{Operator table
+| header = Source
+| content =
+{{Operator table row
+| name = Camille
+| content = 
+{{Operator table row/Combat skill
+| icon = Skill-Camille
+| name = Blazing Exorcism
+| type = Skill
+| content = 
+'''SKILL DESCRIPTION:''' Camille summons {{Color|Firefang Vesperwings|7}} that fly towards the enemy to deal {{Color|Heat DMG|3}} and apply {{G|Heat Infliction|Heat Infliction}} on enemies in a small area of effect. The {{Color|Firefang Vesperwings|7}} then temporarily {{Color|hover|7}} around the target and apply {{G|Weaken|Weakness}} and {{G|Heat Susceptibility|Heat Susceptibility}} to the said target for the duration of the hovering. When the target is defeated, the {{Color|Firefang Vesperwings|7}} fly to another nearby enemy, deal {{Color|Heat DMG|3}}, and apply {{G|Heat Infliction|Heat Infliction}}, {{G|Weaken|Weakness}}, and {{G|Heat Susceptibility|Heat Susceptibility}} to the new target.<br />Hitting an enemy with {{Color|hovering|7}} {{Color|Firefang Vesperwings|7}} with Camille's combo skill sets off an explosion after a short delay. This explosion deals additional {{Color|Heat DMG|3}}.
+}}
+{{Operator table row/Combat skill
+| icon = Potential 1
+| name = Flame-Annointed Lance
+| content = 
+Battle skill {{Color|Blazing Exorcism|7}} improved: The skill applies {{G|Weaken|Weakness}} {{Color|+5%|1d}} and {{G|Heat Susceptibility|Heat Susceptibility}} {{Color|+5%|1d}}. {{Color|Firefang Vesperwings|7}} {{Color| hover|7}} duration {{Color|+15|1d}}s.
+}}
+}}
+{{Operator table row
+| name = Catcher
+| content = 
+{{Operator table row/Combat skill
+| icon = Ult-Catcher
+| name = Textbook Assault
+| type = Ultimate
+| content = 
+'''SKILL DESCRIPTION:''' Swings the greatsword to perform 2 consecutive slashes to deal {{Color|Physical DMG|1}} and apply {{G|Weaken|Weakness}}, followed by a powerful downward slam that deals massive {{Color|Physical DMG|1}} and applies {{G|Knock Down|Knock Down}} to all enemies within the area of effect.
+}}
+}}
+}}
+== Changelog ==
+{{Changelog|
+* '''[[Sketches of Lost Heirlooms]]'''
+** {{G|Weaken}} renamed to {{G|Weaken|Weakness}}.
+* '''Beta Test II'''
+** {{G|Weaken}} keyword added with [[Catcher]].
+}}
+{{Combat mechanics nav}}
+[[Category: Combat Mechanics]]

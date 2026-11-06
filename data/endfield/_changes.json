@@ -1,0 +1,1658 @@
+[
+ {
+  "synced_at": "2026-09-04T03:27:45Z",
+  "pages": {
+   "Module:Recipe": {
+    "from_revid": 57939,
+    "to_revid": 62344,
+    "from_timestamp": "2026-07-27T16:31:26Z",
+    "to_timestamp": "2026-09-03T17:21:27Z"
+   },
+   "Module:Item/AIC Products": {
+    "from_revid": 56478,
+    "to_revid": 62359,
+    "from_timestamp": "2026-07-19T08:28:53Z",
+    "to_timestamp": "2026-09-03T17:52:33Z"
+   },
+   "Arts Reaction": {
+    "from_revid": 54622,
+    "to_revid": 62346,
+    "from_timestamp": "2026-07-02T02:27:17Z",
+    "to_timestamp": "2026-09-03T17:33:21Z"
+   },
+   "Skill Points": {
+    "from_revid": 51707,
+    "to_revid": 62380,
+    "from_timestamp": "2026-06-06T15:56:59Z",
+    "to_timestamp": "2026-09-04T00:04:53Z"
+   },
+   "Arts Burst": {
+    "from_revid": 54630,
+    "to_revid": 62379,
+    "from_timestamp": "2026-07-02T03:23:23Z",
+    "to_timestamp": "2026-09-03T18:13:28Z"
+   }
+  }
+ },
+ {
+  "synced_at": "2026-09-04T03:28:33Z",
+  "pages": {
+   "Typhoeus": {
+    "from_revid": 62068,
+    "to_revid": 62297,
+    "from_timestamp": "2026-09-02T08:31:31Z",
+    "to_timestamp": "2026-09-03T12:07:49Z"
+   }
+  }
+ },
+ {
+  "synced_at": "2026-09-24T19:51:51Z",
+  "pages": {
+   "Chen Qianyu": {
+    "from_revid": 55945,
+    "to_revid": 62975,
+    "from_timestamp": "2026-07-16T02:56:37Z",
+    "to_timestamp": "2026-09-09T09:59:13Z"
+   },
+   "Xaihi": {
+    "from_revid": 61904,
+    "to_revid": 63012,
+    "from_timestamp": "2026-09-02T02:13:35Z",
+    "to_timestamp": "2026-09-09T15:06:34Z"
+   },
+   "Endministrator": {
+    "from_revid": 61496,
+    "to_revid": 62731,
+    "from_timestamp": "2026-08-31T11:51:38Z",
+    "to_timestamp": "2026-09-06T23:56:25Z"
+   },
+   "Mi Fu": {
+    "from_revid": 55969,
+    "to_revid": 62738,
+    "from_timestamp": "2026-07-16T03:00:37Z",
+    "to_timestamp": "2026-09-07T00:29:00Z"
+   },
+   "Zhuang Fangyi": {
+    "from_revid": 55968,
+    "to_revid": 63272,
+    "from_timestamp": "2026-07-16T03:00:27Z",
+    "to_timestamp": "2026-09-16T06:55:01Z"
+   },
+   "Camille": {
+    "from_revid": 61929,
+    "to_revid": 62736,
+    "from_timestamp": "2026-09-02T02:17:35Z",
+    "to_timestamp": "2026-09-07T00:19:06Z"
+   },
+   "Liino": {
+    "from_revid": 61933,
+    "to_revid": 63217,
+    "from_timestamp": "2026-09-02T02:18:15Z",
+    "to_timestamp": "2026-09-13T11:29:24Z"
+   },
+   "Typhoeus": {
+    "from_revid": 62297,
+    "to_revid": 63442,
+    "from_timestamp": "2026-09-03T12:07:49Z",
+    "to_timestamp": "2026-09-24T04:33:27Z"
+   },
+   "Purrchena": {
+    "from_revid": 60778,
+    "to_revid": 63470,
+    "from_timestamp": "2026-08-21T22:55:13Z",
+    "to_timestamp": "2026-09-24T06:52:21Z"
+   },
+   "Tarr 11": {
+    "from_revid": 61877,
+    "to_revid": 63495,
+    "from_timestamp": "2026-09-02T02:09:13Z",
+    "to_timestamp": "2026-09-24T10:30:29Z"
+   },
+   "Jiminy 12": {
+    "from_revid": 61828,
+    "to_revid": 63491,
+    "from_timestamp": "2026-09-02T02:01:53Z",
+    "to_timestamp": "2026-09-24T10:29:12Z"
+   },
+   "Opero 77": {
+    "from_revid": 61857,
+    "to_revid": 63493,
+    "from_timestamp": "2026-09-02T02:05:53Z",
+    "to_timestamp": "2026-09-24T10:29:57Z"
+   },
+   "Darhoff 7": {
+    "from_revid": 61815,
+    "to_revid": 63494,
+    "from_timestamp": "2026-09-02T02:00:23Z",
+    "to_timestamp": "2026-09-24T10:30:12Z"
+   },
+   "Peco 5": {
+    "from_revid": 61865,
+    "to_revid": 63492,
+    "from_timestamp": "2026-09-02T02:07:13Z",
+    "to_timestamp": "2026-09-24T10:29:38Z"
+   },
+   "Aburrey's Legacy": {
+    "from_revid": 44603,
+    "to_revid": 63148,
+    "from_timestamp": "2026-04-13T01:54:10Z",
+    "to_timestamp": "2026-09-11T16:02:46Z"
+   },
+   "Catastrophe": {
+    "from_revid": 44608,
+    "to_revid": 63149,
+    "from_timestamp": "2026-04-13T04:14:18Z",
+    "to_timestamp": "2026-09-11T16:04:57Z"
+   },
+   "Spotted Rakerbeast": {
+    "from_revid": 61659,
+    "to_revid": 63132,
+    "from_timestamp": "2026-09-02T01:34:56Z",
+    "to_timestamp": "2026-09-11T13:48:42Z"
+   },
+   "Gloomwald's Rage": {
+    "from_revid": 61698,
+    "to_revid": 62641,
+    "from_timestamp": "2026-09-02T01:41:16Z",
+    "to_timestamp": "2026-09-05T13:09:18Z"
+   },
+   "Woodcraft Wanderer": {
+    "from_revid": 61699,
+    "to_revid": 62640,
+    "from_timestamp": "2026-09-02T01:41:26Z",
+    "to_timestamp": "2026-09-05T13:05:21Z"
+   },
+   "Woodcraft Slug": {
+    "from_revid": 61700,
+    "to_revid": 62639,
+    "from_timestamp": "2026-09-02T01:41:36Z",
+    "to_timestamp": "2026-09-05T12:53:06Z"
+   },
+   "Module:Item": {
+    "from_revid": 62237,
+    "to_revid": 62467,
+    "from_timestamp": "2026-09-02T20:32:23Z",
+    "to_timestamp": "2026-09-04T17:02:16Z"
+   },
+   "Module:Recipe/Crafting": {
+    "from_revid": 58182,
+    "to_revid": 62969,
+    "from_timestamp": "2026-07-29T10:20:56Z",
+    "to_timestamp": "2026-09-09T08:43:39Z"
+   },
+   "Module:Weapon skill/data": {
+    "from_revid": 61897,
+    "to_revid": 63441,
+    "from_timestamp": "2026-09-02T02:12:34Z",
+    "to_timestamp": "2026-09-24T04:33:16Z"
+   },
+   "Module:Item/Employment Contracts": {
+    "from_revid": 54137,
+    "to_revid": 63475,
+    "from_timestamp": "2026-06-26T07:01:28Z",
+    "to_timestamp": "2026-09-24T08:11:19Z"
+   },
+   "Module:Item/Operator Tokens": {
+    "from_revid": 59945,
+    "to_revid": 63476,
+    "from_timestamp": "2026-08-09T12:12:49Z",
+    "to_timestamp": "2026-09-24T08:13:39Z"
+   },
+   "Module:Item/Gear": {
+    "from_revid": 57056,
+    "to_revid": 62466,
+    "from_timestamp": "2026-07-22T16:01:41Z",
+    "to_timestamp": "2026-09-04T16:54:27Z"
+   },
+   "Module:Item/Gatherables": {
+    "from_revid": 56472,
+    "to_revid": 62916,
+    "from_timestamp": "2026-07-19T07:25:32Z",
+    "to_timestamp": "2026-09-08T08:43:21Z"
+   },
+   "Module:Item/Quest Items": {
+    "from_revid": 48544,
+    "to_revid": 63284,
+    "from_timestamp": "2026-05-14T21:50:57Z",
+    "to_timestamp": "2026-09-16T08:35:31Z"
+   },
+   "Module:Item/Gifts": {
+    "from_revid": 56473,
+    "to_revid": 62722,
+    "from_timestamp": "2026-07-19T07:33:01Z",
+    "to_timestamp": "2026-09-06T23:01:10Z"
+   },
+   "Module:Item/Containers": {
+    "from_revid": 56329,
+    "to_revid": 62749,
+    "from_timestamp": "2026-07-18T02:22:28Z",
+    "to_timestamp": "2026-09-07T07:20:05Z"
+   },
+   "Module:Item/Consumables": {
+    "from_revid": 57004,
+    "to_revid": 62911,
+    "from_timestamp": "2026-07-21T15:59:25Z",
+    "to_timestamp": "2026-09-08T07:29:30Z"
+   },
+   "Module:Item/Formulas": {
+    "from_revid": 57103,
+    "to_revid": 63083,
+    "from_timestamp": "2026-07-22T19:34:44Z",
+    "to_timestamp": "2026-09-10T19:42:26Z"
+   },
+   "Module:Item/Photo": {
+    "from_revid": 59971,
+    "to_revid": 62400,
+    "from_timestamp": "2026-08-09T17:21:21Z",
+    "to_timestamp": "2026-09-04T09:02:03Z"
+   },
+   "Module:Item/Profile": {
+    "from_revid": 57081,
+    "to_revid": 62402,
+    "from_timestamp": "2026-07-22T17:36:10Z",
+    "to_timestamp": "2026-09-04T10:00:27Z"
+   },
+   "Module:Item/Sanity": {
+    "from_revid": 56499,
+    "to_revid": 62748,
+    "from_timestamp": "2026-07-19T09:18:18Z",
+    "to_timestamp": "2026-09-07T06:47:01Z"
+   },
+   "Module:Item/Headhunting": {
+    "from_revid": 59973,
+    "to_revid": 62747,
+    "from_timestamp": "2026-08-09T17:45:44Z",
+    "to_timestamp": "2026-09-07T06:35:29Z"
+   },
+   "Module:Item/Personal Devices": {
+    "from_revid": 62141,
+    "to_revid": 62901,
+    "from_timestamp": "2026-09-02T14:33:50Z",
+    "to_timestamp": "2026-09-08T06:54:18Z"
+   },
+   "Module:HelperFuncs": {
+    "from_revid": 59488,
+    "to_revid": 63392,
+    "from_timestamp": "2026-08-05T18:01:41Z",
+    "to_timestamp": "2026-09-22T15:36:29Z"
+   },
+   "Operator": {
+    "from_revid": 50673,
+    "to_revid": 63002,
+    "from_timestamp": "2026-06-01T19:05:55Z",
+    "to_timestamp": "2026-09-09T14:13:46Z"
+   },
+   "Weapon": {
+    "from_revid": 60985,
+    "to_revid": 63234,
+    "from_timestamp": "2026-08-25T09:11:03Z",
+    "to_timestamp": "2026-09-14T14:04:51Z"
+   },
+   "Electrification": {
+    "from_revid": 60163,
+    "to_revid": 63478,
+    "from_timestamp": "2026-08-11T20:16:04Z",
+    "to_timestamp": "2026-09-24T08:46:42Z"
+   },
+   "Ultimate Energy": {
+    "from_revid": 51161,
+    "to_revid": 63233,
+    "from_timestamp": "2026-06-03T20:10:24Z",
+    "to_timestamp": "2026-09-14T08:51:52Z"
+   }
+  }
+ },
+ {
+  "synced_at": "2026-10-15T22:19:06Z",
+  "pages": {
+   "Gilberta": {
+    "from_revid": 61908,
+    "to_revid": 64976,
+    "from_timestamp": "2026-09-02T02:14:15Z",
+    "to_timestamp": "2026-10-15T01:57:55Z"
+   },
+   "Chen Qianyu": {
+    "from_revid": 62975,
+    "to_revid": 64969,
+    "from_timestamp": "2026-09-09T09:59:13Z",
+    "to_timestamp": "2026-10-15T01:56:45Z"
+   },
+   "Avywenna": {
+    "from_revid": 55950,
+    "to_revid": 64975,
+    "from_timestamp": "2026-07-16T02:57:27Z",
+    "to_timestamp": "2026-10-15T01:57:45Z"
+   },
+   "Ember": {
+    "from_revid": 55948,
+    "to_revid": 64972,
+    "from_timestamp": "2026-07-16T02:57:07Z",
+    "to_timestamp": "2026-10-15T01:57:15Z"
+   },
+   "Xaihi": {
+    "from_revid": 63012,
+    "to_revid": 64973,
+    "from_timestamp": "2026-09-09T15:06:34Z",
+    "to_timestamp": "2026-10-15T01:57:25Z"
+   },
+   "Wulfgard": {
+    "from_revid": 55946,
+    "to_revid": 64970,
+    "from_timestamp": "2026-07-16T02:56:47Z",
+    "to_timestamp": "2026-10-15T01:56:55Z"
+   },
+   "Perlica": {
+    "from_revid": 55944,
+    "to_revid": 64968,
+    "from_timestamp": "2026-07-16T02:56:27Z",
+    "to_timestamp": "2026-10-15T01:56:35Z"
+   },
+   "Endministrator": {
+    "from_revid": 62731,
+    "to_revid": 64967,
+    "from_timestamp": "2026-09-06T23:56:25Z",
+    "to_timestamp": "2026-10-15T01:56:25Z"
+   },
+   "Lifeng": {
+    "from_revid": 59871,
+    "to_revid": 64978,
+    "from_timestamp": "2026-08-09T04:28:54Z",
+    "to_timestamp": "2026-10-15T01:58:15Z"
+   },
+   "Laevatain": {
+    "from_revid": 55954,
+    "to_revid": 64979,
+    "from_timestamp": "2026-07-16T02:58:07Z",
+    "to_timestamp": "2026-10-15T01:58:25Z"
+   },
+   "Yvonne": {
+    "from_revid": 55955,
+    "to_revid": 64980,
+    "from_timestamp": "2026-07-16T02:58:17Z",
+    "to_timestamp": "2026-10-15T01:58:35Z"
+   },
+   "Arclight": {
+    "from_revid": 55947,
+    "to_revid": 64971,
+    "from_timestamp": "2026-07-16T02:56:57Z",
+    "to_timestamp": "2026-10-15T01:57:05Z"
+   },
+   "Da Pan": {
+    "from_revid": 55956,
+    "to_revid": 64981,
+    "from_timestamp": "2026-07-16T02:58:27Z",
+    "to_timestamp": "2026-10-15T01:58:45Z"
+   },
+   "Snowshine": {
+    "from_revid": 55952,
+    "to_revid": 64977,
+    "from_timestamp": "2026-07-16T02:57:47Z",
+    "to_timestamp": "2026-10-15T01:58:05Z"
+   },
+   "Ardelia": {
+    "from_revid": 55963,
+    "to_revid": 64988,
+    "from_timestamp": "2026-07-16T02:59:37Z",
+    "to_timestamp": "2026-10-15T01:59:55Z"
+   },
+   "Last Rite": {
+    "from_revid": 61923,
+    "to_revid": 64989,
+    "from_timestamp": "2026-09-02T02:16:35Z",
+    "to_timestamp": "2026-10-15T02:00:05Z"
+   },
+   "Pogranichnik": {
+    "from_revid": 55967,
+    "to_revid": 64992,
+    "from_timestamp": "2026-07-16T03:00:17Z",
+    "to_timestamp": "2026-10-15T02:00:35Z"
+   },
+   "Alesh": {
+    "from_revid": 61921,
+    "to_revid": 64987,
+    "from_timestamp": "2026-09-02T02:16:15Z",
+    "to_timestamp": "2026-10-15T01:59:45Z"
+   },
+   "Akekuri": {
+    "from_revid": 55957,
+    "to_revid": 64982,
+    "from_timestamp": "2026-07-16T02:58:37Z",
+    "to_timestamp": "2026-10-15T01:58:55Z"
+   },
+   "Estella": {
+    "from_revid": 55959,
+    "to_revid": 64984,
+    "from_timestamp": "2026-07-16T02:58:57Z",
+    "to_timestamp": "2026-10-15T01:59:15Z"
+   },
+   "Catcher": {
+    "from_revid": 61915,
+    "to_revid": 64983,
+    "from_timestamp": "2026-09-02T02:15:15Z",
+    "to_timestamp": "2026-10-15T01:59:05Z"
+   },
+   "Antal": {
+    "from_revid": 55961,
+    "to_revid": 64986,
+    "from_timestamp": "2026-07-16T02:59:17Z",
+    "to_timestamp": "2026-10-15T01:59:35Z"
+   },
+   "Fluorite": {
+    "from_revid": 61918,
+    "to_revid": 64985,
+    "from_timestamp": "2026-09-02T02:15:45Z",
+    "to_timestamp": "2026-10-15T01:59:25Z"
+   },
+   "Tangtang": {
+    "from_revid": 55965,
+    "to_revid": 64990,
+    "from_timestamp": "2026-07-16T02:59:57Z",
+    "to_timestamp": "2026-10-15T02:00:15Z"
+   },
+   "Rossi": {
+    "from_revid": 61924,
+    "to_revid": 64991,
+    "from_timestamp": "2026-09-02T02:16:45Z",
+    "to_timestamp": "2026-10-15T02:00:25Z"
+   },
+   "Mi Fu": {
+    "from_revid": 62738,
+    "to_revid": 64994,
+    "from_timestamp": "2026-09-07T00:29:00Z",
+    "to_timestamp": "2026-10-15T02:00:55Z"
+   },
+   "Zhuang Fangyi": {
+    "from_revid": 63272,
+    "to_revid": 64993,
+    "from_timestamp": "2026-09-16T06:55:01Z",
+    "to_timestamp": "2026-10-15T02:00:45Z"
+   },
+   "Arcane": {
+    "from_revid": 61928,
+    "to_revid": 64995,
+    "from_timestamp": "2026-09-02T02:17:25Z",
+    "to_timestamp": "2026-10-15T02:01:05Z"
+   },
+   "Camille": {
+    "from_revid": 62736,
+    "to_revid": 64996,
+    "from_timestamp": "2026-09-07T00:19:06Z",
+    "to_timestamp": "2026-10-15T02:01:15Z"
+   },
+   "Liino": {
+    "from_revid": 63217,
+    "to_revid": 64998,
+    "from_timestamp": "2026-09-13T11:29:24Z",
+    "to_timestamp": "2026-10-15T02:01:35Z"
+   },
+   "Typhoeus": {
+    "from_revid": 63442,
+    "to_revid": 64997,
+    "from_timestamp": "2026-09-24T04:33:27Z",
+    "to_timestamp": "2026-10-15T02:01:25Z"
+   },
+   "Purrchena": {
+    "from_revid": 63470,
+    "to_revid": 65002,
+    "from_timestamp": "2026-09-24T06:52:21Z",
+    "to_timestamp": "2026-10-15T02:02:15Z"
+   },
+   "Tarr 11": {
+    "from_revid": 63495,
+    "to_revid": 65352,
+    "from_timestamp": "2026-09-24T10:30:29Z",
+    "to_timestamp": "2026-10-15T21:52:09Z"
+   },
+   "Jiminy 12": {
+    "from_revid": 63491,
+    "to_revid": 65348,
+    "from_timestamp": "2026-09-24T10:29:12Z",
+    "to_timestamp": "2026-10-15T21:51:42Z"
+   },
+   "Opero 77": {
+    "from_revid": 63493,
+    "to_revid": 65350,
+    "from_timestamp": "2026-09-24T10:29:57Z",
+    "to_timestamp": "2026-10-15T21:52:02Z"
+   },
+   "Darhoff 7": {
+    "from_revid": 63494,
+    "to_revid": 65351,
+    "from_timestamp": "2026-09-24T10:30:12Z",
+    "to_timestamp": "2026-10-15T21:52:06Z"
+   },
+   "Peco 5": {
+    "from_revid": 63492,
+    "to_revid": 65349,
+    "from_timestamp": "2026-09-24T10:29:38Z",
+    "to_timestamp": "2026-10-15T21:51:58Z"
+   },
+   "Farsight": {
+    "from_revid": 61896,
+    "to_revid": 65353,
+    "from_timestamp": "2026-09-02T02:12:23Z",
+    "to_timestamp": "2026-10-15T22:02:40Z"
+   },
+   "Dessert Moment": {
+    "from_revid": 63440,
+    "to_revid": 65354,
+    "from_timestamp": "2026-09-24T04:33:03Z",
+    "to_timestamp": "2026-10-15T22:03:12Z"
+   },
+   "Frontiers": {
+    "from_revid": 50956,
+    "to_revid": 64572,
+    "from_timestamp": "2026-06-02T23:49:13Z",
+    "to_timestamp": "2026-10-10T15:54:09Z"
+   },
+   "Eternal Xiranite Armor": {
+    "from_revid": 61768,
+    "to_revid": 64934,
+    "from_timestamp": "2026-09-02T01:53:30Z",
+    "to_timestamp": "2026-10-15T01:50:57Z"
+   },
+   "Prism": {
+    "from_revid": 61664,
+    "to_revid": 64259,
+    "from_timestamp": "2026-09-02T01:35:46Z",
+    "to_timestamp": "2026-10-05T17:24:28Z"
+   },
+   "Rockhowler": {
+    "from_revid": 61685,
+    "to_revid": 64909,
+    "from_timestamp": "2026-09-02T01:39:16Z",
+    "to_timestamp": "2026-10-15T01:46:45Z"
+   },
+   "Tuskbeast Blightshade": {
+    "from_revid": 61688,
+    "to_revid": 64910,
+    "from_timestamp": "2026-09-02T01:39:46Z",
+    "to_timestamp": "2026-10-15T01:46:54Z"
+   },
+   "Rakerbeast Blightshade": {
+    "from_revid": 61690,
+    "to_revid": 64911,
+    "from_timestamp": "2026-09-02T01:40:06Z",
+    "to_timestamp": "2026-10-15T01:47:05Z"
+   },
+   "YSTF Vanguard Blightshade": {
+    "from_revid": 61692,
+    "to_revid": 64912,
+    "from_timestamp": "2026-09-02T01:40:26Z",
+    "to_timestamp": "2026-10-15T01:47:15Z"
+   },
+   "YSTF Glaiver Blightshade": {
+    "from_revid": 61694,
+    "to_revid": 64913,
+    "from_timestamp": "2026-09-02T01:40:46Z",
+    "to_timestamp": "2026-10-15T01:47:24Z"
+   },
+   "YSTF Captain Blightshade": {
+    "from_revid": 61695,
+    "to_revid": 64914,
+    "from_timestamp": "2026-09-02T01:40:56Z",
+    "to_timestamp": "2026-10-15T01:47:34Z"
+   },
+   "Woodcraft Wanderer": {
+    "from_revid": 62640,
+    "to_revid": 65343,
+    "from_timestamp": "2026-09-05T13:05:21Z",
+    "to_timestamp": "2026-10-15T20:45:52Z"
+   },
+   "Module:ArgsUtil": {
+    "from_revid": 58232,
+    "to_revid": 64748,
+    "from_timestamp": "2026-07-29T13:43:51Z",
+    "to_timestamp": "2026-10-13T08:24:55Z"
+   },
+   "Module:Glossary": {
+    "from_revid": 57136,
+    "to_revid": 64643,
+    "from_timestamp": "2026-07-23T03:25:58Z",
+    "to_timestamp": "2026-10-11T17:29:43Z"
+   },
+   "Module:Glossary/misc": {
+    "from_revid": 62067,
+    "to_revid": 65298,
+    "from_timestamp": "2026-09-02T08:30:42Z",
+    "to_timestamp": "2026-10-15T13:05:17Z"
+   },
+   "Module:Weapon skill/data": {
+    "from_revid": 63441,
+    "to_revid": 64966,
+    "from_timestamp": "2026-09-24T04:33:16Z",
+    "to_timestamp": "2026-10-15T01:56:14Z"
+   },
+   "Module:Item/Progression Materials": {
+    "from_revid": 52543,
+    "to_revid": 65049,
+    "from_timestamp": "2026-06-15T13:59:09Z",
+    "to_timestamp": "2026-10-15T02:11:01Z"
+   },
+   "Module:Item/Gatherables": {
+    "from_revid": 62916,
+    "to_revid": 64734,
+    "from_timestamp": "2026-09-08T08:43:21Z",
+    "to_timestamp": "2026-10-12T23:00:15Z"
+   },
+   "Module:Item/Quest Items": {
+    "from_revid": 63284,
+    "to_revid": 63845,
+    "from_timestamp": "2026-09-16T08:35:31Z",
+    "to_timestamp": "2026-10-01T07:13:56Z"
+   },
+   "Module:Item/Profile": {
+    "from_revid": 62402,
+    "to_revid": 63960,
+    "from_timestamp": "2026-09-04T10:00:27Z",
+    "to_timestamp": "2026-10-02T23:21:14Z"
+   },
+   "Operator": {
+    "from_revid": 63002,
+    "to_revid": 64661,
+    "from_timestamp": "2026-09-09T14:13:46Z",
+    "to_timestamp": "2026-10-12T07:52:29Z"
+   },
+   "Stagger": {
+    "from_revid": 58992,
+    "to_revid": 64620,
+    "from_timestamp": "2026-08-02T20:28:53Z",
+    "to_timestamp": "2026-10-11T09:20:53Z"
+   },
+   "Combustion": {
+    "from_revid": 60123,
+    "to_revid": 64261,
+    "from_timestamp": "2026-08-11T12:38:45Z",
+    "to_timestamp": "2026-10-05T19:01:23Z"
+   },
+   "Electrification": {
+    "from_revid": 63478,
+    "to_revid": 64260,
+    "from_timestamp": "2026-09-24T08:46:42Z",
+    "to_timestamp": "2026-10-05T18:58:04Z"
+   },
+   "Corrosion": {
+    "from_revid": 60160,
+    "to_revid": 64483,
+    "from_timestamp": "2026-08-11T20:10:10Z",
+    "to_timestamp": "2026-10-08T08:50:23Z"
+   },
+   "Damage calculation": {
+    "from_revid": 59795,
+    "to_revid": 64660,
+    "from_timestamp": "2026-08-08T16:45:58Z",
+    "to_timestamp": "2026-10-12T07:42:38Z"
+   },
+   "Skill Points": {
+    "from_revid": 62380,
+    "to_revid": 63790,
+    "from_timestamp": "2026-09-04T00:04:53Z",
+    "to_timestamp": "2026-09-30T12:30:50Z"
+   }
+  }
+ },
+ {
+  "synced_at": "2026-10-25T00:46:04Z",
+  "pages": {
+   "Rossi": {
+    "from_revid": 64991,
+    "to_revid": 66443,
+    "from_timestamp": "2026-10-15T02:00:25Z",
+    "to_timestamp": "2026-10-24T20:56:03Z"
+   },
+   "Arcane": {
+    "from_revid": 64995,
+    "to_revid": 65498,
+    "from_timestamp": "2026-10-15T02:01:05Z",
+    "to_timestamp": "2026-10-17T02:42:45Z"
+   },
+   "Si": {
+    "from_revid": 64999,
+    "to_revid": 66366,
+    "from_timestamp": "2026-10-15T02:01:45Z",
+    "to_timestamp": "2026-10-23T02:47:50Z"
+   },
+   "Argent Flow": {
+    "from_revid": 64823,
+    "to_revid": 65817,
+    "from_timestamp": "2026-10-14T06:42:15Z",
+    "to_timestamp": "2026-10-19T03:17:04Z"
+   },
+   "Forgeborn Scathe": {
+    "from_revid": 61879,
+    "to_revid": 65819,
+    "from_timestamp": "2026-09-02T02:09:33Z",
+    "to_timestamp": "2026-10-19T03:25:31Z"
+   },
+   "Jade Vessel": {
+    "from_revid": 64959,
+    "to_revid": 65818,
+    "from_timestamp": "2026-10-15T01:55:01Z",
+    "to_timestamp": "2026-10-19T03:23:25Z"
+   },
+   "Frontiers": {
+    "from_revid": 64572,
+    "to_revid": 65356,
+    "from_timestamp": "2026-10-10T15:54:09Z",
+    "to_timestamp": "2026-10-16T00:19:23Z"
+   },
+   "Elite Ripptusk": {
+    "from_revid": 61641,
+    "to_revid": 66195,
+    "from_timestamp": "2026-09-02T01:32:16Z",
+    "to_timestamp": "2026-10-22T04:45:19Z"
+   },
+   "Sting": {
+    "from_revid": 61612,
+    "to_revid": 66196,
+    "from_timestamp": "2026-09-02T01:27:56Z",
+    "to_timestamp": "2026-10-22T04:45:21Z"
+   },
+   "Heavy Ram": {
+    "from_revid": 61611,
+    "to_revid": 66200,
+    "from_timestamp": "2026-09-02T01:27:46Z",
+    "to_timestamp": "2026-10-22T04:45:29Z"
+   },
+   "Heavy Sting": {
+    "from_revid": 61614,
+    "to_revid": 66201,
+    "from_timestamp": "2026-09-02T01:28:06Z",
+    "to_timestamp": "2026-10-22T04:45:31Z"
+   },
+   "Bonekrusher Raider": {
+    "from_revid": 61615,
+    "to_revid": 66202,
+    "from_timestamp": "2026-09-02T01:28:16Z",
+    "to_timestamp": "2026-10-22T04:45:34Z"
+   },
+   "Heavy Sting α": {
+    "from_revid": 61644,
+    "to_revid": 66203,
+    "from_timestamp": "2026-09-02T01:32:46Z",
+    "to_timestamp": "2026-10-22T04:45:36Z"
+   },
+   "Heavy Ram α": {
+    "from_revid": 61643,
+    "to_revid": 66204,
+    "from_timestamp": "2026-09-02T01:32:36Z",
+    "to_timestamp": "2026-10-22T04:45:38Z"
+   },
+   "Bonekrusher Ambusher": {
+    "from_revid": 61616,
+    "to_revid": 66205,
+    "from_timestamp": "2026-09-02T01:28:26Z",
+    "to_timestamp": "2026-10-22T04:45:40Z"
+   },
+   "Elite Ambusher": {
+    "from_revid": 61640,
+    "to_revid": 66206,
+    "from_timestamp": "2026-09-02T01:32:06Z",
+    "to_timestamp": "2026-10-22T04:45:42Z"
+   },
+   "Bonekrusher Ripptusk": {
+    "from_revid": 61624,
+    "to_revid": 66207,
+    "from_timestamp": "2026-09-02T01:29:36Z",
+    "to_timestamp": "2026-10-22T04:45:44Z"
+   },
+   "Bonekrusher Infiltrator": {
+    "from_revid": 61623,
+    "to_revid": 66208,
+    "from_timestamp": "2026-09-02T01:29:26Z",
+    "to_timestamp": "2026-10-22T04:45:47Z"
+   },
+   "Elite Raider": {
+    "from_revid": 61639,
+    "to_revid": 66209,
+    "from_timestamp": "2026-09-02T01:31:56Z",
+    "to_timestamp": "2026-10-22T04:45:49Z"
+   },
+   "Effigy": {
+    "from_revid": 61632,
+    "to_revid": 66210,
+    "from_timestamp": "2026-09-02T01:30:46Z",
+    "to_timestamp": "2026-10-22T04:45:51Z"
+   },
+   "Bonekrusher Pyromancer": {
+    "from_revid": 61619,
+    "to_revid": 66213,
+    "from_timestamp": "2026-09-02T01:28:56Z",
+    "to_timestamp": "2026-10-22T04:45:57Z"
+   },
+   "Bonekrusher Arsonist": {
+    "from_revid": 61620,
+    "to_revid": 66214,
+    "from_timestamp": "2026-09-02T01:29:06Z",
+    "to_timestamp": "2026-10-22T04:45:59Z"
+   },
+   "Bonekrusher Ballista": {
+    "from_revid": 61621,
+    "to_revid": 66215,
+    "from_timestamp": "2026-09-02T01:29:16Z",
+    "to_timestamp": "2026-10-22T04:46:02Z"
+   },
+   "Bonekrusher Executioner": {
+    "from_revid": 61607,
+    "to_revid": 66216,
+    "from_timestamp": "2026-09-02T01:26:17Z",
+    "to_timestamp": "2026-10-22T04:46:04Z"
+   },
+   "Elite Executioner": {
+    "from_revid": 61642,
+    "to_revid": 66217,
+    "from_timestamp": "2026-09-02T01:32:26Z",
+    "to_timestamp": "2026-10-22T04:46:07Z"
+   },
+   "Acid Originium Slug α": {
+    "from_revid": 61675,
+    "to_revid": 66221,
+    "from_timestamp": "2026-09-02T01:37:36Z",
+    "to_timestamp": "2026-10-22T04:46:14Z"
+   },
+   "Indigenous Pincerbeast": {
+    "from_revid": 61646,
+    "to_revid": 66222,
+    "from_timestamp": "2026-09-02T01:33:06Z",
+    "to_timestamp": "2026-10-22T04:46:16Z"
+   },
+   "Imbued Quillbeast": {
+    "from_revid": 61684,
+    "to_revid": 66223,
+    "from_timestamp": "2026-09-02T01:39:06Z",
+    "to_timestamp": "2026-10-22T04:46:19Z"
+   },
+   "Falsewings": {
+    "from_revid": 61651,
+    "to_revid": 66224,
+    "from_timestamp": "2026-09-02T01:33:46Z",
+    "to_timestamp": "2026-10-22T04:46:21Z"
+   },
+   "Grove Archer": {
+    "from_revid": 61660,
+    "to_revid": 66227,
+    "from_timestamp": "2026-09-02T01:35:06Z",
+    "to_timestamp": "2026-10-22T04:46:27Z"
+   },
+   "Hedron": {
+    "from_revid": 61663,
+    "to_revid": 66230,
+    "from_timestamp": "2026-09-02T01:35:36Z",
+    "to_timestamp": "2026-10-22T04:46:33Z"
+   },
+   "Hazefyre Axe Armorbeast": {
+    "from_revid": 61673,
+    "to_revid": 66233,
+    "from_timestamp": "2026-09-02T01:37:16Z",
+    "to_timestamp": "2026-10-22T04:46:39Z"
+   },
+   "Glaring Rakerbeast": {
+    "from_revid": 61677,
+    "to_revid": 66234,
+    "from_timestamp": "2026-09-02T01:37:56Z",
+    "to_timestamp": "2026-10-22T04:46:41Z"
+   },
+   "Falsewings α": {
+    "from_revid": 61676,
+    "to_revid": 66235,
+    "from_timestamp": "2026-09-02T01:37:46Z",
+    "to_timestamp": "2026-10-22T04:46:43Z"
+   },
+   "Axe Armorbeast": {
+    "from_revid": 61645,
+    "to_revid": 66237,
+    "from_timestamp": "2026-09-02T01:32:56Z",
+    "to_timestamp": "2026-10-22T04:46:47Z"
+   },
+   "Hedron δ": {
+    "from_revid": 61681,
+    "to_revid": 66239,
+    "from_timestamp": "2026-09-02T01:38:36Z",
+    "to_timestamp": "2026-10-22T04:46:51Z"
+   },
+   "Hazefyre Claw": {
+    "from_revid": 61634,
+    "to_revid": 66240,
+    "from_timestamp": "2026-09-02T01:31:06Z",
+    "to_timestamp": "2026-10-22T04:46:53Z"
+   },
+   "Bonekrusher Vanguard": {
+    "from_revid": 61648,
+    "to_revid": 66241,
+    "from_timestamp": "2026-09-02T01:33:26Z",
+    "to_timestamp": "2026-10-22T04:46:56Z"
+   },
+   "Acid Originium Slug": {
+    "from_revid": 61647,
+    "to_revid": 66243,
+    "from_timestamp": "2026-09-02T01:33:16Z",
+    "to_timestamp": "2026-10-22T04:47:01Z"
+   },
+   "Brutal Pincerbeast": {
+    "from_revid": 61674,
+    "to_revid": 66244,
+    "from_timestamp": "2026-09-02T01:37:26Z",
+    "to_timestamp": "2026-10-22T04:47:03Z"
+   },
+   "Hazefyre Tuskbeast": {
+    "from_revid": 61633,
+    "to_revid": 66247,
+    "from_timestamp": "2026-09-02T01:30:56Z",
+    "to_timestamp": "2026-10-22T04:47:10Z"
+   },
+   "Bonekrusher Siegeknuckles": {
+    "from_revid": 61650,
+    "to_revid": 66248,
+    "from_timestamp": "2026-09-02T01:33:36Z",
+    "to_timestamp": "2026-10-22T04:47:12Z"
+   },
+   "Marble Aggelomoirai (palecore)": {
+    "from_revid": 61635,
+    "to_revid": 66250,
+    "from_timestamp": "2026-09-02T01:31:16Z",
+    "to_timestamp": "2026-10-22T04:47:16Z"
+   },
+   "Firemist Originium Slug": {
+    "from_revid": 61667,
+    "to_revid": 66251,
+    "from_timestamp": "2026-09-02T01:36:16Z",
+    "to_timestamp": "2026-10-22T04:47:18Z"
+   },
+   "Blazemist Originium Slug": {
+    "from_revid": 61683,
+    "to_revid": 66252,
+    "from_timestamp": "2026-09-02T01:38:56Z",
+    "to_timestamp": "2026-10-22T04:47:21Z"
+   },
+   "Highway Reaver": {
+    "from_revid": 61671,
+    "to_revid": 66253,
+    "from_timestamp": "2026-09-02T01:36:56Z",
+    "to_timestamp": "2026-10-22T04:47:23Z"
+   },
+   "Breaking Gust": {
+    "from_revid": 61679,
+    "to_revid": 66255,
+    "from_timestamp": "2026-09-02T01:38:16Z",
+    "to_timestamp": "2026-10-22T04:47:27Z"
+   },
+   "Hill Smasher": {
+    "from_revid": 61628,
+    "to_revid": 66256,
+    "from_timestamp": "2026-09-02T01:30:16Z",
+    "to_timestamp": "2026-10-22T04:47:29Z"
+   },
+   "Cloud Stalker": {
+    "from_revid": 61630,
+    "to_revid": 66257,
+    "from_timestamp": "2026-09-02T01:30:26Z",
+    "to_timestamp": "2026-10-22T04:47:31Z"
+   },
+   "Cloud Obliterator": {
+    "from_revid": 61672,
+    "to_revid": 66258,
+    "from_timestamp": "2026-09-02T01:37:06Z",
+    "to_timestamp": "2026-10-22T04:47:33Z"
+   },
+   "Armored Manglerbeast": {
+    "from_revid": 61686,
+    "to_revid": 66266,
+    "from_timestamp": "2026-09-02T01:39:26Z",
+    "to_timestamp": "2026-10-22T04:47:50Z"
+   },
+   "Craghowler": {
+    "from_revid": 61687,
+    "to_revid": 66267,
+    "from_timestamp": "2026-09-02T01:39:36Z",
+    "to_timestamp": "2026-10-22T04:47:52Z"
+   },
+   "Blitzcrash Blightshade": {
+    "from_revid": 61691,
+    "to_revid": 66271,
+    "from_timestamp": "2026-09-02T01:40:16Z",
+    "to_timestamp": "2026-10-22T04:48:01Z"
+   },
+   "Alleikhreos, Chiliarch": {
+    "from_revid": 61696,
+    "to_revid": 66276,
+    "from_timestamp": "2026-09-02T01:41:06Z",
+    "to_timestamp": "2026-10-22T04:48:12Z"
+   },
+   "Gloomwald's Rage": {
+    "from_revid": 62641,
+    "to_revid": 66277,
+    "from_timestamp": "2026-09-05T13:09:18Z",
+    "to_timestamp": "2026-10-22T04:48:14Z"
+   },
+   "Fortune's Stash": {
+    "from_revid": 64916,
+    "to_revid": 66280,
+    "from_timestamp": "2026-10-15T01:47:55Z",
+    "to_timestamp": "2026-10-22T04:48:19Z"
+   },
+   "Maned Measure": {
+    "from_revid": 64919,
+    "to_revid": 66283,
+    "from_timestamp": "2026-10-15T01:48:25Z",
+    "to_timestamp": "2026-10-22T04:48:25Z"
+   },
+   "Sting α": {
+    "from_revid": 61638,
+    "to_revid": 66197,
+    "from_timestamp": "2026-09-02T01:31:46Z",
+    "to_timestamp": "2026-10-22T04:45:23Z"
+   },
+   "Ram": {
+    "from_revid": 61610,
+    "to_revid": 66198,
+    "from_timestamp": "2026-09-02T01:27:36Z",
+    "to_timestamp": "2026-10-22T04:45:25Z"
+   },
+   "Ram α": {
+    "from_revid": 61637,
+    "to_revid": 66199,
+    "from_timestamp": "2026-09-02T01:31:36Z",
+    "to_timestamp": "2026-10-22T04:45:27Z"
+   },
+   "Triaggelos": {
+    "from_revid": 61618,
+    "to_revid": 66211,
+    "from_timestamp": "2026-09-02T01:28:46Z",
+    "to_timestamp": "2026-10-22T04:45:53Z"
+   },
+   "Road Plunderer": {
+    "from_revid": 61627,
+    "to_revid": 66212,
+    "from_timestamp": "2026-09-02T01:30:06Z",
+    "to_timestamp": "2026-10-22T04:45:55Z"
+   },
+   "Marble Aggelomoirai (palesent)": {
+    "from_revid": 61626,
+    "to_revid": 66218,
+    "from_timestamp": "2026-09-02T01:29:56Z",
+    "to_timestamp": "2026-10-22T04:46:09Z"
+   },
+   "Marble Appendage": {
+    "from_revid": 61636,
+    "to_revid": 66219,
+    "from_timestamp": "2026-09-02T01:31:26Z",
+    "to_timestamp": "2026-10-22T04:46:10Z"
+   },
+   "Tunneling Nidwyrm": {
+    "from_revid": 61606,
+    "to_revid": 66220,
+    "from_timestamp": "2026-09-02T01:26:07Z",
+    "to_timestamp": "2026-10-22T04:46:12Z"
+   },
+   "Tidewalker": {
+    "from_revid": 61666,
+    "to_revid": 66225,
+    "from_timestamp": "2026-09-02T01:36:06Z",
+    "to_timestamp": "2026-10-22T04:46:23Z"
+   },
+   "Spotted Rakerbeast": {
+    "from_revid": 63132,
+    "to_revid": 66226,
+    "from_timestamp": "2026-09-11T13:48:42Z",
+    "to_timestamp": "2026-10-22T04:46:25Z"
+   },
+   "Mudflow": {
+    "from_revid": 61662,
+    "to_revid": 66228,
+    "from_timestamp": "2026-09-02T01:35:26Z",
+    "to_timestamp": "2026-10-22T04:46:29Z"
+   },
+   "Tidalklast": {
+    "from_revid": 61665,
+    "to_revid": 66229,
+    "from_timestamp": "2026-09-02T01:35:56Z",
+    "to_timestamp": "2026-10-22T04:46:31Z"
+   },
+   "Quillbeast": {
+    "from_revid": 61668,
+    "to_revid": 66231,
+    "from_timestamp": "2026-09-02T01:36:26Z",
+    "to_timestamp": "2026-10-22T04:46:35Z"
+   },
+   "Waterlamp": {
+    "from_revid": 61669,
+    "to_revid": 66232,
+    "from_timestamp": "2026-09-02T01:36:36Z",
+    "to_timestamp": "2026-10-22T04:46:37Z"
+   },
+   "Rhodagn the Bonekrushing Fist": {
+    "from_revid": 61625,
+    "to_revid": 66236,
+    "from_timestamp": "2026-09-02T01:29:46Z",
+    "to_timestamp": "2026-10-22T04:46:45Z"
+   },
+   "Sentinel": {
+    "from_revid": 61617,
+    "to_revid": 66238,
+    "from_timestamp": "2026-09-02T01:28:36Z",
+    "to_timestamp": "2026-10-22T04:46:49Z"
+   },
+   "Prism": {
+    "from_revid": 64259,
+    "to_revid": 66242,
+    "from_timestamp": "2026-10-05T17:24:28Z",
+    "to_timestamp": "2026-10-22T04:46:58Z"
+   },
+   "Walking Chrysopolis": {
+    "from_revid": 61652,
+    "to_revid": 66245,
+    "from_timestamp": "2026-09-02T01:33:56Z",
+    "to_timestamp": "2026-10-22T04:47:05Z"
+   },
+   "Mudflow δ": {
+    "from_revid": 61680,
+    "to_revid": 66246,
+    "from_timestamp": "2026-09-02T01:38:26Z",
+    "to_timestamp": "2026-10-22T04:47:08Z"
+   },
+   "Tidewalker δ": {
+    "from_revid": 61682,
+    "to_revid": 66249,
+    "from_timestamp": "2026-09-02T01:38:46Z",
+    "to_timestamp": "2026-10-22T04:47:14Z"
+   },
+   "Nimbus Razor": {
+    "from_revid": 61661,
+    "to_revid": 66254,
+    "from_timestamp": "2026-09-02T01:35:16Z",
+    "to_timestamp": "2026-10-22T04:47:25Z"
+   },
+   "Sweeping Wind": {
+    "from_revid": 61678,
+    "to_revid": 66259,
+    "from_timestamp": "2026-09-02T01:38:06Z",
+    "to_timestamp": "2026-10-22T04:47:35Z"
+   },
+   "Ruan Yi": {
+    "from_revid": 61657,
+    "to_revid": 66260,
+    "from_timestamp": "2026-09-02T01:34:36Z",
+    "to_timestamp": "2026-10-22T04:47:37Z"
+   },
+   "Æthillu": {
+    "from_revid": 61670,
+    "to_revid": 66261,
+    "from_timestamp": "2026-09-02T01:36:46Z",
+    "to_timestamp": "2026-10-22T04:47:39Z"
+   },
+   "Skydrummer": {
+    "from_revid": 61658,
+    "to_revid": 66262,
+    "from_timestamp": "2026-09-02T01:34:46Z",
+    "to_timestamp": "2026-10-22T04:47:42Z"
+   },
+   "Nefarith, \"Bonekrusher\"": {
+    "from_revid": 61653,
+    "to_revid": 66263,
+    "from_timestamp": "2026-09-02T01:34:06Z",
+    "to_timestamp": "2026-10-22T04:47:44Z"
+   },
+   "Nefarith, \"Conqueror\"": {
+    "from_revid": 61655,
+    "to_revid": 66264,
+    "from_timestamp": "2026-09-02T01:34:16Z",
+    "to_timestamp": "2026-10-22T04:47:47Z"
+   },
+   "Rockhowler": {
+    "from_revid": 64909,
+    "to_revid": 66265,
+    "from_timestamp": "2026-10-15T01:46:45Z",
+    "to_timestamp": "2026-10-22T04:47:48Z"
+   },
+   "Tuskbeast Blightshade": {
+    "from_revid": 64910,
+    "to_revid": 66268,
+    "from_timestamp": "2026-10-15T01:46:54Z",
+    "to_timestamp": "2026-10-22T04:47:54Z"
+   },
+   "Quillbeast Blightshade": {
+    "from_revid": 61689,
+    "to_revid": 66269,
+    "from_timestamp": "2026-09-02T01:39:56Z",
+    "to_timestamp": "2026-10-22T04:47:56Z"
+   },
+   "Rakerbeast Blightshade": {
+    "from_revid": 64911,
+    "to_revid": 66270,
+    "from_timestamp": "2026-10-15T01:47:05Z",
+    "to_timestamp": "2026-10-22T04:47:58Z"
+   },
+   "YSTF Vanguard Blightshade": {
+    "from_revid": 64912,
+    "to_revid": 66272,
+    "from_timestamp": "2026-10-15T01:47:15Z",
+    "to_timestamp": "2026-10-22T04:48:03Z"
+   },
+   "YSTF Elite Blightshade": {
+    "from_revid": 61693,
+    "to_revid": 66273,
+    "from_timestamp": "2026-09-02T01:40:36Z",
+    "to_timestamp": "2026-10-22T04:48:06Z"
+   },
+   "YSTF Glaiver Blightshade": {
+    "from_revid": 64913,
+    "to_revid": 66274,
+    "from_timestamp": "2026-10-15T01:47:24Z",
+    "to_timestamp": "2026-10-22T04:48:08Z"
+   },
+   "YSTF Captain Blightshade": {
+    "from_revid": 64914,
+    "to_revid": 66275,
+    "from_timestamp": "2026-10-15T01:47:34Z",
+    "to_timestamp": "2026-10-22T04:48:10Z"
+   },
+   "Woodcraft Wanderer": {
+    "from_revid": 65343,
+    "to_revid": 66278,
+    "from_timestamp": "2026-10-15T20:45:52Z",
+    "to_timestamp": "2026-10-22T04:48:16Z"
+   },
+   "Woodcraft Slug": {
+    "from_revid": 62639,
+    "to_revid": 66279,
+    "from_timestamp": "2026-09-05T12:53:06Z",
+    "to_timestamp": "2026-10-22T04:48:17Z"
+   },
+   "Scroll of Tactics": {
+    "from_revid": 64917,
+    "to_revid": 66281,
+    "from_timestamp": "2026-10-15T01:48:04Z",
+    "to_timestamp": "2026-10-22T04:48:21Z"
+   },
+   "Simmer's Purge": {
+    "from_revid": 64918,
+    "to_revid": 66282,
+    "from_timestamp": "2026-10-15T01:48:14Z",
+    "to_timestamp": "2026-10-22T04:48:23Z"
+   },
+   "Si/Enemy": {
+    "from_revid": 64936,
+    "to_revid": 66409,
+    "from_timestamp": "2026-10-15T01:51:10Z",
+    "to_timestamp": "2026-10-23T20:26:06Z"
+   },
+   "Module:Recipe/Shredding Unit": {
+    "from_revid": 56949,
+    "to_revid": 65417,
+    "from_timestamp": "2026-07-21T13:41:05Z",
+    "to_timestamp": "2026-10-16T09:54:53Z"
+   },
+   "Module:Recipe/Moulding Unit": {
+    "from_revid": 56951,
+    "to_revid": 65418,
+    "from_timestamp": "2026-07-21T13:42:54Z",
+    "to_timestamp": "2026-10-16T09:55:51Z"
+   },
+   "Module:Recipe/Planting Unit": {
+    "from_revid": 56953,
+    "to_revid": 65395,
+    "from_timestamp": "2026-07-21T13:45:04Z",
+    "to_timestamp": "2026-10-16T09:49:02Z"
+   },
+   "Module:Recipe/Seed-Picking Unit": {
+    "from_revid": 56954,
+    "to_revid": 65429,
+    "from_timestamp": "2026-07-21T13:45:44Z",
+    "to_timestamp": "2026-10-16T10:23:23Z"
+   },
+   "Module:Recipe/Gearing Unit": {
+    "from_revid": 56955,
+    "to_revid": 65419,
+    "from_timestamp": "2026-07-21T13:48:00Z",
+    "to_timestamp": "2026-10-16T09:56:59Z"
+   },
+   "Module:Recipe/Filling Unit": {
+    "from_revid": 56956,
+    "to_revid": 65420,
+    "from_timestamp": "2026-07-21T13:52:12Z",
+    "to_timestamp": "2026-10-16T09:58:17Z"
+   },
+   "Module:Recipe/Reactor Crucible": {
+    "from_revid": 56960,
+    "to_revid": 65421,
+    "from_timestamp": "2026-07-21T13:55:54Z",
+    "to_timestamp": "2026-10-16T10:00:12Z"
+   },
+   "Module:Recipe/Crafting": {
+    "from_revid": 62969,
+    "to_revid": 65428,
+    "from_timestamp": "2026-09-09T08:43:39Z",
+    "to_timestamp": "2026-10-16T10:13:53Z"
+   },
+   "Module:Glossary/misc": {
+    "from_revid": 65298,
+    "to_revid": 66355,
+    "from_timestamp": "2026-10-15T13:05:17Z",
+    "to_timestamp": "2026-10-22T19:33:19Z"
+   },
+   "Module:Item/Operator Tokens": {
+    "from_revid": 63476,
+    "to_revid": 65495,
+    "from_timestamp": "2026-09-24T08:13:39Z",
+    "to_timestamp": "2026-10-17T02:06:32Z"
+   },
+   "Module:Item/Gatherables": {
+    "from_revid": 64734,
+    "to_revid": 65756,
+    "from_timestamp": "2026-10-12T23:00:15Z",
+    "to_timestamp": "2026-10-18T06:28:14Z"
+   },
+   "Module:Item/Naturals": {
+    "from_revid": 56362,
+    "to_revid": 65810,
+    "from_timestamp": "2026-07-18T06:53:28Z",
+    "to_timestamp": "2026-10-18T08:19:14Z"
+   },
+   "Module:Item/AIC Products": {
+    "from_revid": 62359,
+    "to_revid": 66053,
+    "from_timestamp": "2026-09-03T17:52:33Z",
+    "to_timestamp": "2026-10-20T03:43:33Z"
+   },
+   "Module:Item/Facilities": {
+    "from_revid": 62137,
+    "to_revid": 66069,
+    "from_timestamp": "2026-09-02T14:10:32Z",
+    "to_timestamp": "2026-10-20T04:25:44Z"
+   },
+   "Module:Item/Gifts": {
+    "from_revid": 62722,
+    "to_revid": 65812,
+    "from_timestamp": "2026-09-06T23:01:10Z",
+    "to_timestamp": "2026-10-18T09:13:01Z"
+   },
+   "Module:Item/Containers": {
+    "from_revid": 62749,
+    "to_revid": 66102,
+    "from_timestamp": "2026-09-07T07:20:05Z",
+    "to_timestamp": "2026-10-20T10:25:47Z"
+   },
+   "Module:Item/Consumables": {
+    "from_revid": 62911,
+    "to_revid": 66330,
+    "from_timestamp": "2026-09-08T07:29:30Z",
+    "to_timestamp": "2026-10-22T13:11:21Z"
+   },
+   "Module:Item/Photo": {
+    "from_revid": 62400,
+    "to_revid": 65549,
+    "from_timestamp": "2026-09-04T09:02:03Z",
+    "to_timestamp": "2026-10-17T13:06:57Z"
+   },
+   "Module:Item/Profile": {
+    "from_revid": 63960,
+    "to_revid": 65551,
+    "from_timestamp": "2026-10-02T23:21:14Z",
+    "to_timestamp": "2026-10-17T13:25:27Z"
+   },
+   "Module:Item/Currency": {
+    "from_revid": 59892,
+    "to_revid": 65921,
+    "from_timestamp": "2026-08-09T05:37:40Z",
+    "to_timestamp": "2026-10-19T15:10:33Z"
+   },
+   "Module:Item/Headhunting": {
+    "from_revid": 62747,
+    "to_revid": 65548,
+    "from_timestamp": "2026-09-07T06:35:29Z",
+    "to_timestamp": "2026-10-17T12:33:11Z"
+   },
+   "Module:Item/Miscellaneous": {
+    "from_revid": 56490,
+    "to_revid": 65813,
+    "from_timestamp": "2026-07-19T08:51:33Z",
+    "to_timestamp": "2026-10-18T09:32:08Z"
+   },
+   "Module:Recipe/Forge of the Sky": {
+    "from_revid": 56946,
+    "to_revid": 65423,
+    "from_timestamp": "2026-07-21T12:43:16Z",
+    "to_timestamp": "2026-10-16T10:01:22Z"
+   },
+   "Module:Recipe/Separating Unit": {
+    "from_revid": 56962,
+    "to_revid": 65424,
+    "from_timestamp": "2026-07-21T14:01:32Z",
+    "to_timestamp": "2026-10-16T10:02:08Z"
+   },
+   "Module:Recipe/Expanded Crucible": {
+    "from_revid": 56961,
+    "to_revid": 65422,
+    "from_timestamp": "2026-07-21T13:59:31Z",
+    "to_timestamp": "2026-10-16T10:00:44Z"
+   },
+   "Module:Recipe/Purification Unit": {
+    "from_revid": 56964,
+    "to_revid": 65425,
+    "from_timestamp": "2026-07-21T14:04:37Z",
+    "to_timestamp": "2026-10-16T10:02:34Z"
+   },
+   "Module:Recipe/Fluid-Gas Transmuting Unit": {
+    "from_revid": 56966,
+    "to_revid": 65426,
+    "from_timestamp": "2026-07-21T14:09:27Z",
+    "to_timestamp": "2026-10-16T10:03:11Z"
+   },
+   "Module:Recipe/Solid-Gas Transmuting Unit": {
+    "from_revid": 56995,
+    "to_revid": 65427,
+    "from_timestamp": "2026-07-21T14:47:29Z",
+    "to_timestamp": "2026-10-16T10:03:36Z"
+   },
+   "Module:Item/Personal Devices": {
+    "from_revid": 62901,
+    "to_revid": 65814,
+    "from_timestamp": "2026-09-08T06:54:18Z",
+    "to_timestamp": "2026-10-18T10:22:20Z"
+   },
+   "Crush": {
+    "from_revid": 54972,
+    "to_revid": 65563,
+    "from_timestamp": "2026-07-08T00:23:05Z",
+    "to_timestamp": "2026-10-17T16:41:28Z"
+   },
+   "Breach": {
+    "from_revid": 54827,
+    "to_revid": 65564,
+    "from_timestamp": "2026-07-05T18:56:23Z",
+    "to_timestamp": "2026-10-17T16:43:35Z"
+   },
+   "Lift": {
+    "from_revid": 54662,
+    "to_revid": 65560,
+    "from_timestamp": "2026-07-02T23:36:54Z",
+    "to_timestamp": "2026-10-17T16:27:51Z"
+   },
+   "Knock Down": {
+    "from_revid": 54664,
+    "to_revid": 65562,
+    "from_timestamp": "2026-07-02T23:51:34Z",
+    "to_timestamp": "2026-10-17T16:36:20Z"
+   },
+   "Damage calculation": {
+    "from_revid": 64660,
+    "to_revid": 66358,
+    "from_timestamp": "2026-10-12T07:42:38Z",
+    "to_timestamp": "2026-10-22T19:36:59Z"
+   },
+   "Physical Status": {
+    "from_revid": 54660,
+    "to_revid": 65612,
+    "from_timestamp": "2026-07-02T13:29:36Z",
+    "to_timestamp": "2026-10-18T02:51:02Z"
+   },
+   "Haste": {
+    "from_revid": 65273,
+    "to_revid": 65599,
+    "from_timestamp": "2026-10-15T12:25:51Z",
+    "to_timestamp": "2026-10-18T02:15:37Z"
+   }
+  }
+ },
+ {
+  "synced_at": "2026-11-05T18:27:55Z",
+  "pages": {
+   "Alesh": {
+    "from_revid": 64987,
+    "to_revid": 66946,
+    "from_timestamp": "2026-10-15T01:59:45Z",
+    "to_timestamp": "2026-11-02T12:01:02Z"
+   },
+   "Arcane": {
+    "from_revid": 65498,
+    "to_revid": 67096,
+    "from_timestamp": "2026-10-17T02:42:45Z",
+    "to_timestamp": "2026-11-05T05:12:29Z"
+   },
+   "Si": {
+    "from_revid": 66366,
+    "to_revid": 67095,
+    "from_timestamp": "2026-10-23T02:47:50Z",
+    "to_timestamp": "2026-11-05T05:12:10Z"
+   },
+   "Argent Flow": {
+    "from_revid": 65817,
+    "to_revid": 67128,
+    "from_timestamp": "2026-10-19T03:17:04Z",
+    "to_timestamp": "2026-11-05T06:14:40Z"
+   },
+   "Forgeborn Scathe": {
+    "from_revid": 65819,
+    "to_revid": 67091,
+    "from_timestamp": "2026-10-19T03:25:31Z",
+    "to_timestamp": "2026-11-05T05:10:47Z"
+   },
+   "Jade Vessel": {
+    "from_revid": 65818,
+    "to_revid": 67090,
+    "from_timestamp": "2026-10-19T03:23:25Z",
+    "to_timestamp": "2026-11-05T05:10:27Z"
+   },
+   "Cloud Obliterator": {
+    "from_revid": 66258,
+    "to_revid": 67182,
+    "from_timestamp": "2026-10-22T04:47:33Z",
+    "to_timestamp": "2026-11-05T15:04:56Z"
+   },
+   "Alleikhreos, Chiliarch": {
+    "from_revid": 66276,
+    "to_revid": 67183,
+    "from_timestamp": "2026-10-22T04:48:12Z",
+    "to_timestamp": "2026-11-05T15:06:46Z"
+   },
+   "Si/Enemy": {
+    "from_revid": 66409,
+    "to_revid": 67085,
+    "from_timestamp": "2026-10-23T20:26:06Z",
+    "to_timestamp": "2026-11-05T04:59:12Z"
+   },
+   "Module:Glossary/misc": {
+    "from_revid": 66355,
+    "to_revid": 66708,
+    "from_timestamp": "2026-10-22T19:33:19Z",
+    "to_timestamp": "2026-10-30T09:32:40Z"
+   },
+   "Module:Weapon skill/data": {
+    "from_revid": 64966,
+    "to_revid": 67093,
+    "from_timestamp": "2026-10-15T01:56:14Z",
+    "to_timestamp": "2026-11-05T05:11:29Z"
+   },
+   "Module:Item/Containers": {
+    "from_revid": 66102,
+    "to_revid": 66761,
+    "from_timestamp": "2026-10-20T10:25:47Z",
+    "to_timestamp": "2026-11-01T12:35:38Z"
+   },
+   "Module:Item/Consumables": {
+    "from_revid": 66330,
+    "to_revid": 66844,
+    "from_timestamp": "2026-10-22T13:11:21Z",
+    "to_timestamp": "2026-11-01T15:56:47Z"
+   },
+   "Module:Item/Formulas": {
+    "from_revid": 63083,
+    "to_revid": 66970,
+    "from_timestamp": "2026-09-10T19:42:26Z",
+    "to_timestamp": "2026-11-02T20:13:46Z"
+   },
+   "Module:Item/Sanity": {
+    "from_revid": 62748,
+    "to_revid": 66762,
+    "from_timestamp": "2026-09-07T06:47:01Z",
+    "to_timestamp": "2026-11-01T12:39:03Z"
+   },
+   "Module:Item/Currency": {
+    "from_revid": 65921,
+    "to_revid": 67161,
+    "from_timestamp": "2026-10-19T15:10:33Z",
+    "to_timestamp": "2026-11-05T13:58:18Z"
+   },
+   "Module:Tooltip": {
+    "from_revid": 50889,
+    "to_revid": 66847,
+    "from_timestamp": "2026-06-02T05:23:47Z",
+    "to_timestamp": "2026-11-01T16:56:33Z"
+   },
+   "Module:HelperFuncs": {
+    "from_revid": 63392,
+    "to_revid": 67187,
+    "from_timestamp": "2026-09-22T15:36:29Z",
+    "to_timestamp": "2026-11-05T15:41:23Z"
+   },
+   "Combustion": {
+    "from_revid": 64261,
+    "to_revid": 66915,
+    "from_timestamp": "2026-10-05T19:01:23Z",
+    "to_timestamp": "2026-11-02T05:35:29Z"
+   },
+   "Crush": {
+    "from_revid": 65563,
+    "to_revid": 66685,
+    "from_timestamp": "2026-10-17T16:41:28Z",
+    "to_timestamp": "2026-10-30T03:42:07Z"
+   },
+   "Breach": {
+    "from_revid": 65564,
+    "to_revid": 66908,
+    "from_timestamp": "2026-10-17T16:43:35Z",
+    "to_timestamp": "2026-11-02T03:28:13Z"
+   },
+   "Lift": {
+    "from_revid": 65560,
+    "to_revid": 66683,
+    "from_timestamp": "2026-10-17T16:27:51Z",
+    "to_timestamp": "2026-10-30T03:23:27Z"
+   },
+   "Knock Down": {
+    "from_revid": 65562,
+    "to_revid": 66687,
+    "from_timestamp": "2026-10-17T16:36:20Z",
+    "to_timestamp": "2026-10-30T06:44:54Z"
+   },
+   "Vulnerability": {
+    "from_revid": 65556,
+    "to_revid": 66699,
+    "from_timestamp": "2026-10-17T15:53:10Z",
+    "to_timestamp": "2026-10-30T07:07:38Z"
+   },
+   "Physical Status": {
+    "from_revid": 65612,
+    "to_revid": 66700,
+    "from_timestamp": "2026-10-18T02:51:02Z",
+    "to_timestamp": "2026-10-30T07:08:25Z"
+   },
+   "Yuanyuan Manor Inn": {
+    "from_revid": 66438,
+    "to_revid": 66546,
+    "from_timestamp": "2026-10-24T11:25:47Z",
+    "to_timestamp": "2026-10-26T16:31:25Z"
+   }
+  }
+ }
+]

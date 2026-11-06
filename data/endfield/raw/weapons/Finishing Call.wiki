@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Finishing Call
+|rarity = 5
+|images = 
+Finishing_Call icon.png:Icon;
+Finishing_Call.png:Full;
+Finishing_Call max model.png:Max
+|filename = wpn_claym_0012
+|cnname = 终点之声
+|tcname = 終點之聲
+|jpname = 最期の声
+|krname = 최후의 메아리
+|spname = Llamada final
+|runame = Финальный вызов
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Finishing Call''' is a 5★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A special Mieszko Industries weapon with a limited production run. This was the final design of the collaborative project pursued by the arms company and the Knights Major expert Cromwell.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Medicant: Glory of Knighthood|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [M]|HP [M]|Medicant: Glory of Knighthood}}
+
+==Basic Info==
+{{Quote|"The Black Knight's imposing stature and awesome technique let her defeat other contenders without Originium Arts. Her attacks might look like powerful swings performed without much thought, but every strike was aimed at her opponent's weakness. The Black Knight always had an advantage in a frontal confrontation due to her superior footwork and balance. Several had claimed that this greatsword was not the Black Knight's favored weapon. There are tales of her defeating over a thousand enemy soldiers with her dual swordbreakers at Kjerag. Those tales would prove my hypothesis."<br>"The Blood Knight was even stronger and his tactics were widely studied. Unlike the Black Knight who preferred besting her opponents with a single deadly strike, the Blood Knight wielded Originium Arts to his advantage and manipulated his opponents to attack at a place and time that he desired. He was literally a one-man army who dominated the field."<br>"As for the battle records of the Radiant Knight ... words alone won't suffice. There was no question about her impeccable technique but everyone knew she owed her success not to the battle itself. Anyone armed with such levels of conviction could step onto the field with different weapons and tactics and become like the Radiant Knight herself. Of course, such levels of faith and belief would be impossible to learn."<br>......<br>"This Knight... wait. He's a knight, right? When and where did they make this recording? No ... I'm not sure... I can't recall this one at all. The video is choppy ... and it showed all sorts of enemies, but the knight is strong. I don't know why I have a feeling that his true battlefield should be ... in the oceans. Just look behind him... His stance and poise made my heart swell with excitement. When compared to his Arts, his raw power and fury was a symphony of the waves. Yes! The song! What have I been doing all this time? The truth, the links... Oh dear, it's so bright... I'm thirsty ... so thirsty... I need —"<br><br>"That's it?"<br>"That's where it ended. I know it's incomplete, but he suddenly passed out when he reached this line..."<br>"Is this draft really okay? The man did pass out halfway through his work, you know."<br>"You're overthinking things. This is our mission. Put his hand back on the table and let's get out of here."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

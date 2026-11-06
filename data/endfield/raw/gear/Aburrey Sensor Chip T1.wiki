@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Aburrey Sensor Chip T1
+|image = Aburrey_Sensor_Chip_T1.png
+|filename = item_equip_t3_suit_atk01_edc_06
+|cnname = 阿伯莉传感芯片·壹型
+|tcname = 阿伯莉感測晶片·I
+|jpname = アブリーセンサーチップⅠ
+|krname = 아부레이 센서 칩 · I
+|spname = Chip sensor de Aburrey T1
+|runame = Сенсорный чип «Эберрей» К1
+|rarity = 4
+|artifice = no
+|type = Kit
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Aburrey Sensor Chip T1''' is a {{gear|4|Kit}}gear item.
+
+{{Item description|Designed by Triglava Armoury and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Novel protective equipment modified to suit the work environment of the Aburrey Quarry. 
+According to the engineers, future iterations of this armor will focus on full automation. The aim is to evacuate the wearer to safety, even if the wearer has been incapacitated.}}
+
+==Stats==
+{{Gear data
+|defense = +15
+|pstat = Will
+|pvalue = +23
+|sstat = Intellect
+|svalue = +15
+|tstat = Battle Skill DMG Bonus
+|tvalue = +29.4%
+|setname = Aburrey's Legacy
+|seteffect = 3-piece set effect: Wearer's Skill DMG {{Color|+24%|1d}}. 
+When the wearer casts a battle skill, combo skill, or ultimate, the wearer gains ATK {{Color|+5%|1d}} for 15s. The buff from each of the three skill types is unique and does not stack with itself.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Aburrey's Legacy}}
+{{Gears|state=collapsed}}

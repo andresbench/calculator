@@ -1,0 +1,277 @@
+{{Operator infobox
+|name = Pogranichnik
+|rarity = 6
+|class = Vanguard
+|weapon = Sword
+|element = Physical
+|faction = Rhodes Island
+|tags = SP Recovery, Breach
+|main = Will
+|sub = Agility
+|starting = 
+|headhunting = standard
+|quote = Pogranichnik, Rhodes Island operator, and officer serving the Order of Steel Oath, reporting for duty. The situation is urgent. I respectfully request a brief on your battle plan, at your earliest convenience.
+|image = 
+Pogranichnik Splash Art.png
+|filename = chr_0029_pograni
+|cnname = 骏卫
+|tcname = 駿衛
+|jpname = ポグラニチニク
+|krname = 포그라니치니크
+|spname = Pogranichnik
+|runame = Пограничник
+|fullname = 
+|fileno = 
+|theme = 
+|illustrator = 
+|jpcv = [https://en.wikipedia.org/wiki/Show_Hayami Hayami Show]
+|cncv = Liu Ruoban
+|encv = [https://www.imdb.com/name/nm11297967/ Sergey Ponomaryov]
+|krcv = [https://en.namu.wiki/w/권성혁 Kwon Sung-hyuk]
+|gender = Male
+|authentication = Rhodes Island
+|birthdate = July 23
+|race = Liberi
+|infection = Oripathy negative, based on medical examination reports.
+|strength = Excellent
+|tactical = Outstanding
+|skill = Excellent
+|originium = Standard
+|exp1 = Battlefield Tactics
+|exp1d = Battlefield Tactics: Military Theory
+He believes that every theory should be traceable to actual wars, and applicable to real battles.
+|exp2 = Team Management
+|exp2d = Team Management: Mentor
+To the young recruits, he always attempts to share his experience and knowledge, and impress upon them the ideals and aspirations that he has held dear for all this time.
+|hb1 = Culture
+|hb1d = Culture: Living History Book
+His preferred approach to learning about this world is to study its history and everything that happened to this land.
+|hb2 = Mind Honing
+|hb2d = Mind Honing: Chess Master
+"It's less of a match and more like a hard-fought battle." — Every operator who played chess with Pogranichnik felt they could relate to this feeling.
+|prefer = Wuling Runners' Choice
+|matskill = Never Rest, Thermite Cutter
+|matstats = Sundering Steel
+}}
+'''Pogranichnik''' is a 6★ [[Physical]] [[Vanguard]] [[Operator]] from [[Rhodes Island]] in ''[[Arknights: Endfield]]''. He is a [[Sword]] user with both {{Color|Physical DMG|1}} dealing and SP recovery abilities. Consume multiple {{G|Vulnerable|Vulnerability}} stacks to maximize the effects of his skills.
+
+==Profile==
+"The situation is urgent. I respectfully request a brief on your battle plan, at your earliest convenience."<br/>Pogranichnik is a [[Rhodes Island]] operator assigned to [[Endfield Industries]] where he serves as a military consultant under the framework agreement between the two companies.<br/> With deep knowledge of military theory and hard-won experience in team combat, Pogranichnik leads his unit through even the most unexpected crises. Once commander of the Shieldguard Banner in the [[Order of Steel Oath]], he and his troops came to be regarded as among the most reliable on the front lines against the [[Aggeloi]]. But as the situation on [[Talos-II]] grew increasingly complex, he joined Endfield Industries without hesitation. He firmly believes that the [[Endministrator]] will lead Talos-II onto a new path, just as he once envisioned.<br/>"Endmin, I have no doubt that your actions will put a solemn end to this cruel cycle of war and sacrifice."
+
+==Stats==
+{{Operator data
+|main = Will
+|sub = Agility
+|HP = 500, 1566, 2689, 3811, 4934, 5495
+|ATK = 30, 92, 157, 223, 288, 321
+|STR = 12.371, 31.343, 51.313, 71.284, 91.254, 101.24
+|AGL = 13.608, 34.24, 55.957, 77.675, 99.392, 110.251
+|INT = 10.309, 28.817, 48.3, 67.782, 87.264, 97.006
+|WIL = 20.103, 52.794, 87.206, 121.618, 156.03, 173.236
+|CR = 0.05
+|AS = 100
+|AR = 3 Meters
+|e1 = Protodisk x8, Pink Bolete x3, T-Creds x1600
+|e2 = Protodisk x25, Red Bolete x5, T-Creds x6500
+|e3 = Protoset x24, Ruby Bolete x5, T-Creds x18000
+|e4 = Protoset x36, Metadiastima Photoemission Tube x20, Cosmagaric x8, T-Creds x100000
+|pot1 = Battle skill {{Color|The Pulverizing Front|7}} improved: When hitting at least 2 enemies, {{Color|15|1d}} SP is {{G|SP Return|returned}}.
+|pot1t = Frontline Sweep
+|pot2 = Will {{Color|+20|1d}}, Physical DMG Dealt {{Color|+10%|1d}}.
+|pot2t = "Advance"
+|pot3 = Talent {{Color|The Living Banner|7}} improved: Amount of SP recovery needed to gain {{Color|Fervent Morale|7}} is reduced to {{Color|60|1d}}. Max {{Color|Fervent Morale|7}} stacks on self {{Color|+2|1d}}.
+|pot3t = When the Banner Flutters
+|pot4 = Ultimate {{Color|Shieldguard Banner, Forward|7}} improved: Ultimate Energy cost {{Color|-15%|1d}}.
+|pot4t = Shield of Talos-II
+|pot5 = Combo skill {{Color|Full Moon Slash|7}} improved: Length of cooldown {{Color|-2|1d}}s; SP recovery is increased to {{Color|1.2|1d}} times the original.
+|pot5t = Newly Forged Blade
+}}
+
+==Combat Skills==
+{{Combat skill
+|name= All-Out Offensive
+|icon= Attack-Sword
+|type= {{SB|1}}
+|info= 
+|desc= <b>BASIC ATTACK:</b> <br />An attack with up to 5 sequences that deals {{Color|Physical DMG|1}}. As the controlled operator, {{G|Final Strike|Final Strike}} also deals {{Color|18|2}} Stagger. <br /><b>DIVE ATTACK:</b> <br />Basic attack performed in mid-air becomes a dive attack that deals {{Color|Physical DMG|1}} to nearby enemies. <br /><b>FINISHER:</b> <br />Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive {{Color|Physical DMG|1}} and recovers some SP.
+|stat1= BATK SEQ 1 Multiplier, 23%, 25%, 28%, 30%, 32%, 35%, 37%, 39%, 41%, 44%, 48%, 52%
+|stat2= BATK SEQ 2 Multiplier, 28%, 31%, 34%, 36%, 39%, 42%, 45%, 48%, 50%, 54%, 58%, 63%
+|stat3= BATK SEQ 3 Multiplier, 33%, 36%, 40%, 43%, 46%, 50%, 53%, 56%, 59%, 64%, 68%, 74%
+|stat4= BATK SEQ 4 Multiplier, 38%, 42%, 46%, 50%, 53%, 57%, 61%, 65%, 69%, 73%, 79%, 86%
+|stat5= BATK SEQ 5 Multiplier, 43%, 47%, 52%, 56%, 60%, 65%, 69%, 73%, 77%, 83%, 89%, 97%
+|stat6= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%
+|stat7= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%
+}}
+{{Combat skill
+|name= The Pulverizing Front
+|icon= Skill-Pogranichnik
+|type= {{SB|2}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Pogranichnik performs a 2-sequence slash attack at enemies in front of him, dealing {{Color|Physical DMG|1}}, applying {{G|Breach|Breach}}, and recovering SP based on the number of Vulnerability stacks {{G|Debuff Consumption|consumed}}. The SP recovery effect can only trigger 1 time, even if the skill hits multiple targets.
+|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
+|stat2= SEQ 1 DMG Multiplier, 86%, 94%, 103%, 111%, 120%, 128%, 137%, 145%, 154%, 165%, 177%, 192%
+|stat3= SEQ 1 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat4= SEQ 2 DMG Multiplier, 106%, 116%, 127%, 137%, 148%, 158%, 169%, 180%, 190%, 203%, 219%, 238%
+|stat5= SEQ 2 Stagger, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat6= SP Recovery by Consuming 1 Vulnerability Stack, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat7= SP Recovery by Consuming 2 Vulnerability Stacks, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 15
+|stat8= SP Recovery by Consuming 3 Vulnerability Stacks, 20, 20, 20, 20, 20, 20, 20, 20, 20, 25, 25, 25
+|stat9= SP Recovery by Consuming 4 Vulnerability Stacks, 30, 30, 30, 30, 30, 30, 30, 30, 30, 35, 35, 35
+}}
+{{Combat skill
+|name= Full Moon Slash
+|icon= Combo-Pogranichnik
+|type= {{SB|3}}
+|info= 
+|desc= <b>COMBO TRIGGER:</b> When {{G|Crush|Crush}} or {{G|Breach|Breach}} {{G|Debuff Consumption|consumes}} the enemy's {{G|Vulnerable|Vulnerability}} stack(s). <br /><b>SKILL DESCRIPTION:</b> Performs a number of slash sequences (up to 3) based on the max number of {{G|Vulnerable|Vulnerability}} stacks {{G|Debuff Consumption|consumed}} from one enemy, dealing {{Color|Physical DMG|1}} and recovering some SP. Each slash deals more DMG and gives better SP recovery. <br />{{Color|Consuming 4 stacks of Vulnerability enhances the 3rd slash sequence.|9}}
+|stat1= Cooldown, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 17
+|stat2= SEQ 1 DMG Multiplier, 42%, 46%, 50%, 55%, 59%, 63%, 67%, 71%, 76%, 81%, 87%, 95%
+|stat3= SEQ 1 Stagger, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+|stat4= SEQ 1 SP Recovery, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+|stat5= SEQ 2 DMG Multiplier, 54%, 59%, 65%, 70%, 76%, 81%, 86%, 92%, 97%, 104%, 112%, 122%
+|stat6= SEQ 2 Stagger, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+|stat7= SEQ 2 SP Recovery, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7
+|stat8= SEQ 3 DMG Multiplier, 66%, 73%, 79%, 86%, 92%, 99%, 106%, 112%, 119%, 127%, 137%, 149%
+|stat9= SEQ 3 Stagger, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+|stat10= SEQ 3 SP Recovery, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
+|stat11= Enhanced SEQ 3 DMG Multiplier, 132%, 145%, 158%, 172%, 185%, 198%, 211%, 224%, 238%, 254%, 274%, 297%
+|stat12= Enhanced SEQ 3 Stagger, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+|stat13= Enhanced SEQ 3 SP Recovery, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23
+|stat14= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+}}
+{{Combat skill
+|name= Shieldguard Banner, Forward
+|icon= Ult-Pogranichnik
+|type= {{SB|4}}
+|info= 
+|desc= <b>SKILL DESCRIPTION:</b> Summons 4 Shieldguards to advance and push all enemies along the way towards the target, dealing {{Color|Physical DMG|1}} while generating 5 points of {{Color|Steel Oath|7}}. After an enemy suffers a {{G|Physical Status|Physical Status}} or takes DMG from Pogranichnik's combo skill, Pogranichnik consumes 1 point of {{Color|Steel Oath|7}} and summons 1 Shieldguard to harass the said enemy, dealing {{Color|Physical DMG|1}} and recovering some SP. When the last {{Color|Steel Oath|7}} point is consumed, all 4 Shieldguards will initiate a Decisive Assault that deals massive {{Color|Physical DMG|1}} to the target while recovering plenty of SP.
+|stat1= Ultimate Energy Cost, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90
+|stat2= Steel Oath Duration, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+|stat3= Advance DMG Multiplier, 133%, 147%, 160%, 173%, 186%, 200%, 213%, 226%, 240%, 256%, 276%, 300%
+|stat4= Advance Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+|stat5= Harass DMG Multiplier, 45%, 49%, 53%, 58%, 62%, 67%, 71%, 76%, 80%, 86%, 92%, 100%
+|stat6= Harass SP Recovery, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 7.5, 10, 10, 10
+|stat7= Decisive Assault DMG Multiplier, 200%, 220%, 240%, 260%, 280%, 300%, 320%, 340%, 360%, 385%, 415%, 450%
+|stat8= Decisive Assault Stagger, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
+|stat9= Decisive Assault SP Recovery, 30, 30, 30, 30, 30, 30, 30, 30, 30, 40, 40, 40
+}}
+{{Skill upgrade head}}
+{{Skill upgrade cell|level=2|m1=Protoprism,6|m2=Kalkodendra,1|m3=T-Creds,1000}}
+{{Skill upgrade cell|level=3|m1=Protoprism,12|m2=Kalkodendra,2|m3=T-Creds,2700}}
+{{Skill upgrade cell|level=4|m1=Protoprism,16|m2=Chrysodendra,1|m3=T-Creds,3200}}
+{{Skill upgrade cell|level=5|m1=Protoprism,21|m2=Chrysodendra,1|m3=T-Creds,4200}}
+{{Skill upgrade cell|level=6|m1=Protoprism,27|m2=Chrysodendra,2|m3=T-Creds,5400}}
+{{Skill upgrade cell|level=7|m1=Protohedron,6|m2=Vitrodendra,1|m3=T-Creds,8200}}
+{{Skill upgrade cell|level=8|m1=Protohedron,8|m2=Vitrodendra,1|m3=T-Creds,10500}}
+{{Skill upgrade cell|level=9|m1=Protohedron,15|m2=Vitrodendra,2|m3=T-Creds,18000}}
+{{Skill upgrade cell|level=10|skill1=All-Out Offensive|skill2=The Pulverizing Front|skill3=Full Moon Slash|skill4=Shieldguard Banner, Forward|m11=Mark of Perseverance,1|m12=Protohedron,15|m13=Quadrant Fitting Fluid,6|m14=Blighted Jadeleaf,3|m15=T-Creds,24000|m21=Mark of Perseverance,1|m22=Protohedron,15|m23=Triphasic Nanoflake,6|m24=Blighted Jadeleaf,3|m25=T-Creds,24000|m31=Mark of Perseverance,1|m32=Protohedron,15|m33=Quadrant Fitting Fluid,6|m34=Blighted Jadeleaf,3|m35=T-Creds,24000|m41=Mark of Perseverance,1|m42=Protohedron,15|m43=Triphasic Nanoflake,6|m44=Blighted Jadeleaf,3|m45=T-Creds,24000}}
+{{Skill upgrade cell|level=11|skill1=All-Out Offensive|skill2=The Pulverizing Front|skill3=Full Moon Slash|skill4=Shieldguard Banner, Forward|m11=Mark of Perseverance,2|m12=Protohedron,24|m13=Quadrant Fitting Fluid,16|m14=Blighted Jadeleaf,6|m15=T-Creds,30000|m21=Mark of Perseverance,2|m22=Protohedron,24|m23=Triphasic Nanoflake,16|m24=Blighted Jadeleaf,6|m25=T-Creds,30000|m31=Mark of Perseverance,2|m32=Protohedron,24|m33=Quadrant Fitting Fluid,16|m34=Blighted Jadeleaf,6|m35=T-Creds,30000|m41=Mark of Perseverance,2|m42=Protohedron,24|m43=Triphasic Nanoflake,16|m44=Blighted Jadeleaf,6|m45=T-Creds,30000}}
+{{Skill upgrade cell|level=12|skill1=All-Out Offensive|skill2=The Pulverizing Front|skill3=Full Moon Slash|skill4=Shieldguard Banner, Forward|m11=Mark of Perseverance,3|m12=Protohedron,50|m13=Quadrant Fitting Fluid,36|m14=Blighted Jadeleaf,12|m15=T-Creds,65000|m21=Mark of Perseverance,3|m22=Protohedron,50|m23=Triphasic Nanoflake,36|m24=Blighted Jadeleaf,12|m25=T-Creds,65000|m31=Mark of Perseverance,3|m32=Protohedron,50|m33=Quadrant Fitting Fluid,36|m34=Blighted Jadeleaf,12|m35=T-Creds,65000|m41=Mark of Perseverance,3|m42=Protohedron,50|m43=Triphasic Nanoflake,36|m44=Blighted Jadeleaf,12|m45=T-Creds,65000}}
+{{Skill upgrade end}}
+
+==Talents==
+{{Operator talent
+|name = Stalwart
+|icon = Will
+|info = 
+|cond1 = Elite 1
+|desc1 = Operator Will +10.
+|cond2 = Elite 2
+|desc2 = Operator Will +15.
+|cond3 = Elite 3
+|desc3 = Operator Will +15.
+|cond4 = Elite 4
+|desc4 = Operator Will +20.
+}}
+{{Operator talent
+|name = The Living Banner
+|icon = Pogranichnik Talent 1 icon
+|info = 
+|cond1 = Elite 1
+|desc1 = During battle, recovering {{Color|80|1d}} SP with his own skills grants {{Color|Fervent Morale|7}} for {{Color|20|1d}}s. 
+{{Color|Fervent Morale|7}} effects: ATK {{Color|+4%|1d}} and Arts Intensity {{Color|+4|1d}}. 
+{{Color|This effect can reach 3 stacks. Duration of each stack is counted separately.|9}}
+|cond2 = Elite 2
+|desc2 = During battle, recovering {{Color|80|1d}} SP with his own skills grants {{Color|Fervent Morale|7}} for {{Color|20|1d}}s. 
+{{Color|Fervent Morale|7}} effects: ATK {{Color|+8%|1d}} and Arts Intensity {{Color|+8|1d}}. 
+{{Color|This effect can reach 3 stacks. Duration of each stack is counted separately.|9}}
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Tactical Instruction
+|icon = Pogranichnik Talent 2 icon
+|info = 
+|cond1 = Elite 2
+|desc1 = Ultimate {{Color|Shieldguard Banner, Forward|7}} improved: Any operator triggering the ultimate's subsequent effects also gains {{Color|Fervent Morale|7}} for {{Color|5|1d}}s. 
+{{Color|Requires activation of talent: The Living Banner.|9}}
+|cond2 = Elite 3
+|desc2 = Ultimate {{Color|Shieldguard Banner, Forward|7}} improved: Any operator triggering the ultimate's subsequent effects also gains {{Color|Fervent Morale|7}} for {{Color|10|1d}}s. 
+{{Color|Requires activation of talent: The Living Banner.|9}}
+|cond3 = 
+|desc3 = 
+}}
+{{Operator talent
+|name = Outfitting
+|icon = Gear icon
+|info = 
+|cond1 = Elite 1
+|desc1 = Activate this to let the operator equip blue quality gear
+|cond2 = Elite 2
+|desc2 = Activate this to let the operator equip purple quality gear
+|cond3 = Elite 3
+|desc3 = Activate this to let the operator equip gold quality gear
+}}
+{{Operator talent cost
+|type = Talent
+|attr = Will
+|acost = Protoprism x5, T-Creds x1000; Protoprism x10, T-Creds x1800; Protohedron x10, T-Creds x6000; Protohedron x20, T-Creds x12000;
+|tcost1 = Protoprism x12, T-Creds x2400; Protoprism x40, T-Creds x8600; -; -;
+|tcost2 = -; Protoprism x48, T-Creds x10000; Protohedron x28, T-Creds x24000; -;
+|gcost = T-Creds x1600; T-Creds x6500; T-Creds x18000; -;
+}}
+
+==Base Skills==
+{{Operator base skill
+|name = Hone the Weapons
+|icon = MFG-manufacture_efficiency
+|facility = Manufacturing Cabin
+|postfix1 = β
+|cond1 = Elite 1
+|desc1 = Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20%
+|postfix2 = γ
+|cond2 = Elite 3
+|desc2 = Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +30%
+}}
+{{Operator base skill
+|name = Morale Boost
+|icon = MFG-manufacture_power_consume
+|facility = Manufacturing Cabin
+|postfix1 = β
+|cond1 = Elite 2
+|desc1 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14%
+|postfix2 = γ
+|cond2 = Elite 4
+|desc2 = Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 18%
+}}
+{{Operator talent cost
+|type = Base Skill
+|bs1icon = MFG-manufacture_efficiency
+|bscost1 = Protoprism x6, T-Creds x1600; -; Protohedron x12, T-Creds x8000; -;
+|bs2icon = MFG-manufacture_power_consume
+|bscost2 = -; Protoprism x12, T-Creds x3000; -; Protohedron x20, T-Creds x20000;
+}}
+
+==Changelog==
+{{Changelog|
+* '''Zeroth Directive'''
+** Base Skill Expert MFG changed to Hone the Weapons
+*** Old: Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10% / 14%.
+*** New: Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20% / +30%.
+** Base Skill Factory Pioneer changed to Morale Boost
+*** Old: Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10% / +20%.
+*** New: Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14% / 18%.
+*'''Beta Test II''' introduced.}}
+
+==Navigation==
+{{Operators_nav}}

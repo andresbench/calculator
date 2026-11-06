@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Nefarith, "Conqueror"
+|image = Nefarith,_"Conqueror"_sprite.png
+|filename = eny_0079_nefarp2
+|cnname = 聂菲斯，“征服者”
+|tcname = 聶菲斯，「征服者」
+|jpname = 「征服者」ネファリス
+|krname = '정복자' 네파리스
+|spname = Nefarith, “Conquistadora”
+|runame = Неферит «Завоевательница»
+|type = Landbreakers
+|class = Boss
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 19
+}}
+'''Nefarith, "Conqueror"''' is a [[Boss enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The Conqueror's inner perception of herself. She does not hide her desire to lay waste to Civilization.}}
+
+==Stats==
+{{Enemy data
+|HP = 2631, 18878, 119450, 470257, 1131178, 1742611
+|ATK = 39, 186, 579, 1437, 2163, 2478
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 480
+|SR = 16
+|SD = 1.75
+|SPG = 100
+|AR = 12
+|Weight = 2
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *Constantly protected by an Æther shield that greatly reduces the DMG taken by the enemy. Interrupt the enemy's charge-up to temporarily disable the shield.
+*Tears the fabric of spacetime to immobilize your operators. Try to interrupt this skill if you can.
+*Traps your operators with an Ankhor. Attack the Ankhor to free them.
+|location = *[[Wuling City]]
+|drops = 
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+Nefarith's first form, [[Nefarith, "Bonekrusher"|"Bonekrusher"]].
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Boss enemies]]

@@ -1,0 +1,64 @@
+{{Enemy infobox
+|name = Æthillu
+|image = Æthillu_sprite.png
+|filename = eny_0095_ethillu
+|cnname = 表象
+|tcname = 表象
+|jpname = イーサルー
+|krname = 잔영
+|spname = Éthillu
+|runame = Эфирлюзия
+|type = Wildlife
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 16
+}}
+'''Æthillu''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A phantom that answered Ardashir's call. It is a manifestation of destruction, a sedimentation of ancient senescence.}}
+
+==Stats==
+{{Enemy data
+|HP = 111, 795, 5029, 19800, 47629, 73373
+|ATK = 49, 233, 723, 1796, 2703, 3097
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 80
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 7
+|Weight = 1
+|wphysical = 0.8
+|wfire = 0.8
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *This enemy has a powerful revival ability. The revived form has a longer attack range. It can also detonate itself to deal massive DMG.
+|location = *[[Marker Stone]]
+*[[Energy Alluvium: Marker Stone]]
+|drops = {{I|Echoing Dust}}
+|addendum = }}
+
+==Overview==
+Æthillu initially use a melee attack to strike its opponent, with no extra ability. After being defeated once, revives after a short delay, during which it is not attackable.
+
+The revived Æthillu (indicated by being glowed up) has extra abilities:
+*Attack more frequent, being more aggressive, attacks has longer range.
+*Lose HP over time.
+*When defeated, trigger an explosion at the location, dealing large AOE Aether DMG.
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]

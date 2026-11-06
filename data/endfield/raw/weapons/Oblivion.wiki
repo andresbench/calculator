@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Oblivion
+|rarity = 6
+|images = 
+Oblivion icon.png:Icon;
+Oblivion.png:Full;
+Oblivion max model.png:Max
+|filename = wpn_funnel_0009
+|cnname = 遗忘
+|tcname = 遺忘
+|jpname = 遺忘
+|krname = 망각
+|spname = Olvido
+|runame = Забвение
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Oblivion''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the Arts units developed by Witching Hour. With the exception of its basic Originium circuitries, the rest of the unit was constructed using an unknown material. Can this really be built in Talos-II?}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 145, 245, 345, 445, 495
+|pot = Skill {{Color|Twilight: Humiliation|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Metadiastima Photoemission Tube|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [L]|Arts DMG [L]|Twilight: Humiliation}}
+
+==Basic Info==
+{{Quote|I lived at a small village before I became an Endfielder. It was more like a makeshift camp. Both the UWST and TGCC had plans to develop the surrounding region. The area was jointly managed by the two organizations and we had all sorts of people. Despite the shoddiness of the place, it was lively and boisterous.<br>I remember a particular evening when I saw a few Sarkaz squatting in front of the door of my cabin and munching on their rations. They were members of the UWST crew, but none of them had their shirts on and bared their stocky bodies to the wind. All of them were typical Sarkaz, Oripathy-positive and capable of wielding the Arts. They were my people. When they saw me, they gave a rather embarrassed smile and moved a bit so I could leave my cabin.<br>Another UWST crew with the same outfits partied around a bonfire not too far away from them. They laughed, cheered, and munched on the same rations. They danced around the fire and sang songs from their homes.<br>"Munched on the same rations..."<br>I hope you understand what that meant, Supervisor Perlica.<br>Life for my people had changed a lot. My Grandpapa had lived for over 200 years and he would tell me stories about Kazdel. The other Talosians might tolerate us more than their ancestors did back in the days when Grandpapa lived on Terra. People no longer feared our Arts and Oripathy was no longer the killer it once was thanks to the efforts of numerous scientists and surgeons. I have many friends of other races and we all received the same education. However, thanks to our innate skills in the Arts and our powerful build, my people and I either became indispensable forces of labor or soldiers fighting against the Aggeloi and the Blight.<br>Things might look fair. Every crew mate and worker munched on the same rations.<br>But my people were left alone to themselves. Every race had fun at that bonfire party. Every race except for us.<br>Sometimes I'd think that the way people tolerated the Sarkaz was by forgetting that we *are* the Sarkaz. Is this a forced construct of "equality" built upon a deliberate exclusion and neglect of the differences that separate our histories, cultures, and languages?<br>The Talosian condition was a vast improvement over the Terran injustice we endured. During Grandpapa's times, my people would treat my words as paranoid ramblings and unrealistic demands of a pampered and insatiable child.<br>But I must ask this question. Who can protect the integrity and values of being a Sarkaz? My people would not earn respect if things go on like this. Instead, we could become a domesticated species serving the interests of others... Of course, I do know about Seš'qa, but I cannot bring myself to fully approve the path they have taken.<br>I chose to become an Endfielder because I believe that Endfield was not such a place. I was overjoyed to win the approval of my fellow Endfielders. I will also remember the time I spent with the Songseekers of the Circuit as well as the kind words that Martin Marvin Malen lavished me with. But I have my dreams, Endministrator and Supervisor Perlica. I have my own vision for the Sarkaz.<br>And so, I refuse to become an elite operator. <br>This is not yet the time.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

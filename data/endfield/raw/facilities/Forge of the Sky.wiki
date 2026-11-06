@@ -1,0 +1,30 @@
+{{Facility infobox
+|name = Forge of the Sky
+|filename = item_port_xiranite_oven_1
+|images = Forge of the Sky icon.png:Icon;
+Forge of the Sky.png:Full
+|cnname = 天有洪炉
+|tcname = 天有洪爐
+|jpname = 天有洪炉
+|krname = 천화로
+|spname = Forja del cielo
+|runame = Небесная кузница
+|type = Production II
+|rarity = 4
+|power = 50}}
+'''Forge of the Sky''' is an [[AIC]] [[Facilities|facility]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A facility for making Xiranite-based products.|The land is a cradle of wealth.}}
+==Usage==
+A facility for making Xiranite-based products.
+*Power Use : 50
+{{RecipeTable|facility={{PAGENAME}}|showFacility=false}}
+==Acquisition==
+*Requirement : [[AIC Plan#Wuling AIC Plan|Wuling AIC Plan - Wuling AIC I - Xiranite Forging]]
+*Production : PAC: Facility Construction
+{{RecipeTable|product=Forge of the Sky}}
+
+==Navigation==
+{{Facilities}}
+[[Category:Facilities]]
+[[Category:Production II Facilities]]

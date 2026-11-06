@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Great Sword
+|name = Seeker of Dark Lung
+|rarity = 5
+|images = 
+Seeker_of_Dark_Lung icon.png:Icon;
+Seeker_of_Dark_Lung.png:Full;
+Seeker_of_Dark_Lung max model.png:Max
+|filename = wpn_claym_0011
+|cnname = 探骊
+|tcname = 探驪
+|jpname = 探龍
+|krname = 검은 추적자
+|spname = Buscadora del Lung oscuro
+|runame = Искатель темного луна
+|type = Great Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Seeker of Dark Lung''' is a 5★ [[Great Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A standard greatsword developed by Hongshan Swordmancers. The weapon is furnished with a new specialized coating that offers excellent protection, even if the weapon were to be used in extreme and hostile environments.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 42, 120, 203, 286, 369, 411
+|pot = Skill {{Color|Detonate: Seeker of the Esoteric|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Great Sword|Strength [M]|ULT Efficiency [M]|Detonate: Seeker of the Esoteric}}
+
+==Basic Info==
+{{Quote|"Still couldn't match the test data?"<br>The research assistant's head was bowed as he felt his mentor's judgmental gaze fall heavily upon him.<br>The gaze was quickly followed by an even heavier sigh.<br>"Hooo. Ziyuan, help me with my memories. Was it three years ago when I made you the RA to the Xiranite Power Conversion project?"<br>The RA nodded and gave more details in a low voice.<br>"Yes. Three years, four months, and eight days."<br>"Then what about your senior in the lab next door? And then there's Mingshu who's also working on Xiranite. Heard anything about their research progress?"<br>"Yeah... I did."<br>"I'm afraid I got nothing much left to say. Perhaps you can ... consider your next steps. I'm still your mentor, so I'll gladly reserve a recommendation for a project transfer."<br><br>The hour was already late when the RA left the research building. The last classes had ended and he could see groups of young apprentices along the streets.<br>The RA took the usual way to Fangxing Avenue. He turned at the second corner and took around seven to eight steps before arriving at the tiny noodle stall.<br>"Braised meat noodles. No scallions."<br>The RA took his usual place and ordered his usual noodles. And as usual, the stall owner served the bowl of noodles without a word.<br>The RA took a bite and frowned. The noodle was too tough, and the meat too greasy. <br>"The flavors changed... What happened? Did you hire another chef?"<br>The stall owner glanced and smiled. He responded, a rare occasion at that.<br>"Boy, everything in this stall, from the noodles to the toppings, are made by me. And I made that bowl from yesterday as well. Perhaps it wasn't my noodles. It was you who changed... And if you're no longer interested in the noodles, why bother coming at all?"<br>The RA remained silent and then shook his head.<br>"You don't understand, sir... I spent three years on one thing... I kept at it for three whole years. They may have drew the curtains on it, but I'm not going to miss any step of the process... Plus, the noodles from yesterday were better."<br>"Hah. You're real stubborn, kid, you know that? You just couldn't give it up, so you tried finding issues with the noodles."<br>The RA gave a bitter smile and chose not to continue the argument.<br>"Maybe I couldn't give it up, but what could I do...?"<br>"The other RAs made significant progress in just a few months. They ventured in the dragon's lair and found its pearl... As for me... I'm still stuck at the same place after slogging at a single project for three years...<br>"I better switch to another project before this gets any worse."<br>The RA did not care if the stall owner understood how research works. He unloaded his pent-up bitterness and complaints that he dared not mention to his mentor or fellow RAs. <br>The stall owner stopped smiling and looked at him with a serious expression on his face.<br>"So you want to quit because you couldn't find the pearl."<br>"I..." the RA was speechless and could not respond to the question.<br>"You look like material scientist... Do you remember how many sets of experimental data you've gathered in these three years? How many alternatives you tried? And the number of references you compiled?"<br>"I think I did ... 353 runs, 172 material alternatives, 561 papers — Wait. No. 562, including the latest," he remembered the figures with some difficulty, but listing them suddenly gave him a sense of relief.<br>"Impressive. That's a lot of data right there. I'd say you've created quite the treasure."<br>"The results might be important, but the lessons learned along the way are just as vital as well..."<br>The RA was a little taken aback by these words, and exclaimed these words rather thoughtfully:<br>"I've been a Tianshi disciple for nearly eight years, but it was your simple words that helped me realize something so simple... Thank you very much, sir."<br>The stall owner shook his hands and looked as though he recalled something from the past. His gaze looked into the great distance.<br>"That's enough flattery, lad. Nobody likes that here... I just feel bad when I see a fine youth such as yourself think it's the end of the world, especially when it's obvious that there are many wonderful years ahead of you...<br>"My disciples are different. They actually did run into a solid wall. But still they persisted on charging through and carving out their own path..."<br>A smile suddenly creased across the stall owner's face, but it quickly disappeared like the hot steaming fumes given off by freshly-served noodles.<br>"But luck wasn't on their side... Ten years ago, those cheeky brats had the galls to tell me: 'We'll submit the graduation theses once we seal that rift, sir.' None of those blighted little punks ever came back..." <br><br>"Ten years ago...? What are you talking about...? Wait, you can't be that...?"<br><br>"I'll ending the story now... Just some sad, stupid tale from a stupid time.<br>"Hey, kid! Stop gawking at me and finish your noodles, damn your eyes!<br>"If the noodles drink in all the soup and goes soggy, you'll know!"}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Great Swords]]

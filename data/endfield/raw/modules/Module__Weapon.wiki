@@ -1,0 +1,66 @@
+local p = {}
+local data = {
+	weapon6 = mw.loadData('Module:Weapon/weapon6'),
+	weapon5 = mw.loadData('Module:Weapon/weapon5'),
+	weapon4 = mw.loadData('Module:Weapon/weapon4'),
+	weapon3 = mw.loadData('Module:Weapon/weapon3'),
+}
+local getArgs = require('Module:Arguments').getArgs
+local yesno = require('Module:Yesno')
+function p.main(frame)
+	local args = getArgs(frame, {
+		wrappers = 'Template:Weapon'
+	})
+	return p._main(args)
+end
+function p._main(args)
+	local key = args[1]
+	local weapon
+	for k, v in pairs(data) do
+		weapon = v[key]
+		if weapon then
+			break
+		end
+	end
+	if not weapon then
+		mw.log('Weapon data missing:', key)
+		return '&#32;<i>Weapon not found</i>&#32;' -- no entry.
+	end
+	local name = weapon.name
+	local title = weapon.title
+	local pagename = weapon.link or name
+	local text = args[2] or title or name
+	local attrs = {
+		['data-name'] = name,
+		['data-title'] = title,
+		['data-star'] = tonumber(weapon.star),
+		['data-class'] = weapon.class,
+	}
+	local gridview = yesno(args.g or args.gv or args.gridview)
+	local container = mw.html.create('')
+	if gridview then
+		local wrapper = container:tag('div')
+		:css{display='inline-block', position='relative', margin='5px'}
+		local a = wrapper:tag('div')
+		:addClass('a')
+		local dtooltip = a:tag('div')
+		:addClass('weapon-tooltip')
+		:attr(attrs)
+		:wikitext('[[File:'..name..' icon.png|60x60px|link='..pagename..'|alt='..text..']]')
+		local border = args.border
+		if border == 'limited' then
+			dtooltip:css('border', '1px solid #FF0000')
+		elseif border == 'limited2' then
+			dtooltip:css('border', '1px solid #FF8000')
+		elseif border == 'store' then
+			dtooltip:css('border', '1px solid #FFFF00')
+		end
+	else
+		local stooltip = container:tag('span')
+		:addClass('weapon-tooltip')
+		:attr(attrs)
+		:wikitext('[['..pagename..'|'..text..']]')
+	end
+	return container
+end
+return p

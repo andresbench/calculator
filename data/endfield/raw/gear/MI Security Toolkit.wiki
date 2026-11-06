@@ -1,0 +1,41 @@
+{{Gear infobox
+|name = MI Security Toolkit
+|image = MI_Security_Toolkit.png
+|filename = item_equip_t4_suit_criti01_edc_03
+|cnname = M.I.警用工具组
+|tcname = M. I.警用工具組
+|jpname = M.I.警備マルチツール
+|krname = M. I. 경찰용 다용도 공구
+|spname = Kit de herramientas de seguridad MI
+|runame = Мультитул охраны «Мьешко»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = *Purchase: Wuling Stock Redistribution
+*Stock Redistribution Terminal Upgrade
+}}
+'''MI Security Toolkit''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Mieszko Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment from the MI Security series. 
+"Thanks, officer! I swear this'll be the last time I'm calling the police this month for forgetting my keys! PROMISE!"}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Intellect
+|pvalue = +32, +35, +38, +41
+|sstat = Agility
+|svalue = +21, +23, +25, +27
+|tstat = Critical Rate
+|tvalue = +10.3%, +11.4%, +12.4%, +13.5%
+|setname = MI Security
+|seteffect = 3-piece set effect: Wearer's Critical Rate {{Color|+5%|1d}}. 
+After the wearer scores a critical hit, the wearer gains ATK {{Color|+5%|1d}} for 5s. This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate {{Color|+5%|1d}}. This effect cannot stack.
+|recipe = {{I|Wuling Stock Bill|8000}} {{I|Xiranite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|MI Security}}
+{{Gears|state=collapsed}}

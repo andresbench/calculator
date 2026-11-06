@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Mordvolt Insulation Vest T2
+|image = Mordvolt_Insulation_Vest_T2.png
+|filename = item_equip_t3_suit_wisd01_body_02
+|cnname = 蚀电屏蔽背心·贰型
+|tcname = 蝕電絕緣背心·II
+|jpname = 蝕電遮断ベストⅡ
+|krname = 침식 차단 조끼 · II
+|spname = Chaleco de aislamiento de Mordvolt T2
+|runame = Изолированный жилет «Мортвольт» К2
+|rarity = 4
+|artifice = no
+|type = Armor
+|level = 50
+|region = Valley IV
+|source = Reward: Authority Level-Up
+}}
+'''Mordvolt Insulation Vest T2''' is a {{gear|4|Armor}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A piece of equipment essential for special environment operations. 
+Severe Blight events often cause anomalous electrical and circuitry failures. Workers assigned to repair work must watch out for them.}}
+
+==Stats==
+{{Gear data
+|defense = +40
+|pstat = Intellect
+|pvalue = +61
+|sstat = Will
+|svalue = +41
+|tstat = HP
+|tvalue = +14.7%
+|setname = Mordvolt Insulation
+|seteffect = 3-piece set effect: Wearer's Intellect {{Color|+50|1d}}. 
+When the wearer's HP is above 80%, {{Color|Arts DMG|7}} {{Color|+20%|1d}}.
+|recipe = {{I|Valley Stock Bill|9600}} {{I|Cryston Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Mordvolt Insulation}}
+{{Gears|state=collapsed}}

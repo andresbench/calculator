@@ -1,0 +1,78 @@
+# Rossi. Razor Clawmark is the main source of DMG Taken in physical teams.
+operator: Rossi
+
+talents:
+  - name: Skirmisher
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Agility +10.", apply: [{stat: attr, attribute: AGL, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Agility +20.", apply: [{stat: attr, attribute: AGL, value: 20}]}
+
+  - name: Nicks and Scratches
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      DMG Taken is a target group, separate from the caster's DMG Bonus.
+      The engine does not produce the mark's periodic damage as instances.
+    levels:
+      - condition: Elite 1
+        seen: |-
+          Battle skill improved: After Wolven Ambrage deals DMG, Rossi applies Razor Clawmark to the target for 15s. This effect cannot stack.
+          For the duration of Razor Clawmark, the target takes 25% ATK (Rossi's) of Physical DMG per second and suffers Physical DMG Taken and Heat DMG Taken +6%.
+        apply:
+          - {stat: dmg_taken, element: Physical, value: 6, duration: 15, trigger: "cast:Battle Skill", target: enemy, name: Razor Clawmark}
+          - {stat: dmg_taken, element: Heat, value: 6, duration: 15, trigger: "cast:Battle Skill", target: enemy, name: Razor Clawmark}
+        unmodeled: "25 % ATK per second — a periodic instance"
+      - condition: Elite 2
+        seen: |-
+          Battle skill improved: After Wolven Ambrage deals DMG, Rossi applies Razor Clawmark to the target for 25s. This effect cannot stack.
+          For the duration of Razor Clawmark, the target takes 30% ATK (Rossi's) of Physical DMG per second and suffers Physical DMG Taken and Heat DMG Taken +12%.
+        apply:
+          - {stat: dmg_taken, element: Physical, value: 12, duration: 25, trigger: "cast:Battle Skill", target: enemy, name: Razor Clawmark}
+          - {stat: dmg_taken, element: Heat, value: 12, duration: 25, trigger: "cast:Battle Skill", target: enemy, name: Razor Clawmark}
+        unmodeled: "30 % ATK per second — a periodic instance"
+
+  - name: Seething Blood
+    levels:
+      - condition: Elite 2
+        unmodeled: "an extra hit on crit; the engine does not produce instances from effects"
+      - condition: Elite 3
+        unmodeled: "an extra 24 % ATK hit on crit; the engine does not produce instances from effects"
+
+potentials:
+  - rank: 1
+    confidence: confirmed
+    seen: |-
+      Battle skill Crimson Shadow and combo skill Moment of Blazing Shadow improved: The DMG Multipliers of these skills are increased to 1.15 times of the original.
+      Wolven Ambrage of the battle skill also returns 10 SP after hitting the enemy.
+    apply:
+      - {stat: skill_multiplier, skill: Crimson Shadow, value: 1.15}
+      - {stat: skill_multiplier, skill: Moment of Blazing Shadow, value: 1.15}
+      - {stat: sp_return, value: 10, trigger: "cast:Battle Skill", target: self}
+  - rank: 2
+    confidence: confirmed
+    seen: "Agility +20, Critical Rate +7%."
+    apply:
+      - {stat: attr, attribute: AGL, value: 20}
+      - {stat: crit_rate, value: 7}
+  - rank: 3
+    unmodeled: "the «crit on a marked target» trigger cannot be expressed in the vocabulary, and Base DMG Multiplier +8 % cannot be applied without it"
+  - rank: 4
+    confidence: confirmed
+    seen: 'Ultimate "Razorclaw" Ambuscade improved: Ultimate Energy cost -15%.'
+    apply: [{stat: ult_cost_pct, value: -15}]
+  - rank: 5
+    confidence: inferred
+    seen: 'Ultimate "Razorclaw" Ambuscade improved: DMG Multiplier is increased to 1.1 times of the original; Critical DMG Dealt is increased by +30%.'
+    evidence: "«Ultimate … improved: … Critical DMG Dealt is increased» — read as the ultimate's own crit damage, like its «Critical DMG Boost» row"
+    apply:
+      - {stat: skill_multiplier, skill: '"Razorclaw" Ambuscade', value: 1.1}
+      - {stat: crit_dmg, skill: '"Razorclaw" Ambuscade', value: 30}

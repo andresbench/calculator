@@ -1,0 +1,57 @@
+{{Enemy infobox
+|name = Gloomwald's Rage
+|image = Gloomwald's_Rage_sprite.png
+|filename = eny_0127_bigents
+|cnname = 幽林之怒
+|tcname = 幽林之怒
+|jpname = 樹海の怒
+|krname = 깊은 숲의 분노
+|spname = Furia de Gloomwald
+|runame = Ярость Мраколесья
+|type = Witchcraft Creation
+|class = Alpha
+|attack = 
+|damage = 
+|base = 
+|upgrade = |sortId = 3
+}}
+'''Gloomwald's Rage''' is an [[Alpha enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A giant battle puppet created by a Snowpriestess. It had taken its master's command to roam and scour the boundless realm of mist until the moment when it realized that it was abandoned, until it became the vessel bearing the entire rage of a deep snowy forest.}}
+
+==Stats==
+{{Enemy data
+|HP = 3210, 15897, 100590, 396006, 952571, 1467462
+|ATK = 66, 310, 965, 2395, 3604, 4130
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 400
+|SR = 8
+|SD = 1.5
+|SPG = 50
+|AR = 2.8
+|Weight = 1.5
+|wphysical = 1
+|wfire = 1
+|welectric = 0.8
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Gloomwald's Rage will leave vines on the ground. An operator who steps on them will continuously take DMG and become Slowed.
+*Gloomwald's Rage will summon Woodcraft Wanderers to assist it in battle.
+|location = *[[Snowy Forest]]
+|drops = 
+|addendum = }}
+
+==Overview==
+* '''INNATE:''' '''Gloomwald's Rage''' has 5 [[Shield Stack]]s.
+* After some time of having no Shield Stacks, recovers all 5 Shield Stacks.
+
+==See Also==
+
+
+==Changelog==
+
+
+==Navigation==
+{{Enemies}}
+[[Category:Alpha enemies]]

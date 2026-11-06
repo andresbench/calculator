@@ -1,0 +1,949 @@
+{
+ "meta": {
+  "source": "client datamine: Json/SkillData (frames), TableCfg/SkillPatchTable (atb)",
+  "upstream": {
+   "url": "https://github.com/rmxlinux/EndfieldData.git",
+   "sha": "d847759f71d4549aba4727b3b0ac1a1ad0e37742"
+  },
+  "fps": 30,
+  "generator": "tools/ef/frames.py --export"
+ },
+ "operators": {
+  "Akekuri": {
+   "id": "chr_0019_karin",
+   "finalStrikeSp": 19.0,
+   "sequenceSeconds": 3.2,
+   "finalStrikeSeconds": 1.2,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.3667,
+     "from": "exclusive",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.3,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.8667,
+     "from": "ultimateTime",
+     "cutscene": 1.8667
+    }
+   }
+  },
+  "Alesh": {
+   "id": "chr_0024_deepfin",
+   "finalStrikeSp": 19.0,
+   "sequenceSeconds": 3.2,
+   "finalStrikeSeconds": 1.0667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.7,
+     "from": "exclusive",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.3333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.6,
+     "from": "ultimateTime",
+     "cutscene": 2.6
+    }
+   }
+  },
+  "Antal": {
+   "id": "chr_0023_antal",
+   "finalStrikeSp": 15.0,
+   "sequenceSeconds": 3.3,
+   "finalStrikeSeconds": 1.3,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.0333,
+     "from": "exclusive",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.4333,
+     "from": "ultimateTime",
+     "cutscene": 1.4333
+    }
+   }
+  },
+  "Arcane": {
+   "id": "chr_0032_lizhiyan",
+   "finalStrikeSp": 17.0,
+   "sequenceSeconds": 3.6333,
+   "finalStrikeSeconds": 1.3667,
+   "chain": "closed",
+   "battleSkillEntity": {
+    "hits": 2,
+    "staggering": 2
+   },
+   "skillWindows": {
+    "BS": {
+     "seconds": 0.8333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.5667,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.6,
+     "from": "ultimateTime",
+     "cutscene": 1.6
+    }
+   }
+  },
+  "Arclight": {
+   "id": "chr_0007_ikut",
+   "finalStrikeSp": 17.0,
+   "sequenceSeconds": 3.3333,
+   "finalStrikeSeconds": 1.0,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.2333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.9333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.9,
+     "from": "ultimateTime",
+     "cutscene": 1.9
+    }
+   }
+  },
+  "Ardelia": {
+   "id": "chr_0025_ardelia",
+   "finalStrikeSp": 18.0,
+   "sequenceSeconds": 4.3333,
+   "finalStrikeSeconds": 1.7,
+   "chain": "closed",
+   "uncertain": "-13.9 frames off a community measurement",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.6,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.7,
+     "from": "ultimateTime",
+     "cutscene": 2.7
+    }
+   }
+  },
+  "Argent Flow": {
+   "id": "chr_0037_minghe",
+   "finalStrikeSp": 25.0,
+   "sequenceSeconds": 4.3,
+   "finalStrikeSeconds": 1.5,
+   "chain": "open",
+   "uncertain": "the chain does not close; exclusiveFrame guess",
+   "skillWindows": {
+    "CS": {
+     "seconds": 1.2333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.1,
+     "from": "ultimateTime",
+     "cutscene": 2.1
+    }
+   }
+  },
+  "Avywenna": {
+   "id": "chr_0012_avywen",
+   "finalStrikeSp": 19.0,
+   "sequenceSeconds": 3.4667,
+   "finalStrikeSeconds": 1.5333,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.1667,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.7333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.5333,
+     "from": "ultimateTime",
+     "cutscene": 1.5333
+    }
+   }
+  },
+  "Camille": {
+   "id": "chr_0033_camille",
+   "finalStrikeSp": 20.0,
+   "sequenceSeconds": 3.6,
+   "finalStrikeSeconds": 1.4,
+   "chain": "open",
+   "uncertain": "the chain does not close; exclusiveFrame guess; -6.0 frames off a community measurement",
+   "battleSkillFuse": 0.4,
+   "skillWindows": {
+    "BS": {
+     "seconds": 0.6333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.7333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.3333,
+     "from": "hideUi",
+     "cutscene": 2.3333
+    }
+   }
+  },
+  "Catcher": {
+   "id": "chr_0020_meurs",
+   "finalStrikeSp": 25.0,
+   "sequenceSeconds": 3.9667,
+   "finalStrikeSeconds": 1.5333,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 3.2,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.3,
+     "from": "ultimateTime",
+     "cutscene": 1.3
+    }
+   }
+  },
+  "Chen Qianyu": {
+   "id": "chr_0005_chen",
+   "finalStrikeSp": 18.0,
+   "sequenceSeconds": 3.3333,
+   "finalStrikeSeconds": 1.1,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 0.8667,
+     "from": "allowNext",
+     "other": 0.2667,
+     "measured": true
+    },
+    "CS": {
+     "seconds": 0.8,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.6667,
+     "from": "ultimateTime",
+     "cutscene": 1.6667
+    }
+   }
+  },
+  "Da Pan": {
+   "id": "chr_0018_dapan",
+   "finalStrikeSp": 21.0,
+   "sequenceSeconds": 3.6333,
+   "finalStrikeSeconds": 1.5333,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 2.2,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.5667,
+     "from": "hideUi",
+     "cutscene": 1.5667
+    }
+   }
+  },
+  "Ember": {
+   "id": "chr_0009_azrila",
+   "finalStrikeSp": 28.0,
+   "sequenceSeconds": 4.4333,
+   "finalStrikeSeconds": 1.7667,
+   "chain": "open",
+   "uncertain": "the chain does not close; exclusiveFrame guess",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.7333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.3667,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.6333,
+     "from": "ultimateTime",
+     "cutscene": 1.6333
+    }
+   }
+  },
+  "Endministrator (female)": {
+   "id": "chr_0003_endminf",
+   "finalStrikeSp": 20.0,
+   "sequenceSeconds": 3.3333,
+   "finalStrikeSeconds": 0.8667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 0.8333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8,
+     "from": "allowNext",
+     "measured": true
+    },
+    "ULT": {
+     "seconds": 1.5,
+     "from": "ultimateTime",
+     "cutscene": 1.5,
+     "measured": true
+    }
+   }
+  },
+  "Endministrator (male)": {
+   "id": "chr_0002_endminm",
+   "finalStrikeSp": 20.0,
+   "sequenceSeconds": 3.3333,
+   "finalStrikeSeconds": 0.8667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 0.8333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8333,
+     "from": "allowNext",
+     "measured": true
+    },
+    "ULT": {
+     "seconds": 1.5,
+     "from": "ultimateTime",
+     "cutscene": 1.5,
+     "measured": true
+    }
+   }
+  },
+  "Estella": {
+   "id": "chr_0021_whiten",
+   "finalStrikeSp": 19.0,
+   "sequenceSeconds": 3.5667,
+   "finalStrikeSeconds": 1.5667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.5333,
+     "from": "exclusive",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.7,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.8333,
+     "from": "ultimateTime",
+     "cutscene": 1.8333
+    }
+   }
+  },
+  "Fluorite": {
+   "id": "chr_0022_bounda",
+   "finalStrikeSp": 15.0,
+   "sequenceSeconds": 3.7,
+   "finalStrikeSeconds": 1.7667,
+   "chain": "closed",
+   "battleSkillFuse": 3.3,
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.1667,
+     "from": "exclusive",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.6,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.9,
+     "from": "ultimateTime",
+     "cutscene": 1.9
+    }
+   }
+  },
+  "Gilberta": {
+   "id": "chr_0013_aglina",
+   "finalStrikeSp": 16.0,
+   "sequenceSeconds": 3.5667,
+   "finalStrikeSeconds": 1.3667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 4.1333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.8,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.7667,
+     "from": "ultimateTime",
+     "cutscene": 1.7667
+    }
+   }
+  },
+  "Laevatain": {
+   "id": "chr_0016_laevat",
+   "finalStrikeSp": 20.0,
+   "sequenceSeconds": 3.3,
+   "finalStrikeSeconds": 1.1667,
+   "chain": "closed",
+   "enhancedChain": {
+    "sequences": 4,
+    "sequenceSeconds": 3.2333,
+    "finalStrikeSeconds": 1.2,
+    "finalStrikeSp": 22.0,
+    "finalStrikeStagger": 24.0,
+    "dealtAs": "Basic Attack"
+   },
+   "finalStrikeStacks": {
+    "buff": "buff_chr_0016_laevat_energy",
+    "count": 1
+   },
+   "battleSkillDuringUltimate": {
+    "hits": 3,
+    "inflicting": [
+     1,
+     2
+    ]
+   },
+   "battleSkillEntity": {
+    "hits": 11,
+    "staggering": 1
+   },
+   "skillWindows": {
+    "BS": {
+     "seconds": 3.9333,
+     "from": "exclusive",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.4,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.0667,
+     "from": "ultimateTime",
+     "cutscene": 2.0667
+    }
+   }
+  },
+  "Last Rite": {
+   "id": "chr_0026_lastrite",
+   "finalStrikeSp": 30.0,
+   "sequenceSeconds": 4.5,
+   "finalStrikeSeconds": 1.5667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.1667,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 2.2,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.8667,
+     "from": "ultimateTime",
+     "cutscene": 2.8667
+    }
+   }
+  },
+  "Lifeng": {
+   "id": "chr_0015_lifeng",
+   "finalStrikeSp": 21.0,
+   "sequenceSeconds": 3.1667,
+   "finalStrikeSeconds": 1.2,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 2.2667,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.7,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.9,
+     "from": "ultimateTime",
+     "cutscene": 1.9
+    }
+   }
+  },
+  "Liino": {
+   "id": "chr_0035_liino",
+   "finalStrikeSp": 20.0,
+   "sequenceSeconds": 3.5667,
+   "finalStrikeSeconds": 0.9667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.7,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 2.3,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.6,
+     "from": "ultimateTime",
+     "cutscene": 2.6
+    }
+   }
+  },
+  "Mi Fu": {
+   "id": "chr_0031_mifu",
+   "finalStrikeSp": 28.0,
+   "sequenceSeconds": 3.9,
+   "finalStrikeSeconds": 1.3,
+   "chain": "closed",
+   "uncertain": "-16.0 frames off a community measurement",
+   "skillWindows": {
+    "CS": {
+     "seconds": 1.2,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.4,
+     "from": "ultimateTime",
+     "cutscene": 2.4
+    }
+   }
+  },
+  "Perlica": {
+   "id": "chr_0004_pelica",
+   "finalStrikeSp": 15.0,
+   "sequenceSeconds": 3.9333,
+   "finalStrikeSeconds": 1.8333,
+   "chain": "closed",
+   "uncertain": "+12.2 frames off a community measurement",
+   "skillWindows": {
+    "BS": {
+     "seconds": 0.9667,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8667,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.7,
+     "from": "ultimateTime",
+     "cutscene": 1.7
+    }
+   }
+  },
+  "Pogranichnik": {
+   "id": "chr_0029_pograni",
+   "finalStrikeSp": 20.0,
+   "sequenceSeconds": 3.2333,
+   "finalStrikeSeconds": 0.8333,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.5333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 2.2333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.5333,
+     "from": "ultimateTime",
+     "cutscene": 2.5333
+    }
+   }
+  },
+  "Purrchena": {
+   "id": "chr_0038_purrche",
+   "finalStrikeSp": 23.0,
+   "sequenceSeconds": 3.9667,
+   "finalStrikeSeconds": 1.6,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 0.4333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.9,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 4.5333,
+     "from": "hideUi",
+     "cutscene": 4.5333
+    }
+   }
+  },
+  "Rossi": {
+   "id": "chr_0028_wulfa",
+   "finalStrikeSp": 21.0,
+   "sequenceSeconds": 4.0667,
+   "finalStrikeSeconds": 1.5333,
+   "chain": "closed",
+   "uncertain": "-2.8 frames off a community measurement",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.3,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "ULT": {
+     "seconds": 1.9333,
+     "from": "ultimateTime",
+     "cutscene": 1.9333
+    }
+   }
+  },
+  "Si": {
+   "id": "chr_0036_jsspsi",
+   "finalStrikeSp": 20.0,
+   "sequenceSeconds": 3.5667,
+   "finalStrikeSeconds": 1.0667,
+   "chain": "closed",
+   "battleSkillEntity": {
+    "hits": 2,
+    "staggering": 2
+   },
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.1667,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.7,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.9667,
+     "from": "ultimateTime",
+     "cutscene": 1.9667
+    }
+   }
+  },
+  "Snowshine": {
+   "id": "chr_0014_aurora",
+   "finalStrikeSp": 25.0,
+   "sequenceSeconds": 4.1333,
+   "finalStrikeSeconds": 2.0667,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 4.5333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.5333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.0333,
+     "from": "ultimateTime",
+     "cutscene": 2.0333
+    }
+   }
+  },
+  "Tangtang": {
+   "id": "chr_0027_tangtang",
+   "finalStrikeSp": 18.0,
+   "sequenceSeconds": 3.8667,
+   "finalStrikeSeconds": 1.2333,
+   "chain": "closed",
+   "uncertain": "+4.4 frames off a community measurement",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.7,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.0667,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.7667,
+     "from": "ultimateTime",
+     "cutscene": 2.7667
+    }
+   }
+  },
+  "Typhoeus": {
+   "id": "chr_0034_typhoea",
+   "finalStrikeSp": 21.0,
+   "sequenceSeconds": 3.9667,
+   "finalStrikeSeconds": 1.5667,
+   "chain": "closed",
+   "skillWindows": {
+    "CS": {
+     "seconds": 1.6333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.1,
+     "from": "ultimateTime",
+     "cutscene": 2.1
+    }
+   }
+  },
+  "Wulfgard": {
+   "id": "chr_0006_wolfgd",
+   "finalStrikeSp": 18.0,
+   "sequenceSeconds": 4.5,
+   "finalStrikeSeconds": 1.7667,
+   "chain": "open",
+   "uncertain": "the chain does not close; exclusiveFrame guess",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.1,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 1.0333,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.5667,
+     "from": "ultimateTime",
+     "cutscene": 1.5667
+    }
+   }
+  },
+  "Xaihi": {
+   "id": "chr_0011_seraph",
+   "finalStrikeSp": 15.0,
+   "sequenceSeconds": 3.4333,
+   "finalStrikeSeconds": 1.1333,
+   "chain": "closed",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.0333,
+     "from": "exclusive",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8667,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 1.5333,
+     "from": "ultimateTime",
+     "cutscene": 1.5333
+    }
+   }
+  },
+  "Yvonne": {
+   "id": "chr_0017_yvonne",
+   "finalStrikeSp": 17.0,
+   "sequenceSeconds": 3.0667,
+   "finalStrikeSeconds": 1.2667,
+   "chain": "closed",
+   "uncertain": "-15.8 frames off a community measurement",
+   "ultimateBarrage": {
+    "opens": 61,
+    "moves": [
+     {
+      "frames": 22,
+      "hits": [
+       9,
+       15,
+       21
+      ],
+      "stacking": [
+       true,
+       true,
+       true
+      ]
+     },
+     {
+      "frames": 24,
+      "hits": [
+       11,
+       14,
+       17,
+       21
+      ],
+      "stacking": [
+       true,
+       true,
+       true,
+       false
+      ]
+     },
+     {
+      "frames": 13,
+      "hits": [
+       1,
+       4,
+       7,
+       11
+      ],
+      "stacking": [
+       true,
+       true,
+       true,
+       false
+      ]
+     },
+     {
+      "frames": 29,
+      "hits": [
+       13,
+       15,
+       17,
+       19,
+       21,
+       23,
+       25,
+       27
+      ],
+      "stacking": [
+       true,
+       true,
+       true,
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     },
+     {
+      "frames": 17,
+      "hits": [
+       1,
+       3,
+       5,
+       7,
+       9,
+       11,
+       13,
+       15
+      ],
+      "stacking": [
+       true,
+       true,
+       true,
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    ],
+    "loop": 4,
+    "stackCap": 10,
+    "end": {
+     "hit": 28,
+     "frames": 61
+    },
+    "dealtAs": "Basic Attack"
+   },
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.1667,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.6667,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.0667,
+     "from": "ultimateTime",
+     "cutscene": 2.0667
+    }
+   }
+  },
+  "Zhuang Fangyi": {
+   "id": "chr_0030_zhuangfy",
+   "finalStrikeSp": 18.0,
+   "sequenceSeconds": 4.2667,
+   "finalStrikeSeconds": 1.7,
+   "chain": "closed",
+   "uncertain": "+4.9 frames off a community measurement",
+   "skillWindows": {
+    "BS": {
+     "seconds": 1.5333,
+     "from": "allowNext",
+     "other": 0.2667
+    },
+    "CS": {
+     "seconds": 0.8667,
+     "from": "allowNext"
+    },
+    "ULT": {
+     "seconds": 2.6333,
+     "from": "ultimateTime",
+     "cutscene": 2.6333
+    }
+   }
+  }
+ }
+}

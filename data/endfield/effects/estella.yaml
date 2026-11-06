@@ -1,0 +1,59 @@
+# Estella. Cryo Guard: Solidification, Physical Susceptibility from her
+# combo on a Solidified target, Shatter. Nothing here touches damage except
+# the attribute talent and P3/P4 — her damage is in her skill rows.
+operator: Estella
+
+talents:
+  - name: Stalwart
+    stacking: cumulative
+    confidence: confirmed
+    evidence: "attribute talents add up (measurements, #22)"
+    levels:
+      - {condition: Elite 1, seen: "Operator Will +10.", apply: [{stat: attr, attribute: WIL, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Will +15.", apply: [{stat: attr, attribute: WIL, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Will +15.", apply: [{stat: attr, attribute: WIL, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Will +20.", apply: [{stat: attr, attribute: WIL, value: 20}]}
+
+  - name: Commiseration
+    levels:
+      - condition: Elite 1
+        seen: "When triggering Shatter, the next battle skill Onomatopoeia cast returns 7.5 SP. This effect cannot stack."
+        unmodeled: "SP returned by the next battle skill after Shatter — the track has no «next cast returns SP» trigger yet"
+      - condition: Elite 2
+        seen: "When triggering Shatter, the next battle skill Onomatopoeia cast returns 15 SP. This effect cannot stack."
+        unmodeled: "SP returned by the next battle skill after Shatter — the track has no «next cast returns SP» trigger yet"
+
+  - name: Laziness Pays Off Now
+    levels:
+      - condition: Elite 2
+        seen: "Ignores Cryo Infliction and takes -10% Cryo DMG."
+        unmodeled: "damage taken by Estella — defence"
+      - condition: Elite 3
+        seen: "Ignores Cryo Infliction and takes -20% Cryo DMG."
+        unmodeled: "damage taken by Estella — defence"
+
+potentials:
+  - rank: 1
+    confidence: inferred
+    seen: "Combo skill Distortion improved: Physical Susceptibility duration +3s."
+    grants:
+      - {term: Physical Susceptibility, skillType: Combo Skill, durationDelta: 3}
+  - rank: 2
+    confidence: inferred
+    seen: "Ultimate Tremolo improved: Ultimate Energy cost -10%."
+    apply: [{stat: ult_cost_pct, value: -10}]
+  - rank: 3
+    confidence: inferred
+    seen: "Battle skill Onomatopoeia improved: Freezing sound wave range +50% and DMG Dealt +40% to the first enemy hit."
+    apply:
+      - {stat: dmg_bonus, skill: Onomatopoeia, value: 40}
+    note: "«to the first enemy hit» — one dummy, so every hit of the battle skill"
+  - rank: 4
+    confidence: inferred
+    seen: "Will +10, Strength +10."
+    apply:
+      - {stat: attr, attribute: WIL, value: 10}
+      - {stat: attr, attribute: STR, value: 10}
+  - rank: 5
+    seen: "After applying Solidification to an enemy, Estella gains 5 Ultimate Energy. Effect can only trigger once every 1s."
+    unmodeled: "ultimate energy from effects cannot be expressed in the vocabulary"

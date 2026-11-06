@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Forgeborn Scathe
+|rarity = 6
+|images = 
+Forgeborn_Scathe icon.png:Icon;
+Forgeborn_Scathe.png:Full;
+Forgeborn_Scathe max model.png:Max
+|filename = wpn_sword_0006
+|cnname = 熔铸火焰
+|tcname = 熔鑄火焰
+|jpname = フレイムフォージ
+|krname = 용조의 불꽃
+|spname = Azote forjado
+|runame = Гнев кузни
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Forgeborn Scathe''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|One of the razor-edged weaponry forged by Witching Hour. Special smelting processes resulted in a wholly red blade. The Arts Unit is actually a special liquefied Originium that resembles a tear of blood shed from a forge.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 52, 149, 252, 355, 458, 510
+|pot = Skill {{Color|Twilight: Blazing Wail|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Intellect [L]|ATK [L]|Twilight: Blazing Wail}}
+
+==Basic Info==
+{{Quote|It was late at night. You saw smoke billowing from the next door workshop. The ringing of hammer striking the anvil could be heard within a three block radius. It was deliberate. It was loud.<br>"What is she trying to prove?" you didn't want to care, but suddenly remembered the maniac next door mumbling about the near-completion of her work. Thus, you turned around and headed next door while putting on your jacket, all the while mumbling this to yourself, "Talos forbid if she actually forges it."<br>Glowing embers floated through the gap of the workshop door. You now regret putting on the jacket as the place was terrifyingly hot. The light of the fire also lured in the tramp who lived three blocks away. She wore something cooler, and started scoffing at you right from the get-go.<br>"Idiot. Look at you, all bundled up. When was the last time you lit your smithy's furnace?" The tramp always talked like this since she could crawl. She envenomed her weapons with her spit.<br>You ignored her and pushed open the door. The entire house was awash by the fiery glow of the forge. The maniac stood besides it, and unleashed a hysterical riot of a laughter when she saw you two enter her workshop.<br>"You're too late! I shall be the one giving life to this weapon!" The maniac was wholly drenched in sweat. You saw only fanatical zealotry on her face.<br>The tramp got closer to the forge and studied the roiling hot ferrium. Her tone turned somber as she delivered these words: "This is bad. She's going to forge it."<br>Envy surged from your guts. You felt like vomiting.<br>You hated each other's guts, but the three of you were once the best of friends. You forgot how the hate actually started, or you grew up together. Even all those evenings you spent drinking together escaped your memories. The only thing you recalled was that prophecy spreading throughout Seš'qa: "A legendary weapon shall be born this winter. And only three smiths could hope to achieve this feat." As luck (or misfortune) would have it, the three of you happen to be the best smiths of the city.<br>Since then, all three of you became obsessed with forging the legendary weapon before the other two. Every meeting became a scheme and an attempt to beat the other senseless and throw them out of the city.<br>Both you and the tramp had nothing to say at this moment. A skilled smith need only look at the fire to know the immense power it held. The maniac worked the bellows to raise the furnace temperature, but try as she might, the furnace refused to get any hotter. She sighed and wiped away the sweat from her face.<br>The tramp's face darkened as she gloated: "You are going to fail."<br>The maniac, however, did not even bat an eye at you. She simply laughed: "Far from it!" And with that, she slit open her throat. Hot blood gushed out like lava and flowed into the furnace.<br>You and the tramp stretched out your hands together but it was too late. The maniac fell into the furnace and a deafening explosion echoed throughout the town. Fire spluttered out of the furnace chamber and spread throughout the entire workshop. The flames roared with greater fury and threatened to end the night itself. Even the skies feared what was about to happen, and desperately unloaded a great snow to put out the fire.<br>As the temperature continued its rapid rise, you looked at the tramp for a word. But decades of tacit understanding tell you that nothing needed to be said.<br>You approached the fire, ignored the painful burns, and worked the bellows once more. The nascent weapon within the forge hummed and complained. It was not hot enough. The temperature is too low. It demanded a flame with enough heat to sear a hole through the skies. The tramp sneered as you saw the blaze dancing in her eyes, a conflagration of fury, pain, regret, and ambition. Fire burst from her eyes and swallowed her whole. You had no time to grieve for the snowstorm of the night was relentless. It would do anything to put out their fires.<br>You were the idiot of the group who never mastered the Arts. The only recourse you had was better and more precise controls over the bellows for firing up the heat. Years of experience made you a master of keeping the fire going. The bellows swelled and emptied as the fire danced and howled. The flaming tongues licked your skin and it slowly gave way like molten wax. But the mere thought of the weapon maturing into its form gave you incredible elation and made you beam with satisfaction.<br>Did it hurt? It was far less painful than the last fight you had when the maniac tore a piece off your face with her teeth.<br>Before the flames completely devoured you, you finally remembered how they laughed with merriment back in the tavern.<br>The flames might not endure against the night-long blizzard, and there would be no trace of the three of you after the workshop fire. Nevertheless, you knew that a fireplace would remain, and within it they would find a sword capable of cleaving anything in the world apart.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

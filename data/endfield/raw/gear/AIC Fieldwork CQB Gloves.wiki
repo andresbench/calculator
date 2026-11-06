@@ -1,0 +1,39 @@
+{{Gear infobox
+|name = AIC Fieldwork CQB Gloves
+|image = AIC_Fieldwork_CQB_Gloves.png
+|filename = item_equip_t4_parts_wuling00_hand_06
+|cnname = 集成实训刃装护手
+|tcname = 集成實訓刃裝護手
+|jpname = 集成訓練剣術プロテクター
+|krname = 통합 실전 훈련 도검형 보호 장갑
+|spname = Guantes CEC para Trabajo de campo del CAI
+|runame = Перчатки для ближнего боя «Полевые работы АПК»
+|rarity = 5
+|artifice = yes
+|type = Gloves
+|level = 60
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''AIC Fieldwork CQB Gloves''' is a {{gear|5|Gloves}}gear item.
+
+{{Item description|Independently designed by Endfield Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|A set of combat equipment designed by Endfield Industries for operator training. This series is well-received by the market due to its great value for money. 
+Perfect thickness allows the wearer to flawlessly perform various fencing or swordmancy moves.}}
+
+==Stats==
+{{Gear data
+|defense = +36
+|pstat = Main Attribute
+|pvalue = +55, +60, +66, +71
+|sstat = Secondary Attribute
+|svalue = +37, +40, +44, +48
+|tstat = Physical DMG Bonus
+|tvalue = +16.4%, +18.0%, +19.7%, +21.3%
+|setname = AIC Fieldwork
+|seteffect = 3-piece set effect: Wearer gains DMG Dealt {{Color|+20%|1d}} for all types of DMG, {{Color|10%|1d}} DMG Reduction against all types of DMG, and Ultimate Gain Efficiency {{Color|+10%|1d}}.
+|recipe = {{I|Wuling Stock Bill|3000}} {{I|Xiranite Component|20}}
+}}
+
+==Set Items==
+{{Gear Set|AIC Fieldwork}}
+{{Gears|state=collapsed}}

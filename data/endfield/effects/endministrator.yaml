@@ -1,0 +1,83 @@
+# Endministrator. Two keys on the wiki, male and female, differing only in gender and id.
+# The only operator whose talents were checked by measurement to the point.
+operator: Endministrator (female)
+also: [Endministrator (male)]
+
+talents:
+  - name: Skirmisher
+    stacking: cumulative
+    confidence: confirmed
+    evidence: >-
+      Checked in game 2026-09-12: attribute talents add up — the stat
+      screen shows the sum of the tiers. For tiered talents the game instead
+      draws a selector and ticks the strongest tier itself (seen on Antal's
+      "Improviser"), so those replace rather than add (measurements, #22).
+    levels:
+      - {condition: Elite 1, seen: "Operator Agility +10.", apply: [{stat: attr, attribute: AGL, value: 10}]}
+      - {condition: Elite 2, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 3, seen: "Operator Agility +15.", apply: [{stat: attr, attribute: AGL, value: 15}]}
+      - {condition: Elite 4, seen: "Operator Agility +20.", apply: [{stat: attr, attribute: AGL, value: 20}]}
+
+  - name: Essence Disintegration
+    stacking: replaces
+    confidence: confirmed
+    evidence: >-
+      Measurement #8, 2026-09-06: ATK +30 % gave ×1.204, not ×1.30 —
+      percentages add up in PercentBonuses and are diluted by those already
+      collected. It is exactly this talent tier, and the group was identified
+      on it.
+    levels:
+      - condition: Elite 1
+        seen: "When the Originium Crystals attached to the enemy are consumed, the Endministrator gains ATK +15% for 15s. This effect cannot stack."
+        apply:
+          - {stat: atk_pct, value: 15, duration: 15, trigger: "consumes:Originium Crystals", target: self}
+      - condition: Elite 2
+        seen: "When the Originium Crystals attached to the enemy are consumed, the Endministrator gains ATK +30% for 15s. This effect cannot stack."
+        apply:
+          - {stat: atk_pct, value: 30, duration: 15, trigger: "consumes:Originium Crystals", target: self}
+
+  - name: Realspace Stasis
+    stacking: replaces
+    confidence: confirmed
+    evidence: >-
+      Measurement #10, 2026-09-06: the finisher on the seal 5441 against 4534
+      after it expired — exactly ×1.20, error 0.004 %. The DMG Taken group on
+      the target. The same place (#9) settled that an expired seal does not
+      count as consumption.
+    levels:
+      - condition: Elite 2
+        seen: "Enemies with attached Originium Crystals suffer Physical DMG Taken +10%."
+        apply:
+          - {stat: dmg_taken, element: Physical, value: 10, trigger: "target_has:Originium Crystals", target: enemy}
+      - condition: Elite 3
+        seen: "Enemies with attached Originium Crystals suffer Physical DMG Taken +20%."
+        apply:
+          - {stat: dmg_taken, element: Physical, value: 20, trigger: "target_has:Originium Crystals", target: enemy}
+
+potentials:
+  - rank: 1
+    confidence: confirmed
+    seen: "Battle skill Constructive Sequence improved: Consuming Originium Crystals returns 50 SP."
+    apply:
+      - {stat: sp_return, value: 50, skillType: Battle Skill, trigger: "consumes:Originium Crystals", target: self}
+  - rank: 2
+    confidence: inferred
+    seen: "Talent Essence Disintegration improved: When the Endministrator gains the ATK buff, other allied operators gain half of this ATK buff."
+    modifies: {effect: Essence Disintegration, teamShare: 0.5}
+  - rank: 3
+    unmodeled: "15 ultimate energy for consuming the seal; energy gains from effects cannot be expressed in the vocabulary"
+  - rank: 4
+    confidence: confirmed
+    seen: "Arts Intensity +16. DMG dealt by Ultimate Bombardment Sequence is increased to 1.2 times the original."
+    apply:
+      - {stat: arts_intensity, value: 16}
+      - {stat: skill_multiplier, skill: Bombardment Sequence, value: 1.2}
+    note: >-
+      Measured 2026-10-17 (measurements, #27.2): both ultimate hits exactly
+      ×1.2000, the cold ultimate too, while shards broken by the ultimate are
+      unchanged to the point — the multiplier sits on the ultimate skill, and
+      the combo's shards do not get it. Whether this is a separate group or a
+      skill multiplier cannot be told for Endministrator: the ultimate has no
+      other skill multipliers.
+  - rank: 5
+    unmodeled: "no text on the wiki — the data holds «???»"

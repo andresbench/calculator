@@ -1,0 +1,20 @@
+local data = {
+	-- Version Ribbons
+	["Zeroth Directive"]={},
+	["Old Deep Water Dies, by Rising Tide It is Denied"]={},
+	["At the Wake of Spring"]={},
+	["Sketches of Lost Heirloom"]={bg="repeating-radial-gradient(circle at center, transparent 0 12px, rgba(179, 23, 23, 0.65) 12px 16px, transparent 16px 5px), linear-gradient(90deg,#2b0b0b,#7a1010,#2b0b0b)", color="#fff", txtshd="2px 2px 3px #b5b5b5", customtext="<div style=\"position:absolute; background: #f1f26773; width:30%; height:5%; left:50%; top:35%; transform:translate(-50%,-50%);\"></div><div style=\"position:absolute; background:#f1f267a6; width:60%; height:5%; left:50%; top:54%; transform: translate(-50%,-50%);\"></div><div style=\"position:absolute; background:#f1f26773; width:30%; height:5%; left:50%; bottom:23%; transform:translate(-50%,-50%);\"></div>Sketches of Lost Heirloom"},
+	
+	-- Narrative Event Ribbons
+	["Lone Wolf"]={},
+	["Let Fire Consume the Ashen Past"]={},
+	["Letter from a Messenger"]={},
+	["Love, Scream & The Prototype"]={},
+	["Poured Forth and Flowing Free"]={},
+	["The Red Knight"]={},
+	["Ponderous Load"]={},
+	["A Fistful of Reflections"]={},
+	["Danse Macabre"]={},
+}
+
+return data

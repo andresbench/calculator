@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Sword
+|name = Thermite Cutter
+|rarity = 6
+|images = 
+Thermite_Cutter icon.png:Icon;
+Thermite_Cutter.png:Full;
+Thermite_Cutter max model.png:Max
+|filename = wpn_sword_0012
+|cnname = 热熔切割器
+|tcname = 熱熔切割器
+|jpname = テルミット・カッター
+|krname = 테르밋 커터
+|spname = Cortador de termita
+|runame = Термитный резак
+|type = Sword
+|source = Acquisition Center: Arsenal Exchange}}
+'''Thermite Cutter''' is a 6★ [[Sword]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A basic product from the Pioneer-series released by Northmarch Support Hub. The Mk IV Thermite Cutter was constructed using patented thermal materials and delivers powerful cutting performance. Positively reviewed by many UWST engineers.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 144, 243, 342, 441, 490
+|pot = Skill {{Color|Flow: Thermal Release|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|D96 Steel Sample 4|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Sword|Will [L]|ATK [L]|Flow: Thermal Release}}
+
+==Basic Info==
+{{Quote|Northmarch Support Hub has, on multiple occasions, emphasized that their products were personal power tools designed for industrial and construction uses. This particular cutter proved mediocre for its intended purpose. However, it worked pretty well as a two-handed claymore.<br>— Reviewer 1<br><br>The user manual is misleading. The product feels more like a weapon than a cutting tool. Just be careful when using it, though. This thing gets seriously hot.<br>— Reviewer 2<br><br>Think of it this way. Owning this cutter means you don't need to bring a weapon to work, right?<br>— Reviewer 3}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Swords]]

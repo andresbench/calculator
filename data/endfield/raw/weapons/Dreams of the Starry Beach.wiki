@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Dreams of the Starry Beach
+|rarity = 6
+|images = 
+Dreams_of_the_Starry_Beach icon.png:Icon;
+Dreams_of_the_Starry_Beach.png:Full;
+Dreams_of_the_Starry_Beach max model.png:Max
+|filename = wpn_funnel_0013
+|cnname = 沧溟星梦
+|tcname = 滄溟星夢
+|jpname = 蒼星の囁き
+|krname = 바다와 별의 꿈
+|spname = Sueños de la playa estrellada
+|runame = Мечта о звездном береге
+|type = Arts Unit
+|source = Acquisition Center: Arsenal Exchange}}
+'''Dreams of the Starry Beach''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A product from the elite series of Mieszko Industries. This weapon offers excellent Originium Arts conductance, making it more practical than other fashionable pieces that focused on style over substance.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 50, 145, 245, 345, 445, 495
+|pot = Skill {{Color|Infliction: Tidal Murmurs|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Igneosite|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Intellect [L]|Treatment Efficiency [L]|Infliction: Tidal Murmurs}}
+
+==Basic Info==
+{{Quote|There was a time when I was confused about life. The underground arenas of the Asphalt Roundabout is usually the first consideration of people of my size and stature. But the desolation of the place shocked me. That was not the place where I'd want to spend the rest of my life in. So I went to La Fantoma, a city of opportunities and a gathering place for the rich and famous! There are cartel joint sessions, forums, and expos! EVERYTHING!<br>......<br>One year passed and I splurged all my savings on a vehicle. Some charitable merchant helped me convert it into a nomadic resto, which happens to be the one right here. And I call it a "boat" since it's next to the sea. My "pier" is where I moor my "boat". I even found a few assistants back then. Made a ton of serious creds during the Obsidian Festival when the entire place was packed with tourists.<br>......<br>But two years later, I found more and more people doing my thing. They drive up to the place with their truck and started serving the tourists. The Obsidian Festival made and unmade my fortunes... They built more and more fancy hotels but I am getting less and less diners? During that year, I saw a Feline who was just like me. Splurged his entire fortune and ended up with nothing...<br>......<br>Three years had passed. I didn't know how long I'd stay afloat. Revenue was dwindling and that Perro made it worse! The stinkin' mutt always parked his food truck opposite mine, and he had the galls to come over to my place and tell my diners that I was almost finished... I felt like killing that bloody runt.<br>......<br>I was the last one on the "boat". I started packing my stuff and planned to drive my "boat" back home. But that was the same year when La Fantoma got hit by a tidal wave. When the disaster ended, an Endfield medical SAR team arrived... How has this got anything to do with my store? It's got nothing with my store, but I strode out one night and heard the Endfielders admiring the star-like beauty of this place. I looked around and saw the dark beach cluttered with seashells brought ashore by the great waves. Some of them gave off soft, gentle glows. I suddenly remembered how we used to see all this when they just got the fest going and the crowd was still small. I suddenly had an idea, mortgaged my "boat" on the following day, got myself some glowing shells, and decorated them with various accessories. That's right. You're holding the very same thing. What happened next? Well, we got even more "piers" and my "boat" is coasting along real easy. <br>I'll let you in on something. I'm planning to take a contract over this beach. Yes, that's right. The one beneath your feet. I'm going to grind these shells down to create the Evenglow Coast! I even figured out the name — Dreams of the Stardust Sea. Maybe the organizers of Obsidian Festival will choose my beach for their next evening event. Make sure you visit, 'cos I'll get you a fat discount.<br>What happened to that stinkin' mutt of a Perro? Oh, he's right over there. We're partners now. Why did I choose him? 'Cos business people of La Fantoma are all about helping each other out. That's how we made this place.}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

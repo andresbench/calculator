@@ -1,0 +1,52 @@
+{{Construction}}
+{{updated|Zeroth Directive}}
+In ''Arknights: Endfield'', every [[Operator]] has four Attributes: '''Strength (STR)''', '''Agility (AGI)''', '''Intellect (INT)''', and '''Will'''. These Attributes define an Operator’s performance by providing various bonuses. Each Operator has one of these four set as their '''Main Attribute''' and another as their '''Secondary Attribute'''. Increasing the Main Attribute grants a significant bonus to Attack, while raising the Secondary Attribute provides a smaller Attack bonus. There is usually a strong correlation between an Operator’s [[Class]] and their Main and Secondary Attributes.
+
+Attributes can also take decimal values, though only whole numbers are shown in the Overview. The full values are still used in calculations and are only rounded down for display purposes. The main way to increase Attributes is by equipping [[Gear]] and raising the Operator’s Level. In addition, some battle skills scale directly with certain Attributes, making them an interesting option for certain Operators.
+
+==Attributes==
+* '''Strength''' (STR) influences the Operator's Max HP.
+** <math>{HP\,from\,STR} = 5 \times STR</math>
+* '''Agility''' (AGL) influences the Operator's Physical DMG Reduction.
+** <math>{Physical\,Resistance} = 100 - \dfrac{100}{AGI\times0.001+1}</math>
+* '''Intellect''' (INT) influences the Operator's Arts DMG Reduction.
+** <math>{Arts\,Resistance} = 100 - \dfrac{100}{INT\times0.001+1}</math>
+* '''Will''' influences the amount of treatment received by the Operator.
+** <math>{Treatment\,Received\,Bonus} = 0.001 \times WILL</math>
+** Note that treatment received scales the base treatment amount, before any additional Treatment Bonus multipliers. For example, if character A has 1000 Will (corresponding to a 100% Treatment Received Bonus), character B has a skill that heals character A for 100 HP, and character B has an additional treatment bonus of 20%, character A will get healed for 220 HP, NOT 240. The additional healing from Will only scales the base healing.
+
+Each point of Physical Resistance and Arts Resistance gives 1% DMG Reduction against the respective damage type, up to a maximum of 90% DMG Reduction. For example, 250 Agility translate to 20% Physical DMG Reduction.
+
+Additionally the Operator's Attack value is increased by their Main and Secondary Attributes:
+
+<math>{Attribute\,Bonuses} = 1 + 0.005 \times {MAIN} + 0.002 \times {SEC} </math>
+
+==Main Stats==
+
+===HP===
+'''HP''', '''Max HP''', '''Health''' or '''Health Points''' represent how much damage an Operator can take. It is visible on the Operator screen and on the blue HP bar. If an Operator reaches 0 HP they will become disconnected and won't be able to participate in combat anymore. A disconnected Operator can be resuscitated or revived using consumable items like {{I|Arts Tube|gv=false}} or by resting at a [[TP Point]].
+
+All Operators have 500 Base HP at level 1 which linearly increases to 5495 Base HP at level 90. Additionaly each point of Strength increases the Base HP by 5. An Operator's Max HP can be further increased by certain Gear and Weapon effects. All sources of percentage increases to Max HP stack additively.
+Some effects scale with the Max HP of an Operator. For example [[Ember|Ember's]] Ultimate and the ability of {{I|Thunderberge|gv=false}}.
+
+===Attack===
+Unless otherwise noted, this is the base value for calculating almost all outgoing damage, and can be seen on the Operator sceen.
+
+<math>{Attack} = \left(({Operator\,Attack} + {Weapon\,Attack}) \times {Percentage\,Bonuses} + {Flat\,Increases}\right) \times {Attribute\,Bonuses}</math>
+
+===Defense===
+'''Defense''', or '''DEF''' for short, gives an Operator Final DMG Reduction. All Operators have 0 and all enemies have 100 initial Defense, independent of their level. Defense is mainly increased by equipping Gear, and is otherwise only rarely increased by other sources. [[Catcher|Catcher's]] Potential ''Bonus Spec Training'' for example grants him another 20 Defense.
+<!--Test for interactions with AEther DMG-->
+
+<math>
+{Defense\,Multiplier} =
+\begin{cases} 
+\dfrac{100}{DEF + 100},  & \mbox{if DEF is }\ge\mbox{ 0} \\
+2-0.99^{-DEF}, & \mbox{if DEF is }<\mbox{ 0} 
+\end{cases}
+</math>
+
+For example, equipping four pieces of Gear of the highest rarity gives 140 DEF, resulting in a 0.416 multiplier for incoming Damage, or 58.33% Final DMG Reduction.
+
+{{Combat mechanics}}
+[[Category: Terminology]]

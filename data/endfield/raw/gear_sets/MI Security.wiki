@@ -1,0 +1,23 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image =  MI Security manufacturer icon.png 
+|cnname = M.I.警用
+|jpname = M.I.警備
+|krname = M. I. 경찰용
+|spname =
+|runame =
+|manufacturer= [[Mieszko Industries]]
+|level= 70
+|region = [[Wuling]]
+|effect =  3-piece set effect: Wearer's Critical Rate {{Color|+5%|1d}}. 
+After the wearer scores a critical hit, the wearer gains ATK {{Color|+5%|1d}} for 5s. This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate {{Color|+5%|1d}}. This effect cannot stack.
+}}
+
+{{Item description|Designed by Mieszko Industries and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Equipment from the MI Security series.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by Mieszko Industries for their police and security force.
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+==Navigation==
+{{Gears|state=collapsed}}

@@ -1,0 +1,40 @@
+{{Gear infobox
+|name = Swordmancer Dagger
+|image = Swordmancer_Dagger.png
+|filename = item_equip_t4_suit_phy01_edc_04
+|cnname = 点剑短刃
+|tcname = 點劍短刃
+|jpname = 宏山点剣短剣
+|krname = 검술사 단검
+|spname = Daga de espadachín
+|runame = Кинжал «Мастер меча»
+|rarity = 5
+|artifice = yes
+|type = Kit
+|level = 70
+|region = Wuling
+|source = Exploring and Gathering
+}}
+'''Swordmancer Dagger''' is a {{gear|5|Kit}}gear item.
+
+{{Item description|Designed by Hongshan Swordmancers and assembled by the AIC Factory. This equipment can improve the wearer's combat capabilities.|One of the products marketed by the Bureau of Swordmancers in its early days.
+An extremely sharp tactical blade, and one of the earliest iterations of HS.Swords weaponry production technique. There is no doubt that this equipment has laid down solid foundations for the subsequent Yinglung-series.}}
+
+==Stats==
+{{Gear data
+|defense = +21
+|pstat = Agility
+|pvalue = +32, +35, +38, +41
+|sstat = Strength
+|svalue = +21, +23, +25, +27
+|tstat = Ultimate DMG Bonus
+|tvalue = +51.7%, +56.9%, +62.1%, +67.3%
+|setname = Swordmancer
+|seteffect = 3-piece set effect: Wearer's Stagger Efficiency Bonus {{Color|+20%|1d}}.
+After the wearer applies a {{G|Physical Status|Physical Status}}, the wearer also performs 1 hit that deals 250% ATK of Physical DMG and [{{Color|10|2}} Stagger]. Effect trigger cooldown: 15s.
+|recipe = {{I|Wuling Stock Bill|25000}} {{I|Hetonite Component|50}}
+}}
+
+==Set Items==
+{{Gear Set|Swordmancer}}
+{{Gears|state=collapsed}}

@@ -1,0 +1,32 @@
+'''Ultimate Energy''' is a combat resource in ''[[Arknights: Endfield]]''.
+
+==Overview==
+Ultimate Energy is used to cast Ultimates. Each Operator stores Ultimate Energy independently, up to a maximum value that varies between different Operators. Once this maximum is reached, the Operator's Ultimate can be cast, consuming all Ultimate Energy and placing the Ultimate on a short cooldown. The amount of Ultimate Energy stored is displayed next to the Operator’s Battle Skill as a hollow circular gauge (or a curved bar on certain devices), which fills proportionally to the stored charge.
+[[File:Screenshot Ultimates.png|thumb|Ultimates at various states displayed on the HUD when using keyboard and mouse. The Endministrator's Ultimate is fully charged and ready to be casted, while other Ultimates are only partially filled.]]
+
+===Gaining Ultimate Energy===
+There are two primary sources of Ultimate Energy:
+* While in combat, casting Battle Skills grants Ultimate Energy to everyone in the team at a ratio of 6.5 per 100 non-{{G|SP Return|returned}} SP spent. Many offensive Battle Skills require at least one enemy hit to generate Ultimate Energy.
+* Most Combo Skills grant 10 Ultimate Energy to the caster. Many offensive Combo Skills require at least one enemy hit to generate Ultimate Energy. Some skills distribute the Ultimate Energy gained across individual hits, for example Akekuri's ''Flash and Dash'' grants 5 Ultimate Energy per sequence hit.
+
+Some Operators deviate from this standard:
+* Arclight gains only 5 Ultimate Energy from her Combo Skill
+* Avywenna does not get any Ultimate Energy directly from her Combo Skill. Instead, her Talent provides Ultimate Energy.
+* Last Rite has a special trait making her gain Ultimate Energy '''only''' from her Battle and Combo Skill. Other sources, including consumables, do not grant her Ultimate Energy.
+* Rossi gains an additional 10 Ultimate Energy from the second sequence of her Battle Skill, and both sequences of her Combo Skill grant 10 Ultimate Energy.
+* Liino gains 20 Ultimate Energy from her Combo Skill
+
+A few Operators have Talents or Potentials that allow them to gain extra Ultimate Energy, for example Alesh's Talent "Flash-frozen for Freshness" or Estella's Potential "Survival is a Win".
+
+Ultimates that enhance Operators, for example Laevatain's ''Twilight'', can not gain Ultimate Energy while the enchancement is active.
+
+The stat "Ultimate Gain Efficiency" can increase the amount of Ultimate Energy gained.
+
+===Ultimate Costs===
+Ultimate costs typically range between 70 and 120 Ultimate Energy. However, the six-star [[Striker]]s [[Laevatain]], [[Last Rite]], and [[Yvonne]] have significantly higher costs, exceeding 200. This is accompanied by significant more Ultimate Energy gained through their skills.
+
+The cost of Ultimates can be reduced through activating certain Potentials.
+
+
+{{Combat mechanics}}
+[[Category:Combat Mechanics]]

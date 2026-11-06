@@ -1,0 +1,58 @@
+{{Enemy infobox
+|name = Breaking Gust
+|image = Breaking_Gust_sprite.png
+|filename = eny_0104_hsrogue2
+|cnname = 断云叟
+|tcname = 斷雲叟
+|jpname = 断雲翁
+|krname = 단운수
+|spname = Ráfaga devastadora
+|runame = Сокрушающий порыв
+|type = Cangzei Pirates
+|class = Elite
+|attack = 
+|damage = 
+|base = Nimbus Razor
+|upgrade = |sortId = 9
+}}
+'''Breaking Gust''' is an [[Elite enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|A criminal armed with an exotic weapon. Such Cloud Stalkers are so skilled in hooked blades people claim they could slice and dice the very clouds into perfect cubes.}}
+
+==Stats==
+{{Enemy data
+|HP = 1108, 7948, 50295, 198003, 476285, 733731
+|ATK = 56, 264, 820, 2036, 3064, 3510
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 110
+|SR = 7
+|SD = 1.25
+|SPG = 35
+|AR = 2.3
+|Weight = 1
+|wphysical = 0.4
+|wfire = 1
+|welectric = 1
+|wice = 0.8
+|wnature = 0.8
+|waether = 1
+|abilities = *Uses chain hooks to attack allied operators. Chained operators will be Stunned unless freed.
+|location = *[[Qingbo Stockade]]
+|drops = {{I|Grovenymph Pupa}}
+|addendum = }}
+
+==Overview==
+{{Stub|section}}
+
+==See Also==
+
+
+==Changelog==
+{{Changelog|
+* '''[[At the Wake of Spring]]'''
+** Introduced.
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Elite enemies]]

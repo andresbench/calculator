@@ -1,0 +1,44 @@
+{{Weapon infobox
+|icon = Arts Unit
+|name = Opus: Etch Figure
+|rarity = 6
+|images = 
+Opus_Etch_Figure icon.png:Icon;
+Opus_Etch_Figure.png:Full;
+Opus_Etch_Figure max model.png:Max
+|filename = wpn_funnel_0006
+|cnname = 作品：蚀迹
+|tcname = 作品：蝕跡
+|jpname = 作品：蝕跡
+|krname = 작품: 침식 흔적
+|spname = Opus: figura grabada
+|runame = Опус травления
+|type = Arts Unit
+|source = Reward: Protocol Pass}}
+'''Opus: Etch Figure''' is a 6★ [[Arts Unit]] in ''[[Arknights: Endfield]]''.
+
+{{Item description|A weapon equipped by Endfield operators to significantly boost their combat capabilities.|A contracted product from Portable Æthertech Labs. Features metal components hand-engraved by cræft-adepts to create etch figures that match those of the tillite parts. The result is an Arts unit with unique Arts casting circuitry.}}
+
+==Stats==
+
+{{Weapon data
+|BATK = 49, 142, 240, 338, 436, 485
+|pot = Skill {{Color|Suppression: Tillite Etchings|0}} improved.
+|t1 = {{I|Cast Die|5}} {{I|Kalkonyx|3}} {{I|T-Creds|2200}}
+|t2 = {{I|Cast Die|18}} {{I|Auronyx|5}} {{I|T-Creds|8500}}
+|t3 = {{I|Heavy Cast Die|20}} {{I|Umbronyx|5}} {{I|T-Creds|25000}}
+|t4 = {{I|Heavy Cast Die|30}} {{I|Quadrant Fitting Fluid|16}} {{I|Wulingstone|8}} {{I|T-Creds|90000}}
+}}
+
+==Skills==
+{{Weapon skill|Arts Unit|Will [L]|Nature DMG [L]|Suppression: Tillite Etchings}}
+
+==Basic Info==
+{{Quote|Etch figure: Noun; geology; specific to Talos-II.<br>(i) A marking (etching) on natural materials produced by the Blight.<br>(ii) (archaic) A regular pit typically produced by a solvent acting upon a crystal face.<br>"I intend to refer to all Blight markings on rocks as 'etch figures'."<br>"Stealing technical terms again? Thought we're already using that to describe something else."<br>"So? Students in five years' time would have tossed out their textbooks from Terra and adopt my Geology of Talos-II. All the decisions I'm making today will become canon law by the morrow."<br>"Imaginative as always. I wonder if I should call you confidently insane or insanely confident." <br>"Insanely confident? I like how that sounds. And how do you know that I've started out majoring in aerospace sciences? I've always wanted to rocket myself to the stars."<br>"I'm afraid you're heading the wrong way, mate. We're now in the tunneling business and the only way they want us to go is down."<br>"And that's only because of that cursed thingamajig that 'defies all physical laws' and 'scoffs at every attempt to understand it'. Blegh!"<br>"You're talking about the Ætherside?"<br>"What else would I be talking about? Bloody glop central is a million times more confounding than the Aggeloi. I analyzed all the data we've scrounged together and my conclusion is that all the unobservable blind spots in the Universe may very well be obfuscated by the Ætherside. The closest one is just ... a hair's length away from this planet."<br>"By Talos, does that mean we're..."<br>"That's right. The cosmos is a dangerous place, my friend. I don't think anyone from our generation could escape the grips of Talos."<br>"Oh... I was actually afraid of the Ætherside swallowing us whole. I guess you're really looking on the bright side of life."<br>"Who knows? Anyway, I wanted to figure out how this Ætherside appeared and get an exact date for the oldest etch figure we could find. This is why I decided to do some digging with you."<br>"Hmm. Qadja, if you figured that out, you would become the greatest figure in the fields of geology, physics, and astronomy... Heck. Kids in school would be forced to write essays on how your story inspired them to become nerds."<br>"Thanks for the encouragement, Morris. I'll definitely acknowledge you in my title page. Wait. I think the counter is responding. The signal is getting stronger ... That's it! There!"<br>"Let me see. Wow!"<br>— An old audio recording <br><br>"Operator Yvonne, is this the story of your mentor's mentor's mentor?"<br>"To be precise, this incident happened before their stories began to trend. This is the last audio recording they made."<br>"What happened after that?"<br>"Neither of them returned. People went through their belongings and found a piece of Blighted tillite, the first mineral sample with observable etch figures. My mentor's mentor's mentor managed to get his hand on this sample and it started his scientist career. People now call him the Father of Ætherside Sciences."<br>"So why are you telling me this story...?"   "I thought you were the one who asked how I got started on Ætherside sciences, so I told you about the giants whose shoulders I've been standing on."}}
+
+
+==Navigation==
+{{Weapons_nav}}
+
+[[Category:Weapons]]
+[[Category:Arts Units]]

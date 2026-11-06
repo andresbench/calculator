@@ -1,0 +1,26 @@
+{{Gear set infobox
+|name = {{FULLPAGENAME}}
+|image = Æthertech Lab manufacturer icon.png
+|cnname = 
+|jpname = 
+|krname =
+|runame =
+|manufacturer= [[Portable Æthertech Labs]]
+|level= 70
+|region = [[Wuling]]
+|effect = 3-piece set effect: Wearer's ATK {{Color|+8%|1d}}. 
+After the wearer applies {{G|Vulnerable|Vulnerability}}, the wearer gains {{Color|Physical DMG|1}} {{Color|+8%|1d}} for 15s. This effect can reach 4 stacks. If the target already has 4 stack(s) of {{G|Vulnerable|Vulnerability}}, the wearer gains an additional Physical DMG {{Color|+16%|1d}} for 10s. This effect cannot stack.
+}}
+
+{{Item description|Designed by Portable Æthertech Labs and assembled by the AIC. This equipment improves the wearer's combat capabilities.|Lightweight experimental protective equipment.}}
+
+==Description==
+{{Color|{{FULLPAGENAME}}|0}} is a gear set designed by [[Portable Æthertech Labs]].
+
+==Set Items==
+{{Gear Set|{{FULLPAGENAME}}}}
+
+==Reference==
+{{Reflist}}
+==Navigation==
+{{Gears|state=collapsed}}

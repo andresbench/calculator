@@ -1,0 +1,60 @@
+{{Enemy infobox
+|name = Ram
+|image = Ram_sprite.png
+|filename = eny_0021_agmelee
+|cnname = 大角天使
+|tcname = 大角天使
+|jpname = 巨角アンゲロス
+|krname = 큰뿔아겔로스
+|spname = Carnero
+|runame = Рогач
+|type = Aggeloi
+|class = Common
+|attack = 
+|damage = 
+|base = 
+|upgrade = Ram α|sortId = 1
+}}
+'''Ram''' is a [[Common enemy]] in ''[[Arknights: Endfield]]''.
+
+{{Enemy description|The "Kriosson" (archive ID: ACL071) is amongst the earliest recorded form of the Aggeloi and the most commonly encountered. It attacks by ramming its victims with its horns.}}
+
+==Stats==
+{{Enemy data
+|HP = 138, 994, 6287, 24750, 59536, 91716
+|ATK = 33, 155, 482, 1198, 1802, 2065
+|DEF = 100, 100, 100, 100, 100, 100
+|SHP = 60
+|SR = 6
+|SD = 1
+|SPG = 25
+|AR = 2.1
+|Weight = 1
+|wphysical = 1
+|wfire = 1
+|welectric = 1
+|wice = 1
+|wnature = 1
+|waether = 1
+|abilities = *This enemy has no special abilities.
+|location = *[[Aburrey Quarry]]
+*[[Origin Lodespring]]
+*[[Energy Alluvium: Origin Lodespring]]
+|drops = {{I|Hard Aggagrit}}
+|addendum = }}
+
+==Overview==
+As one of the basic melee [[Aggeloi]], Rams are more of a fodder enemy; Their only attack is a ram at front that deals Physical damage.
+
+==See Also==
+*[[Ram α]] - an alternate version of Ram.
+
+==Changelog==
+{{Changelog|
+*[[Changelog/2026/January_29|01/29 - Optimization & Quick Update Notice]]
+**Reduced HP to 138, 994, 6287, 24750, 59536, 91716 from 138, 1169, 7396, 24750, 59536, 91716
+}}
+
+==Navigation==
+{{Enemies}}
+[[Category:Common enemies]]
