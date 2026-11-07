@@ -119,8 +119,18 @@ class RawStore:
         return path
 
     def is_current_asset(self, key: str, sha1: str | None) -> bool:
+        """Same sha1 in the manifest AND the file on disk.
+
+        The manifest is versioned and the images are not (the public
+        repository leaves game assets out), so a fresh checkout has every
+        entry and no file: the manifest alone said "all current" and the
+        site's build shipped without a single icon.
+        """
         entry = self.manifest.get(key)
-        return bool(entry) and bool(sha1) and entry.get("sha1") == sha1
+        if not (entry and sha1 and entry.get("sha1") == sha1):
+            return False
+        path = entry.get("path")
+        return bool(path) and (self.root / path).is_file()
 
     def save_asset(
         self,

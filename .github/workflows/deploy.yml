@@ -47,8 +47,8 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: data/endfield/img
-          key: icons-${{ hashFiles('data/endfield/operators.json', 'data/endfield/weapons.json', 'data/endfield/gear.json') }}
-          restore-keys: icons-
+          key: icons-v2-${{ hashFiles('data/endfield/operators.json', 'data/endfield/weapons.json', 'data/endfield/gear.json') }}
+          restore-keys: icons-v2-
       - run: python3 tools/ef/icons.py
 
       - name: "Bundle (public: no roster)"
