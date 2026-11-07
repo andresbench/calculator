@@ -51,7 +51,7 @@ jobs:
           restore-keys: icons-
       - run: python3 tools/ef/icons.py
 
-      - name: Bundle (public: no roster)
+      - name: "Bundle (public: no roster)"
         run: python3 tools/ef/export.py --public
 
       - name: Pipeline tests
