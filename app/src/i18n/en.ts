@@ -108,6 +108,8 @@ export const en = {
     datamine:
       'Frame timings and Final Strike SP come from the game client data (rmxlinux/EndfieldData).',
     enka: 'Showcase import uses Enka.Network, through the site’s proxy: it sees the UID you ask for, keeps the answer for a minute and nothing else.',
+    stats:
+      'Visits are counted by GoatCounter on the site’s own server, without cookies: which screen was opened, never what is on it — no builds, rotations or UIDs.',
     assets: 'Game names, images and icons © GRYPHLINE / Hypergryph.',
     unofficial: 'Unofficial fan project, not affiliated with GRYPHLINE or Hypergryph.',
     codeTitle: 'Code',

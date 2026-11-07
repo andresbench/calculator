@@ -15,5 +15,5 @@
     "noEmit": true,
     "paths": { "@engine/*": ["../engine/src/*"] }
   },
-  "include": ["src", "vite.config.ts", "enka.ts"]
+  "include": ["src", "vite.config.ts", "enka.ts", "seo.ts"]
 }

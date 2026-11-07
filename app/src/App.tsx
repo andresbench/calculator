@@ -10,6 +10,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Operator } from '@engine/index.js';
 
 import { About } from './About.js';
+import { countView } from './analytics.js';
 import { SiteFooter, SiteHeader, type Screen } from './Chrome.js';
 
 import BuildEditor from './BuildEditor.js';
@@ -133,6 +134,11 @@ export default function App(): JSX.Element {
     setScreenState(next);
   };
   const selected = useApp((store) => store.selected);
+  // Counted by name, never by the address: see analytics.ts.
+  useEffect(() => {
+    if (selected) countView(`/operator/${selected}`);
+    else countView(screen === 'roster' ? '/' : `/${screen}`);
+  }, [screen, selected]);
   const select = useApp((store) => store.select);
   const hydrate = useApp((store) => store.hydrate);
   const variants = useApp((store) => store.variants);

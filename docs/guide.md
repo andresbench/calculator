@@ -39,6 +39,11 @@ empty. To keep a copy or move to another device:
 * builds: **Operators → export builds / import builds** (a JSON file);
 * rotations: **Export → download .rot**, or copy the link.
 
+The site counts visits with [GoatCounter](https://www.goatcounter.com/) on
+its own server, without cookies. It counts which screen was opened (the
+track, an operator's editor), not what is on it: no builds, rotations or
+UIDs.
+
 ## Operators
 
 ![Operators screen](img/guide-01-roster.png)

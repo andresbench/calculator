@@ -55,6 +55,7 @@ const DEFAULT_PAUSE = 1;
 /** Target picker values for the dummy: `dummy:` alone has no meter, `dummy:Boss` a typical boss's. */
 const DUMMY_PREFIX = 'dummy:';
 
+import { countEvent } from './analytics.js';
 import { iconUrl, listed } from './data.js';
 import { RosterStrip } from './RosterStrip.js';
 import { compact, trackDamage, type TrackDamage } from './trackDamage.js';
@@ -397,12 +398,14 @@ function ExportPanel({ bundle, draft }: { bundle: Bundle; draft: Draft }): JSX.E
     link.download = rotFileName(draft.title);
     link.click();
     URL.revokeObjectURL(url);
+    countEvent('rotation-downloaded');
   };
 
   const copyLink = async (): Promise<void> => {
     try {
       await navigator.clipboard.writeText(await shareUrl(text));
       setNotice(t.track.linkCopied);
+      countEvent('rotation-link-copied');
     } catch (error) {
       setNotice(t.track.linkFailed(error instanceof Error ? error.message : String(error)));
     }
@@ -679,6 +682,7 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
     const data = rotFromHash(window.location.hash);
     if (!data) return;
     window.history.replaceState(null, '', '#track');
+    countEvent('rotation-link-opened');
     decodeRot(data)
       .then((text) => setLinkReport(importText(text, t.importedTitle)))
       .catch(() => setLinkReport({ count: 0, problems: [{ code: 'importBadLink' }] }));

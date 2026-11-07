@@ -1,0 +1,6 @@
+# Everything here is public. AI crawlers are welcome: /llms.txt is a summary
+# for them, and the guide is plain HTML at /guide/ and /ru/guide/.
+User-agent: *
+Allow: /
+
+Sitemap: https://andresbench.moe/sitemap.xml

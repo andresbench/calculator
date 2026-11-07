@@ -23,6 +23,7 @@ import { useEffect, useState } from 'react';
 import type { Bundle } from '@engine/index.js';
 
 import { currentT, useT } from './i18n/index.js';
+import { countEvent } from './analytics.js';
 import { forgetShowcase, importShowcase, loadShowcase, type ShowcaseReport } from './showcaseRoster.js';
 import { useApp } from './store.js';
 
@@ -91,6 +92,7 @@ export function EnkaImport({ bundle, onImported }: { bundle: Bundle; onImported:
       if (body.ok) {
         onImported();
         void refreshStatus();
+        countEvent('enka-import');
       }
       setRunning(false);
       return;

@@ -4,10 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>Andre’s Bench — Endfield damage calculator</title>
+    <title>Andre’s Bench — Arknights: Endfield damage calculator and rotation track</title>
+    <meta name="description" content="Free damage calculator and rotation track for Arknights: Endfield: operator builds, the damage of every hit, team rotations in time, import from the Enka showcase. Every number says where it comes from." />
+    <link rel="canonical" href="https://andresbench.moe/" />
+    <link rel="alternate" type="text/plain" href="https://andresbench.moe/llms.txt" title="llms.txt" />
+    <meta name="theme-color" content="#14161a" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Andre’s Bench" />
+    <meta property="og:title" content="Andre’s Bench — Arknights: Endfield damage calculator" />
+    <meta property="og:description" content="Builds, the damage of every hit and team rotations in time, with every number traced to its source. Free, open source, English and Russian." />
+    <meta property="og:url" content="https://andresbench.moe/" />
+    <meta property="og:image" content="https://andresbench.moe/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Andre’s Bench: a rotation track with a four-person team" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Andre’s Bench",
+        "alternateName": "Andres Bench",
+        "url": "https://andresbench.moe/",
+        "description": "Free damage calculator and rotation track for Arknights: Endfield: operator builds, the damage of every hit, team rotations in time, import from the Enka showcase.",
+        "applicationCategory": "GameApplication",
+        "applicationSubCategory": "Damage calculator",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["en", "ru"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "about": { "@type": "VideoGame", "name": "Arknights: Endfield" },
+        "license": "https://opensource.org/licenses/MIT",
+        "image": "https://andresbench.moe/og.png",
+        "sameAs": ["https://github.com/andresbench/calculator", "https://ko-fi.com/andresbench"]
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <!-- What a crawler without JavaScript reads; the app replaces it on start. -->
+    <div id="root">
+      <div class="shell about">
+        <h1>Andre’s Bench — damage calculator and rotation track for Arknights: Endfield</h1>
+        <p>
+          The build editor shows an operator’s stats with weapon, gear, potentials and talents, and the damage of every
+          hit with the formula broken down factor by factor. The rotation track plays a whole team’s rotation in time:
+          SP, ultimate energy, cooldowns, combo triggers, debuffs, stagger and buffs, and adds up the damage and DPS.
+          Builds can be imported from the in-game showcase through Enka.Network.
+        </p>
+        <p>
+          Every number is a fact from the game data or a measurement, a named assumption, or listed as not counted.
+          Free, open source (MIT), in English and Russian. Unofficial fan project.
+        </p>
+        <p lang="ru">Калькулятор урона и трек ротаций для Arknights: Endfield, интерфейс на русском и английском.</p>
+        <p>
+          <a href="/guide/">How to use it</a> · <a href="/ru/guide/" lang="ru">Как пользоваться</a> ·
+          <a href="https://github.com/andresbench/calculator">Source on GitHub</a>
+        </p>
+        <noscript><p>The calculator runs in the browser and needs JavaScript.</p></noscript>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

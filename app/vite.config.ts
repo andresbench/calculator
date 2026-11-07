@@ -7,6 +7,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
 import { enkaImport } from './enka';
+import { staticPages } from './seo';
 
 /**
  * A short hash of the bundle the build ships with. The page asks for
@@ -35,7 +36,8 @@ export default defineConfig(({ command }) => ({
     __BUILD_COMMIT__: JSON.stringify(command === 'build' ? buildCommit() : ''),
   },
   // enkaImport: roster refresh from an Enka showcase, dev server only.
-  plugins: [react(), enkaImport()],
+  // staticPages: the guide as plain HTML and the sitemap, build only.
+  plugins: [react(), enkaImport(), staticPages()],
   resolve: {
     alias: {
       // The engine is linked as source, not as a built package: one copy of

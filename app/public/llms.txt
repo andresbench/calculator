@@ -1,0 +1,27 @@
+# Andre’s Bench
+
+> Free, open-source damage calculator and rotation track for the game Arknights: Endfield, at https://andresbench.moe (English and Russian). It runs in the browser: there are no accounts, and builds and rotations stay on the user's device. Unofficial fan project, not affiliated with GRYPHLINE or Hypergryph.
+
+What it does:
+
+- **Build editor**: an operator's stat sheet with level, potentials, skill levels, talents, weapon and gear, and the damage of every hit with the damage formula broken down factor by factor. Builds can be saved as variants and compared.
+- **Import from Enka**: loads builds from the in-game showcase by UID through Enka.Network (via a small proxy, enka.andresbench.moe); the roster stays in the browser.
+- **Rotation track**: a team rotation written as presses (the `.rot` text notation) and played in time: SP, ultimate energy, cooldowns, combo triggers, debuffs on the target, stagger, and buffs from talents, weapons and gear sets. It sums the damage and DPS of every step and lists what it does not count.
+- **Sharing**: a rotation exports as a `.rot` file or a link that opens it in anyone's browser.
+
+How to read its numbers: every number is a fact (game data from the Endfield wiki or the game client, or a measurement taken in the game), a named assumption, or listed as "not counted". The engine is tested against in-game measurements, each published with its protocol and tolerance. The project is in alpha: numbers and formats can still change.
+
+## Docs
+
+- [User guide](https://andresbench.moe/guide/index.md): quick start, build editor, Enka import, rotation track, the `.rot` notation, what to trust
+- [Руководство (Russian guide)](https://andresbench.moe/ru/guide/index.md): the same in Russian
+- [Measurements](https://raw.githubusercontent.com/andresbench/calculator/main/docs/measurements.md): mechanics measured in the game, with protocols and tolerances; what the engine is checked against
+
+## Source
+
+- [Repository](https://github.com/andresbench/calculator): the engine (TypeScript), the data pipeline (Python) and the app (React), MIT license
+- [README](https://raw.githubusercontent.com/andresbench/calculator/main/README.md): features, what to trust, known limitations
+
+## Optional
+
+- [Ko-fi](https://ko-fi.com/andresbench): support the author

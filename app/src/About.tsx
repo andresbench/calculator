@@ -14,7 +14,8 @@ import { useLang, useT, type Lang } from './i18n/index.js';
 const REPO = 'https://github.com/andresbench/calculator';
 const MEASUREMENTS = `${REPO}/blob/main/docs/measurements.md`;
 const ISSUES = `${REPO}/issues`;
-const GUIDE = { en: `${REPO}/blob/main/docs/guide.md`, ru: `${REPO}/blob/main/docs/guide.ru.md` };
+/** The guide as plain pages on the site (seo.ts builds them from docs/). */
+const GUIDE = { en: '/guide/', ru: '/ru/guide/' };
 /** A plain link, not Ko-fi's overlay widget: no third-party script on the page. */
 export const KOFI = 'https://ko-fi.com/andresbench';
 const COMMIT = typeof __BUILD_COMMIT__ === 'string' ? __BUILD_COMMIT__ : '';
@@ -30,7 +31,7 @@ export function About({ bundle }: { bundle: Bundle }): JSX.Element {
       <p>{t.about.what}</p>
       <p>
         {t.about.guide}{' '}
-        <a href={GUIDE[lang]} target="_blank" rel="noreferrer">
+        <a href={GUIDE[lang]}>
           {t.about.guideLink}
         </a>
       </p>
@@ -70,6 +71,7 @@ export function About({ bundle }: { bundle: Bundle }): JSX.Element {
           enka.network
         </a>
       </p>
+      <p>{t.about.stats}</p>
       <p className="hint">
         {t.about.assets} {t.about.unofficial}
       </p>
