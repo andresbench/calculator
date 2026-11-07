@@ -13,9 +13,9 @@
  * target, what does the team have, and which combo is open.
  */
 
-import { useRef, useState } from 'react';
+import { Fragment, useMemo, useRef, useState } from 'react';
 
-import { openedBy, type Bundle } from '@engine/index.js';
+import { openedBy, stepHitOffsets, type Bundle } from '@engine/index.js';
 
 import { ELEMENT_COLOR, STACK_COLOR } from './colors.js';
 import { iconUrl } from './data.js';
@@ -241,7 +241,13 @@ export function TrackCanvas({
   const markers = (here && damage ? (damage.markers[view.frames.indexOf(here)] ?? []) : []).filter(
     (marker) => marker.until == null || marker.until > cursor + 1e-9,
   );
-  const ribbonHeight = Math.max(view.spans.length * 17, buffColumnHeight(markers));
+  // The corner is as tall as the most buffs any step stands under, so
+  // scrubbing does not resize the track under the pointer.
+  const buffsHeight = useMemo(
+    () => Math.max(0, ...(damage?.markers ?? []).map(buffColumnHeight)),
+    [damage],
+  );
+  const ribbonHeight = Math.max(view.spans.length * 17, buffsHeight);
 
   const seek = (clientX: number): void => {
     const box = scrollRef.current?.getBoundingClientRect();
@@ -398,6 +404,14 @@ export function TrackCanvas({
             }
             const energy = here?.energy[lane.key] ?? lane.startEnergy;
             const charge = lane.ultCost > 0 ? Math.min(1, energy / lane.ultCost) : 0;
+            // The combo's cooldown at the playhead: from its last cast to when it is back.
+            const cast = lane.frames.filter(
+              (frame) => frame.step.kind === 'CS' && !(frame.step.sequence != null && frame.step.sequence > 1) && frame.world <= cursor + 1e-9,
+            ).at(-1);
+            const back = here?.cooldowns[`${lane.key}:Combo Skill`] ?? 0;
+            const total = cast ? back - cast.world : 0;
+            const left = Math.max(0, back - cursor);
+            const ready = total > 0 ? 1 - Math.min(1, left / total) : 1;
             return (
             <div
               className={`lane${dropSlot === lane.slot ? ' lane--drop' : ''}`}
@@ -412,7 +426,13 @@ export function TrackCanvas({
               >
                 <span className="lane__slot">{String(lane.slot).padStart(2, '0')}</span>
                 {lane.icon && <img src={iconUrl(lane.icon)} alt="" width={22} height={22} draggable={false} />}
-                <span style={{ color: ELEMENT_COLOR[lane.element] ?? '#888' }}>{n.operator(lane.key, lane.name)}</span>
+                <span
+                  className="lane__name"
+                  style={{ color: ELEMENT_COLOR[lane.element] ?? '#888' }}
+                  title={n.operator(lane.key, lane.name)}
+                >
+                  {n.operator(lane.key, lane.name)}
+                </span>
                 <ControlDot
                   name={n.operator(lane.key, lane.name)}
                   on={view.controlledAtStart === lane.key}
@@ -424,6 +444,9 @@ export function TrackCanvas({
                   title={t.ultCharge(Math.floor(energy), Math.round(lane.ultCost))}
                 >
                   <span className="ultbar__fill" style={{ width: `${charge * 100}%` }} />
+                </span>
+                <span className={`combobar${left <= 0 ? ' combobar--ready' : ''}`} title={t.comboCooldown(left)}>
+                  <span className="combobar__fill" style={{ width: `${ready * 100}%` }} />
                 </span>
               </div>
               <div className="lane__body">
@@ -487,7 +510,28 @@ export function TrackCanvas({
                   const bad = frame.problems.length > 0;
                   const trigger = frame.verdicts.get(`${frame.step.index}:trigger`);
                   const picked = selected === frame.step.index;
+                  // The part that holds the buttons or the chain is solid; the
+                  // rest — the operator still busy in the background — a pale tail.
+                  const solid = Math.max(frame.holds.input, frame.holds.chain);
+                  const tail = frame.duration > solid + 1e-6 ? `${((solid / frame.duration) * 100).toFixed(1)}%` : null;
+                  const cooldown = frame.verdicts.get(`${frame.step.index}:cooldown`);
+                  const waits = cooldown?.code === 'comboOnCooldown' ? cooldown.seconds : 0;
                   return (
+                    <Fragment key={frame.step.index}>
+                    {stepHitOffsets(bundle, frame).map((offset) => (
+                      <i
+                        key={`hit-${offset}`}
+                        className="act-hit"
+                        style={{ left: LANE_HEAD + (frame.world + offset) * scale }}
+                      />
+                    ))}
+                    {waits > 0 && (
+                      <div
+                        className="act-wait"
+                        style={{ left: LANE_HEAD + (frame.world - waits) * scale, width: waits * scale }}
+                        title={say(bundle, cooldown!)}
+                      />
+                    )}
                     <Info
                       key={frame.step.index}
                       content={
@@ -503,11 +547,12 @@ export function TrackCanvas({
                       }}
                     >
                       <div
-                        className={`act${bad ? ' act--bad' : ''}${picked ? ' act--picked' : ''}`}
+                        className={`act${bad ? ' act--bad' : ''}${picked ? ' act--picked' : ''}${tail ? ' act--tail' : ''}`}
                         style={{
                           left: LANE_HEAD + frame.world * scale,
                           width: Math.max(frame.duration * scale, 18),
                           borderColor: ELEMENT_COLOR[lane.element] ?? '#888',
+                          ...(tail ? { ['--solid' as string]: tail } : {}),
                         }}
                       >
                         {frame.step.kind}
@@ -515,6 +560,7 @@ export function TrackCanvas({
                         {openedBy(trigger) && <i className="act__open" />}
                       </div>
                     </Info>
+                    </Fragment>
                   );
                 })}
               </div>

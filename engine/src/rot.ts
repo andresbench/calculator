@@ -66,6 +66,8 @@ export interface Rotation {
   priority: string[];
   /** `ultimates: charged` — the fight starts with every ultimate charged. */
   ultimatesCharged?: boolean;
+  /** `sp: unlimited` — SP never runs short: a rotation sketched in a vacuum. */
+  unlimitedSp?: boolean;
   /**
    * `controlled: Lifeng` — who is controlled before the first step. Without
    * it the engine picks (`controlledAtStart`).
@@ -100,6 +102,7 @@ export function parseRot(text: string, aliases: Map<string, string> = new Map())
   let team: string[] = [];
   let priority: string[] = [];
   let ultimatesCharged = false;
+  let unlimitedSp = false;
   let controlled: string | null = null;
   let variant: string | null = null;
   let cycle = 1;
@@ -112,7 +115,7 @@ export function parseRot(text: string, aliases: Map<string, string> = new Map())
     const line = raw.replace(/#.*$/, '').trim();
     if (line === '') continue;
 
-    const header = /^(title|team|priority|variant|ultimates|controlled)\s*:\s*(.*)$/i.exec(line);
+    const header = /^(title|team|priority|variant|ultimates|sp|controlled)\s*:\s*(.*)$/i.exec(line);
     if (header) {
       const value = header[2]!.trim();
       const key = header[1]!.toLowerCase();
@@ -127,6 +130,7 @@ export function parseRot(text: string, aliases: Map<string, string> = new Map())
       else if (key === 'team') team = names().map((name) => (name === EMPTY_SLOT ? '' : name));
       else if (key === 'priority') priority = names();
       else if (key === 'ultimates') ultimatesCharged = value.toLowerCase() === 'charged';
+      else if (key === 'sp') unlimitedSp = value.toLowerCase() === 'unlimited';
       else if (key === 'controlled') controlled = names()[0] ?? null;
       else {
         variant = value;
@@ -212,6 +216,7 @@ export function parseRot(text: string, aliases: Map<string, string> = new Map())
     team,
     priority,
     ...(ultimatesCharged ? { ultimatesCharged } : {}),
+    ...(unlimitedSp ? { unlimitedSp } : {}),
     ...(controlled ? { controlled } : {}),
     steps,
     variants: [...new Set(variants)],
@@ -230,6 +235,7 @@ export function formatRot(rotation: Rotation, nameOf: (key: string) => string): 
     lines.push(`priority: ${rotation.priority.map(nameOf).join(', ')}`);
   }
   if (rotation.ultimatesCharged) lines.push('ultimates: charged');
+  if (rotation.unlimitedSp) lines.push('sp: unlimited');
   if (rotation.controlled) lines.push(`controlled: ${nameOf(rotation.controlled)}`);
 
   let variant: string | null | undefined;

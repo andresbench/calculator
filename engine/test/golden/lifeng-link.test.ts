@@ -8,7 +8,7 @@
 
 import { expect, it } from 'vitest';
 
-import { buildAliases, FALLBACK_SP, FALLBACK_TIMINGS, parseRot, simulate, type Bundle } from '../../src/index.js';
+import { buildAliases, FALLBACK_SP, FALLBACK_TIMINGS, parseRot, simulate, timerEnd, type Bundle } from '../../src/index.js';
 import { describeWithBundle, teamOf } from '../support/bundle.js';
 
 describeWithBundle("Lifeng's Link lasts 20 s (measurements, #41)", (bundle: Bundle) => {
@@ -18,10 +18,12 @@ describeWithBundle("Lifeng's Link lasts 20 s (measurements, #41)", (bundle: Bund
     return simulate(rotation.steps, team, bundle.timings ?? FALLBACK_TIMINGS, { sp: bundle.sp ?? FALLBACK_SP, synergy: bundle.synergy }).frames;
   };
 
-  it('the combo leaves a Link that expires 20 s later', () => {
+  it('the combo leaves a Link that runs 20 s of timer', () => {
     const [combo] = play(1);
     const link = combo!.links.find((item) => item.term === 'Link');
-    expect(link!.expiresAt! - link!.appliedAt).toBeCloseTo(20, 10);
+    // Its own slowdown stretches it (#70): 20 s of timer from the press.
+    expect(timerEnd(combo!.dilations ?? [], link!.appliedAt, 20)).toBeCloseTo(link!.expiresAt!, 6);
+    expect(link!.expiresAt! - link!.appliedAt).toBeGreaterThan(20);
   });
 
   it('a battle skill inside the 20 s spends it', () => expect(play(15)[2]!.link).toMatchObject({ count: 1 }));

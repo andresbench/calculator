@@ -29,6 +29,7 @@ import {
   type Rotation,
   type RotStep,
   type SimModifiers,
+  type StatusEvent,
   type Target,
   type TeamMember,
 } from '@engine/index.js';
@@ -132,6 +133,8 @@ export interface TrackSetup {
   order: string[];
   priority: string[];
   ultimatesCharged?: boolean;
+  /** The rotation's `sp: unlimited` line. */
+  unlimitedSp?: boolean;
   /** The rotation's `controlled:` line. */
   controlled?: string | null;
   /** With no enemy picked: the dummy takes this class's typical stagger meter (`dummyTarget`). */
@@ -194,13 +197,15 @@ function ribbonFrom(frames: Frame[]): RibbonSpan[] {
     for (const event of frame.status) {
       const debuff = onTarget(event.term);
       if (event.kind !== 'other' && !debuff) continue;
+      // A background battle skill's hit lands mid-step, at its own time (#63).
+      const at = event.at ?? frame.world;
       const previous = open.get(event.term);
       // A refresh restarts the window rather than extending the old one.
-      if (previous && previous.to != null && previous.to <= frame.world) open.delete(event.term);
+      if (previous && previous.to != null && previous.to <= at) open.delete(event.term);
       const current = open.get(event.term);
       if (current) {
         // Re-applied while still up: the same window, now ending later.
-        if (debuff && debuff.appliedAt === frame.world) {
+        if (debuff && debuff.appliedAt === at) {
           current.to = debuff.expiresAt;
           if (debuff.level != null) current.level = debuff.level;
         }
@@ -208,7 +213,7 @@ function ribbonFrom(frames: Frame[]): RibbonSpan[] {
       }
       const span: RibbonSpan = {
         term: event.term,
-        from: frame.world,
+        from: at,
         to: debuff?.expiresAt ?? null,
         step: frame.step.index,
         ...(debuff?.level != null ? { level: debuff.level } : {}),
@@ -240,12 +245,17 @@ function stacksFrom(frames: Frame[]): StackSeries[] {
 
   for (const frame of frames) {
     const consumedVuln = frame.status.find((event) => event.kind === 'consumesVulnerable');
+    // Stacks a background battle skill's hit left mid-step change at that hit
+    // (#63) — unless the step also took some, which is at the step itself.
+    const landedAt = (pick: (event: StatusEvent) => boolean): number =>
+      Math.max(frame.world, ...frame.status.filter((event) => event.at != null && pick(event)).map((event) => event.at!));
     const last = vulnerable.points[vulnerable.points.length - 1];
     if (!last || last.value !== frame.target.vulnerable) {
+      const t = consumedVuln ? frame.world : landedAt((event) => event.kind === 'buildsVulnerable');
       vulnerable.points.push(
         consumedVuln?.consumed
-          ? { t: frame.world, value: frame.target.vulnerable, consumed: consumedVuln.consumed, step: frame.step.index }
-          : { t: frame.world, value: frame.target.vulnerable, step: frame.step.index },
+          ? { t, value: frame.target.vulnerable, consumed: consumedVuln.consumed, step: frame.step.index }
+          : { t, value: frame.target.vulnerable, step: frame.step.index },
       );
       vulnerable.peak = Math.max(vulnerable.peak, frame.target.vulnerable);
     }
@@ -268,10 +278,11 @@ function stacksFrom(frames: Frame[]): StackSeries[] {
         const eaten = frame.status.find(
           (event) => event.kind === 'consumesInfliction' && event.element === element,
         );
+        const t = eaten ? frame.world : landedAt((event) => event.kind === 'infliction' && event.element === element);
         series.points.push(
           eaten?.consumed
-            ? { t: frame.world, value, consumed: eaten.consumed, step: frame.step.index }
-            : { t: frame.world, value, step: frame.step.index },
+            ? { t, value, consumed: eaten.consumed, step: frame.step.index }
+            : { t, value, step: frame.step.index },
         );
         series.peak = Math.max(series.peak, value);
       }
@@ -289,12 +300,19 @@ function stacksFrom(frames: Frame[]): StackSeries[] {
  *
  * A combo opens when its operator appears in a frame's `combos` without
  * having been there a frame earlier — or again after that operator cast it.
- * If the rotation casts it before it closes, it is not a ghost.
+ * A lit combo goes dark 6 s after its trigger (#65), and a trigger after that
+ * lights it anew, even when no step falls in the dark gap and the combo is in
+ * every frame's `combos`: its `openedAt` moved past the window. A trigger
+ * inside the window keeps it lit (#69). If the rotation casts it before it
+ * closes, it is not a ghost.
  */
-function ghostsFrom(frames: Frame[]): ComboGhost[] {
+function ghostsFrom(bundle: Bundle, frames: Frame[]): ComboGhost[] {
   const ghosts: ComboGhost[] = [];
   const pending = new Map<string, ComboGhost>();
   let open = new Set<string>();
+  /** The latest trigger of each lit combo. */
+  const lit = new Map<string, number>();
+  const window = bundle.timings?.comboReady ?? null;
 
   frames.forEach((frame, position) => {
     const casting = frame.step.kind === 'CS' && !(frame.step.sequence != null && frame.step.sequence > 1);
@@ -305,17 +323,33 @@ function ghostsFrom(frames: Frame[]): ComboGhost[] {
     const now = new Set<string>();
     for (const combo of frame.combos) {
       now.add(combo.key);
-      if (open.has(combo.key) || pending.has(combo.key)) continue;
+      const last = lit.get(combo.key);
+      if (combo.openedAt != null) lit.set(combo.key, combo.openedAt);
+      if (open.has(combo.key) || pending.has(combo.key)) {
+        const relit = combo.openedAt != null && last != null && window != null && combo.openedAt > last + window + 1e-6;
+        if (!relit) continue;
+        // Dark between two steps and lit again: the old opening ends here.
+        if (pending.has(combo.key)) ghosts.push(pending.get(combo.key)!);
+        pending.delete(combo.key);
+      }
+      // A background battle skill's hit landing inside this step opened it (#63).
+      const byPosition = combo.by != null ? frames.findIndex((item) => item.step.index === combo.by) : -1;
+      const opener = byPosition >= 0 ? frames[byPosition]! : frame;
+      const openerPosition = byPosition >= 0 ? byPosition : position;
       pending.set(combo.key, {
         kind: 'CS',
         key: combo.key,
         at: combo.at,
-        seconds: null,
-        after: position + 1,
+        // As long as the combo would hold the buttons: its window from the client.
+        seconds: bundle.sp?.basicAttack?.[combo.key]?.skillWindows?.CS?.seconds ?? null,
+        // Inserted where it is drawn: after the last step that starts before
+        // it is ready. Right after the opening step it would sit earlier on
+        // the track and wait out the cooldown there.
+        after: Math.max(position + 1, frames.filter((item) => item.world < combo.at - 1e-6).length),
         openedBy: {
-          actor: frame.step.actor ?? frame.step.actorRaw,
-          action: `${frame.step.kind}${frame.step.sequence ?? ''}`,
-          step: position + 1,
+          actor: opener.step.actor ?? opener.step.actorRaw,
+          action: `${opener.step.kind}${opener.step.sequence ?? ''}`,
+          step: openerPosition + 1,
         },
       });
     }
@@ -381,6 +415,7 @@ export function viewFromSteps(
     reactionBonus: reactionBonusFor(bundle, team, potentialFor(bundle, setup)),
     modifiers: simModifiersFor(bundle, team, potentialFor(bundle, setup), setup.buildOf),
     ultimatesCharged: setup.ultimatesCharged ?? false,
+    unlimitedSp: setup.unlimitedSp ?? false,
     controlled: setup.controlled ?? null,
   });
 }
@@ -392,11 +427,12 @@ interface SimContext {
   reactionBonus: Record<string, Record<string, number>>;
   modifiers: Record<string, SimModifiers>;
   ultimatesCharged: boolean;
+  unlimitedSp: boolean;
   controlled: string | null;
 }
 
 function viewFor(bundle: Bundle, part: { variant: string | null; steps: RotStep[] }, context: SimContext): TrackView {
-  const { team, target, priority, reactionBonus, modifiers, ultimatesCharged, controlled } = context;
+  const { team, target, priority, reactionBonus, modifiers, ultimatesCharged, unlimitedSp, controlled } = context;
   // Fragility: the same track at shorter and longer action durations. A
   // verdict that survives every pass is true whatever the real timings turn
   // out to be; one that flips is waiting on a measurement.
@@ -406,6 +442,7 @@ function viewFor(bundle: Bundle, part: { variant: string | null; steps: RotStep[
     reactionBonus,
     modifiers,
     ultimatesCharged,
+    unlimitedSp,
     controlled,
   });
 
@@ -430,7 +467,7 @@ function viewFor(bundle: Bundle, part: { variant: string | null; steps: RotStep[
     target,
     controlledAtStart: result.controlled,
     control: controlFrom(result.controlled, result.frames, result.real),
-    ghosts: [...ghostsFrom(result.frames), ...strikeGhostsFrom(bundle, result.frames)],
+    ghosts: [...ghostsFrom(bundle, result.frames), ...strikeGhostsFrom(bundle, result.frames)],
     frames: result.frames,
     lanes,
     spans: ribbonFrom(result.frames),
@@ -459,6 +496,7 @@ export function buildTrack(
     order: rotation.team,
     priority: rotation.priority,
     ultimatesCharged: rotation.ultimatesCharged ?? false,
+    unlimitedSp: rotation.unlimitedSp ?? false,
     controlled: rotation.controlled ?? null,
     ...(builds ? { builds } : {}),
     ...(buildOf ? { buildOf } : {}),
@@ -473,6 +511,7 @@ export function buildTrack(
       reactionBonus: reactionBonusFor(bundle, team, potentialFor(bundle, setup)),
       modifiers: simModifiersFor(bundle, team, potentialFor(bundle, setup), setup.buildOf),
       ultimatesCharged: setup.ultimatesCharged ?? false,
+      unlimitedSp: setup.unlimitedSp ?? false,
       controlled: setup.controlled ?? null,
     });
   });

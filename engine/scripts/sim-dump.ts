@@ -67,7 +67,8 @@ for (const file of readdirSync(dir).filter((name) => name.endsWith('.rot')).sort
           out.push(
             `step ${frame.step.index} ${frame.step.actor ?? frame.step.actorRaw} ${frame.step.kind}${frame.step.sequence ?? ''} ` +
               `w=${frame.world.toFixed(6)} r=${frame.real.toFixed(6)} d=${frame.duration.toFixed(6)} ` +
-              `sp=${frame.sp.toFixed(6)} rec=${frame.spRecovered} stk=${frame.stacksForHit}`,
+              `sp=${frame.sp.toFixed(6)} rec=${frame.spRecovered} stk=${frame.stacksForHit}` +
+              ` in=${frame.holds.input.toFixed(4)} ch=${frame.holds.chain.toFixed(4)}`,
           );
           out.push(`  energy ${JSON.stringify(frame.energy)} cd ${JSON.stringify(frame.cooldowns)}`);
           out.push(`  target ${JSON.stringify(frame.target)}`);

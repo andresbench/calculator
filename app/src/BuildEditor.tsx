@@ -257,7 +257,8 @@ function WeaponColumns({
   bundle: Bundle;
   onChange: (patch: Partial<Build>) => void;
 }): JSX.Element {
-  const t = useT().editor;
+  const tt = useT();
+  const t = tt.editor;
   const weapon = bundle.weapons[build.weaponKey!]!;
   const { columns, resolved } = weaponColumns(build, bundle);
   const components = weapon.components.filter((component) => component.valuesByRank[0]?.length);
@@ -293,7 +294,9 @@ function WeaponColumns({
               </td>
               <td className="muted">
                 {build.weaponColumns
-                  ? t.columnByHand
+                  ? build.provenance.weapon === 'default'
+                    ? tt.provenance.default
+                    : t.columnByHand
                   : hit
                     ? t.columnFrom(hit.via, hit.cost ?? null, hit.confidence)
                     : t.columnUnknown}

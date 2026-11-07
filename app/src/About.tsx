@@ -14,15 +14,26 @@ import { useLang, useT, type Lang } from './i18n/index.js';
 const REPO = 'https://github.com/andresbench/calculator';
 const MEASUREMENTS = `${REPO}/blob/main/docs/measurements.md`;
 const ISSUES = `${REPO}/issues`;
+const GUIDE = { en: `${REPO}/blob/main/docs/guide.md`, ru: `${REPO}/blob/main/docs/guide.ru.md` };
+/** A plain link, not Ko-fi's overlay widget: no third-party script on the page. */
+export const KOFI = 'https://ko-fi.com/andresbench';
 const COMMIT = typeof __BUILD_COMMIT__ === 'string' ? __BUILD_COMMIT__ : '';
 
 /** The about page: what the project is, how it was made, where its data comes from. */
 export function About({ bundle }: { bundle: Bundle }): JSX.Element {
   const t = useT();
+  const lang = useLang((state) => state.lang);
   return (
     <article className="about">
       <h2>{t.about.title}</h2>
+      <p className="hint">{t.site.alphaTitle}</p>
       <p>{t.about.what}</p>
+      <p>
+        {t.about.guide}{' '}
+        <a href={GUIDE[lang]} target="_blank" rel="noreferrer">
+          {t.about.guideLink}
+        </a>
+      </p>
       <p>{t.about.honesty}</p>
       <p>
         {t.about.measured}{' '}
@@ -71,6 +82,14 @@ export function About({ bundle }: { bundle: Bundle }): JSX.Element {
         </a>
       </p>
       <p className="hint">{COMMIT ? t.about.build(COMMIT) : t.about.dev}</p>
+
+      <h3>{t.about.supportTitle}</h3>
+      <p>
+        {t.about.support}{' '}
+        <a href={KOFI} target="_blank" rel="noreferrer">
+          ko-fi.com/andresbench
+        </a>
+      </p>
     </article>
   );
 }

@@ -82,8 +82,8 @@ function main(): void {
   const uncertain = basics.filter((row) => row.uncertain).length;
   console.log(
     basics.length > 0
-      ? `timing: basic chains from the client (${basics.length} operators, ${uncertain} uncertain), ` +
-          'skills and ultimates still on the placeholder second'
+      ? `timing: chains, skill windows and hits from the client (${basics.length} operators, ${uncertain} ` +
+          'uncertain chains); a press comes as soon as it is allowed, other operators in parallel'
       : 'action durations are not measured: see data/endfield/timings.yaml',
   );
   for (const warning of rotation.warnings) console.log(`  ! ${say(warning)}`);
@@ -94,6 +94,9 @@ function main(): void {
       target,
       priority: rotation.priority,
       controlled: rotation.controlled ?? null,
+      // The rotation's own `ultimates:` and `sp:` lines, as the app reads them.
+      ultimatesCharged: rotation.ultimatesCharged ?? false,
+      unlimitedSp: rotation.unlimitedSp ?? false,
       reactionBonus: reactionBonusFor(bundle, team, rosterPotential(bundle)),
       modifiers: simModifiersFor(bundle, team, rosterPotential(bundle), (key) => showcaseBuild(key, bundle)),
     });
@@ -117,7 +120,7 @@ function main(): void {
     console.log(
       `   damage ${Math.round(damage.total).toLocaleString('en-US')}, ` +
         `DPS ${Math.round(damage.dps).toLocaleString('en-US')} (crit averaged; ` +
-        `${bundle.roster ? 'builds from the roster' : 'no roster: bare operators, no weapon or gear'})`,
+        `${bundle.roster ? 'builds from the roster' : 'no roster: starter builds — skills 9, a 4★ weapon, AIC Fieldwork'})`,
     );
     if (shares.length > 0) console.log(`   by operator: ${shares.join(', ')}`);
     if (caveats) {

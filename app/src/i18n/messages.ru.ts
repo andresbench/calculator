@@ -32,6 +32,11 @@ export const RU_MESSAGES: Catalog = {
   triggerBlocked: (m) =>
     `триггеру нужна цель без ${m.terms.map((term) => `«${term}»`).join(' и ')}, а на цели это сейчас есть`,
   triggerOutOfStance: (m, c) => `триггер работает только в ${m.stance}, а ${c.name(m.operator)} сейчас не в ней`,
+  comboExpired: (m) =>
+    `нажато через ${m.seconds.toFixed(1)} с после триггера, а комбо горит только ${m.ready} с — ` +
+    'нажимать уже нечего',
+  comboTriggerOnCooldown: (m) =>
+    `триггер пришёл за ${m.seconds.toFixed(1)} с до конца отката — пока кнопка серая, комбо не загорается`,
   comboOutOfOrder: (m, c) =>
     `сработал одновременно с комбонавыком ${c.name(m.other)} (шаг ${m.otherStep}), но у ${c.name(m.operator)} ` +
     'приоритет выше, и игра нажмёт его первым — поменяйте шаги местами или приоритет',
@@ -50,7 +55,9 @@ export const RU_MESSAGES: Catalog = {
   cooldownCutWasted: (m, c) =>
     `${c.name(m.operator)} (${slot(m.slot)}): комбонавык не был на кулдауне — −${m.seconds} с впустую`,
   cooldownReady: () => 'готов',
-  cooldownWaiting: () => 'ожидание',
+  comboOnCooldown: (m) => `на откате: ждёт ${m.seconds.toFixed(1)} с`,
+  comboSlowsWorld: (m) => `замедляет мир: остальные стоят ${m.seconds.toFixed(2)} с`,
+  comboWentDark: (m) => `погасло за ${(m.seconds - m.ready).toFixed(1)} с до нажатия`,
   triggerNotOpen: () => 'не открыт',
   triggerUnread: (m) =>
     m.own ? `триггер не проверяется: движок не считает ${m.own}` : 'триггер не проверяется: трек не видит этого события',
@@ -103,9 +110,15 @@ export const RU_MESSAGES: Catalog = {
     `поглощено: ${m.items.map((item) => (item.count != null ? `${item.count}× ${item.term}` : item.term)).join(', ')}`,
   deferred: (m) => `ляжет на следующий последний удар${m.window != null ? ` в пределах ${m.window} с` : ''}`,
   delivers: (m, c) => `${m.skill} (${c.name(m.operator)}) ложится на этот последний удар`,
+  landsLater: (m) => `статусы лягут через ${m.seconds.toFixed(2)} с после нажатия, уже на следующих шагах`,
+  landsHere: (m, c) => `здесь ложится ${m.skill} (${c.name(m.operator)}, шаг ${m.step})`,
+  waitsForHit: (m, c) => `ждёт ${m.seconds.toFixed(2)} с, пока ударит боевой ${c.name(m.operator)}`,
+  waitsForStrike: (m, c) => `ждёт ${m.seconds.toFixed(2)} с, пока ударит Final Strike ${c.name(m.operator)}`,
+  waitsForComboHit: (m, c) => `ждёт ${m.seconds.toFixed(2)} с, пока ударит комбо ${c.name(m.operator)}`,
   applies: (m) => m.terms.join(', '),
   debuffActive: (m) => (m.until == null ? 'действует' : `действует до ${m.until.toFixed(1)} с`),
   spRecovered: (m) => `+${m.sp} SP восстановлено`,
+  spRecoveredFor: (m, c) => `+${m.sp} SP восстановил ${m.skill} (${c.name(m.operator)}): его удар съел стаки здесь`,
   spReturned: (m) => `+${m.sp} SP возвращено за поглощение: ${m.term}`,
   stagesAreHits: (m) => `одно нажатие: стадия ${m.written} — удар того же каста, сыграна как весь навык`,
   movesByStacks: (m) =>
@@ -178,6 +191,9 @@ export const RU_MESSAGES: Catalog = {
   trackLink: () =>
     'Link считается на всех ударах каста, который его тратит; берут ли его удары, идущие как Crush (World Splitter), — открыто (замеры, п. 15)',
   trackNextStep: () => 'бафф, сработавший на шаге, считается со следующего шага; внутри одного каста — см. подсказку шага',
+  trackHitTimes: () =>
+    'удар, пришедший после следующего нажатия, считается с баффами на момент удара (время ударов из клиента); удар внутри своего шага — с тем, что стояло при нажатии',
+  trackHitGuess: (m, c) => `${c.name(m.operator)}, ${m.skill}: строк вики и ударов клиента разное число — все строки на последнем ударе`,
   trackStatusSnapshot: () =>
     'дебафф статуса держит силу искусств наложившего на шаге наложения, с баффами трека; берёт ли её игра в этот момент или на каждом ударе — открыто (замеры, п. 46)',
   trackStaggerAtStart: () =>

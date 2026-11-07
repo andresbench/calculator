@@ -15,7 +15,7 @@ import { SiteFooter, SiteHeader, type Screen } from './Chrome.js';
 import BuildEditor from './BuildEditor.js';
 import { ELEMENT_COLOR } from './colors.js';
 import Track from './Track.js';
-import { iconUrl, useBundle } from './data.js';
+import { iconUrl, listed, useBundle } from './data.js';
 import { EnkaImport } from './EnkaImport.js';
 import { useLang, useT } from './i18n/index.js';
 import { useNames, useRuNames } from './i18n/names.js';
@@ -157,6 +157,7 @@ export default function App(): JSX.Element {
     const needle = query.trim().toLowerCase();
     return Object.values(bundle.operators)
       .filter((operator) => !mineOnly || rosterKeys.has(operator.key))
+      .filter((operator) => listed(operator.key, rosterKeys))
       .filter((operator) => element === 'all' || operator.element === element)
       .filter(
         (operator) =>

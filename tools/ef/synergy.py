@@ -497,6 +497,30 @@ def vulnerable_stacks(operator: dict) -> dict[str, dict]:
     return out
 
 
+# «The Slam … applies Knock Down … After a while, the Slam unleashes one more
+# hit that … applies another Knock Down» — one cast, the same term twice. The
+# earlier application has to stand in the same paragraph: Arcane's «applies
+# another instance of Nature Susceptibility» is a battle skill hit on an
+# Imprisoned target, a separate event under its own condition, not a repeat
+# of the combo's.
+REPEAT_RE = re.compile(r"\bapplies another (?P<term>[A-Z][\w']*(?: [A-Z][\w']*)*)")
+
+
+def repeats(operator: dict) -> dict[str, dict[str, int]]:
+    """skill → term → how many times one cast applies it, when more than once."""
+    out: dict[str, dict[str, int]] = {}
+    for _, name, text in skill_texts(operator):
+        for paragraph in text.split("\n"):
+            paragraph = re.sub(r"\s+", " ", paragraph)
+            for found in REPEAT_RE.finditer(paragraph):
+                term = found["term"]
+                earlier = re.search(rf"\bappl(?:y|ies)\b[^.]*?\b{re.escape(term)}\b", paragraph[: found.start()])
+                if earlier:
+                    counts = out.setdefault(name, {})
+                    counts[term] = counts.get(term, 1) + 1
+    return out
+
+
 STUCK_RE = re.compile(r"\bKicks an? (?P<name>[A-Z][\w ]*?) that sticks to the target\b.*?\bexploding after a short duration")
 DETONATES_RE = r"If an? {name} has been stuck to the target, the skill detonates it immediately and increases the DMG"
 

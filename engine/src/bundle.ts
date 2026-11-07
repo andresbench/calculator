@@ -11,7 +11,7 @@ import type { SpTable } from './simulate.js';
 import type { Timings } from './timing.js';
 import type { Synergy } from './triggers.js';
 
-export const SCHEMA = 33;
+export const SCHEMA = 39;
 
 /**
  * A number's unit. It exists because in the wiki's source data percentages
@@ -90,6 +90,12 @@ export interface StatRow {
      * stacks and is unknown ("per Beat").
      */
     count?: number | null;
+    /**
+     * When each of its hits lands, seconds from the press — for a basic
+     * attack row, from the start of the chain (`export.py`, `hit_times`, from
+     * the client's frames). Missing — not known.
+     */
+    at?: number[];
     /** Hits once per thing the cast made (`Synergy.stocks`): «DMG Multiplier (1 Waterspout)». */
     per?: string;
     /**
@@ -154,6 +160,11 @@ export interface Skill {
   grants?: SkillGrant[];
   /** Crit and ATK its own rows grant (`export.py`, `skill_boosts`). */
   boosts?: SkillBoost[];
+  /**
+   * `last` — the wiki's rows and the client's hits disagree in number, so
+   * every row was put on the last hit (`export.py`, `hit_times`).
+   */
+  hitTimes?: 'last';
   /** An ultimate that is one long cast of enhanced basic attacks (`export.py`, `ultimate_barrage`). */
   barrage?: SkillBarrage;
   /** An ultimate that enhances the basic attack for a window (`export.py`, `enhanced_basic`). */

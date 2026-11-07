@@ -194,7 +194,16 @@ const STEP_NOTES = new Set([
   'linkSpent',
   'crystalsShattered',
   'spRecovered',
+  'spRecoveredFor',
   'spReturned',
+  'comboOnCooldown',
+  'comboSlowsWorld',
+  'comboWentDark',
+  'landsLater',
+  'landsHere',
+  'waitsForHit',
+  'waitsForStrike',
+  'waitsForComboHit',
 ]);
 
 export function explainFrame(bundle: Bundle, frame: Frame): JSX.Element | null {

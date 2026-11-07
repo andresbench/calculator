@@ -5,8 +5,9 @@
  * Source — `docs/measurements.md`:
  *
  * * #35 — Endministrator, 60 fps video. After her combo another operator's
- *   battle skill starts ~25 client frames in (the client's window: frame 23,
- *   so 24); after her ultimate at 46 (the cutscene ends at 44, so 45). During
+ *   battle skill starts 25 ± 1 client frames in — her combo's slowdown,
+ *   0.867 s at ×0.05 (#64); after her ultimate at 46 (the cutscene ends at
+ *   44, so 45). During
  *   the cutscene the stage clock and combo cooldowns run, natural SP regen
  *   stands still (run L5: a battle skill pressed after it waited for a full
  *   gauge).
@@ -35,10 +36,14 @@ describeWithBundle('skill windows, cutscene and dodge (measurements, #35, #40)',
     });
   };
 
-  it("the Endministrator's combo holds the track for its measured window, whatever the scale", () => {
+  it("another operator's battle skill comes 25 ± 1 frames after the Endministrator's combo, whatever the scale", () => {
     for (const scale of [0.5, 1, 2]) {
-      const sim = run('Chen Qianyu: CS\nEndministrator: CS', { scale });
-      expect(Math.abs(sim.frames[1]!.duration - 25 * FRAME)).toBeLessThanOrEqual(FRAME);
+      const sim = run(
+        'team: Chen Qianyu, Pogranichnik, Endministrator\nChen Qianyu: BS\nChen Qianyu: CS\nEndministrator: CS\nPogranichnik: BS',
+        { scale },
+      );
+      const [, , combo, battle] = sim.frames;
+      expect(Math.abs(battle!.world - combo!.world - 25 * FRAME)).toBeLessThanOrEqual(FRAME);
     }
   });
 
@@ -59,9 +64,13 @@ describeWithBundle('skill windows, cutscene and dodge (measurements, #35, #40)',
 
   it("Chen's battle skill holds another operator only as long as the button mashing (#35, 2026-11-05)", () => {
     // Pogranichnik's battle skill started 8 and 13 client frames after hers; the faster is the bound.
+    // A press, not a step: his press comes 8 frames after hers, while she is
+    // still busy with her own window.
     for (const scale of [0.5, 2]) {
       const sim = run('team: Chen Qianyu, Pogranichnik\nChen Qianyu: BS\nPogranichnik: BS', { scale });
-      expect(Math.abs(sim.frames[0]!.duration - 8 * FRAME)).toBeLessThanOrEqual(1e-4);
+      expect(Math.abs(sim.frames[0]!.holds.input - 8 * FRAME)).toBeLessThanOrEqual(1e-4);
+      expect(Math.abs(sim.frames[1]!.world - sim.frames[0]!.world - 8 * FRAME)).toBeLessThanOrEqual(1e-4);
+      expect(sim.frames[0]!.duration).toBeGreaterThan(8 * FRAME);
     }
     // Her own next action waits for her window (frame 25 + 1), unmeasured on video.
     const own = run('Chen Qianyu: BS\nChen Qianyu: BA');

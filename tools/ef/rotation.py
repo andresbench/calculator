@@ -36,7 +36,7 @@ names work too.
 
 Commands::
 
-    python3 tools/ef/rotation.py check rotations/physical-core.rot
+    python3 tools/ef/rotation.py check rotations/archive/physical-core.rot
     python3 tools/ef/rotation.py parse "Chen Qianyu: BS > CS > Camille: BS"
 """
 
@@ -245,6 +245,10 @@ def parse(text: str) -> dict:
             continue
         if line.lower().startswith("ultimates:"):
             rotation["ultimates_charged"] = line.split(":", 1)[1].strip().lower() == "charged"
+            continue
+        if line.lower().startswith("sp:"):
+            # `sp: unlimited` — a rotation sketched in a vacuum; the engine reads it.
+            rotation["unlimited_sp"] = line.split(":", 1)[1].strip().lower() == "unlimited"
             continue
         if line.lower().startswith("title:"):
             rotation["title"] = line.split(":", 1)[1].strip()

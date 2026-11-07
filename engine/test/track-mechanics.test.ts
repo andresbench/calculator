@@ -15,8 +15,10 @@ import {
   parseRot,
   simulate,
   slotOrder,
+  spAt,
   stepHits,
   targetFor,
+  timerEnd,
   ultimateCost,
   type Bundle,
   type SimulateOptions,
@@ -107,12 +109,14 @@ describeWithBundle('track mechanics from the skill text', (data: Bundle) => {
 
   it("Arclight's combo opens on Electrification and again when it is consumed", () => {
     const team = ['Arclight', 'Perlica', 'Zhuang Fangyi'];
-    const frames = run('Perlica: FS > CS > Arclight: CS > Zhuang Fangyi: BS > Arclight: CS', {}, team).frames;
+    // The pause lets her cooldown run out first: a trigger while the button
+    // is grey lights nothing (#72).
+    const frames = run('Perlica: FS > CS > Arclight: CS > Perlica: WAIT 4s > Zhuang Fangyi: BS > Arclight: CS', {}, team).frames;
     expect(frames[2]!.problems).toEqual([]);
-    expect(frames[4]!.problems).toEqual([]);
-    expect(frames[4]!.verdicts.get('5:trigger')).toEqual({
+    expect(frames[5]!.problems).toEqual([]);
+    expect(frames[5]!.verdicts.get('6:trigger')).toEqual({
       code: 'triggerOpenedBy',
-      by: [{ term: 'Electrification', step: 4 }],
+      by: [{ term: 'Electrification', step: 5 }],
     });
   });
 
@@ -191,11 +195,49 @@ describeWithBundle('track mechanics from the skill text', (data: Bundle) => {
     expect(labels(['Link'])).toContain('Additional ATK DMG Multiplier');
   });
 
+  it("Lifeng's ultimate knocks down twice: two Vulnerable stacks from one cast", () => {
+    // «applies Knock Down … one more hit that … applies another Knock Down».
+    const result = run('Lifeng: ULT', { ultimatesCharged: true });
+    expect(result.frames[0]!.target.vulnerable).toBe(2);
+    expect(result.frames[0]!.status.filter((event) => event.term === 'Knock Down').length).toBe(2);
+  });
+
+  it("the SP bar stands still through an ultimate's cutscene and does not fall back after it", () => {
+    // SP below the cap, then the Endministrator's ultimate: the gauge holds
+    // through the cutscene (#35, L5), so reading it mid-cutscene gives the
+    // value at the press — not regen that the end of the ultimate takes back.
+    const result = run('Chen Qianyu: BS > Endministrator (female): ULT', { ultimatesCharged: true }, ['Chen Qianyu', 'Endministrator (female)']);
+    const ult = result.frames[1]!;
+    const at = (t: number) => spAt(result.spTimeline, t, result.regen);
+    expect(at(ult.world + ult.duration / 2)).toBeCloseTo(at(ult.world), 6);
+    expect(at(ult.world + ult.duration)).toBeCloseTo(at(ult.world), 6);
+  });
+
+  it("Pogranichnik's battle skill recovers SP for the stacks its late hit eats, at the hit", () => {
+    // His Breach lands 1.42 s after the press, inside the Endministrator's chain:
+    // the stack is eaten there, and «SP Recovery by Consuming 1 Vulnerability
+    // Stack» with it — not lost because the step running then is someone else's.
+    const result = run('Chen Qianyu: BS > Pogranichnik: BS > Endministrator (female): BA', {}, ['Chen Qianyu', 'Pogranichnik', 'Endministrator (female)']);
+    const skill = data.operators.Pogranichnik!.skills.find((item) => item.type === 'Battle Skill')!;
+    const row = skill.stats.find((item) => item.sp?.when === 'consumed' && item.sp.stacks === 1)!;
+    const level = teamOf(data, ['Pogranichnik'], []).get('Pogranichnik')!.skills.battle;
+    const expected = row.values[level - 1]!;
+    const landed = result.frames[2]!;
+    expect(landed.verdicts.get(`3:spRecoveredBy:Pogranichnik`)).toMatchObject({ code: 'spRecoveredFor', sp: expected });
+    expect(landed.spRecoveredBy.Pogranichnik).toBe(expected);
+    // On the gauge at the hit, not at the start of the step it falls in.
+    const hit = landed.status.find((event) => event.term === 'Breach')!.at!;
+    const before = spAt(result.spTimeline, hit - 0.01, result.regen);
+    const after = spAt(result.spTimeline, hit + 0.01, result.regen);
+    expect(after - before).toBeGreaterThan(expected - 0.5);
+  });
+
   it('a Physical Status breaks the crystals; the shards are the Endministrator’s', () => {
     const result = run('Endministrator (female): CS > Chen Qianyu: BS');
     const seal = result.frames[0]!.target.debuffs.find((debuff) => debuff.term === 'Originium Crystal');
-    // The crystals last as long as the seal: «Seal Duration (s)», 5 s at level 12.
-    expect(seal?.expiresAt).toBeCloseTo(5, 6);
+    // The crystals last as long as the seal: «Seal Duration (s)», 5 s at level 12,
+    // of timer — her own combo's slowdown stretches it (#70).
+    expect(seal?.expiresAt).toBeCloseTo(timerEnd(result.frames[0]!.dilations ?? [], 0, 5), 6);
     // Her combo applies the crystals, not Vulnerable: «applying … shatters» is a condition.
     expect(result.frames[0]!.target.vulnerable).toBe(0);
 

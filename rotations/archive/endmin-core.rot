@@ -1,0 +1,31 @@
+# A team around the Endministrator.
+# Originally written in words:
+#   "Chen: battle, combo, Endmin combo, Ember combo (we let ourselves get hit),
+#    Chen combo (potential 5 comes off cooldown fast), Endmin battle,
+#    Pogranichnik combo"
+title: Endmin core: Chen / Endmin / Ember / Pogranichnik
+team: Chen Qianyu, Endministrator, Ember, Pogranichnik
+
+variant: basic
+Chen Qianyu: BS > CS
+Endministrator: CS
+Ember: CS          [trigger: "when the controlled operator is attacked" — we take the hit]
+Chen Qianyu: CS    [P5: Soar to the Stars cooldown −3 s, it is back in time]
+Endministrator: BS [Crush: eats every Vulnerable stack]
+Pogranichnik: CS   [trigger: "when Crush or Breach consumed stacks"]
+
+# Alternative: split stack consumption over two cycles, so that the
+# Endministrator's Crush lands inside Pogranichnik's Breach debuff
+# (Physical DMG Taken).
+variant: Breach window
+cycle 1:
+Chen Qianyu: BS > CS
+Endministrator: CS
+Ember: CS
+Chen Qianyu: CS
+Pogranichnik: BS   [Breach: eats the stacks and applies Physical DMG Taken]
+Pogranichnik: CS
+cycle 2:
+Chen Qianyu: BS > CS [build the stacks again]
+Endministrator: BS [Crush, now inside the Breach debuff]
+Pogranichnik: CS

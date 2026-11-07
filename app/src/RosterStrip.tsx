@@ -11,7 +11,7 @@ import { useMemo, useState } from 'react';
 
 import type { Build, Bundle, Operator } from '@engine/index.js';
 
-import { iconUrl } from './data.js';
+import { iconUrl, listed } from './data.js';
 import { InfoBody, Info } from './Info.js';
 import { useT } from './i18n/index.js';
 import { useNames } from './i18n/names.js';
@@ -127,7 +127,7 @@ export function RosterStrip({
   const operators = useMemo(() => {
     const owned = new Set(Object.keys(bundle.roster?.operators ?? {}));
     return Object.values(bundle.operators)
-      .filter((operator) => !operator.upcoming && (everyone || owned.has(operator.key)))
+      .filter((operator) => !operator.upcoming && (everyone || owned.has(operator.key)) && listed(operator.key, owned))
       .sort(
         (a, b) =>
           Number(owned.has(b.key)) - Number(owned.has(a.key)) ||

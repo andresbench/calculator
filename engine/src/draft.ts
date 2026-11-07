@@ -51,6 +51,8 @@ export interface Draft {
   comboPriority?: string[];
   /** The fight starts with every ultimate charged. */
   ultimatesCharged?: boolean;
+  /** SP never runs short (`sp: unlimited`). */
+  unlimitedSp?: boolean;
   /** Who is controlled before the first step; missing — the engine picks. */
   controlled?: string;
   variant: string | null;
@@ -116,6 +118,7 @@ export function draftFromRotation(
     team,
     comboPriority: [...rotation.priority],
     ...(rotation.ultimatesCharged ? { ultimatesCharged: true } : {}),
+    ...(rotation.unlimitedSp ? { unlimitedSp: true } : {}),
     ...(rotation.controlled ? { controlled: rotation.controlled } : {}),
     variant,
     steps: steps.map((step) => ({
@@ -166,6 +169,7 @@ export function draftToText(bundle: Bundle, draft: Draft): string {
     team: draft.team,
     priority: draft.comboPriority ?? [],
     ...(draft.ultimatesCharged ? { ultimatesCharged: true } : {}),
+    ...(draft.unlimitedSp ? { unlimitedSp: true } : {}),
     ...(draft.controlled ? { controlled: draft.controlled } : {}),
     steps: draftSteps(draft),
     variants: draft.variant ? [draft.variant] : [],

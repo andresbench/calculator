@@ -2,8 +2,10 @@
  * Rotation draft: edits, round trip and palette.
  *
  * The main test here is the **round trip over the real files**. Each file in
- * `rotations/` is copied into a draft, serialised back to `.rot` and parsed
- * again; the steps must match. An export that silently drops a step is
+ * `rotations/` and `rotations/archive/` is copied into a draft, serialised
+ * back to `.rot` and parsed again; the steps must match. The archive is no
+ * longer played (its timing predates the measurements of 2026-11-06), but it
+ * is the widest sample of the notation there is. An export that silently drops a step is
  * worse than none: the user learns of the loss from a file that has been in
  * the repository for a week.
  *
@@ -12,7 +14,8 @@
  * `rotations-real.test.ts`).
  */
 
-import { readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 
 import { describe, expect, it } from 'vitest';
 
@@ -53,8 +56,24 @@ function draftWith(steps: Array<[string, Draft['steps'][number]['kind'], number 
   return draft;
 }
 
+/** `.rot` files of the repository: the played ones and the archive. */
+function rotationFiles(): Array<[string, { name: string; text: string }]> {
+  const root = fileURLToPath(new URL('../../rotations/', import.meta.url));
+  return ['', 'archive/'].flatMap((folder) =>
+    existsSync(root + folder)
+      ? readdirSync(root + folder)
+          .filter((name) => name.endsWith('.rot'))
+          .sort()
+          .map((name): [string, { name: string; text: string }] => {
+            const stem = name.slice(0, -4);
+            return [folder + stem, { name: folder + stem, text: readFileSync(root + folder + name, 'utf8') }];
+          })
+      : [],
+  );
+}
+
 describeWithBundle('round trip over the real rotations', () => {
-  const files = Object.entries(bundle!.rotations ?? {});
+  const files = rotationFiles();
 
   it('there are files at all', () => {
     expect(files.length).toBeGreaterThan(0);

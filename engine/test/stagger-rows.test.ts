@@ -39,7 +39,7 @@ describeWithBundle('Stagger rows follow their hits', (bundle) => {
     statAt(bundle.operators[operator]!.skills.find((skill) => skill.type === type)!, label, 12)!;
 
   it("Pogranichnik's combo: the enhanced third slash replaces the plain one on four stacks", () => {
-    // The Breach window of `rotations/endmin-core.rot`: four stacks, Breach eats them, the combo follows.
+    // The Breach window of `rotations/archive/endmin-core.rot`: four stacks, Breach eats them, the combo follows.
     const sim = run(
       'Chen Qianyu, Endministrator, Ember, Pogranichnik',
       'Chen Qianyu: BS > CS\nEndministrator: CS\nEmber: CS\nChen Qianyu: CS\nPogranichnik: BS\nPogranichnik: CS',

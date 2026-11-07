@@ -146,21 +146,49 @@ Open on basic attacks:
 **Battle skill — 2026-11-05 (Chen → Pogranichnik):** another operator's
 battle skill starts 8–13 client frames in — as fast as the button is
 mashed, and Chen's hit is not cut. A battle skill holds only its own
-operator; the engine gives the step 8 frames when the next step is
-someone else's.
+operator; another operator's next press comes 8 frames after it, while
+the battle skill plays on in the background.
 
-## 21. Battle skill, combo and ultimate durations — `open`
+## 21. Durations: what comes from the client, what is nominal — `confirmed` 2026-11-06 (dive, finisher)
 
-Cast time is given neither on the wiki nor in the game. BS, CS and ULT use
-a nominal second; the track runs three times, with multipliers 0.5, 1 and 2
-on duration, and verdicts that flip between runs are marked fragile. Much
-of a rotation's time comes from the data (cooldowns, SP regen) and does not
-depend on durations.
+From the client (`frames.py`, #35): each operator's chain cycle and Final
+Strike share; battle skill, combo and ultimate windows (own `AllowNext` +
+1, the ultimate's cutscene); how long another operator's battle skill
+holds the buttons (8 frames); every hit of a chain and of a skill, hit stop
+included (`chainHits`, `skillHits`). Checked on video: the
+Endministrator's combo and ultimate, Chen's battle skill, Lifeng's battle
+skill hit (#63).
 
-The path is #35. If the frame reading does not hold, measure one action at
-a time, starting with those that have the most fragile verdicts; write them
-to `data/endfield/timings.yaml`, section `overrides`, keyed
-"Operator: Skill type". Item 17 ("action durations") is merged here.
+Nominal (`timings.yaml`, one second): finisher, dive, dodge (estimate,
+#40), a skill of an operator without frames, a chain marked `uncertain`.
+
+The sensitivity passes now scale only the nominal values. Client frames
+are not scaled: scaling one number and not the next moved events across
+presses and flipped verdicts for no reason in the game. A fragile verdict
+again means "needs a measurement".
+
+**How to close.** Finisher and dive on video, as in #35: press → next
+action. Write to `timings.yaml`, `overrides`, keyed "Operator: Skill
+type". Item 17 is merged here.
+
+**Dive — measured 2026-11-06.** Chen, eight dives on Rhodagn: leaving the
+ground → the landing hit 0.50–0.53 s each time; the next jump at least 1.13 s
+after the hit. The client's landing (`plunging_attack_end`) has its hit on
+frame 1 and its window at `exclusiveFrame` + 1 (Chen 0.70 s; 0.43–0.87 across
+operators). The engine: the hit 0.52 s after the press, the next action at
+the landing's window end (Chen 1.19 s).
+
+**Finisher — measured 2026-11-06.** Chen on a staggered Rhodagn, spamming
+the attack: her two finisher hits 1.00 s apart, the next chain's first hit
+1.30 s after the second; press to press 2.20 s. The client's `power_attack`
+has its hit stops in pairs a frame or two apart (5 and 6, 29 and 31): the
+sum of all four would give 2.85 s; counting only the later of each pair
+gives exactly 2.20. The rule is fitted on Chen alone (`fitted` in the
+data); the basic chain keeps the plain sum (#68b). Other finishers by it:
+the Endministrator 1.67 s, Lifeng 2.57, Arcane 2.28, Pogranichnik 2.40.
+Another operator's battle skill pressed with the finisher started 0.32 s
+after it — the hand; the finisher holds no one else and plays out alongside
+(its hits again 1.00 s apart).
 
 ## 42. Does a skill reset the basic attack chain — `open`
 
@@ -932,6 +960,122 @@ cast's statuses use the ATK before the talent stack this same hit adds.
 Lifeng's combo, then nothing pressed: the team's Link icon goes away on its
 own after 20 s. The combo's `Combo Duration (s)` = 20 row is the Link's own
 duration.
+
+## 73. Lifeng's ultimate: two slams, two Knock Downs — `confirmed` 2026-11-07
+
+Two Vulnerable stacks from one ultimate, one per slam (player). The text
+says so: «applies Knock Down … one more hit that … applies another Knock
+Down». The client's frames have no hit for the ultimate (his aspect
+strikes), so the times are from Teo's 60 fps video, counted from the
+cutscene's first frame (2150; the interface is back at 2264, +114 = the
+client's 57 frames): the first slam's numbers at +128 (2.133 s), the
+second's at +286 (4.767 s) with Chen's combo pressed between them — its
+0.633 s slowdown at ×0.05 taken out, 4.167 s = 125 client frames of the
+ultimate's own clock. A combo waiting for the second stack waits for the
+second slam. Test — `engine/test/golden/lifeng-ultimate.test.ts`.
+
+## 72. A trigger during the cooldown is lost — `confirmed` 2026-11-06 (player)
+
+While the combo bar is grey, nothing triggers it; after the cooldown only a
+new event lights it. The engine offers no ghost on such a trigger and flags
+a combo pressed on it (`comboTriggerOnCooldown`).
+
+## 70. Timers slow with a combo's slowdown — `confirmed` 2026-11-06
+
+Physical Susceptibility from Lifeng's battle skill, its icon read by pixels:
+alone 11.93 s (the wiki's 12); through three combos (Chen, Lifeng, the
+Endministrator — 2.43 s of slowdown) 14.20 s, +2.27 against 2.43 × 0.95 =
+2.31. Buff and debuff timers run at ×0.05 under a combo's slowdown, not
+under an ultimate's cutscene (#16, #35). Cooldowns tick unscaled. A timer
+a combo puts on is stretched by its own slowdown too: Lifeng's Link runs
+20.89 s of stage clock from the press.
+
+## 71. Another operator's battle skill does not hold a fresh chain — `confirmed` 2026-11-06
+
+The Endministrator standing, Lifeng's battle skill, the attack at once: her
+first hit 0.30 s after his press, where 8 frames plus her own 0.2 s would
+make it 0.467. Mid-chain it did not hold the chain either (#68b). The
+8 frames are the skill buttons' only (#35).
+
+## 69. A combo with a standing trigger burns 6 s too — `confirmed` 2026-11-06
+
+Arcane's INT trigger reads like a state ("at least 2 stacks of non-Nature
+Arts Infliction"). Two battle skills of Tangtang's, nothing else: her bubble
+lit with the second stack at 15.30 and faded at 21.30 — **6.00 s**, the
+stacks still up. Tangtang's own bubble burned longer: his trigger fires again
+on every Cryo hit. A combo is held only as long as its trigger keeps firing;
+the engine counts from the term's latest application.
+
+## 64–68. Combos, cutscenes and hit stops on the clock — `confirmed` 2026-11-06
+
+Teo's 60 fps videos against Rhodagn; times are recording frames, a mark is
+good to a frame on either side. Test — `engine/test/golden/combo-slowdown.test.ts`.
+
+**#64 — a combo slows the world.** The Endministrator's chain, first hit →
+Final Strike: 3.383 s; with Chen's combo in the middle 3.983 s. Every combo
+starts with a `TimeDilationAction` (curve `ComboSkill`) that spares its
+caster; Chen's lasts 0.633 s (the Endministrator's 0.867, Lifeng's 0.933,
+most 0.5–0.67). On video the screen darkens for 0.60 s and natural SP regen
+stands still. The world runs at ×0.05 in it: the floor of the perfect
+dodge's slowdown, and it fits every measurement below to 1.5 frames, where a
+full stop is 1–3 frames late each time (0.633 × 0.95 = 0.601). The battle
+skill of another operator after the Endministrator's combo, 25 ± 1 frames
+(#35), is the same slowdown: 0.867 × 0.95 = 24.7 frames.
+
+**#65 — a combo stays ready 6 s.** The bubble with the portrait and the E
+key: Chen 6.00, Lifeng 5.95, the Endministrator 6.00 s from lighting up to
+fading; the ring counts it down. Not in the client's tables
+(`timings.yaml`, `combo_ready`). Chen's combo hit 0.567 s after the press,
+the client's frame.
+
+**#66 — the next combo goes at once, and stops the one before.** Chen's,
+Lifeng's and the Endministrator's combos (his thrust opened hers): the
+second pressed 0.15–0.16 s after the first — the fingers. Chen's hit came
+2.10 / 2.15 s after her press instead of 0.567: she stood under Lifeng's and
+then the Endministrator's slowdown. A new slowdown takes over from the
+running one — the Endministrator's hit came at the client's 0.767 s, not
+slowed by the rest of Lifeng's. Model against video: Chen's hit 15.304 /
+35.572 against 15.317 / 35.600, Lifeng's second 15.791 / 36.038 against
+15.800 / 36.033. A combo opened by another combo lights up on that combo's
+hit.
+
+**#67 — an ultimate's cutscene stops the chain.** Chen's ultimate mid-chain:
+segment 3 ended before the cutscene, segment 4 started after it; the Final
+Strike came 1.83 s late (the cutscene 1.62 s on screen, 1.667 in the client;
+an accidental battle skill of Chen's came first). Engine: the cutscene is a
+slowdown at ×0 that spares the ultimate's caster.
+
+**#68 — which hit stops count.** `HitStopAction.affectType` 2 holds the
+attacker as well: the Endministrator's chain intervals are 0.367 and 0.500 s
+against the client's 0.300 and 0.433 — each 0.06 longer, the previous hit's
+stop; to the Final Strike 3.383 against 2.867 + 0.49 of stops = 3.357.
+Lifeng's battle skill counted its 0.1 s stops (#63) for the same reason.
+`affectType` 1 holds only the target: Lifeng's combo, 1.333 s on the first
+hit, leaves 0.93 s between his hits against the client's 0.967. A Final
+Strike opens combos on its hit that restores SP (`ObtainCostAction`):
+Lifeng's two-hit strike lit his combo on the second (0.364 s after the
+first; the client's 11 frames). The basic chains in `basic_attacks.json`
+now include the attacker's stops: up to +1.2 s per chain for heavy hitters.
+
+## 63. When a background battle skill lands — `confirmed` 2026-11-06
+
+The Endministrator controlled, Lifeng's battle skill, the Endministrator
+keeps up her chain. The recording: SP spent at 6.000 s, Knock Down's +9.9
+on Rhodagn's gauge at 8.050 s, Chen's combo lit with it — **2.05 s** after
+the cast (±0.07: a recording frame each side and the UI's client frame of
+lag, #35). The other operator acts after 8 client frames (#35), but the
+battle skill's damage and statuses come with its hit.
+
+The client puts Knock Down and Physical Susceptibility on frame 54, after
+two hits with a 0.1 s hit stop each: 54/30 + 0.2 = **2.00 s**. The hit stop
+counts here, though the basic attack cycle matches without it — why is
+open. For other operators the landing is read the same way, off the last
+hit that carries a status action (Knock Down, Lift, Crush, Breach,
+infliction), and is not checked on video. Engine: when another operator
+acts after the battle skill, its statuses land at the hit, inside whatever
+step is playing then; a combo they open is ready from the hit, and one
+written right after the battle skill waits for it. Test —
+`engine/test/golden/background-battle-skill.test.ts`.
 
 ## 62. Stagger on Rhodagn — `confirmed` 2026-11-06
 

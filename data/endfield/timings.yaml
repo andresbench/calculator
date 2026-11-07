@@ -22,13 +22,14 @@
 
 meta:
   measured: partial
-  updated: 2026-10-28
+  updated: 2026-11-06
   note: >-
-    Basic attacks ARE measured: the full chain cycle per operator comes from
-    the client's frame data (data/endfield/basic_attacks.json, written by
-    tools/ef/frames.py --export and checked against a community-measured
-    table) and overrides these values. Battle skills, combos and ultimates
-    still use a nominal second.
+    Most durations come from the client's frame data
+    (data/endfield/basic_attacks.json, tools/ef/frames.py --export): the
+    chain cycle, battle skill, combo and ultimate windows, every hit's time.
+    They override these values and are not scaled by `sensitivity`. What is
+    left here is the nominal fallback: finisher, dive, dodge, an operator
+    without frames (measurements, #21).
 
 # Seconds per action. The keys are the same as in the .rot notation.
 defaults:
@@ -43,13 +44,13 @@ defaults:
   # below are only a fallback for an operator missing from the data.
   BA: 1.0     # one basic attack sequence
   FS: 1.0     # Final Strike
-  FIN: 1.0    # finisher on a Staggered enemy
-  DIVE: 1.0
-  BS: 1.0     # battle skill — nominal: no video yet (checklist AH)
-  # CS and ULT come from the client per operator (basic_attacks.json,
-  # `skillWindows`): the combo's first AllowNextSkillAction + 1 frame, the
-  # ultimate's cutscene end + 1 — measured on the Endministrator (#35).
-  # These are only the fallback for an operator missing from the data.
+  FIN: 1.0    # finisher on a Staggered enemy — only without client frames: frames.py `finisher` (#21)
+  DIVE: 1.0   # only without client frames: frames.py `dive` (#21)
+  # BS, CS and ULT come from the client per operator (basic_attacks.json,
+  # `skillWindows`): the skill's first AllowNextSkillAction + 1 frame, the
+  # ultimate's cutscene end + 1 — measured on the Endministrator and Chen
+  # (#35). These are only the fallback for an operator missing from the data.
+  BS: 1.0     # battle skill
   CS: 1.0     # combo skill
   ULT: 1.0    # ultimate
   # A perfect dodge, estimated from the client (measurements, #40): a plain
@@ -72,8 +73,29 @@ defaults:
 # that does freeze turns up.
 freezes_timers: {}
 
-# Duration multipliers for the verdict fragility check.
+# Duration multipliers for the verdict fragility check. Only the nominal
+# values above are scaled; the client's frames are not (ENGINE_CORE_PLAN §3.6).
 sensitivity: [0.5, 1.0, 2.0]
+
+# How long a combo stays ready after its trigger, seconds. MEASURED
+# 2026-11-06 on video (#65): Chen 6.00, Lifeng 5.95, the Endministrator 6.00
+# from the bubble lighting up to it fading; the ring around the portrait
+# counts it down. Not in the client's tables. A combo pressed later than
+# this after what opened it is not there to press.
+combo_ready: 6.0
+
+# How fast the world runs under a combo's slowdown (TimeDilationAction, the
+# `ComboSkill` curve; its length per combo is in the client's frames). The
+# curve itself is not in the client's JSON. 0.05 is the floor of the perfect
+# dodge's slowdown (sp.yaml), and it fits every measurement to 1.5 frames,
+# where a full stop is 1–3 frames late each time (#35, #64, #66):
+#   another operator's chain after Chen's combo: +0.600 s (0.633 × 0.95 = 0.601);
+#   another battle skill after the Endministrator's combo: 25 ± 1 frames (24.7);
+#   Chen's combo hit, stood still under two later combos: 15.317 / 35.600
+#   (15.304 / 35.572); Lifeng's second hit: 15.800 / 36.033 (15.791 / 36.038).
+# Natural SP regen is taken as standing still: at this scale it would gain
+# 0.2 SP over a slowdown, below what the gauge shows.
+combo_time_scale: 0.05
 
 # Durations of specific skills, once measured.
 # Key — "Operator: Skill type", value — seconds.

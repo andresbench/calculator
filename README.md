@@ -16,6 +16,12 @@ Unofficial fan project, not affiliated with GRYPHLINE or Hypergryph.
   target, stagger, buffs from talents, weapons and sets, and the damage of
   every step.
 
+## How to use it
+
+The [guide](docs/guide.md) ([по-русски](docs/guide.ru.md)) goes through
+both tools: a quick start, the build editor, the rotation track, the `.rot`
+notation and how to read the numbers.
+
 ## What to trust
 
 Every number is one of three kinds, and the app shows which:
@@ -33,6 +39,18 @@ Endministrator teams match the game to a fraction of a percent.
 
 ### Known limitations
 
+* A rotation is a list of presses: each comes as soon as it is allowed, and
+  other operators' skills run alongside the controlled operator's attack
+  chain. Whether the chain runs on through another operator's combo or
+  ultimate, how long a combo stays available and when a second combo
+  opened by the same event goes are assumptions (measurements #64–#67).
+* Hit times come from the client's frames. A hit that lands after a later
+  press counts with what stands then; a hit inside its own step counts
+  with what stood at its press, and a cast's statuses land at its press —
+  except a background battle skill's, which land with its hit (#63), and
+  Lifeng's ultimate, whose two slams were timed on video (#73).
+  Where the wiki's damage rows and the client's hits differ in number,
+  every row lands on the skill's last hit, and the track says so.
 * Pressing a combo before its window opens is buffered in the game; the
   track does not show it.
 * MI Security's +5 % Critical Rate at five stacks is not counted.

@@ -155,6 +155,11 @@ export interface StatusEvent {
   aiPerPoint?: number;
   /** `markDetonated`: the explosion's element (not always an Arts one). */
   blastElement?: string;
+  /**
+   * World time it happened, when that is not the step's start: a background
+   * battle skill's hit landing during another step (measurements, #63).
+   */
+  at?: number;
 }
 
 /**

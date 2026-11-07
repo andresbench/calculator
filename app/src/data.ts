@@ -87,3 +87,16 @@ export function useBundle(): LoadState & { reload: () => void } {
 export function iconUrl(path: string | null): string | undefined {
   return path ? encodeURI(path) : undefined;
 }
+
+/**
+ * The player's character comes as two operator records that differ only in
+ * gender (and a frame in the client's combo window). Lists show one — the
+ * female Endministrator, on whom the measurements were made — unless the
+ * account has the other. Rotations and drafts with either key still play.
+ */
+const TWIN_HIDDEN = new Set(['Endministrator (male)']);
+
+export function listed(key: string, owned: ReadonlySet<string> | readonly string[] = []): boolean {
+  const has = Array.isArray(owned) ? owned.includes(key) : (owned as ReadonlySet<string>).has(key);
+  return !TWIN_HIDDEN.has(key) || has;
+}

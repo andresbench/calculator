@@ -25,6 +25,10 @@ export type Message =
   | { code: 'triggerBlocked'; terms: string[] }
   | { code: 'triggerOutOfStance'; operator: string; stance: string }
   | { code: 'comboOutOfOrder'; operator: string; other: string; otherStep: number }
+  /** Pressed `seconds` after its trigger, and a combo stays ready only `ready` (#65). */
+  | { code: 'comboExpired'; seconds: number; ready: number }
+  /** Its trigger came `seconds` before the cooldown ended: nothing lit it (#72). */
+  | { code: 'comboTriggerOnCooldown'; seconds: number }
   | { code: 'finisherNoMeter' }
   | { code: 'finisherNotStaggered'; stagger: number; meter: number }
   // --- verdicts: what the engine concluded about the step ---
@@ -38,7 +42,11 @@ export type Message =
   | { code: 'cooldownCut'; operator: string; slot: number; seconds: number; was: number; now: number }
   | { code: 'cooldownCutWasted'; operator: string; slot: number; seconds: number }
   | { code: 'cooldownReady' }
-  | { code: 'cooldownWaiting' }
+  /** A combo written before its cooldown ends: the press waits `seconds` for it. */
+  | { code: 'comboOnCooldown'; seconds: number }
+  /** A combo's slowdown: everyone but its caster stands still `seconds` (#64). */
+  | { code: 'comboSlowsWorld'; seconds: number }
+  | { code: 'comboWentDark'; seconds: number; ready: number }
   | { code: 'triggerNotOpen' }
   | { code: 'triggerUnread'; own?: string }
   | { code: 'triggerOpenedBy'; by: Array<{ term: string; step: number }> }
@@ -82,9 +90,17 @@ export type Message =
   | { code: 'consumed'; items: Array<{ term: string; count?: number }> }
   | { code: 'deferred'; window: number | null }
   | { code: 'delivers'; operator: string; skill: string }
+  | { code: 'landsLater'; seconds: number }
+  | { code: 'landsHere'; operator: string; skill: string; step: number }
+  | { code: 'waitsForHit'; operator: string; seconds: number }
+  /** A combo opened by a Final Strike waits for the strike's hit, not its press. */
+  | { code: 'waitsForStrike'; operator: string; seconds: number }
+  /** A combo opened by another combo: it lights up on that combo's hit (#66). */
+  | { code: 'waitsForComboHit'; operator: string; seconds: number }
   | { code: 'applies'; terms: string[] }
   | { code: 'debuffActive'; until: number | null }
   | { code: 'spRecovered'; sp: number }
+  | { code: 'spRecoveredFor'; operator: string; skill: string; sp: number }
   | { code: 'spReturned'; sp: number; term: string }
   | { code: 'stagesAreHits'; written: number }
   | { code: 'movesByStacks'; moves: number; stacks: number; enhanced: boolean }
@@ -149,6 +165,10 @@ export type Message =
   | { code: 'trackCorrosion' }
   | { code: 'trackLink' }
   | { code: 'trackNextStep' }
+  /** Hits land at their own time only against a later press; inside their own step they take the press's buffs. */
+  | { code: 'trackHitTimes' }
+  /** The wiki's rows and the client's hits disagree: every row of the skill lands on its last hit. */
+  | { code: 'trackHitGuess'; operator: string; skill: string }
   | { code: 'trackStatusSnapshot' }
   | { code: 'trackStaggerAtStart' }
   | { code: 'trackGrantSnapshot' }
@@ -193,6 +213,11 @@ export const EN_MESSAGES: Catalog = {
     `triggered together with ${c.name(m.other)}'s combo (step ${m.otherStep}), but ` +
     `${c.name(m.operator)} is higher in combo priority, so the game casts it first — ` +
     'swap the steps or change the priority',
+  comboExpired: (m) =>
+    `pressed ${m.seconds.toFixed(1)} s after its trigger, but a combo stays ready only ${m.ready} s — ` +
+    'it is not there to press',
+  comboTriggerOnCooldown: (m) =>
+    `its trigger came ${m.seconds.toFixed(1)} s before the cooldown ended — while the button is grey, nothing lights it`,
   finisherNoMeter: () => 'a finisher needs a staggered target, and no stagger meter is set — pick an enemy',
   finisherNotStaggered: (m) => `a finisher needs a staggered target: ${m.stagger.toFixed(0)} of ${m.meter}`,
 
@@ -208,7 +233,9 @@ export const EN_MESSAGES: Catalog = {
   cooldownCutWasted: (m, c) =>
     `${c.name(m.operator)} (${slotLabel(m.slot)}) combo was not on cooldown — −${m.seconds} s wasted`,
   cooldownReady: () => 'ready',
-  cooldownWaiting: () => 'waiting',
+  comboOnCooldown: (m) => `on cooldown: waits ${m.seconds.toFixed(1)} s`,
+  comboSlowsWorld: (m) => `slows the world: everyone else stands still ${m.seconds.toFixed(2)} s`,
+  comboWentDark: (m) => `went dark ${(m.seconds - m.ready).toFixed(1)} s before the press`,
   triggerNotOpen: () => 'not open',
   triggerUnread: (m) =>
     m.own ? `trigger not checked: the engine does not count ${m.own}s` : 'trigger not checked: the track does not see this event',
@@ -263,9 +290,15 @@ export const EN_MESSAGES: Catalog = {
     `consumed ${m.items.map((item) => (item.count != null ? `${item.count}× ${item.term}` : item.term)).join(', ')}`,
   deferred: (m) => `applies on the next Final Strike${m.window != null ? ` within ${m.window} s` : ''}`,
   delivers: (m, c) => `${c.name(m.operator)}'s ${m.skill} lands on this Final Strike`,
+  landsLater: (m) => `its statuses land ${m.seconds.toFixed(2)} s after the cast, during the next steps`,
+  landsHere: (m, c) => `${c.name(m.operator)}'s ${m.skill} (step ${m.step}) lands here`,
+  waitsForHit: (m, c) => `waits ${m.seconds.toFixed(2)} s for ${c.name(m.operator)}'s battle skill to land`,
+  waitsForStrike: (m, c) => `waits ${m.seconds.toFixed(2)} s for ${c.name(m.operator)}'s Final Strike to hit`,
+  waitsForComboHit: (m, c) => `waits ${m.seconds.toFixed(2)} s for ${c.name(m.operator)}'s combo to hit`,
   applies: (m) => m.terms.join(', '),
   debuffActive: (m) => (m.until == null ? 'active' : `active until ${m.until.toFixed(1)} s`),
   spRecovered: (m) => `+${m.sp} SP recovered`,
+  spRecoveredFor: (m, c) => `+${m.sp} SP recovered by ${c.name(m.operator)}'s ${m.skill}: its hit ate the stacks here`,
   spReturned: (m) => `+${m.sp} SP returned for consuming ${m.term}`,
   stagesAreHits: (m) => `one press: stage ${m.written} is a hit of the same cast, played as the whole skill`,
   movesByStacks: (m) =>
@@ -338,6 +371,9 @@ export const EN_MESSAGES: Catalog = {
   trackLink: () =>
     'Link counts on every hit of the cast that spends it; whether Crush-type hits such as World Splitter take it is open (measurements, #15)',
   trackNextStep: () => 'a buff triggered by a step counts from the next step on; within one cast, see the step tooltip',
+  trackHitTimes: () =>
+    'a hit that lands after a later press takes the buffs standing then (client hit times); a hit inside its own step takes what stood at its press',
+  trackHitGuess: (m, c) => `${c.name(m.operator)}'s ${m.skill}: the wiki's rows and the client's hits differ in number — every row lands on the last hit`,
   trackStatusSnapshot: () =>
     "a status debuff keeps the applier's Arts Intensity from the step that applied it, track buffs included; whether the game reads it then or on every hit is open (measurements, #46)",
   trackStaggerAtStart: () =>

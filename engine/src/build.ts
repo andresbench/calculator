@@ -85,13 +85,79 @@ export function buildFromRoster(entry: RosterEntry, bundle: Bundle): Build {
   };
 }
 
-/** What the showcase says about this operator, or an empty build. */
+/** What the showcase says about this operator, or a starter build. */
 export function showcaseBuild(operatorKey: string, bundle: Bundle): Build {
   const entry = bundle.roster?.operators?.[operatorKey];
-  return entry ? buildFromRoster(entry, bundle) : emptyBuild(operatorKey);
+  return entry ? buildFromRoster(entry, bundle) : starterBuild(operatorKey, bundle);
 }
 
-/** An empty build for an operator not in the roster. */
+/** Skill levels and weapon column levels of a starter build. */
+const STARTER_LEVEL = 9;
+
+/**
+ * The starter weapon of each type: two 4★ per type, the one whose attribute
+ * column is the operator's main attribute; otherwise the Suppression one
+ * (ATK on a battle skill hit), which every type has.
+ */
+const STARTER_WEAPONS: Record<string, string[]> = {
+  Sword: ['Prominent Edge', 'Wave Tide'],
+  'Great Sword': ['Industry 0.1', 'Quencher'],
+  Polearm: ['Aggeloslayer', "Pathfinder's Beacon"],
+  Handcannon: ['Howling Guard', 'Long Road'],
+  'Arts Unit': ['Fluorescent Roc', 'Hypernova Auto'],
+};
+
+/**
+ * The starter gear, in slot order (gloves, armor, kit, kit): three AIC
+ * Fieldwork pieces with the operator's element's DMG and one with Ultimate
+ * Gain, so the 3-piece bonus is on. The set's DMG Dealt +20 % and Ultimate
+ * Gain +10 % fit any operator.
+ */
+const STARTER_GEAR = {
+  physical: ['AIC Fieldwork CQB Gloves', 'AIC Fieldwork CQB Armor', 'AIC Fieldwork CQB Hacksaw', 'AIC Fieldwork Ember'],
+  arts: ['AIC Fieldwork Gloves', 'AIC Fieldwork Armor', 'AIC Fieldwork Machete', 'AIC Fieldwork Ember'],
+};
+
+/**
+ * A build for an operator nobody has entered: skills at 9, a 4★ weapon of
+ * their type and a full AIC Fieldwork set, so the first numbers are not
+ * those of a naked operator. Every field stays marked `default`: it is a
+ * stand-in, not a fact about anyone's account. Items missing from the data
+ * are left empty.
+ */
+export function starterBuild(operatorKey: string, bundle: Bundle): Build {
+  const build = emptyBuild(operatorKey);
+  const operator = bundle.operators[operatorKey];
+  if (!operator) return build;
+
+  build.skills = { basic: STARTER_LEVEL, battle: STARTER_LEVEL, combo: STARTER_LEVEL, ultimate: STARTER_LEVEL };
+
+  const candidates = (STARTER_WEAPONS[operator.weaponType ?? ''] ?? []).filter((key) => bundle.weapons[key]);
+  const main = operator.mainAttribute ?? '';
+  const weaponKey =
+    candidates.find((key) => bundle.weapons[key]!.components.some((component) => component.key.startsWith(`${main} `))) ??
+    candidates.find((key) => bundle.weapons[key]!.components.some((component) => component.key.startsWith('Suppression'))) ??
+    candidates[0] ??
+    null;
+  if (weaponKey) {
+    build.weaponKey = weaponKey;
+    build.weaponColumns = Object.fromEntries(
+      bundle.weapons[weaponKey]!.components
+        .filter((component) => component.valuesByRank[0]?.length)
+        .map((component) => [component.key, Math.min(STARTER_LEVEL, component.valuesByRank[0]!.length)]),
+    );
+  }
+
+  const pieces = operator.element === 'Physical' ? STARTER_GEAR.physical : STARTER_GEAR.arts;
+  build.gear = pieces.map((key) => {
+    const piece = bundle.gear.pieces[key];
+    // The top tier, as for a showcase piece.
+    return piece ? { key, tier: piece.stats[0] ? piece.stats[0].values.length - 1 : 0 } : null;
+  });
+  return build;
+}
+
+/** An empty build: no skills above 1, no weapon, no gear. Tests start from it. */
 export function emptyBuild(operatorKey: string): Build {
   return {
     operatorKey,

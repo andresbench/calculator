@@ -32,6 +32,10 @@ body {
 .site__logo svg .gold { fill: #e0b75a; }
 .site__name { font-size: 22px; font-weight: 650; letter-spacing: -0.01em; white-space: nowrap; }
 .site__tag { color: var(--dim); font-size: 14px; }
+.site__alpha {
+  font-size: 11px; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 2px 7px; border-radius: 999px; border: 1px solid #e0b75a; color: #e0b75a; white-space: nowrap;
+}
 .site__nav { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .site__nav .lang { margin-left: 8px; }
 @media (max-width: 560px) {
@@ -259,16 +263,24 @@ select { width: 100%; }
 .lane__head {
   position: sticky; left: 0; z-index: 2; width: 150px; flex: none; align-self: stretch;
   display: flex; align-items: center; gap: 6px; font-size: 11px;
-  background: var(--panel); padding-left: 10px; box-sizing: border-box;
+  background: var(--panel); padding-left: 10px; padding-bottom: 7px; box-sizing: border-box;
 }
+/* One line, cut with an ellipsis: a long name must not push the control dot or wrap onto the bars. */
+.lane__name { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .lane__head img { border-radius: 4px; }
-/* Ultimate charge under the name, at the playhead: full is gold, as in game. */
-.ultbar {
-  position: absolute; left: 8px; right: 8px; bottom: 2px; height: 3px;
-  background: #11161c; border-radius: 2px; overflow: hidden;
+/* At the playhead, under the name: ultimate charge in yellow (bright when
+   full), the combo's cooldown in white (bright when it is back). */
+.ultbar, .combobar {
+  position: absolute; left: 64px; right: 8px; height: 2px;
+  background: #11161c; border-radius: 1px; overflow: hidden;
 }
-.ultbar__fill { display: block; height: 100%; background: #6fb0d8; }
-.ultbar--full .ultbar__fill { background: #ffd66b; }
+.ultbar { bottom: 2px; }
+.combobar { bottom: 5px; }
+.ultbar__fill { display: block; height: 100%; background: #7a6634; }
+.ultbar--full .ultbar__fill { background: #ffd66b; box-shadow: 0 0 4px #ffd66b; }
+.combobar__fill { display: block; height: 100%; background: #555b63; }
+.combobar--ready .combobar__fill { background: #ffffff; box-shadow: 0 0 4px #ffffff; }
+.ultbar--full, .combobar--ready { overflow: visible; }
 .lane__body { position: absolute; left: 0; right: 0; top: 0; height: 100%; }
 .lane { position: relative; }
 .act {
@@ -279,6 +291,23 @@ select { width: 100%; }
 }
 .act:hover { background: #26303e; }
 .act--bad { background: #3a2020; border-color: #7a3a3a !important; }
+/* The operator busy in the background after the press lets go: a pale tail. */
+.act--tail {
+  --hatch: repeating-linear-gradient(135deg, rgba(255, 255, 255, .07) 0 3px, transparent 3px 7px);
+  background: linear-gradient(to right, #1d2531 var(--solid), transparent var(--solid)), var(--hatch);
+}
+.act--tail:hover { background: linear-gradient(to right, #26303e var(--solid), rgba(38, 48, 62, .5) var(--solid)), var(--hatch); }
+.act--tail.act--bad { background: linear-gradient(to right, #3a2020 var(--solid), rgba(58, 32, 32, .5) var(--solid)), var(--hatch); }
+/* A hit of the step, at its time from the client's frames: may fall past the block. */
+.act-hit {
+  position: absolute; top: 24px; width: 1px; height: 5px; background: #ffd66b;
+  pointer-events: none; z-index: 1;
+}
+/* A combo written before its cooldown ends: the wait before the press. */
+.act-wait {
+  position: absolute; top: 14px; height: 0; border-top: 1px dashed #7a6a3a;
+  pointer-events: auto; cursor: help;
+}
 
 .playhead {
   position: absolute; top: 0; bottom: 0; width: 2px; background: #ffb400;
@@ -537,7 +566,7 @@ input[type=text] {
 }
 /* Who starts controlled: a radio at the end of the lane head. Hollow when the track picked. */
 .controldot {
-  margin-left: auto; margin-right: 8px; flex: none; width: 10px; height: 10px; padding: 0;
+  margin-right: 8px; flex: none; width: 10px; height: 10px; padding: 0;
   border-radius: 50%; border: 1px solid var(--dim); background: transparent; cursor: pointer;
 }
 .controldot:disabled { cursor: default; }

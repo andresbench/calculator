@@ -18,12 +18,14 @@ import { useEffect, useMemo, useState } from 'react';
 import {
   actionsFor,
   addStep,
+  buildAliases,
   checkRoundTrip,
   draftFromRotation,
   draftsFromText,
   draftSteps,
   draftToText,
   dummyTarget,
+  parseRot,
   ENEMY_CLASSES,
   moveStep,
   normaliseStages,
@@ -53,7 +55,7 @@ const DEFAULT_PAUSE = 1;
 /** Target picker values for the dummy: `dummy:` alone has no meter, `dummy:Boss` a typical boss's. */
 const DUMMY_PREFIX = 'dummy:';
 
-import { iconUrl } from './data.js';
+import { iconUrl, listed } from './data.js';
 import { RosterStrip } from './RosterStrip.js';
 import { compact, trackDamage, type TrackDamage } from './trackDamage.js';
 import { useApp } from './store.js';
@@ -75,7 +77,7 @@ import {
 function rosterFirst(bundle: Bundle): string[] {
   const owned = Object.keys(bundle.roster?.operators ?? {});
   const rest = Object.values(bundle.operators)
-    .filter((operator) => !owned.includes(operator.key) && !operator.upcoming)
+    .filter((operator) => !owned.includes(operator.key) && !operator.upcoming && listed(operator.key))
     .map((operator) => operator.key);
   return [...owned.sort(), ...rest.sort()];
 }
@@ -524,6 +526,13 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
   const n = useNames();
 
   const rotationKeys = Object.keys(bundle.rotations ?? {});
+  // A file's name is its `title:`, read by the engine's parser; the file name is the fallback.
+  const rotationTitles = useMemo(() => {
+    const aliases = buildAliases(bundle);
+    return Object.fromEntries(
+      Object.entries(bundle.rotations ?? {}).map(([key, file]) => [key, parseRot(file.text, aliases).title ?? file.name]),
+    );
+  }, [bundle]);
   // Classes whose enemies have a stagger meter in the data, with the meter the dummy would take.
   const dummyMeters = useMemo(
     () =>
@@ -592,6 +601,7 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
             order: draft.team,
             priority: draft.comboPriority ?? [],
             ultimatesCharged: draft.ultimatesCharged ?? false,
+            unlimitedSp: draft.unlimitedSp ?? false,
             controlled: draft.controlled ?? null,
             dummyClass,
             builds: trackBuilds,
@@ -642,7 +652,7 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
   const duplicate = (): void => {
     if (!fileTrack || !file) return;
     const variant = fileTrack.views[variantIndex]?.variant ?? null;
-    const copy = draftFromRotation(fileTrack.rotation, variant, bundle.rotations[file]!.name);
+    const copy = draftFromRotation(fileTrack.rotation, variant, rotationTitles[file]!);
     saveDraft(copy);
     setSource(`draft:${copy.id}`);
     setSelected(null);
@@ -692,7 +702,7 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
     if (draft) return draft;
     if (fileTrack && file) {
       const variant = fileTrack.views[variantIndex]?.variant ?? null;
-      return draftFromRotation(fileTrack.rotation, variant, bundle.rotations[file]!.name);
+      return draftFromRotation(fileTrack.rotation, variant, rotationTitles[file]!);
     }
     return newDraft();
   };
@@ -772,6 +782,7 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
             <h1>{t.title}</h1>
           </div>
 
+          {(rotationKeys.length > 0 || Object.keys(drafts).length > 0) && (
           <select
             value={source}
             aria-label={t.rotationLabel}
@@ -782,13 +793,15 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
               setSelected(null);
             }}
           >
-            <optgroup label={t.files}>
-              {rotationKeys.map((key) => (
-                <option key={key} value={`file:${key}`}>
-                  {bundle.rotations[key]!.name}
-                </option>
-              ))}
-            </optgroup>
+            {rotationKeys.length > 0 && (
+              <optgroup label={t.files}>
+                {rotationKeys.map((key) => (
+                  <option key={key} value={`file:${key}`}>
+                    {rotationTitles[key]}
+                  </option>
+                ))}
+              </optgroup>
+            )}
             {Object.values(drafts).length > 0 && (
               <optgroup label={t.drafts}>
                 {Object.values(drafts)
@@ -801,6 +814,7 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
               </optgroup>
             )}
           </select>
+          )}
 
           {fileTrack && !draft && fileTrack.views.length > 1 && (
             <select
@@ -902,9 +916,13 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
       </div>
 
       {!view ? (
-        <div className="panel">
-          <p>{t.noRotations}</p>
-        </div>
+        <>
+          <div className="panel">
+            <p>{t.noRotations}</p>
+          </div>
+          {/* The site ships no example rotations: pasting one must not need a draft first. */}
+          <ImportPanel bundle={bundle} onImport={importText} />
+        </>
       ) : (
         <>
           <div className="track__main">
@@ -1072,6 +1090,14 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
                     onChange={(event) => change({ ...draft, ultimatesCharged: event.target.checked })}
                   />
                   {t.ultimatesCharged}
+                </label>
+                <label className="check check--small" title={t.unlimitedSpHint}>
+                  <input
+                    type="checkbox"
+                    checked={draft.unlimitedSp ?? false}
+                    onChange={(event) => change({ ...draft, unlimitedSp: event.target.checked })}
+                  />
+                  {t.unlimitedSp}
                 </label>
               </section>
               </div>

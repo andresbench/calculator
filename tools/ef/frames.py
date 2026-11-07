@@ -14,8 +14,22 @@ What is read and how it is interpreted:
 * ``DamageAction`` / ``LaunchProjectile`` — the frame of a hit or a shot. A
   projectile keeps flying, so it lands later than the shot frame.
 * ``CreateBuffAction`` — the frame a buff is applied on.
-* ``HitStopAction`` — the freeze on impact. It apparently does not add real
-  time: the cycle model matches without it (see ``--verify``).
+* ``HitStopAction`` — the freeze on impact. ``affectType`` 2 freezes the
+  attacker too, and everything after the hit in its timeline comes that much
+  later: Lifeng's Knock Down, frame 54, landed 2.05 s after the cast —
+  54/30 + 2 × 0.1 s (measurements, #63); the Endministrator's basic chain on
+  an enemy is 0.06 s longer per hit stop of 0.06 (#68b). ``affectType`` 1
+  freezes only the target: Lifeng's combo, 1.333 s, does not move his second
+  hit (#68a). 0 is not measured and is left out. The stop sits under the
+  hit's ``IfElse`` branches, sometimes in both, so one moment of the timeline
+  takes the longest stop found in it, not the sum.
+* ``TimeDilationAction`` with the ``ComboSkill`` curve, frame 0 of every
+  combo — the world slows for everyone but the caster: another operator's
+  chain and natural SP regen stand still for its ``duration`` (#64), and a
+  later combo stops an earlier one (#66).
+* ``ObtainCostAction`` — the hit that restores SP. On the chain's last
+  segment it is the Final Strike hit that opens combos (#68c): Lifeng's
+  second, not his first.
 
 The reading of ``AllowNextSkillAction`` is not taken from the field's name but
 checked against the measured basic attack table: the chain's cycle length is
@@ -33,6 +47,7 @@ Usage::
     python3 tools/ef/frames.py "Chen Qianyu"   # an operator's BA/BS/CS/ULT frames
     python3 tools/ef/frames.py --verify        # BA cycle against the measured table
     python3 tools/ef/frames.py --export        # → data/endfield/basic_attacks.json
+    python3 tools/ef/frames.py --hits          # wiki damage rows against client hits
 """
 
 from __future__ import annotations
@@ -66,10 +81,37 @@ KINDS = {"normal_skill": "BS", "combo_skill": "CS", "ultimate_skill": "ULT"}
 
 HIT_ACTIONS = ("DamageAction", "LaunchProjectile")
 
+# ``HitStopAction.affectType`` that freezes the attacker as well as the target
+# (measurements, #68).
+STOPS_ATTACKER = 2
+
+# A dive: from leaving the ground to the hit on landing, pressing the
+# attack at once. The client's ``plunging_attack_start`` is a loop that ends
+# on landing, so its length is not in the frames. Measured on Chen, three
+# jumps: 0.50, 0.53, 0.53 s (measurements, #21); the jump is the same height
+# for everyone, so it is taken for all.
+DIVE_FALL = 0.52
+
+# The world slowdown every combo starts with (measurements, #64).
+DILATION_CURVE = "ComboSkill"
+
 
 def _short(type_name: str) -> str:
     """``Beyond.Gameplay.Core.AllowNextSkillAction+Data, Gameplay.Beyond`` → ``AllowNextSkillAction``."""
     return type_name.split(",")[0].split(".")[-1].split("+")[0]
+
+
+def _stop(seq: object) -> float:
+    """Seconds one timeline entry freezes its own attacker: the longest
+    ``affectType`` 2 hit stop in it, 0 if none (see the module notes)."""
+    return max(
+        (
+            action.get("duration") or 0.0
+            for action in _actions(seq)
+            if _short(action.get("$type", "")) == "HitStopAction" and action.get("affectType") == STOPS_ATTACKER
+        ),
+        default=0.0,
+    )
 
 
 def _actions(seq: object) -> list[dict]:
@@ -95,6 +137,12 @@ class Skill:
     hits: list[int] = field(default_factory=list)
     buffs: list[tuple[int, list[str]]] = field(default_factory=list)
     hit_stop: list[tuple[int, int]] = field(default_factory=list)
+    # (frame, seconds) the attacker stands frozen from this frame (``_stop``).
+    stops: list[tuple[int, float]] = field(default_factory=list)
+    # Frames of hits that restore SP (``ObtainCostAction``).
+    sp_hits: list[int] = field(default_factory=list)
+    # A combo's world slowdown, seconds (``TimeDilationAction``, ``ComboSkill``).
+    dilation: float | None = None
     clip_seconds: float | None = None
     # ``skillSpecification``: what kind of skill the client counts the move
     # as (``SPECIFICATIONS``) — and so which DMG bonus it takes.
@@ -103,6 +151,14 @@ class Skill:
     # ``HideUIAction`` (measurements, #35 — another operator may act after it).
     ultimate_time: int | None = None
     hide_ui: int | None = None
+
+    def stopped_before(self, frame: int) -> float:
+        """Seconds of the attacker's own hit stop at frames up to ``frame``."""
+        return sum(seconds for start, seconds in self.stops if start <= frame)
+
+    def at(self, frame: int) -> float:
+        """Seconds from the skill's start to ``frame``, its own hit stops included."""
+        return frame / FPS + self.stopped_before(frame - 1)
 
     def next_into(self, prefix: str) -> tuple[int, str] | None:
         """The first transition into a skill with this prefix: ``(frame, id)``."""
@@ -143,6 +199,11 @@ def load_skill(skill_id: str) -> Skill | None:
     skill = Skill(skill_id, data["durationFrame"], data["exclusiveFrame"], specification=data.get("skillSpecification") or 0)
     for entry in data["actionGroupData"]["timelineActions"]:
         start, end = entry["_startFrame"], entry["_endFrame"]
+        if (stop := _stop(entry.get("_sequenceActionData"))) > 0:
+            skill.stops.append((start, stop))
+        kinds = {_short(a.get("$type", "")) for a in _actions(entry.get("_sequenceActionData"))}
+        if "ObtainCostAction" in kinds and kinds & set(HIT_ACTIONS):
+            skill.sp_hits.append(start)
         for action in _actions(entry.get("_sequenceActionData")):
             kind = _short(action.get("$type", ""))
             if kind == "AllowNextSkillAction":
@@ -160,7 +221,13 @@ def load_skill(skill_id: str) -> Skill | None:
                 skill.hide_ui = max(skill.hide_ui or 0, end)
             elif kind.startswith("PlayAnimation") and skill.clip_seconds is None:
                 skill.clip_seconds = action.get("duration")
+            elif kind == "TimeDilationAction" and start == 0 and action.get("curveKey") == DILATION_CURVE:
+                value = (action.get("duration") or {}).get("value")
+                if value:
+                    skill.dilation = max(skill.dilation or 0.0, round(float(value), 4))
     skill.allow_next.sort()
+    skill.stops.sort()
+    skill.sp_hits.sort()
     skill.hits = sorted(set(skill.hits))
     return skill
 
@@ -202,6 +269,14 @@ def open_chain_guess(chain: list[Skill]) -> int:
     A guess, not a model: it matches for Ember and Wulfgard, not for Camille.
     """
     return sum(s.next_in_chain()[0] + 1 for s in chain[:-1]) + chain[-1].exclusive + 1
+
+
+def segment_seconds(skill: Skill) -> float:
+    """One segment of the chain on an enemy: up to its transition (``AllowNext`` + 1,
+    or ``exclusiveFrame`` + 1 when it does not close), with its own hit stops."""
+    step = skill.next_in_chain()
+    frame = step[0] if step else skill.exclusive
+    return (frame + 1) / FPS + skill.stopped_before(frame)
 
 
 def final_strike_frames(chain: list[Skill]) -> int:
@@ -435,6 +510,126 @@ MEASURED_WINDOWS = {
 BS_OTHER_FRAMES = 8
 
 
+# Actions that put a status on the target: the hit that carries one is when
+# a battle skill's effects land (measurements, #63).
+STATUS_ACTIONS = frozenset({
+    "KnockDownAction", "AirborneAction", "CrushAction", "FractureAction", "SpellInfliction",
+})
+# Battle skills whose landing was checked on video (measurements, #63).
+MEASURED_LANDS = {"Lifeng"}
+
+# Hits the client's frames do not hold, read off video. Lifeng's ultimate is
+# struck by his aspect, not by him: the ultimate's timeline has no hit at all.
+# «Howling beasts.mp4», 60 fps: cutscene from recording frame 2150 (the
+# interface back at 2264, +114 = the client's 57 frames), first Knock Down's
+# numbers at 2278 (+128 = 64 client frames), second at 2436 (+286) with Chen's
+# combo in between — its 0.633 s slowdown at ×0.05 taken out, 4.167 s = 125
+# client frames on the caster's own clock (measurements, #73).
+MEASURED_SKILL_HITS = {
+    "Lifeng": {"ULT": [{"at": round(64 / FPS, 4), "status": True}, {"at": round(125 / FPS, 4), "status": True}]},
+}
+
+
+def battle_skill_lands(char_id: str) -> float | None:
+    """Seconds from a battle skill's start to its last hit that puts a status on the target.
+
+    Lifeng's Knock Down and Physical Susceptibility ride the third hit, frame
+    54. The hit stops of the hits before it delay it (``_stop``): they are
+    not under a main-character check, so they run for a background operator
+    too. ``None`` when no hit carries a status action
+    (projectiles, summons, buffs only): when those land is not read.
+    """
+    path = SKILLS / f"{char_id}_normal_skill.json"
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    hits: list[tuple[int, bool, float]] = []
+    for entry in data["actionGroupData"]["timelineActions"]:
+        seq = entry.get("_sequenceActionData")
+        kinds = {_short(action.get("$type", "")) for action in _actions(seq)}
+        if "DamageAction" not in kinds:
+            continue
+        stop = _stop(seq)
+        hits.append((entry["_startFrame"], bool(kinds & STATUS_ACTIONS), stop))
+    hits.sort()
+    landing = [frame for frame, carries, _ in hits if carries]
+    if not landing:
+        return None
+    frame = landing[-1]
+    stopped = sum(stop for start, _, stop in hits if start < frame)
+    return round(frame / FPS + stopped, 4)
+
+
+def skill_hits(char_id: str, suffix: str) -> list[dict] | None:
+    """Every hit of a skill, in seconds from the press, and whether it carries a status.
+
+    The same reading as ``battle_skill_lands``: a hit is a timeline entry
+    with a ``DamageAction``; it comes after the hit stops of the hits before
+    it (measurements, #63); ``status`` — the hit carries an action that puts
+    a status on the target; ``late`` — the hit comes after the skill's first
+    ``AllowNextSkillAction``, where some skills keep other variants of the
+    move (Pogranichnik's combo: one timeline per stack count, one after
+    another). Projectiles are left out: when one lands is not in the frame
+    data. ``None`` — the skill has no such hit.
+    """
+    skill = load_skill(f"{char_id}_{suffix}")
+    window = skill.allow_next[0][0] if skill and skill.allow_next else None
+    path = SKILLS / f"{char_id}_{suffix}.json"
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    hits: list[tuple[int, bool, float]] = []
+    for entry in data["actionGroupData"]["timelineActions"]:
+        seq = entry.get("_sequenceActionData")
+        kinds = {_short(action.get("$type", "")) for action in _actions(seq)}
+        if "DamageAction" not in kinds:
+            continue
+        stop = _stop(seq)
+        hits.append((entry["_startFrame"], bool(kinds & STATUS_ACTIONS), stop))
+    hits.sort()
+    out: list[dict] = []
+    for frame, carries, _ in hits:
+        stopped = sum(stop for start, _, stop in hits if start < frame)
+        hit: dict = {"at": round(frame / FPS + stopped, 4)}
+        if carries:
+            hit["status"] = True
+        if window is not None and frame > window:
+            hit["late"] = True
+        out.append(hit)
+    return out or None
+
+
+def chain_hits(chain: list[Skill]) -> list[list[float]]:
+    """Hits of the basic chain on an enemy, in seconds from the start of the chain.
+
+    One list per segment, in chain order: the last is the Final Strike. A
+    segment starts where the one before it allows the next
+    (``segment_seconds``); a hit comes after the attacker's hit stops before
+    it (measurements, #68b).
+    """
+    out: list[list[float]] = []
+    start = 0.0
+    for skill in chain:
+        out.append([round(start + skill.at(frame), 4) for frame in skill.hits])
+        start += segment_seconds(skill)
+    return out
+
+
+def final_strike_hit(chain: list[Skill]) -> float | None:
+    """Seconds from the chain's start to the hit that is the Final Strike.
+
+    The last segment's hit that restores SP (``ObtainCostAction``): Lifeng's
+    strike has two hits, and combos open on the second (measurements, #68c).
+    Without such a hit, its first hit; ``None`` without hits.
+    """
+    last = chain[-1]
+    frames = last.sp_hits or last.hits[:1]
+    if not frames:
+        return None
+    start = sum(segment_seconds(skill) for skill in chain[:-1])
+    return round(start + last.at(frames[0]), 4)
+
+
 def skill_windows(name: str, char_id: str) -> dict:
     """When another action may start after a combo or an ultimate, from the client.
 
@@ -445,24 +640,33 @@ def skill_windows(name: str, char_id: str) -> dict:
     end of the cutscene (``UltimateTimeAction``, else ``HideUIAction``) + 1;
     measured on the Endministrator, where it came before ``exclusiveFrame``.
     It is the next action of ANY operator; the ultimate's own operator may
-    have to wait longer. Battle skills are not read yet: no video.
+    have to wait longer. Battle skill: its own window, ``other`` — how long
+    it holds another operator — and ``lands`` (``battle_skill_lands``).
+    Own windows include the caster's hit stops before them; a combo also
+    carries ``dilation``, its world slowdown (measurements, #64).
     """
     out: dict = {}
     battle = load_skill(f"{char_id}_normal_skill")
     if battle is not None:
-        own = (battle.allow_next[0][0] if battle.allow_next else battle.exclusive) + 1
+        own = battle.allow_next[0][0] if battle.allow_next else battle.exclusive
         out["BS"] = {
-            "seconds": round(own / FPS, 4),
+            "seconds": round((own + 1) / FPS + battle.stopped_before(own), 4),
             "from": "allowNext" if battle.allow_next else "exclusive",
             "other": round(BS_OTHER_FRAMES / FPS, 4),
         }
+        if (lands := battle_skill_lands(char_id)) is not None:
+            out["BS"]["lands"] = lands
+            if name in MEASURED_LANDS:
+                out["BS"]["landsMeasured"] = True
     combo = load_skill(f"{char_id}_combo_skill")
     if combo is not None:
         if combo.allow_next:
-            frames, source = combo.allow_next[0][0] + 1, "allowNext"
+            frame, source = combo.allow_next[0][0], "allowNext"
         else:
-            frames, source = combo.exclusive + 1, "exclusive"
-        out["CS"] = {"seconds": round(frames / FPS, 4), "from": source}
+            frame, source = combo.exclusive, "exclusive"
+        out["CS"] = {"seconds": round((frame + 1) / FPS + combo.stopped_before(frame), 4), "from": source}
+        if combo.dilation:
+            out["CS"]["dilation"] = combo.dilation
     ultimate = load_skill(f"{char_id}_ultimate_skill")
     if ultimate is not None:
         if ultimate.ultimate_time is not None:
@@ -476,6 +680,57 @@ def skill_windows(name: str, char_id: str) -> dict:
         if kind in out:
             out[kind]["measured"] = True
     return out
+
+
+def dive(char_id: str) -> dict | None:
+    """A dive from the ground: the measured fall, then ``plunging_attack_end``.
+
+    ``hit`` — the measured jump to the landing's hit, ``DIVE_FALL``; the
+    landing starts that much before its own first hit frame. ``seconds`` —
+    until the next action: from there, the landing's ``AllowNext`` + 1, else
+    ``exclusiveFrame`` + 1 (Chen: 0.52 − 0.03 + 0.70 = 1.19); on video the
+    next jump came at least 1.13 s after the hit, a hand's reaction on top.
+    ``None`` without the landing.
+    """
+    end = load_skill(f"{char_id}_plunging_attack_end")
+    if end is None:
+        return None
+    frame = end.allow_next[0][0] if end.allow_next else end.exclusive
+    lands = DIVE_FALL - (end.at(end.hits[0]) if end.hits else 0.0)
+    return {
+        "seconds": round(lands + (frame + 1) / FPS + end.stopped_before(frame), 4),
+        "hit": DIVE_FALL,
+    }
+
+
+def finisher(char_id: str) -> dict | None:
+    """A finisher (``power_attack``): until the next attack, and its hits.
+
+    Chen's on video (measurements, #21): 1.00 s between her two hits, 1.30 s
+    from the second to the next basic attack's first hit — 2.20 s press to
+    press. Her stops come in pairs a frame or two apart (5 and 6, 29 and 31),
+    and the sum of all four (2.85 s) does not fit; the later stop of each
+    pair alone does: (50 + 1)/30 + 0.2 + 0.3 = 2.20. So stops within three
+    frames of each other count once, the later one. Fitted on one operator,
+    hence ``fitted``; the basic chain keeps the plain sum, which fits there
+    (#68b).
+    """
+    skill = load_skill(f"{char_id}_power_attack")
+    if skill is None:
+        return None
+    stops: list[tuple[int, float]] = []
+    for start, seconds in skill.stops:
+        if stops and start - stops[-1][0] <= 3:
+            stops[-1] = (start, seconds)
+        else:
+            stops.append((start, seconds))
+    stopped = lambda frame: sum(seconds for start, seconds in stops if start <= frame)
+    end = skill.exclusive
+    return {
+        "seconds": round((end + 1) / FPS + stopped(end), 4),
+        "hits": [round(frame / FPS + stopped(frame - 1), 4) for frame in skill.hits],
+        "fitted": True,
+    }
 
 
 def _operators() -> dict[str, str]:
@@ -557,6 +812,36 @@ def cmd_verify() -> int:
     return 0
 
 
+def cmd_hits() -> int:
+    """Wiki damage rows against client hits, per skill (``export.hit_times``)."""
+    sys.path.insert(0, str(ROOT))
+    from tools.ef.export import hit_times, read_frame_data, skill_stats
+
+    operators = json.loads((DATA / "operators.json").read_text(encoding="utf-8"))
+    frames = read_frame_data()
+    good = bad = 0
+    print(f"{'operator':24} {'skill':4} {'wiki':>4} {'client':>6}  rows → hits (s)")
+    for key, record in sorted(operators.items()):
+        seen: set[str] = set()
+        for raw in record.get("skills", []):
+            stats, _ = skill_stats(raw)
+            skill = {**raw, "stats": stats}
+            verdict = hit_times(skill, frames.get(key))
+            if not verdict or verdict["kind"] in seen:
+                continue
+            seen.add(verdict["kind"])
+            good += verdict["matched"]
+            bad += not verdict["matched"]
+            rows = "; ".join(
+                f"{row['label']} {row['hit']['at']}" for row in stats if row.get("hit", {}).get("at") is not None
+            )
+            wiki = "?" if verdict["wiki"] is None else verdict["wiki"]
+            mark = "" if verdict["matched"] else "← last hit"
+            print(f"{key:24} {verdict['kind']:4} {wiki:>4} {verdict['client']:>6}  {mark} {rows}")
+    print(f"\nmatched: {good}, last hit taken: {bad}")
+    return 0
+
+
 def final_strike_sp(chain: list[Skill], patches: dict) -> float | None:
     """SP the Final Strike restores: ``atb`` in the blackboard of the chain's last hit.
 
@@ -595,7 +880,10 @@ def cmd_export() -> int:
     """Final Strike SP and basic-chain length per operator, from the datamine.
 
     ``sequenceSeconds`` comes from the frame model: a closed chain gives
-    Σ (AllowNext + 1) / 30, an open one the ``exclusiveFrame`` guess.
+    Σ (AllowNext + 1) / 30, an open one the ``exclusiveFrame`` guess, plus
+    the attacker's hit stops on an enemy (measurements, #68b). The check
+    against the community table is made without them: the table matches
+    the frames alone.
     ``finalStrikeSeconds`` is the last hit's share of it: the track draws
     ``BA > FS`` as the chain up to the Final Strike, then the strike. It is
     ``uncertain`` when the chain does not close, or when it disagrees with the
@@ -610,6 +898,11 @@ def cmd_export() -> int:
     ``battleSkillEntity`` (``battle_skill_entity_hits``) and
     ``battleSkillFuse`` (``battle_skill_fuse``, Fluorite's explosive).
     ``export.py`` decides which skill they belong to.
+
+    ``chainHits`` (``chain_hits``) and ``skillHits`` (``skill_hits``) are
+    when each hit lands: the engine schedules events by them
+    (ENGINE_CORE_PLAN.md, Я1). ``finalStrikeHit`` (``final_strike_hit``) is
+    the hit that opens Final Strike combos.
     """
     patches = json.loads(SKILL_PATCH.read_text(encoding="utf-8"))
     measured = _measured_cycles()
@@ -625,8 +918,9 @@ def cmd_export() -> int:
         cycle = chain_cycle(chain)
         closed = cycle is not None
         frames = cycle if closed else open_chain_guess(chain)
-        record["sequenceSeconds"] = round(frames / FPS, 4)
-        record["finalStrikeSeconds"] = round(final_strike_frames(chain) / FPS, 4)
+        stopped = sum(skill.stopped_before(skill.next_in_chain()[0] if skill.next_in_chain() else skill.exclusive) for skill in chain)
+        record["sequenceSeconds"] = round(frames / FPS + stopped, 4)
+        record["finalStrikeSeconds"] = round(segment_seconds(chain[-1]) if closed else final_strike_frames(chain) / FPS + chain[-1].stopped_before(chain[-1].exclusive), 4)
         record["chain"] = "closed" if closed else "open"
         reasons = [] if closed else ["the chain does not close; exclusiveFrame guess"]
         if name in measured and abs(frames - measured[name] * FPS) > TOLERANCE_FRAMES:
@@ -647,6 +941,20 @@ def cmd_export() -> int:
             record["battleSkillFuse"] = fuse
         if windows := skill_windows(name, char_id):
             record["skillWindows"] = windows
+        if plunge := dive(char_id):
+            record["dive"] = plunge
+        if strike := finisher(char_id):
+            record["finisher"] = strike
+        record["chainHits"] = chain_hits(chain)
+        if (strike := final_strike_hit(chain)) is not None:
+            record["finalStrikeHit"] = strike
+        skill_hit_times = {
+            label: hits for suffix, label in KINDS.items() if (hits := skill_hits(char_id, suffix))
+        }
+        for label, hits in MEASURED_SKILL_HITS.get(name, {}).items():
+            skill_hit_times.setdefault(label, hits)
+        if skill_hit_times:
+            record["skillHits"] = skill_hit_times
         operators[name] = record
 
     pin = json.loads(UPSTREAM_PIN.read_text(encoding="utf-8")).get("endfield-data", {})
@@ -672,6 +980,7 @@ def main() -> int:
     parser.add_argument("operator", nargs="?", help="operator name, as in operators.json")
     parser.add_argument("--verify", action="store_true", help="check the BA cycle against the table")
     parser.add_argument("--export", action="store_true", help="write data/endfield/basic_attacks.json")
+    parser.add_argument("--hits", action="store_true", help="wiki damage rows against client hits")
     args = parser.parse_args()
 
     if not SKILLS.is_dir():
@@ -680,6 +989,8 @@ def main() -> int:
         return cmd_verify()
     if args.export:
         return cmd_export()
+    if args.hits:
+        return cmd_hits()
     if args.operator:
         return cmd_show(args.operator)
     parser.print_help()

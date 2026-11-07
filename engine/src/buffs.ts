@@ -30,7 +30,7 @@ import { formatMessage, type Message } from './messages.js';
 
 import type { SkillType } from './bundle.js';
 import type { Effect, EffectApply } from './effects.js';
-import type { Frame, TargetState } from './simulate.js';
+import { timerEnd, type Frame, type TargetState } from './simulate.js';
 import { INFLICTION_ELEMENTS, inflictionElement, VULNERABILITY_BUILDERS, VULNERABILITY_CONSUMERS } from './status.js';
 
 /** An effect holder: a squad operator and everything enabled on their build. */
@@ -363,7 +363,8 @@ export function trackBuffs(frames: Frame[], holders: BuffHolder[], critHits?: Cr
         continue;
       }
       // From the start of the step — the same way the simulation tracks target debuffs.
-      const until = line.apply.duration != null ? now + line.apply.duration : Infinity;
+      // A combo's slowdown stretches it (#70).
+      const until = line.apply.duration != null ? timerEnd(frame.dilations ?? [], now, line.apply.duration) : Infinity;
       if (line.apply.duration == null) {
         note({ code: 'buffNoDuration', effect: line.effect.source.name });
       }
@@ -395,7 +396,7 @@ export function trackBuffs(frames: Frame[], holders: BuffHolder[], critHits?: Cr
 }
 
 /** Whether the step's cast matches a list like `cast:Battle Skill|cast:Ultimate`. */
-function castMatches(spec: string, frame: Frame): boolean {
+export function castMatches(spec: string, frame: Frame): boolean {
   return spec.split('|').some((alternative) => {
     const [kind, arg] = splitTrigger(alternative);
     return kind === 'cast' && arg != null && castIs(arg, frame);

@@ -271,6 +271,11 @@ export interface Synergy {
   /** Vulnerable stacks a skill or move adds directly, after consuming `after` (Bolt Rush). */
   vulnerableStacks?: Record<string, Record<string, { count: number; after: string }>>;
   /**
+   * skill → term → times one cast applies it, when more than once: Lifeng's
+   * ultimate, «applies Knock Down … applies another Knock Down».
+   */
+  repeats?: Record<string, Record<string, Record<string, number>>>;
+  /**
    * operator → what one skill leaves on the field and another spends.
    * Tangtang: her combo leaves a Whirlpool (up to 2, `Whirlpool Duration
    * (s)` each), her battle skill takes all of them, one more Waterspout and

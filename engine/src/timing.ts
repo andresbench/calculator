@@ -1,9 +1,11 @@
 /**
  * Time on the rotation track.
  *
- * Action durations are not given on the wiki or in the game in readable
- * form, so the values in `timings.yaml` are nominal. The module is built so
- * that a nominal value never turns into false precision.
+ * Most durations now come from the client's frames (`basic_attacks.json`:
+ * chains, skill windows, hits). What is left here — `timings.yaml` — is the
+ * nominal fallback for what the frames do not give: a finisher, a dive, a
+ * dodge, an operator without frames. The module is built so that a nominal
+ * value never turns into false precision.
  *
  * TWO CLOCKS
  * ----------
@@ -21,9 +23,11 @@
  * VERDICT FRAGILITY
  * -----------------
  * Instead of pretending the second is right, the engine runs the track
- * several times with different duration multipliers. A verdict that does
- * not change between runs holds whatever the timings; one that flips is
- * marked fragile and needs a measurement.
+ * several times with the nominal durations multiplied. Client frames are
+ * not scaled: scaling one number and not the next moved events across
+ * presses and made noise. A verdict that does not change between runs holds
+ * whatever the unknown timings are; one that flips is marked fragile and
+ * needs a measurement.
  */
 
 export type ActionKind = 'BA' | 'FS' | 'FIN' | 'DIVE' | 'BS' | 'CS' | 'ULT' | 'DODGE' | 'WAIT';
@@ -41,6 +45,16 @@ export interface Timings {
   freezesTimers: Partial<Record<ActionKind, boolean>>;
   sensitivity: number[];
   overrides: Record<string, number>;
+  /**
+   * Seconds a combo stays ready after its trigger (measurements, #65): the
+   * button goes dark after that. Missing — the engine does not check it.
+   */
+  comboReady?: number;
+  /**
+   * How fast the world runs under a combo's slowdown, for everyone but the
+   * caster (measurements, #64): 0.05. Missing — it stands still.
+   */
+  comboTimeScale?: number;
 }
 
 export const FALLBACK_TIMINGS: Timings = {
@@ -51,7 +65,11 @@ export const FALLBACK_TIMINGS: Timings = {
   overrides: {},
 };
 
-/** How long an action lasts. `scale` is the multiplier for the fragility check. */
+/**
+ * How long an action lasts, when the client's frames do not say.
+ * `scale` is the multiplier for the fragility check: only these nominal
+ * values are scaled (ENGINE_CORE_PLAN.md, §3.6).
+ */
 export function durationOf(
   timings: Timings,
   kind: ActionKind,

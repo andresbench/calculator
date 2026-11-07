@@ -203,6 +203,8 @@ export interface VariantOptions {
   /** Resource changes from talents and potentials: `simModifiersFor`. */
   modifiers?: Record<string, SimModifiers>;
   ultimatesCharged?: boolean;
+  /** The rotation's `sp: unlimited` line. */
+  unlimitedSp?: boolean;
   /** The rotation's `controlled:` line. */
   controlled?: string | null;
 }
@@ -240,6 +242,7 @@ export function simulateVariant(
     reactionBonus: options.reactionBonus ?? {},
     modifiers: options.modifiers ?? {},
     ultimatesCharged: options.ultimatesCharged ?? false,
+    unlimitedSp: options.unlimitedSp ?? false,
     controlled: options.controlled ?? null,
   };
   const result = simulate(steps, team, timings, { ...shared, scale: 1 });

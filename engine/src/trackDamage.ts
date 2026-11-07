@@ -28,12 +28,12 @@
  */
 
 import { analyse, rowId, type Build, type BuildAnalysis } from './build.js';
-import { trackBuffs, type ActiveBuff } from './buffs.js';
-import type { Bundle, Element, Skill, SkillType } from './bundle.js';
+import { castMatches, trackBuffs, type ActiveBuff } from './buffs.js';
+import type { Bundle, Element, Skill, SkillType, StatRow } from './bundle.js';
 import { grantBuffs } from './grants.js';
 import { stepHits } from './hits.js';
 import type { Message } from './messages.js';
-import { skillTypeOf, statAt, type Frame, type Target } from './simulate.js';
+import { skillTypeOf, statAt, warp, type Frame, type Target } from './simulate.js';
 import { statusDamage, statusDebuffs, statusHits } from './statusHits.js';
 
 export interface DamagePart {
@@ -223,6 +223,44 @@ export function trackDamage(
   const note = (list: typeof conditional, operator: string, label: string): void => {
     if (!list.some((row) => row.operator === operator && row.label === label)) list.push({ operator, label });
   };
+  /** Who stands after frame `at`, for a hit landing then: the step's own `standing`. */
+  const standingAfter = (at: number) => {
+    const frame = frames[at]!;
+    const list = [
+      ...(buffs.after[at] ?? []),
+      ...(debuffs.before[at] ?? []),
+      ...(debuffs.fresh[at] ?? []),
+      ...(grants.before[at] ?? []),
+      ...(grants.fresh[at] ?? []),
+    ];
+    return { list, staggered: frame.target.staggered };
+  };
+  /**
+   * Instances of a row that land after a later press, by the frame they land
+   * in: its hit times (`hit.at`, `export.py`) from this press, against the
+   * presses after it. A chain row counts from the chain's start, and lands
+   * with the segment's last hit. A move's rows and a `BA3` have no times.
+   */
+  const landingFrames = (
+    index: number,
+    frame: Frame,
+    row: StatRow,
+    move: string | null,
+    times: number,
+  ): Map<number, number> => {
+    const out = new Map<number, number>();
+    const offsets = hitOffsets(bundle, frame, row, move, times);
+    if (!offsets) return out;
+    for (const offset of offsets) {
+      const t = frame.world + offset;
+      let landed = index;
+      // A press at the very moment of the hit comes after it: the hit opened it.
+      while (landed + 1 < frames.length && frames[landed + 1]!.world < t - 1e-6) landed += 1;
+      if (landed !== index) out.set(landed, (out.get(landed) ?? 0) + 1);
+    }
+    return out;
+  };
+
   const computeSteps = (): StepDamage[] => frames.map((frame, index) => {
     const key = frame.step.actor;
     const operator = key ? bundle.operators[key] : undefined;
@@ -329,6 +367,41 @@ export function trackDamage(
       // A row that swings several times (Chen's ult: six slashes) counts each.
       if (hit.count == null) note(variable, key, hit.row.label);
       let times = hit.count ?? 1;
+      // Instances that land after a later press take what stands then (Я3):
+      // the Endministrator's chain under the combo Chen pressed during it.
+      if (!whole && hit.role !== 'perStack') {
+        const elsewhere = landingFrames(index, frame, hit.row, move, times);
+        for (const [at, count] of elsewhere) {
+          // The cast's own view of its hit, moved to when the hit lands: what
+          // ran out by then is gone, what later presses took off is gone, what
+          // they put up is there. What the cast itself takes or switches on
+          // stays as at its press: its consumption and its hit are one event
+          // in the game (the crystals the Endministrator's ultimate shatters
+          // still stand for its blow; the talent the shattering switches on
+          // does not, measurements #2, #8).
+          const standing = standingAfter(at);
+          const t = frames[at]!.world;
+          const pressed = new Set(standingAfter(index).list.map(identity));
+          const there = new Set(standing.list.map(identity));
+          // «Next cast» buffs the cast spends: the track drops them a step late (Grand Vision).
+          const spent = (buff: ActiveBuff) =>
+            buff.apply.spentBy != null && buff.source === key && castMatches(buff.apply.spentBy, frame);
+          const base = [...before, ...onApply];
+          const known = new Set(base.map(identity));
+          const kept = base.filter(
+            (buff) =>
+              (buff.until == null || buff.until > t + 1e-9) &&
+              (spent(buff) || !pressed.has(identity(buff)) || there.has(identity(buff))),
+          );
+          const added = standing.list.filter((buff) => !pressed.has(identity(buff)) && !known.has(identity(buff)));
+          const then = under(key, [...kept, ...added], standing.staggered);
+          if (!then) continue;
+          const label = `${hit.row.label} × ${count} (${frames[at]!.world.toFixed(1)} s)`;
+          push({ label, nonCrit: (then.byId.get(id) ?? 0) * count * link, by: key }, critOf(then, id));
+          times -= count;
+        }
+        if (times <= 0) continue;
+      }
       if (opening && hit.role !== 'perStack' && !later && !whole) {
         // The breaking hit itself, before the +30 %.
         opening = false;
@@ -454,6 +527,7 @@ export function trackDamage(
     { message: { code: 'trackCorrosion' } },
     { message: { code: 'trackLink' } },
     { message: { code: 'trackNextStep' } },
+    { message: { code: 'trackHitTimes' } },
     { message: { code: 'trackStatusSnapshot' } },
     { message: { code: 'trackStaggerAtStart' } },
     ...(grants.scaled ? [{ message: { code: 'trackGrantSnapshot' } as const }] : []),
@@ -468,6 +542,16 @@ export function trackDamage(
   for (const key of new Set(frames.filter((frame) => frame.step.kind === 'ULT' && frame.step.actor && bare.has(frame.step.actor)).map((frame) => frame.step.actor!))) {
     const ultimate = bundle.operators[key]?.skills.find((item) => item.type === 'Ultimate');
     if (ultimate?.barrage) notCounted.push({ operator: key, message: { code: 'trackBarrage', operator: key } });
+  }
+  // Skills on the track whose rows were put on the last hit (`export.py`, `hit_times`).
+  const guessed = new Set<string>();
+  for (const frame of frames) {
+    const key = frame.step.actor;
+    const type = skillTypeOf(frame.step.kind);
+    const skill = key && type && type !== 'Basic Attack' ? bundle.operators[key]?.skills.find((item) => item.type === type) : undefined;
+    if (!key || !skill?.hitTimes || !frame.clientTimed || guessed.has(`${key}|${skill.name}`)) continue;
+    guessed.add(`${key}|${skill.name}`);
+    notCounted.push({ operator: key, message: { code: 'trackHitGuess', operator: key, skill: skill.name } });
   }
   for (const key of fused) {
     const entry = Object.values(bundle.synergy.detonates?.[key] ?? {})[0]!;
@@ -516,6 +600,57 @@ function spanning(start: ActiveBuff[], end: ActiveBuff[]): ActiveBuff[] {
     out.push(...(a.length > b.length ? a : b));
   }
   return out;
+}
+
+/**
+ * When each of `times` instances of a damage row lands, seconds from the
+ * step's press (`hit.at`, from the client's frames). A chain row counts from
+ * the chain's start and lands with its segment's last hit; a Final Strike
+ * that finishes the BA before it starts where that BA stopped. `null` — no
+ * times: a nominal-second step, a move's rows, a `BA3` on its own.
+ */
+export function hitOffsets(bundle: Bundle, frame: Frame, row: StatRow, move: string | null, times: number): number[] | null {
+  const key = frame.step.actor;
+  const own = ownOffsets(bundle, frame, row, move, times);
+  // A later combo's slowdown or a cutscene moves the hits of whoever it stops (#66).
+  if (!own || !key || !frame.dilations?.length) return own;
+  return own.map((offset) => warp(frame.dilations!, frame.world, offset, key) - frame.world);
+}
+
+function ownOffsets(bundle: Bundle, frame: Frame, row: StatRow, move: string | null, times: number): number[] | null {
+  const at = row.hit?.at;
+  const key = frame.step.actor;
+  if (!at || at.length === 0 || move || !frame.clientTimed || !key) return null;
+  if (row.hit?.part === 'chain') {
+    if (frame.step.sequence != null) return null;
+    const basic = bundle.sp?.basicAttack?.[key];
+    const chained = frame.step.kind === 'FS' && frame.chained;
+    if (chained && (basic?.sequenceSeconds == null || basic.finalStrikeSeconds == null)) return null;
+    const start = chained ? basic!.sequenceSeconds! - basic!.finalStrikeSeconds! : 0;
+    return Array.from({ length: times }, () => Math.max(0, at.at(-1)! - start));
+  }
+  return at.length === times ? at : Array.from({ length: times }, () => at.at(-1)!);
+}
+
+/** Seconds from the press to each hit of the step's own damage rows: ticks on the track. */
+export function stepHitOffsets(bundle: Bundle, frame: Frame): number[] {
+  const key = frame.step.actor;
+  const type = frame.transformed || frame.enhancedBasic || frame.duringUltimate ? null : skillTypeOf(frame.step.kind);
+  const skill = key && type ? bundle.operators[key]?.skills.find((item) => item.type === type) : undefined;
+  if (!skill) return [];
+  const out: number[] = [];
+  const context = { chained: frame.chained, moves: frame.moves, enhanced: frame.enhanced, made: frame.stock?.made ?? null };
+  for (const hit of stepHits(skill, frame.step, context)) {
+    if (hit.role === 'perStack') continue;
+    out.push(...(hitOffsets(bundle, frame, hit.row, null, hit.count ?? 1) ?? []));
+  }
+  return [...new Set(out.map((offset) => Math.round(offset * 1e4) / 1e4))].sort((a, b) => a - b);
+}
+
+/** One buff line on one receiver, whatever its stacks: is it still up. */
+function identity(buff: ActiveBuff): string {
+  const { apply } = buff;
+  return [buff.effect.id, apply.stat, apply.element ?? '', apply.skillType ?? '', apply.trigger ?? '', buff.receiver].join('|');
 }
 
 function buffSignature(buff: ActiveBuff): string {

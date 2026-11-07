@@ -72,6 +72,8 @@ export const en = {
 
   site: {
     tag: 'Endfield damage calculator',
+    alpha: 'alpha',
+    alphaTitle: 'An alpha build: numbers, the interface and saved formats may still change, and bugs are expected. If something looks wrong, tell us (About → issues on GitHub).',
     navLabel: 'Sections',
     nav: { roster: 'Operators', track: 'Rotation track', about: 'About' },
   },
@@ -83,6 +85,7 @@ export const en = {
     snapshot: (pages: number, revid: number | null, date: string) =>
       `Wiki snapshot: ${pages} pages, highest revid ${revid ?? '—'}, built ${date}.`,
     about: 'about & sources',
+    support: 'support on Ko-fi',
   },
 
   about: {
@@ -91,6 +94,8 @@ export const en = {
       'A damage calculator and rotation track for Arknights: Endfield. Builds and rotation drafts live only in this browser; export them to keep a copy.',
     honesty:
       'Every number says where it comes from: data from the game wiki or the client, a measurement, or an assumption. What the engine does not account for is listed next to the numbers, not left out.',
+    guide: 'New here? The guide walks through both tools step by step:',
+    guideLink: 'how to use Andre’s Bench',
     measured: 'The engine is checked against numbers measured in the game; each measurement is published with its protocol and tolerance:',
     madeTitle: 'Made with AI',
     made:
@@ -109,6 +114,8 @@ export const en = {
     code: 'Open source under the MIT license.',
     build: (commit: string) => `build ${commit}`,
     dev: 'development build',
+    supportTitle: 'Support',
+    support: 'The site is free and has no ads. If it helped you, you can buy the author a coffee:',
   },
 
   editor: {
@@ -256,7 +263,7 @@ export const en = {
     zoom: 'zoom',
     length: (length: number, waited: number) => `${length.toFixed(1)} s · waiting ${waited.toFixed(1)} s`,
     damageLine: (total: string, dps: string) => `${total} dmg · ${dps}/s`,
-    noRotations: 'No rotations yet. Press «+ new» to build one from scratch.',
+    noRotations: 'No rotations yet. Press «+ new» to build one from scratch, or paste a .rot text below. A shared link opens as a draft by itself.',
     actions: 'Actions',
     stagesHint:
       'A stage is a separate press with its own cost (Mi Fu’s three battle-skill moves, Rossi’s two combo presses). Lifeng’s or Pogranichnik’s SEQ hits are one press, and Pogranichnik’s combo slashes as many times as the stacks it consumed.',
@@ -272,6 +279,8 @@ export const en = {
     pauseSeconds: 'seconds',
     ultimatesCharged: 'the fight starts with ultimates charged',
     ultimatesChargedHint: 'Every operator starts with enough energy for one ultimate, as after a previous wave.',
+    unlimitedSp: 'SP without limit',
+    unlimitedSpHint: 'Battle skills never wait for SP: for sketching the order of a rotation in a vacuum. Ultimate energy still comes from the SP spent.',
     optional: 'optional (~)',
     uncertain: 'uncertain (?)',
     notePlaceholder: 'comment — goes into [square brackets]',
@@ -330,6 +339,7 @@ export const en = {
     strikeGhostText: (step: number) =>
       `The basic attack chain of step ${step} stops short of its Final Strike: no Final Strike SP, and no combo that waits for one opens.`,
     ultCharge: (energy: number, cost: number) => `Ultimate energy ${energy} of ${cost}`,
+    comboCooldown: (left: number) => (left > 0 ? `Combo on cooldown: ${left.toFixed(1)} s left` : 'Combo ready'),
     controlStart: (name: string, chosen: boolean) =>
       `${name} is controlled when the fight starts${chosen ? '' : ' — picked as the first to attack'}. Control then moves to whoever attacks or dodges, and to anyone whose skill takes control.`,
     controlPick: (name: string) => `Start the fight controlling ${name}.`,
@@ -457,6 +467,7 @@ export const en = {
       amp: 'Arts Amp',
       susceptibility: 'Susceptibility on the target',
       dmg_taken: 'DMG Taken on the target',
+      dmg_reduction: 'DMG Reduction',
       weaken: 'Weaken',
       protect: 'Protection',
       def_shred: 'DEF reduction',

@@ -6,7 +6,7 @@
 import type { Bundle } from '@engine/index.js';
 
 import logo from '../assets/logo.svg?raw';
-import { LanguageSwitch } from './About.js';
+import { KOFI, LanguageSwitch } from './About.js';
 import { useT } from './i18n/index.js';
 
 export type Screen = 'roster' | 'track' | 'about';
@@ -34,6 +34,9 @@ export function SiteHeader({ screen, onNavigate }: { screen: Screen; onNavigate:
         {/* Inline, so the app's colours paint it whatever the system theme is. */}
         <span className="site__logo" aria-hidden="true" dangerouslySetInnerHTML={{ __html: LOGO }} />
         <span className="site__name">Andre&rsquo;s Bench</span>
+        <span className="site__alpha" title={t.site.alphaTitle}>
+          {t.site.alpha}
+        </span>
         <span className="site__tag">{t.site.tag}</span>
       </a>
       <nav className="site__nav" aria-label={t.site.navLabel}>
@@ -68,6 +71,9 @@ export function SiteFooter({ bundle, onAbout }: { bundle: Bundle; onAbout: () =>
         <button type="button" className="linkish" onClick={onAbout}>
           {t.footer.about}
         </button>
+        <a href={KOFI} target="_blank" rel="noreferrer">
+          {t.footer.support}
+        </a>
       </div>
     </footer>
   );

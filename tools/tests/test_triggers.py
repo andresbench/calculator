@@ -29,6 +29,7 @@ from tools.ef.synergy import (
     stack_effects,
     stances,
     own_stacks,
+    repeats,
     split_moves,
     stocks,
     strike_after,
@@ -195,6 +196,14 @@ class OwnState(unittest.TestCase):
             vulnerable_stacks(operators()["Argent Flow"]),
             {"Bolt Rush": {"count": 1, "after": "Electric Infliction"}},
         )
+
+    def test_a_term_applied_twice_by_one_cast(self):
+        # Lifeng: «applies Knock Down … applies another Knock Down».
+        self.assertEqual(repeats(operators()["Lifeng"]), {"Heart of the Unmoving": {"Knock Down": 2}})
+        # Arcane's «applies another instance of Nature Susceptibility» is a
+        # battle skill hit on an Imprisoned target, in its own paragraph.
+        self.assertEqual(repeats(operators()["Arcane"]), {})
+        self.assertEqual([key for key, op in operators().items() if repeats(op)], ["Lifeng"])
 
     def test_the_move_paragraph_is_read_under_the_move_name(self):
         # The plain battle skill only applies Lift; Electrification, the

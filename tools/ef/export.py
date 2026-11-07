@@ -38,7 +38,7 @@ DEFAULT_OUT = ROOT / "app" / "public" / "data" / "bundle.json"
 
 # The bundle contract version. The app refuses to work with another version
 # instead of silently reading fields wrong.
-SCHEMA = 33
+SCHEMA = 39
 
 WIKI = "https://endfield.wiki.gg"
 LICENSE = "CC BY-SA 4.0"
@@ -1038,9 +1038,74 @@ def skill_stats(skill: dict) -> tuple[list[dict], dict]:
     return stats, extras
 
 
+HIT_KINDS = {"Battle Skill": "BS", "Combo Skill": "CS", "Ultimate": "ULT"}
+
+
+def hit_times(skill: dict, frames: dict | None) -> dict | None:
+    """When each damage row lands: ``hit.at``, seconds, one per hit of the row.
+
+    Rows are wiki data, hits are the client's (``frames.py``), and nothing
+    names which is which. The rule (ENGINE_CORE_PLAN.md, Я1):
+
+    * a basic attack's ``SEQ k`` row is the chain's k-th segment, every hit
+      of it; times from the start of the chain;
+    * a skill's hit rows, in table order, take the client's hits in order,
+      ``count`` of them each — when the counts agree, with every hit or with
+      the hits before the skill's first window (``late`` ones dropped: the
+      other variants of Pogranichnik's combo). Otherwise every row lands on
+      the last hit before the window and the skill is marked ``hitTimes:
+      "last"``: the client splits some hits in two (Pogranichnik's battle
+      skill, #23), and a guess is better said than fitted;
+    * a skill whose stages are separate presses (Mi Fu) is left alone, as is
+      one without client hits.
+
+    Returns the skill-level verdict: ``{"kind", "wiki", "client", "matched"}``,
+    or ``None`` when there was nothing to match.
+    """
+    if not frames:
+        return None
+    stats = skill["stats"]
+    if skill.get("type") == "Basic Attack":
+        chain = frames.get("chainHits") or []
+        for row in stats:
+            hit = row.get("hit")
+            if hit and hit.get("part") == "chain" and hit.get("sequence") and hit["sequence"] <= len(chain):
+                row["hit"]["at"] = chain[hit["sequence"] - 1]
+        return None
+    kind = HIT_KINDS.get(skill.get("type"))
+    client = (frames.get("skillHits") or {}).get(kind or "", [])
+    if not kind or not client or any(row.get("sequences") for row in stats):
+        return None
+    rows = [row for row in stats if row.get("hit") and row["hit"]["role"] == "hit" and not row.get("move")]
+    rows.sort(key=lambda row: row["hit"].get("sequence") or 0)
+    counts = [row["hit"].get("count", 1) for row in rows]
+    hits = [hit["at"] for hit in client]
+    early = [hit["at"] for hit in client if not hit.get("late")] or hits
+    matched = None not in counts and sum(counts) in (len(hits), len(early))
+    if matched and sum(counts) != len(hits):
+        hits = early
+    elif not matched:
+        hits = early
+    if matched:
+        index = 0
+        for row, count in zip(rows, counts):
+            row["hit"]["at"] = hits[index:index + count]
+            index += count
+    else:
+        for row in rows:
+            row["hit"]["at"] = [hits[-1]]
+        skill["hitTimes"] = "last"
+    for row in stats:
+        if row.get("hit") and row["hit"]["role"] in ("perStack", "conditional") and not row.get("move"):
+            row["hit"]["at"] = [hits[-1]]
+    wiki = None if None in counts else sum(counts)
+    return {"kind": kind, "wiki": wiki, "client": len(hits), "matched": matched}
+
+
 def export_operators(operators: dict, icons: "IconIndex") -> dict:
     out: dict = {}
     frame_data = read_frame_data()
+    unmatched: list[str] = []
     for key, record in operators.items():
         skills = []
         for skill in record.get("skills", []):
@@ -1074,6 +1139,8 @@ def export_operators(operators: dict, icons: "IconIndex") -> dict:
                 skill["enhancedBasic"] = enhanced
             # Last: a Stagger row takes the condition its hit ended up with.
             stagger_roles(skill["stats"])
+            if (verdict := hit_times(skill, frame_data.get(key))) and not verdict["matched"]:
+                unmatched.append(f"{key} {verdict['kind']} {verdict['wiki']}/{verdict['client']}")
 
         out[key] = {
             "key": key,
@@ -1114,6 +1181,9 @@ def export_operators(operators: dict, icons: "IconIndex") -> dict:
             "revid": (record.get("source") or {}).get("revid"),
             "page": record.get("page"),
         }
+    # Rows and client hits that disagree in number: the rows land on the last hit.
+    if unmatched:
+        print(f"    hit times    wiki rows ≠ client hits, last hit taken: {', '.join(unmatched)}")
     return out
 
 
@@ -1270,6 +1340,8 @@ def export_timings() -> dict:
         "freezesTimers": data.get("freezes_timers") or {},
         "sensitivity": data.get("sensitivity") or [1],
         "overrides": data.get("overrides") or {},
+        **({"comboReady": data["combo_ready"]} if data.get("combo_ready") is not None else {}),
+        **({"comboTimeScale": data["combo_time_scale"]} if data.get("combo_time_scale") is not None else {}),
     }
 
 
@@ -1310,6 +1382,16 @@ def read_basic_attacks() -> dict:
             row["uncertain"] = record["uncertain"]
         if record.get("skillWindows"):
             row["skillWindows"] = record["skillWindows"]
+        if record.get("chainHits"):
+            row["chainHits"] = record["chainHits"]
+        if record.get("finalStrikeHit") is not None:
+            row["finalStrikeHit"] = record["finalStrikeHit"]
+        if record.get("dive"):
+            row["dive"] = record["dive"]
+        if record.get("finisher"):
+            row["finisher"] = record["finisher"]
+        if record.get("skillHits"):
+            row["skillHits"] = record["skillHits"]
         out[key] = row
     uncertain = sum(1 for row in out.values() if "uncertain" in row)
     print(f"    basic attacks  {len(out)} operators from the datamine, duration questionable for {uncertain}")
@@ -1383,6 +1465,7 @@ def export_synergy(operators: dict) -> dict:
             forced_levels as forced_level_effects,
             marks as mark_effects,
             vulnerable_stacks as vulnerable_effects,
+            repeats as repeat_effects,
             stocks as stock_effects,
             own_stacks as own_stack_effects,
             detonates as detonate_effects,
@@ -1439,6 +1522,7 @@ def export_synergy(operators: dict) -> dict:
     forced_level: dict = {}
     marked: dict = {}
     vulnerable_added: dict = {}
+    repeated_terms: dict = {}
     deferred: dict = {}
     takes_control: dict = {}
     stances: dict = {}
@@ -1493,6 +1577,8 @@ def export_synergy(operators: dict) -> dict:
             marked[key] = mark
         if added := vulnerable_effects(record):
             vulnerable_added[key] = added
+        if repeated := repeat_effects(record):
+            repeated_terms[key] = repeated
         if effects["deferred"]:
             deferred[key] = effects["deferred"]
         if effects["takes_control"]:
@@ -1523,6 +1609,7 @@ def export_synergy(operators: dict) -> dict:
         "forcedLevels": forced_level,
         "marks": marked,
         "vulnerableStacks": vulnerable_added,
+        "repeats": repeated_terms,
         "deferred": deferred,
         "takesControl": takes_control,
         "stances": stances,
