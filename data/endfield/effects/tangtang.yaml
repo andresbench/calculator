@@ -26,9 +26,9 @@ talents:
   - name: Riot Bringer
     levels:
       - condition: Elite 2
-        unmodeled: "whirlpools into fountains from the dive attack; the engine has no whirlpools"
+        unmodeled: "a dive attack during Olden Stare turning Whirlpools into Waterspouts; the track keeps Whirlpools as stocks for the battle skill only (measurements #49)"
       - condition: Elite 3
-        unmodeled: "whirlpools into fountains from the dive attack, +60 % damage; the engine has no whirlpools"
+        unmodeled: "a dive attack during Olden Stare turning Whirlpools into Waterspouts, +60 % damage; the track keeps Whirlpools as stocks for the battle skill only (measurements #49)"
 
 potentials:
   - rank: 1

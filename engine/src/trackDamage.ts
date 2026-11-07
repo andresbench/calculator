@@ -523,13 +523,19 @@ export function trackDamage(
     for (const part of step.parts) sums.set(part.by, (sums.get(part.by) ?? 0) + part.damage);
   }
 
+  // General caveats, each only where the rotation has what it is about.
+  const hasCorrosion = frames.some(
+    (frame) => frame.target.debuffs.some((debuff) => debuff.term === 'Corrosion') || frame.status.some((event) => event.term === 'Corrosion'),
+  );
+  const spendsLink = frames.some((frame) => frame.link != null);
+  const staggers = frames.some((frame) => frame.target.staggered || frame.staggeredAtStart);
   const notCounted: NotCounted[] = [
-    { message: { code: 'trackCorrosion' } },
-    { message: { code: 'trackLink' } },
+    ...(hasCorrosion ? [{ message: { code: 'trackCorrosion' } as const }] : []),
+    ...(spendsLink ? [{ message: { code: 'trackLink' } as const }] : []),
     { message: { code: 'trackNextStep' } },
     { message: { code: 'trackHitTimes' } },
     { message: { code: 'trackStatusSnapshot' } },
-    { message: { code: 'trackStaggerAtStart' } },
+    ...(staggers ? [{ message: { code: 'trackStaggerAtStart' } as const }] : []),
     ...(grants.scaled ? [{ message: { code: 'trackGrantSnapshot' } as const }] : []),
     ...buffs.notes.map((message) => ({ message })),
   ];

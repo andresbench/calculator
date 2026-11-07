@@ -198,6 +198,9 @@ function linesOf(holder: BuffHolder): Line[] {
   for (const effect of holder.active) {
     effect.apply.forEach((apply, index) => {
       if (apply.trigger == null && apply.stacks == null) return;
+      // SP returned on a trigger is a resource: the simulation pays it
+      // (`spOnConsume`, `spOnCast`), and it is no buff with a duration.
+      if (apply.stat === 'sp_return') return;
       let trigger = apply.trigger ?? '';
       let max = apply.stacks?.max ?? 1;
       // A potential edits another effect by buff name: "Max Fervent Morale

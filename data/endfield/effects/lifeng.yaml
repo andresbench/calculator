@@ -46,11 +46,23 @@ talents:
           - {stat: atk_attr_factor, value: 0.15, perAttribute: [INT, WIL]}
 
   - name: Subduer of Evil
+    stacking: replaces
+    confidence: inferred
+    evidence: >-
+      An instance, not a buff (`extra_hit`, as Swordmancer's hit, measurements
+      #60): Physical DMG of Lifeng's ATK each time he applies Knock Down,
+      both of his ultimate's included (#73). No cooldown in the text.
+      Unmeasured: whether it takes skill-type bonuses — the vocabulary
+      counts it like a status hit, without them.
     levels:
       - condition: Elite 2
-        unmodeled: "a separate 50 % ATK instance on applying Knock Down; the engine does not produce instances from effects yet"
+        seen: "Applying Knock Down also deals 50% ATK of Physical DMG."
+        apply:
+          - {stat: extra_hit, element: Physical, value: 50, trigger: "applies:Knock Down", target: self, name: Subduer of Evil}
       - condition: Elite 3
-        unmodeled: "a separate 100 % ATK instance on applying Knock Down; the engine does not produce instances from effects"
+        seen: "Applying Knock Down also deals 100% ATK of Physical DMG."
+        apply:
+          - {stat: extra_hit, element: Physical, value: 100, trigger: "applies:Knock Down", target: self, name: Subduer of Evil}
 
 potentials:
   - rank: 1

@@ -38,7 +38,11 @@ talents:
 
 potentials:
   - rank: 1
-    unmodeled: "Electrification duration +75 %: the engine does not type reactions"
+    confidence: inferred
+    evidence: "the same edit as Laevatain's P3 (reaction_duration_mult on the reaction her own skill forces); the duration itself is unmeasured"
+    seen: "Combo skill Instant Protocol: Chain improved: Electrification duration +75%."
+    apply:
+      - {stat: reaction_duration_mult, reaction: Electrification, skillType: Combo Skill, value: 1.75}
   - rank: 2
     confidence: confirmed
     seen: "Ultimate Protocol ε: 70.41K improved: Ultimate Energy cost -15%."

@@ -44,7 +44,9 @@ weapons:
     seen: "ATK +{0}%. After the wielder applies Physical Statuses, the wielder also deals another hit of Physical DMG equal to {1}% of the wielder's ATK."
     apply:
       - {stat: atk_pct, value: "{0}"}
-    unmodeled: "an extra Physical hit for {1} % ATK after a Physical Status — a separate instance, not a stat"
+      # The extra hit: an instance, as Swordmancer's (`extra_hit`, measurements
+      # #60). No cooldown in the text; unmeasured.
+      - {stat: extra_hit, element: Physical, value: "{1}", trigger: "applies:Physical Status", target: self, name: Valiant hit}
 
   - name: Aspirant
     confidence: inferred
@@ -196,7 +198,7 @@ weapons:
     apply:
       - {stat: atk_pct, value: "{0}", duration: 8, trigger: final_strike}
       - {stat: atk_pct, value: "{0}", duration: 8, trigger: final_strike, controlled: true}
-    unmodeled: "Final Strike Stagger +{1} % for the controlled wielder — stagger on the track does not take percentage buffs"
+    unmodeled: "Final Strike Stagger +{1} % for the controlled wielder — Stagger Efficiency on the track applies to every hit, it has no per-action filter"
 
   - name: Thunderberge
     seen: "Shield applied +{0}%. After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [{1}% × Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s."

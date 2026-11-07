@@ -369,15 +369,16 @@ export const EN_MESSAGES: Catalog = {
   trackCorrosion: () =>
     'Corrosion: shred steps up once a second from the moment it lands (client); a hit inside a step takes the value at the step start',
   trackLink: () =>
-    'Link counts on every hit of the cast that spends it; whether Crush-type hits such as World Splitter take it is open (measurements, #15)',
-  trackNextStep: () => 'a buff triggered by a step counts from the next step on; within one cast, see the step tooltip',
+    'Link counts on every hit of the cast that spends it; not measured for hits the game files under another damage type',
+  trackNextStep: () =>
+    "a buff a cast switches on reaches the cast's later moves and the steps after it, not the move that switched it on — unless it fires on what that hit applies (measurements, #23, #61)",
   trackHitTimes: () =>
     'a hit that lands after a later press takes the buffs standing then (client hit times); a hit inside its own step takes what stood at its press',
   trackHitGuess: (m, c) => `${c.name(m.operator)}'s ${m.skill}: the wiki's rows and the client's hits differ in number — every row lands on the last hit`,
   trackStatusSnapshot: () =>
     "a status debuff keeps the applier's Arts Intensity from the step that applied it, track buffs included; whether the game reads it then or on every hit is open (measurements, #46)",
   trackStaggerAtStart: () =>
-    'Staggered +30 % counts from the step after the one that fills the meter: which hits of that step land after the break is open (measurements, #45)',
+    'Staggered +30 % is checked per hit (measurements, #45), but which hit carries a cast\'s Stagger is known only for First Strike rows: otherwise the step that fills the meter goes without it and the next ones have it',
   trackGrantSnapshot: () =>
     "a skill's Susceptibility and Amp keep the value from the step that applied them — Will, Intellect and Vulnerable stacks as they stood then; Xaihi's crystal counts the striker at Max HP (measurements, #50)",
   trackGrantUncounted: (m, c) =>

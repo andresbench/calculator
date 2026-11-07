@@ -10,7 +10,7 @@
  */
 
 import { analyse, type Build } from './build.js';
-import type { Bundle } from './bundle.js';
+import type { Bundle, SkillType } from './bundle.js';
 import { canonicalTerm } from './buffs.js';
 import { activeEffects, effectModifiers } from './effects.js';
 import { formatMessage, type Message } from './messages.js';
@@ -140,8 +140,13 @@ export function simModifiersFor(
     });
     const mods = effectModifiers(active);
     const spOnConsume: NonNullable<SimModifiers['spOnConsume']> = [];
+    const spOnCast: NonNullable<SimModifiers['spOnCast']> = [];
     for (const effect of active) {
       for (const apply of effect.apply) {
+        if (apply.stat === 'sp_return' && apply.trigger?.startsWith('cast:')) {
+          spOnCast.push({ skillType: apply.trigger.slice('cast:'.length) as SkillType, sp: apply.value });
+          continue;
+        }
         const term = apply.trigger?.startsWith('consumes:') ? apply.trigger.slice('consumes:'.length) : null;
         if (apply.stat !== 'sp_return' || !term) continue;
         spOnConsume.push({
@@ -156,6 +161,7 @@ export function simModifiersFor(
       cooldownPct: mods.cooldownPct,
       ultCostPct: mods.ultCostPct,
       spOnConsume,
+      spOnCast,
       reactionEdits: mods.reactionEdits,
       grants: active.flatMap((effect) => effect.grants ?? []),
     };

@@ -838,6 +838,8 @@ export interface SimModifiers {
    * crystals. Returned, not recovered: no energy, no "on recovery" effects.
    */
   spOnConsume?: Array<{ term: string; skillType?: SkillType; sp: number }>;
+  /** SP a cast of this type returns: Rossi's P1, Yvonne's P4 (`cast:Battle Skill`). */
+  spOnCast?: Array<{ skillType: SkillType; sp: number }>;
   /** Reactions the member's skills apply, edited (`EffectModifiers.reactionEdits`): Laevatain's P3. */
   reactionEdits?: EffectModifiers['reactionEdits'];
   /** Edits of the operator's own Susceptibility and Amp: Lifeng's P1 condition, Mi Fu's +4 s. */
@@ -1971,8 +1973,11 @@ function payBattleSkill(s: SimState, c: StepContext): void {
   const returned = skill.stats
     .filter((row) => row.sp?.kind === 'return' && row.sp.when === 'always' && row.move == null)
     .reduce((sum, row) => sum + (statAt({ ...skill, stats: [row] }, row.label, level, step.sequence) ?? 0), 0);
-  const spent = Math.max(0, cost - returned);
-  s.sp = s.unlimitedSp ? SP_CAP : Math.min(SP_CAP, s.sp + returned);
+  const onCast = (s.modifiers[c.member.key]?.spOnCast ?? [])
+    .filter((rule) => rule.skillType === 'Battle Skill')
+    .reduce((sum, rule) => sum + rule.sp, 0);
+  const spent = Math.max(0, cost - returned - onCast);
+  s.sp = s.unlimitedSp ? SP_CAP : Math.min(SP_CAP, s.sp + returned + onCast);
   markSp(s);
   const gained = (spent / 100) * ENERGY_PER_100_SP;
   for (const key of Object.keys(s.energy)) s.energy[key] = Math.min(ENERGY_CAP, s.energy[key]! + gained);

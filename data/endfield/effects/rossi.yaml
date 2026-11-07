@@ -43,9 +43,9 @@ talents:
   - name: Seething Blood
     levels:
       - condition: Elite 2
-        unmodeled: "an extra hit on crit; the engine does not produce instances from effects"
+        unmodeled: "an extra 12 % ATK Heat hit on each crit against a Razor Clawmarked target (×1.5 if Combusted); the track counts crits as an expectation, not as hits that could fire it"
       - condition: Elite 3
-        unmodeled: "an extra 24 % ATK hit on crit; the engine does not produce instances from effects"
+        unmodeled: "an extra 24 % ATK Heat hit on each crit against a Razor Clawmarked target (×1.5 if Combusted); the track counts crits as an expectation, not as hits that could fire it"
 
 potentials:
   - rank: 1
