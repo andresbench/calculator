@@ -1,0 +1,1261 @@
+{
+ "source": "Enka.Network store (EnkaNetwork/API-docs, store/ef) matched to the wiki's Cargo ids",
+ "weapons": {
+  "897": "Hypernova Auto",
+  "1608": "Peco 5",
+  "1776": "Long Road",
+  "1777": "Wild Wanderer",
+  "1778": "Opus: The Living",
+  "1779": "Sundering Steel",
+  "1780": "Fortmaker",
+  "1781": "Stanza of Memorials",
+  "1782": "Cohesive Traction",
+  "1783": "Aggeloslayer",
+  "1784": "Thunderberge",
+  "1785": "Former Finery",
+  "1786": "Monaihe",
+  "1787": "Opero 77",
+  "1788": "Tarr 11",
+  "1789": "Sundered Prince",
+  "1790": "Valiant",
+  "1791": "Oblivion",
+  "1792": "Finishing Call",
+  "1793": "Pathfinder's Beacon",
+  "1794": "Chimeric Justice",
+  "1795": "Jiminy 12",
+  "1796": "Chivalric Virtues",
+  "1797": "Forgeborn Scathe",
+  "1798": "Navigator",
+  "1799": "Seeker of Dark Lung",
+  "1800": "Opus: Etch Figure",
+  "1801": "Fluorescent Roc",
+  "1802": "Quencher",
+  "1803": "Prominent Edge",
+  "1804": "Home Longing",
+  "1805": "Wave Tide",
+  "1806": "Darhoff 7",
+  "1807": "Beacon of Duty",
+  "1808": "Thermite Cutter",
+  "1809": "Umbral Torch",
+  "1810": "Rational Farewell",
+  "1811": "Eminent Repute",
+  "1812": "Howling Guard",
+  "1813": "Wedge",
+  "1814": "Exemplar",
+  "1815": "Detonation Unit",
+  "1816": "White Night Nova",
+  "1817": "Rapid Ascent",
+  "1818": "Industry 0.1",
+  "1819": "JET",
+  "2012": "Mountain Bearer",
+  "2025": "Clannibal",
+  "3260": "Twelve Questions",
+  "3261": "Freedom to Proselytize",
+  "3262": "Aspirant",
+  "3263": "OBJ Arts Identifier",
+  "3264": "Delivery Guaranteed",
+  "3265": "Artzy Tyrannical",
+  "3266": "Khravengger",
+  "3267": "OBJ Edge of Lightness",
+  "3268": "OBJ Heavy Burden",
+  "3269": "Dreams of the Starry Beach",
+  "3270": "OBJ Razorhorn",
+  "3271": "Ancient Canal",
+  "3272": "Never Rest",
+  "3273": "Grand Vision",
+  "3274": "OBJ Velocitous",
+  "3275": "Finchaser 3.0",
+  "3522": "Flickers in the Mist",
+  "3523": "Phantom Pain",
+  "3524": "Lupine Scarlet",
+  "3525": "Glorious Memory",
+  "3526": "Lone Barge",
+  "3527": "Brigand's Calling",
+  "3789": "Type 42: Solemn Phalanx",
+  "3790": "Bedazzling Night Debut",
+  "3791": "Blessing of Lustrous Carmine",
+  "3792": "Amaranthine Tassel",
+  "4438": "Junction Point",
+  "4439": "Golden Age",
+  "4700": "Farsight",
+  "4869": "Umbra of Frigid Eventide",
+  "4870": "Suffering's End",
+  "4871": "Dessert Moment",
+  "5113": "Long Heritage",
+  "5114": "Jade Vessel",
+  "5115": "Complexed Industry",
+  "5116": "Lunar Calling",
+  "5358": "Grand Vision"
+ },
+ "gear": {
+  "2814": {
+   "name": "MI Security Hands PPE",
+   "set": "suit_criti01"
+  },
+  "2817": {
+   "name": "Æthertech Watch",
+   "set": "suit_poise01"
+  },
+  "2819": {
+   "name": "Turbid Cutting Torch",
+   "set": "suit_burst01"
+  },
+  "2821": {
+   "name": "Type 50 Yinglung Radar T2",
+   "set": "suit_atk02"
+  },
+  "2822": {
+   "name": "Miner Compression Core T1",
+   "set": ""
+  },
+  "2823": {
+   "name": "Redeemer Gloves",
+   "set": ""
+  },
+  "2824": {
+   "name": "Miner Gloves",
+   "set": ""
+  },
+  "2826": {
+   "name": "Roving MSGR Jacket",
+   "set": "suit_agi01"
+  },
+  "2832": {
+   "name": "Mordvolt Resistant Gloves",
+   "set": "suit_will01"
+  },
+  "2834": {
+   "name": "Catastrophe Filter",
+   "set": "suit_usp01"
+  },
+  "2835": {
+   "name": "Miner Wrists",
+   "set": ""
+  },
+  "2838": {
+   "name": "Aburrey Auditory Chip T1",
+   "set": "suit_atk01"
+  },
+  "2839": {
+   "name": "Aburrey UV Lamp",
+   "set": "suit_atk01"
+  },
+  "2841": {
+   "name": "Aburrey Light Armor T1",
+   "set": "suit_atk01"
+  },
+  "2843": {
+   "name": "Swordmancer NAV Beacon",
+   "set": "suit_phy01"
+  },
+  "2844": {
+   "name": "Bonekrusha Wristband",
+   "set": "suit_attri01"
+  },
+  "2845": {
+   "name": "Pulser Labs Invasion Core",
+   "set": "suit_pulse_cryst01"
+  },
+  "2846": {
+   "name": "Type 50 Yinglung Radar",
+   "set": "suit_atk02"
+  },
+  "2848": {
+   "name": "Bonekrusha Mask",
+   "set": "suit_attri01"
+  },
+  "2849": {
+   "name": "Type 50 Yinglung Light Armor",
+   "set": "suit_atk02"
+  },
+  "2850": {
+   "name": "Basic Armor",
+   "set": ""
+  },
+  "2853": {
+   "name": "Mordvolt Insulation Vest",
+   "set": "suit_wisd01"
+  },
+  "2854": {
+   "name": "Frontiers O2 Tube",
+   "set": "suit_atb01"
+  },
+  "2855": {
+   "name": "Pulser Labs Calibrator",
+   "set": "suit_pulse_cryst01"
+  },
+  "2861": {
+   "name": "Bonekrusha Poncho T1",
+   "set": "suit_attri01"
+  },
+  "2863": {
+   "name": "Armored MSGR Flashlight",
+   "set": "suit_str01"
+  },
+  "2864": {
+   "name": "Type 50 Yinglung Knife T1",
+   "set": "suit_atk02"
+  },
+  "2865": {
+   "name": "Redeemer Plates",
+   "set": ""
+  },
+  "2866": {
+   "name": "Miner Turbine",
+   "set": ""
+  },
+  "2869": {
+   "name": "Hot Work Gloves",
+   "set": "suit_fire_natr01"
+  },
+  "2870": {
+   "name": "LYNX Aegis Injector",
+   "set": "suit_heal01"
+  },
+  "2871": {
+   "name": "Frontiers Comm T1",
+   "set": "suit_atb01"
+  },
+  "2874": {
+   "name": "Miner Fists",
+   "set": ""
+  },
+  "2876": {
+   "name": "Armored MSGR Jacket",
+   "set": "suit_str01"
+  },
+  "2879": {
+   "name": "Aburrey Auditory Chip",
+   "set": "suit_atk01"
+  },
+  "2880": {
+   "name": "Mordvolt Insulation Battery",
+   "set": "suit_wisd01"
+  },
+  "2883": {
+   "name": "Catastrophe Gauze Cartridge T1",
+   "set": "suit_usp01"
+  },
+  "2884": {
+   "name": "MI Security Overalls T1",
+   "set": "suit_criti01"
+  },
+  "2885": {
+   "name": "Aburrey Light Armor",
+   "set": "suit_atk01"
+  },
+  "2887": {
+   "name": "Hot Work Exoskeleton",
+   "set": "suit_fire_natr01"
+  },
+  "2888": {
+   "name": "Miner Fists T1",
+   "set": ""
+  },
+  "2889": {
+   "name": "Roving MSGR Flashlight T1",
+   "set": "suit_agi01"
+  },
+  "2890": {
+   "name": "Basic PPE",
+   "set": ""
+  },
+  "2893": {
+   "name": "LYNX Cuirass",
+   "set": "suit_heal01"
+  },
+  "2895": {
+   "name": "Roving MSGR Fists",
+   "set": "suit_agi01"
+  },
+  "2898": {
+   "name": "Redeemer Seal T1",
+   "set": ""
+  },
+  "2900": {
+   "name": "Frontiers Armor T3",
+   "set": "suit_atb01"
+  },
+  "2902": {
+   "name": "AIC Heavy Plate",
+   "set": "suit_stragi01"
+  },
+  "2906": {
+   "name": "AIC Alloy Plate",
+   "set": "suit_stragi01"
+  },
+  "2908": {
+   "name": "Armored MSGR Gloves T1",
+   "set": "suit_str01"
+  },
+  "2910": {
+   "name": "Armored MSGR Gyro T1",
+   "set": "suit_str01"
+  },
+  "2914": {
+   "name": "Mordvolt Resistant Vest T1",
+   "set": "suit_will01"
+  },
+  "2915": {
+   "name": "Mordvolt Insulation Wrench T1",
+   "set": "suit_wisd01"
+  },
+  "2916": {
+   "name": "LYNX Connector",
+   "set": "suit_heal01"
+  },
+  "2918": {
+   "name": "AIC Tactical Gloves",
+   "set": "suit_wisdwill01"
+  },
+  "2921": {
+   "name": "Æthertech Analysis Band",
+   "set": "suit_poise01"
+  },
+  "2925": {
+   "name": "AIC Light Plate",
+   "set": "suit_wisdwill01"
+  },
+  "2926": {
+   "name": "Miner Gloves T2",
+   "set": ""
+  },
+  "2927": {
+   "name": "Frontiers Armor T2",
+   "set": "suit_atb01"
+  },
+  "2928": {
+   "name": "Mordvolt Insulation Wrench",
+   "set": "suit_wisd01"
+  },
+  "2929": {
+   "name": "Type 50 Yinglung Heavy Armor T1",
+   "set": "suit_atk02"
+  },
+  "2930": {
+   "name": "Tide Surge Gauntlets",
+   "set": "suit_burst01"
+  },
+  "2931": {
+   "name": "Aburrey Heavy Armor T1",
+   "set": "suit_atk01"
+  },
+  "2937": {
+   "name": "Frontiers Comm",
+   "set": "suit_atb01"
+  },
+  "2942": {
+   "name": "Mordvolt Insulation Gloves",
+   "set": "suit_wisd01"
+  },
+  "2943": {
+   "name": "MI Security Toolkit",
+   "set": "suit_criti01"
+  },
+  "2944": {
+   "name": "Eternal Xiranite Armor",
+   "set": "suit_usp02"
+  },
+  "2946": {
+   "name": "Hot Work Power Cartridge",
+   "set": "suit_fire_natr01"
+  },
+  "2950": {
+   "name": "AIC Heavy Armor",
+   "set": "suit_stragi01"
+  },
+  "2951": {
+   "name": "Frontiers Blight RES Gloves",
+   "set": "suit_atb01"
+  },
+  "2953": {
+   "name": "Type 50 Yinglung Heavy Armor",
+   "set": "suit_atk02"
+  },
+  "2954": {
+   "name": "Swordmancer Flint",
+   "set": "suit_phy01"
+  },
+  "2956": {
+   "name": "Aburrey Sensor Chip T1",
+   "set": "suit_atk01"
+  },
+  "2957": {
+   "name": "Hot Work Gauntlets T1",
+   "set": "suit_fire_natr01"
+  },
+  "2967": {
+   "name": "Emergency Comm",
+   "set": ""
+  },
+  "2968": {
+   "name": "AIC Ceramic Plate",
+   "set": "suit_wisdwill01"
+  },
+  "2971": {
+   "name": "Armored MSGR Flashlight T1",
+   "set": "suit_str01"
+  },
+  "2972": {
+   "name": "MI Security Push Knife",
+   "set": "suit_criti01"
+  },
+  "2973": {
+   "name": "Aburrey Sensor Chip",
+   "set": "suit_atk01"
+  },
+  "2978": {
+   "name": "LYNX Gauntlets",
+   "set": "suit_heal01"
+  },
+  "2979": {
+   "name": "Mordvolt Resistant Vest",
+   "set": "suit_will01"
+  },
+  "2981": {
+   "name": "Bonekrusha Poncho T1",
+   "set": "suit_attri01"
+  },
+  "2983": {
+   "name": "Swordmancer Light Armor",
+   "set": "suit_phy01"
+  },
+  "2984": {
+   "name": "Basic Gauntlets",
+   "set": ""
+  },
+  "2985": {
+   "name": "MI Security Gloves",
+   "set": "suit_criti01"
+  },
+  "2986": {
+   "name": "Pulser Labs Gloves",
+   "set": "suit_pulse_cryst01"
+  },
+  "2991": {
+   "name": "Type 50 Yinglung Gloves",
+   "set": "suit_atk02"
+  },
+  "2994": {
+   "name": "AIC Light Armor",
+   "set": "suit_wisdwill01"
+  },
+  "2997": {
+   "name": "Prototype Heavy Armor",
+   "set": ""
+  },
+  "3000": {
+   "name": "Swordmancer TAC Gauntlets",
+   "set": "suit_phy01"
+  },
+  "3003": {
+   "name": "Frontiers Fiber Gloves",
+   "set": "suit_atb01"
+  },
+  "3004": {
+   "name": "Type 50 Yinglung Knife",
+   "set": "suit_atk02"
+  },
+  "3006": {
+   "name": "Miner Turbine T1",
+   "set": ""
+  },
+  "3007": {
+   "name": "Swordmancer Heavy Armor",
+   "set": "suit_phy01"
+  },
+  "3009": {
+   "name": "LYNX Slab",
+   "set": "suit_heal01"
+  },
+  "3010": {
+   "name": "Prototype Heavy Armor T1",
+   "set": ""
+  },
+  "3011": {
+   "name": "LYNX Connector T2",
+   "set": "suit_heal01"
+  },
+  "3012": {
+   "name": "Swordmancer TAC Gloves",
+   "set": "suit_phy01"
+  },
+  "3014": {
+   "name": "MI Security Armor",
+   "set": "suit_criti01"
+  },
+  "3016": {
+   "name": "Armored MSGR Gloves T2",
+   "set": "suit_str01"
+  },
+  "3019": {
+   "name": "Roving MSGR Jacket T1",
+   "set": "suit_agi01"
+  },
+  "3023": {
+   "name": "Tide Fall Light Armor",
+   "set": "suit_burst01"
+  },
+  "3024": {
+   "name": "Catastrophe Heavy Armor T1",
+   "set": "suit_usp01"
+  },
+  "3026": {
+   "name": "Miner Armor",
+   "set": ""
+  },
+  "3028": {
+   "name": "Miner Comm",
+   "set": ""
+  },
+  "3029": {
+   "name": "Type 50 Yinglung Heavy Armor T2",
+   "set": "suit_atk02"
+  },
+  "3036": {
+   "name": "Miner Drive Wheel",
+   "set": ""
+  },
+  "3037": {
+   "name": "Eternal Xiranite Power Core T1",
+   "set": "suit_usp02"
+  },
+  "3038": {
+   "name": "Redeemer Tag",
+   "set": ""
+  },
+  "3041": {
+   "name": "Roving MSGR Gyro T1",
+   "set": "suit_agi01"
+  },
+  "3042": {
+   "name": "Redeemer Hands",
+   "set": ""
+  },
+  "3044": {
+   "name": "Aburrey Gauntlets",
+   "set": "suit_atk01"
+  },
+  "3046": {
+   "name": "Mordvolt Resistant Wrench T1",
+   "set": "suit_will01"
+  },
+  "3049": {
+   "name": "Miner Compression Core",
+   "set": ""
+  },
+  "3050": {
+   "name": "Basic Gloves",
+   "set": ""
+  },
+  "3051": {
+   "name": "Miner Overalls T1",
+   "set": ""
+  },
+  "3052": {
+   "name": "Catastrophe Gauze Cartridge T1",
+   "set": "suit_usp01"
+  },
+  "3053": {
+   "name": "MI Security Hands PPE T1",
+   "set": "suit_criti01"
+  },
+  "3056": {
+   "name": "Roving MSGR Flashlight",
+   "set": "suit_agi01"
+  },
+  "3057": {
+   "name": "Mordvolt Resistant Battery T1",
+   "set": "suit_will01"
+  },
+  "3059": {
+   "name": "Mordvolt Insulation Gloves T1",
+   "set": "suit_wisd01"
+  },
+  "3060": {
+   "name": "Type 50 Yinglung Gloves",
+   "set": "suit_atk02"
+  },
+  "3061": {
+   "name": "Hot Work Exo-Rig",
+   "set": "suit_fire_natr01"
+  },
+  "3064": {
+   "name": "Frontiers Analyzer",
+   "set": "suit_atb01"
+  },
+  "3065": {
+   "name": "Miner Armor T1",
+   "set": ""
+  },
+  "3066": {
+   "name": "Frontiers Armor",
+   "set": "suit_atb01"
+  },
+  "3067": {
+   "name": "MI Security Overalls T2",
+   "set": "suit_criti01"
+  },
+  "3068": {
+   "name": "Hot Work Power Bank",
+   "set": "suit_fire_natr01"
+  },
+  "3072": {
+   "name": "Eternal Xiranite Gloves",
+   "set": "suit_usp02"
+  },
+  "3075": {
+   "name": "Mordvolt Resistant Gloves T1",
+   "set": "suit_will01"
+  },
+  "3076": {
+   "name": "Mordvolt Insulation Vest T2",
+   "set": "suit_wisd01"
+  },
+  "3077": {
+   "name": "Bonekrusha Wristband T1",
+   "set": "suit_attri01"
+  },
+  "3078": {
+   "name": "Æthertech Gloves",
+   "set": "suit_poise01"
+  },
+  "3079": {
+   "name": "Miner Gloves T1",
+   "set": ""
+  },
+  "3080": {
+   "name": "Frontiers Protection Suit",
+   "set": "suit_atb01"
+  },
+  "3081": {
+   "name": "Æthertech Plating",
+   "set": "suit_poise01"
+  },
+  "3082": {
+   "name": "Æthertech Light Gloves",
+   "set": "suit_poise01"
+  },
+  "3089": {
+   "name": "Miner Overalls",
+   "set": ""
+  },
+  "3092": {
+   "name": "Eternal Xiranite Gloves",
+   "set": "suit_usp02"
+  },
+  "3093": {
+   "name": "MI Security Push Knife T1",
+   "set": "suit_criti01"
+  },
+  "3095": {
+   "name": "Frontiers Extra O2 Tube",
+   "set": "suit_atb01"
+  },
+  "3096": {
+   "name": "Æthertech Stabilizer",
+   "set": "suit_poise01"
+  },
+  "3097": {
+   "name": "Pulser Labs Disruptor Suit",
+   "set": "suit_pulse_cryst01"
+  },
+  "3099": {
+   "name": "Mordvolt Insulation Wrench T2",
+   "set": "suit_wisd01"
+  },
+  "3100": {
+   "name": "Aburrey Flashlight",
+   "set": "suit_atk01"
+  },
+  "3101": {
+   "name": "Type 50 Yinglung Radar T1",
+   "set": "suit_atk02"
+  },
+  "3104": {
+   "name": "Mordvolt Insulation Vest T1",
+   "set": "suit_wisd01"
+  },
+  "3105": {
+   "name": "Bonekrusha Heavy Armor T1",
+   "set": "suit_attri01"
+  },
+  "3106": {
+   "name": "Armored MSGR Gloves",
+   "set": "suit_str01"
+  },
+  "3107": {
+   "name": "Miner Gauntlets T1",
+   "set": ""
+  },
+  "3108": {
+   "name": "Mordvolt Insulation Battery T1",
+   "set": "suit_wisd01"
+  },
+  "3109": {
+   "name": "MI Security Overalls",
+   "set": "suit_criti01"
+  },
+  "3114": {
+   "name": "Redeemer Seal",
+   "set": ""
+  },
+  "3116": {
+   "name": "Hot Work Pyrometer",
+   "set": "suit_fire_natr01"
+  },
+  "3119": {
+   "name": "Armored MSGR Gyro",
+   "set": "suit_str01"
+  },
+  "3121": {
+   "name": "Roving MSGR Fists T1",
+   "set": "suit_agi01"
+  },
+  "3122": {
+   "name": "Bonekrusha Figurine T1",
+   "set": "suit_attri01"
+  },
+  "3123": {
+   "name": "MI Security Scope",
+   "set": "suit_criti01"
+  },
+  "3124": {
+   "name": "Hot Work Gauntlets",
+   "set": "suit_fire_natr01"
+  },
+  "3126": {
+   "name": "Eternal Xiranite Auxiliary Arm",
+   "set": "suit_usp02"
+  },
+  "3129": {
+   "name": "Bonekrusha Heavy Armor",
+   "set": "suit_attri01"
+  },
+  "3130": {
+   "name": "Æthertech Stabilizer T1",
+   "set": "suit_poise01"
+  },
+  "3133": {
+   "name": "Catastrophe Heavy Armor",
+   "set": "suit_usp01"
+  },
+  "3138": {
+   "name": "AIC Gauntlets",
+   "set": "suit_stragi01"
+  },
+  "3139": {
+   "name": "Redeemer Tag T1",
+   "set": ""
+  },
+  "3142": {
+   "name": "Miner Cleansuit",
+   "set": ""
+  },
+  "3143": {
+   "name": "Redeemer Armor",
+   "set": ""
+  },
+  "3145": {
+   "name": "Eternal Xiranite Power Core",
+   "set": "suit_usp02"
+  },
+  "3148": {
+   "name": "Armored MSGR Jacket T1",
+   "set": "suit_str01"
+  },
+  "3150": {
+   "name": "Roving MSGR Gyro",
+   "set": "suit_agi01"
+  },
+  "3151": {
+   "name": "Swordmancer Micro Filter",
+   "set": "suit_phy01"
+  },
+  "3155": {
+   "name": "LYNX Heavy Armor",
+   "set": "suit_heal01"
+  },
+  "3164": {
+   "name": "Mordvolt Resistant Wrench",
+   "set": "suit_will01"
+  },
+  "3166": {
+   "name": "Hanging River O2 Tube",
+   "set": "suit_burst01"
+  },
+  "3167": {
+   "name": "MI Security Armband",
+   "set": "suit_criti01"
+  },
+  "3170": {
+   "name": "Emergency Compression Core",
+   "set": ""
+  },
+  "3171": {
+   "name": "Frontiers Armor T1",
+   "set": "suit_atb01"
+  },
+  "3172": {
+   "name": "Miner Vest",
+   "set": ""
+  },
+  "3176": {
+   "name": "Catastrophe Gloves",
+   "set": "suit_usp01"
+  },
+  "3178": {
+   "name": "Miner Gauntlets",
+   "set": ""
+  },
+  "3179": {
+   "name": "Mordvolt Resistant Battery",
+   "set": "suit_will01"
+  },
+  "3180": {
+   "name": "Roving MSGR Flashlight T2",
+   "set": "suit_agi01"
+  },
+  "3181": {
+   "name": "LYNX Gloves",
+   "set": "suit_heal01"
+  },
+  "3182": {
+   "name": "Miner Comm T1",
+   "set": ""
+  },
+  "3183": {
+   "name": "Miner Drive Wheel T1",
+   "set": ""
+  },
+  "3185": {
+   "name": "Aburrey Heavy Armor",
+   "set": "suit_atk01"
+  },
+  "3187": {
+   "name": "Pulser Labs Probe",
+   "set": "suit_pulse_cryst01"
+  },
+  "3190": {
+   "name": "Bonekrusha Figurine T1",
+   "set": "suit_attri01"
+  },
+  "3191": {
+   "name": "Bonekrusha Mask T1",
+   "set": "suit_attri01"
+  },
+  "3243": {
+   "name": "LYNX Connector",
+   "set": "suit_heal01"
+  },
+  "3250": {
+   "name": "MI Security Gloves T1",
+   "set": "suit_criti01"
+  },
+  "3252": {
+   "name": "Bonekrusha Mask T2",
+   "set": "suit_attri01"
+  },
+  "3255": {
+   "name": "MI Security Scope T1",
+   "set": "suit_criti01"
+  },
+  "3258": {
+   "name": "MI Security Armor T1",
+   "set": "suit_criti01"
+  },
+  "3259": {
+   "name": "Bonekrusha Heavy Armor T2",
+   "set": "suit_attri01"
+  },
+  "4107": {
+   "name": "Frontiers Fiber Gloves T1",
+   "set": "suit_atb01"
+  },
+  "4125": {
+   "name": "Bonekrusha Figurine T2",
+   "set": "suit_attri01"
+  },
+  "4127": {
+   "name": "Frontiers Extra O2 Tube T1",
+   "set": "suit_atb01"
+  },
+  "4133": {
+   "name": "Swordmancer Dagger",
+   "set": "suit_phy01"
+  },
+  "4135": {
+   "name": "Bonekrusha Gloves",
+   "set": "suit_attri01"
+  },
+  "4138": {
+   "name": "Swordmancer Heavy Armor T1",
+   "set": "suit_phy01"
+  },
+  "4139": {
+   "name": "Swordmancer TAC Gauntlets T1",
+   "set": "suit_phy01"
+  },
+  "4161": {
+   "name": "Xiranflow Baton",
+   "set": "suit_expend_spell01"
+  },
+  "4163": {
+   "name": "Qingbo Heavy Armor",
+   "set": "suit_combo_cd01"
+  },
+  "4165": {
+   "name": "Qingbo Gauntlets",
+   "set": "suit_combo_cd01"
+  },
+  "4166": {
+   "name": "Qingbo Light Armor",
+   "set": "suit_combo_cd01"
+  },
+  "4169": {
+   "name": "Qingbo Bamboo Cutter",
+   "set": "suit_combo_cd01"
+  },
+  "4172": {
+   "name": "Xiranflow Gloves",
+   "set": "suit_expend_spell01"
+  },
+  "4174": {
+   "name": "Qingbo Positioning Kit",
+   "set": "suit_combo_cd01"
+  },
+  "4178": {
+   "name": "Xiranflow Light Armor",
+   "set": "suit_expend_spell01"
+  },
+  "4181": {
+   "name": "Qingbo Gloves",
+   "set": "suit_combo_cd01"
+  },
+  "4199": {
+   "name": "Qingbo Cask",
+   "set": "suit_combo_cd01"
+  },
+  "4443": {
+   "name": "Grizzled Edge Armor T1",
+   "set": "suit_crush_fracture"
+  },
+  "4445": {
+   "name": "Grizzled Edge Push Knife",
+   "set": "suit_crush_fracture"
+  },
+  "4446": {
+   "name": "Qingbo Positioning Kit T1",
+   "set": "suit_combo_cd01"
+  },
+  "4447": {
+   "name": "Grizzled Edge Gauntlets T1",
+   "set": "suit_crush_fracture"
+  },
+  "4449": {
+   "name": "Grizzled Edge Push Knife T1",
+   "set": "suit_crush_fracture"
+  },
+  "4453": {
+   "name": "Grizzled Edge Armor",
+   "set": "suit_crush_fracture"
+  },
+  "4455": {
+   "name": "Swordmancer Fiber Armor",
+   "set": "suit_phy01"
+  },
+  "4456": {
+   "name": "Grizzled Edge Gauntlets",
+   "set": "suit_crush_fracture"
+  },
+  "4644": {
+   "name": "Eternal Xiranite Bracing Slab T1",
+   "set": "suit_usp02"
+  },
+  "4647": {
+   "name": "Rift Trekker Light Armor",
+   "set": ""
+  },
+  "4648": {
+   "name": "Turbid Cutting Torch T1",
+   "set": "suit_burst01"
+  },
+  "4649": {
+   "name": "Rift Trekker Heavy Armor",
+   "set": ""
+  },
+  "4650": {
+   "name": "LYNX Cuirass T1",
+   "set": "suit_heal01"
+  },
+  "4652": {
+   "name": "Eternal Xiranite Light Armor",
+   "set": "suit_usp02"
+  },
+  "4654": {
+   "name": "Eternal Xiranite Bracing Slab",
+   "set": "suit_usp02"
+  },
+  "4655": {
+   "name": "Eternal Xiranite Light Armor T1",
+   "set": "suit_usp02"
+  },
+  "4658": {
+   "name": "Eternal Xiranite Hands",
+   "set": "suit_usp02"
+  },
+  "4661": {
+   "name": "Tide Fall Light Armor T1",
+   "set": "suit_burst01"
+  },
+  "4665": {
+   "name": "Deepsink Gloves",
+   "set": "suit_burst01"
+  },
+  "4666": {
+   "name": "Rift Trekker Gloves",
+   "set": ""
+  },
+  "4669": {
+   "name": "Eternal Xiranite Wraps",
+   "set": "suit_usp02"
+  },
+  "4672": {
+   "name": "Rift Trekker Hands",
+   "set": ""
+  },
+  "4674": {
+   "name": "LYNX Gauntlets T1",
+   "set": "suit_heal01"
+  },
+  "4676": {
+   "name": "Rift Trekker Armor Slab",
+   "set": ""
+  },
+  "4732": {
+   "name": "Hot Work Insulation Slab",
+   "set": "suit_fire_natr01"
+  },
+  "4734": {
+   "name": "Hot Work Hands PPE",
+   "set": "suit_fire_natr01"
+  },
+  "4775": {
+   "name": "AIC Fieldwork Plate",
+   "set": "suit_generaltype"
+  },
+  "4776": {
+   "name": "AIC Fieldwork Vest",
+   "set": "suit_generaltype"
+  },
+  "4777": {
+   "name": "AIC Fieldwork Ember",
+   "set": "suit_generaltype"
+  },
+  "4778": {
+   "name": "AIC Fieldwork Hands",
+   "set": "suit_generaltype"
+  },
+  "4780": {
+   "name": "AIC Fieldwork Machete",
+   "set": "suit_generaltype"
+  },
+  "4783": {
+   "name": "AIC Fieldwork Wraps",
+   "set": "suit_generaltype"
+  },
+  "4785": {
+   "name": "AIC Fieldwork Flashlight",
+   "set": "suit_generaltype"
+  },
+  "4786": {
+   "name": "AIC Fieldwork Armor",
+   "set": "suit_generaltype"
+  },
+  "4790": {
+   "name": "AIC Fieldwork Gloves",
+   "set": "suit_generaltype"
+  },
+  "4980": {
+   "name": "Deep Rampart Gauntlets",
+   "set": "suit_spellburst"
+  },
+  "4983": {
+   "name": "AIC Fieldwork Assault Gloves",
+   "set": "suit_generaltype"
+  },
+  "4984": {
+   "name": "AIC Fieldwork Medic Gloves",
+   "set": "suit_generaltype"
+  },
+  "4985": {
+   "name": "AIC Fieldwork Medic Armor",
+   "set": "suit_generaltype"
+  },
+  "4986": {
+   "name": "AIC Fieldwork Assault Push Knife",
+   "set": "suit_generaltype"
+  },
+  "4987": {
+   "name": "Eternal Xiranite Heavy Slab",
+   "set": "suit_usp02"
+  },
+  "4991": {
+   "name": "Deep Rampart Comms",
+   "set": "suit_spellburst"
+  },
+  "4992": {
+   "name": "Wave Swell Heavy Armor",
+   "set": "suit_burst01"
+  },
+  "4994": {
+   "name": "AIC Fieldwork Power Bank",
+   "set": "suit_generaltype"
+  },
+  "4997": {
+   "name": "AIC Fieldwork Assault Armor",
+   "set": "suit_generaltype"
+  },
+  "4999": {
+   "name": "Deep Rampart Armor",
+   "set": "suit_spellburst"
+  },
+  "5199": {
+   "name": "AIC Fieldwork CQB Gloves",
+   "set": "suit_generaltype"
+  },
+  "5200": {
+   "name": "AIC Fieldwork CQB Hacksaw",
+   "set": "suit_generaltype"
+  },
+  "5201": {
+   "name": "Pulser Labs Light Gauntlets",
+   "set": "suit_pulse_cryst01"
+  },
+  "5202": {
+   "name": "Rift Trekker Wraps",
+   "set": ""
+  },
+  "5204": {
+   "name": "Rift Trekker Steel Armor",
+   "set": ""
+  },
+  "5207": {
+   "name": "Pulser Labs Light Armor",
+   "set": "suit_pulse_cryst01"
+  },
+  "5210": {
+   "name": "Eternal Xiranite Overalls",
+   "set": "suit_usp02"
+  },
+  "5211": {
+   "name": "AIC Fieldwork CQB Armor",
+   "set": "suit_generaltype"
+  },
+  "5213": {
+   "name": "Pulser Labs Armor Slab",
+   "set": "suit_pulse_cryst01"
+  },
+  "5215": {
+   "name": "Rift Trekker Overalls",
+   "set": ""
+  },
+  "5219": {
+   "name": "Eternal Xiranite MOD Armor",
+   "set": "suit_usp02"
+  },
+  "5221": {
+   "name": "Rift Trekker Gauntlets",
+   "set": ""
+  },
+  "5223": {
+   "name": "Rift Trekker Silver Blade",
+   "set": ""
+  },
+  "5288": {
+   "name": "Eternal Xiranite Rangefinder",
+   "set": "suit_usp02"
+  },
+  "5291": {
+   "name": "Type 50 Yinglung Soft Armor",
+   "set": "suit_atk02"
+  },
+  "5292": {
+   "name": "Type 50 Yinglung Beacon",
+   "set": "suit_atk02"
+  },
+  "5294": {
+   "name": "Eternal Xiranite Channeling Gloves",
+   "set": "suit_usp02"
+  },
+  "5295": {
+   "name": "Type 50 Yinglung Hands PPE",
+   "set": "suit_atk02"
+  }
+ },
+ "skillKinds": {
+  "NormalAttack": "basic",
+  "NormalSkill": "battle",
+  "ComboSkill": "combo",
+  "UltimateSkill": "ultimate"
+ },
+ "termFamilies": {
+  "42": {
+   "family": "Agility",
+   "confidence": "confirmed"
+  },
+  "44": {
+   "family": "Strength",
+   "confidence": "inferred"
+  },
+  "49": {
+   "family": "ATK",
+   "confidence": "confirmed"
+  },
+  "50": {
+   "family": "Critical Rate",
+   "confidence": "inferred"
+  },
+  "51": {
+   "family": "Will",
+   "confidence": "confirmed"
+  },
+  "53": {
+   "family": "Physical DMG",
+   "confidence": "confirmed"
+  },
+  "65": {
+   "family": "Flow",
+   "confidence": "confirmed"
+  },
+  "68": {
+   "family": "Intellect",
+   "confidence": "confirmed"
+  },
+  "69": {
+   "family": "Infliction",
+   "confidence": "confirmed"
+  },
+  "70": {
+   "family": "Twilight",
+   "confidence": "inferred"
+  },
+  "72": {
+   "family": "Detonate",
+   "confidence": "inferred"
+  },
+  "74": {
+   "family": "Combative",
+   "confidence": "confirmed"
+  },
+  "79": {
+   "family": "ULT Efficiency",
+   "confidence": "inferred"
+  },
+  "85": {
+   "family": "Efficacy",
+   "confidence": "inferred"
+  }
+ },
+ "statColumnOffset": 3
+}

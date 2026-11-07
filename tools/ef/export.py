@@ -38,7 +38,7 @@ DEFAULT_OUT = ROOT / "app" / "public" / "data" / "bundle.json"
 
 # The bundle contract version. The app refuses to work with another version
 # instead of silently reading fields wrong.
-SCHEMA = 39
+SCHEMA = 40
 
 WIKI = "https://endfield.wiki.gg"
 LICENSE = "CC BY-SA 4.0"
@@ -1398,6 +1398,21 @@ def read_basic_attacks() -> dict:
     return out
 
 
+def export_showcase_tables() -> dict | None:
+    """Tables for reading an Enka showcase in the browser (`profile.py tables`).
+
+    Versioned in `data/endfield/showcase_tables.json`, so a build needs no
+    network for them. Without the file the site has no import, nothing else.
+    """
+    path = DATA / "showcase_tables.json"
+    if not path.exists():
+        print("  ! no showcase_tables.json: the site cannot read a showcase (python3 tools/ef/profile.py tables)")
+        return None
+    tables = json.loads(path.read_text(encoding="utf-8"))
+    print(f"    showcase     {len(tables['weapons'])} weapons, {len(tables['gear'])} gear pieces by Enka templateId")
+    return tables
+
+
 def export_rotations() -> dict:
     """The `rotations/*.rot` files — so the app has something to show right away.
 
@@ -2048,6 +2063,7 @@ def main() -> int:
         "sp": export_sp(),
         "synergy": export_synergy(operators),
         "rotations": export_rotations(),
+        "showcase": export_showcase_tables(),
         "aliases": export_aliases(),
     }
 

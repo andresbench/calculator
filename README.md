@@ -11,6 +11,9 @@ Unofficial fan project, not affiliated with GRYPHLINE or Hypergryph.
 * **Build editor** — an operator's stat sheet with weapon, gear, potentials
   and talents, and the damage of every hit, with the formula broken down
   factor by factor.
+* **Import from Enka** — load builds from the in-game showcase through
+  Enka.Network; the request goes through a small proxy
+  (`enka.andresbench.moe`), the roster stays in the browser.
 * **Rotation track** — write a rotation as text (`.rot`), and the engine
   plays it: SP, ultimate energy, cooldowns, combo triggers, debuffs on the
   target, stagger, buffs from talents, weapons and sets, and the damage of

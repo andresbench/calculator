@@ -26,6 +26,7 @@ export * from './messages.js';
 export * from './stats.js';
 export * from './timing.js';
 export * from './rot.js';
+export * from './showcase.js';
 export * from './run.js';
 export * from './status.js';
 export * from './statusHits.js';

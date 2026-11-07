@@ -266,6 +266,153 @@ def extract(char: dict, db: dict, weapons_store: dict, equips_store: dict,
     return record
 
 
+SHOWCASE_TABLES = DATA / "showcase_tables.json"
+PARITY_CASES = ROOT / "engine" / "test" / "fixtures" / "showcase-parity.json"
+
+
+def showcase_tables(refresh_store: bool = False) -> dict:
+    """What the browser needs to read a showcase on its own (PUBLISH_PLAN, П6).
+
+    The site gets the showcase through the Enka proxy and reads it in the
+    page; every decision that takes data stays here and goes out as a table:
+    Enka's weapon and gear ``templateId`` → our names (through the icon file
+    name, as ``extract`` does), the essence term families and the column
+    rule's offset (``weapon.py``), the skill suffixes. Operators need no
+    table: the bundle carries each one's Cargo ``id``.
+
+    The engine's ``showcase.ts`` reads a showcase with these tables, and
+    ``showcase-parity.json`` (``parity``) holds it to ``extract`` here.
+    """
+    from tools.ef.weapon import STAT_COLUMN_OFFSET, TERM_FAMILIES
+
+    db = load_db()
+    gear_names = gear_index()
+    weapons_store = load_store("weapons.json", refresh_store)
+    equips_store = load_store("equips.json", refresh_store)
+    weapons = {}
+    for template, meta in weapons_store.items():
+        name = db["weapon_by_id"].get(icon_key(meta.get("Icon", "")))
+        if name:
+            weapons[str(template)] = name
+    gear = {}
+    for template, meta in (equips_store.get("Items") or {}).items():
+        gear_id = icon_key(meta.get("Icon", ""))
+        if gear_id in gear_names:
+            gear[str(template)] = {"name": gear_names[gear_id], "set": meta.get("SuitId")}
+    return {
+        "source": "Enka.Network store (EnkaNetwork/API-docs, store/ef) matched to the wiki's Cargo ids",
+        "weapons": dict(sorted(weapons.items(), key=lambda item: int(item[0]))),
+        "gear": dict(sorted(gear.items(), key=lambda item: int(item[0]))),
+        "skillKinds": SKILL_KINDS,
+        "termFamilies": {str(term): {"family": family, "confidence": confidence}
+                         for term, (family, confidence) in TERM_FAMILIES.items()},
+        "statColumnOffset": STAT_COLUMN_OFFSET,
+    }
+
+
+def cmd_tables(args) -> int:
+    tables = showcase_tables(args.refresh_store)
+    SHOWCASE_TABLES.write_text(json.dumps(tables, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{SHOWCASE_TABLES.relative_to(ROOT)}: {len(tables['weapons'])} weapons, {len(tables['gear'])} gear pieces")
+    return 0
+
+
+def parity_cases(seed: int = 7) -> list[dict]:
+    """Synthetic showcase characters and what ``extract`` makes of them.
+
+    The browser reads a showcase in TypeScript (``engine/src/showcase.ts``);
+    this is the other implementation's answer key, as the `.rot` parsers keep
+    each other honest. Synthetic, so no account is in the repository: every
+    operator, with a weapon of their type, an essence (known terms, one taken
+    by position, none), gear including an unknown piece, talent nodes. The
+    weapon columns are what ``export.py`` puts in the roster.
+    """
+    import random
+
+    from tools.ef.export import weapon_columns
+
+    rng = random.Random(seed)
+    db = load_db()
+    gear_names = gear_index()
+    weapons_store = load_store("weapons.json")
+    equips_store = load_store("equips.json")
+    weapons_raw = json.loads((DATA / "weapons.json").read_text(encoding="utf-8"))
+    tables = showcase_tables()
+    from tools.ef.weapon import TERM_FAMILIES
+
+    by_type: dict[str, list[str]] = {}
+    for template, name in tables["weapons"].items():
+        by_type.setdefault(weapons_raw.get(name, {}).get("type", ""), []).append(template)
+    gear_by_type: dict[str, list[str]] = {}
+    for template, item in tables["gear"].items():
+        kind = (db["gear"].get(item["name"]) or {}).get("type")
+        gear_by_type.setdefault(kind or "", []).append(template)
+    terms = sorted(TERM_FAMILIES)
+
+    cases = []
+    for key, operator in sorted(db["operators"].items()):
+        cargo = operator.get("id")
+        if not cargo or operator.get("upcoming"):
+            continue
+        variant = cargo if key.startswith("Endministrator") else None
+        prefix = "chr_9000_endmin" if variant else cargo
+        char: dict = {
+            "templateId": rng.randint(1, 99),
+            "level": rng.choice([60, 70, 80, 90]),
+            "potentialLevel": rng.randint(0, 5),
+            "skillInfo": {"levelInfo": [
+                {"skillId": f"{prefix}_{suffix}", "skillLevel": rng.randint(1, 12)} for suffix in SKILL_KINDS
+            ] + [{"skillId": f"{prefix}_talent_0", "skillLevel": 1}]},
+            "talent": {
+                "attrNodes": [f"{prefix}_{n}" for n in range(rng.randint(0, 4))],
+                "latestPassiveSkillNodes": [f"{prefix}_passive_skill_{t}_{rng.randint(1, 3)}" for t in range(rng.randint(0, 2))],
+            },
+        }
+        if variant:
+            char["variantId"] = variant
+        pool = by_type.get(operator.get("weapon_type") or operator.get("weaponType") or "", [])
+        if pool:
+            gem_kind = rng.choice(["known", "known", "unknown-term", "none"])
+            weapon = {"templateId": int(rng.choice(pool)), "weaponLv": rng.choice([60, 80, 90]),
+                      "refineLv": rng.randint(0, 4), "breakthroughLv": 4}
+            if gem_kind != "none":
+                # Mostly terms of the weapon's own families, so the matching is exercised.
+                record = weapons_raw.get(tables["weapons"][str(weapon["templateId"])], {})
+                families = {c.get("tag") for c in record.get("skill_components", [])}
+                own = [t for t in terms if TERM_FAMILIES[t][0] in families]
+                chosen = (own + rng.sample([t for t in terms if t not in own], 3))[:3]
+                rng.shuffle(chosen)
+                if gem_kind == "unknown-term":
+                    chosen[rng.randint(0, 2)] = 999
+                weapon["attachedGem"] = {"templateId": 1070, "domainId": 1, "totalCost": 0,
+                                         "terms": [{"termNumId": t, "cost": rng.randint(1, 6)} for t in chosen]}
+            char["weapon"] = weapon
+        # Enka's slots are 0–3: gloves, armor, kit, kit (``build.ts: SLOT_NAMES``).
+        equip = []
+        for slot, kind in enumerate(["Gloves", "Armor", "Kit", "Kit"]):
+            choices = gear_by_type.get(kind, [])
+            if choices:
+                equip.append({"key": slot, "value": {"templateid": int(rng.choice(choices))}})
+        if equip and rng.random() < 0.3:
+            equip[-1]["value"]["templateid"] = 999999  # a piece newer than the data
+        char["equip"] = equip
+
+        record = extract(char, db, weapons_store, equips_store, gear_names)
+        if record is not None and record.get("weapon"):
+            record["weapon"]["columns"] = weapon_columns(weapons_raw, record["weapon"])
+        cases.append({"operator": key, "char": char, "expected": record})
+    unknown = {"templateId": 1, "level": 90, "potentialLevel": 0, "skillInfo": {"levelInfo": [{"skillId": "chr_9999_nobody_NormalSkill", "skillLevel": 3}]}}
+    cases.append({"operator": None, "char": unknown, "expected": extract(unknown, db, weapons_store, equips_store, gear_names)})
+    return cases
+
+
+def cmd_parity(args) -> int:
+    cases = parity_cases()
+    PARITY_CASES.write_text(json.dumps({"cases": cases}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{PARITY_CASES.relative_to(ROOT)}: {len(cases)} cases")
+    return 0
+
+
 def fetch(uid: str, refresh_store: bool = False, say=print) -> dict:
     """Fetch the showcase, merge it into the accumulating store, rewrite the roster.
 
@@ -602,6 +749,13 @@ def main() -> int:
 
     p_show = sub.add_parser("show", help="show what was imported")
     p_show.set_defaults(func=cmd_show)
+
+    p_tables = sub.add_parser("tables", help="tables for reading a showcase in the browser → data/endfield/showcase_tables.json")
+    p_tables.add_argument("--refresh-store", action="store_true", help="re-download the Enka dictionaries")
+    p_tables.set_defaults(func=cmd_tables)
+
+    p_parity = sub.add_parser("parity", help="synthetic showcases and extract's answers → engine/test/fixtures/showcase-parity.json")
+    p_parity.set_defaults(func=cmd_parity)
 
     args = parser.parse_args()
     return args.func(args)

@@ -1,10 +1,12 @@
 /**
  * Refresh the roster from an Enka.Network showcase.
  *
- * The work happens on the local dev server (`app/enka.ts`), which runs
- * `tools/ef/profile.py` and `tools/ef/export.py`; this panel only sends the
- * link and shows the report. On a static build the endpoint is missing and
- * the panel says how to get it.
+ * Two ways, one report. Locally the dev server (`app/enka.ts`) runs
+ * `tools/ef/profile.py` and `tools/ef/export.py`, and the roster lands in
+ * the vault. On the site the page asks Enka through the project's proxy and
+ * reads the showcase itself (`showcaseRoster.ts`); the roster stays in this
+ * browser. With neither — no endpoint and no tables in the bundle — the
+ * panel is not shown.
  *
  * Two things the report has to make plain, because both look like bugs
  * otherwise:
@@ -21,6 +23,7 @@ import { useEffect, useState } from 'react';
 import type { Bundle } from '@engine/index.js';
 
 import { currentT, useT } from './i18n/index.js';
+import { forgetShowcase, importShowcase, loadShowcase, type ShowcaseReport } from './showcaseRoster.js';
 import { useApp } from './store.js';
 
 interface Showcase {
@@ -29,24 +32,11 @@ interface Showcase {
   lastImport: string | null;
 }
 
-interface Report {
-  ok: boolean;
-  /** Set by `profile.py --json` on failure; its `error` text is Russian CLI output. */
-  code?: string;
-  error?: string;
-  uid?: string;
-  nickname?: string | null;
-  showcase?: string[];
-  new?: string[];
-  changed?: string[];
-  unchanged?: string[];
-  kept?: string[];
-  unknown?: unknown[];
-  unresolved?: string[];
-  log?: string;
-}
+/** `profile.py --json`'s report, or the page's own (`showcaseRoster.ts`): the same shape. */
+type Report = ShowcaseReport & { log?: string };
 
-type Availability = 'checking' | 'available' | 'unavailable';
+/** `server` — the local dev server; `proxy` — the site, through the Enka proxy. */
+type Availability = 'checking' | 'server' | 'proxy' | 'unavailable';
 
 /** Enka API codes, from its documentation; texts are in the dictionary. */
 function failure(report: Report): string {
@@ -70,11 +60,19 @@ export function EnkaImport({ bundle, onImported }: { bundle: Bundle; onImported:
       const response = await fetch('/api/roster');
       const body = (await response.json()) as { available?: boolean; showcases?: Showcase[] };
       if (!response.ok || !body.available) throw new Error('no endpoint');
-      setAvailability('available');
+      setAvailability('server');
       setShowcases(body.showcases ?? []);
       setSource((current) => current || body.showcases?.[0]?.link || '');
     } catch {
-      setAvailability('unavailable');
+      if (!bundle.showcase) {
+        setAvailability('unavailable');
+        return;
+      }
+      setAvailability('proxy');
+      const stored = await loadShowcase();
+      const link = stored ? `https://enka.network/ef/${stored.uid}/` : '';
+      setShowcases(stored ? [{ uid: stored.uid, link, lastImport: stored.lastImport }] : []);
+      setSource((current) => current || link);
     }
   };
 
@@ -87,6 +85,16 @@ export function EnkaImport({ bundle, onImported }: { bundle: Bundle; onImported:
   const submit = async (): Promise<void> => {
     setRunning(true);
     setReport(null);
+    if (availability === 'proxy') {
+      const body = await importShowcase(source, bundle);
+      setReport(body);
+      if (body.ok) {
+        onImported();
+        void refreshStatus();
+      }
+      setRunning(false);
+      return;
+    }
     try {
       const response = await fetch('/api/roster/import', {
         method: 'POST',
@@ -106,8 +114,7 @@ export function EnkaImport({ bundle, onImported }: { bundle: Bundle; onImported:
     }
   };
 
-  // A static build has no import endpoint: the panel is for the local app only.
-  if (availability !== 'available') return <></>;
+  if (availability === 'checking' || availability === 'unavailable') return <></>;
 
   const last = showcases.find((showcase) => showcase.link === source)?.lastImport ?? showcases[0]?.lastImport;
   const edited = (report?.showcase ?? []).filter((key) => builds[key]);
@@ -140,6 +147,27 @@ export function EnkaImport({ bundle, onImported }: { bundle: Bundle; onImported:
             {te.hint}
             {last && te.lastImport(new Date(last).toLocaleString(t.locale))}
           </p>
+          {availability === 'proxy' && (
+            <p className="hint">
+              {te.viaProxy}{' '}
+              {showcases.length > 0 && (
+                <button
+                  type="button"
+                  className="linkish"
+                  onClick={() => {
+                    void forgetShowcase().then(() => {
+                      setReport(null);
+                      setShowcases([]);
+                      setSource('');
+                      onImported();
+                    });
+                  }}
+                >
+                  {te.forget}
+                </button>
+              )}
+            </p>
+          )}
         </>
       }
 

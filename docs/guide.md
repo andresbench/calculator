@@ -47,6 +47,29 @@ All released operators, with their element, class, main and secondary
 attributes and roles. Use the search box and the element chips to filter.
 Click a card to open the build editor.
 
+### Import from Enka
+
+Instead of entering builds by hand, you can load them from your in-game
+showcase through [Enka.Network](https://enka.network/):
+
+1. In the game, put the operators you want on your profile showcase.
+2. On **Operators**, paste your UID or the link
+   `https://enka.network/ef/<UID>/` and press **update from Enka**.
+3. The report lists who was on the showcase and what changed. Imported
+   values are marked **from game**. Elite is not in the showcase, so it stays
+   a **default**.
+
+The showcase only holds a few operators. To import the rest, swap them onto
+the showcase and import again: operators seen earlier are kept. Enka caches
+a showcase for about a minute, so a change made in game shows up after that.
+
+The request goes through the site's proxy (`enka.andresbench.moe`), because
+Enka's API cannot be called from a web page directly. The proxy keeps the
+answer for a minute and logs nothing. The imported roster is stored only in
+this browser; **forget the imported roster** removes it. A build you edited
+by hand is not overwritten by an import: switch back to the showcase variant
+to see the imported one.
+
 ## Build editor
 
 ![Build editor](img/guide-02-editor.png)

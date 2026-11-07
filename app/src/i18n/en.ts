@@ -107,7 +107,7 @@ export const en = {
       `Game data from ${wiki}, under ${license}, modified: parsed, converted to explicit units and annotated.`,
     datamine:
       'Frame timings and Final Strike SP come from the game client data (rmxlinux/EndfieldData).',
-    enka: 'Showcase import uses Enka.Network.',
+    enka: 'Showcase import uses Enka.Network, through the site’s proxy: it sees the UID you ask for, keeps the answer for a minute and nothing else.',
     assets: 'Game names, images and icons © GRYPHLINE / Hypergryph.',
     unofficial: 'Unofficial fan project, not affiliated with GRYPHLINE or Hypergryph.',
     codeTitle: 'Code',
@@ -203,7 +203,8 @@ export const en = {
 
   enka: {
     title: 'Roster from Enka',
-    unavailable: 'Importing a showcase needs the local server.',
+    viaProxy: 'The request goes through the site’s proxy (enka.andresbench.moe) to Enka.Network; what comes back is kept only in this browser.',
+    forget: 'forget the imported roster',
     placeholder: 'https://enka.network/ef/<UID>/ or a UID',
     linkLabel: 'Enka showcase link',
     importing: 'importing…',

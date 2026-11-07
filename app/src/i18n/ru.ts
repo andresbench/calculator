@@ -115,7 +115,7 @@ export const ru: Strings = {
     data: (wiki, license) =>
       `Игровые данные — ${wiki}, лицензия ${license}, с изменениями: разобраны, приведены к явным единицам и размечены.`,
     datamine: 'Кадры анимаций и SP за последний удар — из данных клиента игры (rmxlinux/EndfieldData).',
-    enka: 'Импорт витрины — через Enka.Network.',
+    enka: 'Импорт витрины — через Enka.Network и прокси сайта: он видит запрошенный UID, держит ответ минуту и больше ничего не хранит.',
     assets: 'Игровые названия, изображения и иконки © GRYPHLINE / Hypergryph.',
     unofficial: 'Неофициальный фанатский проект, не связан с GRYPHLINE и Hypergryph.',
     codeTitle: 'Код',
@@ -211,7 +211,8 @@ export const ru: Strings = {
 
   enka: {
     title: 'Ростер из Enka',
-    unavailable: 'Импорт витрины работает только с локальным сервером.',
+    viaProxy: 'Запрос идёт через прокси сайта (enka.andresbench.moe) в Enka.Network; ответ хранится только в этом браузере.',
+    forget: 'забыть импортированный ростер',
     placeholder: 'https://enka.network/ef/<UID>/ или UID',
     linkLabel: 'Ссылка на витрину Enka',
     importing: 'импорт…',

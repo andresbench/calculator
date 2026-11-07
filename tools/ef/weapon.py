@@ -68,6 +68,10 @@ def is_static(key: str) -> bool:
     return bool(STATIC.match(key or ""))
 
 
+# Stat components sit at ``cost + STAT_COLUMN_OFFSET``; named effects at ``cost + rank``.
+STAT_COLUMN_OFFSET = 3
+
+
 def column_from_essence(cost: int, columns: int, static: bool, rank: int = 1) -> int:
     """The value table's column from the essence term cost, 1-based.
 
@@ -95,7 +99,7 @@ def column_from_essence(cost: int, columns: int, static: bool, rank: int = 1) ->
     ⚠️ ``breakthroughLv`` is four at every point, so the "+3" for stats may be
     ``breakthrough − 1``. A weapon at another ascension would tell.
     """
-    offset = 3 if static else (rank or 1)
+    offset = STAT_COLUMN_OFFSET if static else (rank or 1)
     return max(1, min(columns, (cost or 0) + offset))
 
 

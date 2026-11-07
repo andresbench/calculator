@@ -1,0 +1,5766 @@
+{
+ "cases": [
+  {
+   "operator": "Akekuri",
+   "char": {
+    "templateId": 42,
+    "level": 70,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0019_karin_NormalAttack",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0019_karin_NormalSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0019_karin_ComboSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0019_karin_UltimateSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0019_karin_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0019_karin_passive_skill_0_3"
+     ]
+    },
+    "weapon": {
+     "templateId": 3275,
+     "weaponLv": 60,
+     "refineLv": 0,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 49,
+        "cost": 1
+       },
+       {
+        "termNumId": 68,
+        "cost": 5
+       },
+       {
+        "termNumId": 44,
+        "cost": 4
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2874
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4776
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2866
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2921
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Akekuri",
+    "level": 70,
+    "potential": 3,
+    "skills": {
+     "basic": 11,
+     "battle": 1,
+     "combo": 2,
+     "ultimate": 9
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      3
+     ]
+    },
+    "weapon": {
+     "name": "Finchaser 3.0",
+     "level": 60,
+     "rank": 1,
+     "breakthrough": 4,
+     "template_id": 3275,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 49,
+        "cost": 1
+       },
+       {
+        "term": 68,
+        "cost": 5
+       },
+       {
+        "term": 44,
+        "cost": 4
+       }
+      ]
+     },
+     "columns": {
+      "Strength [M]": {
+       "column": 7,
+       "confidence": "inferred",
+       "via": "term 44 — Strength",
+       "cost": 4
+      },
+      "Cryo DMG [M]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Cryo DMG"
+      },
+      "Suppression: Fin Chaser's Intent": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Suppression"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Miner Fists",
+      "set": "",
+      "template_id": 2874
+     },
+     {
+      "slot": 1,
+      "name": "AIC Fieldwork Vest",
+      "set": "suit_generaltype",
+      "template_id": 4776
+     },
+     {
+      "slot": 2,
+      "name": "Miner Turbine",
+      "set": "",
+      "template_id": 2866
+     },
+     {
+      "slot": 3,
+      "name": "Æthertech Analysis Band",
+      "set": "suit_poise01",
+      "template_id": 2921
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Alesh",
+   "char": {
+    "templateId": 75,
+    "level": 60,
+    "potentialLevel": 4,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0024_deepfin_NormalAttack",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0024_deepfin_NormalSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0024_deepfin_ComboSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0024_deepfin_UltimateSkill",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0024_deepfin_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0024_deepfin_passive_skill_0_1",
+      "chr_0024_deepfin_passive_skill_1_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1803,
+     "weaponLv": 90,
+     "refineLv": 0,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 5294
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3076
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3139
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 4777
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Alesh",
+    "level": 60,
+    "potential": 4,
+    "skills": {
+     "basic": 10,
+     "battle": 7,
+     "combo": 1,
+     "ultimate": 4
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      1,
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Prominent Edge",
+     "level": 90,
+     "rank": 1,
+     "breakthrough": 4,
+     "template_id": 1803,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Eternal Xiranite Channeling Gloves",
+      "set": "suit_usp02",
+      "template_id": 5294
+     },
+     {
+      "slot": 1,
+      "name": "Mordvolt Insulation Vest T2",
+      "set": "suit_wisd01",
+      "template_id": 3076
+     },
+     {
+      "slot": 2,
+      "name": "Redeemer Tag T1",
+      "set": "",
+      "template_id": 3139
+     },
+     {
+      "slot": 3,
+      "name": "AIC Fieldwork Ember",
+      "set": "suit_generaltype",
+      "template_id": 4777
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Antal",
+   "char": {
+    "templateId": 14,
+    "level": 70,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0023_antal_NormalAttack",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0023_antal_NormalSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0023_antal_ComboSkill",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0023_antal_UltimateSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0023_antal_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0023_antal_0",
+      "chr_0023_antal_1",
+      "chr_0023_antal_2",
+      "chr_0023_antal_3"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 3526,
+     "weaponLv": 90,
+     "refineLv": 4,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 49,
+        "cost": 3
+       },
+       {
+        "termNumId": 51,
+        "cost": 3
+       },
+       {
+        "termNumId": 69,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3003
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3024
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2848
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3150
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Antal",
+    "level": 70,
+    "potential": 2,
+    "skills": {
+     "basic": 2,
+     "battle": 9,
+     "combo": 12,
+     "ultimate": 2
+    },
+    "talentNodes": {
+     "attribute": 4,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Lone Barge",
+     "level": 90,
+     "rank": 5,
+     "breakthrough": 4,
+     "template_id": 3526,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 49,
+        "cost": 3
+       },
+       {
+        "term": 51,
+        "cost": 3
+       },
+       {
+        "term": 69,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Will [L]": {
+       "column": 6,
+       "confidence": "confirmed",
+       "via": "term 51 — Will",
+       "cost": 3
+      },
+      "ATK [L]": {
+       "column": 6,
+       "confidence": "confirmed",
+       "via": "term 49 — ATK",
+       "cost": 3
+      },
+      "Suppression: Streaming Blitz": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Suppression"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Frontiers Fiber Gloves",
+      "set": "suit_atb01",
+      "template_id": 3003
+     },
+     {
+      "slot": 1,
+      "name": "Catastrophe Heavy Armor T1",
+      "set": "suit_usp01",
+      "template_id": 3024
+     },
+     {
+      "slot": 2,
+      "name": "Bonekrusha Mask",
+      "set": "suit_attri01",
+      "template_id": 2848
+     },
+     {
+      "slot": 3,
+      "name": "Roving MSGR Gyro",
+      "set": "suit_agi01",
+      "template_id": 3150
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Arcane",
+   "char": {
+    "templateId": 64,
+    "level": 80,
+    "potentialLevel": 5,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0032_lizhiyan_NormalAttack",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0032_lizhiyan_NormalSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0032_lizhiyan_ComboSkill",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0032_lizhiyan_UltimateSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0032_lizhiyan_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0032_lizhiyan_passive_skill_0_2",
+      "chr_0032_lizhiyan_passive_skill_1_1"
+     ]
+    },
+    "weapon": {
+     "templateId": 1791,
+     "weaponLv": 80,
+     "refineLv": 3,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 68,
+        "cost": 6
+       },
+       {
+        "termNumId": 999,
+        "cost": 3
+       },
+       {
+        "termNumId": 42,
+        "cost": 5
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4778
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4985
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 4676
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Arcane",
+    "level": 80,
+    "potential": 5,
+    "skills": {
+     "basic": 8,
+     "battle": 5,
+     "combo": 10,
+     "ultimate": 2
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      2,
+      1
+     ]
+    },
+    "weapon": {
+     "name": "Oblivion",
+     "level": 80,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1791,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 68,
+        "cost": 6
+       },
+       {
+        "term": 999,
+        "cost": 3
+       },
+       {
+        "term": 42,
+        "cost": 5
+       }
+      ]
+     },
+     "columns": {
+      "Intellect [L]": {
+       "column": 9,
+       "confidence": "confirmed",
+       "via": "term 68 — Intellect",
+       "cost": 6
+      },
+      "Arts DMG [L]": {
+       "column": 6,
+       "confidence": "inferred",
+       "via": "term 999 not recognised, taken by position",
+       "cost": 3
+      },
+      "Twilight: Humiliation": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Twilight"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "AIC Fieldwork Hands",
+      "set": "suit_generaltype",
+      "template_id": 4778
+     },
+     {
+      "slot": 1,
+      "name": "AIC Fieldwork Medic Armor",
+      "set": "suit_generaltype",
+      "template_id": 4985
+     },
+     {
+      "slot": 2,
+      "name": "Rift Trekker Armor Slab",
+      "set": "",
+      "template_id": 4676
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Arclight",
+   "char": {
+    "templateId": 12,
+    "level": 80,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0007_ikut_NormalAttack",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0007_ikut_NormalSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0007_ikut_ComboSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0007_ikut_UltimateSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0007_ikut_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0007_ikut_0",
+      "chr_0007_ikut_1"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0007_ikut_passive_skill_0_3",
+      "chr_0007_ikut_passive_skill_1_3"
+     ]
+    },
+    "weapon": {
+     "templateId": 1816,
+     "weaponLv": 90,
+     "refineLv": 3,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3176
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 2849
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3096
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Arclight",
+    "level": 80,
+    "potential": 3,
+    "skills": {
+     "basic": 12,
+     "battle": 11,
+     "combo": 2,
+     "ultimate": 1
+    },
+    "talentNodes": {
+     "attribute": 2,
+     "passive": [
+      3,
+      3
+     ]
+    },
+    "weapon": {
+     "name": "White Night Nova",
+     "level": 90,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1816,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Catastrophe Gloves",
+      "set": "suit_usp01",
+      "template_id": 3176
+     },
+     {
+      "slot": 1,
+      "name": "Type 50 Yinglung Light Armor",
+      "set": "suit_atk02",
+      "template_id": 2849
+     },
+     {
+      "slot": 2,
+      "name": "Æthertech Stabilizer",
+      "set": "suit_poise01",
+      "template_id": 3096
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Ardelia",
+   "char": {
+    "templateId": 15,
+    "level": 90,
+    "potentialLevel": 0,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0025_ardelia_NormalAttack",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0025_ardelia_NormalSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0025_ardelia_ComboSkill",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0025_ardelia_UltimateSkill",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0025_ardelia_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0025_ardelia_0"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0025_ardelia_passive_skill_0_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1781,
+     "weaponLv": 60,
+     "refineLv": 3,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4165
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4661
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2956
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Ardelia",
+    "level": 90,
+    "potential": 0,
+    "skills": {
+     "basic": 4,
+     "battle": 5,
+     "combo": 3,
+     "ultimate": 12
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": [
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Stanza of Memorials",
+     "level": 60,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1781,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Qingbo Gauntlets",
+      "set": "suit_combo_cd01",
+      "template_id": 4165
+     },
+     {
+      "slot": 1,
+      "name": "Tide Fall Light Armor T1",
+      "set": "suit_burst01",
+      "template_id": 4661
+     },
+     {
+      "slot": 2,
+      "name": "Aburrey Sensor Chip T1",
+      "set": "suit_atk01",
+      "template_id": 2956
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Argent Flow",
+   "char": {
+    "templateId": 56,
+    "level": 80,
+    "potentialLevel": 5,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0037_minghe_NormalAttack",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0037_minghe_NormalSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0037_minghe_ComboSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0037_minghe_UltimateSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0037_minghe_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0037_minghe_0"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 1805,
+     "weaponLv": 60,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 79,
+        "cost": 3
+       },
+       {
+        "termNumId": 49,
+        "cost": 3
+       },
+       {
+        "termNumId": 68,
+        "cost": 1
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2984
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3171
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3123
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3037
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Argent Flow",
+    "level": 80,
+    "potential": 5,
+    "skills": {
+     "basic": 7,
+     "battle": 6,
+     "combo": 11,
+     "ultimate": 7
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Wave Tide",
+     "level": 60,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1805,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 79,
+        "cost": 3
+       },
+       {
+        "term": 49,
+        "cost": 3
+       },
+       {
+        "term": 68,
+        "cost": 1
+       }
+      ]
+     },
+     "columns": {
+      "Intellect [S]": {
+       "column": 4,
+       "confidence": "confirmed",
+       "via": "term 68 — Intellect",
+       "cost": 1
+      },
+      "ATK [S]": {
+       "column": 6,
+       "confidence": "confirmed",
+       "via": "term 49 — ATK",
+       "cost": 3
+      },
+      "Pursuit: Unending Cycle": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Pursuit"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Basic Gauntlets",
+      "set": "",
+      "template_id": 2984
+     },
+     {
+      "slot": 1,
+      "name": "Frontiers Armor T1",
+      "set": "suit_atb01",
+      "template_id": 3171
+     },
+     {
+      "slot": 2,
+      "name": "MI Security Scope",
+      "set": "suit_criti01",
+      "template_id": 3123
+     },
+     {
+      "slot": 3,
+      "name": "Eternal Xiranite Power Core T1",
+      "set": "suit_usp02",
+      "template_id": 3037
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Avywenna",
+   "char": {
+    "templateId": 41,
+    "level": 70,
+    "potentialLevel": 5,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0012_avywen_NormalAttack",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0012_avywen_NormalSkill",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0012_avywen_ComboSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0012_avywen_UltimateSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0012_avywen_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0012_avywen_passive_skill_0_3"
+     ]
+    },
+    "weapon": {
+     "templateId": 1807,
+     "weaponLv": 80,
+     "refineLv": 3,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2930
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4178
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3182
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Avywenna",
+    "level": 70,
+    "potential": 5,
+    "skills": {
+     "basic": 9,
+     "battle": 10,
+     "combo": 11,
+     "ultimate": 11
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      3
+     ]
+    },
+    "weapon": {
+     "name": "Beacon of Duty",
+     "level": 80,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1807,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Tide Surge Gauntlets",
+      "set": "suit_burst01",
+      "template_id": 2930
+     },
+     {
+      "slot": 1,
+      "name": "Xiranflow Light Armor",
+      "set": "suit_expend_spell01",
+      "template_id": 4178
+     },
+     {
+      "slot": 2,
+      "name": "Miner Comm T1",
+      "set": "",
+      "template_id": 3182
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Camille",
+   "char": {
+    "templateId": 9,
+    "level": 70,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0033_camille_NormalAttack",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0033_camille_NormalSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0033_camille_ComboSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0033_camille_UltimateSkill",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0033_camille_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 3270,
+     "weaponLv": 60,
+     "refineLv": 4,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 53,
+        "cost": 5
+       },
+       {
+        "termNumId": 69,
+        "cost": 4
+       },
+       {
+        "termNumId": 51,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3072
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3104
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3167
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3036
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Camille",
+    "level": 70,
+    "potential": 3,
+    "skills": {
+     "basic": 3,
+     "battle": 2,
+     "combo": 6,
+     "ultimate": 10
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": []
+    },
+    "weapon": {
+     "name": "OBJ Razorhorn",
+     "level": 60,
+     "rank": 5,
+     "breakthrough": 4,
+     "template_id": 3270,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 53,
+        "cost": 5
+       },
+       {
+        "term": 69,
+        "cost": 4
+       },
+       {
+        "term": 51,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Will [M]": {
+       "column": 5,
+       "confidence": "confirmed",
+       "via": "term 51 — Will",
+       "cost": 2
+      },
+      "Physical DMG [M]": {
+       "column": 8,
+       "confidence": "confirmed",
+       "via": "term 53 — Physical DMG",
+       "cost": 5
+      },
+      "Infliction: Conquest of Icy Peaks": {
+       "column": 9,
+       "confidence": "confirmed",
+       "via": "term 69 — Infliction",
+       "cost": 4
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Eternal Xiranite Gloves",
+      "set": "suit_usp02",
+      "template_id": 3072
+     },
+     {
+      "slot": 1,
+      "name": "Mordvolt Insulation Vest T1",
+      "set": "suit_wisd01",
+      "template_id": 3104
+     },
+     {
+      "slot": 2,
+      "name": "MI Security Armband",
+      "set": "suit_criti01",
+      "template_id": 3167
+     },
+     {
+      "slot": 3,
+      "name": "Miner Drive Wheel",
+      "set": "",
+      "template_id": 3036
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Catcher",
+   "char": {
+    "templateId": 15,
+    "level": 90,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0020_meurs_NormalAttack",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0020_meurs_NormalSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0020_meurs_ComboSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0020_meurs_UltimateSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0020_meurs_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0020_meurs_0"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 1818,
+     "weaponLv": 80,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 999,
+        "cost": 6
+       },
+       {
+        "termNumId": 49,
+        "cost": 5
+       },
+       {
+        "termNumId": 72,
+        "cost": 1
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4983
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3067
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3183
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Catcher",
+    "level": 90,
+    "potential": 3,
+    "skills": {
+     "basic": 8,
+     "battle": 8,
+     "combo": 5,
+     "ultimate": 2
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Industry 0.1",
+     "level": 80,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1818,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 999,
+        "cost": 6
+       },
+       {
+        "term": 49,
+        "cost": 5
+       },
+       {
+        "term": 72,
+        "cost": 1
+       }
+      ]
+     },
+     "columns": {
+      "Strength [S]": {
+       "column": 9,
+       "confidence": "inferred",
+       "via": "term 999 not recognised, taken by position",
+       "cost": 6
+      },
+      "ATK [S]": {
+       "column": 8,
+       "confidence": "confirmed",
+       "via": "term 49 — ATK",
+       "cost": 5
+      },
+      "Suppression: Emergency Boost": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Suppression"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "AIC Fieldwork Assault Gloves",
+      "set": "suit_generaltype",
+      "template_id": 4983
+     },
+     {
+      "slot": 1,
+      "name": "MI Security Overalls T2",
+      "set": "suit_criti01",
+      "template_id": 3067
+     },
+     {
+      "slot": 2,
+      "name": "Miner Drive Wheel T1",
+      "set": "",
+      "template_id": 3183
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Chen Qianyu",
+   "char": {
+    "templateId": 34,
+    "level": 80,
+    "potentialLevel": 1,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0005_chen_NormalAttack",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0005_chen_NormalSkill",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0005_chen_ComboSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0005_chen_UltimateSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0005_chen_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0005_chen_0",
+      "chr_0005_chen_1",
+      "chr_0005_chen_2",
+      "chr_0005_chen_3"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0005_chen_passive_skill_0_3"
+     ]
+    },
+    "weapon": {
+     "templateId": 4700,
+     "weaponLv": 60,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 65,
+        "cost": 5
+       },
+       {
+        "termNumId": 74,
+        "cost": 4
+       },
+       {
+        "termNumId": 85,
+        "cost": 3
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2832
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 2850
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 4654
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2956
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Chen Qianyu",
+    "level": 80,
+    "potential": 1,
+    "skills": {
+     "basic": 6,
+     "battle": 4,
+     "combo": 9,
+     "ultimate": 9
+    },
+    "talentNodes": {
+     "attribute": 4,
+     "passive": [
+      3
+     ]
+    },
+    "weapon": {
+     "name": "Farsight",
+     "level": 60,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 4700,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 65,
+        "cost": 5
+       },
+       {
+        "term": 74,
+        "cost": 4
+       },
+       {
+        "term": 85,
+        "cost": 3
+       }
+      ]
+     },
+     "columns": {
+      "Main Attribute [L]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Main Attribute"
+      },
+      "Arts Intensity [L]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Arts Intensity"
+      },
+      "Assault: Vision for Tomorrow": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Assault"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Mordvolt Resistant Gloves",
+      "set": "suit_will01",
+      "template_id": 2832
+     },
+     {
+      "slot": 1,
+      "name": "Basic Armor",
+      "set": "",
+      "template_id": 2850
+     },
+     {
+      "slot": 2,
+      "name": "Eternal Xiranite Bracing Slab",
+      "set": "suit_usp02",
+      "template_id": 4654
+     },
+     {
+      "slot": 3,
+      "name": "Aburrey Sensor Chip T1",
+      "set": "suit_atk01",
+      "template_id": 2956
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Da Pan",
+   "char": {
+    "templateId": 25,
+    "level": 80,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0018_dapan_NormalAttack",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0018_dapan_NormalSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0018_dapan_ComboSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0018_dapan_UltimateSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0018_dapan_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0018_dapan_0"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 5114,
+     "weaponLv": 60,
+     "refineLv": 2,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 85,
+        "cost": 4
+       },
+       {
+        "termNumId": 68,
+        "cost": 6
+       },
+       {
+        "termNumId": 50,
+        "cost": 3
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2908
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 5291
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2866
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3041
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Da Pan",
+    "level": 80,
+    "potential": 3,
+    "skills": {
+     "basic": 12,
+     "battle": 6,
+     "combo": 6,
+     "ultimate": 2
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Jade Vessel",
+     "level": 60,
+     "rank": 3,
+     "breakthrough": 4,
+     "template_id": 5114,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 85,
+        "cost": 4
+       },
+       {
+        "term": 68,
+        "cost": 6
+       },
+       {
+        "term": 50,
+        "cost": 3
+       }
+      ]
+     },
+     "columns": {
+      "Intellect [L]": {
+       "column": 9,
+       "confidence": "confirmed",
+       "via": "term 68 — Intellect",
+       "cost": 6
+      },
+      "Cryo DMG [L]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Cryo DMG"
+      },
+      "Efficacy: Dabbles of Ink": {
+       "column": 7,
+       "confidence": "inferred",
+       "via": "term 85 — Efficacy",
+       "cost": 4
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Armored MSGR Gloves T1",
+      "set": "suit_str01",
+      "template_id": 2908
+     },
+     {
+      "slot": 1,
+      "name": "Type 50 Yinglung Soft Armor",
+      "set": "suit_atk02",
+      "template_id": 5291
+     },
+     {
+      "slot": 2,
+      "name": "Miner Turbine",
+      "set": "",
+      "template_id": 2866
+     },
+     {
+      "slot": 3,
+      "name": "Roving MSGR Gyro T1",
+      "set": "suit_agi01",
+      "template_id": 3041
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Ember",
+   "char": {
+    "templateId": 97,
+    "level": 70,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0009_azrila_NormalAttack",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0009_azrila_NormalSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0009_azrila_ComboSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0009_azrila_UltimateSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0009_azrila_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0009_azrila_passive_skill_0_2",
+      "chr_0009_azrila_passive_skill_1_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1789,
+     "weaponLv": 90,
+     "refineLv": 1,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2991
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 2929
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2822
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2880
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Ember",
+    "level": 70,
+    "potential": 3,
+    "skills": {
+     "basic": 3,
+     "battle": 7,
+     "combo": 11,
+     "ultimate": 6
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      2,
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Sundered Prince",
+     "level": 90,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1789,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Type 50 Yinglung Gloves",
+      "set": "suit_atk02",
+      "template_id": 2991
+     },
+     {
+      "slot": 1,
+      "name": "Type 50 Yinglung Heavy Armor T1",
+      "set": "suit_atk02",
+      "template_id": 2929
+     },
+     {
+      "slot": 2,
+      "name": "Miner Compression Core T1",
+      "set": "",
+      "template_id": 2822
+     },
+     {
+      "slot": 3,
+      "name": "Mordvolt Insulation Battery",
+      "set": "suit_wisd01",
+      "template_id": 2880
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Endministrator (female)",
+   "char": {
+    "templateId": 60,
+    "level": 70,
+    "potentialLevel": 4,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_9000_endmin_NormalAttack",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_9000_endmin_NormalSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_9000_endmin_ComboSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_9000_endmin_UltimateSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_9000_endmin_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_9000_endmin_0"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_9000_endmin_passive_skill_0_3",
+      "chr_9000_endmin_passive_skill_1_1"
+     ]
+    },
+    "variantId": "chr_0003_endminf",
+    "weapon": {
+     "templateId": 1779,
+     "weaponLv": 90,
+     "refineLv": 0,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 53,
+        "cost": 1
+       },
+       {
+        "termNumId": 74,
+        "cost": 3
+       },
+       {
+        "termNumId": 42,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3082
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4455
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2928
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 4446
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Endministrator (female)",
+    "level": 70,
+    "potential": 4,
+    "skills": {
+     "basic": 10,
+     "battle": 8,
+     "combo": 11,
+     "ultimate": 6
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": [
+      3,
+      1
+     ]
+    },
+    "weapon": {
+     "name": "Sundering Steel",
+     "level": 90,
+     "rank": 1,
+     "breakthrough": 4,
+     "template_id": 1779,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 53,
+        "cost": 1
+       },
+       {
+        "term": 74,
+        "cost": 3
+       },
+       {
+        "term": 42,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Agility [M]": {
+       "column": 5,
+       "confidence": "confirmed",
+       "via": "term 42 — Agility",
+       "cost": 2
+      },
+      "Physical DMG [M]": {
+       "column": 4,
+       "confidence": "confirmed",
+       "via": "term 53 — Physical DMG",
+       "cost": 1
+      },
+      "Combative: Anthem of Cinder": {
+       "column": 4,
+       "confidence": "confirmed",
+       "via": "term 74 — Combative",
+       "cost": 3
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Æthertech Light Gloves",
+      "set": "suit_poise01",
+      "template_id": 3082
+     },
+     {
+      "slot": 1,
+      "name": "Swordmancer Fiber Armor",
+      "set": "suit_phy01",
+      "template_id": 4455
+     },
+     {
+      "slot": 2,
+      "name": "Mordvolt Insulation Wrench",
+      "set": "suit_wisd01",
+      "template_id": 2928
+     },
+     {
+      "slot": 3,
+      "name": "Qingbo Positioning Kit T1",
+      "set": "suit_combo_cd01",
+      "template_id": 4446
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Endministrator (male)",
+   "char": {
+    "templateId": 34,
+    "level": 90,
+    "potentialLevel": 1,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_9000_endmin_NormalAttack",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_9000_endmin_NormalSkill",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_9000_endmin_ComboSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_9000_endmin_UltimateSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_9000_endmin_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_9000_endmin_0",
+      "chr_9000_endmin_1",
+      "chr_9000_endmin_2",
+      "chr_9000_endmin_3"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_9000_endmin_passive_skill_0_2",
+      "chr_9000_endmin_passive_skill_1_3"
+     ]
+    },
+    "variantId": "chr_0002_endminm",
+    "weapon": {
+     "templateId": 3524,
+     "weaponLv": 60,
+     "refineLv": 4,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 50,
+        "cost": 2
+       },
+       {
+        "termNumId": 72,
+        "cost": 2
+       },
+       {
+        "termNumId": 42,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4672
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 5207
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 4161
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2866
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Endministrator (male)",
+    "level": 90,
+    "potential": 1,
+    "skills": {
+     "basic": 1,
+     "battle": 12,
+     "combo": 6,
+     "ultimate": 8
+    },
+    "talentNodes": {
+     "attribute": 4,
+     "passive": [
+      2,
+      3
+     ]
+    },
+    "weapon": {
+     "name": "Lupine Scarlet",
+     "level": 60,
+     "rank": 5,
+     "breakthrough": 4,
+     "template_id": 3524,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 50,
+        "cost": 2
+       },
+       {
+        "term": 72,
+        "cost": 2
+       },
+       {
+        "term": 42,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Agility [L]": {
+       "column": 5,
+       "confidence": "confirmed",
+       "via": "term 42 — Agility",
+       "cost": 2
+      },
+      "Critical Rate [L]": {
+       "column": 5,
+       "confidence": "inferred",
+       "via": "term 50 — Critical Rate",
+       "cost": 2
+      },
+      "Fracture: Gnashing Wolves": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Fracture"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Rift Trekker Hands",
+      "set": "",
+      "template_id": 4672
+     },
+     {
+      "slot": 1,
+      "name": "Pulser Labs Light Armor",
+      "set": "suit_pulse_cryst01",
+      "template_id": 5207
+     },
+     {
+      "slot": 2,
+      "name": "Xiranflow Baton",
+      "set": "suit_expend_spell01",
+      "template_id": 4161
+     },
+     {
+      "slot": 3,
+      "name": "Miner Turbine",
+      "set": "",
+      "template_id": 2866
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Estella",
+   "char": {
+    "templateId": 42,
+    "level": 90,
+    "potentialLevel": 0,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0021_whiten_NormalAttack",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0021_whiten_NormalSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0021_whiten_ComboSkill",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0021_whiten_UltimateSkill",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0021_whiten_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0021_whiten_0",
+      "chr_0021_whiten_1"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 2012,
+     "weaponLv": 80,
+     "refineLv": 4,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 85,
+        "cost": 6
+       },
+       {
+        "termNumId": 42,
+        "cost": 3
+       },
+       {
+        "termNumId": 53,
+        "cost": 4
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4790
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4652
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 4732
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3100
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Estella",
+    "level": 90,
+    "potential": 0,
+    "skills": {
+     "basic": 9,
+     "battle": 1,
+     "combo": 4,
+     "ultimate": 4
+    },
+    "talentNodes": {
+     "attribute": 2,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Mountain Bearer",
+     "level": 80,
+     "rank": 5,
+     "breakthrough": 4,
+     "template_id": 2012,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 85,
+        "cost": 6
+       },
+       {
+        "term": 42,
+        "cost": 3
+       },
+       {
+        "term": 53,
+        "cost": 4
+       }
+      ]
+     },
+     "columns": {
+      "Agility [L]": {
+       "column": 6,
+       "confidence": "confirmed",
+       "via": "term 42 — Agility",
+       "cost": 3
+      },
+      "Physical DMG [L]": {
+       "column": 7,
+       "confidence": "confirmed",
+       "via": "term 53 — Physical DMG",
+       "cost": 4
+      },
+      "Efficacy: Weight of Mountain": {
+       "column": 9,
+       "confidence": "inferred",
+       "via": "term 85 — Efficacy",
+       "cost": 6
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "AIC Fieldwork Gloves",
+      "set": "suit_generaltype",
+      "template_id": 4790
+     },
+     {
+      "slot": 1,
+      "name": "Eternal Xiranite Light Armor",
+      "set": "suit_usp02",
+      "template_id": 4652
+     },
+     {
+      "slot": 2,
+      "name": "Hot Work Insulation Slab",
+      "set": "suit_fire_natr01",
+      "template_id": 4732
+     },
+     {
+      "slot": 3,
+      "name": "Aburrey Flashlight",
+      "set": "suit_atk01",
+      "template_id": 3100
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Fluorite",
+   "char": {
+    "templateId": 32,
+    "level": 80,
+    "potentialLevel": 4,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0022_bounda_NormalAttack",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0022_bounda_NormalSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0022_bounda_ComboSkill",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0022_bounda_UltimateSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0022_bounda_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0022_bounda_passive_skill_0_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1776,
+     "weaponLv": 90,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 999,
+        "cost": 2
+       },
+       {
+        "termNumId": 68,
+        "cost": 6
+       },
+       {
+        "termNumId": 49,
+        "cost": 6
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3181
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 2944
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2943
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Fluorite",
+    "level": 80,
+    "potential": 4,
+    "skills": {
+     "basic": 4,
+     "battle": 8,
+     "combo": 3,
+     "ultimate": 7
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Long Road",
+     "level": 90,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1776,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 999,
+        "cost": 2
+       },
+       {
+        "term": 68,
+        "cost": 6
+       },
+       {
+        "term": 49,
+        "cost": 6
+       }
+      ]
+     },
+     "columns": {
+      "Strength [S]": {
+       "column": 5,
+       "confidence": "inferred",
+       "via": "term 999 not recognised, taken by position",
+       "cost": 2
+      },
+      "Arts DMG [S]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Arts DMG"
+      },
+      "Pursuit: Unending Cycle": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Pursuit"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "LYNX Gloves",
+      "set": "suit_heal01",
+      "template_id": 3181
+     },
+     {
+      "slot": 1,
+      "name": "Eternal Xiranite Armor",
+      "set": "suit_usp02",
+      "template_id": 2944
+     },
+     {
+      "slot": 2,
+      "name": "MI Security Toolkit",
+      "set": "suit_criti01",
+      "template_id": 2943
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Gilberta",
+   "char": {
+    "templateId": 60,
+    "level": 70,
+    "potentialLevel": 5,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0013_aglina_NormalAttack",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0013_aglina_NormalSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0013_aglina_ComboSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0013_aglina_UltimateSkill",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0013_aglina_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0013_aglina_0"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 3789,
+     "weaponLv": 80,
+     "refineLv": 2,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4181
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 2997
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3028
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Gilberta",
+    "level": 70,
+    "potential": 5,
+    "skills": {
+     "basic": 2,
+     "battle": 7,
+     "combo": 8,
+     "ultimate": 3
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Type 42: Solemn Phalanx",
+     "level": 80,
+     "rank": 3,
+     "breakthrough": 4,
+     "template_id": 3789,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Qingbo Gloves",
+      "set": "suit_combo_cd01",
+      "template_id": 4181
+     },
+     {
+      "slot": 1,
+      "name": "Prototype Heavy Armor",
+      "set": "",
+      "template_id": 2997
+     },
+     {
+      "slot": 2,
+      "name": "Miner Comm",
+      "set": "",
+      "template_id": 3028
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Laevatain",
+   "char": {
+    "templateId": 47,
+    "level": 60,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0016_laevat_NormalAttack",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0016_laevat_NormalSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0016_laevat_ComboSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0016_laevat_UltimateSkill",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0016_laevat_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0016_laevat_passive_skill_0_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 3275,
+     "weaponLv": 60,
+     "refineLv": 0,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 51,
+        "cost": 1
+       },
+       {
+        "termNumId": 999,
+        "cost": 2
+       },
+       {
+        "termNumId": 44,
+        "cost": 3
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2957
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3172
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 4987
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3243
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Laevatain",
+    "level": 60,
+    "potential": 2,
+    "skills": {
+     "basic": 9,
+     "battle": 8,
+     "combo": 8,
+     "ultimate": 12
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Finchaser 3.0",
+     "level": 60,
+     "rank": 1,
+     "breakthrough": 4,
+     "template_id": 3275,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 51,
+        "cost": 1
+       },
+       {
+        "term": 999,
+        "cost": 2
+       },
+       {
+        "term": 44,
+        "cost": 3
+       }
+      ]
+     },
+     "columns": {
+      "Strength [M]": {
+       "column": 6,
+       "confidence": "inferred",
+       "via": "term 44 — Strength",
+       "cost": 3
+      },
+      "Cryo DMG [M]": {
+       "column": 5,
+       "confidence": "inferred",
+       "via": "term 999 not recognised, taken by position",
+       "cost": 2
+      },
+      "Suppression: Fin Chaser's Intent": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Suppression"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Hot Work Gauntlets T1",
+      "set": "suit_fire_natr01",
+      "template_id": 2957
+     },
+     {
+      "slot": 1,
+      "name": "Miner Vest",
+      "set": "",
+      "template_id": 3172
+     },
+     {
+      "slot": 2,
+      "name": "Eternal Xiranite Heavy Slab",
+      "set": "suit_usp02",
+      "template_id": 4987
+     },
+     {
+      "slot": 3,
+      "name": "LYNX Connector",
+      "set": "suit_heal01",
+      "template_id": 3243
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Last Rite",
+   "char": {
+    "templateId": 34,
+    "level": 90,
+    "potentialLevel": 1,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0026_lastrite_NormalAttack",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0026_lastrite_NormalSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0026_lastrite_ComboSkill",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0026_lastrite_UltimateSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0026_lastrite_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0026_lastrite_0",
+      "chr_0026_lastrite_1"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 1785,
+     "weaponLv": 90,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 85,
+        "cost": 1
+       },
+       {
+        "termNumId": 999,
+        "cost": 5
+       },
+       {
+        "termNumId": 51,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2888
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3029
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 4994
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2866
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Last Rite",
+    "level": 90,
+    "potential": 1,
+    "skills": {
+     "basic": 9,
+     "battle": 9,
+     "combo": 10,
+     "ultimate": 8
+    },
+    "talentNodes": {
+     "attribute": 2,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Former Finery",
+     "level": 90,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1785,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 85,
+        "cost": 1
+       },
+       {
+        "term": 999,
+        "cost": 5
+       },
+       {
+        "term": 51,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Will [L]": {
+       "column": 5,
+       "confidence": "confirmed",
+       "via": "term 51 — Will",
+       "cost": 2
+      },
+      "HP [L]": {
+       "column": 8,
+       "confidence": "inferred",
+       "via": "term 999 not recognised, taken by position",
+       "cost": 5
+      },
+      "Efficacy: Mincing Therapy": {
+       "column": 3,
+       "confidence": "inferred",
+       "via": "term 85 — Efficacy",
+       "cost": 1
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Miner Fists T1",
+      "set": "",
+      "template_id": 2888
+     },
+     {
+      "slot": 1,
+      "name": "Type 50 Yinglung Heavy Armor T2",
+      "set": "suit_atk02",
+      "template_id": 3029
+     },
+     {
+      "slot": 2,
+      "name": "AIC Fieldwork Power Bank",
+      "set": "suit_generaltype",
+      "template_id": 4994
+     },
+     {
+      "slot": 3,
+      "name": "Miner Turbine",
+      "set": "",
+      "template_id": 2866
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Lifeng",
+   "char": {
+    "templateId": 44,
+    "level": 90,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0015_lifeng_NormalAttack",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0015_lifeng_NormalSkill",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0015_lifeng_ComboSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0015_lifeng_UltimateSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0015_lifeng_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0015_lifeng_0"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 1793,
+     "weaponLv": 60,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 49,
+        "cost": 3
+       },
+       {
+        "termNumId": 42,
+        "cost": 4
+       },
+       {
+        "termNumId": 53,
+        "cost": 5
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3000
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3051
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3011
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Lifeng",
+    "level": 90,
+    "potential": 2,
+    "skills": {
+     "basic": 10,
+     "battle": 3,
+     "combo": 1,
+     "ultimate": 9
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Pathfinder's Beacon",
+     "level": 60,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1793,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 49,
+        "cost": 3
+       },
+       {
+        "term": 42,
+        "cost": 4
+       },
+       {
+        "term": 53,
+        "cost": 5
+       }
+      ]
+     },
+     "columns": {
+      "Agility [S]": {
+       "column": 7,
+       "confidence": "confirmed",
+       "via": "term 42 — Agility",
+       "cost": 4
+      },
+      "ATK [S]": {
+       "column": 6,
+       "confidence": "confirmed",
+       "via": "term 49 — ATK",
+       "cost": 3
+      },
+      "Inspiring: Start of a Saga": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Inspiring"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Swordmancer TAC Gauntlets",
+      "set": "suit_phy01",
+      "template_id": 3000
+     },
+     {
+      "slot": 1,
+      "name": "Miner Overalls T1",
+      "set": "",
+      "template_id": 3051
+     },
+     {
+      "slot": 2,
+      "name": "LYNX Connector T2",
+      "set": "suit_heal01",
+      "template_id": 3011
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Liino",
+   "char": {
+    "templateId": 33,
+    "level": 60,
+    "potentialLevel": 0,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0035_liino_NormalAttack",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0035_liino_NormalSkill",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0035_liino_ComboSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0035_liino_UltimateSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0035_liino_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0035_liino_0"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0035_liino_passive_skill_0_2",
+      "chr_0035_liino_passive_skill_1_1"
+     ]
+    },
+    "weapon": {
+     "templateId": 1783,
+     "weaponLv": 90,
+     "refineLv": 3,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4778
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4655
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 4785
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 5223
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Liino",
+    "level": 60,
+    "potential": 0,
+    "skills": {
+     "basic": 1,
+     "battle": 12,
+     "combo": 9,
+     "ultimate": 9
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": [
+      2,
+      1
+     ]
+    },
+    "weapon": {
+     "name": "Aggeloslayer",
+     "level": 90,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1783,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "AIC Fieldwork Hands",
+      "set": "suit_generaltype",
+      "template_id": 4778
+     },
+     {
+      "slot": 1,
+      "name": "Eternal Xiranite Light Armor T1",
+      "set": "suit_usp02",
+      "template_id": 4655
+     },
+     {
+      "slot": 2,
+      "name": "AIC Fieldwork Flashlight",
+      "set": "suit_generaltype",
+      "template_id": 4785
+     },
+     {
+      "slot": 3,
+      "name": "Rift Trekker Silver Blade",
+      "set": "",
+      "template_id": 5223
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Mi Fu",
+   "char": {
+    "templateId": 65,
+    "level": 80,
+    "potentialLevel": 5,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0031_mifu_NormalAttack",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0031_mifu_NormalSkill",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0031_mifu_ComboSkill",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0031_mifu_UltimateSkill",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0031_mifu_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0031_mifu_0"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0031_mifu_passive_skill_0_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1799,
+     "weaponLv": 60,
+     "refineLv": 0,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 72,
+        "cost": 1
+       },
+       {
+        "termNumId": 79,
+        "cost": 6
+       },
+       {
+        "termNumId": 44,
+        "cost": 4
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4783
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3065
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3166
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2937
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Mi Fu",
+    "level": 80,
+    "potential": 5,
+    "skills": {
+     "basic": 4,
+     "battle": 4,
+     "combo": 6,
+     "ultimate": 4
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": [
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Seeker of Dark Lung",
+     "level": 60,
+     "rank": 1,
+     "breakthrough": 4,
+     "template_id": 1799,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 72,
+        "cost": 1
+       },
+       {
+        "term": 79,
+        "cost": 6
+       },
+       {
+        "term": 44,
+        "cost": 4
+       }
+      ]
+     },
+     "columns": {
+      "Strength [M]": {
+       "column": 7,
+       "confidence": "inferred",
+       "via": "term 44 — Strength",
+       "cost": 4
+      },
+      "ULT Efficiency [M]": {
+       "column": 9,
+       "confidence": "inferred",
+       "via": "term 79 — ULT Efficiency",
+       "cost": 6
+      },
+      "Detonate: Seeker of the Esoteric": {
+       "column": 2,
+       "confidence": "inferred",
+       "via": "term 72 — Detonate",
+       "cost": 1
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "AIC Fieldwork Wraps",
+      "set": "suit_generaltype",
+      "template_id": 4783
+     },
+     {
+      "slot": 1,
+      "name": "Miner Armor T1",
+      "set": "",
+      "template_id": 3065
+     },
+     {
+      "slot": 2,
+      "name": "Hanging River O2 Tube",
+      "set": "suit_burst01",
+      "template_id": 3166
+     },
+     {
+      "slot": 3,
+      "name": "Frontiers Comm",
+      "set": "suit_atb01",
+      "template_id": 2937
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Perlica",
+   "char": {
+    "templateId": 6,
+    "level": 90,
+    "potentialLevel": 1,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0004_pelica_NormalAttack",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0004_pelica_NormalSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0004_pelica_ComboSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0004_pelica_UltimateSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0004_pelica_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0004_pelica_0",
+      "chr_0004_pelica_1"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0004_pelica_passive_skill_0_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1800,
+     "weaponLv": 60,
+     "refineLv": 2,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 65,
+        "cost": 1
+       },
+       {
+        "termNumId": 999,
+        "cost": 4
+       },
+       {
+        "termNumId": 51,
+        "cost": 3
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4783
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 5219
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2910
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2937
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Perlica",
+    "level": 90,
+    "potential": 1,
+    "skills": {
+     "basic": 3,
+     "battle": 5,
+     "combo": 8,
+     "ultimate": 1
+    },
+    "talentNodes": {
+     "attribute": 2,
+     "passive": [
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Opus: Etch Figure",
+     "level": 60,
+     "rank": 3,
+     "breakthrough": 4,
+     "template_id": 1800,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 65,
+        "cost": 1
+       },
+       {
+        "term": 999,
+        "cost": 4
+       },
+       {
+        "term": 51,
+        "cost": 3
+       }
+      ]
+     },
+     "columns": {
+      "Will [L]": {
+       "column": 6,
+       "confidence": "confirmed",
+       "via": "term 51 — Will",
+       "cost": 3
+      },
+      "Nature DMG [L]": {
+       "column": 7,
+       "confidence": "inferred",
+       "via": "term 999 not recognised, taken by position",
+       "cost": 4
+      },
+      "Suppression: Tillite Etchings": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Suppression"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "AIC Fieldwork Wraps",
+      "set": "suit_generaltype",
+      "template_id": 4783
+     },
+     {
+      "slot": 1,
+      "name": "Eternal Xiranite MOD Armor",
+      "set": "suit_usp02",
+      "template_id": 5219
+     },
+     {
+      "slot": 2,
+      "name": "Armored MSGR Gyro T1",
+      "set": "suit_str01",
+      "template_id": 2910
+     },
+     {
+      "slot": 3,
+      "name": "Frontiers Comm",
+      "set": "suit_atb01",
+      "template_id": 2937
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Pogranichnik",
+   "char": {
+    "templateId": 1,
+    "level": 60,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0029_pograni_NormalAttack",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0029_pograni_NormalSkill",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0029_pograni_ComboSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0029_pograni_UltimateSkill",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0029_pograni_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0029_pograni_passive_skill_0_1"
+     ]
+    },
+    "weapon": {
+     "templateId": 1816,
+     "weaponLv": 90,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 72,
+        "cost": 6
+       },
+       {
+        "termNumId": 999,
+        "cost": 4
+       },
+       {
+        "termNumId": 69,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3079
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 5207
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3183
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Pogranichnik",
+    "level": 60,
+    "potential": 2,
+    "skills": {
+     "basic": 2,
+     "battle": 3,
+     "combo": 7,
+     "ultimate": 10
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      1
+     ]
+    },
+    "weapon": {
+     "name": "White Night Nova",
+     "level": 90,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1816,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 72,
+        "cost": 6
+       },
+       {
+        "term": 999,
+        "cost": 4
+       },
+       {
+        "term": 69,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Main Attribute [L]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Main Attribute"
+      },
+      "Arts Intensity [L]": {
+       "column": 7,
+       "confidence": "inferred",
+       "via": "term 999 not recognised, taken by position",
+       "cost": 4
+      },
+      "Infliction: White Night Nova": {
+       "column": 4,
+       "confidence": "confirmed",
+       "via": "term 69 — Infliction",
+       "cost": 2
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Miner Gloves T1",
+      "set": "",
+      "template_id": 3079
+     },
+     {
+      "slot": 1,
+      "name": "Pulser Labs Light Armor",
+      "set": "suit_pulse_cryst01",
+      "template_id": 5207
+     },
+     {
+      "slot": 2,
+      "name": "Miner Drive Wheel T1",
+      "set": "",
+      "template_id": 3183
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Purrchena",
+   "char": {
+    "templateId": 92,
+    "level": 90,
+    "potentialLevel": 5,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0038_purrche_NormalAttack",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0038_purrche_NormalSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0038_purrche_ComboSkill",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0038_purrche_UltimateSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0038_purrche_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0038_purrche_0",
+      "chr_0038_purrche_1",
+      "chr_0038_purrche_2",
+      "chr_0038_purrche_3"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0038_purrche_passive_skill_0_1",
+      "chr_0038_purrche_passive_skill_1_3"
+     ]
+    },
+    "weapon": {
+     "templateId": 1788,
+     "weaponLv": 60,
+     "refineLv": 0,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 53,
+        "cost": 4
+       },
+       {
+        "termNumId": 72,
+        "cost": 5
+       },
+       {
+        "termNumId": 49,
+        "cost": 1
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2824
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 5210
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3123
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Purrchena",
+    "level": 90,
+    "potential": 5,
+    "skills": {
+     "basic": 12,
+     "battle": 9,
+     "combo": 3,
+     "ultimate": 9
+    },
+    "talentNodes": {
+     "attribute": 4,
+     "passive": [
+      1,
+      3
+     ]
+    },
+    "weapon": {
+     "name": "Tarr 11",
+     "level": 60,
+     "rank": 1,
+     "breakthrough": 4,
+     "template_id": 1788,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 53,
+        "cost": 4
+       },
+       {
+        "term": 72,
+        "cost": 5
+       },
+       {
+        "term": 49,
+        "cost": 1
+       }
+      ]
+     },
+     "columns": {
+      "Main Attribute [S]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Main Attribute"
+      },
+      "Assault: Armament Prep": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Assault"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Miner Gloves",
+      "set": "",
+      "template_id": 2824
+     },
+     {
+      "slot": 1,
+      "name": "Eternal Xiranite Overalls",
+      "set": "suit_usp02",
+      "template_id": 5210
+     },
+     {
+      "slot": 2,
+      "name": "MI Security Scope",
+      "set": "suit_criti01",
+      "template_id": 3123
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Rossi",
+   "char": {
+    "templateId": 34,
+    "level": 60,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0028_wulfa_NormalAttack",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0028_wulfa_NormalSkill",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0028_wulfa_ComboSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0028_wulfa_UltimateSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0028_wulfa_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0028_wulfa_passive_skill_0_3",
+      "chr_0028_wulfa_passive_skill_1_1"
+     ]
+    },
+    "weapon": {
+     "templateId": 1811,
+     "weaponLv": 60,
+     "refineLv": 2,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3059
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3007
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2925
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 4174
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Rossi",
+    "level": 60,
+    "potential": 3,
+    "skills": {
+     "basic": 2,
+     "battle": 12,
+     "combo": 9,
+     "ultimate": 9
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      3,
+      1
+     ]
+    },
+    "weapon": {
+     "name": "Eminent Repute",
+     "level": 60,
+     "rank": 3,
+     "breakthrough": 4,
+     "template_id": 1811,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Mordvolt Insulation Gloves T1",
+      "set": "suit_wisd01",
+      "template_id": 3059
+     },
+     {
+      "slot": 1,
+      "name": "Swordmancer Heavy Armor",
+      "set": "suit_phy01",
+      "template_id": 3007
+     },
+     {
+      "slot": 2,
+      "name": "AIC Light Plate",
+      "set": "suit_wisdwill01",
+      "template_id": 2925
+     },
+     {
+      "slot": 3,
+      "name": "Qingbo Positioning Kit",
+      "set": "suit_combo_cd01",
+      "template_id": 4174
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Si",
+   "char": {
+    "templateId": 59,
+    "level": 90,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0036_jsspsi_NormalAttack",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0036_jsspsi_NormalSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0036_jsspsi_ComboSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0036_jsspsi_UltimateSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0036_jsspsi_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0036_jsspsi_passive_skill_0_3",
+      "chr_0036_jsspsi_passive_skill_1_3"
+     ]
+    },
+    "weapon": {
+     "templateId": 1789,
+     "weaponLv": 90,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 50,
+        "cost": 1
+       },
+       {
+        "termNumId": 44,
+        "cost": 4
+       },
+       {
+        "termNumId": 68,
+        "cost": 1
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4734
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3051
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3243
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2855
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Si",
+    "level": 90,
+    "potential": 3,
+    "skills": {
+     "basic": 2,
+     "battle": 8,
+     "combo": 11,
+     "ultimate": 5
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      3,
+      3
+     ]
+    },
+    "weapon": {
+     "name": "Sundered Prince",
+     "level": 90,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1789,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 50,
+        "cost": 1
+       },
+       {
+        "term": 44,
+        "cost": 4
+       },
+       {
+        "term": 68,
+        "cost": 1
+       }
+      ]
+     },
+     "columns": {
+      "Strength [L]": {
+       "column": 7,
+       "confidence": "inferred",
+       "via": "term 44 — Strength",
+       "cost": 4
+      },
+      "Critical Rate [L]": {
+       "column": 4,
+       "confidence": "inferred",
+       "via": "term 50 — Critical Rate",
+       "cost": 1
+      },
+      "Crusher: Princely Deterrence": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Crusher"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Hot Work Hands PPE",
+      "set": "suit_fire_natr01",
+      "template_id": 4734
+     },
+     {
+      "slot": 1,
+      "name": "Miner Overalls T1",
+      "set": "",
+      "template_id": 3051
+     },
+     {
+      "slot": 2,
+      "name": "LYNX Connector",
+      "set": "suit_heal01",
+      "template_id": 3243
+     },
+     {
+      "slot": 3,
+      "name": "Pulser Labs Calibrator",
+      "set": "suit_pulse_cryst01",
+      "template_id": 2855
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Snowshine",
+   "char": {
+    "templateId": 87,
+    "level": 90,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0014_aurora_NormalAttack",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0014_aurora_NormalSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0014_aurora_ComboSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0014_aurora_UltimateSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0014_aurora_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0014_aurora_0",
+      "chr_0014_aurora_1",
+      "chr_0014_aurora_2"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0014_aurora_passive_skill_0_1"
+     ]
+    },
+    "weapon": {
+     "templateId": 3266,
+     "weaponLv": 60,
+     "refineLv": 3,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 72,
+        "cost": 3
+       },
+       {
+        "termNumId": 49,
+        "cost": 4
+       },
+       {
+        "termNumId": 44,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3042
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 2885
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3151
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Snowshine",
+    "level": 90,
+    "potential": 2,
+    "skills": {
+     "basic": 12,
+     "battle": 9,
+     "combo": 5,
+     "ultimate": 8
+    },
+    "talentNodes": {
+     "attribute": 3,
+     "passive": [
+      1
+     ]
+    },
+    "weapon": {
+     "name": "Khravengger",
+     "level": 60,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 3266,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 72,
+        "cost": 3
+       },
+       {
+        "term": 49,
+        "cost": 4
+       },
+       {
+        "term": 44,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Strength [L]": {
+       "column": 5,
+       "confidence": "inferred",
+       "via": "term 44 — Strength",
+       "cost": 2
+      },
+      "ATK [L]": {
+       "column": 7,
+       "confidence": "confirmed",
+       "via": "term 49 — ATK",
+       "cost": 4
+      },
+      "Detonate: Bonechilling": {
+       "column": 7,
+       "confidence": "inferred",
+       "via": "term 72 — Detonate",
+       "cost": 3
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Redeemer Hands",
+      "set": "",
+      "template_id": 3042
+     },
+     {
+      "slot": 1,
+      "name": "Aburrey Light Armor",
+      "set": "suit_atk01",
+      "template_id": 2885
+     },
+     {
+      "slot": 2,
+      "name": "Swordmancer Micro Filter",
+      "set": "suit_phy01",
+      "template_id": 3151
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Tangtang",
+   "char": {
+    "templateId": 68,
+    "level": 80,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0027_tangtang_NormalAttack",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0027_tangtang_NormalSkill",
+       "skillLevel": 10
+      },
+      {
+       "skillId": "chr_0027_tangtang_ComboSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0027_tangtang_UltimateSkill",
+       "skillLevel": 9
+      },
+      {
+       "skillId": "chr_0027_tangtang_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0027_tangtang_0",
+      "chr_0027_tangtang_1"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 1798,
+     "weaponLv": 80,
+     "refineLv": 3,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 65,
+        "cost": 4
+       },
+       {
+        "termNumId": 69,
+        "cost": 4
+       },
+       {
+        "termNumId": 999,
+        "cost": 3
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2984
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3171
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3011
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3038
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Tangtang",
+    "level": 80,
+    "potential": 2,
+    "skills": {
+     "basic": 3,
+     "battle": 10,
+     "combo": 11,
+     "ultimate": 9
+    },
+    "talentNodes": {
+     "attribute": 2,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Navigator",
+     "level": 80,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1798,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 65,
+        "cost": 4
+       },
+       {
+        "term": 69,
+        "cost": 4
+       },
+       {
+        "term": 999,
+        "cost": 3
+       }
+      ]
+     },
+     "columns": {
+      "Intellect [L]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Intellect"
+      },
+      "Cryo DMG [L]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Cryo DMG"
+      },
+      "Infliction: Lone and Distant Sail": {
+       "column": 8,
+       "confidence": "confirmed",
+       "via": "term 69 — Infliction",
+       "cost": 4
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Basic Gauntlets",
+      "set": "",
+      "template_id": 2984
+     },
+     {
+      "slot": 1,
+      "name": "Frontiers Armor T1",
+      "set": "suit_atb01",
+      "template_id": 3171
+     },
+     {
+      "slot": 2,
+      "name": "LYNX Connector T2",
+      "set": "suit_heal01",
+      "template_id": 3011
+     },
+     {
+      "slot": 3,
+      "name": "Redeemer Tag",
+      "set": "",
+      "template_id": 3038
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Typhoeus",
+   "char": {
+    "templateId": 43,
+    "level": 60,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0034_typhoea_NormalAttack",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0034_typhoea_NormalSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0034_typhoea_ComboSkill",
+       "skillLevel": 2
+      },
+      {
+       "skillId": "chr_0034_typhoea_UltimateSkill",
+       "skillLevel": 4
+      },
+      {
+       "skillId": "chr_0034_typhoea_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [],
+     "latestPassiveSkillNodes": [
+      "chr_0034_typhoea_passive_skill_0_2",
+      "chr_0034_typhoea_passive_skill_1_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1781,
+     "weaponLv": 80,
+     "refineLv": 3,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 999,
+        "cost": 3
+       },
+       {
+        "termNumId": 70,
+        "cost": 1
+       },
+       {
+        "termNumId": 68,
+        "cost": 1
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 3079
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 5211
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 2880
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 2937
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Typhoeus",
+    "level": 60,
+    "potential": 2,
+    "skills": {
+     "basic": 6,
+     "battle": 7,
+     "combo": 2,
+     "ultimate": 4
+    },
+    "talentNodes": {
+     "attribute": 0,
+     "passive": [
+      2,
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Stanza of Memorials",
+     "level": 80,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1781,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 999,
+        "cost": 3
+       },
+       {
+        "term": 70,
+        "cost": 1
+       },
+       {
+        "term": 68,
+        "cost": 1
+       }
+      ]
+     },
+     "columns": {
+      "Intellect [M]": {
+       "column": 4,
+       "confidence": "confirmed",
+       "via": "term 68 — Intellect",
+       "cost": 1
+      },
+      "ATK [M]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family ATK"
+      },
+      "Twilight: Lustrous Pyre": {
+       "column": 5,
+       "confidence": "inferred",
+       "via": "term 70 — Twilight",
+       "cost": 1
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Miner Gloves T1",
+      "set": "",
+      "template_id": 3079
+     },
+     {
+      "slot": 1,
+      "name": "AIC Fieldwork CQB Armor",
+      "set": "suit_generaltype",
+      "template_id": 5211
+     },
+     {
+      "slot": 2,
+      "name": "Mordvolt Insulation Battery",
+      "set": "suit_wisd01",
+      "template_id": 2880
+     },
+     {
+      "slot": 3,
+      "name": "Frontiers Comm",
+      "set": "suit_atb01",
+      "template_id": 2937
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Wulfgard",
+   "char": {
+    "templateId": 56,
+    "level": 80,
+    "potentialLevel": 1,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0006_wolfgd_NormalAttack",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0006_wolfgd_NormalSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0006_wolfgd_ComboSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0006_wolfgd_UltimateSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0006_wolfgd_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0006_wolfgd_0",
+      "chr_0006_wolfgd_1",
+      "chr_0006_wolfgd_2"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0006_wolfgd_passive_skill_0_3",
+      "chr_0006_wolfgd_passive_skill_1_1"
+     ]
+    },
+    "weapon": {
+     "templateId": 1608,
+     "weaponLv": 90,
+     "refineLv": 3,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 68,
+        "cost": 4
+       },
+       {
+        "termNumId": 70,
+        "cost": 1
+       },
+       {
+        "termNumId": 49,
+        "cost": 5
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2957
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 2979
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3099
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3056
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Wulfgard",
+    "level": 80,
+    "potential": 1,
+    "skills": {
+     "basic": 6,
+     "battle": 7,
+     "combo": 1,
+     "ultimate": 11
+    },
+    "talentNodes": {
+     "attribute": 3,
+     "passive": [
+      3,
+      1
+     ]
+    },
+    "weapon": {
+     "name": "Peco 5",
+     "level": 90,
+     "rank": 4,
+     "breakthrough": 4,
+     "template_id": 1608,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 68,
+        "cost": 4
+       },
+       {
+        "term": 70,
+        "cost": 1
+       },
+       {
+        "term": 49,
+        "cost": 5
+       }
+      ]
+     },
+     "columns": {
+      "Main Attribute [S]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Main Attribute"
+      },
+      "Assault: Armament Prep": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Assault"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Hot Work Gauntlets T1",
+      "set": "suit_fire_natr01",
+      "template_id": 2957
+     },
+     {
+      "slot": 1,
+      "name": "Mordvolt Resistant Vest",
+      "set": "suit_will01",
+      "template_id": 2979
+     },
+     {
+      "slot": 2,
+      "name": "Mordvolt Insulation Wrench T2",
+      "set": "suit_wisd01",
+      "template_id": 3099
+     },
+     {
+      "slot": 3,
+      "name": "Roving MSGR Flashlight",
+      "set": "suit_agi01",
+      "template_id": 3056
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Xaihi",
+   "char": {
+    "templateId": 39,
+    "level": 80,
+    "potentialLevel": 5,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0011_seraph_NormalAttack",
+       "skillLevel": 12
+      },
+      {
+       "skillId": "chr_0011_seraph_NormalSkill",
+       "skillLevel": 11
+      },
+      {
+       "skillId": "chr_0011_seraph_ComboSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0011_seraph_UltimateSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0011_seraph_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0011_seraph_0"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0011_seraph_passive_skill_0_2"
+     ]
+    },
+    "weapon": {
+     "templateId": 1786,
+     "weaponLv": 60,
+     "refineLv": 1,
+     "breakthroughLv": 4
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2895
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3007
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3114
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 5292
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Xaihi",
+    "level": 80,
+    "potential": 5,
+    "skills": {
+     "basic": 12,
+     "battle": 11,
+     "combo": 5,
+     "ultimate": 7
+    },
+    "talentNodes": {
+     "attribute": 1,
+     "passive": [
+      2
+     ]
+    },
+    "weapon": {
+     "name": "Monaihe",
+     "level": 60,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1786,
+     "columns": null
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Roving MSGR Fists",
+      "set": "suit_agi01",
+      "template_id": 2895
+     },
+     {
+      "slot": 1,
+      "name": "Swordmancer Heavy Armor",
+      "set": "suit_phy01",
+      "template_id": 3007
+     },
+     {
+      "slot": 2,
+      "name": "Redeemer Seal",
+      "set": "",
+      "template_id": 3114
+     },
+     {
+      "slot": 3,
+      "name": "Type 50 Yinglung Beacon",
+      "set": "suit_atk02",
+      "template_id": 5292
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Yvonne",
+   "char": {
+    "templateId": 71,
+    "level": 70,
+    "potentialLevel": 3,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0017_yvonne_NormalAttack",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0017_yvonne_NormalSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0017_yvonne_ComboSkill",
+       "skillLevel": 7
+      },
+      {
+       "skillId": "chr_0017_yvonne_UltimateSkill",
+       "skillLevel": 3
+      },
+      {
+       "skillId": "chr_0017_yvonne_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0017_yvonne_0",
+      "chr_0017_yvonne_1",
+      "chr_0017_yvonne_2",
+      "chr_0017_yvonne_3"
+     ],
+     "latestPassiveSkillNodes": []
+    },
+    "weapon": {
+     "templateId": 1776,
+     "weaponLv": 60,
+     "refineLv": 2,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 49,
+        "cost": 3
+       },
+       {
+        "termNumId": 70,
+        "cost": 5
+       },
+       {
+        "termNumId": 44,
+        "cost": 2
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 2824
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 3155
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3041
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 3052
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Yvonne",
+    "level": 70,
+    "potential": 3,
+    "skills": {
+     "basic": 6,
+     "battle": 8,
+     "combo": 7,
+     "ultimate": 3
+    },
+    "talentNodes": {
+     "attribute": 4,
+     "passive": []
+    },
+    "weapon": {
+     "name": "Long Road",
+     "level": 60,
+     "rank": 3,
+     "breakthrough": 4,
+     "template_id": 1776,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 49,
+        "cost": 3
+       },
+       {
+        "term": 70,
+        "cost": 5
+       },
+       {
+        "term": 44,
+        "cost": 2
+       }
+      ]
+     },
+     "columns": {
+      "Strength [S]": {
+       "column": 5,
+       "confidence": "inferred",
+       "via": "term 44 — Strength",
+       "cost": 2
+      },
+      "Arts DMG [S]": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Arts DMG"
+      },
+      "Pursuit: Unending Cycle": {
+       "column": null,
+       "confidence": "unknown",
+       "via": "no term of family Pursuit"
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Miner Gloves",
+      "set": "",
+      "template_id": 2824
+     },
+     {
+      "slot": 1,
+      "name": "LYNX Heavy Armor",
+      "set": "suit_heal01",
+      "template_id": 3155
+     },
+     {
+      "slot": 2,
+      "name": "Roving MSGR Gyro T1",
+      "set": "suit_agi01",
+      "template_id": 3041
+     },
+     {
+      "slot": 3,
+      "name": "Catastrophe Gauze Cartridge T1",
+      "set": "suit_usp01",
+      "template_id": 3052
+     }
+    ]
+   }
+  },
+  {
+   "operator": "Zhuang Fangyi",
+   "char": {
+    "templateId": 27,
+    "level": 90,
+    "potentialLevel": 2,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_0030_zhuangfy_NormalAttack",
+       "skillLevel": 6
+      },
+      {
+       "skillId": "chr_0030_zhuangfy_NormalSkill",
+       "skillLevel": 1
+      },
+      {
+       "skillId": "chr_0030_zhuangfy_ComboSkill",
+       "skillLevel": 8
+      },
+      {
+       "skillId": "chr_0030_zhuangfy_UltimateSkill",
+       "skillLevel": 5
+      },
+      {
+       "skillId": "chr_0030_zhuangfy_talent_0",
+       "skillLevel": 1
+      }
+     ]
+    },
+    "talent": {
+     "attrNodes": [
+      "chr_0030_zhuangfy_0",
+      "chr_0030_zhuangfy_1",
+      "chr_0030_zhuangfy_2",
+      "chr_0030_zhuangfy_3"
+     ],
+     "latestPassiveSkillNodes": [
+      "chr_0030_zhuangfy_passive_skill_0_1"
+     ]
+    },
+    "weapon": {
+     "templateId": 1781,
+     "weaponLv": 80,
+     "refineLv": 1,
+     "breakthroughLv": 4,
+     "attachedGem": {
+      "templateId": 1070,
+      "domainId": 1,
+      "totalCost": 0,
+      "terms": [
+       {
+        "termNumId": 49,
+        "cost": 1
+       },
+       {
+        "termNumId": 70,
+        "cost": 2
+       },
+       {
+        "termNumId": 68,
+        "cost": 1
+       }
+      ]
+     }
+    },
+    "equip": [
+     {
+      "key": 0,
+      "value": {
+       "templateid": 4447
+      }
+     },
+     {
+      "key": 1,
+      "value": {
+       "templateid": 4166
+      }
+     },
+     {
+      "key": 2,
+      "value": {
+       "templateid": 3164
+      }
+     },
+     {
+      "key": 3,
+      "value": {
+       "templateid": 999999
+      }
+     }
+    ]
+   },
+   "expected": {
+    "key": "Zhuang Fangyi",
+    "level": 90,
+    "potential": 2,
+    "skills": {
+     "basic": 6,
+     "battle": 1,
+     "combo": 8,
+     "ultimate": 5
+    },
+    "talentNodes": {
+     "attribute": 4,
+     "passive": [
+      1
+     ]
+    },
+    "weapon": {
+     "name": "Stanza of Memorials",
+     "level": 80,
+     "rank": 2,
+     "breakthrough": 4,
+     "template_id": 1781,
+     "essence": {
+      "template_id": 1070,
+      "domain_id": 1,
+      "total_cost": 0,
+      "terms": [
+       {
+        "term": 49,
+        "cost": 1
+       },
+       {
+        "term": 70,
+        "cost": 2
+       },
+       {
+        "term": 68,
+        "cost": 1
+       }
+      ]
+     },
+     "columns": {
+      "Intellect [M]": {
+       "column": 4,
+       "confidence": "confirmed",
+       "via": "term 68 — Intellect",
+       "cost": 1
+      },
+      "ATK [M]": {
+       "column": 4,
+       "confidence": "confirmed",
+       "via": "term 49 — ATK",
+       "cost": 1
+      },
+      "Twilight: Lustrous Pyre": {
+       "column": 4,
+       "confidence": "inferred",
+       "via": "term 70 — Twilight",
+       "cost": 2
+      }
+     }
+    },
+    "gear": [
+     {
+      "slot": 0,
+      "name": "Grizzled Edge Gauntlets T1",
+      "set": "suit_crush_fracture",
+      "template_id": 4447
+     },
+     {
+      "slot": 1,
+      "name": "Qingbo Light Armor",
+      "set": "suit_combo_cd01",
+      "template_id": 4166
+     },
+     {
+      "slot": 2,
+      "name": "Mordvolt Resistant Wrench",
+      "set": "suit_will01",
+      "template_id": 3164
+     },
+     {
+      "slot": 3,
+      "name": null,
+      "set": null,
+      "template_id": 999999,
+      "unresolved": true
+     }
+    ]
+   }
+  },
+  {
+   "operator": null,
+   "char": {
+    "templateId": 1,
+    "level": 90,
+    "potentialLevel": 0,
+    "skillInfo": {
+     "levelInfo": [
+      {
+       "skillId": "chr_9999_nobody_NormalSkill",
+       "skillLevel": 3
+      }
+     ]
+    }
+   },
+   "expected": null
+  }
+ ]
+}

@@ -10,6 +10,8 @@ import { useEffect, useState } from 'react';
 
 import { assertBundle, attachRoster, type Bundle } from '@engine/index.js';
 
+import { asRoster, loadShowcase } from './showcaseRoster.js';
+
 /**
  * In a build the URL carries the bundle's hash, so a cached copy from the
  * previous deploy is never read. The dev server rewrites the file in place
@@ -21,15 +23,19 @@ const CACHE: RequestCache = import.meta.env?.DEV ? 'no-store' : 'default';
 
 /**
  * The user's own roster, written next to the bundle by `export.py` for local
- * use. A public build has none, and the page works without it.
+ * use. A public build has none: there a showcase imported in this browser
+ * stands in (`showcaseRoster.ts`), and the page works without either.
  */
 async function loadRoster(bundle: Bundle): Promise<void> {
   try {
     const response = await fetch('data/roster.json', { cache: 'no-store' });
-    if (response.ok) attachRoster(bundle, await response.json());
+    if (response.ok && attachRoster(bundle, await response.json())) return;
   } catch {
     // No roster is a normal state, not an error.
   }
+  // The site has no roster.json: a showcase imported in this browser stands in.
+  const stored = await loadShowcase();
+  if (stored) bundle.roster = asRoster(stored);
 }
 
 export type LoadState =

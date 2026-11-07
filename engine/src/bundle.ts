@@ -11,7 +11,7 @@ import type { SpTable } from './simulate.js';
 import type { Timings } from './timing.js';
 import type { Synergy } from './triggers.js';
 
-export const SCHEMA = 39;
+export const SCHEMA = 40;
 
 /**
  * A number's unit. It exists because in the wiki's source data percentages
@@ -493,6 +493,8 @@ export interface Bundle {
   synergy: Synergy;
   /** The rotations/*.rot files as is: the engine parses them. */
   rotations: Record<string, { name: string; text: string }>;
+  /** Tables for reading an Enka showcase in the page (`showcase.ts`); null without them. */
+  showcase?: ShowcaseTables | null;
   /** Operator aliases from roster/aliases.yaml. */
   aliases: Record<string, string[]>;
   counts: Record<string, number>;
@@ -539,6 +541,19 @@ export function attachRoster(bundle: Bundle, payload: unknown): boolean {
 }
 
 // ----------------------------------------------------------------- roster
+
+/**
+ * What `tools/ef/profile.py tables` decided for reading a showcase: Enka's
+ * `templateId` → our weapon and gear names, essence term families, the
+ * column rule's offset for stats, the skill suffixes.
+ */
+export interface ShowcaseTables {
+  weapons: Record<string, string>;
+  gear: Record<string, { name: string; set: string | null }>;
+  skillKinds: Record<string, 'basic' | 'battle' | 'combo' | 'ultimate'>;
+  termFamilies: Record<string, { family: string; confidence: 'confirmed' | 'inferred' }>;
+  statColumnOffset: number;
+}
 
 /**
  * Where a value came from.
