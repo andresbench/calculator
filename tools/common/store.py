@@ -44,7 +44,7 @@ def redirect_target(content: str) -> str | None:
     """The target of a ``#REDIRECT [[Target]]`` page, ``None`` for any other text.
 
     Such a page is an alias, not content: a mechanics page saved this way ended
-    up in the build as an overview reading ``#REDIRECT Arts Burst`` (В33).
+    up in the build as an overview reading ``#REDIRECT Arts Burst`` (audit B33).
     """
     match = _REDIRECT_RE.match(content)
     return match.group(1).strip() if match else None

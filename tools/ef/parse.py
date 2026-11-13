@@ -126,7 +126,7 @@ def raw_pages(directory: Path) -> list[tuple[Path, str]]:
 
     A ``#REDIRECT [[…]]`` page is an alias, not content; four of them used to
     come out as mechanics with an ``overview`` reading "#REDIRECT Arts Burst"
-    (В33). Each skipped page is printed once per run.
+    (audit B33). Each skipped page is printed once per run.
     """
     pages: list[tuple[Path, str]] = []
     for path in sorted(directory.glob("*.wiki")) if directory.exists() else []:
@@ -148,7 +148,7 @@ def parse_module(path: Path, label: str) -> dict | list:
     """``parse_assignment(…, "data")`` that fails loudly.
 
     A failure used to print a line and carry on with ``{}``, and the build
-    wrote an empty JSON and exited 0 (В34). Now it stops the file.
+    wrote an empty JSON and exited 0 (audit B34). Now it stops the file.
     """
     try:
         return parse_assignment(path.read_text(encoding="utf-8"), "data")

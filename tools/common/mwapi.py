@@ -148,7 +148,7 @@ class MWClient:
 
         The key is the title the caller asked for, not the page that answered:
         without ``redirects=1`` the wiki returned ``#REDIRECT [[Arts Burst]]``
-        as the content of ``Cryo Burst`` and it was stored as such (В33). A
+        as the content of ``Cryo Burst`` and it was stored as such (audit B33). A
         redirect is now reported through the second element, so the caller
         decides what to do with an alias. A bare normalisation (underscores,
         a lower-case first letter) is not a redirect.
