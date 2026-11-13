@@ -15,7 +15,8 @@
  *   energy;
  * * a battle skill cast gives the whole team 6.5 energy per 100 SP spent
  *   (not returned);
- * * a combo gives its caster 10 energy unless the skill says otherwise.
+ * * a combo gives its caster the sum of its energy rows (`gainComboEnergy`),
+ *   10 if the skill has none.
  */
 
 import type { Bundle, Operator, Skill, SkillEnhancedBasic, SkillGrant, SkillType } from './bundle.js';
@@ -75,9 +76,13 @@ export const SP_CAP = 300;
 export const SP_REGEN_PER_SECOND = 8;
 /** Energy to the whole team per 100 SP spent (returned SP does not count). */
 export const ENERGY_PER_100_SP = 6.5;
-/** Ultimate energy an operator can hold. */
+/**
+ * Ultimate energy an operator can hold when the data has no ultimate cost:
+ * the bar holds the ultimate's cost, which «varies between different
+ * Operators» (wiki, `Ultimate Energy`; 220–300 for four operators).
+ */
 export const ENERGY_CAP = 200;
-/** Energy a combo gives its caster when the skill does not say otherwise. */
+/** Energy a combo gives its caster when the skill has no energy row at all (`gainComboEnergy`). */
 export const COMBO_ENERGY = 10;
 /**
  * Link bonus by the number of Link buffs spent at once (wiki, `Link`): the
@@ -411,16 +416,12 @@ export interface Frame {
   /** This step's verdicts; a key is stable between passes. Text: `formatMessage`. */
   verdicts: Map<string, Message>;
   /**
-   * Combos whose trigger is open after this step, and when they can be
-   * pressed (end of the step or end of the cooldown). The track draws a
+   * Combos lit after this step: when each can be pressed (`at` — end of the
+   * step or of the cooldown), and the moment its trigger fired (`openedAt`,
+   * #65) — a new moment is a new lighting, even if the combo was lit before.
+   * `by` — the step whose hit opened it inside this one: a background battle
+   * skill landing mid-step (#63); `at` is then that hit. The track draws a
    * "combo available" hint from them even if the rotation does not use it.
-   * `by` — the step whose hit opened it inside this one: a background
-   * battle skill landing mid-step (#63); `at` is then that hit.
-   */
-  /**
-   * Combos lit after this step: when each can be pressed (`at`), and the
-   * moment its trigger fired (`openedAt`, #65) — a new moment is a new
-   * lighting, even if the combo was lit before.
    */
   combos: Array<{ key: string; at: number; by?: number; openedAt?: number }>;
   /** What the step applied to the target, and who: `applies:` buffs trigger on it. */
@@ -493,8 +494,7 @@ export interface Frame {
   controlled: string | null;
   /**
    * What the press held, seconds from `world` (`Holds`). `duration` is
-   * `holds.own`: how long the operator is busy. Under `schedule: 'steps'`
-   * every hold is the duration.
+   * `holds.own`: how long the operator is busy.
    */
   holds: Holds;
   /**
@@ -871,6 +871,13 @@ export function ultimateCost(member: TeamMember, modifiers: SimModifiers = {}): 
   return base * (1 + (modifiers.ultCostPct ?? 0));
 }
 
+/** The energy an operator's bar holds: the ultimate's cost; `ENERGY_CAP` without one. */
+function energyCap(s: SimState, key: string): number {
+  const member = s.team.get(key);
+  const cost = member ? ultimateCost(member, s.modifiers[key]) : 0;
+  return cost > 0 ? cost : ENERGY_CAP;
+}
+
 /**
  * Effective combo priority: the custom list first, then team order.
  *
@@ -905,6 +912,8 @@ export function simulate(
   s.controlled = controlledAtStart(steps, team, opts.controlled ?? null);
   const start = s.controlled;
   const frames: Frame[] = [];
+  /** The last frame that ran a step and the step's context: what still lands after the end goes there. */
+  let tail: { c: StepContext; frame: Frame } | null = null;
 
   for (const [stepIndex, step] of steps.entries()) {
     s.next = steps[stepIndex + 1] ?? null;
@@ -950,14 +959,14 @@ export function simulate(
     }
 
     if (FILLER_KINDS.has(step.kind)) {
-      frames.push(filler(s, step, member));
+      tail = filler(s, step, member);
+      frames.push(tail.frame);
       continue;
     }
 
     const c = newStep(s, step, member);
     expire(s, c);
     landInFlight(s, c);
-    const staggeredAtStart = s.target.staggered;
     takeControl(s, c);
     // `CS1 > CS2` continues the same cast and does not break a block of
     // simultaneous combos; any other action does.
@@ -981,6 +990,9 @@ export function simulate(
     spendLink(s, c);
     cutComboCooldown(s, c);
     castCombo(s, c);
+    // The waits are behind (SP, cooldown): what the meter shows now is what
+    // the cast's hits go by (A1 for the stagger).
+    const staggeredAtStart = s.target.staggered;
     slowWorld(s, c);
     finalStrikeAndFinisher(s, c);
     buildStagger(s, c);
@@ -994,6 +1006,7 @@ export function simulate(
     landBeforeOwnHit(s, c);
     c.before = cloneTarget(s.target);
     consumeOwn(s, c);
+    gainComboEnergy(s, c);
     applyOwn(s, c);
     applyEnhancedBasic(s, c);
     applyDuringUltimate(s, c);
@@ -1017,7 +1030,7 @@ export function simulate(
     const spRecovered = recoverSp(s, c);
     returnSpOnConsume(s, c);
 
-    frames.push({
+    const frame: Frame = {
       step: c.step,
       world: s.world,
       real: s.real,
@@ -1042,11 +1055,15 @@ export function simulate(
       duringUltimate: c.duringUltimate?.move ?? null,
       stock: c.stock,
       detonated: c.detonated,
+      // What this cast itself ate: a hit in flight from another operator
+      // landing in this step eats for its own caster, not for this one.
       stacksForHit:
         c.status.reduce(
           (sum, event) =>
             sum +
-            (event.kind === 'consumesInfliction' || event.kind === 'consumesVulnerable' ? (event.consumed ?? 0) : 0),
+            ((event.kind === 'consumesInfliction' || event.kind === 'consumesVulnerable') && event.by === c.member.key
+              ? (event.consumed ?? 0)
+              : 0),
           0,
         ) || c.triggerStacks,
       moves: c.moves,
@@ -1057,11 +1074,16 @@ export function simulate(
       controlled: s.controlled,
       holds,
       clientTimed: c.clientTimed,
-    });
+    };
+    frames.push(frame);
+    tail = { c, frame };
     noteControlled(s, c.step);
 
     // The clock moves at the next press.
   }
+  // A hit still in flight when the last press is over comes down all the
+  // same: on the last frame, at its own time, which may be past the end (audit B6).
+  if (tail && s.pending.some((item) => item.landsAt != null)) drainInFlight(s, tail.c, tail.frame);
   // The rotation ends when the last action does.
   moveTo(s, finishAt(s));
   for (const frame of frames) frame.dilations = s.dilations;
@@ -1134,7 +1156,7 @@ interface SimState {
   readonly strikes: Map<string, number>;
   /**
    * When a Final Strike's hit lands, by its step: an action trigger opens on
-   * the hit, not on the press (`chainHits`, ENGINE_CORE_PLAN.md Я3).
+   * the hit, not on the press (`chainHits`, ENGINE_CORE_PLAN.md stage Ya3).
    */
   readonly strikeHits: Map<number, { at: number; actor: string; from: number; after: number }>;
   /** When a combo's first hit lands, by its step: a combo opened by another combo lights up on it (#66). */
@@ -1180,7 +1202,16 @@ interface SimState {
   /** An operator's own stacks (`Synergy.ownStacks`): Laevatain's Melting Flame. */
   readonly ownStacks: Map<string, number>;
   /** An ultimate's enhanced basic attack, by operator, until when (`Skill.enhancedBasic`). */
-  readonly enhancedBasic: Map<string, { entry: SkillEnhancedBasic; skill: Skill; until: number }>;
+  readonly enhancedBasic: Map<
+    string,
+    {
+      entry: SkillEnhancedBasic;
+      skill: Skill;
+      until: number;
+      /** World intervals its battle skill or combo paused it for: the window does not tick there, slowdown or not (audit B8). */
+      paused: Array<{ from: number; to: number }>;
+    }
+  >;
   /** Points a cast generated and other steps spend, by owner (`Synergy.charges`). */
   readonly charges: Map<string, { skill: Skill; level: number; entry: ChargeEntry; left: number; until: number | null; step: number }>;
   /** Effect hits with Stagger (`StaggerModifiers.hits`): when each may fire again, by `operator:name`. */
@@ -1426,7 +1457,7 @@ function slowWorld(s: SimState, c: StepContext): void {
   cutSlowdown(s);
   const scale = s.timings.comboTimeScale ?? 0;
   s.dilations.push({ from: s.world, until: s.world + seconds, exempt: c.member.key, step: c.step.index, scale, timers: true });
-  retime(s, stretch(s.world, seconds, scale));
+  retime(s, stretch(s.world, seconds, scale), { from: s.world, to: s.world + seconds });
   rewarp(s);
   markSp(s);
   c.verdicts.set(`${c.step.index}:slows`, { code: 'comboSlowsWorld', seconds });
@@ -1443,7 +1474,7 @@ function tEnd(s: SimState, seconds: number): number {
  * the rest back (#70). Cooldowns are not timers here: they tick unscaled
  * (`useTimeScaleForSkillCdTick: false`, sp.yaml).
  */
-function retime(s: SimState, map: (end: number) => number): void {
+function retime(s: SimState, map: (end: number) => number, span: { from: number; to: number }): void {
   const live = (end: number) => (Number.isFinite(end) && end > s.world ? map(end) : end);
   for (const debuff of s.target.debuffs) if (debuff.expiresAt != null) debuff.expiresAt = live(debuff.expiresAt);
   for (const mark of s.target.marks) mark.expiresAt = live(mark.expiresAt);
@@ -1455,13 +1486,25 @@ function retime(s: SimState, map: (end: number) => number): void {
   }
   for (const [key, until] of s.stances) s.stances.set(key, live(until));
   for (const [key, until] of s.switchedUntil) s.switchedUntil.set(key, live(until));
-  for (const window of s.enhancedBasic.values()) window.until = live(window.until);
+  // A window paused through part of the slowdown is slowed only for the rest of it.
+  for (const window of s.enhancedBasic.values()) {
+    const share = 1 - pausedShare(window.paused, span);
+    window.until += (live(window.until) - window.until) * share;
+  }
   for (const window of s.transformed.values()) if (window.until != null) window.until = live(window.until);
   for (const charge of s.charges.values()) if (charge.until != null) charge.until = live(charge.until);
   for (const fuse of s.fuses.values()) fuse.until = live(fuse.until);
   for (const [key, ends] of s.stocks) s.stocks.set(key, ends.map(live));
   for (const item of s.pending) item.expiresAt = live(item.expiresAt);
   for (const item of s.armed) item.until = live(item.until);
+}
+
+/** The part of `span` that falls inside the pauses: 0 — none, 1 — all of it. */
+function pausedShare(paused: Array<{ from: number; to: number }>, span: { from: number; to: number }): number {
+  const length = span.to - span.from;
+  if (length <= 0) return 0;
+  const inside = paused.reduce((sum, pause) => sum + Math.max(0, Math.min(span.to, pause.to) - Math.max(span.from, pause.from)), 0);
+  return Math.min(1, inside / length);
 }
 
 /** A timer slowdown `[from, from + length)` at `scale` starts: stretch what runs through it. */
@@ -1478,7 +1521,7 @@ function unstretch(from: number, length: number, scale: number): (end: number) =
 function cutSlowdown(s: SimState): void {
   const last = s.dilations.at(-1);
   if (!last || last.until <= s.world) return;
-  if (last.timers) retime(s, unstretch(s.world, last.until - s.world, last.scale));
+  if (last.timers) retime(s, unstretch(s.world, last.until - s.world, last.scale), { from: s.world, to: last.until });
   last.until = s.world;
 }
 
@@ -1491,7 +1534,11 @@ function rewarp(s: SimState): void {
       item.landsAt = warp(s.dilations, item.landsFrom, item.landsAfter, item.member.key);
     }
   }
-  for (const hit of [...s.strikeHits.values(), ...s.comboHits.values()]) hit.at = warp(s.dilations, hit.from, hit.after, hit.actor);
+  // A new slowdown moves only what has not landed yet: the maps keep every
+  // hit of the rotation, and re-warping the past was O(n²) on long tracks.
+  for (const hit of [...s.strikeHits.values(), ...s.comboHits.values()]) {
+    if (hit.at > s.world - 1e-9) hit.at = warp(s.dilations, hit.from, hit.after, hit.actor);
+  }
 }
 
 /** Until when natural SP regen stands still at `at`: a perfect dodge, a cutscene, a combo's slowdown; `null` — it runs. */
@@ -1587,7 +1634,7 @@ function newStep(s: SimState, given: RotStep, member: TeamMember): StepContext {
       s.switchedUntil.delete(member.key);
       verdicts.set(`${step.index}:phase`, { code: 'secondPhase', to: skill.switch.to });
     } else if (skill.switch.window != null) {
-      s.switchedUntil.set(member.key, s.world + skill.switch.window);
+      s.switchedUntil.set(member.key, tEnd(s, skill.switch.window));
     }
   }
   if (!skill && !filler) problems.push({ code: 'noSkill', operator: member.key, skill: skillType });
@@ -1773,12 +1820,43 @@ function secondsToSp(s: SimState, cost: number): number {
  * a source of time — the engine waits exactly as long as the data says.
  */
 function wait(s: SimState, c: StepContext, seconds: number, reason: string): void {
+  const end = s.world + seconds;
+  while (s.world < end - 1e-12) waitSegment(s, c, end - s.world, false);
+  s.waits.push({ step: c.step.index, seconds, reason });
+}
+
+/**
+ * One stretch of a wait, up to `limit` seconds: it ends early where a hit
+ * in flight lands (and, for an SP wait, where SP that is already on its way
+ * arrives), so the hit lands at its own time, with what it eats and what it
+ * recovers, before the wait goes on (audit 2026-11-12, B5). Returns the time spent.
+ */
+function waitSegment(s: SimState, c: StepContext, limit: number, forSp: boolean): number {
+  const events = [
+    ...s.pending.map((item) => item.landsAt ?? Infinity),
+    ...(forSp ? s.spLater.map((item) => item.at) : []),
+  ].filter((at) => at > s.world + 1e-9);
+  const seconds = Math.min(limit, ...events.map((at) => at - s.world));
   s.waited += seconds;
   s.real += seconds;
   advance(s, seconds);
-  s.waits.push({ step: c.step.index, seconds, reason });
   expire(s, c);
   landInFlight(s, c);
+  return seconds;
+}
+
+/**
+ * Waits until SP reaches `cost`. How long that takes is read again after
+ * every hit that lands on the way: a Breach that recovers SP shortens it.
+ */
+function waitForSp(s: SimState, c: StepContext, cost: number): void {
+  const start = s.world;
+  while (s.sp < cost - 1e-9) {
+    const need = secondsToSp(s, cost);
+    if (!Number.isFinite(need) || need <= 1e-12) break;
+    waitSegment(s, c, need, true);
+  }
+  if (s.world > start) s.waits.push({ step: c.step.index, seconds: s.world - start, reason: 'SP regenerating' });
 }
 
 /**
@@ -1952,6 +2030,21 @@ function landInFlight(s: SimState, c: StepContext, horizon = s.world): { at: num
   return { at: last.landsAt!, step: last.step };
 }
 
+/**
+ * The hits still in flight after the last press, delivered on the last
+ * frame: its target, the combos they open and the SP they recover are read
+ * again. Nothing waits for them any more, so none of it moves the clock.
+ */
+function drainInFlight(s: SimState, c: StepContext, frame: Frame): void {
+  const openBefore = openKeys(s);
+  const landed = landInFlight(s, c, Infinity);
+  if (!landed) return;
+  frame.target = cloneTarget(s.target);
+  frame.combos = openCombos(s, frame.holds.input, { before: openBefore, ...landed });
+  frame.spRecoveredBy = recoveredBy(c, frame.spRecovered);
+  if (c.applied.length > 0) c.verdicts.set(`${c.step.index}:applies`, { code: 'applies', terms: [...new Set(c.applied)].sort() });
+}
+
 // ------------------------------------------------------------- resources
 
 /**
@@ -1966,7 +2059,7 @@ function payBattleSkill(s: SimState, c: StepContext): void {
   if (s.unlimitedSp) s.sp = SP_CAP;
   const ready = s.sp >= cost;
   c.verdicts.set(`${step.index}:sp`, { code: ready ? 'spEnough' : 'spWaiting' });
-  if (!ready) wait(s, c, secondsToSp(s, cost), 'SP regenerating');
+  if (!ready) waitForSp(s, c, cost);
   s.sp = Math.max(0, s.sp - cost);
   markSp(s);
   // Only a return the cast always gives: Tangtang's «SP Return per Whirlpool» waits on whirlpools.
@@ -1980,7 +2073,7 @@ function payBattleSkill(s: SimState, c: StepContext): void {
   s.sp = s.unlimitedSp ? SP_CAP : Math.min(SP_CAP, s.sp + returned + onCast);
   markSp(s);
   const gained = (spent / 100) * ENERGY_PER_100_SP;
-  for (const key of Object.keys(s.energy)) s.energy[key] = Math.min(ENERGY_CAP, s.energy[key]! + gained);
+  for (const key of Object.keys(s.energy)) s.energy[key] = Math.min(energyCap(s, key), s.energy[key]! + gained);
 }
 
 /**
@@ -2044,7 +2137,7 @@ function openEnhancedBasic(s: SimState, c: StepContext): void {
   for (const { term } of entry.applies) c.exclude.add(term);
   const seconds = statAt(skill, entry.window, level);
   if (seconds == null) return;
-  s.enhancedBasic.set(member.key, { entry, skill, until: tEnd(s, seconds) });
+  s.enhancedBasic.set(member.key, { entry, skill, until: tEnd(s, seconds), paused: [] });
   c.verdicts.set(`${step.index}:enhancedBasic`, { code: 'enhancedBasicGained', move: entry.move, until: tEnd(s, seconds) });
 }
 
@@ -2057,6 +2150,9 @@ function pauseEnhancedBasic(s: SimState, c: StepContext, duration: number): void
   const window = s.enhancedBasic.get(c.member.key);
   if (!window || s.world >= window.until || !window.entry.pausedBy.includes(c.skillType)) return;
   if (c.step.kind === 'ULT') return;
+  // The pause pushes the end by its length; a slowdown inside it pushes
+  // nothing more (`retime`): a timer that stands still is not slowed.
+  window.paused.push({ from: s.world, to: s.world + duration });
   window.until += duration;
   c.verdicts.set(`${c.step.index}:enhancedPaused`, { code: 'enhancedBasicPaused', move: window.entry.move, until: window.until });
 }
@@ -2137,7 +2233,7 @@ function plantFuse(s: SimState, c: StepContext): void {
   if (!skill || step.kind !== 'BS') return;
   const entry = Object.values(s.synergy.detonates?.[member.key] ?? {}).find((item) => item.skill === skill.name);
   if (!entry) return;
-  s.fuses.set(member.key, { skill: skill.name, until: entry.fuse == null ? Infinity : s.world + entry.fuse, step: step.index });
+  s.fuses.set(member.key, { skill: skill.name, until: entry.fuse == null ? Infinity : tEnd(s, entry.fuse), step: step.index });
 }
 
 /** The ultimate cast while the charge is still stuck sets it off: its hit lands at this step. */
@@ -2234,7 +2330,7 @@ function spendOwnStacks(s: SimState, c: StepContext): void {
   c.status.push({ term: entry.name, kind: 'buffSpent', consumed: have, by: member.key });
   // The swapped-in cast has no `extra_usp` in the client: no energy inside the ultimate.
   const energy = entry.spentBy.energy && !c.duringUltimate ? (statAt(skill, entry.spentBy.energy, level) ?? 0) : 0;
-  if (energy > 0) s.energy[member.key] = Math.min(ENERGY_CAP, (s.energy[member.key] ?? 0) + energy);
+  if (energy > 0) s.energy[member.key] = Math.min(energyCap(s, member.key), (s.energy[member.key] ?? 0) + energy);
   c.verdicts.set(`${step.index}:ownStacks`, { code: 'ownStacksSpent', term: entry.name, spent: have, energy });
 }
 
@@ -2416,7 +2512,7 @@ function spendLink(s: SimState, c: StepContext): void {
  * A dodge or a pause: time passes, and nothing else happens — except the SP
  * of a perfect dodge, which also holds natural regen for a moment.
  */
-function filler(s: SimState, step: RotStep, member: TeamMember): Frame {
+function filler(s: SimState, step: RotStep, member: TeamMember): { c: StepContext; frame: Frame } {
   const c = newStep(s, step, member);
   expire(s, c);
   takeControl(s, c);
@@ -2444,11 +2540,11 @@ function filler(s: SimState, step: RotStep, member: TeamMember): Frame {
     cooldowns: Object.fromEntries(s.readyAt),
     target: cloneTarget(s.target),
     staggeredAtStart: s.target.staggered,
-    status: [],
+    status: c.status,
     problems: c.problems,
     verdicts: c.verdicts,
     combos: openCombos(s, duration),
-    applied: [],
+    applied: c.appliedBy,
     spRecovered: 0,
     spRecoveredBy: {},
     charges: [],
@@ -2471,7 +2567,20 @@ function filler(s: SimState, step: RotStep, member: TeamMember): Frame {
   noteControlled(s, step);
   hold(s, member.key, frame.holds, step.kind);
   s.pressedAt.set(step.index, s.world);
-  return frame;
+  // A hit in flight comes down in a pause as it does in a cast: what lands
+  // before the next press lands on this step, stamped with its own time
+  // (audit 2026-11-12, B6). Without it the hit waited for the next press, and
+  // for a rotation ending in a pause nobody delivered it at all.
+  const openBefore = openKeys(s);
+  const until = s.next ? pressGate(s, s.next) : finishAt(s);
+  const landed = landInFlight(s, c, until - 1e-9);
+  if (landed) {
+    frame.target = cloneTarget(s.target);
+    frame.combos = openCombos(s, duration, { before: openBefore, ...landed });
+    frame.spRecoveredBy = recoveredBy(c, 0);
+    if (c.applied.length > 0) c.verdicts.set(`${step.index}:applies`, { code: 'applies', terms: [...new Set(c.applied)].sort() });
+  }
+  return { c, frame };
 }
 
 /**
@@ -2682,8 +2791,64 @@ function castCombo(s: SimState, c: StepContext): void {
     ((statAt(skill, 'Cooldown', c.level) ?? 0) + (mod?.cooldownFlat?.['Combo Skill'] ?? 0)) *
     (1 + (mod?.cooldownPct?.['Combo Skill'] ?? 0));
   s.readyAt.set(readyKey, s.world + Math.max(0, cooldown));
-  const gain = statAt(skill, /Ultimate Energy Gain/i, c.level) ?? COMBO_ENERGY;
-  s.energy[member.key] = Math.min(ENERGY_CAP, (s.energy[member.key] ?? 0) + gain);
+}
+
+/**
+ * The Ultimate Energy a combo step gives its caster: the sum of its energy
+ * rows by role (`export.py`, `energy_roles`), not the first row called
+ * `Ultimate Energy Gain` (audit 2026-11-12, B2). Last Rite's combo is
+ * `Base` 40 plus 15 per Cryo Infliction stack it ate (85-100), Rossi's two
+ * sequences give 10 each, Yvonne's «Additional» comes when the combo hits,
+ * Zhuang Fangyi's adds 10 per Electric Infliction stack.
+ *
+ * * `base` and `onHit` come once per cast, with its first stage — a lone `CS`
+ *   or `CS1`. `onHit` counts: the dummy is always hit; a row for more than
+ *   one enemy (`targets`) does not, the target is one enemy;
+ * * `perSequence` comes with its own stage, or all at once on a lone `CS`;
+ * * `perStack` is multiplied by the stacks of its kind this step's own cast
+ *   consumed (`status` events `by` the caster, as `Frame.stacksForHit`).
+ *   Read after `consumeOwn`, so it sees the combo's own consumption. A
+ *   consumption that happens later, on a hit still in flight, is not seen:
+ *   no combo in the data defers its eating, but one that did would give its
+ *   per-stack energy for nothing.
+ *
+ * A combo with no energy row at all gives `COMBO_ENERGY`.
+ */
+function gainComboEnergy(s: SimState, c: StepContext): void {
+  const { skill, step, member } = c;
+  if (!skill || step.kind !== 'CS') return;
+  const rows = skill.stats.filter((row) => row.energy && row.move == null);
+  // The cast's first stage: a lone `CS` or `CS1`.
+  const first = step.sequence == null || step.sequence === 1;
+  let gain = 0;
+  if (rows.length === 0) {
+    if (first) gain = COMBO_ENERGY;
+  } else {
+    const index = levelIndex(c.level);
+    const ate = (kind: StatusEvent['kind']): number =>
+      c.status.reduce((sum, event) => sum + (event.kind === kind && event.by === member.key ? (event.consumed ?? 0) : 0), 0);
+    for (const row of rows) {
+      const role = row.energy!;
+      const value = row.values[index] ?? 0;
+      switch (role.role) {
+        case 'base':
+          if (first) gain += value;
+          break;
+        case 'onHit':
+          if (first && (role.targets ?? 1) === 1) gain += value;
+          break;
+        case 'perSequence':
+          if (step.sequence == null || step.sequence === role.sequence) gain += value;
+          break;
+        case 'perStack':
+          gain += value * ate(role.stack === 'vulnerable' ? 'consumesVulnerable' : 'consumesInfliction');
+          break;
+        case 'conditional':
+          break;
+      }
+    }
+  }
+  s.energy[member.key] = Math.min(energyCap(s, member.key), (s.energy[member.key] ?? 0) + gain);
 }
 
 /**
@@ -2842,7 +3007,7 @@ function addStagger(s: SimState, c: StepContext, by: string, base: number): void
   s.target.stagger += applied;
   if (s.target.stagger >= s.enemy.staggerMeter) {
     s.target.staggered = true;
-    s.target.staggeredUntil = s.world + s.enemy.staggerRecovery;
+    s.target.staggeredUntil = tEnd(s, s.enemy.staggerRecovery);
     s.strikes.set('STG', step.index);
     c.verdicts.set(`${step.index}:stagger`, { code: 'targetStaggered' });
     return;
@@ -3081,7 +3246,7 @@ function consumeOwn(s: SimState, c: StepContext): void {
     const first = status.length;
     if (term === 'Vulnerable') {
       if (target.vulnerable > 0) {
-        status.push({ term, kind: 'consumesVulnerable', consumed: target.vulnerable });
+        status.push({ term, kind: 'consumesVulnerable', consumed: target.vulnerable, by: member.key });
         eaten.push({ term: 'Vulnerable', count: target.vulnerable });
         markConsumed(s, c, 'Vulnerable', target.vulnerable);
         target.vulnerable = 0;
@@ -3094,7 +3259,7 @@ function consumeOwn(s: SimState, c: StepContext): void {
         if (consumed === 0) continue;
         target.inflictions[element] = 0;
         markConsumed(s, c, `${element} Infliction`, consumed);
-        status.push({ term: `${element} Infliction`, kind: 'consumesInfliction', consumed, element });
+        status.push({ term: `${element} Infliction`, kind: 'consumesInfliction', consumed, element, by: member.key });
         eaten.push({ term: `${element} Infliction`, count: consumed });
       }
     } else {
@@ -3424,7 +3589,7 @@ function deliverTerms(s: SimState, c: StepContext, by: TeamMember, bySkill: Skil
           note(s, c, reaction);
           note(s, c, 'Arts Reaction');
           addDebuff(s, reaction, by.key, reactionSeconds(reaction, consumed, bonusOf(reaction)), consumed);
-          status.push({ term: reaction, kind: 'consumesInfliction', consumed, element: standing });
+          status.push({ term: reaction, kind: 'consumesInfliction', consumed, element: standing, by: by.key });
           status.push({ term: reaction, kind: 'other' });
           verdicts.set(`${step.index}:statusLevel:${reaction}`, { code: 'statusLevel', level: consumed });
           verdicts.set(`${step.index}:reaction`, { code: 'reaction', element, standing, consumed, reaction });

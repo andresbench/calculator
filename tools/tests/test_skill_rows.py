@@ -7,7 +7,7 @@ measurements #23 for Pogranichnik).
 
 import unittest
 
-from tools.ef.export import hit_counts, hit_roles, skill_stats, sp_roles, ultimate_phases
+from tools.ef.export import energy_roles, hit_counts, hit_roles, skill_stats, sp_roles, ultimate_phases
 from tools.tests.support import row, skill
 
 
@@ -79,6 +79,76 @@ class HitCounts(unittest.TestCase):
         self.assertFalse(any("count" in r["hit"] for r in stats))
 
 
+class RepeatedHits(unittest.TestCase):
+    """Rows that hit again and again: a missing count is one hit, so it must be said (В31).
+
+    Real texts from ``operators.json``. The tick convention (first tick at the
+    press or one interval later) is in no text; ``floor(duration / interval)``
+    holds for both, and these tests pin that, not an exact tick schedule.
+    """
+
+    def test_damage_over_time_is_duration_over_interval(self):
+        # 0.5 s interval, 5.0 s duration.
+        stats, _ = skill_stats(skill("Snowshine", "Ultimate"))
+        self.assertEqual(row(stats, "DMG Over Time Multiplier")["hit"]["count"], 10)
+        self.assertNotIn("count", row(stats, "Explosion DMG Multiplier")["hit"])
+
+    def test_one_hit_every_interval_from_the_text(self):
+        # "Each enemy can only take 1 damaging hit every 0.3s", duration 3.0 s.
+        stats, _ = skill_stats(skill("Ardelia", "Ultimate"))
+        self.assertEqual(row(stats, "DMG Multiplier")["hit"]["count"], 10)
+
+    def test_the_fifth_hail_is_the_empowered_one(self):
+        stats, _ = skill_stats(skill("Typhoeus", "Ultimate"))
+        self.assertEqual(row(stats, "Normal Hail of Arrows DMG")["hit"]["count"], 4)
+        self.assertNotIn("count", row(stats, "Empowered Hail of Arrows DMG")["hit"])
+        self.assertNotIn("count", row(stats, "Imbued Arrow Explosion DMG")["hit"])
+
+    def test_the_fifth_abatk_is_the_final_strike_row(self):
+        stats, _ = skill_stats(skill("Typhoeus", "Battle Skill"))
+        self.assertEqual(row(stats, "ABATK DMG")["hit"]["count"], 4)
+        self.assertNotIn("count", row(stats, "Aerial Final Strike DMG")["hit"])
+        self.assertNotIn("count", row(stats, "Initial Aerial Shot DMG Multiplier")["hit"])
+
+    def test_over_time_without_a_tick_rate_is_unknown(self):
+        stats, _ = skill_stats(skill("Typhoeus", "Combo Skill"))
+        self.assertIsNone(row(stats, "Area DMG Over Time")["hit"]["count"])
+        self.assertNotIn("count", row(stats, "\"Huntress's Gaze\" Hit DMG")["hit"])
+
+    def test_strikes_that_follow_the_stacks_are_unknown(self):
+        stats, _ = skill_stats(skill("Zhuang Fangyi", "Battle Skill"))
+        self.assertIsNone(row(stats, "Thunder Strike DMG Multiplier")["hit"]["count"])
+
+    def test_a_total_over_the_duration_is_one_hit(self):
+        # Tangtang: "DMG Over Time Total Multiplier" is the sum, not a per-tick number.
+        stats, _ = skill_stats(skill("Tangtang", "Ultimate"))
+        self.assertNotIn("count", row(stats, "DMG Over Time Total Multiplier")["hit"])
+
+    def test_laevatain_ticks_stay_with_the_client_summon(self):
+        # `hit_counts` leaves her row unknown; the client's summon fills it in later.
+        stats, _ = skill_stats(skill("Laevatain", "Battle Skill"))
+        self.assertIsNone(row(stats, "DMG Over Time Multiplier per SEQ")["hit"]["count"])
+
+    def test_tick_count_edges(self):
+        def count(*extra):
+            stats = rows("DMG Over Time Multiplier") + [
+                {"label": label, "unit": "sec", "values": values} for label, values in extra
+            ]
+            hit_roles("Ultimate", stats)
+            hit_counts({"text": ""}, stats)
+            return stats[0]["hit"]["count"]
+
+        self.assertEqual(count(("DMG Over Time Interval (s)", [0.5, 0.5]), ("Duration (s)", [5.0, 5.0])), 10)
+        # An interval that does not divide the duration: floor, no tick is made up.
+        self.assertEqual(count(("DMG Over Time Interval (s)", [0.4]), ("Duration (s)", [5.0])), 12)
+        # Either row missing, or one that changes with the level: unknown.
+        self.assertIsNone(count(("Duration (s)", [5.0])))
+        self.assertIsNone(count(("DMG Over Time Interval (s)", [0.5])))
+        self.assertIsNone(count(("DMG Over Time Interval (s)", [0.5, 0.4]), ("Duration (s)", [5.0, 5.0])))
+        # Another row's interval ("Beat Interval (s)") is not this row's.
+        self.assertIsNone(count(("Beat Interval (s)", [0.5]), ("Duration (s)", [5.0])))
+
+
 class UltimatePhases(unittest.TestCase):
     def test_arcane_array_then_arcana(self):
         stats, extras = skill_stats(skill("Arcane", "Ultimate"))
@@ -126,6 +196,94 @@ class SpRoles(unittest.TestCase):
         stats = rows("SP Cost", unit="sp")
         sp_roles(stats)
         self.assertNotIn("sp", stats[0])
+
+
+class EnergyRoles(unittest.TestCase):
+    """A combo's energy is the sum of its rows, not the first one (audit В2)."""
+
+    @staticmethod
+    def roles(operator: str) -> dict[str, dict]:
+        stats, _ = skill_stats(skill(operator, "Combo Skill"))
+        return {r["label"]: r["energy"] for r in stats if "energy" in r}
+
+    def test_a_plain_combo_has_one_base_row(self):
+        self.assertEqual(self.roles("Chen Qianyu"), {"Ultimate Energy Gain": {"role": "base"}})
+
+    def test_last_rite_base_and_a_gain_per_infliction_stack(self):
+        # "determines the amount of Cryo DMG dealt … and Ultimate Energy gained by Last Rite".
+        self.assertEqual(
+            self.roles("Last Rite"),
+            {
+                "Base Ultimate Energy Gain": {"role": "base"},
+                "Additional Ultimate Energy Gain per Infliction Stack": {"role": "perStack", "stack": "infliction"},
+            },
+        )
+
+    def test_rossi_gains_by_sequence(self):
+        self.assertEqual(
+            self.roles("Rossi"),
+            {
+                "SEQ 1 Ultimate Energy Gain": {"role": "perSequence", "sequence": 1},
+                "SEQ 2 Ultimate Energy Gain": {"role": "perSequence", "sequence": 2},
+            },
+        )
+
+    def test_yvonne_additional_gain_is_tied_to_the_hit_by_the_text(self):
+        # "After the combo skill successfully hits the enemy, Yvonne gains additional Ultimate Energy."
+        roles = self.roles("Yvonne")
+        self.assertEqual(roles["Ultimate Energy Gain"], {"role": "base"})
+        self.assertEqual(roles["Additional Ultimate Energy Gain"], {"role": "onHit"})
+        self.assertNotIn("Number of Energy Releases", roles)
+
+    def test_an_additional_row_the_text_does_not_tie_to_a_hit_is_not_counted(self):
+        stats = [{"label": "Additional Ultimate Energy Gain", "unit": "energy", "values": [10.0]}]
+        energy_roles({"type": "Combo Skill", "text": "Gains additional Ultimate Energy."}, stats)
+        self.assertEqual(stats[0]["energy"], {"role": "conditional"})
+
+    def test_zhuang_fangyi_gain_per_infliction_stack(self):
+        # "give Ultimate Energy based on the number of stacks consumed".
+        roles = self.roles("Zhuang Fangyi")
+        self.assertEqual(roles["Ultimate Energy Gain"], {"role": "base"})
+        self.assertEqual(
+            roles["Additional Ultimate Energy per Infliction Stack"], {"role": "perStack", "stack": "infliction"}
+        )
+
+    def test_laevatain_rows_by_the_number_of_enemies_hit(self):
+        self.assertEqual(
+            self.roles("Laevatain"),
+            {
+                "Ultimate Energy Gain when Hitting 1 Enemy": {"role": "onHit", "targets": 1},
+                "Ultimate Energy Gain when Hitting 2 Enemies": {"role": "onHit", "targets": 2},
+                "Ultimate Energy Gain when Hitting 3 Enemies": {"role": "onHit", "targets": 3},
+            },
+        )
+
+    def test_a_stack_kind_the_label_leaves_out_comes_from_the_text(self):
+        label = "Ultimate Energy per Stack"
+        stats = [{"label": label, "unit": "energy", "values": [5.0]}]
+        energy_roles({"type": "Combo Skill", "text": "Consumes all Vulnerable stacks."}, stats)
+        self.assertEqual(stats[0]["energy"], {"role": "perStack", "stack": "vulnerable"})
+        stats = [{"label": label, "unit": "energy", "values": [5.0]}]
+        energy_roles({"type": "Combo Skill", "text": "Deals DMG."}, stats)
+        self.assertEqual(stats[0]["energy"], {"role": "conditional"})
+
+    def test_only_combo_gains_are_tagged(self):
+        # The ultimate's cost and battle-skill energy (own stacks) are other things.
+        for operator, kind in [("Chen Qianyu", "Ultimate"), ("Laevatain", "Battle Skill"), ("Zhuang Fangyi", "Battle Skill")]:
+            stats, _ = skill_stats(skill(operator, kind))
+            self.assertFalse(any("energy" in r for r in stats), f"{operator} {kind}")
+
+    def test_every_combo_energy_row_has_a_role(self):
+        from tools.tests.support import operators
+
+        for name, operator in operators().items():
+            for item in operator["skills"]:
+                if item["type"] != "Combo Skill":
+                    continue
+                stats, _ = skill_stats(item)
+                for r in stats:
+                    if r["unit"] == "energy":
+                        self.assertIn("energy", r, f"{name}: {r['label']}")
 
 
 class Conditions(unittest.TestCase):

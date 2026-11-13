@@ -102,6 +102,15 @@ export function enkaImport(): Plugin {
         }
 
         if (req.method === 'POST' && path === '/import') {
+          // Only the page served by this dev server may start an import: a
+          // "simple" cross-site POST (text/plain, no preflight) from any tab
+          // would otherwise run profile.py and rewrite the roster.
+          const origin = req.headers.origin ?? '';
+          const type = req.headers['content-type'] ?? '';
+          if (!/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin) || !type.startsWith('application/json')) {
+            send(res, 403, { ok: false, error: 'imports start from the calculator page only' });
+            return;
+          }
           void (async () => {
             if (busy) {
               send(res, 409, { ok: false, error: 'an import is already running' });
@@ -116,7 +125,8 @@ export function enkaImport(): Plugin {
                 return;
               }
 
-              const fetched = await run(['tools/ef/profile.py', 'fetch', source, '--json'], 90_000);
+              // `--` keeps a source starting with «-» from reading as an option.
+              const fetched = await run(['tools/ef/profile.py', 'fetch', '--json', '--', source], 90_000);
               let report: Record<string, unknown>;
               try {
                 report = JSON.parse(fetched.stdout.trim().split('\n').at(-1) ?? '') as Record<string, unknown>;

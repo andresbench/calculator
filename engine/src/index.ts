@@ -23,6 +23,7 @@ export * from './effects.js';
 export * from './grants.js';
 export * from './hits.js';
 export * from './messages.js';
+export * from './normalise.js';
 export * from './stats.js';
 export * from './timing.js';
 export * from './rot.js';

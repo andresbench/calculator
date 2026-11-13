@@ -30,6 +30,10 @@ it('a UID comes from a number or a showcase link; an account link is told apart'
   expect(uidFromSource('https://enka.network/ef/1234567890/')).toEqual({ uid: '1234567890' });
   expect(uidFromSource('https://enka.network/u/someone/abc/')).toEqual({ failure: 'account_link' });
   expect(uidFromSource('hello')).toEqual({ failure: 'bad_source' });
+  // The proxy takes 6 to 12 digits and nothing else; a link outside that is no UID, not a prefix of one.
+  expect(uidFromSource('https://enka.network/ef/12345/')).toEqual({ failure: 'bad_source' });
+  expect(uidFromSource('https://enka.network/ef/1234567890123/')).toEqual({ failure: 'bad_source' });
+  expect(uidFromSource('enka.network/ef/123456')).toEqual({ uid: '123456' });
 });
 
 describeWithBundle('a showcase read in the page, against profile.py', (bundle: Bundle) => {

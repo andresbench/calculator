@@ -45,6 +45,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from tools.common.profile import ProfileStore
+from tools.common.yamlio import load_yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "endfield"
@@ -68,7 +69,7 @@ SKILL_KINDS = {
 # The Endfield showcase on the site: https://enka.network/ef/<UID>/ (checked
 # 2026-10-29). An Enka account link (`/u/<user>/<hash>/`) is something else:
 # it lists linked game profiles, not an Endfield showcase.
-SHOWCASE_RE = re.compile(r"enka\.network/ef/(\d+)")
+SHOWCASE_RE = re.compile(r"enka\.network/ef/(\d{6,12})(?!\d)")
 UID_RE = re.compile(r"\d{6,12}")
 
 # Enka API response codes — from the API documentation page.
@@ -271,7 +272,7 @@ PARITY_CASES = ROOT / "engine" / "test" / "fixtures" / "showcase-parity.json"
 
 
 def showcase_tables(refresh_store: bool = False) -> dict:
-    """What the browser needs to read a showcase on its own (PUBLISH_PLAN, П6).
+    """What the browser needs to read a showcase on its own (PUBLISH_PLAN, stage P6).
 
     The site gets the showcase through the Enka proxy and reads it in the
     page; every decision that takes data stays here and goes out as a table:
@@ -598,8 +599,7 @@ def cmd_check(args) -> int:
     if not ROSTER_PROFILE.exists():
         print("No profile imported.")
         return 1
-    with ROSTER_PROFILE.open(encoding="utf-8") as handle:
-        profile = (yaml.safe_load(handle) or {}).get("operators") or {}
+    profile = (load_yaml(ROSTER_PROFILE) or {}).get("operators") or {}
 
     db = load_db()
     index = build_index(db["operators"])
@@ -706,8 +706,7 @@ def cmd_show(args) -> int:
     if not ROSTER_PROFILE.exists():
         print("No profile imported yet. Run: tools/ef/profile.py fetch <UID>")
         return 1
-    with ROSTER_PROFILE.open(encoding="utf-8") as handle:
-        data = yaml.safe_load(handle)
+    data = load_yaml(ROSTER_PROFILE)
 
     operators = data.get("operators") or {}
     print(f"Operators imported: {len(operators)}\n")

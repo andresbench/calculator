@@ -1,0 +1,657 @@
+{
+ "meta": {
+  "source": "client datamine: TableCfg/EnemyAttributeTemplateTable (*Resistance fields)",
+  "upstream": {
+   "url": "https://github.com/rmxlinux/EndfieldData.git",
+   "sha": "d847759f71d4549aba4727b3b0ac1a1ad0e37742"
+  },
+  "generator": "tools/ef/datamine.py --export-resistances",
+  "unit": "multiplier: resistance 20 % = 0.8"
+ },
+ "enemies": {
+  "eny_0073_slimerg": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0100_slimerg2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0125_fdcentur": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0113_jzogre": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0071_sandb": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0108_slbomb2": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0120_klbear": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 0.65,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0033_lbhunt": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0047_firebat": {
+   "Physical": 1.0,
+   "Heat": 0.5,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0048_hvybow": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0018_lbtough": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0049_rogue": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0046_lbshamman": {
+   "Physical": 1.0,
+   "Heat": 0.5,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0029_lbmob": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0050_hound": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0075_lbroshan": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0074_lbshield": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0104_hsrogue2": {
+   "Physical": 0.4,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0099_slimeml2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0097_hsmino2": {
+   "Physical": 1.0,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0055_hscrane": {
+   "Physical": 1.0,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0114_jzmking": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0058_agdisk": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0066_lbhunt2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0068_lbtough2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0065_lbmob2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0067_hound2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0080_reaper": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0076_agfly": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0101_agfly2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0092_slbomb": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0130_inkbiter": {
+   "Physical": 1.0,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0102_hstiger2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0127_bigents": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0084_hshunt": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0098_sandb2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0060_lbmad": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0059_erhound": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0023_aghornb": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0069_aghornb2": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0027_agscorp": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0070_agscorp2": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0088_wgthorns": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0106_wgthorns2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0096_hsmob2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0054_hsmino": {
+   "Physical": 1.0,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0109_hshog2": {
+   "Physical": 1.0,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0072_slimeml": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0133_inklion": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0061_palecore": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0052_palesent": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0062_paletent": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0087_wgslime": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0105_wgslime2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0078_nefarp1": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0079_nefarp2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0085_hsrogue": {
+   "Physical": 0.6,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0089_wgreflec": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0093_hshog": {
+   "Physical": 1.0,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0118_klhog": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 0.65,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0119_kltiger": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 0.65,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0021_agmelee": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0063_agmelee2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0051_rodin": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0053_hsmob": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0112_jzmonk": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0081_ruanyi": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0131_inkscroll": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0039_agcanno": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0134_jsspsi": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0132_inkkirin": {
+   "Physical": 1.0,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0082_hsbear": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0083_hstiger": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0025_agrange": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0064_agrange2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0103_hshunt2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0090_wgabyss": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0091_wgshoal": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0107_wgshoal2": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 1.0
+  },
+  "eny_0045_agtrinit": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0007_mimicw": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 0.7
+  },
+  "eny_0117_klhound": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 0.65,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0077_agshield": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 1.0,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0094_hsfly": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 1.0,
+   "Nature": 0.8
+  },
+  "eny_0057_dog": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0129_slwood": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0128_babyents": {
+   "Physical": 1.0,
+   "Heat": 1.0,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  },
+  "eny_0124_kltdcap": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 0.65,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0122_kltdbud": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 0.65,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0123_klcap": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0121_klbud": {
+   "Physical": 0.8,
+   "Heat": 1.0,
+   "Electric": 1.0,
+   "Cryo": 1.0,
+   "Nature": 1.0
+  },
+  "eny_0095_ethillu": {
+   "Physical": 0.8,
+   "Heat": 0.8,
+   "Electric": 0.8,
+   "Cryo": 0.8,
+   "Nature": 0.8
+  }
+ }
+}

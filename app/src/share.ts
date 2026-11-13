@@ -13,12 +13,38 @@
 
 const PARAM = 'rot';
 
+/**
+ * What a shared rotation may inflate to. A real one is a few KB of `.rot`;
+ * deflate packs a megabyte of one letter into a kilobyte, and the tab used to
+ * hang unpacking such a link. Past this the link is refused as a bad link.
+ */
+const MAX_INFLATED = 256 * 1024;
+
 async function pipe(
   bytes: Uint8Array<ArrayBuffer>,
   stream: CompressionStream | DecompressionStream,
+  limit = Infinity,
 ): Promise<Uint8Array<ArrayBuffer>> {
-  const out = new Blob([bytes]).stream().pipeThrough(stream);
-  return new Uint8Array(await new Response(out).arrayBuffer());
+  const reader = new Blob([bytes]).stream().pipeThrough(stream).getReader();
+  const chunks: Uint8Array[] = [];
+  let size = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.length;
+    if (size > limit) {
+      await reader.cancel();
+      throw new Error(`more than ${limit} bytes`);
+    }
+    chunks.push(value);
+  }
+  const out = new Uint8Array(size);
+  let at = 0;
+  for (const chunk of chunks) {
+    out.set(chunk, at);
+    at += chunk.length;
+  }
+  return out;
 }
 
 function toBase64Url(bytes: Uint8Array): string {
@@ -37,7 +63,7 @@ export async function encodeRot(text: string): Promise<string> {
 }
 
 export async function decodeRot(data: string): Promise<string> {
-  return new TextDecoder().decode(await pipe(fromBase64Url(data), new DecompressionStream('deflate-raw')));
+  return new TextDecoder().decode(await pipe(fromBase64Url(data), new DecompressionStream('deflate-raw'), MAX_INFLATED));
 }
 
 /** The link that opens this rotation on the track. */

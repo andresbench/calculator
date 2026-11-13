@@ -43,6 +43,8 @@ export interface DamagePart {
   damage: number;
   /** The same hit without crit: what a damage number in the game shows. */
   nonCrit: number;
+  /** Instances in this part: a row that swings six times is one part of six hits. */
+  hits?: number;
   stacks?: number;
   /** Whose damage it is: a status counts for whoever applied it. */
   by: string;
@@ -113,8 +115,24 @@ export function trackDamage(
   const { frames, length } = run;
   // No assumed stacks: the track decides what is up, step by step.
   const finisher = run.target && !(enemyKey && bundle.enemies[enemyKey]) ? { finisherMultiplier: run.target.finisherMultiplier } : {};
-  const dummyAt = (staggered: boolean) => ({ enemyKey, tier: 5, staggered, crit: false, assume: {}, ...finisher });
+  const dummyAt = (staggered: boolean, targetTerms: string[] = []) => ({
+    enemyKey,
+    tier: 5,
+    staggered,
+    crit: false,
+    assume: {},
+    targetTerms,
+    ...finisher,
+  });
   const dummy = dummyAt(false);
+  /** What stands on the target, for effects conditioned on it (`DummyState.targetTerms`). */
+  const targetTermsOf = (target: Frame['target'] | null | undefined): string[] => {
+    if (!target) return [];
+    const terms = target.debuffs.map((debuff) => debuff.term);
+    for (const [element, stacks] of Object.entries(target.inflictions)) if (stacks > 0) terms.push(`${element} Infliction`);
+    if (target.vulnerable > 0) terms.push('Vulnerable');
+    return [...new Set(terms)].sort();
+  };
   const enemy = enemyKey ? bundle.enemies[enemyKey] : null;
   const bare = new Map<string, BuildAnalysis>();
   for (const key of run.team) {
@@ -125,14 +143,14 @@ export function trackDamage(
   let buffs = trackBuffs(frames, holders);
   /** One operator under one set of buffs, on a staggered target or not: analysed once, then reused. */
   const analyses = new Map<string, BuildAnalysis>();
-  const under = (key: string, standing: ActiveBuff[], staggered: boolean) => {
+  const under = (key: string, standing: ActiveBuff[], staggered: boolean, targetTerms: string[] = []) => {
     const mine = standing.filter((buff) => buff.receiver === key || buff.receiver === 'enemy');
-    const signature = `${key}|${staggered}|${mine.map(buffSignature).sort().join(',')}`;
+    const signature = `${key}|${staggered}|${targetTerms.join('+')}|${mine.map(buffSignature).sort().join(',')}`;
     let analysis = analyses.get(signature);
     if (!analysis) {
       analysis =
-        mine.length > 0 || staggered
-          ? (analyse(buildOf(key), bundle, dummyAt(staggered), mine) ?? undefined)
+        mine.length > 0 || staggered || targetTerms.length > 0
+          ? (analyse(buildOf(key), bundle, dummyAt(staggered, targetTerms), mine) ?? undefined)
           : bare.get(key);
       if (!analysis) return null;
       analyses.set(signature, analysis);
@@ -307,9 +325,11 @@ export function trackDamage(
               !before.some((standing) => standing.effect.id === buff.effect.id && standing.apply === buff.apply),
           )
         : [];
-    const first = under(key, [...before, ...onApply], staggered)!;
-    const firstAfter = under(key, [...before, ...onApply], afterBreak)!;
-    const rest = under(key, later, afterBreak)!;
+    // The target as the cast meets it: the frame before, as with the debuffs.
+    const met = targetTermsOf(index > 0 ? frames[index - 1]!.target : null);
+    const first = under(key, [...before, ...onApply], staggered, met)!;
+    const firstAfter = under(key, [...before, ...onApply], afterBreak, met)!;
+    const rest = under(key, later, afterBreak, targetTermsOf(frame.target))!;
     // A barrage is one long cast: what stood at its start, plus what the cast
     // itself switched on (Yvonne's P5). What it consumes, it consumes with the
     // closing strike, so the shots still see it.
@@ -367,7 +387,7 @@ export function trackDamage(
       // A row that swings several times (Chen's ult: six slashes) counts each.
       if (hit.count == null) note(variable, key, hit.row.label);
       let times = hit.count ?? 1;
-      // Instances that land after a later press take what stands then (Я3):
+      // Instances that land after a later press take what stands then (ENGINE_CORE_PLAN, stage Ya3):
       // the Endministrator's chain under the combo Chen pressed during it.
       if (!whole && hit.role !== 'perStack') {
         const elsewhere = landingFrames(index, frame, hit.row, move, times);
@@ -394,10 +414,10 @@ export function trackDamage(
               (spent(buff) || !pressed.has(identity(buff)) || there.has(identity(buff))),
           );
           const added = standing.list.filter((buff) => !pressed.has(identity(buff)) && !known.has(identity(buff)));
-          const then = under(key, [...kept, ...added], standing.staggered);
+          const then = under(key, [...kept, ...added], standing.staggered, targetTermsOf(frames[at]!.target));
           if (!then) continue;
           const label = `${hit.row.label} × ${count} (${frames[at]!.world.toFixed(1)} s)`;
-          push({ label, nonCrit: (then.byId.get(id) ?? 0) * count * link, by: key }, critOf(then, id));
+          push({ label, nonCrit: (then.byId.get(id) ?? 0) * count * link, hits: count, by: key }, critOf(then, id));
           times -= count;
         }
         if (times <= 0) continue;
@@ -405,7 +425,7 @@ export function trackDamage(
       if (opening && hit.role !== 'perStack' && !later && !whole) {
         // The breaking hit itself, before the +30 %.
         opening = false;
-        push({ label: `${hit.row.label} × 1`, nonCrit: (first.byId.get(id) ?? 0) * link, by: key }, critOf(first, id));
+        push({ label: `${hit.row.label} × 1`, nonCrit: (first.byId.get(id) ?? 0) * link, hits: 1, by: key }, critOf(first, id));
         times -= 1;
         if (times <= 0) continue;
       }
@@ -413,10 +433,10 @@ export function trackDamage(
       const label = times > 1 || (hit.count != null && hit.count > 1) ? `${hit.row.label} × ${times}` : hit.row.label;
       if (hit.role === 'perStack') {
         if (frame.stacksForHit > 0) {
-          push({ label, nonCrit: one * frame.stacksForHit * link, stacks: frame.stacksForHit, by: key }, critOf(table, id));
+          push({ label, nonCrit: one * frame.stacksForHit * link, hits: times, stacks: frame.stacksForHit, by: key }, critOf(table, id));
         }
       } else {
-        push({ label, nonCrit: one * link, by: key }, critOf(table, id));
+        push({ label, nonCrit: one * link, hits: times, by: key }, critOf(table, id));
       }
     }
 
@@ -506,7 +526,7 @@ export function trackDamage(
       const byHolder = new Map<string, number>();
       for (const part of step.parts) {
         if (part.damage <= part.nonCrit * (1 + 1e-9)) continue;
-        const times = Number(/×\s*(\d+)\s*$/.exec(part.label)?.[1] ?? 1);
+        const times = part.hits ?? 1;
         byHolder.set(part.by, (byHolder.get(part.by) ?? 0) + times);
       }
       return byHolder;

@@ -643,12 +643,12 @@ export default function BuildEditor({
                 );
               })}
               <tr>
-                <td>Arts Intensity</td>
+                <td>{n.term('Arts Intensity')}</td>
                 <td>{sheet.artsIntensity.toFixed(1)}</td>
                 <td className="muted">{te.artsIntensityNote}</td>
               </tr>
               <tr>
-                <td>Critical Rate</td>
+                <td>{n.term('Critical Rate')}</td>
                 <td>{(sheet.critRate * 100).toFixed(1)} %</td>
                 <td className="muted">{te.critDmg(sheet.critDmg * 100)}</td>
               </tr>

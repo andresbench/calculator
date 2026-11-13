@@ -10,7 +10,7 @@
  * so the two cannot disagree about a hit.
  */
 
-import type { GearPiece, Bundle, Operator, Provenance, RosterEntry, SkillType, TalentNodes, WeaponColumn } from './bundle.js';
+import type { GearPiece, Bundle, Element, Operator, Provenance, RosterEntry, SkillType, StatRow, TalentNodes, WeaponColumn } from './bundle.js';
 import { computeDamage, type DamageResult } from './damage.js';
 import { talentGate } from './talents.js';
 import {
@@ -246,6 +246,13 @@ export interface DummyState {
   staggered: boolean;
   crit: boolean;
   /**
+   * What stands on the target: debuff terms, «<Element> Infliction»,
+   * «Vulnerable». Effects conditioned on the target (`targetHas`: Mi Fu's
+   * Stern Crackdown «Physical Susceptibility or Staggered») read it. The
+   * track fills it per frame; the build editor leaves it empty.
+   */
+  targetTerms?: string[];
+  /**
    * How many stacks of triggered effects to count as up.
    *
    * This is an assumption, and it is labelled: half of a build's strength
@@ -288,6 +295,16 @@ function damageRows(skill: Operator['skills'][number]): Operator['skills'][numbe
   // Whether a row is a hit, a per-stack bonus or a conditional hit is decided
   // by `export.py` (`hit_roles`); all three are shown here.
   return skill.stats.filter((stat) => stat.hit != null);
+}
+
+/**
+ * The element a skill row's hit deals: the row's own when the export read
+ * one from the text (Estella's Tremolo — Physical, Rossi's ultimate — Heat),
+ * otherwise the operator's. Resistance, DMG Bonus, Amp, DMG Taken,
+ * Susceptibility and resistance shred all filter by it.
+ */
+export function rowElement(row: StatRow, operator: Pick<Operator, 'element'>): Element {
+  return row.element ?? operator.element;
 }
 
 /**
@@ -360,14 +377,14 @@ export function analyse(
 
   const enemy = dummy.enemyKey ? bundle.enemies[dummy.enemyKey] : null;
   const tierIndex = enemy ? Math.min(dummy.tier, enemy.def.length - 1) : 0;
-  const resistance = enemy
-    ? (enemy.resistances[operator.element] ?? 1)
-    : 1;
   const finisherMultiplier = enemy ? enemy.finisherMultiplier : dummy.finisherMultiplier;
 
   const skills = operator.skills.flatMap((skill) => {
     const level = build.skills[SKILL_FIELD[skill.type]] ?? 1;
     return damageRows(skill).map((row) => {
+      // Resistance and every element-filtered bonus follow the hit's own element.
+      const element = rowElement(row, operator);
+      const resistance = enemy ? (enemy.resistances[element] ?? 1) : 1;
       const index = Math.min(Math.max(level, 1), row.values.length) - 1;
       const multiplier = row.values[index] ?? 0;
       const staggered = dummy.staggered;
@@ -382,7 +399,7 @@ export function analyse(
           skill: skill.name,
           skillType: skill.type,
           instanceLabel: row.label,
-          targetTerms: staggered ? ['Staggered'] : [],
+          targetTerms: [...(dummy.targetTerms ?? []), ...(staggered ? ['Staggered'] : [])],
         },
       );
       const result = computeDamage({
@@ -392,9 +409,11 @@ export function analyse(
         // The hit's own kind: Laevatain's enhanced basic attacks are ultimate
         // rows at the ultimate's level, but Basic Attack DMG to the client.
         dmgBonus: dmgBonusFor(sheet, {
-          element: operator.element,
+          element,
           skillType: row.dealtAs ?? skill.type,
           staggered,
+          skill: skill.name,
+          instanceLabel: row.label,
         }),
         critDmg: dummy.crit ? critDmgFor(sheet, { name: skill.name, type: row.dealtAs ?? skill.type }) : null,
         staggered,
@@ -406,10 +425,10 @@ export function analyse(
         artsIntensity: sheet.artsIntensity,
         // Target groups from the stack assumption. The element filter matters:
         // Endministrator's "Physical DMG Taken" does not apply to an arts instance.
-        amp: targetSumFor(assumed.self.amp, operator.element),
-        increasedDmgTaken: targetSumFor(assumed.target.dmgTaken, operator.element),
-        susceptibility: targetSumFor(assumed.target.susceptibility, operator.element),
-        corrosionShred: targetSumFor(assumed.target.resShred, operator.element),
+        amp: targetSumFor(assumed.self.amp, element),
+        increasedDmgTaken: targetSumFor(assumed.target.dmgTaken, element),
+        susceptibility: targetSumFor(assumed.target.susceptibility, element),
+        corrosionShred: targetSumFor(assumed.target.resShred, element),
         // Weaken and Protection from the effects layer are deliberately left
         // out. In the formula Weaken sits on the attacker and Protect on the
         // target; ours land the other way round — Weaken on the enemy (it

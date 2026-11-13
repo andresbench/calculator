@@ -219,7 +219,7 @@ shown by `python3 tools/ef/datamine.py "<operator>"`.
 ## Triggers
 
 The same vocabulary as for combos in `rotation.py`: `skill_hit`,
-`cast:<type>` (`cast:Combo Skill@2` — that sequence of the cast), `applies:<term>`
+`cast:<type>` (`cast:Combo Skill@2` — that sequence of the cast; `team_cast:<type>` — a cast of that type by anyone in the squad, Type 50 Yinglung), `applies:<term>`
 (`applies:Solidification@Battle Skill` — applied by the wearer's own skill of that type), `consumes:<term>`, `target_has:<term>`,
 `sp_recovered:<N>` (without `:<N>` — any refund), `hp_restored`,
 `damage_taken`, `stacks_reached:<term>@<N>` (the wearer's own stacks —
@@ -228,6 +228,15 @@ above N %), `final_strike` (the wearer's own Final Strike) and
 `charge_spent:<name>` (a point of the wearer's charge — Pogranichnik's Steel
 Oath, `Synergy.charges` — spent at this step, by anyone). `|` — any of: `applies:Amp|applies:Weakness`. No trigger — the
 effect is permanent and goes into the stat sheet.
+
+A potential that edits another effect of the same operator instead of
+adding rows takes `modifies` instead of `apply`: `effect` is the talent's
+name (a buff name is accepted as a fallback, but it reaches every row that
+puts that buff up — Tactical Instruction also gives Fervent Morale), and any
+of `stacksMax` (added to the cap), `trigger` (replaces it), `valueDelta`
+(added to the value per stack, Camille's P5), `teamShare` (the rest of the
+squad gets that share, the Endministrator's P2). Keys outside this list are
+a problem in `effects.py`.
 
 The track follows triggers through simulation events (`engine/src/buffs.ts`):
 a trigger takes effect from the next step, and a buff
@@ -239,11 +248,15 @@ operator ("If the wielder is also the controlled operator, double the ATK
 increase", Sundered Prince). On the track that is `Frame.controlled` at the
 triggering step; the build editor assumes the wearer is controlled.
 
+A row with `cooldown: <s>` fires at most once per that many seconds
+(Mi Fu's P3: the shield's trigger cooldown, 60 − 15 s).
+
 Two adjustments to stacks and duration:
 
 * `stacks: {max: 4, from: consumed}` — "+6 % × consumed stacks": as many
   stacks as the step consumed, not one per trigger (Grizzled Edge, OBJ
-  Velocitous);
+  Velocitous); with `accumulate: true` casts add up to `max` instead of
+  replacing, each stack on its own timer (Argent Flow's P3);
 * `spentBy: "cast:Battle Skill|cast:Ultimate"` — a "next cast" buff: this
   cast of the wearer spends it (Bonekrusha, Type 50 Yinglung, Grand Vision,
   Jade Vessel's combo).

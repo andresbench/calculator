@@ -48,9 +48,22 @@ export const en = {
 
   provenance: { profile: 'from game', manual: 'by hand', default: 'default' },
 
+  crash: {
+    title: 'Something broke on this screen',
+    hint:
+      'The page hit an error and stopped drawing this screen. Your builds and rotations are still saved in this browser. Try again; if it breaks the same way, go back to the showcase builds, and only then erase what is saved.',
+    retry: 'try again',
+    toShowcase: 'back to showcase builds',
+    erase: 'erase saved builds and rotations',
+    eraseConfirm:
+      'Delete every build variant and rotation draft saved in this browser? This cannot be undone. Export the builds first if you need them.',
+  },
+
   loadError: {
     title: 'Could not read the data',
     hint: 'The page could not load its game data. Reload it; if that does not help, the site is being updated.',
+    // Shown by the dev server only: nobody on the site can build the bundle.
+    devHint: 'Build the bundle: python3 tools/ef/export.py',
   },
 
   roster: {
@@ -190,6 +203,12 @@ export const en = {
     newName: 'new name',
     nameLabel: 'Variant name',
     saveNew: '+ save as new',
+    // Names the app gives a variant it creates; saved ones keep the language they were made in.
+    edited: 'Edited',
+    imported: 'Imported',
+    numbered: (index: number) => `Build ${index}`,
+    custom: 'Custom',
+    customNumbered: (index: number) => `Custom ${index}`,
     confirmDelete: (name: string) => `Delete the variant "${name}"? This cannot be undone.`,
     compare: 'Compare builds',
     compareHint: 'Save a second variant (“+ save as new” at the top) to compare two builds side by side.',
@@ -235,6 +254,7 @@ export const en = {
       http_500: 'Enka had an internal error',
       http_503: 'Enka is temporarily unavailable',
       network: 'could not reach Enka',
+      bad_payload: 'Enka sent a showcase this page cannot read — try again later',
       unknown: 'unknown error',
     } as Record<string, string>,
   },

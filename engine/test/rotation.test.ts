@@ -57,7 +57,7 @@ function withCombo(cooldown: number): Operator {
             values: Array(12).fill(cooldown),
             sequences: [Array(12).fill(cooldown), Array(12).fill(0)],
           },
-          { label: 'Ultimate Energy Gain', unit: 'energy', values: Array(12).fill(10) },
+          { label: 'Ultimate Energy Gain', unit: 'energy', values: Array(12).fill(10), energy: { role: 'base' } },
         ],
       },
       {

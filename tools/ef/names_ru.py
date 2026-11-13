@@ -25,6 +25,7 @@ datamine clone. Run it after ``parse.py`` and ``sync.py``::
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from collections import Counter, defaultdict
@@ -124,7 +125,93 @@ def collect(section: dict, translate) -> dict[str, str]:
     return out
 
 
-def main() -> int:
+def _check(out: dict) -> int:
+    text = json.dumps(out, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
+    if OUT.exists():
+        old_text = OUT.read_text(encoding="utf-8")
+        if old_text == text:
+            return 0
+    else:
+        old_text = None
+
+    if old_text is None:
+        print(f"{OUT.relative_to(ROOT)}: missing, treating as empty")
+        old: dict = {}
+    else:
+        try:
+            old = json.loads(old_text)
+        except json.JSONDecodeError as exc:
+            print(f"{OUT.relative_to(ROOT)}: not valid JSON: {exc}")
+            return 1
+        if not isinstance(old, dict):
+            print(f"{OUT.relative_to(ROOT)}: not a JSON object")
+            return 1
+
+    total = {"added": 0, "removed": 0, "changed": 0}
+    examples: list[str] = []
+
+    def note(line: str) -> None:
+        if len(examples) < 10:
+            examples.append(line)
+
+    for section in sorted(set(old) | set(out)):
+        old_section = old.get(section)
+        new_section = out.get(section)
+        counts = {"added": 0, "removed": 0, "changed": 0}
+        old_map = old_section if isinstance(old_section, dict) else {}
+        new_map = new_section if isinstance(new_section, dict) else {}
+        if (old_section is not None and not isinstance(old_section, dict)) or (
+            new_section is not None and not isinstance(new_section, dict)
+        ):
+            if old_section != new_section:
+                counts["changed"] += 1
+                note(f"  changed {section}: {old_section!r} -> {new_section!r}")
+        else:
+            for key in sorted(set(old_map) | set(new_map)):
+                if key not in old_map:
+                    counts["added"] += 1
+                    note(f"  added {section}/{key}: {new_map[key]!r}")
+                elif key not in new_map:
+                    counts["removed"] += 1
+                    note(f"  removed {section}/{key}: {old_map[key]!r}")
+                elif old_map[key] != new_map[key]:
+                    counts["changed"] += 1
+                    note(f"  changed {section}/{key}: {old_map[key]!r} -> {new_map[key]!r}")
+        if any(counts.values()):
+            print(
+                f"{section}: added {counts['added']}, "
+                f"removed {counts['removed']}, changed {counts['changed']}"
+            )
+        for part in total:
+            total[part] += counts[part]
+
+    if not any(total.values()):
+        print("formatting differs only")
+        return 1
+
+    print(
+        f"total: added {total['added']}, "
+        f"removed {total['removed']}, changed {total['changed']}"
+    )
+    for line in examples:
+        print(line)
+    return 1
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument(
+        "--check",
+        "--dry-run",
+        action="store_true",
+        dest="check",
+        help="compare the result with the current file instead of writing it",
+    )
+    args = parser.parse_args(argv)
+
     t = Translator()
     operators = load("operators.json")
     weapons = load("weapons.json")
@@ -187,6 +274,9 @@ def main() -> int:
         if ru:
             terms[label] = ru
     out["terms"] = terms
+
+    if args.check:
+        return _check(out)
 
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     sizes = {k: len(v) for k, v in out.items() if k != "meta"}

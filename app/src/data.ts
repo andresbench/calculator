@@ -10,6 +10,7 @@ import { useEffect, useState } from 'react';
 
 import { assertBundle, attachRoster, type Bundle } from '@engine/index.js';
 
+import { currentT } from './i18n/index.js';
 import { asRoster, loadShowcase } from './showcaseRoster.js';
 
 /**
@@ -27,11 +28,14 @@ const CACHE: RequestCache = import.meta.env?.DEV ? 'no-store' : 'default';
  * stands in (`showcaseRoster.ts`), and the page works without either.
  */
 async function loadRoster(bundle: Bundle): Promise<void> {
-  try {
-    const response = await fetch('data/roster.json', { cache: 'no-store' });
-    if (response.ok && attachRoster(bundle, await response.json())) return;
-  } catch {
-    // No roster is a normal state, not an error.
+  // Only the dev server has the file: in a build every visit would be a 404.
+  if (import.meta.env?.DEV) {
+    try {
+      const response = await fetch('data/roster.json', { cache: 'no-store' });
+      if (response.ok && attachRoster(bundle, await response.json())) return;
+    } catch {
+      // No roster is a normal state, not an error.
+    }
   }
   // The site has no roster.json: a showcase imported in this browser stands in.
   const stored = await loadShowcase();
@@ -62,9 +66,10 @@ export function useBundle(): LoadState & { reload: () => void } {
       try {
         const response = await fetch(BUNDLE_URL, { cache: CACHE });
         if (!response.ok) {
+          // The hint is for whoever runs the dev server: on the site nobody can build the bundle.
           throw new Error(
-            `${response.status} ${response.statusText}. ` +
-              'Build the bundle: python3 tools/ef/export.py',
+            `${response.status} ${response.statusText}.` +
+              (import.meta.env?.DEV ? ` ${currentT().loadError.devHint}` : ''),
           );
         }
         const payload: unknown = await response.json();

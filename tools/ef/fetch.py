@@ -16,19 +16,21 @@ Usage::
 
     python3 tools/ef/fetch.py            # incremental
     python3 tools/ef/fetch.py --force    # download everything again
+    python3 tools/ef/fetch.py --prune    # list stale raw files (no network, deletes nothing)
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import shlex
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from tools.common.mwapi import MWClient
-from tools.common.store import PageFetcher, RawStore
+from tools.common.store import PageFetcher, RawStore, safe_filename
 from tools.common.wikitext import (
     cargo_fields_from_html,
     cargo_tables_from_html,
@@ -207,7 +209,9 @@ def dump_cargo_tables(
     return dumps
 
 
-def collect_page_titles(dumps: dict[str, list[dict]]) -> dict[str, list[str]]:
+def collect_page_titles(
+    dumps: dict[str, list[dict]], root: Path = DATA
+) -> dict[str, list[str]]:
     """Pulls the real page titles out of the Cargo dumps.
 
     With ``--skip-cargo`` the tables are read from disk: skipping the dump means
@@ -218,7 +222,7 @@ def collect_page_titles(dumps: dict[str, list[dict]]) -> dict[str, list[str]]:
     for kind, (table, _column) in PAGE_SOURCE_TABLES.items():
         rows = dumps.get(table)
         if rows is None:
-            path = DATA / "raw" / "cargo" / f"{table}.json"
+            path = root / "raw" / "cargo" / f"{table}.json"
             rows = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
         names = {row.get("_pageName") for row in rows if row.get("_pageName")}
         titles[kind] = sorted(names)
@@ -227,7 +231,7 @@ def collect_page_titles(dumps: dict[str, list[dict]]) -> dict[str, list[str]]:
     # not in the Facilities table: they are registered as items of type Facilities.
     items = dumps.get("Items")
     if items is None:
-        path = DATA / "raw" / "cargo" / "Items.json"
+        path = root / "raw" / "cargo" / "Items.json"
         items = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
     extra = {row["_pageName"] for row in items
              if row.get("Type") == "Facilities" and row.get("_pageName")}
@@ -235,15 +239,63 @@ def collect_page_titles(dumps: dict[str, list[dict]]) -> dict[str, list[str]]:
     return titles
 
 
+def stale_raw_files(store: RawStore) -> list[tuple[Path, str]]:
+    """Raw files nothing refers to any more: ``[(path, reason)]``.
+
+    ``parse.py`` reads the raw directories by glob, so a page that vanished
+    from the wiki (or from Cargo) would keep voting — an item page for a set
+    text, say. Two reasons are checked: no manifest entry points at the file,
+    and (for the kinds listed by Cargo) the page is not in the current
+    listing. A kind whose Cargo table is not on disk is skipped, not flagged.
+    """
+    found: dict[Path, str] = {path: "not in the manifest" for path in store.unreferenced_files()}
+    for kind, titles in collect_page_titles({}, store.root).items():
+        directory = store.raw / kind
+        if not titles or not directory.is_dir():
+            continue
+        expected = {safe_filename(title) + ".wiki" for title in titles}
+        for path in sorted(directory.glob("*.wiki")):
+            if path.name not in expected:
+                found.setdefault(path, "not in the current Cargo listing")
+    return sorted(found.items())
+
+
+def prune_report(store: RawStore) -> int:
+    """Prints the stale raw files and the command that would delete them."""
+    stale = stale_raw_files(store)
+    if not stale:
+        print("raw/: no stale files")
+        return 0
+    print(f"raw/: {len(stale)} stale file(s), nothing deleted")
+    for path, reason in stale:
+        print(f"  {path.relative_to(store.root)} — {reason}")
+    try:
+        shown = [path.relative_to(ROOT) for path, _ in stale]
+    except ValueError:
+        shown = [path for path, _ in stale]
+    print("\nTo delete them (from the repository root; manifest entries are not touched):")
+    print("  rm -- " + " ".join(shlex.quote(str(path)) for path in shown))
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--force", action="store_true", help="download everything again")
     parser.add_argument("--delay", type=float, default=1.0, help="pause between requests")
     parser.add_argument("--skip-cargo", action="store_true")
+    parser.add_argument(
+        "--prune",
+        action="store_true",
+        help="list raw files absent from the manifest or the Cargo listing and print "
+        "the rm command; no network, nothing is deleted",
+    )
     args = parser.parse_args()
 
-    client = MWClient(API, delay=args.delay)
     store = RawStore(DATA)
+    if args.prune:
+        return prune_report(store)
+
+    client = MWClient(API, delay=args.delay)
     fetcher = PageFetcher(client, store)
 
     print("Endfield → endfield.wiki.gg")

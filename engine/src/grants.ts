@@ -112,6 +112,9 @@ export interface GrantTimeline {
   scaled: boolean;
 }
 
+/** One application of a debuff: the same term from the same source at the same time. */
+const instanceId = (debuff: TargetDebuff): string => `${debuff.term}|${debuff.source}|${debuff.appliedAt}`;
+
 /** Grants on the target and the team, by frame. `granterOf` — the applier's build; `null` — not in the squad. */
 export function grantBuffs(
   bundle: Bundle,
@@ -125,7 +128,7 @@ export function grantBuffs(
   const valued = new Map<string, ActiveBuff[] | null>();
 
   const buffsOf = (debuff: TargetDebuff, index: number): ActiveBuff[] | null => {
-    const id = `${debuff.term}|${debuff.source}|${debuff.appliedAt}`;
+    const id = instanceId(debuff);
     if (valued.has(id)) return valued.get(id)!;
     const skill = debuff.skill ? bundle.operators[debuff.source]?.skills.find((item) => item.name === debuff.skill) : undefined;
     const grant = skill?.grants?.find((item) => item.term === debuff.term);
@@ -164,15 +167,18 @@ export function grantBuffs(
     return out;
   };
 
-  const appliedAt = new Map<string, number>();
+  // The frame an instance first shows up in is the step that applied it.
+  // Its `appliedAt` is not that step's press: a hit in flight lands between
+  // presses and stamps the debuff with the hit's time (`landInFlight`).
+  const appliedIn = new Map<string, number>();
   frames.forEach((frame, index) => {
     for (const debuff of frame.target.debuffs) {
-      const id = `${debuff.term}|${debuff.source}|${debuff.appliedAt}`;
-      if (!appliedAt.has(id) && Math.abs(debuff.appliedAt - frame.world) < 1e-9) appliedAt.set(id, index);
+      const id = instanceId(debuff);
+      if (!appliedIn.has(id)) appliedIn.set(id, index);
     }
   });
   const valueOf = (debuff: TargetDebuff): ActiveBuff[] => {
-    const index = appliedAt.get(`${debuff.term}|${debuff.source}|${debuff.appliedAt}`);
+    const index = appliedIn.get(instanceId(debuff));
     return index == null ? [] : (buffsOf(debuff, index) ?? []);
   };
 
@@ -183,7 +189,7 @@ export function grantBuffs(
     before.push(
       previous.filter((debuff) => debuff.expiresAt == null || debuff.expiresAt > frame.world + 1e-9).flatMap(valueOf),
     );
-    fresh.push(frame.target.debuffs.filter((debuff) => Math.abs(debuff.appliedAt - frame.world) < 1e-9).flatMap(valueOf));
+    fresh.push(frame.target.debuffs.filter((debuff) => appliedIn.get(instanceId(debuff)) === index).flatMap(valueOf));
   });
   return { before, fresh, uncounted, scaled };
 }

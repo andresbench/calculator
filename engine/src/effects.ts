@@ -105,8 +105,11 @@ export interface EffectApply {
   staggered?: boolean;
   /** Any of the terms on the target enables the effect. */
   targetHas?: string[];
-  /** `from: consumed` — as many stacks as the step consumed: "+6 % × Vulnerable stacks". */
-  stacks?: { max: number; perTrigger: number; from?: 'consumed' };
+  /**
+   * `from: consumed` — as many stacks as the step consumed: "+6 % × Vulnerable
+   * stacks"; `accumulate` — casts add up to `max` instead of replacing.
+   */
+  stacks?: { max: number; perTrigger: number; from?: 'consumed'; accumulate?: boolean };
   /** The buff is spent by the wearer's cast: "next battle skill", `cast:Battle Skill|cast:Ultimate`. */
   spentBy?: string;
   /**
@@ -164,7 +167,13 @@ export interface Effect {
   /** The wiki changed the text — the parse belongs to the previous patch. */
   stale: boolean;
   apply: EffectApply[];
-  modifies?: { effect: string; stacksMax?: number; trigger?: string } | null;
+  /**
+   * A potential's edit of another effect of the same operator, by the talent's
+   * name (a buff name is a fallback): stack cap, trigger, value per stack
+   * («Heat DMG boost per stack +6%»), a share for the rest of the squad
+   * («other allied operators gain half of this ATK buff»).
+   */
+  modifies?: { effect: string; stacksMax?: number; trigger?: string; valueDelta?: number; teamShare?: number } | null;
   /** What it changes in a skill's own Susceptibility or Amp (`Skill.grants`). */
   grants?: GrantModifier[];
   /** Filled where the vocabulary cannot express the effect. Damage is understated, visibly. */
@@ -423,6 +432,8 @@ export function isSheetStat(stat: EffectStat): boolean {
 }
 
 function bucketsFor(apply: EffectApply, value: number): Partial<DmgBonusBuckets> {
+  // One skill's rows: «Onomatopoeia … DMG Dealt +40%».
+  if (apply.skill) return { bySkill: { [apply.skill]: value } };
   // "Arts DMG Dealt" — every element except Physical: its own bucket on the sheet.
   if (apply.element === 'Arts') return { arts: value };
   if (apply.element) return { byElement: { [apply.element]: value } };

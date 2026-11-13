@@ -32,13 +32,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
+from tools.common.yamlio import load_yaml
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "endfield"
 DEFAULT_OUT = ROOT / "app" / "public" / "data" / "bundle.json"
 
 # The bundle contract version. The app refuses to work with another version
 # instead of silently reading fields wrong.
-SCHEMA = 40
+SCHEMA = 43
 
 WIKI = "https://endfield.wiki.gg"
 LICENSE = "CC BY-SA 4.0"
@@ -208,6 +209,28 @@ FINAL_IN_SEQUENCE = re.compile(r"\bfinal (?:\w+ )?sequence\b", re.I)
 # Labels whose hit count depends on time or stacks while the text gives no
 # number: "per Beat" (Liino), "Over Time … per SEQ" (Laevatain).
 VARIABLE_HITS = re.compile(r"\bper (?:SEQ|Beat|Tick)\b", re.I)
+# Damage over time: the row says "Over Time", the ticks are `Interval (s)` and
+# `Duration (s)` rows of the same skill; "Total" is the sum over the whole
+# duration (Tangtang's `DMG Over Time Total Multiplier`), one hit.
+OVER_TIME = re.compile(r"\bOver Time\b", re.I)
+TOTAL_LABEL = re.compile(r"\bTotal\b", re.I)
+INTERVAL_ROW = re.compile(r"^(?P<stem>.*?)\s*Interval \(s\)$", re.I)
+DURATION_ROW = re.compile(r"^(?P<stem>.*?)\s*Duration \(s\)$", re.I)
+# "Each enemy can only take 1 damaging hit every 0.3s" (Ardelia's ultimate).
+ONE_HIT_EVERY = re.compile(r"\b1 damaging hit every (\d+(?:\.\d+)?) ?s\b", re.I)
+# "Her 5th Hail of Arrows is an empowered Hail of Arrows" (Typhoeus's ultimate),
+# said of "her next 5 ABATKs".
+EMPOWERED_LAST = re.compile(r"\b(?P<n>\d+)(?:st|nd|rd|th) (?P<noun>[A-Z][\w ]*?) is an empowered (?P=noun)\b")
+# "unleash 5 Aerial Basic Attacks (ABATK) … her 5th ABATK is regarded as a Final
+# Strike" (Typhoeus's battle skill).
+UNLEASH_ATTACKS = re.compile(rf"\bunleash {N} [\w ]+? \((?P<abbr>[A-Z]{{2,}})\)")
+LAST_IS_FINAL_STRIKE = re.compile(r"\b(?P<n>\d+)(?:st|nd|rd|th) (?P<abbr>[A-Z]{2,}) is regarded as a Final Strike\b")
+# "create [Status Level of Electrification consumed +1] Sunderblades … successively
+# unleash Thunder Strikes" (Zhuang Fangyi): the number of strikes follows the stacks.
+STRIKES_BY_STACKS = re.compile(
+    r"\[Status Level of [\w ]+ consumed[^\]]*\].*?\bsuccessively unleash (?P<noun>[A-Z]\w*(?: [A-Z]\w*)*?)s\b",
+    re.S,
+)
 
 
 RELEASES = re.compile(r"Number of (?P<what>\w+) Releases$")
@@ -233,7 +256,9 @@ def hit_counts(skill: dict, stats: list[dict]) -> None:
     * "per SEQ" with "2 thrust sequences" / "5 hits" (Akekuri, Wulfgard) — N;
     * "per SEQ / per Beat" with no number in the text — ``count: None``: the
       hit count depends on time or stacks, and the track shows it under "not
-      modelled" rather than silently counting one hit.
+      modelled" rather than silently counting one hit;
+    * rows that repeat by time or by a stated count (damage over time, "1 hit
+      every 0.3s", "next 5 ABATKs") — see ``repeated_hits``.
     """
     text = re.sub(r"\s+", " ", skill.get("text") or "")
     rows = [row for row in stats if row.get("hit") and row["hit"]["role"] != "conditional"]
@@ -267,6 +292,96 @@ def hit_counts(skill: dict, stats: list[dict]) -> None:
             row["hit"]["count"] = _number(counted[1])
         else:
             row["hit"]["count"] = None
+
+    repeated_hits(text, stats, [row for row in rows if row["hit"]["role"] == "hit"])
+
+
+def _ticks(stats: list[dict], label: str, interval: float | None) -> int | None:
+    """Ticks of a damage-over-time row: ``floor(duration / interval)``, or None.
+
+    The interval is the argument (from the text) or the skill's `Interval (s)`
+    row whose stem leads the damage row's label ("DMG Over Time Interval (s)"
+    for "DMG Over Time Multiplier"); the duration is the skill's `Duration (s)`
+    row (bare, or with such a stem). Whether the first tick lands at the press
+    or one interval later is not in any text, so the count is the floor, which
+    holds for both: 5 s at 0.5 s is 10 either way (the other reading, 11, needs
+    the tick at both ends). A row that differs between levels, or a missing
+    one, gives None: the count is not known, and None is the honest answer.
+    """
+
+    def single(pattern: re.Pattern) -> float | None:
+        found = {
+            row["values"][0]
+            for row in stats
+            if row["unit"] == "sec"
+            and (m := pattern.match(row["label"]))
+            and (not m["stem"] or label.lower().startswith(m["stem"].lower()))
+            and len(set(row["values"])) == 1
+        }
+        return found.pop() if len(found) == 1 else None
+
+    interval = interval if interval is not None else single(INTERVAL_ROW)
+    duration = single(DURATION_ROW)
+    if not interval or not duration:
+        return None
+    return int(duration / interval + 1e-9)
+
+
+def repeated_hits(text: str, stats: list[dict], rows: list[dict]) -> None:
+    """Rows that hit again and again, and the skill text says how often (audit B31).
+
+    A row without a count is one hit; these are not:
+
+    * "… Over Time" with `Interval (s)` and `Duration (s)` rows (Snowshine's
+      ultimate: 0.5 s over 5 s) — ``floor(duration / interval)``, see ``_ticks``;
+      without them (Typhoeus's `Area DMG Over Time`) — ``None``;
+    * "Each enemy can only take 1 damaging hit every 0.3s" and a `Duration
+      (s)` (Ardelia's ultimate, 3 s) — the same count for a lone damage row,
+      ``None`` where there are several and the text does not say which;
+    * "For her next 5 ABATKs … Her 5th Hail of Arrows is an empowered Hail of
+      Arrows" (Typhoeus's ultimate): the normal row is 5 − 1, the empowered
+      one hit, as with Chen's final slash;
+    * "unleash 5 Aerial Basic Attacks (ABATK) … her 5th ABATK is regarded as a
+      Final Strike" (Typhoeus's battle skill): `ABATK DMG` is 5 − 1 and the
+      `Aerial Final Strike DMG` row is the fifth. Taken from the text's own
+      reading of the 5th as the Final Strike; for a non-controlled Typhoeus it
+      would be five plain ABATKs, and that case the row does not tell apart;
+    * strikes whose number follows the consumed stacks (Zhuang Fangyi's
+      Thunder Strikes) — ``None``. The final strike's "6 times the DMG" is not
+      modelled either way.
+
+    Only rows with no count yet are touched.
+    """
+    free = [row for row in rows if "count" not in row["hit"]]
+
+    for row in free:
+        if OVER_TIME.search(row["label"]) and not TOTAL_LABEL.search(row["label"]):
+            row["hit"]["count"] = _ticks(stats, row["label"], None)
+
+    free = [row for row in free if "count" not in row["hit"]]
+    if (capped := ONE_HIT_EVERY.search(text)) and free:
+        for row in free:
+            row["hit"]["count"] = _ticks(stats, row["label"], float(capped[1])) if len(free) == 1 else None
+
+    free = [row for row in free if "count" not in row["hit"]]
+    if (last := EMPOWERED_LAST.search(text)) and re.search(rf"\bnext {last['n']}\b", text):
+        total = int(last["n"])
+        for row in free:
+            if last["noun"].lower() in row["label"].lower() and not re.match(r"empowered\b", row["label"], re.I):
+                row["hit"]["count"] = total - 1
+
+    free = [row for row in free if "count" not in row["hit"]]
+    if (attacks := UNLEASH_ATTACKS.search(text)) and (final := LAST_IS_FINAL_STRIKE.search(text)):
+        if final["abbr"] == attacks["abbr"] and int(final["n"]) == _number(attacks[1]):
+            for row in free:
+                if re.match(rf"{attacks['abbr']} DMG\b", row["label"]):
+                    row["hit"]["count"] = int(final["n"]) - 1
+
+    free = [row for row in free if "count" not in row["hit"]]
+    if strikes := STRIKES_BY_STACKS.search(text):
+        for row in free:
+            if row["label"].lower().startswith(strikes["noun"].lower()):
+                row["hit"]["count"] = None
 
 
 SWITCH_TEXT = re.compile(r"the ultimate is switched to ([A-Z][\w' ]+?)\.", re.I)
@@ -446,6 +561,71 @@ def sp_roles(stats: list[dict]) -> None:
             row["sp"] = {"kind": kind, "when": "always"}
         else:
             row["sp"] = {"kind": kind, "when": "conditional"}
+
+
+# «per Infliction Stack», «per Vulnerable Stack»: the label names the kind of stack.
+ENERGY_STACK_KIND = re.compile(r"\b(infliction|vulnerab\w*)\b", re.I)
+ENERGY_TARGETS = re.compile(r"\bwhen hitting (\d+) enem", re.I)
+# «After the combo skill successfully hits the enemy, Yvonne gains additional
+# Ultimate Energy»: a gain the text ties to the skill landing.
+ENERGY_ON_HIT = re.compile(r"\bskill (?:successfully )?hits\b", re.I)
+
+
+def energy_roles(skill: dict, stats: list[dict]) -> None:
+    """Tags the rows of a combo skill that give the caster Ultimate Energy.
+
+    A combo's energy is not one row. The engine used to read the first row
+    called `Ultimate Energy Gain`, which for Last Rite was her «Base» 40
+    without the «15 per Infliction Stack» (85-100 in all), for Rossi only
+    SEQ 1, for Yvonne without her «Additional» and for Zhuang Fangyi without
+    the «+10 per Infliction Stack». Roles (``energy``, only for rows of unit
+    ``energy`` in a Combo Skill, and never the ultimate's `Cost`):
+
+    * ``base`` — «Ultimate Energy Gain», «Base Ultimate Energy Gain»: once
+      per cast;
+    * ``perStack`` — «… per Infliction Stack»: multiplied by the stacks the
+      cast consumed. ``stack`` is the kind the label names (``infliction`` or
+      ``vulnerable``), else the one the skill text names; a row that names
+      none stays ``conditional``;
+    * ``perSequence`` — «SEQ 2 Ultimate Energy Gain»: ``sequence`` is the
+      stage that gives it (Rossi's two sequences give 10 each);
+    * ``onHit`` — a gain tied to the skill landing: Yvonne's «Additional
+      Ultimate Energy Gain» (the text says «after the combo skill
+      successfully hits»), Laevatain's «when Hitting N Enemies» (``targets``).
+      The engine's target is a single enemy that is always hit, so it counts
+      the row without ``targets`` and the one for 1 enemy;
+    * ``conditional`` — the condition is not visible from the label: not
+      counted.
+
+    Battle-skill energy (Laevatain's, Typhoeus's, Zhuang Fangyi's «per Thunder
+    Strike») is another mechanism — a cast's own stacks, `Synergy.ownStacks`
+    — and is not tagged here.
+    """
+    if skill.get("type") != "Combo Skill":
+        return
+    text = re.sub(r"\s+", " ", skill.get("text") or "")
+    for row in stats:
+        label = row["label"]
+        if row["unit"] != "energy" or re.search(r"\bcost\b", label, re.I):
+            continue
+        if seq := re.match(r"SEQ (\d+) ", label, re.I):
+            role: dict = {"role": "perSequence", "sequence": int(seq[1])}
+        elif targets := ENERGY_TARGETS.search(label):
+            role = {"role": "onHit", "targets": int(targets[1])}
+        elif PER_STACK.search(label):
+            kind = ENERGY_STACK_KIND.search(label) or ENERGY_STACK_KIND.search(text)
+            if kind:
+                stack = "vulnerable" if kind[1].lower().startswith("vulner") else "infliction"
+                role = {"role": "perStack", "stack": stack}
+            else:
+                role = {"role": "conditional"}
+        elif re.fullmatch(r"(Base )?Ultimate Energy Gain", label, re.I):
+            role = {"role": "base"}
+        elif label.lower().startswith("additional ") and ENERGY_ON_HIT.search(text):
+            role = {"role": "onHit"}
+        else:
+            role = {"role": "conditional"}
+        row["energy"] = role
 
 
 # «MOVE 1 - Cloudtrapper: Costs 100 SP and returns50 SP after casting» (Mi
@@ -967,6 +1147,86 @@ HIT_STEM = re.compile(r"\s*(?:DMG Multiplier|Multiplier)$")
 STAGGER_STEM = re.compile(r"\s*Stagger$")
 
 
+# «deals Physical DMG», «dealing massive Heat DMG» — a damage element the
+# text names. «Physical DMG Taken», «Heat DMG Dealt +6 %» are buffs, not hits.
+DEALS_ELEMENT = re.compile(r"\b(Physical|Heat|Cryo|Electric|Nature) DMG\b(?! (?:Taken|Dealt|Bonus)\b)", re.I)
+# A paragraph that is a move of its own: «Bolt Rush: Argent Flow mounts …».
+MOVE_HEADING = re.compile(r"^(?P<move>[^:\n]{2,40}):")
+# A paragraph that is not a hit: the combo's trigger condition.
+NOT_A_HIT = re.compile(r"^COMBO TRIGGER:", re.I)
+# A clause that adds one more attack to the cast: «also unleashes a Wolven
+# Ambrage … Heat DMG», «unleash an additional attack that deals Electric DMG».
+EXTRA_ATTACK = re.compile(r"\b(?:also unleashes|additional attack)\b", re.I)
+
+
+def row_elements(skill: dict) -> list[str]:
+    """The element each damage row deals: ``element`` on rows with ``hit``.
+
+    A hit's resistance, DMG Bonus, Amp, DMG Taken and Susceptibility follow
+    the element of the damage, and that is not always the operator's:
+    Estella (Cryo) deals Physical DMG with everything but Onomatopoeia,
+    Rossi (Physical) Heat DMG with her ultimate. The rule, on the skill's
+    text («deals … <Element> DMG»; the combo trigger is not a hit):
+
+    * the text names no element — no field: the engine takes the operator's;
+    * it names one — every damage row of the skill deals it;
+    * it names several — the first is the skill's own, and every damage row
+      deals it except the rows a later element's paragraph is tied to:
+      a paragraph headed by a move («Bolt Rush: … Electric DMG») — that
+      move's rows (``move``, or a label starting with its name); a clause
+      that adds an attack («also unleashes», «additional attack») — the
+      skill's last plain hit, an «Additional …» row if there is one.
+      A later element that ties to no row is printed and left out: its rows
+      keep the first element.
+
+    The client agrees where it was checked (``damageType`` in
+    ``Json/SkillData``: 0 Physical, 2 Heat, 3 Electric, 4 Cryo, 6 Nature):
+    Estella's basic attack, combo and ultimate are 0, her battle skill's
+    projectile 4; Rossi's `SEQ 2` (``atk_scale_3``) is the Wolven Ambrage's
+    projectiles, 2. The client is not read here: the site's build has no
+    clone, and the decision must not depend on it.
+
+    Returns the elements that tied to no row, for the export's report.
+    """
+    rows = [row for row in skill.get("stats", []) if row.get("hit")]
+    for row in rows:
+        row.pop("element", None)
+    paragraphs = [line.strip() for line in (skill.get("text") or "").splitlines() if line.strip()]
+    mentions = [
+        (paragraph, found)
+        for paragraph in paragraphs
+        if not NOT_A_HIT.match(paragraph)
+        for found in DEALS_ELEMENT.finditer(paragraph)
+    ]
+    if not rows or not mentions:
+        return []
+    main = mentions[0][1][1].capitalize()
+    owner: dict[int, str] = {}
+    untied: list[str] = []
+    for paragraph, found in mentions:
+        element = found[1].capitalize()
+        if element == main:
+            continue
+        tied: list[dict] = []
+        if heading := MOVE_HEADING.match(paragraph):
+            name = heading["move"].strip()
+            tied = [row for row in rows if row.get("move") == name or row["label"].startswith(f"{name} ")]
+        if not tied:
+            # The clause's own sentence: «If …, also unleashes … Heat DMG.»
+            start = max(paragraph.rfind(". ", 0, found.start()) + 1, 0)
+            if EXTRA_ATTACK.search(paragraph[start:found.end()]):
+                plain = [row for row in rows if row["hit"]["role"] == "hit" and not row.get("move")]
+                extra = [row for row in plain if row["label"].startswith("Additional ")]
+                tied = extra[-1:] or plain[-1:]
+        if not tied:
+            untied.append(element)
+        for row in tied:
+            owner[id(row)] = element
+    for row in rows:
+        row["element"] = owner.get(id(row), main)
+    return untied
+
+
 def stagger_roles(stats: list[dict]) -> None:
     """Ties a Stagger row to the hit it belongs to: same label, `Stagger` for `DMG Multiplier`.
 
@@ -1023,6 +1283,7 @@ def skill_stats(skill: dict) -> tuple[list[dict], dict]:
         )
     hit_roles(skill.get("type"), stats)
     sp_roles(stats)
+    energy_roles(skill, stats)
     moves = skill_conditions(skill, stats)
     phases = ultimate_phases(skill, stats) if skill.get("type") == "Ultimate" else None
     if skill.get("type") != "Basic Attack":
@@ -1045,7 +1306,7 @@ def hit_times(skill: dict, frames: dict | None) -> dict | None:
     """When each damage row lands: ``hit.at``, seconds, one per hit of the row.
 
     Rows are wiki data, hits are the client's (``frames.py``), and nothing
-    names which is which. The rule (ENGINE_CORE_PLAN.md, Я1):
+    names which is which. The rule (ENGINE_CORE_PLAN.md, stage Ya1):
 
     * a basic attack's ``SEQ k`` row is the chain's k-th segment, every hit
       of it; times from the start of the chain;
@@ -1106,6 +1367,7 @@ def export_operators(operators: dict, icons: "IconIndex") -> dict:
     out: dict = {}
     frame_data = read_frame_data()
     unmatched: list[str] = []
+    untied: list[str] = []
     for key, record in operators.items():
         skills = []
         for skill in record.get("skills", []):
@@ -1139,6 +1401,9 @@ def export_operators(operators: dict, icons: "IconIndex") -> dict:
                 skill["enhancedBasic"] = enhanced
             # Last: a Stagger row takes the condition its hit ended up with.
             stagger_roles(skill["stats"])
+            # After every pass that sets ``hit`` and ``move``.
+            if loose := row_elements(skill):
+                untied.append(f"{key} {skill.get('name')}: {', '.join(loose)}")
             if (verdict := hit_times(skill, frame_data.get(key))) and not verdict["matched"]:
                 unmatched.append(f"{key} {verdict['kind']} {verdict['wiki']}/{verdict['client']}")
 
@@ -1181,6 +1446,9 @@ def export_operators(operators: dict, icons: "IconIndex") -> dict:
             "revid": (record.get("source") or {}).get("revid"),
             "page": record.get("page"),
         }
+    # A second element the text names but no row could be tied to.
+    if untied:
+        print(f"    row elements a later element tied to no row: {'; '.join(untied)}")
     # Rows and client hits that disagree in number: the rows land on the last hit.
     if unmatched:
         print(f"    hit times    wiki rows ≠ client hits, last hit taken: {', '.join(unmatched)}")
@@ -1308,6 +1576,21 @@ def _jsonable(value):
     return value
 
 
+def _yaml():
+    """PyYAML, or a loud failure: a missing module must not thin out the bundle.
+
+    Timings, aliases and the SP layer are hand-written YAML; without them the
+    export used to finish with exit code 0 and a bundle missing those layers.
+    """
+    try:
+        import yaml
+    except ImportError as exc:
+        raise RuntimeError(
+            "PyYAML is required to build the bundle (timings, aliases, SP layer): pip install PyYAML"
+        ) from exc
+    return yaml
+
+
 def export_timings() -> dict:
     """The hand-written layer of action durations.
 
@@ -1321,12 +1604,8 @@ def export_timings() -> dict:
     if not path.exists():
         print("  ! no timings.yaml — the engine will use built-in values")
         return {}
-    try:
-        import yaml
-    except ImportError:
-        return {}
-    with path.open(encoding="utf-8") as handle:
-        data = yaml.safe_load(handle) or {}
+    _yaml()  # fails loudly without PyYAML, see _yaml()
+    data = load_yaml(path) or {}
     # YAML parses 2026-09-12 as datetime.date, and json.dump cannot handle it
     # and fails HALFWAY through writing, leaving a truncated bundle. A sneaky
     # trap: the error message is about JSON, while the cause is in YAML.
@@ -1434,12 +1713,8 @@ def export_aliases() -> dict:
     path = ROOT / "roster" / "aliases.yaml"
     if not path.exists():
         return {}
-    try:
-        import yaml
-    except ImportError:
-        return {}
-    with path.open(encoding="utf-8") as handle:
-        data = yaml.safe_load(handle) or {}
+    _yaml()  # fails loudly without PyYAML, see _yaml()
+    data = load_yaml(path) or {}
     return {str(k): list(v or []) for k, v in data.items()}
 
 
@@ -1457,41 +1732,37 @@ def export_synergy(operators: dict) -> dict:
     Vulnerability **and** Arts Infliction" needs both. Without this
     distinction the validator complains about perfectly working rotations.
     """
-    try:
-        from tools.ef.rotation import (
-            combo_trigger,
-            consumed_trigger,
-            consumed_too,
-            find_skill,
-            strike_trigger,
-            load_implications,
-            requirement_groups,
-            absent_terms,
-            own_resource,
-            stance_condition,
-        )
-        from tools.ef.synergy import (
-            build_index,
-            load_aliases as load_term_aliases,
-            stack_effects,
-            stances as stance_effects,
-            charges as charge_effects,
-            transforms as transform_effects,
-            forced_levels as forced_level_effects,
-            marks as mark_effects,
-            vulnerable_stacks as vulnerable_effects,
-            repeats as repeat_effects,
-            stocks as stock_effects,
-            own_stacks as own_stack_effects,
-            detonates as detonate_effects,
-            echoes as echo_effects,
-            strike_after as strike_after_effect,
-            team_position_rules,
-            trigger_thresholds,
-        )
-    except Exception as exc:  # noqa: BLE001
-        print(f"  ! synergies not collected: {exc}")
-        return {}
+    from tools.ef.rotation import (
+        combo_trigger,
+        consumed_trigger,
+        consumed_too,
+        find_skill,
+        strike_trigger,
+        load_implications,
+        requirement_groups,
+        absent_terms,
+        own_resource,
+        stance_condition,
+    )
+    from tools.ef.synergy import (
+        build_index,
+        load_aliases as load_term_aliases,
+        stack_effects,
+        stances as stance_effects,
+        charges as charge_effects,
+        transforms as transform_effects,
+        forced_levels as forced_level_effects,
+        marks as mark_effects,
+        vulnerable_stacks as vulnerable_effects,
+        repeats as repeat_effects,
+        stocks as stock_effects,
+        own_stacks as own_stack_effects,
+        detonates as detonate_effects,
+        echoes as echo_effects,
+        strike_after as strike_after_effect,
+        team_position_rules,
+        trigger_thresholds,
+    )
 
     index = build_index(operators)
     implications = load_implications()
@@ -1649,12 +1920,8 @@ def export_sp() -> dict | None:
     path = ROOT / "data" / "endfield" / "sp.yaml"
     if not path.exists():
         return None
-    try:
-        import yaml
-    except ImportError:
-        return None
-    with path.open(encoding="utf-8") as handle:
-        data = _jsonable(yaml.safe_load(handle) or {})
+    _yaml()  # fails loudly without PyYAML, see _yaml()
+    data = _jsonable(load_yaml(path) or {})
     measured = read_basic_attacks()
     final_strike = data.get("final_strike") or {}
     finisher = data.get("finisher") or {}
@@ -1697,11 +1964,8 @@ def export_effects(operators: dict, weapons: dict, gear: dict) -> dict:
     `unmodeled` where the vocabulary cannot express the effect. The app must
     show both: understated damage has to be visible.
     """
-    try:
-        from tools.ef.effects import load_effects
-    except Exception as exc:  # noqa: BLE001
-        print(f"  ! effects layer not built: {exc}")
-        return {"entries": [], "covered": [], "counts": {}}
+    from tools.ef.effects import load_effects
+
     result = load_effects(operators, weapons, gear)
     counts = result.get("counts", {})
     print(
@@ -1752,18 +2016,16 @@ def export_roster(operators: dict, weapons: dict) -> dict:
     The app must show these separately, or a defaulted skill level of one will
     look like a measured value.
     """
-    try:
-        from tools.ef.roster import load_roster, owned
-    except Exception as exc:  # noqa: BLE001 — the bundle is needed even without a roster
-        print(f"  ! roster not read: {exc}")
+    from tools.ef.roster import ROSTER, load_roster, owned
+
+    # No roster file is a normal state (a fresh clone): the bundle does not need
+    # one. A file that is there but cannot be read is a failure, not a thinner
+    # bundle.
+    if not ROSTER.exists():
+        print(f"  ! no {ROSTER.relative_to(ROOT)}: roster not read")
         return {}
 
-    try:
-        mine = owned(strict=False)
-    except Exception as exc:  # noqa: BLE001
-        print(f"  ! roster not read: {exc}")
-        return {}
-
+    mine = owned(strict=False)
     defaults = (load_roster() or {}).get("defaults") or {}
     out: dict = {}
 
@@ -1828,21 +2090,34 @@ def export_roster(operators: dict, weapons: dict) -> dict:
     return {"operators": out, "defaults": defaults}
 
 
-def _resists_vs_client(record: dict) -> str:
+RESISTANCES_CLIENT = DATA / "resistances_client.json"
+
+
+def read_client_resistances() -> dict[str, dict[str, float]] | None:
+    """The client's resistance multipliers per enemy id, or None without the file.
+
+    Written by ``tools/ef/datamine.py --export-resistances``; versioned like
+    ``stagger_nodes.json``, so the check below runs in CI too, where the
+    datamine clone (not in git) is absent.
+    """
+    if not RESISTANCES_CLIENT.exists():
+        print(f"  ! no {RESISTANCES_CLIENT.name}: every resistance stays `inferred` "
+              "(python3 tools/ef/datamine.py --export-resistances)")
+        return None
+    data = json.loads(RESISTANCES_CLIENT.read_text(encoding="utf-8"))
+    return data.get("enemies") or {}
+
+
+def _resists_vs_client(record: dict, client_all: dict[str, dict[str, float]] | None) -> str:
     """Resistance confidence: `confirmed` if the wiki letters matched the client.
 
-    The check runs on every export against the datamine clone
-    (`tools/ef/sync.py`); without a clone it stays `inferred`, as before
-    2026-10-28. A mismatch is printed and leaves `inferred`: the client is to
-    be trusted, but deciding whose number to take is up to a human.
+    The client's numbers come from ``resistances_client.json`` (a snapshot of
+    the datamine clone, see ``read_client_resistances``); without the file, or
+    for an enemy missing from it, the answer stays `inferred`. A mismatch is
+    printed and leaves `inferred`: the client is to be trusted, but deciding
+    whose number to take is up to a human.
     """
-    try:
-        from tools.ef import datamine
-    except Exception:  # noqa: BLE001
-        return "inferred"
-    if not datamine.available():
-        return "inferred"
-    client = datamine.enemy_resistances(record.get("id") or "")
+    client = (client_all or {}).get(record.get("id") or "")
     if client is None:
         return "inferred"
     wiki = record.get("resistances", {})
@@ -1875,6 +2150,7 @@ def read_stagger_nodes() -> dict[str, list[float]]:
 
 def export_enemies(enemies: dict) -> dict:
     nodes = read_stagger_nodes()
+    client_resistances = read_client_resistances()
     out: dict = {}
     for key, record in enemies.items():
         out[key] = {
@@ -1890,7 +2166,7 @@ def export_enemies(enemies: dict) -> dict:
             # letters in the UI. Since 2026-10-28 checked against the client —
             # all 92 matched exactly.
             "resistances": record.get("resistances", {}),
-            "resistanceConfidence": _resists_vs_client(record),
+            "resistanceConfidence": _resists_vs_client(record, client_resistances),
             # Enemy fields are labelled in Template:Enemy data (revid 60912):
             # SD → «Finisher ATK Mult», SPG → «Finisher SP Gain»,
             # SHP → «Stagger HP», SR → «Stagger Recovery».
@@ -1916,16 +2192,12 @@ def export_enemies(enemies: dict) -> dict:
 def export_mechanics(mechanics: dict, icons: "IconIndex") -> dict:
     out: dict = {}
     for key, record in mechanics.items():
-        sections = record.get("sections", {})
+        # Name, icon and revid only: the page texts (about 320 KB of raw
+        # wikitext) were in the bundle and read by nothing; the app explains
+        # a mechanic in its own words and links the page by revid (audit B38).
         out[key] = {
             "key": key,
             "name": record.get("name", key),
-            "overview": record.get("overview"),
-            # The Calculations section is a direct specification of the
-            # multiplier groups: the text says what adds up and what multiplies.
-            "calculations": sections.get("Calculations"),
-            "sections": {k: v for k, v in sections.items() if k != "Interactions"},
-            "interactions": record.get("interactions", {}),
             "icon": icons.path("mechanics", key),
             "revid": (record.get("source") or {}).get("revid"),
         }

@@ -143,24 +143,66 @@ class MWClient:
             for i in range(0, len(titles), TITLES_PER_REQUEST)
         ]
 
-    def revision_meta(self, titles) -> dict[str, dict]:
-        """{title: {revid, timestamp}} — cheap, no content.
+    def _resolve(self, batch, chunks) -> dict[str, tuple[dict, str | None]]:
+        """{requested title: (page, redirect target or None)} for one batch.
 
-        Missing pages simply do not appear in the result.
+        The key is the title the caller asked for, not the page that answered:
+        without ``redirects=1`` the wiki returned ``#REDIRECT [[Arts Burst]]``
+        as the content of ``Cryo Burst`` and it was stored as such (В33). A
+        redirect is now reported through the second element, so the caller
+        decides what to do with an alias. A bare normalisation (underscores,
+        a lower-case first letter) is not a redirect.
+        """
+        pages = {
+            page["title"]: page
+            for chunk in chunks
+            for page in chunk.get("pages", [])
+            if not page.get("missing") and page.get("revisions")
+        }
+        normalized: dict[str, str] = {}
+        redirects: dict[str, str] = {}
+        for chunk in chunks:
+            for item in chunk.get("normalized", []):
+                normalized[item["from"]] = item["to"]
+            for item in chunk.get("redirects", []):
+                redirects[item["from"]] = item["to"]
+
+        resolved: dict[str, tuple[dict, str | None]] = {}
+        for title in batch:
+            current = normalized.get(title, title)
+            target = current
+            # Chains are followed to the end, with a guard against loops.
+            seen = {target}
+            while target in redirects and redirects[target] not in seen:
+                target = redirects[target]
+                seen.add(target)
+            page = pages.get(target)
+            if page is not None:
+                resolved[title] = (page, target if target != current else None)
+        return resolved
+
+    def revision_meta(self, titles) -> dict[str, dict]:
+        """{title: {revid, timestamp[, redirect_to]}} — cheap, no content.
+
+        Keyed by the requested title. For a redirect, ``revid`` and
+        ``timestamp`` are the target's and ``redirect_to`` names it. Missing
+        pages simply do not appear in the result.
         """
         meta: dict[str, dict] = {}
         for batch in self._batched(titles):
-            for chunk in self.query(
-                prop="revisions", rvprop="ids|timestamp", titles="|".join(batch)
-            ):
-                for page in chunk.get("pages", []):
-                    if page.get("missing") or not page.get("revisions"):
-                        continue
-                    revision = page["revisions"][0]
-                    meta[page["title"]] = {
-                        "revid": revision["revid"],
-                        "timestamp": revision["timestamp"],
-                    }
+            chunks = self.query(
+                prop="revisions",
+                rvprop="ids|timestamp",
+                redirects=1,
+                titles="|".join(batch),
+            )
+            for title, (page, redirected) in self._resolve(batch, chunks).items():
+                revision = page["revisions"][0]
+                meta[title] = {
+                    "revid": revision["revid"],
+                    "timestamp": revision["timestamp"],
+                    **({"redirect_to": redirected} if redirected else {}),
+                }
         return meta
 
     def first_revision(self, title: str) -> str | None:
@@ -187,24 +229,28 @@ class MWClient:
         return None
 
     def page_content(self, titles) -> dict[str, dict]:
-        """{title: {revid, timestamp, content}} — raw wikitext."""
+        """{title: {revid, timestamp, content[, redirect_to]}} — raw wikitext.
+
+        Keyed by the requested title; a redirect carries the target's content
+        and ``redirect_to`` (see ``revision_meta``).
+        """
         pages: dict[str, dict] = {}
         for batch in self._batched(titles):
-            for chunk in self.query(
+            chunks = self.query(
                 prop="revisions",
                 rvprop="ids|timestamp|content",
                 rvslots="main",
+                redirects=1,
                 titles="|".join(batch),
-            ):
-                for page in chunk.get("pages", []):
-                    if page.get("missing") or not page.get("revisions"):
-                        continue
-                    revision = page["revisions"][0]
-                    pages[page["title"]] = {
-                        "revid": revision["revid"],
-                        "timestamp": revision["timestamp"],
-                        "content": revision["slots"]["main"]["content"],
-                    }
+            )
+            for title, (page, redirected) in self._resolve(batch, chunks).items():
+                revision = page["revisions"][0]
+                pages[title] = {
+                    "revid": revision["revid"],
+                    "timestamp": revision["timestamp"],
+                    "content": revision["slots"]["main"]["content"],
+                    **({"redirect_to": redirected} if redirected else {}),
+                }
         return pages
 
     def parse_html(self, title: str) -> dict:

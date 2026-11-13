@@ -10,7 +10,19 @@
 import { get as idbGet, set as idbSet } from 'idb-keyval';
 import { create } from 'zustand';
 
-import { emptyDraft, showcaseBuild, type Build, type Bundle, type Draft, type DummyState } from '@engine/index.js';
+import {
+  emptyDraft,
+  normaliseBuild,
+  normaliseDrafts,
+  normaliseVariants,
+  showcaseBuild,
+  type Build,
+  type BuildVariant,
+  type Bundle,
+  type Draft,
+  type DummyState,
+  type OperatorBuilds,
+} from '@engine/index.js';
 
 import { currentT } from './i18n/index.js';
 
@@ -19,25 +31,10 @@ const LEGACY_KEY = 'endfield.builds.v1';
 const STORAGE_KEY = 'endfield.builds.v2';
 const DRAFTS_KEY = 'endfield.rotations.v1';
 
-/** A named build variant: "Will", "Intellect". */
-export interface BuildVariant {
-  id: string;
-  name: string;
-  build: Build;
-  savedAt: string;
-}
-
-/**
- * One operator's build variants.
- *
- * The showcase is not in the list: it is assembled from the roster on the
- * fly, read-only, and `active: null` means "looking at the showcase". So an
- * Enka import cannot overwrite any saved variant.
- */
-export interface OperatorBuilds {
-  active: string | null;
-  variants: BuildVariant[];
-}
+// What is saved is read through the engine's checkers (`normalise.ts`): a
+// build that is not a build must not reach the track, or the page stays white
+// on every load. The types live there with them.
+export type { BuildVariant, OperatorBuilds };
 
 interface AppState {
   /** Saved variants, by operator key. This is what gets stored. */
@@ -67,6 +64,10 @@ interface AppState {
   saveAs: (key: string, name: string, bundle: Bundle) => void;
   renameVariant: (key: string, id: string, name: string) => void;
   deleteVariant: (key: string, id: string) => void;
+  /** Everyone back to the showcase builds, nothing deleted: the way out of a screen that crashed on a saved build. */
+  resetToShowcase: () => void;
+  /** Erases every saved variant and draft of this browser: the last way out of a crash. */
+  eraseSaved: () => void;
   setDummy: (patch: Partial<DummyState>) => void;
   newDraft: () => Draft;
   saveDraft: (draft: Draft) => void;
@@ -94,10 +95,13 @@ function activeBuilds(variants: Record<string, OperatorBuilds>): Record<string, 
   return out;
 }
 
-/** The old format — one build per operator — into variants. */
-function migrate(legacy: Record<string, Build>, name: string): Record<string, OperatorBuilds> {
+/** The old format — one build per operator — into variants. Whatever is not a build is left out. */
+function migrate(legacy: unknown, name: string): Record<string, OperatorBuilds> {
   const out: Record<string, OperatorBuilds> = {};
-  for (const [key, build] of Object.entries(legacy)) {
+  if (typeof legacy !== 'object' || legacy === null) return out;
+  for (const [key, raw] of Object.entries(legacy)) {
+    const build = normaliseBuild(raw, key);
+    if (!build) continue;
     const item = variant(name, build);
     out[key] = { active: item.id, variants: [item] };
   }
@@ -141,9 +145,9 @@ export const useApp = create<AppState>((set, getState) => {
     loaded: false,
 
     hydrate: async () => {
-      let saved: Record<string, OperatorBuilds> | undefined;
-      let legacy: Record<string, Build> | undefined;
-      let drafts: Record<string, Draft> | undefined;
+      let saved: unknown;
+      let legacy: unknown;
+      let drafts: unknown;
       try {
         saved = await idbGet(STORAGE_KEY);
         if (!saved) legacy = await idbGet(LEGACY_KEY);
@@ -154,9 +158,9 @@ export const useApp = create<AppState>((set, getState) => {
       }
       // Old edits become the first variant. The v1 key is not erased: rolling
       // back to the previous app version loses nothing.
-      const variants = saved ?? (legacy ? migrate(legacy, 'Edited') : {});
+      const variants = saved ? normaliseVariants(saved) : legacy ? migrate(legacy, currentT().variants.edited) : {};
       if (!saved && legacy) void persist(variants);
-      set({ variants, builds: activeBuilds(variants), drafts: drafts ?? {}, loaded: true });
+      set({ variants, builds: activeBuilds(variants), drafts: normaliseDrafts(drafts), loaded: true });
     },
 
     select: (key) => set({ selected: key }),
@@ -187,7 +191,7 @@ export const useApp = create<AppState>((set, getState) => {
     saveAs: (key, name, bundle) => {
       const entry = entryOf(key);
       const item = variant(
-        name.trim() || `Build ${entry.variants.length + 1}`,
+        name.trim() || currentT().variants.numbered(entry.variants.length + 1),
         getState().buildFor(key, bundle),
       );
       commit({ ...getState().variants, [key]: { active: item.id, variants: [...entry.variants, item] } });
@@ -213,6 +217,20 @@ export const useApp = create<AppState>((set, getState) => {
       if (rest.length === 0) delete variants[key];
       else variants[key] = { active: entry.active === id ? null : entry.active, variants: rest };
       commit(variants);
+    },
+
+    resetToShowcase: () => {
+      const variants = Object.fromEntries(
+        Object.entries(getState().variants).map(([key, entry]) => [key, { ...entry, active: null }]),
+      );
+      commit(variants);
+      set({ selected: null });
+    },
+
+    eraseSaved: () => {
+      commit({});
+      set({ drafts: {}, selected: null });
+      void persistDrafts({});
     },
 
     setDummy: (patch) => set({ dummy: { ...getState().dummy, ...patch } }),
@@ -253,18 +271,16 @@ export const useApp = create<AppState>((set, getState) => {
     importJson: (text) => {
       const payload: unknown = JSON.parse(text);
       if (typeof payload !== 'object' || payload === null) throw new Error(currentT().roster.importNotObject);
-      const file = payload as {
-        variants?: Record<string, OperatorBuilds>;
-        builds?: Record<string, Build>;
-        drafts?: Record<string, Draft>;
-      };
+      const file = payload as { variants?: unknown; builds?: unknown; drafts?: unknown };
+      // The file is someone else's, or an older version's, or edited by hand:
+      // what is not a build or a draft is left out, the rest is repaired.
       // Versions 1–2 stored one build per operator: they arrive as an
       // "Imported" variant, overwriting nothing.
       const incoming =
         file.variants && typeof file.variants === 'object'
-          ? file.variants
+          ? normaliseVariants(file.variants)
           : file.builds && typeof file.builds === 'object'
-            ? migrate(file.builds, 'Imported')
+            ? migrate(file.builds, currentT().variants.imported)
             : null;
       if (!incoming) throw new Error(currentT().roster.importNoBuilds);
 
@@ -286,7 +302,7 @@ export const useApp = create<AppState>((set, getState) => {
       // Rotation drafts appeared in the file's second version: older files
       // import as they are, without them.
       if (file.drafts && typeof file.drafts === 'object') {
-        const drafts = { ...getState().drafts, ...file.drafts };
+        const drafts = { ...getState().drafts, ...normaliseDrafts(file.drafts) };
         set({ drafts });
         void persistDrafts(drafts);
       }
@@ -307,8 +323,9 @@ export function ensureEditable(key: string, bundle: Bundle): Build {
   const existing = state.builds[key];
   if (existing) return existing;
   const taken = new Set((state.variants[key]?.variants ?? []).map((item) => item.name));
-  let name = 'Custom';
-  for (let index = 2; taken.has(name); index += 1) name = `Custom ${index}`;
+  const names = currentT().variants;
+  let name = names.custom;
+  for (let index = 2; taken.has(name); index += 1) name = names.customNumbered(index);
   state.saveAs(key, name, bundle);
   return useApp.getState().builds[key]!;
 }

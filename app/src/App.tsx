@@ -18,8 +18,10 @@ import { ELEMENT_COLOR } from './colors.js';
 import Track from './Track.js';
 import { iconUrl, listed, useBundle } from './data.js';
 import { EnkaImport } from './EnkaImport.js';
+import { ErrorBoundary } from './ErrorBoundary.js';
 import { useLang, useT } from './i18n/index.js';
 import { useNames, useRuNames } from './i18n/names.js';
+import { rotFromHash } from './share.js';
 import { useApp } from './store.js';
 
 function OperatorCard({
@@ -124,11 +126,20 @@ export default function App(): JSX.Element {
   // The screen lives in the address, so a reload keeps you on the track and
   // the browser's back button works between sections.
   const [screen, setScreenState] = useState<Screen>(() => screenFromHash(window.location.hash));
+  const select = useApp((store) => store.select);
   useEffect(() => {
-    const follow = (): void => setScreenState(screenFromHash(window.location.hash));
+    // The event's own address, not `location`: the track may already have
+    // taken the rotation out of the fragment (`Track.tsx`).
+    const follow = (event: HashChangeEvent): void => {
+      const hash = new URL(event.newURL).hash;
+      setScreenState(screenFromHash(hash));
+      // A shared rotation link opened in this tab: the build editor, if one
+      // is open, would otherwise stay on top of the track that gets it.
+      if (rotFromHash(hash)) select(null);
+    };
     window.addEventListener('hashchange', follow);
     return () => window.removeEventListener('hashchange', follow);
-  }, []);
+  }, [select]);
   const setScreen = (next: Screen): void => {
     window.location.hash = next === 'roster' ? '' : next;
     setScreenState(next);
@@ -139,7 +150,6 @@ export default function App(): JSX.Element {
     if (selected) countView(`/operator/${selected}`);
     else countView(screen === 'roster' ? '/' : `/${screen}`);
   }, [screen, selected]);
-  const select = useApp((store) => store.select);
   const hydrate = useApp((store) => store.hydrate);
   const variants = useApp((store) => store.variants);
   const exportJson = useApp((store) => store.exportJson);
@@ -209,7 +219,8 @@ export default function App(): JSX.Element {
   const frame = (content: JSX.Element, wide = false): JSX.Element => (
     <main className={wide ? 'shell shell--wide' : 'shell'}>
       <SiteHeader screen={selected ? 'roster' : screen} onNavigate={navigate} />
-      {content}
+      {/* The header stays, so a screen that broke can be left. */}
+      <ErrorBoundary resetKey={`${screen}:${selected ?? ''}`}>{content}</ErrorBoundary>
       <SiteFooter bundle={data} onAbout={() => navigate('about')} />
     </main>
   );

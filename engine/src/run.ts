@@ -256,7 +256,9 @@ export function simulateVariant(
   const scales = timings.sensitivity.length > 0 ? timings.sensitivity : [1];
   const passes = scales.map((scale) => {
     const verdicts = new Map<string, Message>();
-    for (const frame of simulate(steps, team, timings, { ...shared, scale }).frames) {
+    // The ×1 pass is the run itself: not simulated twice.
+    const frames = scale === 1 ? result.frames : simulate(steps, team, timings, { ...shared, scale }).frames;
+    for (const frame of frames) {
       for (const [key, value] of frame.verdicts) verdicts.set(key, value);
     }
     return { scale, verdicts };

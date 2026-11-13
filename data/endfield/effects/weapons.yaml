@@ -107,7 +107,7 @@ weapons:
     seen: "Nature DMG Dealt +{0}%. When the wielder applies Arts Susceptibility or Arts Infliction with a combo skill, the wielder gains ATK +{1}% while other operators in the team gain ATK +{2}%. Duration: 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately."
     apply:
       - {stat: dmg_bonus, element: Nature, value: "{0}"}
-      - {stat: atk_pct, value: "{1}", stacks: {max: 2}, duration: 20, trigger: "applies:Arts Susceptibility|applies:Arts Infliction", target: self, teamShare: 0.25}
+      - {stat: atk_pct, value: "{1}", stacks: {max: 2}, duration: 20, trigger: "applies:Arts Susceptibility@Combo Skill|applies:Arts Infliction@Combo Skill", target: self, teamShare: 0.25}
     note: "triggers only from the combo skill; team share {2}/{1} = 0.25 in every column"
 
   - name: Never Rest
@@ -123,16 +123,15 @@ weapons:
     seen: "Max HP +{0}%. When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +{1}% for 20.00s. Effects of the same name cannot stack."
     apply:
       - {stat: hp_pct, value: "{0}"}
-      - {stat: atk_pct, value: "{1}", duration: 20, trigger: "cast:Ultimate", target: others}
-    unmodeled: "team ATK — only for operators of an element other than the wearer's"
+    unmodeled: "ATK +{1} % for 20 s after the wearer's ultimate, only for operators of an element other than the wearer's — the vocabulary has no element filter on receivers"
 
   - name: Brigand's Calling
     confidence: inferred
     seen: "Cryo DMG Dealt +{0}%. When the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +{1}% for 20.00s. When the wielder's battle skill or ultimate applies Arts Susceptibility, the target enemy suffers Arts DMG Taken +{2}% for 20.00s. The two effects apply separately and do not stack with themselves."
     apply:
       - {stat: dmg_bonus, element: Cryo, value: "{0}"}
-      - {stat: dmg_bonus, element: Cryo, value: "{1}", duration: 20, trigger: "applies:Cryo Infliction", target: self}
-      - {stat: dmg_taken, element: Arts, value: "{2}", duration: 20, trigger: "applies:Arts Susceptibility", target: enemy}
+      - {stat: dmg_bonus, element: Cryo, value: "{1}", duration: 20, trigger: "applies:Cryo Infliction@Battle Skill|applies:Cryo Infliction@Ultimate", target: self}
+      - {stat: dmg_taken, element: Arts, value: "{2}", duration: 20, trigger: "applies:Arts Susceptibility@Battle Skill|applies:Arts Susceptibility@Ultimate", target: enemy}
     note: "both triggers — only from a battle skill or ultimate"
 
   - name: OBJ Razorhorn
@@ -178,14 +177,16 @@ weapons:
     apply:
       - {stat: dmg_bonus, element: Physical, value: "{0}"}
       - {stat: arts_intensity, value: "{1}", duration: 20, trigger: "applies:Physical Susceptibility", target: self}
-    unmodeled: "Physical +[{2} % + {3} % × consumed Vulnerability stacks] after Crush"
+      - {stat: dmg_bonus, element: Physical, value: "{2}", duration: 30, trigger: "applies:Crush", target: self}
+      - {stat: dmg_bonus, element: Physical, value: "{3}", stacks: {max: 4, from: consumed}, duration: 30, trigger: "applies:Crush", target: self}
+    note: "after Crush: a flat part and a part per Vulnerability stack the Crush consumed (two rows of one effect)"
 
   - name: Khravengger
     confidence: unknown
     seen: "Skill DMG Dealt +{0}% (for every skill). When the wielder's battle skill applies Cryo Infliction, the wielder gains Cryo DMG Dealt +{1}% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction, the wielder gains Cryo DMG Dealt +{2}% for 15.00s. The two effects apply separately and do not stack with themselves."
     apply:
-      - {stat: dmg_bonus, element: Cryo, value: "{1}", duration: 15, trigger: "applies:Cryo Infliction", target: self}
-      - {stat: dmg_bonus, element: Cryo, value: "{2}", duration: 15, trigger: "target_has:Cryo Infliction", target: self}
+      - {stat: dmg_bonus, element: Cryo, value: "{1}", duration: 15, trigger: "applies:Cryo Infliction@Battle Skill", target: self}
+      - {stat: dmg_bonus, element: Cryo, value: "{2}", duration: 15, trigger: "cast:Combo Skill", targetHas: [Cryo Infliction], target: self}
       - {stat: dmg_bonus, skillType: Battle Skill, value: "{0}"}
       - {stat: dmg_bonus, skillType: Combo Skill, value: "{0}"}
       - {stat: dmg_bonus, skillType: Ultimate, value: "{0}"}

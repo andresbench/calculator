@@ -18,7 +18,8 @@ APP="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
 UNIT="endfield-calc"
 PORT=5173
 URL="http://localhost:$PORT"
-NODE_BIN="$HOME/.local/opt/node/bin"
+NODE_BIN="${NODE_BIN:-$HOME/.local/opt/node/bin}"
+[ -d "$NODE_BIN" ] || NODE_BIN="$(dirname "$(command -v node)")"
 
 sc() { systemctl --user "$@"; }
 up() { curl -sf -o /dev/null --max-time 2 "$URL/api/roster"; }

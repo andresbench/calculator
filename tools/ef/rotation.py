@@ -48,10 +48,9 @@ import re
 import sys
 from pathlib import Path
 
-import yaml
-
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
+from tools.common.yamlio import load_yaml
 from tools.ef.roster import owned
 from tools.ef.synergy import (
     INFLICTIONS,
@@ -98,8 +97,7 @@ def load_aliases() -> dict[str, str]:
         mapping[normalise(record["name"])] = key
 
     if ALIASES.exists():
-        with ALIASES.open(encoding="utf-8") as handle:
-            declared = yaml.safe_load(handle) or {}
+        declared = load_yaml(ALIASES) or {}
         for canonical, names in declared.items():
             target = canonical if canonical in operators else None
             if target is None:

@@ -11,7 +11,7 @@ import type { SpTable } from './simulate.js';
 import type { Timings } from './timing.js';
 import type { Synergy } from './triggers.js';
 
-export const SCHEMA = 40;
+export const SCHEMA = 43;
 
 /**
  * A number's unit. It exists because in the wiki's source data percentages
@@ -59,6 +59,13 @@ export interface StatRow {
    * skill's.
    */
   dealtAs?: SkillType;
+  /**
+   * The element the hit deals, when the skill's text names it (`export.py`,
+   * `row_elements`): Estella's ultimate deals Physical DMG, Rossi's Heat.
+   * Absent — the text names none, and the hit deals the operator's element
+   * (`rowElement`).
+   */
+  element?: Element;
   /**
    * A Stagger row tied to its hit (`export.py`, `stagger_roles`): `sequence`
    * — the stage its «SEQ n» names; `conditional` — only when the hit's
@@ -123,6 +130,21 @@ export interface StatRow {
     count?: number;
     stacks?: number;
     sequence?: number;
+  };
+  /**
+   * A combo's Ultimate Energy row (decided in `export.py`, `energy_roles`;
+   * Combo Skills only). A combo's energy is the sum of its rows, not the
+   * first one. `base` — once per cast; `perStack` — times the stacks of kind
+   * `stack` the cast consumed; `perSequence` — the stage `sequence` gives it;
+   * `onHit` — tied to the skill landing: counted, as the dummy is always
+   * hit, except a `targets` row for more than one enemy; `conditional` — the
+   * condition is not visible from the label, not counted.
+   */
+  energy?: {
+    role: 'base' | 'perStack' | 'perSequence' | 'onHit' | 'conditional';
+    stack?: 'infliction' | 'vulnerable';
+    sequence?: number;
+    targets?: number;
   };
 }
 
@@ -445,14 +467,10 @@ export interface GlossaryTerm {
   source_module: string;
 }
 
+/** A mechanic page: name, icon and the wiki revision the app links to. The texts stay in `data/`. */
 export interface Mechanic {
   key: string;
   name: string;
-  overview: string | null;
-  /** The "Calculations" section — a direct specification of the multiplier groups. */
-  calculations: string | null;
-  sections: Record<string, string>;
-  interactions: Record<string, unknown[]>;
   icon: string | null;
   revid: number | null;
 }

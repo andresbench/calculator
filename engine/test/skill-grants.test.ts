@@ -49,12 +49,14 @@ describeWithBundle('skill grants', (bundle) => {
   const at12 = (operator: string, type: string, label: string) => statAt(skillOf(operator, type), label, 12)!;
   const mods = (operator: string, potential: number) =>
     activeEffects(bundle.effects, { operator, elite: 4, potential }).flatMap((effect) => effect.grants ?? []);
-  const play = (team: string, script: string, potential = 0) => {
+  // `client: true` — the client's frames and SP table, so hits land at their
+  // times instead of the conditional second.
+  const play = (team: string, script: string, potential = 0, client = false) => {
     const rotation = parseRot(`team: ${team}\n${script}`, buildAliases(bundle));
     const members = teamOf(bundle, rotation.team, rotation.steps);
-    const sim = simulate(rotation.steps, members, FALLBACK_TIMINGS, {
+    const sim = simulate(rotation.steps, members, client ? (bundle.timings ?? FALLBACK_TIMINGS) : FALLBACK_TIMINGS, {
       synergy: bundle.synergy,
-      sp: { ...FALLBACK_SP, passiveRegen: 1000 },
+      sp: { ...(client ? (bundle.sp ?? FALLBACK_SP) : FALLBACK_SP), passiveRegen: 1000 },
       ultimatesCharged: true,
       modifiers: simModifiersFor(bundle, members, () => potential),
     });
@@ -73,6 +75,21 @@ describeWithBundle('skill grants', (bundle) => {
     expect(grants.before[0]).toEqual([]);
     expect(grants.fresh[0]!.map((buff) => buff.apply.value)).toEqual([at12('Lifeng', 'Battle Skill', 'Physical Susceptibility')]);
     expect(grants.before[1]!.map((buff) => [buff.receiver, buff.apply.stat, buff.apply.element])).toEqual([
+      ['enemy', 'susceptibility', 'Physical'],
+    ]);
+  });
+
+  it('…and from a hit in flight: the step it lands in applies it, the next one stands under it', () => {
+    // Under the client's frames Turbid Avatar lands 2 s after the press; Chen's
+    // basic attacks follow before that, so the hit lands during her step and
+    // the debuff carries the hit's time, not a press (`landInFlight`).
+    const { sim, grants } = play('Lifeng, Chen', 'Lifeng: BS\nChen: BA\nChen: BA', 0, true);
+    const applied = debuff(sim.frames[1]!, 'Physical Susceptibility')!;
+    expect(applied.skill).toBe('Turbid Avatar');
+    expect(sim.frames.map((frame) => frame.world)).not.toContain(applied.appliedAt);
+    expect(grants.fresh[0]).toEqual([]);
+    expect(grants.fresh[1]!.map((buff) => buff.apply.value)).toEqual([at12('Lifeng', 'Battle Skill', 'Physical Susceptibility')]);
+    expect(grants.before[2]!.map((buff) => [buff.receiver, buff.apply.stat, buff.apply.element])).toEqual([
       ['enemy', 'susceptibility', 'Physical'],
     ]);
   });

@@ -103,6 +103,9 @@ const KIND_TO_SKILL: Record<string, SkillType> = {
 const ALIASES: Record<string, string> = {
   Vulnerability: 'Vulnerable',
   'Originium Crystals': 'Originium Crystal',
+  // Set texts: «applies Amp, Protection, Susceptibility, or Weakness».
+  Protection: 'Protect',
+  Weakness: 'Weaken',
 };
 
 /** A term as the engine spells it: effect triggers say «Originium Crystals», the target holds «Originium Crystal». */
@@ -203,15 +206,23 @@ function linesOf(holder: BuffHolder): Line[] {
       if (apply.stat === 'sp_return') return;
       let trigger = apply.trigger ?? '';
       let max = apply.stacks?.max ?? 1;
-      // A potential edits another effect by buff name: "Max Fervent Morale
-      // stacks +2, SP needed 60".
+      let edited = apply;
+      // A potential edits another effect: «Talent The Living Banner improved:
+      // … Max Fervent Morale stacks on self +2». `modifies.effect` names the
+      // talent (the rows of that effect); a buff name reaches every row that
+      // puts the buff up, including another talent's (Tactical Instruction
+      // gives Fervent Morale to the spender), so it is only a fallback.
       for (const other of holder.active) {
         const mod = other.modifies;
-        if (!mod || mod.effect !== apply.name) continue;
+        if (!mod) continue;
+        const named = holder.active.some((item) => item.source.name === mod.effect);
+        if (named ? effect.source.name !== mod.effect : apply.name !== mod.effect) continue;
         if (mod.stacksMax) max += mod.stacksMax;
         if (mod.trigger) trigger = mod.trigger;
+        if (mod.valueDelta) edited = { ...edited, value: edited.value + mod.valueDelta };
+        if (mod.teamShare != null) edited = { ...edited, teamShare: mod.teamShare };
       }
-      out.push({ effect, apply, index, source: holder.key, trigger, max });
+      out.push({ effect, apply: edited, index, source: holder.key, trigger, max });
     });
   }
   return out;
@@ -345,17 +356,22 @@ export function trackBuffs(frames: Frame[], holders: BuffHolder[], critHits?: Cr
     for (const [key, sp] of Object.entries(frame.spRecoveredBy)) recovered.set(key, (recovered.get(key) ?? 0) + sp);
 
     for (const template of lines) {
-      const fired = timesFired(template, frame, recovered, note, critHits ? crits : null);
+      const fired = timesFired(template, frame, previous, recovered, note, critHits ? crits : null);
       if (fired === 0) continue;
       // A `spender` buff is the instance of whoever's step this is.
       const actor = frame.step.actor;
       if (template.apply.target === 'spender' && !actor) continue;
       const line: Line = template.apply.target === 'spender' && actor ? { ...template, spender: actor } : template;
       const key = instanceKey(line);
+      // A row with its own cooldown fires at most once per `cooldown`
+      // seconds: Swordmancer's extra hit, Mi Fu's P3 «each time the shield
+      // is triggered» (45 s apart).
+      if (line.apply.cooldown != null) {
+        if ((readyAt.get(key) ?? -Infinity) > now + 1e-9) continue;
+        readyAt.set(key, now + line.apply.cooldown);
+      }
       // An instance, not a buff: fires at this step if off cooldown.
       if (line.apply.stat === 'extra_hit') {
-        if ((readyAt.get(key) ?? -Infinity) > now + 1e-9) continue;
-        readyAt.set(key, now + (line.apply.cooldown ?? 0));
         extraHits.push({
           frameIndex,
           by: line.source,
@@ -378,7 +394,15 @@ export function trackBuffs(frames: Frame[], holders: BuffHolder[], critHits?: Cr
         // "× Max number of stacks consumed": one buff, strength by what was consumed.
         const eaten = consumedCount(frame, line.source);
         if (eaten === 0) continue;
-        instance.expires = Array(Math.min(eaten, line.max)).fill(until);
+        if (line.apply.stacks.accumulate) {
+          // «For every 1 stack consumed … can reach 6 stacks. Duration of each
+          // stack is counted separately» (Argent Flow's P3): casts add up.
+          for (let count = 0; count < eaten; count += 1) instance.expires.push(until);
+          instance.expires.sort((a, b) => a - b);
+          while (instance.expires.length > line.max) instance.expires.shift();
+        } else {
+          instance.expires = Array(Math.min(eaten, line.max)).fill(until);
+        }
       } else if (line.max <= 1) {
         // Does not stack: a repeat trigger refreshes the duration.
         instance.expires = [until];
@@ -439,6 +463,7 @@ function splitTrigger(text: string): [string, string | null] {
 function timesFired(
   line: Line,
   frame: Frame,
+  met: TargetState | undefined,
   recovered: Map<string, number>,
   note: (message: Message) => void,
   crits: Map<string, { total: number; added: number }> | null,
@@ -446,12 +471,19 @@ function timesFired(
   const holder = line.source;
   const mine = frame.step.actor === holder;
   if (line.apply.controlled && frame.controlled !== holder) return 0;
+  // «… to targets with Cryo Infliction or Solidification» (Xaihi's Execute
+  // Process): the row fires only when the target the step met has one.
+  if (line.apply.targetHas && !line.apply.targetHas.some((term) => targetHas(met, term, frame.world))) return 0;
   let fired = 0;
   for (const alternative of line.trigger.split('|')) {
     const [kind, arg] = splitTrigger(alternative);
     switch (kind) {
       case 'cast':
         if (mine && arg && castIs(arg, frame)) fired = Math.max(fired, 1);
+        break;
+      // «When any operator in the team casts a battle skill» (Type 50 Yinglung).
+      case 'team_cast':
+        if (arg && castIs(arg, frame)) fired = Math.max(fired, 1);
         break;
       case 'skill_hit':
         if (mine && ['BS', 'CS', 'ULT'].includes(frame.step.kind)) fired = Math.max(fired, 1);

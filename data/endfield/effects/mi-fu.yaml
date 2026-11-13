@@ -72,7 +72,7 @@ potentials:
     confidence: inferred
     seen: "Talent Vigilant Fury improved: Shield duration +5s. Shield trigger cooldown -15s. Each time the shield is triggered, Mi Fu gains ATK +6% for 20s."
     apply:
-      - {stat: atk_pct, value: 6, duration: 20, trigger: "cast:Combo Skill", target: self}
+      - {stat: atk_pct, value: 6, duration: 20, trigger: "cast:Combo Skill", cooldown: 45, target: self}
     note: >-
       The trigger is recorded as the combo cast, because the combo is what
       applies the shield. The engine does not count the shield's own cooldown

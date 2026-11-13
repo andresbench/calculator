@@ -1,5 +1,5 @@
 /**
- * The roster from an Enka showcase, on the static site (PUBLISH_PLAN, П6).
+ * The roster from an Enka showcase, on the static site (PUBLISH_PLAN, stage P6).
  *
  * The showcase comes through the project's proxy — Enka sends no CORS
  * headers — and the engine reads it (`showcase.ts`) with the bundle's
@@ -81,7 +81,13 @@ export async function importShowcase(source: string, bundle: Bundle): Promise<Sh
     return { ok: false, code: 'network' };
   }
 
-  const read = readShowcase(payload, bundle);
+  // Someone else's JSON, and a proxy that passes through whatever Enka sent: `null`, `charData: {}` and the like throw.
+  let read: ReturnType<typeof readShowcase>;
+  try {
+    read = readShowcase(payload, bundle);
+  } catch {
+    return { ok: false, code: 'bad_payload' };
+  }
   const before = await loadShowcase();
   // Another account starts over: two players' operators are not one roster.
   const previous = before && before.uid === uid ? before : null;

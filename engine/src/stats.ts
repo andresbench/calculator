@@ -67,6 +67,8 @@ export interface DmgBonusBuckets {
   vsStaggered: number;
   /** «DMG Dealt +X % for all types of DMG». */
   all: number;
+  /** One skill's rows only: Estella's P3 «Onomatopoeia … DMG Dealt +40%». By skill or move name. */
+  bySkill: Record<string, number>;
 }
 
 /** Crit damage on top of `critDmg`, for one skill or one skill type. */
@@ -143,7 +145,7 @@ export interface BuildInput {
 }
 
 function emptyBuckets(): DmgBonusBuckets {
-  return { byElement: {}, arts: 0, bySkillType: {}, allSkill: 0, vsStaggered: 0, all: 0 };
+  return { byElement: {}, arts: 0, bySkillType: {}, allSkill: 0, vsStaggered: 0, all: 0, bySkill: {} };
 }
 
 function addBuckets(target: DmgBonusBuckets, source: Partial<DmgBonusBuckets>): void {
@@ -153,6 +155,9 @@ function addBuckets(target: DmgBonusBuckets, source: Partial<DmgBonusBuckets>): 
   for (const [type, value] of Object.entries(source.bySkillType ?? {})) {
     const key = type as SkillType;
     target.bySkillType[key] = (target.bySkillType[key] ?? 0) + (value ?? 0);
+  }
+  for (const [skill, value] of Object.entries(source.bySkill ?? {})) {
+    target.bySkill[skill] = (target.bySkill[skill] ?? 0) + value;
   }
   target.arts += source.arts ?? 0;
   target.allSkill += source.allSkill ?? 0;
@@ -466,10 +471,15 @@ export function screenElementBonus(sheet: StatSheet, element: string): number {
  */
 export function dmgBonusFor(
   sheet: StatSheet,
-  context: { element: string; skillType?: SkillType; staggered?: boolean },
+  context: { element: string; skillType?: SkillType; staggered?: boolean; skill?: string; instanceLabel?: string },
 ): number {
   const buckets = sheet.dmgBonus;
   let total = buckets.all;
+  // A bonus to one skill: by the skill's name, or by a move's name that
+  // starts the row label (moves within a battle skill exist only in labels).
+  for (const [name, value] of Object.entries(buckets.bySkill)) {
+    if (name === context.skill || (context.instanceLabel != null && context.instanceLabel.startsWith(name))) total += value;
+  }
   // «All Skill DMG» is battle skill, combo and ultimate: basic attacks and
   // statuses do not take it (measurements, #38).
   if (context.skillType && context.skillType !== 'Basic Attack') total += buckets.allSkill;

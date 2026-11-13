@@ -12,6 +12,8 @@ trailing commas and ``--`` comments.
 
 from __future__ import annotations
 
+import re
+
 
 class LuaParseError(ValueError):
     pass
@@ -114,7 +116,9 @@ class _Parser:
                     return value
 
         start = self.pos
-        while self.pos < len(self.text) and self.text[self.pos] not in ",}\n":
+        while self.pos < len(self.text):
+            if self.text[self.pos] in ",};\n" or self.text.startswith("--", self.pos):
+                break
             self.pos += 1
         raw = self.text[start : self.pos].strip()
         try:
@@ -192,16 +196,23 @@ def parse_lua_table(text: str) -> dict | list:
     return parser.parse_table()
 
 
+# Lua comments: block ``--[==[ ... ]==]`` (any number of ``=``), then line ``-- ...``.
+_COMMENT_RE = re.compile(r"--\[(=*)\[.*?\]\1\]|--[^\r\n]*", re.S)
+
+
 def parse_assignment(text: str, variable: str) -> dict | list:
-    """Parses a specific assignment of the form ``local data = { ... }``."""
-    marker = f"{variable}"
-    index = text.find(marker)
-    while index != -1:
-        equals = text.find("=", index + len(marker))
-        brace = text.find("{", index + len(marker))
-        if equals != -1 and brace != -1 and equals < brace:
-            parser = _Parser(text)
-            parser.pos = brace
-            return parser.parse_table()
-        index = text.find(marker, index + 1)
+    """Parses a specific assignment of the form ``local data = { ... }``.
+
+    The variable is matched as a whole identifier (``data``, not
+    ``metadata``), and an assignment inside a comment does not count. Comments
+    are blanked with offsets kept, so the brace found in the masked text is the
+    brace in the original.
+    """
+    masked = _COMMENT_RE.sub(lambda m: re.sub(r"[^\r\n]", " ", m.group(0)), text)
+    pattern = rf"(?<![A-Za-z0-9_]){re.escape(variable)}(?![A-Za-z0-9_])\s*=\s*\{{"
+    match = re.search(pattern, masked)
+    if match:
+        parser = _Parser(text)
+        parser.pos = match.end() - 1
+        return parser.parse_table()
     raise LuaParseError(f"assignment {variable!r} not found")

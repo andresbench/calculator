@@ -72,7 +72,7 @@ measurement from you closes one (see [CONTRIBUTING](CONTRIBUTING.md)).
 
 ## Running it locally
 
-Python 3.12+ and Node 22.
+Python 3.11+ and Node 22.
 
 ```bash
 pip install -r requirements.txt

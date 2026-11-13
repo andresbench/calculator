@@ -1085,14 +1085,6 @@
    "revid": 65271
   }
  },
- "Cryo Burst": {
-  "name": "Cryo Burst",
-  "overview": "#REDIRECT Arts Burst\nCategory: Arts Bursts",
-  "page": "Cryo Burst",
-  "source": {
-   "revid": 49032
-  }
- },
  "Cryo Infliction": {
   "interactions": {
    "operators": [
@@ -1565,14 +1557,6 @@
   },
   "source": {
    "revid": 64608
-  }
- },
- "Electric Burst": {
-  "name": "Electric Burst",
-  "overview": "#REDIRECT Arts Burst\nCategory: Arts Bursts",
-  "page": "Electric Burst",
-  "source": {
-   "revid": 49031
   }
  },
  "Electric Infliction": {
@@ -2173,14 +2157,6 @@
   },
   "source": {
    "revid": 65272
-  }
- },
- "Heat Burst": {
-  "name": "Heat Burst",
-  "overview": "#REDIRECT Arts Burst\nCategory: Arts Bursts",
-  "page": "Heat Burst",
-  "source": {
-   "revid": 49030
   }
  },
  "Heat Infliction": {
@@ -2853,14 +2829,6 @@
   },
   "source": {
    "revid": 64627
-  }
- },
- "Nature Burst": {
-  "name": "Nature Burst",
-  "overview": "#REDIRECT Arts Burst\nCategory: Arts Bursts",
-  "page": "Nature Burst",
-  "source": {
-   "revid": 49033
   }
  },
  "Nature Infliction": {

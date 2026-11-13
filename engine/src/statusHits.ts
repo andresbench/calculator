@@ -83,7 +83,7 @@ const level = (consumed: number | undefined): number => Math.min(Math.max(consum
  * burning it did not pay for.
  */
 export function statusHits(frames: Frame[], end: number): StatusHit[][] {
-  const combustions: Array<{ frame: number; at: number }> = [];
+  const combustions: Array<{ frame: number; debuff: TargetDebuff | undefined; at: number }> = [];
   const out = frames.map((frame, index) => {
     const hits: StatusHit[] = [];
     let combusted = false;
@@ -151,20 +151,23 @@ export function statusHits(frames: Frame[], end: number): StatusHit[][] {
           break;
       }
     }
-    if (combusted) combustions.push({ frame: index, at: frame.world });
+    if (combusted) {
+      const debuff = frame.target.debuffs.find((entry) => entry.term === 'Combustion');
+      // It burns from the hit that lit it, which a hit in flight puts between presses (audit 2026-11-12, B7).
+      combustions.push({ frame: index, debuff, at: debuff?.appliedAt ?? frame.world });
+    }
     return hits;
   });
 
-  // Combustion ticks: from application to the end of the burn, a new Combustion, or the track.
+  // Combustion ticks: from application to the end of the burn, a new Combustion, a skill taking it off the target, or the track.
   combustions.forEach((item, position) => {
-    const frame = frames[item.frame]!;
-    const debuff = frame.target.debuffs.find((entry) => entry.term === 'Combustion');
+    const { debuff, at } = item;
     if (!debuff) return;
     const next = combustions[position + 1]?.at ?? Infinity;
     // A temporary Combustion (Laevatain's forced one, 5 s) stops at its own end.
-    const last = debuff.expiresAt ?? item.at + COMBUSTION_SECONDS;
-    const stop = Math.min(last, next, end);
-    const ticks = Math.max(0, Math.floor(stop - item.at + 1e-9));
+    const last = debuff.expiresAt ?? at + COMBUSTION_SECONDS;
+    const stop = Math.min(last, next, takenOffAt(frames, item.frame, debuff), end);
+    const ticks = Math.max(0, Math.floor(stop - at + 1e-9));
     if (ticks === 0) return;
     const sl = level(debuff.level);
     out[item.frame]!.push({
@@ -179,6 +182,29 @@ export function statusHits(frames: Frame[], end: number): StatusHit[][] {
     });
   });
   return out;
+}
+
+/**
+ * When a reaction standing on the target was taken off it early: the first
+ * frame after `from` that no longer has this debuff (the same term applied
+ * at the same time), at the time of the event that took it — a hit in flight
+ * stamps its own. `Infinity` while it stands to the end of the track. A
+ * debuff that merely ran out or was replaced is gone from the frame too,
+ * and the caller's other bounds are earlier than the frame's time then.
+ */
+function takenOffAt(frames: Frame[], from: number, debuff: TargetDebuff): number {
+  for (let index = from + 1; index < frames.length; index += 1) {
+    const frame = frames[index]!;
+    const standing = frame.target.debuffs.some(
+      (entry) => entry.term === debuff.term && Math.abs(entry.appliedAt - debuff.appliedAt) < 1e-9,
+    );
+    if (standing) continue;
+    const taken = frame.status.find(
+      (event) => event.term === debuff.term && (event.kind === 'reactionConsumed' || event.kind === 'debuffConsumed'),
+    );
+    return taken?.at ?? frame.world;
+  }
+  return Infinity;
 }
 
 /** `(3·AI + 300)/(AI + 300)` — amplification of reaction and Breach debuffs (wiki). */
@@ -313,9 +339,12 @@ export function statusDebuffs(
         .map((debuff) => toBuff(debuff, frame.world))
         .filter((buff): buff is ActiveBuff => buff !== null),
     );
+    // Applied by this step: not in the frame before it. A hit in flight
+    // lands between presses, so `appliedAt` is not this step's press.
+    const seen = new Set(previous.map((debuff) => `${debuff.term}|${debuff.source}|${debuff.appliedAt}`));
     fresh.push(
       frame.target.debuffs
-        .filter((debuff) => Math.abs(debuff.appliedAt - frame.world) < 1e-9)
+        .filter((debuff) => !seen.has(`${debuff.term}|${debuff.source}|${debuff.appliedAt}`))
         .map((debuff) => toBuff(debuff, frame.world))
         .filter((buff): buff is ActiveBuff => buff !== null),
     );

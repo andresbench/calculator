@@ -6,6 +6,7 @@ build the download list itself lives here.
 
 from __future__ import annotations
 
+import functools
 import re
 
 _DECLARE_RE = re.compile(r"\{\{\s*#cargo_declare:\s*(.*?)\}\}", re.S)
@@ -189,8 +190,26 @@ def iter_templates(text: str, name: str | None = None):
         yield {"name": template_name, "params": params}
 
 
+# The text is scanned once and the result is cached per cleaned text: it is a
+# tuple of tuples only (immutable, hashable). find_templates rebuilds a fresh
+# dict on every call, so a caller that mutates its results cannot corrupt the
+# cached data.
+@functools.lru_cache(maxsize=256)
+def _all_templates(cleaned: str) -> tuple:
+    return tuple(
+        (template["name"], tuple(template["params"].items()))
+        for template in iter_templates(cleaned)
+    )
+
+
 def find_templates(text: str, name: str) -> list[dict]:
-    return list(iter_templates(text, name))
+    cleaned = re.sub(r"<!--.*?-->", "", text, flags=re.S)
+    wanted = name.lower()
+    return [
+        {"name": template_name, "params": dict(items)}
+        for template_name, items in _all_templates(cleaned)
+        if template_name.lower() == wanted
+    ]
 
 
 # ------------------------------------------------------------ cleaning text
@@ -296,18 +315,15 @@ def strip_markup(text: str) -> str:
 
 
 def parse_number_list(value: str) -> list:
-    """"500, 1566, 2689" → [500.0, 1566.0, ...]; "24%" → 0.24.
-
-    Percentages become fractions right away: the calculator multiplies anyway,
-    and keeping "24%" as a string just postpones the parsing.
-    """
+    """Parse comma-separated numbers while preserving thousands separators."""
     out: list = []
-    for chunk in value.split(","):
+    for chunk in re.split(r",(?!\d{3}(?!\d))", value):
         chunk = chunk.strip()
         if not chunk:
             continue
-        percent = chunk.endswith("%")
-        cleaned = chunk.rstrip("%").replace(",", "").strip()
+        numeric = chunk[1:].strip() if chunk.startswith("~") else chunk
+        percent = numeric.endswith("%")
+        cleaned = numeric.rstrip("%").replace(",", "").strip()
         try:
             number = float(cleaned)
         except ValueError:

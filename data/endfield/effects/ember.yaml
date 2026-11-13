@@ -63,7 +63,8 @@ potentials:
     confidence: inferred
     seen: "Ultimate Re-Ignited Oath improved: Shield effect is multiplied by 1.2; while this shield is active, the wielder gains ATK +10%."
     apply:
-      - {stat: atk_pct, value: 10, trigger: "cast:Ultimate", target: team}
+      - {stat: atk_pct, value: 10, trigger: "cast:Ultimate", target: team, duration: 10}
+    note: "«while this shield is active» — the ultimate's Shield Duration (s), 10; the shield breaking earlier is not modelled"
     note: >-
       The buff lasts as long as the ultimate's shield holds, not a fixed
       time: it has no duration of its own, and without a shield model its end

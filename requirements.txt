@@ -1,3 +1,5 @@
 PyYAML>=6.0
+# export.py shrinks icons with it; without Pillow they are copied as they are:
+Pillow>=10
 # Only for tools/ef/gauge.py (reading the stagger gauge off a recording):
 # numpy

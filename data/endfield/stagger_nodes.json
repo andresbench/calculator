@@ -3,7 +3,7 @@
   "source": "client datamine: TableCfg/EnemyAttributeTemplateTable (poiseKnotPctList)",
   "upstream": {
    "url": "https://github.com/rmxlinux/EndfieldData.git",
-   "sha": "46b33765fd0c9997a61342c079b0ec98aabe3931"
+   "sha": "d847759f71d4549aba4727b3b0ac1a1ad0e37742"
   },
   "generator": "tools/ef/datamine.py --export-nodes"
  },

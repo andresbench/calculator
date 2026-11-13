@@ -9,16 +9,15 @@
  *
  * TWO CLOCKS
  * ----------
- * If buff timers froze during an animation, "how much time has passed"
- * would be two different numbers:
- *
- *   world  — buffs, debuffs and cooldowns expire by it;
- *   real   — damage per second is counted by it.
- *
- * An action with `freezesTimers` advances only `real`. Measured: nothing
- * freezes, ultimates included (measurements, #16), so `freezes_timers` in
- * the YAML is empty. The mechanism stays in case an action that does
- * freeze turns up.
+ * The engine keeps two clocks, `world` (buffs, debuffs and cooldowns expire
+ * by it) and `real` (damage per second is counted by it), for the case that
+ * buff timers froze during an animation. Measured: nothing freezes,
+ * ultimates included (measurements, #16), so `freezes_timers` in the YAML is
+ * empty and today the two clocks always advance together. An action marked
+ * `freezesTimers` would NOT freeze timers in the current code: the flag only
+ * keeps hits in flight from landing at the end of that step (`simulate.ts`,
+ * the end-of-step landing). A real freeze needs its own implementation; the
+ * flag is kept so the data can name the action when one turns up.
  *
  * VERDICT FRAGILITY
  * -----------------

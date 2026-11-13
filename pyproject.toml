@@ -1,0 +1,41 @@
+# The data pipeline: wiki and datamine → JSON → the bundle the engine reads.
+# The engine and the app are TypeScript (engine/, app/), with their own
+# package.json; nothing here is needed to run them on a built bundle.
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "andresbench-tools"
+version = "0.1.0"
+description = "Andre's Bench data pipeline: Endfield wiki and client datamine to the calculator bundle"
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML>=6",
+]
+
+[project.optional-dependencies]
+# Downscaling icons into the bundle (`export.py`) and the logo (`tools/logo.py`).
+# Without Pillow the export still runs and copies icons unscaled.
+images = ["Pillow>=10"]
+
+[tool.setuptools.packages.find]
+include = ["tools*"]
+
+# python3 -m unittest discover -s tools/tests -t .
+# Tests read only the versioned JSON in data/endfield/, never the bundle.
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+extend-exclude = ["data", "tools/zzz", "app", "engine"]
+
+[tool.ruff.lint]
+select = ["F", "E9", "B", "PLW"]
+ignore = [
+    "B007",     # unpacked loop names document the tuple's shape
+    "B905",     # zip() over rows of one table: equal length by construction
+    "PLW1510",  # subprocess.run: every call reads returncode itself
+    "PLW2901",  # reassigning a loop variable to its cleaned form is the idiom here
+]

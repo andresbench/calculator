@@ -23,6 +23,7 @@ import { useEffect, useState } from 'react';
 import type { Bundle } from '@engine/index.js';
 
 import { currentT, useT } from './i18n/index.js';
+import { useNames } from './i18n/names.js';
 import { countEvent } from './analytics.js';
 import { forgetShowcase, importShowcase, loadShowcase, type ShowcaseReport } from './showcaseRoster.js';
 import { useApp } from './store.js';
@@ -54,47 +55,59 @@ export function EnkaImport({ bundle, onImported }: { bundle: Bundle; onImported:
   const [running, setRunning] = useState(false);
   const [report, setReport] = useState<Report | null>(null);
   const t = useT();
+  const n = useNames();
   const te = t.enka;
 
   const refreshStatus = async (): Promise<void> => {
-    try {
-      const response = await fetch('/api/roster');
-      const body = (await response.json()) as { available?: boolean; showcases?: Showcase[] };
-      if (!response.ok || !body.available) throw new Error('no endpoint');
-      setAvailability('server');
-      setShowcases(body.showcases ?? []);
-      setSource((current) => current || body.showcases?.[0]?.link || '');
-    } catch {
-      if (!bundle.showcase) {
-        setAvailability('unavailable');
+    // `/api/roster` is the dev server's; on the site it would be a request that can only fail.
+    if (import.meta.env?.DEV) {
+      try {
+        const response = await fetch('/api/roster');
+        const body = (await response.json()) as { available?: boolean; showcases?: Showcase[] };
+        if (!response.ok || !body.available) throw new Error('no endpoint');
+        setAvailability('server');
+        setShowcases(body.showcases ?? []);
+        setSource((current) => current || body.showcases?.[0]?.link || '');
         return;
+      } catch {
+        // Not served here: the proxy, if the bundle has the tables for it.
       }
-      setAvailability('proxy');
-      const stored = await loadShowcase();
-      const link = stored ? `https://enka.network/ef/${stored.uid}/` : '';
-      setShowcases(stored ? [{ uid: stored.uid, link, lastImport: stored.lastImport }] : []);
-      setSource((current) => current || link);
     }
+    if (!bundle.showcase) {
+      setAvailability('unavailable');
+      return;
+    }
+    setAvailability('proxy');
+    const stored = await loadShowcase();
+    const link = stored ? `https://enka.network/ef/${stored.uid}/` : '';
+    setShowcases(stored ? [{ uid: stored.uid, link, lastImport: stored.lastImport }] : []);
+    setSource((current) => current || link);
   };
 
   useEffect(() => {
     void refreshStatus();
   }, []);
 
-  const name = (key: string): string => bundle.operators[key]?.name ?? key;
+  const name = (key: string): string => n.operator(key, bundle.operators[key]?.name ?? key);
 
   const submit = async (): Promise<void> => {
     setRunning(true);
     setReport(null);
     if (availability === 'proxy') {
-      const body = await importShowcase(source, bundle);
-      setReport(body);
-      if (body.ok) {
-        onImported();
-        void refreshStatus();
-        countEvent('enka-import');
+      try {
+        const body = await importShowcase(source, bundle);
+        setReport(body);
+        if (body.ok) {
+          onImported();
+          void refreshStatus();
+          countEvent('enka-import');
+        }
+      } catch {
+        // `importShowcase` answers with a code; this is whatever it did not foresee.
+        setReport({ ok: false, code: 'bad_payload' });
+      } finally {
+        setRunning(false);
       }
-      setRunning(false);
       return;
     }
     try {

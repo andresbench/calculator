@@ -85,7 +85,7 @@ function StackRow({
           height: (point.value / MAX_STACKS) * (STACK_ROW - 8),
           background: colour,
         }}
-        title={t.stackTitle(series.label, point.value, point.t)}
+        title={t.stackTitle(n.term(series.label), point.value, point.t)}
       />,
     );
   }
@@ -785,7 +785,7 @@ export function DamagePanel({ view, damage, cursor }: { view: TrackView; damage:
 export function TrackPanels({ bundle, view, cursor }: { bundle: Bundle; view: TrackView; cursor: number }): JSX.Element {
   const tt = useT();
   const t = tt.canvas;
-  useNames();
+  const n = useNames();
   const current = frameAt(view.frames, cursor);
   return (
     <div className="track__panels">
@@ -806,7 +806,7 @@ export function TrackPanels({ bundle, view, cursor }: { bundle: Bundle; view: Tr
                 <td>{Math.floor(current.sp)} / 300</td>
               </tr>
               <tr>
-                <td>Vulnerable</td>
+                <td>{n.term('Vulnerable')}</td>
                 <td>{current.target.vulnerable} / 4</td>
               </tr>
               <tr>

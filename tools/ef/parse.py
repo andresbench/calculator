@@ -21,6 +21,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import re
 import sys
 from collections import Counter
@@ -29,7 +30,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from tools.common.luadata import parse_assignment
-from tools.common.store import safe_filename
+from tools.common.store import manifest_entry, manifest_titles, redirect_target, safe_filename
 from tools.common.wikitext import (
     find_templates,
     find_templates_deep,
@@ -112,7 +113,47 @@ def read_page(kind: str, title: str) -> str | None:
     path = RAW / kind / (safe_filename(title) + ".wiki")
     if not path.exists():
         return None
-    return path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8")
+    return None if redirect_target(text) else text
+
+
+_REPORTED_REDIRECTS: set[Path] = set()
+
+
+def raw_pages(directory: Path) -> list[tuple[Path, str]]:
+    """``[(path, text)]`` for the ``*.wiki`` files in a raw directory, redirects
+    left out.
+
+    A ``#REDIRECT [[…]]`` page is an alias, not content; four of them used to
+    come out as mechanics with an ``overview`` reading "#REDIRECT Arts Burst"
+    (В33). Each skipped page is printed once per run.
+    """
+    pages: list[tuple[Path, str]] = []
+    for path in sorted(directory.glob("*.wiki")) if directory.exists() else []:
+        text = path.read_text(encoding="utf-8")
+        target = redirect_target(text)
+        if target is None:
+            pages.append((path, text))
+        elif path not in _REPORTED_REDIRECTS:
+            _REPORTED_REDIRECTS.add(path)
+            print(f"  - skipped redirect: {path.relative_to(DATA)} → {target}")
+    return pages
+
+
+class ModuleError(Exception):
+    """A Lua module did not parse: the file built from it must not be written."""
+
+
+def parse_module(path: Path, label: str) -> dict | list:
+    """``parse_assignment(…, "data")`` that fails loudly.
+
+    A failure used to print a line and carry on with ``{}``, and the build
+    wrote an empty JSON and exited 0 (В34). Now it stops the file.
+    """
+    try:
+        return parse_assignment(path.read_text(encoding="utf-8"), "data")
+    except Exception as exc:  # noqa: BLE001 — wrapped, not swallowed
+        raise ModuleError(f"{label}: {exc}") from exc
 
 
 def describe(raw: str) -> dict:
@@ -350,7 +391,7 @@ def build_operators(manifest: dict) -> dict:
                 if field in parsed:
                     record[field] = parsed[field]
 
-        entry = manifest.get(page, {})
+        entry = manifest_entry(manifest, "operators", page) or {}
         record["source"] = {"page": page, "revid": entry.get("revid")}
         operators[key] = record
 
@@ -372,11 +413,7 @@ def load_weapon_skill_effects() -> dict:
     path = RAW / "modules" / (safe_filename("Module:Weapon skill/data") + ".wiki")
     if not path.exists():
         return {}
-    try:
-        table = parse_assignment(path.read_text(encoding="utf-8"), "data")
-    except Exception as exc:  # noqa: BLE001
-        print(f"    ! Module:Weapon skill/data: {exc}")
-        return {}
+    table = parse_module(path, "Module:Weapon skill/data")
 
     effects: dict[str, dict] = {}
     for key, entry in table.items():
@@ -466,7 +503,7 @@ def build_weapons(manifest: dict) -> dict:
                     "name": params.get("4"),
                 }
 
-        record["source"] = {"page": page, "revid": manifest.get(page, {}).get("revid")}
+        record["source"] = {"page": page, "revid": (manifest_entry(manifest, "weapons", page) or {}).get("revid")}
         weapons[name] = record
 
     return weapons
@@ -495,8 +532,8 @@ def build_gear() -> dict:
     # "Secondary Attribute +13.5%" are one stat name with different units. The
     # marker is taken from the wikitext.
     percent_by_page: dict[str, dict[str, bool]] = {}
-    for path in sorted((RAW / "gear").glob("*.wiki")) if (RAW / "gear").exists() else []:
-        blocks = find_templates(path.read_text(encoding="utf-8"), "Gear data")
+    for path, text in raw_pages(RAW / "gear"):
+        blocks = find_templates(text, "Gear data")
         if not blocks:
             continue
         params = blocks[0]["params"]
@@ -646,7 +683,7 @@ def build_enemies(manifest: dict) -> dict:
                     if values:
                         record[field] = values[0]
 
-        record["source"] = {"page": page, "revid": manifest.get(page, {}).get("revid")}
+        record["source"] = {"page": page, "revid": (manifest_entry(manifest, "enemies", page) or {}).get("revid")}
         enemies[name] = record
 
     return enemies
@@ -661,11 +698,8 @@ def collect_aliases() -> dict[str, list[str]]:
     """
     aliases: dict[str, set] = {}
     for kind in ("operators", "weapons", "enemies", "gear_sets", "mechanics"):
-        directory = RAW / kind
-        if not directory.exists():
-            continue
-        for path in directory.glob("*.wiki"):
-            for term, label in glossary_aliases(path.read_text(encoding="utf-8")):
+        for _path, text in raw_pages(RAW / kind):
+            for term, label in glossary_aliases(text):
                 aliases.setdefault(term, set()).add(label)
     return {term: sorted(labels) for term, labels in aliases.items()}
 
@@ -677,11 +711,7 @@ def build_glossary() -> dict:
         path = RAW / "modules" / (safe_filename(module) + ".wiki")
         if not path.exists():
             continue
-        try:
-            table = parse_assignment(path.read_text(encoding="utf-8"), "data")
-        except Exception as exc:  # noqa: BLE001
-            print(f"    ! {module}: {exc}")
-            continue
+        table = parse_module(path, module)
         for term, entry in table.items():
             if term in ("Test", "Temp") or not isinstance(entry, dict):
                 continue
@@ -892,19 +922,14 @@ def clean_formulas(text: str) -> str:
 def build_mechanics(manifest: dict, kind: str = "mechanics") -> dict:
     """Mechanic pages → numbers, formulas and interaction lists."""
     mechanics: dict[str, dict] = {}
-    directory = RAW / kind
-    if not directory.exists():
-        return mechanics
 
     # The file name is not the title: "Item/Natural Resources" is stored as
     # "Item~Natural Resources", and the revid manifest does not find it by that.
-    titles = {Path(meta["path"]).stem: title for title, meta in manifest.items()
-              if meta.get("kind") == kind and meta.get("path")}
-    for path in sorted(directory.glob("*.wiki")):
-        text = path.read_text(encoding="utf-8")
+    titles = manifest_titles(manifest, kind)
+    for path, text in raw_pages(RAW / kind):
         title = titles.get(path.stem, path.stem)
         record: dict = {"name": title, "page": title,
-                        "source": {"revid": manifest.get(title, {}).get("revid")}}
+                        "source": {"revid": (manifest_entry(manifest, kind, title) or {}).get("revid")}}
 
         tables = [parse_html_table(t) for t in _HTML_TABLE_RE.findall(text)]
         tables = [t for t in tables if t]
@@ -973,11 +998,7 @@ def load_recipes() -> list[dict]:
     recipes: list[dict] = []
     for path in sorted((RAW / "modules").glob("Module__Recipe~*.wiki")):
         module = path.stem.split("~", 1)[1]
-        try:
-            table = parse_assignment(path.read_text(encoding="utf-8"), "data")
-        except Exception as exc:  # noqa: BLE001 — one module must not bring down the build
-            print(f"    ! Module:Recipe/{module}: {exc}")
-            continue
+        table = parse_module(path, f"Module:Recipe/{module}")
         for entry in table:
             if not isinstance(entry, dict):
                 continue
@@ -1009,8 +1030,7 @@ def build_factory(manifest: dict) -> dict:
 
     facilities: dict[str, dict] = {}
     rows = {row["_pageName"]: row for row in load_cargo("Facilities")}
-    directory = RAW / "facilities"
-    pages = sorted(p.stem for p in directory.glob("*.wiki")) if directory.exists() else []
+    pages = [path.stem for path, _text in raw_pages(RAW / "facilities")]
     for page in sorted(set(rows) | set(pages)):
         row = rows.get(page, {})
         record: dict = {
@@ -1049,7 +1069,7 @@ def build_factory(manifest: dict) -> dict:
         record["modes"] = sorted({r["mode"] for r in recipes
                                   if r["facility"] == name and r["mode"]})
         record["recipe_count"] = sum(1 for r in recipes if r["facility"] == name)
-        record["source"] = {"page": page, "revid": manifest.get(page, {}).get("revid")}
+        record["source"] = {"page": page, "revid": (manifest_entry(manifest, "facilities", page) or {}).get("revid")}
         facilities[name] = record
 
     items: dict[str, dict] = {}
@@ -1057,11 +1077,7 @@ def build_factory(manifest: dict) -> dict:
         path = RAW / "modules" / (safe_filename(f"Module:Item/{module}") + ".wiki")
         if not path.exists():
             continue
-        try:
-            table = parse_assignment(path.read_text(encoding="utf-8"), "data")
-        except Exception as exc:  # noqa: BLE001
-            print(f"    ! Module:Item/{module}: {exc}")
-            continue
+        table = parse_module(path, f"Module:Item/{module}")
         for key, entry in table.items():
             if not isinstance(entry, dict):
                 continue
@@ -1087,9 +1103,16 @@ def build_factory(manifest: dict) -> dict:
 
 
 def write(name: str, payload) -> None:
+    """Writes through a temporary file: a crash halfway leaves the previous
+    file intact instead of a truncated one."""
     path = DATA / name
-    with path.open("w", encoding="utf-8") as handle:
-        json.dump(payload, handle, ensure_ascii=False, indent=1, sort_keys=True)
+    tmp = path.with_name(path.name + ".tmp")
+    try:
+        with tmp.open("w", encoding="utf-8") as handle:
+            json.dump(payload, handle, ensure_ascii=False, indent=1, sort_keys=True)
+        os.replace(tmp, path)
+    finally:
+        tmp.unlink(missing_ok=True)
     size = path.stat().st_size / 1024
     count = len(payload) if hasattr(payload, "__len__") else "?"
     print(f"  {name:18} {count:>5} records  {size:8.1f} KB")
@@ -1138,22 +1161,50 @@ def apply_overrides(payloads: dict, overrides: dict) -> None:
             print(f"    fix {target}/{key}: {why}")
 
 
-def check_consistency(payloads: dict) -> None:
+_NUMBER_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(%?)")
+
+
+def classify_text_conflict(page_text: str, item_text: str) -> str:
+    """``"numbers differ"`` or ``"wording only"`` for two texts of one set bonus.
+
+    The multisets of numbers (with their percent signs) are compared: «gain» vs
+    «gains», «Protected» vs «Protection» or «DMG+50%» vs «DMG +50%» are the
+    wiki's wording, while «+16%» vs «+18%» changes what the set does. Only the
+    second kind is a problem; the item text is taken either way.
+    """
+    def numbers(text: str) -> Counter:
+        return Counter(
+            (float(number), percent) for number, percent in _NUMBER_RE.findall(text)
+        )
+
+    return "wording only" if numbers(page_text) == numbers(item_text) else "numbers differ"
+
+
+def check_consistency(payloads: dict) -> int:
     """Mismatches that used to pass silently.
 
-    The point is not to fail but to make the gap visible in the build output,
-    rather than have it surface a month later in an answer about a build.
+    The point is to make the gap visible in the build output, rather than have
+    it surface a month later in an answer about a build. Returns the number of
+    real problems, so that ``main`` can fail on them; a set text that differs
+    in wording only is a warning and is not counted.
     """
     print("\nConsistency check:")
     problems = 0
+    warnings = 0
 
     gear = payloads["gear.json"]
     piece_sets = {v["set"] for v in gear["pieces"].values() if v.get("set")}
     for name, record in sorted(gear["sets"].items()):
         if record.get("conflict"):
-            print(f"  ! set «{name}»: the set page and the item pages disagree")
+            kind = classify_text_conflict(record.get("set_page_text") or "", record.get("text") or "")
+            real = kind == "numbers differ"
+            print(f"  {'!' if real else '~'} set «{name}»: the set page and the item pages "
+                  f"disagree — {kind}")
             print(f"      took the item text ({record.get('effect_source')})")
-            problems += 1
+            if real:
+                problems += 1
+            else:
+                warnings += 1
     for name in sorted(piece_sets - set(gear["sets"])):
         print(f"  ! items refer to set «{name}», which is not in the registry")
         problems += 1
@@ -1174,14 +1225,18 @@ def check_consistency(payloads: dict) -> None:
             problems += 1
 
     mechanics = payloads["mechanics.json"]
-    raw_pages = {p.stem for p in (RAW / "mechanics").glob("*.wiki")}
-    lost = sorted(raw_pages - set(mechanics))
+    # Redirects are skipped on purpose (raw_pages), so they are not "lost".
+    on_disk = {path.stem for path, _text in raw_pages(RAW / "mechanics")}
+    lost = sorted(on_disk - set(mechanics))
     if lost:
         print(f"  ! downloaded but not parsed ({len(lost)}): {', '.join(lost)}")
         problems += 1
 
-    if not problems:
+    if not problems and not warnings:
         print("  no mismatches")
+    elif not problems:
+        print(f"  no real problems ({warnings} warning(s))")
+    return problems
 
 
 def main() -> int:
@@ -1191,18 +1246,31 @@ def main() -> int:
     manifest = load_manifest()
     print("Endfield: raw → JSON")
 
-    payloads = {
-        "operators.json": build_operators(manifest),
-        "weapons.json": build_weapons(manifest),
-        "weapon_skills.json": load_weapon_skill_effects(),
-        "gear.json": build_gear(),
-        "enemies.json": build_enemies(manifest),
-        "glossary.json": build_glossary(),
-        "mechanics.json": build_mechanics(manifest),
-        "factory.json": build_factory(manifest),
+    builders = {
+        "operators.json": lambda: build_operators(manifest),
+        "weapons.json": lambda: build_weapons(manifest),
+        "weapon_skills.json": load_weapon_skill_effects,
+        "gear.json": build_gear,
+        "enemies.json": lambda: build_enemies(manifest),
+        "glossary.json": build_glossary,
+        "mechanics.json": lambda: build_mechanics(manifest),
+        "factory.json": lambda: build_factory(manifest),
     }
+    payloads: dict[str, dict] = {}
+    failed: list[str] = []
+    for name, build in builders.items():
+        try:
+            payloads[name] = build()
+        except ModuleError as exc:
+            print(f"  ! {name} not written: {exc}")
+            failed.append(name)
 
-    overrides = load_overrides()
+    # An override for a file that was not built would only say "unknown file".
+    overrides = {
+        target: entries
+        for target, entries in load_overrides().items()
+        if f"{target.partition('.')[0]}.json" not in failed
+    }
     if overrides:
         print("  overrides:")
         apply_overrides(payloads, overrides)
@@ -1212,8 +1280,12 @@ def main() -> int:
 
     gear = payloads["gear.json"]
     print(f"  (gear: {len(gear['pieces'])} items, {len(gear['sets'])} sets)")
-    check_consistency(payloads)
-    return 0
+    problems = check_consistency(payloads)
+    if failed:
+        print(f"\n{len(failed)} file(s) not written: {', '.join(failed)}")
+    if problems:
+        print(f"\n{problems} real problem(s) in the data")
+    return 1 if failed or problems else 0
 
 
 if __name__ == "__main__":

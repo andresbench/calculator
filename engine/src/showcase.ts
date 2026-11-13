@@ -1,5 +1,5 @@
 /**
- * Reading an Enka.Network showcase in the page (PUBLISH_PLAN, П6).
+ * Reading an Enka.Network showcase in the page (PUBLISH_PLAN, stage P6).
  *
  * The site is static: it gets the showcase's JSON through the Enka proxy
  * (`enka.andresbench.moe`) and reads it here. Every decision that takes data
@@ -72,8 +72,8 @@ export interface ShowcaseRecord {
 
 // ------------------------------------------------------------------ source
 
-/** The Endfield showcase link (`profile.py: SHOWCASE_RE`). */
-const SHOWCASE_RE = /enka\.network\/ef\/(\d+)/;
+/** The Endfield showcase link. The digits are the Enka proxy's range (`[0-9]{6,12}`): a longer or shorter run is no UID. */
+const SHOWCASE_RE = /enka\.network\/ef\/(\d{6,12})(?!\d)/;
 const UID_RE = /^\d{6,12}$/;
 
 /** A UID from a bare number or a showcase link; an account link is a different page (`profile.py: parse_source`). */

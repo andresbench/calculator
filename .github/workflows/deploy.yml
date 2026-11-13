@@ -11,12 +11,12 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
+# A newer push supersedes a build still running; a deployment in progress is
+# left to finish (a cancelled Pages deployment can leave the site stale).
 concurrency:
   group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
@@ -28,7 +28,9 @@ jobs:
         with:
           python-version: "3.13"
           cache: pip
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt ruff
+      - name: Pipeline lint
+        run: ruff check tools
 
       - uses: actions/setup-node@v4
         with:
@@ -77,6 +79,9 @@ jobs:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

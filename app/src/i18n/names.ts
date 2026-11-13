@@ -61,6 +61,9 @@ export const useRuNames = create<{ ru: RuNames | null; requested: boolean; load:
         });
       } catch {
         // No Russian names: English ones are shown, which is the fallback anyway.
+        // A network error is not the answer "there is no file": the next call
+        // (a language switch, a reload of the screen) asks again.
+        set({ requested: false });
       }
     })();
   },

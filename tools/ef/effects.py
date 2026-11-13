@@ -16,6 +16,8 @@ Run on its own to look at mismatches without building the bundle::
 
 from __future__ import annotations
 
+import importlib.util
+import argparse
 import json
 import re
 import sys
@@ -23,6 +25,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 EFFECTS_DIR = ROOT / "data" / "endfield" / "effects"
+
+sys.path.insert(0, str(ROOT))
+
+from tools.common.yamlio import load_yaml
 
 # The unit of every stat. The decision about units is made exactly here and in
 # export.py, nowhere else: in wiki text "+8" is both a percentage and a flat
@@ -181,6 +187,9 @@ def _apply_entry(
             if stacks["from"] != "consumed":
                 problems.append(f"{where}: stacks.from «{stacks['from']}» is outside the vocabulary")
             out["stacks"]["from"] = stacks["from"]
+            # «Duration of each stack is counted separately»: casts add up.
+            if stacks.get("accumulate"):
+                out["stacks"]["accumulate"] = True
     # "Next battle skill DMG +30 %": the buff is spent by a cast from this list.
     if raw.get("spentBy") is not None:
         out["spentBy"] = raw["spentBy"]
@@ -202,6 +211,11 @@ def _apply_entry(
     if stat == "extra_hit" and not raw.get("trigger"):
         problems.append(f"{where}: extra_hit without a trigger")
     return out
+
+
+# A potential's edit of another effect (`Effect.modifies` in the engine): a key
+# outside this set would be silently ignored by the engine.
+MODIFIES_KEYS = {"effect", "stacksMax", "trigger", "valueDelta", "teamShare"}
 
 
 def _grant_entries(raw: dict, *, where: str, problems: list[str]) -> list[dict]:
@@ -253,6 +267,11 @@ def _entry(
     # Checking against the wiki. A mismatch is not a build error but a flag: the
     # parse may belong to the previous patch, and the app must show that.
     grants = _grant_entries(raw, where=where, problems=problems)
+    modifies = raw.get("modifies")
+    if modifies is not None:
+        unknown = set(modifies) - MODIFIES_KEYS
+        if unknown or "effect" not in modifies:
+            problems.append(f"{where}: modifies keys {sorted(modifies)} — the vocabulary is {sorted(MODIFIES_KEYS)}")
     stale = False
     if applies or grants or raw.get("modifies"):
         if seen is None:
@@ -295,9 +314,7 @@ def load_effects(operators: dict, weapons: dict | None = None, gear: dict | None
     """
     if not EFFECTS_DIR.exists():
         return {"entries": [], "problems": ["no data/endfield/effects directory"], "covered": []}
-    try:
-        import yaml
-    except ImportError:
+    if importlib.util.find_spec("yaml") is None:
         return {"entries": [], "problems": ["PyYAML is not installed"], "covered": []}
 
     entries: list[dict] = []
@@ -307,8 +324,7 @@ def load_effects(operators: dict, weapons: dict | None = None, gear: dict | None
     for path in sorted(EFFECTS_DIR.glob("*.yaml")):
         if path.name in ITEM_FILES:
             continue
-        with path.open(encoding="utf-8") as handle:
-            document = yaml.safe_load(handle) or {}
+        document = load_yaml(path) or {}
         operator_key = document.get("operator")
         if not operator_key:
             problems.append(f"{path.name}: no operator field")
@@ -402,8 +418,8 @@ def load_effects(operators: dict, weapons: dict | None = None, gear: dict | None
         weapons = json.loads((ROOT / "data" / "endfield" / "weapons.json").read_text(encoding="utf-8"))
     if gear is None:
         gear = json.loads((ROOT / "data" / "endfield" / "gear.json").read_text(encoding="utf-8"))
-    entries.extend(_weapon_entries(weapons, problems, yaml))
-    entries.extend(_gear_set_entries(gear, problems, yaml))
+    entries.extend(_weapon_entries(weapons, problems))
+    entries.extend(_gear_set_entries(gear, problems))
 
     stale = [entry["id"] for entry in entries if entry["stale"]]
     modeled = sum(1 for entry in entries if entry["apply"] or entry.get("grants"))
@@ -459,7 +475,7 @@ def _item_entry(*, kind: str, item: str, name: str, group: str, **rest) -> dict:
     return entry
 
 
-def _weapon_entries(weapons: dict, problems: list[str], yaml) -> list[dict]:
+def _weapon_entries(weapons: dict, problems: list[str]) -> list[dict]:
     """Stat components of every weapon + named effects from `weapons.yaml`."""
     entries: list[dict] = []
     for weapon_name, record in sorted(weapons.items()):
@@ -495,7 +511,7 @@ def _weapon_entries(weapons: dict, problems: list[str], yaml) -> list[dict]:
     path = EFFECTS_DIR / "weapons.yaml"
     if not path.exists():
         return entries
-    document = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    document = load_yaml(path) or {}
     for item in document.get("weapons") or []:
         weapon_name = item.get("name")
         record = weapons.get(weapon_name)
@@ -530,12 +546,12 @@ def _weapon_entries(weapons: dict, problems: list[str], yaml) -> list[dict]:
     return entries
 
 
-def _gear_set_entries(gear: dict, problems: list[str], yaml) -> list[dict]:
+def _gear_set_entries(gear: dict, problems: list[str]) -> list[dict]:
     """Set bonuses from `gear-sets.yaml`; the text is checked against the item pages."""
     path = EFFECTS_DIR / "gear-sets.yaml"
     if not path.exists():
         return []
-    document = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    document = load_yaml(path) or {}
     sets = gear.get("sets") or {}
     entries: list[dict] = []
     for item in document.get("sets") or []:
@@ -687,7 +703,13 @@ def verify_datamine(result: dict, operators: dict) -> dict | None:
     return {"pin": pin.get("sha", "")[:7], "rows": rows}
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.parse_args(argv)
+
     with (ROOT / "data" / "endfield" / "operators.json").open(encoding="utf-8") as handle:
         operators = json.load(handle)
     result = load_effects(operators)

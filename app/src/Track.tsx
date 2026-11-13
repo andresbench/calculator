@@ -13,7 +13,7 @@
  * browser-side draft, and the way back is text the user saves themselves.
  */
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 import {
   actionsFor,
@@ -403,7 +403,15 @@ function ExportPanel({ bundle, draft }: { bundle: Bundle; draft: Draft }): JSX.E
 
   const copyLink = async (): Promise<void> => {
     try {
-      await navigator.clipboard.writeText(await shareUrl(text));
+      // The link is built asynchronously; Safari keeps the user activation
+      // only when the clipboard write starts synchronously, so hand it the
+      // promise through a ClipboardItem where that exists.
+      const url = shareUrl(text);
+      if (typeof ClipboardItem !== 'undefined') {
+        await navigator.clipboard.write([new ClipboardItem({ 'text/plain': url.then((link) => new Blob([link], { type: 'text/plain' })) })]);
+      } else {
+        await navigator.clipboard.writeText(await url);
+      }
       setNotice(t.track.linkCopied);
       countEvent('rotation-link-copied');
     } catch (error) {
@@ -676,18 +684,28 @@ export default function Track({ bundle, onBack }: { bundle: Bundle; onBack: () =
 
   // A shared link: `#track?rot=…`. Waits for the stored drafts, or saving
   // the imported one would write over them; then the fragment goes back to
-  // plain `#track`, so a reload does not import it twice.
-  useEffect(() => {
-    if (!loaded) return;
-    const data = rotFromHash(window.location.hash);
+  // plain `#track`, so a reload does not import it twice. The same goes for a
+  // link opened in a tab that already shows the track: that is a
+  // `hashchange`, not a mount.
+  const openLink = (hash: string): void => {
+    const data = rotFromHash(hash);
     if (!data) return;
     window.history.replaceState(null, '', '#track');
     countEvent('rotation-link-opened');
     decodeRot(data)
       .then((text) => setLinkReport(importText(text, t.importedTitle)))
       .catch(() => setLinkReport({ count: 0, problems: [{ code: 'importBadLink' }] }));
-    // Runs once the drafts are in; `importText` is a fresh closure each render.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  };
+  // `importText` is a fresh closure each render; the listener calls the latest.
+  const openLinkRef = useRef(openLink);
+  openLinkRef.current = openLink;
+  useEffect(() => {
+    if (!loaded) return;
+    openLinkRef.current(window.location.hash);
+    // The event's address: `replaceState` above may have run already.
+    const follow = (event: HashChangeEvent): void => openLinkRef.current(new URL(event.newURL).hash);
+    window.addEventListener('hashchange', follow);
+    return () => window.removeEventListener('hashchange', follow);
   }, [loaded]);
 
   const blank = (): void => {

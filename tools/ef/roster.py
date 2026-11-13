@@ -12,11 +12,14 @@ Run as a script, it prints a summary::
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
 
-import yaml
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+
+from tools.common.yamlio import load_yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "endfield"
@@ -30,16 +33,14 @@ def load_operators() -> dict:
 
 
 def load_roster() -> dict:
-    with ROSTER.open(encoding="utf-8") as handle:
-        return yaml.safe_load(handle)
+    return load_yaml(ROSTER)
 
 
 def load_profile() -> dict:
     """Imported from the Enka showcase: {operator name: data}."""
     if not PROFILE.exists():
         return {}
-    with PROFILE.open(encoding="utf-8") as handle:
-        data = yaml.safe_load(handle) or {}
+    data = load_yaml(PROFILE) or {}
     return data.get("operators") or {}
 
 
@@ -102,7 +103,13 @@ def owned(strict: bool = True) -> dict[str, dict]:
     return result
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.parse_args(argv)
+
     operators = load_operators()
     mine = owned(strict=False)
 

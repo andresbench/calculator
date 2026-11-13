@@ -901,7 +901,7 @@ def cmd_export() -> int:
 
     ``chainHits`` (``chain_hits``) and ``skillHits`` (``skill_hits``) are
     when each hit lands: the engine schedules events by them
-    (ENGINE_CORE_PLAN.md, Я1). ``finalStrikeHit`` (``final_strike_hit``) is
+    (ENGINE_CORE_PLAN.md, stage Ya1). ``finalStrikeHit`` (``final_strike_hit``) is
     the hit that opens Final Strike combos.
     """
     patches = json.loads(SKILL_PATCH.read_text(encoding="utf-8"))

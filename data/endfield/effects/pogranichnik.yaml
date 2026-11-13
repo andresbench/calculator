@@ -88,7 +88,7 @@ potentials:
     confidence: inferred
     seen: "Talent The Living Banner improved: Amount of SP recovery needed to gain Fervent Morale is reduced to 60. Max Fervent Morale stacks on self +2."
     modifies:
-      effect: Fervent Morale
+      effect: The Living Banner
       stacksMax: 2
       trigger: "sp_recovered:60"
   - rank: 4

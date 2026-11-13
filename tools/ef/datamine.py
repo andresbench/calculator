@@ -33,10 +33,18 @@ Usage — see what the client knows about an operator::
 Stagger Nodes of every enemy, into a versioned file the export reads::
 
     python3 tools/ef/datamine.py --export-nodes   # → data/endfield/stagger_nodes.json
+
+The client's resistances, likewise — the export compares them with the wiki's
+(``resistanceConfidence``) without the clone, which CI does not have::
+
+    python3 tools/ef/datamine.py --export-resistances   # → data/endfield/resistances_client.json
+
+After ``sync.py`` moves the pin, both exports are rerun.
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from dataclasses import dataclass
@@ -51,6 +59,7 @@ BUFFS = UPSTREAM / "Json" / "BuffData"
 SKILLS = UPSTREAM / "Json" / "SkillData"
 UPSTREAM_PIN = DATA / "upstream.json"
 STAGGER_NODES = DATA / "stagger_nodes.json"
+RESISTANCES_CLIENT = DATA / "resistances_client.json"
 
 # Beyond.GEnums.ModifierType — the attribute formula contract from
 # Variante/endfield_research_kit (measurements, #8).
@@ -300,6 +309,35 @@ def export_nodes() -> int:
     return 0
 
 
+def export_resistances() -> int:
+    """The client's resistances of every wiki enemy → ``resistances_client.json``.
+
+    Keyed by enemy id, not by wiki key: the check in ``export.py`` is made by
+    id and must not depend on how the wiki spells a name. An enemy the client
+    has no template for is simply absent (the export then leaves `inferred`).
+    """
+    enemies = json.loads((DATA / "enemies.json").read_text(encoding="utf-8"))
+    out: dict = {}
+    for _key, record in sorted(enemies.items()):
+        enemy_id = record.get("id") or ""
+        resistances = enemy_resistances(enemy_id)
+        if resistances is not None:
+            out[enemy_id] = resistances
+    pin = json.loads(UPSTREAM_PIN.read_text(encoding="utf-8")).get("endfield-data", {})
+    document = {
+        "meta": {
+            "source": "client datamine: TableCfg/EnemyAttributeTemplateTable (*Resistance fields)",
+            "upstream": {"url": pin.get("url"), "sha": pin.get("sha")},
+            "generator": "tools/ef/datamine.py --export-resistances",
+            "unit": "multiplier: resistance 20 % = 0.8",
+        },
+        "enemies": out,
+    }
+    RESISTANCES_CLIENT.write_text(json.dumps(document, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{RESISTANCES_CLIENT.relative_to(ROOT)}: {len(out)} of {len(enemies)} enemies have a client template")
+    return 0
+
+
 @dataclass
 class Character:
     char_id: str
@@ -341,14 +379,33 @@ def character(char_id: str) -> Character | None:
     return Character(char_id, attribute, passives)
 
 
-def main(argv: list[str]) -> int:
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument("name", nargs="*", help="operator name, possibly several words")
+    parser.add_argument(
+        "--export-nodes",
+        action="store_true",
+        help="write data/endfield/stagger_nodes.json",
+    )
+    parser.add_argument(
+        "--export-resistances",
+        action="store_true",
+        help="write data/endfield/resistances_client.json",
+    )
+    args = parser.parse_args(argv)
+
     if not available():
         print("no datamine clone — python3 tools/ef/sync.py", file=sys.stderr)
         return 1
-    if argv == ["--export-nodes"]:
+    if args.export_nodes and not args.export_resistances and not args.name:
         return export_nodes()
+    if args.export_resistances and not args.export_nodes and not args.name:
+        return export_resistances()
     operators = json.loads((DATA / "operators.json").read_text(encoding="utf-8"))
-    name = " ".join(argv)
+    name = " ".join(args.name)
     key = next((k for k in operators if k.lower() == name.lower()), None)
     if key is None or not operators[key].get("id"):
         print(f"no operator {name!r}", file=sys.stderr)

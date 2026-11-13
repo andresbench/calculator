@@ -34,7 +34,7 @@ describeWithBundle('Skill DMG sets skip basic attacks (measurements, #38)', (bun
 
   const sheet = (cryo: number, bySkillType: Record<string, number>) =>
     ({
-      dmgBonus: { byElement: { Cryo: cryo }, arts: 0, bySkillType, allSkill: 0, vsStaggered: 0, all: 0 },
+      dmgBonus: { byElement: { Cryo: cryo }, arts: 0, bySkillType, allSkill: 0, vsStaggered: 0, all: 0, bySkill: {} },
     }) as unknown as StatSheet;
 
   it('the set layout gives the skills +20 % and the basic attack nothing', () => {
@@ -60,7 +60,7 @@ describeWithBundle('Skill DMG sets skip basic attacks (measurements, #38)', (bun
   });
 
   it('«All Skill DMG» from gear skips basic attacks too', () => {
-    const s = { dmgBonus: { byElement: {}, arts: 0, bySkillType: {}, allSkill: 0.3, vsStaggered: 0, all: 0 } } as unknown as StatSheet;
+    const s = { dmgBonus: { byElement: {}, arts: 0, bySkillType: {}, allSkill: 0.3, vsStaggered: 0, all: 0, bySkill: {} } } as unknown as StatSheet;
     expect(dmgBonusFor(s, { element: 'Physical', skillType: 'Basic Attack' })).toBe(0);
     expect(dmgBonusFor(s, { element: 'Physical', skillType: 'Ultimate' })).toBeCloseTo(0.3, 10);
   });

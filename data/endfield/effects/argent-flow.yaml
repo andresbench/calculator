@@ -51,8 +51,8 @@ potentials:
     confidence: inferred
     seen: "Battle skill Bolt Rush improved: For every 1 stack of Electric Infliction consumed, Argent Flow gains Electric DMG Dealt +6% for 25s. This effect can reach 6 stacks. Duration of each stack is counted separately."
     apply:
-      - {stat: dmg_bonus, element: Electric, value: 6, stacks: {max: 6, from: consumed}, duration: 25, trigger: "consumes:Electric Infliction", target: self}
-    note: "per stack consumed by Bolt Rush; stacks from separate casts are not tracked apart"
+      - {stat: dmg_bonus, element: Electric, value: 6, stacks: {max: 6, from: consumed, accumulate: true}, duration: 25, trigger: "consumes:Electric Infliction", target: self}
+    note: "per stack consumed by Bolt Rush; casts add up to 6, each stack on its own timer"
   - rank: 4
     confidence: inferred
     seen: "Ultimate Heavens Sundered improved: Ultimate Energy Cost -15%."
